@@ -1,0 +1,246 @@
+# translation of lv.po to Latvian
+# Latvian translation of libxfcegui4.
+# Copyright (C) 2002-2007 The Xfce development team.
+# This file is distributed under the same license as the libxfcegui4 package.
+#
+# Rihards Prieditis <rprieditis@inbox.lv>, 2007.
+# Rihards Prieditis <RPrieditis@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: lv\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-08-18 12:49-0700\n"
+"PO-Revision-Date: 2008-04-06 17:43+0300\n"
+"Last-Translator: Rihards Prieditis <RPrieditis@gmail.com>\n"
+"Language-Team: Latvian <RPrieditis@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+#: ../libxfcegui4/netk-window-action-menu.c:215
+#: ../libxfcegui4/netk-window-action-menu.c:217
+msgid "Workspace"
+msgstr "Darbavieta"
+
+#: ../libxfcegui4/netk-window-action-menu.c:246
+msgid "S_how"
+msgstr "Rā_dīt"
+
+#: ../libxfcegui4/netk-window-action-menu.c:253
+msgid "_Hide"
+msgstr "S_lēpt"
+
+#: ../libxfcegui4/netk-window-action-menu.c:261
+msgid "Un_maximize"
+msgstr "_Atjaunot"
+
+#: ../libxfcegui4/netk-window-action-menu.c:268
+msgid "Ma_ximize"
+msgstr "_Maksimizēt"
+
+#: ../libxfcegui4/netk-window-action-menu.c:276
+msgid "Un_shade"
+msgstr "A_tēnot"
+
+#: ../libxfcegui4/netk-window-action-menu.c:283
+msgid "_Shade"
+msgstr "Ē_not"
+
+#: ../libxfcegui4/netk-window-action-menu.c:291
+msgid "Uns_tick"
+msgstr "Atlipi_nāt"
+
+#: ../libxfcegui4/netk-window-action-menu.c:299
+msgid "S_tick"
+msgstr "Pie_lipināt"
+
+#: ../libxfcegui4/netk-window-action-menu.c:439
+msgid "Send to..."
+msgstr "Nosūtīt uz..."
+
+#: ../libxfcegui4/netk-window-action-menu.c:463
+msgid "_Close"
+msgstr "Ai_zvērt"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:230
+msgid "Needs terminal"
+msgstr "Nepieciešams termināls"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:231
+msgid "Whether or not the command needs a terminal to execute"
+msgstr "Vai komandas izpildei nepieciešams termināls"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../libxfcegui4/xfce-appmenuitem.c:235
+#: ../glade/xfce4.xml.in.h:8
+msgid "Command"
+msgstr "Komanda"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:236
+msgid "The command to run when the item is clicked"
+msgstr "Komanda, kuru izpildīt pēc klikšķa uz vienuma"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:240
+msgid "Icon name"
+msgstr "Ikonas nosaukums"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:241
+msgid "The name of the themed icon to display next to the item"
+msgstr "Nosaukums tēmas ikonai, kuru attēlot blakus vienumam"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../libxfcegui4/xfce-appmenuitem.c:245
+#: ../glade/xfce4.xml.in.h:27
+msgid "Label"
+msgstr "Etiķete"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:246
+msgid "The label displayed in the item"
+msgstr "Vienumā attēlotā etiķete"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:250
+msgid "Startup notification"
+msgstr "Sāknēšanas paziņošana"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:251
+msgid "Whether or not the app supports startup notification"
+msgstr "Vai lietotne atbalsta sāknēšanas paziņošanu"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:255
+msgid "Use underline"
+msgstr "Izmantot pasvītrojumu"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:256
+msgid "Whether or not to use an underscore in the label as a keyboard mnemonic"
+msgstr "Vai izmantot pasvītrojuma rakstzīmi etiķetē, kā klaviatūras mnemoniku"
+
+#. set window title
+#: ../libxfcegui4/xfce_aboutdialog.c:644
+#, c-format
+msgid "About %s..."
+msgstr "Par %s..."
+
+#: ../libxfcegui4/xfce_aboutdialog.c:1000
+msgid "Visit homepage"
+msgstr "Apmeklēt mājaslapu"
+
+#: ../libxfcegui4/xfce_aboutdialog.c:1012
+msgid "Info"
+msgstr "Informācija"
+
+#: ../libxfcegui4/xfce_aboutdialog.c:1034
+msgid "Credits"
+msgstr "Pateicība"
+
+#: ../libxfcegui4/xfce_aboutdialog.c:1056
+msgid "License"
+msgstr "Licence"
+
+#: ../libxfcegui4/xfce_systemtray.c:347
+#: ../libxfcegui4/xfce_systemtray.c:351
+msgid "Failed to acquire manager selection"
+msgstr "Neizdevās iegūt pārvaldnieka atlasi"
+
+#: ../libxfcegui4/xfce_systemtray.c:487
+#, c-format
+msgid "tray icon has requested a size of (%i x %i), resizing to (%i x %i)"
+msgstr "paneļa ikona pieprasījusi izmēru (%i x %i), izmēru maiņa uz (%i x %i)"
+
+#: ../libxfcegui4/xfce_systemtray.c:496
+msgid "tray icon was not attached, destroying it"
+msgstr "paneļa ikona netika uzstādīta, tiek iznīcināta"
+
+#: ../glade/xfce4.xml.in.h:9
+msgid "Dialog Header"
+msgstr "Dialoga galvene"
+
+#: ../glade/xfce4.xml.in.h:10
+msgid "Icon"
+msgstr "Ikona"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../glade/xfce4.xml.in.h:18
+msgid "Icon Filename"
+msgstr "Ikonas faila nosaukums"
+
+#: ../glade/xfce4.xml.in.h:19
+msgid "Icon Name"
+msgstr "Ikonas nosaukums"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../glade/xfce4.xml.in.h:35
+msgid "Launcher Menu Item"
+msgstr "Palaidēja izvēlnes vienums"
+
+#: ../glade/xfce4.xml.in.h:36
+msgid "Move Handle"
+msgstr "Pārvietošanas turis"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../glade/xfce4.xml.in.h:44
+msgid "Needs Terminal"
+msgstr "Nepieciešams termināls"
+
+#: ../glade/xfce4.xml.in.h:45
+msgid "Scaled Image"
+msgstr "Mērogots attēls"
+
+#: ../glade/xfce4.xml.in.h:46
+msgid "Subtitle"
+msgstr "Apakšvirsraksts"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../glade/xfce4.xml.in.h:54
+msgid "Supports Startup Notification"
+msgstr "Atbalsta sāknēšanas paziņošanu"
+
+#: ../glade/xfce4.xml.in.h:55
+msgid "Title"
+msgstr "Virsraksts"
+
+#: ../glade/xfce4.xml.in.h:56
+msgid "Titled Dialog"
+msgstr "Dialogs ar virsrakstu"
+
+#: ../glade/xfce4.xml.in.h:57
+msgid "Xfce4 Widgets"
+msgstr "Xfce4 logrīki"
+

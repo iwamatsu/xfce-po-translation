@@ -1,0 +1,22 @@
+# Italian translations for gsynaptics-mcs-plugin package.
+# Copyright (C) 2006 Jean-François Wauthy
+# This file is distributed under the same license as the gsynaptics-mcs-plugin package.
+# Fabio Riga <usul@aruba.it>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-29 15:23+0100\n"
+"PO-Revision-Date: 2007-06-25 15:46+0200\n"
+"Last-Translator: Fabio Riga <usul@aruba.it>\n"
+"Language-Team: Italian <xfce-i18n@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. the button label in the xfce-mcs-manager dialog
+#: ../src/gsynaptics-plugin.c:54
+msgid "Button Label|Synaptics settings"
+msgstr "Impostazioni di Synaptics"

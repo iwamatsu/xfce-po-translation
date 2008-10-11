@@ -1,0 +1,245 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libxfcegui4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-08-18 12:49-0700\n"
+"PO-Revision-Date: 2007-10-28 19:41+0200\n"
+"Last-Translator: Muhammad Ali Makki <makki.ma@gmai.com>\n"
+"Language-Team: Urdu <makki.ma@gmai.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Urdu\n"
+"X-Poedit-Country: PAKISTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../libxfcegui4/netk-window-action-menu.c:215
+#: ../libxfcegui4/netk-window-action-menu.c:217
+msgid "Workspace"
+msgstr "مقام کار"
+
+#: ../libxfcegui4/netk-window-action-menu.c:246
+msgid "S_how"
+msgstr "ظ_اہر کریں"
+
+#: ../libxfcegui4/netk-window-action-menu.c:253
+msgid "_Hide"
+msgstr "چ_ھپائیں"
+
+#: ../libxfcegui4/netk-window-action-menu.c:261
+msgid "Un_maximize"
+msgstr "چ_ھوٹا کریں"
+
+#: ../libxfcegui4/netk-window-action-menu.c:268
+msgid "Ma_ximize"
+msgstr "ب_ڑا کریں"
+
+#: ../libxfcegui4/netk-window-action-menu.c:276
+msgid "Un_shade"
+msgstr "_پھیلائیں"
+
+#: ../libxfcegui4/netk-window-action-menu.c:283
+msgid "_Shade"
+msgstr "س_میٹیں"
+
+#: ../libxfcegui4/netk-window-action-menu.c:291
+msgid "Uns_tick"
+msgstr "غیر چسپاں"
+
+#: ../libxfcegui4/netk-window-action-menu.c:299
+msgid "S_tick"
+msgstr "چسپاں"
+
+#: ../libxfcegui4/netk-window-action-menu.c:439
+msgid "Send to..."
+msgstr "ارسال تا..."
+
+#: ../libxfcegui4/netk-window-action-menu.c:463
+msgid "_Close"
+msgstr "بن_د کریں"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:230
+msgid "Needs terminal"
+msgstr "ٹرمنل کی ضرورت"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:231
+msgid "Whether or not the command needs a terminal to execute"
+msgstr "Whether or not the command needs a terminal to execute"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../libxfcegui4/xfce-appmenuitem.c:235
+#: ../glade/xfce4.xml.in.h:8
+msgid "Command"
+msgstr "کمانڈ"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:236
+msgid "The command to run when the item is clicked"
+msgstr "چلانے کے لیے کمانڈ جب عنصر پر کلک کیا جائے"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:240
+msgid "Icon name"
+msgstr "آئکن کا نام"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:241
+msgid "The name of the themed icon to display next to the item"
+msgstr "عنصر کے ساتھ دکھانے کے لیے تھیم زدہ آئکن کا نام"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../libxfcegui4/xfce-appmenuitem.c:245
+#: ../glade/xfce4.xml.in.h:27
+msgid "Label"
+msgstr "سرنامہ"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:246
+msgid "The label displayed in the item"
+msgstr "سرنامہ جو عناصر میں ظاہر ہو"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:250
+msgid "Startup notification"
+msgstr "سٹارٹ اپ انتباہ"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:251
+msgid "Whether or not the app supports startup notification"
+msgstr "Whether or not the app supports startup notification"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:255
+msgid "Use underline"
+msgstr "خط کشیدہ استعمال کریں"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:256
+msgid "Whether or not to use an underscore in the label as a keyboard mnemonic"
+msgstr "Whether or not to use an underscore in the label as a keyboard mnemonic"
+
+#. set window title
+#: ../libxfcegui4/xfce_aboutdialog.c:644
+#, c-format
+msgid "About %s..."
+msgstr "%s کی بابت..."
+
+#: ../libxfcegui4/xfce_aboutdialog.c:1000
+msgid "Visit homepage"
+msgstr "ہوم پیج زیارت"
+
+#: ../libxfcegui4/xfce_aboutdialog.c:1012
+msgid "Info"
+msgstr "معلومات"
+
+#: ../libxfcegui4/xfce_aboutdialog.c:1034
+msgid "Credits"
+msgstr "کریڈٹس"
+
+#: ../libxfcegui4/xfce_aboutdialog.c:1056
+msgid "License"
+msgstr "لائسنس"
+
+#: ../libxfcegui4/xfce_systemtray.c:347
+#: ../libxfcegui4/xfce_systemtray.c:351
+msgid "Failed to acquire manager selection"
+msgstr "منیجر کے انتخاب کو حاصل کرنے میں ناکامی"
+
+#: ../libxfcegui4/xfce_systemtray.c:487
+#, c-format
+msgid "tray icon has requested a size of (%i x %i), resizing to (%i x %i)"
+msgstr "ٹرے آئکن نے (%i x %i) حجم کی درخواست کی ہے، اسے (%i x %i) کا حجم دیا جارہا ہے"
+
+#: ../libxfcegui4/xfce_systemtray.c:496
+msgid "tray icon was not attached, destroying it"
+msgstr "ٹرے آئکن اٹیچ نہیں تھی، اسے تباہ کیا جارہا ہے"
+
+#: ../glade/xfce4.xml.in.h:9
+msgid "Dialog Header"
+msgstr "ڈائیلاگ سرساز"
+
+#: ../glade/xfce4.xml.in.h:10
+msgid "Icon"
+msgstr "آئکن"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../glade/xfce4.xml.in.h:18
+msgid "Icon Filename"
+msgstr "آئکن فائل کا نام"
+
+#: ../glade/xfce4.xml.in.h:19
+msgid "Icon Name"
+msgstr "آئکن کا نام"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../glade/xfce4.xml.in.h:35
+msgid "Launcher Menu Item"
+msgstr "لاؤنچ مینیو عنصر"
+
+#: ../glade/xfce4.xml.in.h:36
+msgid "Move Handle"
+msgstr "ہینڈل منتقل کریں"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../glade/xfce4.xml.in.h:44
+msgid "Needs Terminal"
+msgstr "ضروت ٹرمنل"
+
+#: ../glade/xfce4.xml.in.h:45
+msgid "Scaled Image"
+msgstr "قیاس شدہ تصویر"
+
+#: ../glade/xfce4.xml.in.h:46
+msgid "Subtitle"
+msgstr "سب ٹائٹل"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../glade/xfce4.xml.in.h:54
+msgid "Supports Startup Notification"
+msgstr "سٹارٹ اپ انتباہ معاونت"
+
+#: ../glade/xfce4.xml.in.h:55
+msgid "Title"
+msgstr "عنوان"
+
+#: ../glade/xfce4.xml.in.h:56
+msgid "Titled Dialog"
+msgstr "عنوان شدہ ڈائیلاگ"
+
+#: ../glade/xfce4.xml.in.h:57
+msgid "Xfce4 Widgets"
+msgstr "Xfce4 Widgets"
+

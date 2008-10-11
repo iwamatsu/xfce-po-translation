@@ -1,0 +1,238 @@
+# Czech translations for xfce4-cellmodem-plugin package.
+# Copyright (C) 2006 THE xfce4-cellmodem-plugin'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfce4-cellmodem-plugin package.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-cellmodem-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-22 19:01+0100\n"
+"PO-Revision-Date: 2007-03-31 10:14+1000\n"
+"Last-Translator: Jeff Bailes <thepizzaking@gmail.com>\n"
+"Language-Team: English/GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: ../panel-plugin/cellmodem.c:482
+msgid "Initializing plugin now"
+msgstr "Initialising plugin now"
+
+#: ../panel-plugin/cellmodem.c:505
+#, c-format
+msgid ""
+"Error detected:\n"
+"%s"
+msgstr ""
+"Error detected:\n"
+"%s"
+
+#: ../panel-plugin/cellmodem.c:511
+msgid "Not registered"
+msgstr "Not registered"
+
+#: ../panel-plugin/cellmodem.c:514
+msgid "Modem needs PIN"
+msgstr "Modem needs PIN"
+
+#: ../panel-plugin/cellmodem.c:517
+msgid "Registering"
+msgstr "Registering"
+
+#: ../panel-plugin/cellmodem.c:520
+#, c-format
+msgid ""
+"Registered [GPRS] to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"Registered [GPRS] to %s\n"
+"Quality: %d (%d%%)"
+
+#: ../panel-plugin/cellmodem.c:523
+#, c-format
+msgid ""
+"Registered [UMTS] to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"Registered [UMTS] to %s\n"
+"Quality: %d (%d%%)"
+
+#: ../panel-plugin/cellmodem.c:526
+#, c-format
+msgid ""
+"Registered [HSDPA] to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"Registered [HSDPA] to %s\n"
+"Quality: %d (%d%%)"
+
+#: ../panel-plugin/cellmodem.c:529
+#, c-format
+msgid ""
+"Registered to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"Registered to %s\n"
+"Quality: %d (%d%%)"
+
+#. Error
+#: ../panel-plugin/cellmodem.c:687
+msgid "Error in modem reply to CREG"
+msgstr "Error in modem reply to CREG"
+
+#: ../panel-plugin/cellmodem.c:696
+msgid "Invalid reply to +CREG"
+msgstr "Invalid reply to +CREG"
+
+#: ../panel-plugin/cellmodem.c:721
+msgid "Invalid CREG reply from modem"
+msgstr "Invalid CREG reply from modem"
+
+#: ../panel-plugin/cellmodem.c:760
+msgid "Error in modem reply to COPS"
+msgstr "Error in modem reply to COPS"
+
+#: ../panel-plugin/cellmodem.c:816
+msgid "Invalid COPS reply from modem"
+msgstr "Invalid COPS reply from modem"
+
+#: ../panel-plugin/cellmodem.c:844
+msgid "Error in modem reply to CPIN"
+msgstr "Error in modem reply to CPIN"
+
+#: ../panel-plugin/cellmodem.c:870
+msgid "Invalid CPIN reply from modem"
+msgstr "Invalid CPIN reply from modem"
+
+#: ../panel-plugin/cellmodem.c:875
+msgid "Unsupportted CPIN reply from modem"
+msgstr "Unsupportted CPIN reply from modem"
+
+#: ../panel-plugin/cellmodem.c:919 ../panel-plugin/cellmodem.c:973
+msgid "Invalid OHCIP reply from modem"
+msgstr "Invalid OHCIP reply from modem"
+
+#: ../panel-plugin/cellmodem.c:923 ../panel-plugin/cellmodem.c:977
+msgid "Unsupportted OHCIP reply from modem"
+msgstr "Unsupportted OHCIP reply from modem"
+
+#. Error
+#: ../panel-plugin/cellmodem.c:1019
+msgid "Cannot send PIN to modem"
+msgstr "Cannot send PIN to modem"
+
+#: ../panel-plugin/cellmodem.c:1055
+msgid "Error in modem reply to CSQ"
+msgstr "Error in modem reply to CSQ"
+
+#: ../panel-plugin/cellmodem.c:1075
+msgid "Invalid CSQ reply from modem"
+msgstr "Invalid CSQ reply from modem"
+
+#: ../panel-plugin/cellmodem.c:1276 ../panel-plugin/cellmodem.c:1603
+msgid "Cannot open modem"
+msgstr "Cannot open modem"
+
+#: ../panel-plugin/cellmodem.c:1429
+msgid "Error reading from modem"
+msgstr "Error reading from modem"
+
+#: ../panel-plugin/cellmodem.c:1507
+msgid "Error writing to modem"
+msgstr "Error writing to modem"
+
+#: ../panel-plugin/cellmodem.c:1523
+msgid "Modem did not reply to command"
+msgstr "Modem did not reply to command"
+
+#: ../panel-plugin/cellmodem.c:1541
+msgid "No driver defined"
+msgstr "No driver defined"
+
+#: ../panel-plugin/cellmodem.c:1546
+msgid "No modem instance"
+msgstr "No modem instance"
+
+#: ../panel-plugin/cellmodem.c:1720
+msgid "Modem initializing"
+msgstr "Modem initialising"
+
+#: ../panel-plugin/cellmodem.c:1755
+msgid "Invalid driver specified"
+msgstr "Invalid driver specified"
+
+#. Error.
+#: ../panel-plugin/pin_helper.c:31
+msgid "Invalid PIN entered. PIN has 4 digits"
+msgstr "Invalid PIN entered. PIN has 4 digits"
+
+#: ../panel-plugin/pin_helper.c:65
+msgid "Enter PIN"
+msgstr "Enter PIN"
+
+#: ../panel-plugin/pin_helper.c:77
+msgid "Please enter PIN:"
+msgstr "Please enter PIN:"
+
+#: ../panel-plugin/preferences.c:285
+msgid "Close"
+msgstr "Close"
+
+#: ../panel-plugin/preferences.c:290
+msgid "No known device found."
+msgstr "No known device found."
+
+#: ../panel-plugin/preferences.c:292
+msgid "The following devices were found:"
+msgstr "The following devices were found:"
+
+#: ../panel-plugin/preferences.c:299
+msgid "Use this device"
+msgstr "Use this device"
+
+#: ../panel-plugin/preferences.c:343
+msgid "Configure Cell Modem Monitor"
+msgstr "Configure Cell Modem Monitor"
+
+#. The header - this was most copied from other sources
+#: ../panel-plugin/preferences.c:356
+msgid "Cellular Modem Monitor"
+msgstr "Cellular Modem Monitor"
+
+#: ../panel-plugin/preferences.c:387
+msgid "Modem driver:"
+msgstr "Modem driver:"
+
+#: ../panel-plugin/preferences.c:409
+msgid "Modem speed:"
+msgstr "Modem speed:"
+
+#: ../panel-plugin/preferences.c:422
+msgid "Modem device:"
+msgstr "Modem device:"
+
+#: ../panel-plugin/preferences.c:434
+msgid "Autodetect modem..."
+msgstr ""
+
+#: ../panel-plugin/preferences.c:444
+msgid "Maximum quality:"
+msgstr "Maximum quality:"
+
+#: ../panel-plugin/preferences.c:455
+msgid "Low quality percentage:"
+msgstr "Low quality percentage:"
+
+#: ../panel-plugin/preferences.c:465
+msgid "Critical quality percentage:"
+msgstr "Critical quality percentage:"
+
+#: ../panel-plugin/preferences.c:479
+msgid "Check for SMS every"
+msgstr ""
+
+#: ../panel-plugin/preferences.c:481
+msgid "minutes"
+msgstr ""

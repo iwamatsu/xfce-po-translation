@@ -1,0 +1,18 @@
+Get the latest version of this file at http://goodies.xfce.org/
+===============================================================================
+
+This is an Xfce panel plugin which allows you to control your V4l radio device.
+You can turn your radio on/off, tune it to some frequency and manage station
+presets.
+
+
+MOUSE CONTROLS
+--------------
+To switch your radio on/off, simply left-click on the panel (by default it says
+"- off -", if it's turned on it displays the current frequency).
+
+Once turned on, the middle button will show you the station preset menu. This
+is also the place to set the frequency you'd like to tune your radio to.
+
+The mouse wheel allows you to change frequency or station preset. You can
+choose your preferred behaviour in the properties dialog (right-click menu).

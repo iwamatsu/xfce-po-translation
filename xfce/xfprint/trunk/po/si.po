@@ -1,0 +1,498 @@
+# translation of xfprint.po to Sinhala
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Rashan Anushka <rashan.uoc@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-20 18:56+0100\n"
+"PO-Revision-Date: 2008-02-10 19:04+0530\n"
+"Last-Translator: Rashan Anushka <rashan.uoc@gmail.com>\n"
+"Language-Team: Sinhala <si@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "මුද්‍රණ යන්ත්‍රය"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "පිටවන්න"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "xfprint4-manager ගෙන් පිටවන්න"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "සම්බන්ධවන"
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "xfprint4-manager සම්බන්ධව"
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "xfprint4-manager ගැන විස්තර පෙන්වන්න"
+
+#: ../libxfprint/printer-list-window.c:134
+msgid "Printer manager"
+msgstr "මුද්‍රණ යන්ත්‍ර කළමණාකරු"
+
+#: ../libxfprint/printer-list-window.c:200
+msgid "Alias name"
+msgstr "අන්වර්ථ නාමය"
+
+#: ../libxfprint/printer-list-window.c:204
+#: ../libxfprint/printer-queue-window.c:212
+msgid "State"
+msgstr "තත්ත්වය"
+
+#: ../libxfprint/printer-list-window.c:258
+msgid "Xfprint printers manager"
+msgstr "Xfprint මුද්‍රණ යන්ත්‍ර කළමණාකරු"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:263
+msgid "Former maintainer"
+msgstr "පෙර නඩත්තුකරු"
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Maintainer"
+msgstr "නඩත්තුකරු"
+
+#: ../libxfprint/printer-list-window.c:327
+msgid "Unknown"
+msgstr "නොදන්නා"
+
+#: ../libxfprint/printer-list-window.c:330
+msgid "Idle"
+msgstr "අකර්මණ්‍ය"
+
+#: ../libxfprint/printer-list-window.c:333
+msgid "Processing"
+msgstr "සැකසේ"
+
+#: ../libxfprint/printer-list-window.c:336
+msgid "Stopped"
+msgstr "නවතා ඇත"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "වසන්න"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "පෙළගැස්ම කවුළුව වසන්න"
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr "කාර්ය"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:380
+#: ../libxfprint/printer-queue-window.c:384
+msgid "Remove job"
+msgstr "කාර්ය ඉවත් කරන්න"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "තේරූ කාර්ය පෙළගැස්මෙන් ඉවත්කරන්න"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "නැවුම් කරන්න"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "නැවුම් පෙළගැස්ම"
+
+#: ../libxfprint/printer-queue-window.c:121
+#: ../libxfprint/printer-queue-window.c:533
+msgid "Queue Manager"
+msgstr "පෙළගැසුම් කළමණාකරු"
+
+#: ../libxfprint/printer-queue-window.c:202
+msgid "Name"
+msgstr "නාමය"
+
+#: ../libxfprint/printer-queue-window.c:206
+msgid "ID"
+msgstr "ID"
+
+#: ../libxfprint/printer-queue-window.c:209
+msgid "User"
+msgstr "පරිශීලක"
+
+#: ../libxfprint/printer-queue-window.c:215
+msgid "Size"
+msgstr "තරම"
+
+#: ../libxfprint/printer-queue-window.c:218
+msgid "Priority"
+msgstr "ප්‍රමුඛතාව"
+
+#: ../libxfprint/printer-queue-window.c:221
+msgid "Creation time"
+msgstr "සෑදූ වේලාව"
+
+#: ../libxfprint/printer-queue-window.c:224
+msgid "Processing time"
+msgstr "සැකසුම් කාලය"
+
+#: ../libxfprint/printer-queue-window.c:377
+msgid "Are you sure you want to remove the job "
+msgstr "මෙම කාර්ය  ඉවත්කළ යුතු බවට ඔබට විශ්වාසද "
+
+#: ../libxfprint/printer-queue-window.c:383
+msgid "Don't remove job"
+msgstr "කාර්ය ඉවත්කරන්න එපා"
+
+#: ../libxfprint/printer-queue-window.c:390
+msgid "An error occurred while removing job !"
+msgstr " කාර් ඉවත්කිරීමේදී දෝෂයක් ඇතිවියය!"
+
+#: ../libxfprint/printer-queue-window.c:441
+msgid "pending"
+msgstr "සැකසීමට පවතී"
+
+#: ../libxfprint/printer-queue-window.c:444
+msgid "printing"
+msgstr "මුද්‍රණයවේ"
+
+#: ../libxfprint/printer-queue-window.c:447
+msgid "Kb"
+msgstr "Kb"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "මුද්‍රණ පද්ධතිය"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "මුද්‍රණ පද්ධති තේරීම"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "තොරතුරුතර"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "විස්තර"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "අනුවාදය"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "කතෘ"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "මුල් පිටුව"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "නොමැත"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr "ඔබට ගොනුවකට මුද්‍රණය කිරීමට පමණක් අවශ්‍යනම් මෙම පසු අන්තය භාවිතා කරන්න."
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "Xfprint සඳහා BSD-LPR මුද්‍රණ පද්ධති සහාය"
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr "Xfprint සඳහා CUPS මුද්‍රණ පද්ධති සහායහාය"
+
+#: ../printing-systems/cups/cups.c:48
+msgid "Set as default printer"
+msgstr "පෙරනිමි මුද්‍රකය ලෙස සිටුවම් කරන්න"
+
+#: ../printing-systems/cups/cups.c:49
+msgid "Set as default CUPS printer"
+msgstr "පෙරනිමි CUPS මුද්‍රකය ලෙස සිටුවම් කරන්න"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "වත්කම්"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "මුද්‍රකයේ වත්කම් පෙන්වන්න"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "මුරපදය"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "පරිශීලක :"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "මුරපපදය :"
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr "ඔබ විසින් පරිශීලක නාමයක් සැපයිය යුතුය !"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "සිරැසි මුද්‍රණය කරන්න"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "සිරැසිය:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "යටැතිරිය:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "මධ්‍ය සිරැසිය:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "වම් සිරැසිය:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "දකුණු සිරැසිය:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "මධ්‍ය පාදකය:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "වම් පාදකය:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "දකුණු පාදකය:"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "කේතාංකනය:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "සියළු පිටු මුද්‍රණය කරන්න"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "මෙම පරාසයේ පිටු මුද්‍රණය කරන්න"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "දිග රේඛාවන් කපා හරින්න"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "TAB, BS හා FF අකුරු අර්ථ වින්‍යාස කරන්න"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "ද්විමය මුද්‍රණය බල කරන්න"
+
+#: ../xfprint/main.c:113
+msgid "Select file to print"
+msgstr "මුද්‍රණය සඳහා ගොනුවක් තෝරන්න"
+
+#: ../xfprint/main.c:125
+msgid "The specified file does not exist"
+msgstr "දෙනලද ගොනුව නොපවතී"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "භාෂාව:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "උපරීම මට්ටම:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "ගලවා දෑමීමේ මට්ටම:"
+
+#: ../xfprint/print_dialog.c:199
+msgid "Save settings"
+msgstr "සිටුවම් සුරකින්න"
+
+#: ../xfprint/print_dialog.c:207
+msgid "Xfprint"
+msgstr "Xfprint"
+
+#: ../xfprint/print_dialog.c:215
+msgid "Print to:"
+msgstr "වෙත මුද්‍රණය කරන්න:"
+
+#: ../xfprint/print_dialog.c:245
+msgid "Print to file:"
+msgstr "ගොනුවට මුද්‍රණය කරන්න:"
+
+#: ../xfprint/print_dialog.c:275
+msgid "Sheets"
+msgstr "පත් ඉරු"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Virtual pages"
+msgstr "අතාත්වික පිටු"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Pretty-printing"
+msgstr "යස-මුද්‍රණය"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Input"
+msgstr "අදානය"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Headings"
+msgstr "සිරැසි"
+
+#: ../xfprint/print_dialog.c:304
+msgid "Copies:"
+msgstr "පිටපත්:"
+
+#: ../xfprint/print_dialog.c:311
+msgid "Apply filters"
+msgstr "පෙරහන් යොදන්න"
+
+#: ../xfprint/print_dialog.c:366
+msgid ""
+"Neither the printing system backend or a2ps could be found on your system, "
+"you won't be able to print a file with xfprint !"
+msgstr ""
+"ඔබගේ පද්ධතියේ මුද්‍රණ පද්ධති පසු අන්තය හෝ a2ps සොයාගත නොහැක, ඔබට xfprint සමඟින් ගොනුවක් "
+"මුද්‍රණය කළ නොහැකොනුව!"
+
+#: ../xfprint/print_dialog.c:484
+msgid "An error occurred while trying to print the file"
+msgstr "ගොනුව මුද්‍රණය කිරීමේදී දෝෂයක් ඇතිවියනුව"
+
+#: ../xfprint/print_dialog.c:521
+msgid "Select file where to print"
+msgstr "මුද්‍රණය සිදු කළ යුතු ගොනුව තෝරන්න"
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "කඩදාසියේ ප්‍රමාණය:"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "සිරස් දිශානති"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "තිරස් තිශානති"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "තීරු:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "ප්‍රථමයෙන් තීරු පුරවන්න"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "ප්‍රථමයෙන් පේළි පුරවන්න"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "පේළි:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "තීරු වටා මායිම් මුද්‍රණය කරන්න"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "ප්‍රතිලෝම අනුපිළිවෙලට පිටු මුද්‍රණය කරන්න"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "පේළි අංක:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "පිටුවකට පේළිුව:"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "පේළියකට අකුරු:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "වගුගත කිරීමේ ප්‍රමාණය:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "මුද්‍රණය කළ නොහැකි හැඩතලය:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr "ඔබට xfprint මගින් යොදාගන්නා මුද්‍රණ පද්ධති පසු අන්තය තෝරාගැනීමට ඉඩදේ"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+msgid "Printing System Settings"
+msgstr "මුද්‍රණ පද්ධති සිටුවම්"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+msgid "Xfce 4 Printing System Settings"
+msgstr "Xfce 4 මුද්‍රණ පද්ධති සිටුවම්"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+msgid "Print Manager"
+msgstr "මුද්‍රක කළමණාකරු"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr "මුද්‍රක ලැයිස්තුව පෙන්වීම හා ඔබට ඒවායේ කාර්යයන් කළමණාකරනය කිරීමට ඉඩ ලබාදේ"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+msgid "Xfce 4 Print Manager"
+msgstr "Xfce 4 මුද්‍රක කළමණාකරු"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "මුද්‍රණ සංවාද කොටුව"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr "ගොනුවක් මුද්‍රණය කිරීම හා ඔබට එහි ව පිරිසැලස සිටුවම් කිරීමට ඉඩදේුම"
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "Xfce 4 මුද්‍රණ සංවාද කොටුව"

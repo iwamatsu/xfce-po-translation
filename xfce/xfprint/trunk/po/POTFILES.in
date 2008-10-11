@@ -1,0 +1,21 @@
+# List of source files containing translatable strings.
+
+libxfprint/printer-list-window.c
+libxfprint/printer-queue-window.c
+xfprint-settings/xfprint_plugin.c
+printing-systems/bsd-lpr/bsdlpr.c
+printing-systems/cups/cups.c
+#printing-systems/lprng/lprng.c
+xfprint-manager/main.c
+xfprint/head_page.c
+xfprint/input_page.c
+xfprint/main.c
+xfprint/pprint_page.c
+xfprint/print_dialog.c
+xfprint/sheets_page.c
+xfprint/vpages_page.c
+
+# files added by intltool-prepare.
+xfprint-settings/xfprint-settings.desktop.in
+xfprint-manager/xfprint-manager.desktop.in
+xfprint/xfprint.desktop.in

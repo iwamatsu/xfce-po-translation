@@ -1,0 +1,110 @@
+# translation of he.po to Hebrew
+# Hebrew translations for xfce4-trigger-launcher package.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfce4-trigger-launcher package.
+#
+# Dotan Kamber <kamberd@yahoo.com>, 2004, 2006.
+# Jonatan Perry <Jonatan443@walla.co.il>, 2004.
+# Yuval Tanny <tanai@int.gov.il>, 2004, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: he\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-04-30 14:25+0200\n"
+"PO-Revision-Date: 2006-06-30 21:35+0300\n"
+"Last-Translator: Yuval Tanny <tanai@int.gov.il>\n"
+"Language-Team: Hebrew\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.2\n"
+
+#: ../panel-plugin/xfce-launcher-command-entry.c:118
+#, c-format
+msgid "Could not run \"%s\""
+msgstr "לא ניתן להריץ \"%s\""
+
+#: ../panel-plugin/xfce-launcher-command-entry.c:120
+msgid "Xfce Panel"
+msgstr "לוח Xfce"
+
+#: ../panel-plugin/triggerlauncher-old2.c:287
+msgid "Check status every"
+msgstr "בדוק מצב כל"
+
+#: ../panel-plugin/triggerlauncher-old2.c:296
+#: ../panel-plugin/xfce-trigger-launcher-options.c:127
+msgid "seconds"
+msgstr "שניות"
+
+#: ../panel-plugin/triggerlauncher-old2.c:1005
+msgid "Icon (off)"
+msgstr "סמל (כבוי)"
+
+#: ../panel-plugin/triggerlauncher-old2.c:1006
+msgid "Icon (on)"
+msgstr " סמל (פועל)"
+
+#: ../panel-plugin/triggerlauncher-old2.c:1143
+msgid "Two-state Launcher"
+msgstr "לחצן הפעלה בשני מצבים"
+
+#: ../panel-plugin/xfce-file-chooser-button.c:150
+msgid "(None Selected)"
+msgstr "(לא נבחר)"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:122
+msgid "Command To Check Status:"
+msgstr "פקודה לבחינת המצב:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:123
+msgid "Command To Enable:"
+msgstr "פקודה לאפשור:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:124
+msgid "Command To Disable:"
+msgstr "פקודה לביטול:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:125
+msgid "Command to Poke:"
+msgstr "פקודה כדי להעיר:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:126
+msgid "Check Interval:"
+msgstr "בדוק מרווח:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:129
+#: ../panel-plugin/xfce-trigger-launcher-options.c:130
+#: ../panel-plugin/xfce-trigger-launcher-options.c:131
+#: ../panel-plugin/xfce-trigger-launcher-options.c:132
+msgid "Icon:"
+msgstr "סמל:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:231
+msgid "Check Status"
+msgstr "בדוק מצב"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:232
+msgid "When Disabled"
+msgstr "כאשר מבוטל"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:233
+msgid "When Enabled"
+msgstr "כאשר מאפשר"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:234
+msgid "When Undefined"
+msgstr "כאשר לא מוגדר"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:235
+msgid "When Dodgy"
+msgstr "כאשר לא ברור"
+
+#: ../panel-plugin/xfce4-trigger-launcher.desktop.in.in.h:1
+msgid "Keeps track of the state of something and can control it"
+msgstr "עוקב אחר מצבו של דבר מה ומאפשר שליטה בו"
+
+#: ../panel-plugin/xfce4-trigger-launcher.desktop.in.in.h:2
+msgid "Trigger Launcher Plugin"
+msgstr "הרחבת משגר-הדק"
+

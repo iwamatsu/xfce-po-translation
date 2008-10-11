@@ -1,0 +1,178 @@
+2008-07-15 Mohamed Magdy <alnokta@xfce.org>
+
+        * ar.po: Add Arabic translation
+
+2008-06-26  Maximilian Schleiss <maximilian@xfce.org>
+
+	* gl.po, LINGUAS: Galician translation added (Leandro Regueiro)
+
+2008-06-25  Maximilian Schleiss <maximilian@xfce.org>
+
+	* id.po, LINGUAS: Indonesian translation added (Andhika Padmawan)
+
+2008-05-27  Mike Massonnet <mmassonnet@xfce.org>
+
+	* da.po, LINGUAS: Add Danish translation (Jens Hyllegaard)
+
+2007-12-19	Maximilian Schleiss <maximilian@xfce.org>
+
+	* de.po: German translation added
+	by Fabian Nowak <timystery@arcor.de>
+
+2007-11-18	Maximilian Schleiss <maximilian@xfce.org>
+
+	* lv.po: Latvian translation added
+	by Rihards Priedītis <rprieditis@inbox.lv>
+
+2007-11-15	Mike Massonnet <mmassonnet@xfce.org>
+
+	* ur.po: Update translation by Muhammad Ali Makki <makki.ma@gmail.com>
+	* pk.po, ur.po: Rename pk.po to ur.po.
+
+2007-11-10  Og Maciel <ogmaciel@gnome.org>
+
+    * pt_BR.po: Updated Brazilian Portuguese translation
+    by Fábio Nogueira <deb-user-ba@ubuntu.com>
+
+2007-11-03  Maximilian Schleiss <maximilian@xfce.org>
+
+	* it.po:  Italian translation update
+	by Fabio Riga <usul@aruba.it>
+
+2007-10-28	Mike Massonnet <mmassonnet@xfce.org>
+
+	* pk.po: Add new translation by محمد علي المكي <makki.ma@gmail.com>
+
+2007-09-03  Og Maciel <ogmaciel@gnome.org>
+
+	* pt_BR.po: Brazilian Portuguese translation update
+	by Vladimir Melo <vladimirmelo@foresightlinux.org>
+
+2007-08-25  Mike Massonnet <mmassonnet@xfce.org>
+
+	* pt_PT.po: European Portuguese update
+	by Nuno Miguel <nunis@netcabo.pt>
+
+2007-07-08	Maximilian Schleiss <maximilian@xfce.org>
+
+	* pt_PT.po: European Protuguese translation added
+	by Nuno Miguel <nunis@netcabo.pt>
+
+2007-03-31	Pau Rul-lan Ferragut <paurullan@bulma.net>
+
+	* gb.po: British translation
+	by Jeff Bailes <thepizzaking@gmail.com>
+
+2007-02-02	Maximilian Schleiss <maximilian@xfce.org>
+
+	* fr.po: Added the Albanian translation
+	by Besnik Bleta <besnik@programeshqip.org>
+
+2006-09-18	Piarres Beobide <pi@beobide.net>
+
+	* eu.po: Add Basque trasnaltions
+
+2006-09-18 18:00  Pau Rul-lan Ferragut <paurullan@bulma.net>
+
+	* ca.po: Add Catalan translations
+
+2006-08-27 16:00  pollux
+
+	* cs.po: Add Czech translations
+
+2006-04-08 18:02  adrianob
+
+	* [r1318] el.po, fr.po, hu.po, ja.po, nl.po, pl.po, pt_BR.po, ru.po,
+	  vi.po, xfce4-xfapplet-plugin.pot, zh_CN.po, zh_TW.po: Updated.
+
+2006-04-08 11:41  daichi
+
+	* [r1310] xfce4-xfapplet-plugin/trunk/configure.ac, ChangeLog, el.po:
+	  Added/Updated Greek translations by Stavros Giannouris
+	  <stavrosg@serverhive.com>.
+
+2006-04-08 07:20  daichi
+
+	* [r1307] xfce4-xfapplet-plugin/trunk/configure.ac, ChangeLog, pl.po:
+	  Added Polish translations by Piotr Malinski <admin@rk.edu.pl>.
+
+2006-04-05 17:33  adrianob
+
+	* [r1302] xfce4-xfapplet-plugin/trunk/configure.ac,
+	  xfce4-xfapplet-plugin/trunk/panel-plugin/xfapplet.c, zh_TW.po: Added
+	  zh_TW translations from Hydonsingore Cia (hydonsingore -at-
+	  mail.educities.edu.tw).
+
+2006-04-02 10:51  daichi
+
+	* [r1282] ChangeLog, fr.po, hu.po, ja.po, nl.po, pt_BR.po, ru.po,
+	  vi.po, xfce4-xfapplet-plugin.pot, zh_CN.po: Updated.
+
+2006-03-30 18:26  adrianob
+
+	* [r1265] vi.po: Updated vietnamese translations from Phan Vinh Thinh
+	  (teppi@vnlinux.org).
+
+2006-03-28 16:16  adrianob
+
+	* [r1263] xfce4-xfapplet-plugin/trunk/configure.ac,
+	  xfce4-xfapplet-plugin/trunk/panel-plugin/xfapplet.c, zh_CN.po: Added
+	  simplified chinese translations from Jick Nan (jick.nan@gmail.com).
+
+2006-03-26 05:31  daichi
+
+	* [r1246] ChangeLog, fr.po, hu.po, ja.po, nl.po, pt_BR.po, ru.po,
+	  vi.po, xfce4-xfapplet-plugin.pot: Updated.
+
+2006-03-25 16:14  adrianob
+
+	* [r1235] ja.po: Updated japanese translations from Daichi Kawahata
+	  (daichi@xfce.org).
+
+2006-03-25 14:25  adrianob
+
+	* [r1234] xfce4-xfapplet-plugin/trunk/configure.ac,
+	  xfce4-xfapplet-plugin/trunk/panel-plugin/xfapplet.c, ru.po: Added
+	  russian translations from Andrey Fedoseev (andrey.fedoseev@gmail.com).
+
+2006-03-23 16:08  satie
+
+	* [r1209] hu.po: hu tag renamer added xfapplet updated
+
+2006-03-23 13:16  adrianob
+
+	* [r1207] xfce4-xfapplet-plugin/trunk/configure.ac,
+	  xfce4-xfapplet-plugin/trunk/panel-plugin/xfapplet.c, nl.po: Added
+	  dutch translations from Vincent Tunru (imnotb@gmail.com).
+
+2006-03-23 01:21  adrianob
+
+	* [r1200] xfce4-xfapplet-plugin/trunk/configure.ac,
+	  xfce4-xfapplet-plugin/trunk/panel-plugin/xfapplet.c, fr.po: Added
+	  french translations from Stephane Roy (sroy@j2n.net).
+
+2006-03-22 17:34  adrianob
+
+	* [r1199] xfce4-xfapplet-plugin/trunk/configure.ac, hu.po, ja.po,
+	  pt_BR.po, vi.po, xfce4-xfapplet-plugin.pot: Updated pot file and
+	  added pt_BR translations.
+
+2006-03-06 21:11  adrianob
+
+	* [r1157] xfce4-xfapplet-plugin/trunk/configure.ac, vi.po: Added
+	  Vietnamese translations.
+
+2006-02-23 20:45  satie
+
+	* [r1133] hu.po: hu updates
+
+2006-02-18 09:36  daichi
+
+	* [r1067] ChangeLog, xfce4-xfapplet-plugin.pot: Added for the
+	  translators.
+
+2006-02-14 22:05  adrianob
+
+	* [r1056] ChangeLog, POTFILES.in, ja.po: Applied patch from Daich
+	  (daichi@xfce.org) to fix i18n. Also added ja translations.
+

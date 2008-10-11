@@ -1,0 +1,171 @@
+# Arabeyes Translation & Documentation Team http://arabeyes.org
+# Hakeem Dimashq 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-appfinder\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-10-02 17:55+0200\n"
+"PO-Revision-Date: 2007-01-30 15:47+0100\n"
+"Last-Translator: Hakeem Dimashq\n"
+"Language-Team: Arabeyes Translation & Documentation <admin@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Arabic\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../src/main.c:42
+#, fuzzy
+msgid "Version information"
+msgstr "مزيد من المعلومات..."
+
+#: ../src/main.c:43
+msgid "[MENUFILE]"
+msgstr ""
+
+#: ../src/main.c:64
+#, c-format
+msgid "Type '%s --help' for usage information."
+msgstr ""
+
+#: ../src/main.c:70
+msgid "Unable to initialize GTK+."
+msgstr ""
+
+#: ../src/main.c:80
+msgid "The Xfce development team. All rights reserved."
+msgstr ""
+
+#: ../src/main.c:81
+#, c-format
+msgid "Please report bugs to <%s>."
+msgstr ""
+
+#: ../src/main.c:97
+#, c-format
+msgid "Failed to connect to xfconf daemon. Reason: %s"
+msgstr ""
+
+#: ../src/main.c:101
+msgid "Failed to connect to xfconf daemon."
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:244 ../src/xfce-appfinder-window.c:258
+#: ../data/xfce4-appfinder.desktop.in.h:1
+#, fuzzy
+msgid "Application Finder"
+msgstr "باحث تطبيقات لاكسفس 4"
+
+#: ../src/xfce-appfinder-window.c:259 ../data/xfce4-appfinder.desktop.in.h:2
+msgid "Find and launch applications installed on your system"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:282
+msgid "Filter"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:304
+msgid "Categories"
+msgstr "تصانيف"
+
+#: ../src/xfce-appfinder-window.c:351
+msgid "C_lose after execute"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:614
+#, c-format
+msgid "Could not execute application %s. Reason: %s"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:618
+#, fuzzy, c-format
+msgid "Could not execute application %s"
+msgstr "لا يمكن تنفيذ التطبيق المحدد"
+
+#: ../src/xfce-appfinder-window.c:736
+#, c-format
+msgid "Could not load menu from %s. Reason: %s"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:738 ../src/xfce-appfinder-window.c:747
+msgid "Could not load system menu"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:745
+#, c-format
+msgid "Could not load menu from %s"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:760 ../src/xfce-appfinder-window.c:1017
+msgid "All"
+msgstr "الكل"
+
+#~ msgid "Xfce 4 Appfinder"
+#~ msgstr "باحث تطبيقات اكسفس 4"
+
+#~ msgid "<b>Name</b>"
+#~ msgstr "<b>الاسم<b/>"
+
+#~ msgid "N/A"
+#~ msgstr "غير متوفر"
+
+#~ msgid "<b>Comment</b>"
+#~ msgstr "<b>تعليق<b/>"
+
+#~ msgid "<b>Categories</b>"
+#~ msgstr "<b>تصانيف<b/>"
+
+#~ msgid "<b>Command</b>"
+#~ msgstr "<b>أمر<b/>"
+
+#~ msgid "Run program"
+#~ msgstr "نفذ البرنامج"
+
+#~ msgid "<b>Search:</b>"
+#~ msgstr "<b>بحث:<b/>"
+
+#~ msgid "Show Categories"
+#~ msgstr "اعرض التصانيف"
+
+#~ msgid "Core"
+#~ msgstr "النواة"
+
+#~ msgid "Development"
+#~ msgstr "تطوير"
+
+#~ msgid "Office"
+#~ msgstr "مكتب"
+
+#~ msgid "Graphics"
+#~ msgstr "رسوميات"
+
+#~ msgid "Network"
+#~ msgstr "شبكة"
+
+#~ msgid "AudioVideo"
+#~ msgstr "صوت و صورة"
+
+#~ msgid "Game"
+#~ msgstr "لعبة"
+
+#~ msgid "Education"
+#~ msgstr "تعليم"
+
+#~ msgid "System"
+#~ msgstr "نظام"
+
+#~ msgid "Filemanager"
+#~ msgstr "مدير ملفات"
+
+#~ msgid "Utility"
+#~ msgstr "وسيلة"
+
+#~ msgid "No items available"
+#~ msgstr "لا عناصر متوفرة"
+
+#~ msgid "Sorry, no match for searched text."
+#~ msgstr "آسف، لم يعثر على تطابق مع نص البحث"
+
+#~ msgid "Appfinder"
+#~ msgstr "باحث التطبيقات"

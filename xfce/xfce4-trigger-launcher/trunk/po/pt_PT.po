@@ -1,0 +1,114 @@
+# Portuguese translation of xfce4-tigger-launcher.
+# Copyright (C) 2003-2006 The Xfce development team
+# This file is distributed under the same license as the xfce4-tigger-launcher package.
+# Nuno Donato <nunodonato@gmail.com>, 2004.
+# Nuno Miguel <nunis@netcabo.pt>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-trigger-launcher 4.3.90.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-18 00:44+0900\n"
+"PO-Revision-Date: 2007-06-16 13:12+0100\n"
+"Last-Translator: Nuno Miguel <nunis@netcabo.pt>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../panel-plugin/triggerlauncher-old2.c:287
+msgid "Check status every"
+msgstr "Verificar estado todos os"
+
+#: ../panel-plugin/triggerlauncher-old2.c:296
+#: ../panel-plugin/xfce-trigger-launcher-options.c:132
+msgid "seconds"
+msgstr "segundos"
+
+#: ../panel-plugin/triggerlauncher-old2.c:1005
+msgid "Icon (off)"
+msgstr "Ícone (desligado)"
+
+#: ../panel-plugin/triggerlauncher-old2.c:1006
+msgid "Icon (on)"
+msgstr "Ícone (ligado)"
+
+#: ../panel-plugin/triggerlauncher-old2.c:1143
+msgid "Two-state Launcher"
+msgstr "Lançador de Dois estados"
+
+#: ../panel-plugin/xfce-file-chooser-button.c:141
+msgid "Select Icon"
+msgstr "Seleccionar ícone"
+
+#: ../panel-plugin/xfce-file-chooser-button.c:146
+msgid "_Select"
+msgstr "_Seleccionar"
+
+#: ../panel-plugin/xfce-file-chooser-button.c:157
+msgid "(None Selected)"
+msgstr "(Nada Seleccionado)"
+
+#: ../panel-plugin/xfce-launcher-command-entry.c:118
+#, c-format
+msgid "Could not run \"%s\""
+msgstr "Impossível executar \"%s\""
+
+#: ../panel-plugin/xfce-launcher-command-entry.c:120
+msgid "Xfce Panel"
+msgstr "Painel Xfce"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:127
+msgid "Command To Check Status:"
+msgstr "Comando Para Verificar Estado:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:128
+msgid "Command To Enable:"
+msgstr "Comando para Activar:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:129
+msgid "Command To Disable:"
+msgstr "Comando Para Desactivar:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:130
+msgid "Command to Poke:"
+msgstr "Comando Para Puxar:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:131
+msgid "Check Interval:"
+msgstr "Verificar Intervalo:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:134
+#: ../panel-plugin/xfce-trigger-launcher-options.c:135
+#: ../panel-plugin/xfce-trigger-launcher-options.c:136
+#: ../panel-plugin/xfce-trigger-launcher-options.c:137
+msgid "Icon:"
+msgstr "Ícone:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:236
+msgid "To Check Status"
+msgstr "Para Veririficar Estado"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:237
+msgid "When Disabled"
+msgstr "Quando Desligao"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:238
+msgid "When Enabled"
+msgstr "Quando Ligado"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:239
+msgid "When Undefined"
+msgstr "Quando indefinido"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:240
+msgid "When Dodgy"
+msgstr "Quando Confuso"
+
+#: ../panel-plugin/xfce4-trigger-launcher.desktop.in.in.h:1
+msgid "Keeps track of the state of something and can control it"
+msgstr "Mantém pista do estado de algo e mantém o controlo sobre ele"
+
+#: ../panel-plugin/xfce4-trigger-launcher.desktop.in.in.h:2
+msgid "Trigger Launcher Plugin"
+msgstr "Plugin Trigger Launcher"
+

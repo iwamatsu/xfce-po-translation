@@ -1,0 +1,15 @@
+- Autogenerate a bibtexkey for a new entry (should of course be modifiable). (0.0.2)
+
+- Right click menu. (0.0.2)
+
+- Save before exiting dialog.
+
+- Test suite for the parser.
+
+- Preamble and comment support.
+
+- Source view.
+
+- Non volatile configuration.
+
+- Option to add file extension on saving.

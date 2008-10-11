@@ -1,0 +1,150 @@
+# Galician translation of xfmedia-remote-plugin
+# Copyright (C) 2008 Leandro Regueiro
+# This file is distributed under the same license as the xfce package.
+#
+# Leandro Regueiro <leandro.regueiro@gmail.com>, 2008.
+#
+# Proxecto Trasno - Adaptación do software libre á lingua galega:  Se desexas
+# colaborar connosco, podes atopar máis información en <http://trasno.net>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-05-14 17:32-0400\n"
+"PO-Revision-Date: 2008-06-24 18:13+0100\n"
+"Last-Translator: Leandro Regueiro <leandro DOT regueiro AT gmail DOT com>\n"
+"Language-Team: Galician <proxecto@trasno.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:245
+msgid "Choose playlist to load"
+msgstr ""
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:280
+msgid "Save playlist"
+msgstr ""
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:301
+msgid "Failed to save playlist"
+msgstr ""
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:370
+msgid "Please wait until the previous add operation completes."
+msgstr ""
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:374
+msgid "Add track(s) to playlist"
+msgstr ""
+
+#. Play
+#: ../panel-plugin/xfmedia-remote-plugin.c:509
+#: ../panel-plugin/xfmedia-remote-plugin.c:601
+msgid "_Play"
+msgstr ""
+
+#. Remove
+#: ../panel-plugin/xfmedia-remote-plugin.c:521
+msgid "_Remove"
+msgstr ""
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:569
+#, c-format
+msgid "Failed to execute xfmedia: %s"
+msgstr ""
+
+#. Prev
+#: ../panel-plugin/xfmedia-remote-plugin.c:590
+msgid "P_rev"
+msgstr ""
+
+#. Pause
+#: ../panel-plugin/xfmedia-remote-plugin.c:612
+msgid "P_ause"
+msgstr ""
+
+#. Stop
+#: ../panel-plugin/xfmedia-remote-plugin.c:623
+msgid "_Stop"
+msgstr ""
+
+#. Next
+#: ../panel-plugin/xfmedia-remote-plugin.c:634
+msgid "_Next"
+msgstr ""
+
+#. Playlist
+#: ../panel-plugin/xfmedia-remote-plugin.c:651
+msgid "P_laylist"
+msgstr ""
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:672
+msgid "Playlist"
+msgstr ""
+
+#. Load Playlist
+#: ../panel-plugin/xfmedia-remote-plugin.c:679
+msgid "_Load..."
+msgstr ""
+
+#. Save Playlist
+#: ../panel-plugin/xfmedia-remote-plugin.c:690
+msgid "_Save..."
+msgstr ""
+
+#. Clear Playlist
+#: ../panel-plugin/xfmedia-remote-plugin.c:701
+msgid "_Clear"
+msgstr ""
+
+#. Add Track
+#: ../panel-plugin/xfmedia-remote-plugin.c:712
+msgid "_Add track(s)..."
+msgstr ""
+
+#. Quit
+#: ../panel-plugin/xfmedia-remote-plugin.c:729
+msgid "_Quit"
+msgstr "_Saír"
+
+#. Start Xfmedia
+#: ../panel-plugin/xfmedia-remote-plugin.c:800
+msgid "Start _Xfmedia"
+msgstr ""
+
+#. Header
+#: ../panel-plugin/xfmedia-remote-plugin.c:817
+#: ../panel-plugin/xfmedia-remote-plugin.c:1241
+#: ../panel-plugin/xfmedia-remote-plugin.c:1292
+#: ../panel-plugin/xfmedia-remote.desktop.in.in.h:2
+msgid "Xfmedia Remote"
+msgstr ""
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:942
+msgid "Stopped"
+msgstr ""
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:960
+msgid "No Xfmedia instances running"
+msgstr ""
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:1117
+#: ../panel-plugin/xfmedia-remote-plugin.c:1119
+msgid "Popup menu"
+msgstr ""
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:1131
+msgid "Show _playlist"
+msgstr ""
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:1278
+msgid "Xfmedia Remote Properties"
+msgstr ""
+
+#: ../panel-plugin/xfmedia-remote.desktop.in.in.h:1
+msgid "Control Xfmedia music player"
+msgstr ""
+

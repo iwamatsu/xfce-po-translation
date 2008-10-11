@@ -1,0 +1,134 @@
+# Galician translation of xfce4-trigger-launcher
+# Copyright (C) 2006, 2008 Leandro Regueiro
+# This file is distributed under the same license as the xfce package.
+#
+# Leandro Regueiro <leandro.regueiro@gmail.com>, 2006, 2008.
+#
+# Proxecto Trasno - Adaptación do software libre á lingua galega:  Se desexas
+# colaborar connosco, podes atopar máis información en <http://trasno.net>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.01\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-18 00:44+0900\n"
+"PO-Revision-Date: 2008-06-24 22:03+0100\n"
+"Last-Translator: Leandro Regueiro <leandro DOT regueiro AT gmail DOT com>\n"
+"Language-Team: Galician <proxecto@trasno.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: ../panel-plugin/triggerlauncher-old2.c:287
+msgid "Check status every"
+msgstr "Verificar o estado cada"
+
+#: ../panel-plugin/triggerlauncher-old2.c:296
+#: ../panel-plugin/xfce-trigger-launcher-options.c:132
+msgid "seconds"
+msgstr "segundos"
+
+#: ../panel-plugin/triggerlauncher-old2.c:1005
+#, fuzzy
+msgid "Icon (off)"
+msgstr "Desconectado"
+
+#: ../panel-plugin/triggerlauncher-old2.c:1006
+#, fuzzy
+msgid "Icon (on)"
+msgstr "por %a o %b"
+
+#: ../panel-plugin/triggerlauncher-old2.c:1143
+#, fuzzy
+msgid "Two-state Launcher"
+msgstr "Un Conto Sobre Dous Irmáns"
+
+#: ../panel-plugin/xfce-file-chooser-button.c:141
+msgid "Select Icon"
+msgstr "Seleccionar Icona"
+
+#: ../panel-plugin/xfce-file-chooser-button.c:146
+msgid "_Select"
+msgstr "_Seleccionar"
+
+#: ../panel-plugin/xfce-file-chooser-button.c:157
+#, fuzzy
+msgid "(None Selected)"
+msgstr "%d elemento seleccionado (%s)"
+
+#: ../panel-plugin/xfce-launcher-command-entry.c:118
+#, c-format
+msgid "Could not run \"%s\""
+msgstr "Non se puido executar \"%s\""
+
+#: ../panel-plugin/xfce-launcher-command-entry.c:120
+msgid "Xfce Panel"
+msgstr "Panel de Xfce"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:127
+#, fuzzy
+msgid "Command To Check Status:"
+msgstr "Enviar o resultado da comprobación a syslog"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:128
+#, fuzzy
+msgid "Command To Enable:"
+msgstr "Permitirlle a \"%s\" le-lo ficheiro"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:129
+#, fuzzy
+msgid "Command To Disable:"
+msgstr "A instrución para executa-lo manexador mime"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:130
+#, fuzzy
+msgid "Command to Poke:"
+msgstr "A instrución para executa-lo manexador mime"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:131
+#, fuzzy
+msgid "Check Interval:"
+msgstr "Intervalo de actualización"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:134
+#: ../panel-plugin/xfce-trigger-launcher-options.c:135
+#: ../panel-plugin/xfce-trigger-launcher-options.c:136
+#: ../panel-plugin/xfce-trigger-launcher-options.c:137
+msgid "Icon:"
+msgstr "Icona:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:236
+#, fuzzy
+msgid "To Check Status"
+msgstr "Verificar o estado cada"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:237
+#, fuzzy
+msgid "When Disabled"
+msgstr "Instalación--ACPI Deshabilitado"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:238
+#, fuzzy
+msgid "When Enabled"
+msgstr "Tamaño Dispoñible"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:239
+#, fuzzy
+msgid "When Undefined"
+msgstr "Iniciar cando sexa solicitado"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:240
+#, fuzzy
+msgid "When Dodgy"
+msgstr "Iniciar cando sexa solicitado"
+
+#: ../panel-plugin/xfce4-trigger-launcher.desktop.in.in.h:1
+msgid "Keeps track of the state of something and can control it"
+msgstr ""
+
+#: ../panel-plugin/xfce4-trigger-launcher.desktop.in.in.h:2
+#, fuzzy
+msgid "Trigger Launcher Plugin"
+msgstr "Ficheiro de Plugin de RealAudio"
+

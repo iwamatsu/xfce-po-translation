@@ -1,0 +1,507 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-02 17:46+0200\n"
+"PO-Revision-Date: 2006-10-26 22:27+0530\n"
+"Last-Translator: sonam rinchen <somindruk@druknet.bt>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1)\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "དཔར་འཕྲུལ།"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "སྤང་།"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "ཨེཀསི་ཨེཕ་པིརིནཊི་༤-འཛིན་སྐྱོང་པ་སྤང་།"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "སྐོར་ལས།"
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "ཨེཀསི་ཨེཕ་པིརིནཊི་༤-འཛིན་སྐྱོང་པའི་སྐོར་ལས།"
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "ཨེཀསི་ཨེཕ་པིརིནཊི་༤-འཛིན་སྐྱོང་པའི་སྐོར་ལས་བརྡ་དོན་ཚུ་བཀྲམ་སྟོན་འབད།"
+
+#: ../libxfprint/printer-list-window.c:134
+msgid "Printer manager"
+msgstr "དཔར་འཕྲུལ་འཛིན་སྐྱོང་པ།"
+
+#: ../libxfprint/printer-list-window.c:200
+msgid "Alias name"
+msgstr "མིང་གཞན།"
+
+#: ../libxfprint/printer-list-window.c:204
+#: ../libxfprint/printer-queue-window.c:212
+msgid "State"
+msgstr "གནས་ལུགས།"
+
+#: ../libxfprint/printer-list-window.c:258
+msgid "Xfprint printers manager"
+msgstr "ཨེཀསི་ཨེཕ་པིརིནཊི་དཔར་འཕྲུལ་གྱི་འཛིན་སྐྱོང་པ།"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:263
+msgid "Former maintainer"
+msgstr "ཧེ་མའི་རྒྱུན་སྐྱོང་པ།"
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Maintainer"
+msgstr "རྒྱིན་སྐྱོང་པ།"
+
+#: ../libxfprint/printer-list-window.c:265
+msgid "Artist"
+msgstr "གླུ་གཞསཔ།"
+
+#: ../libxfprint/printer-list-window.c:328
+msgid "Unknown"
+msgstr "མ་ཤེསཔ།"
+
+#: ../libxfprint/printer-list-window.c:331
+msgid "Idle"
+msgstr "ལས་མེད།"
+
+#: ../libxfprint/printer-list-window.c:334
+msgid "Processing"
+msgstr "བཟོ་སྦྱོར་གྱི།"
+
+#: ../libxfprint/printer-list-window.c:337
+msgid "Stopped"
+msgstr "བཀག་ཡོདཔ།"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "ཁ་བསྡམས།"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "མི་གྲལ་སྒོ་སྒྲིག་ཁ་བསྡམས།"
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr "ལས་གཡོག་ཚུ།"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:380
+#: ../libxfprint/printer-queue-window.c:384
+msgid "Remove job"
+msgstr "ལས་གཡོག་རྩ་བསྐྲད་གཏང་།"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "མི་གྲལ་ལས་སེལ་འཐུ་འབད་ཡོད་པའི་ལས་གཡོག་རྩ་བསྐྲད་གཏང་།"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "ཡང་སེལ་འབད།"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "མི་གྲལ་ཡང་སེལ་འབད།"
+
+#: ../libxfprint/printer-queue-window.c:121
+#: ../libxfprint/printer-queue-window.c:533
+msgid "Queue Manager"
+msgstr "མི་གྲལ་འཛིན་སྐྱོང་པ།"
+
+#: ../libxfprint/printer-queue-window.c:202
+msgid "Name"
+msgstr "མིང་།"
+
+#: ../libxfprint/printer-queue-window.c:206
+msgid "ID"
+msgstr "ཨའི་ཌི།"
+
+#: ../libxfprint/printer-queue-window.c:209
+msgid "User"
+msgstr "ལག་ལེན་པ།"
+
+#: ../libxfprint/printer-queue-window.c:215
+msgid "Size"
+msgstr "ཚད།"
+
+#: ../libxfprint/printer-queue-window.c:218
+msgid "Priority"
+msgstr "གཙོ་རིམ།"
+
+#: ../libxfprint/printer-queue-window.c:221
+msgid "Creation time"
+msgstr "གསར་བསྐྲུན་འབད་ནིའི་དུས་ཚོད།"
+
+#: ../libxfprint/printer-queue-window.c:224
+msgid "Processing time"
+msgstr "བཟོ་སྦྱོར་འབད་ནིའི་དུས་ཚོད།"
+
+#: ../libxfprint/printer-queue-window.c:377
+msgid "Are you sure you want to remove the job "
+msgstr "ཁྱོད་ཀྱིས་ལས་གཡོག་རྩ་བསྐྲད་གཏང་ནི་འདི་ངེས་གཏན་ཨིན་ན།"
+
+#: ../libxfprint/printer-queue-window.c:383
+msgid "Don't remove job"
+msgstr "ལས་གཡོག་རྩ་བསྐྲད་མ་གཏང་།"
+
+#: ../libxfprint/printer-queue-window.c:390
+msgid "An error occurred while removing job !"
+msgstr "ལས་གཡོག་རྩ་བསྐྲད་གཏང་པའི་སྐབས་འཛོལ་བ་བྱུང་ནུག!"
+
+#: ../libxfprint/printer-queue-window.c:441
+msgid "pending"
+msgstr "བསྣར།"
+
+#: ../libxfprint/printer-queue-window.c:444
+msgid "printing"
+msgstr "དཔར་བསྐྲུན།"
+
+#: ../libxfprint/printer-queue-window.c:447
+msgid "Kb"
+msgstr "ཀེ་བི།"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "དཔར་བསྐྲུན་རིམ་ལུགས།"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "དཔར་བསྐྲུན་རིམ་ལུགས་ཀྱི་སེལ་འཐུ།"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "བརྡ་དོན།"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "འགྲེལ་བཤད།"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "ཐོན་རིམ།"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "རྩོམ་པ་པོ།"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "ཁྱིམ་གྱི་ཤོག་ལེབ།"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "ཅི་མེད།"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr "ཁྱོད་ཀྱིས་ཡིག་སྣོད་ལུ་དཔར་བསྐྲུན་ཙམ་འབད་ནི་ཨིན་པ་ཅིན་ཨ་ནི་རྒྱབ་མཐའ་ལག་ལེན་འཐབ།"
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "ཨེཀསི་ཨེཕ་པིརིནཊི་གི་དོན་ལས་བིཨེསི་ཌི་-ཨེལ་པི་ཨར་དཔར་བསྐྲུན་རིམ་ལུགས་རྒྱབ་སྐྱོར།"
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr "ཨེཀསི་ཨེཕ་པིརིནཊི་གི་དོན་ལས་སི་ཡུ་པི་ཨེསི་དཔར་བསྐྲུན་རིམ་ལུགས་རྒྱབ་སྐྱོར།"
+
+#: ../printing-systems/cups/cups.c:48
+msgid "Set as default printer"
+msgstr "སྔོན་སྒྲིག་དཔར་འཕྲུལ་བཟུམ་སྦེ་གཞི་སྒྲིག་འབད།"
+
+#: ../printing-systems/cups/cups.c:49
+msgid "Set as default CUPS printer"
+msgstr "སྔོན་སྒྲིག་སི་ཡུ་པི་ཨེསི་དཔར་འཕྲུལ་བཟུམ་སྦེ་གཞི་སྒྲིག་འབད།"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "རྒྱུ་དངོས་ཚུ།"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "དཔར་འཕྲུལ་རྒྱུ་དངོས་ཚུ་སྟོན།"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "ཆོག་ཡིག།"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "ལག་ལེན་པ་:"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "ཆོག་ཡིག་:"
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr "ཁྱོད་ཀྱིས་ལག་ལེན་པའི་མིང་བྱིན་དགོ་!"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "མགོ་ཡིག་ཚུ་དཔར་བསྐྲུན་འབད།"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "མགོ་ཡིག་:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "བར་ཁེབས་:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "དབུས་ཀྱི་མགོ་མིང་:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "གཡོན་གྱི་མགོ་མིང་:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "གཡས་ཀྱི་མགོ་མིང་:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "དབུས་ཀྱི་མཇུག་ཡིག་:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "གཡོན་གྱི་མཇུག་ཡིག་:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "གཡས་ཀྱི་མཇུག་ཡིག་:"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "ཨིན་ཀོ་ཌིང་:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "ཤོག་ལེབ་ཚུ་ཆ་མཉམ་དཔར་བསྐྲུན་འབད།"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "ལས་ཁྱབ་ཚད་ནང་ཤོག་ལེབ་ཚུ་དཔར་བསྐྲུན་འབད།"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "གྱལ་རིངམོ་ཚུ་བཏོག།"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "ཊི་ཨེ་བི་དང་བི་ཨེསི་དེ་ལས་ཨེཕ་ཨེཕ་ཡིག་འབྲུ་ཚུ་ཁ་བསྒྱུར་འབད།"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "ཟུང་ལྡན་དཔར་བསྐྲུན་བང་བཙོང་།"
+
+#: ../xfprint/main.c:116
+msgid "Select file to print"
+msgstr "དཔར་བསྐྲུན་འབད་ནི་ལུ་ཡིག་སྣོད་སེལ་འཐུ་འབད།"
+
+#: ../xfprint/main.c:128
+msgid "The specified file does not exist"
+msgstr "སེལ་འཐུ་འབད་ཡོད་པའི་ཡིག་སྣོད་མིན་འདུག།"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "སྐད་ཡིག་:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "གནས་རིམ་ལུ་གཙོ་དམིགས་འབད་:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "གནས་རིམ་བཤུབ་:"
+
+#: ../xfprint/print_dialog.c:199
+msgid "Save settings"
+msgstr "སྒྲིག་སྟངས་ཚུ་སྲུངས།"
+
+#: ../xfprint/print_dialog.c:207
+msgid "Xfprint"
+msgstr "ཨེཀསི་ཨེཕ་པིརིནཊི།"
+
+#: ../xfprint/print_dialog.c:215
+msgid "Print to:"
+msgstr "ལུ་དཔར་བསྐྲུན་འབད་:"
+
+#: ../xfprint/print_dialog.c:245
+msgid "Print to file:"
+msgstr "ཡིག་སྣོད་ལུ་དཔར་བསྐྲུན་འབད་:"
+
+#: ../xfprint/print_dialog.c:275
+msgid "Sheets"
+msgstr "ལེབ་གྲངས་ཚུ།"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Virtual pages"
+msgstr "བར་ཅུ་ཡལ་ཤོག་ལེབ་ཚུ།"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Pretty-printing"
+msgstr "མཛེས་ལྡན་-དཔར་བསྐྲུན།"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Input"
+msgstr "ཨིན་པུཊི།"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Headings"
+msgstr "མགུ་རྒྱན་ཚུ།"
+
+#: ../xfprint/print_dialog.c:304
+msgid "Copies:"
+msgstr "འདྲ་བཤུས་ཚུ་:"
+
+#: ../xfprint/print_dialog.c:311
+msgid "Apply filters"
+msgstr "ཚགས་མ་ཚུ་འཇུག་སྤྱོད་འབད།"
+
+#: ../xfprint/print_dialog.c:366
+msgid ""
+"Neither the printing system backend or a2ps could be found on your system, "
+"you won't be able to print a file with xfprint !"
+msgstr ""
+"ཁྱོད་ཀྱི་རིམ་ལུགས་གུ་དཔར་བསྐྲུན་རིམ་ལུགས་རྒྱབ་མཐའ་ ཡང་ན་ ཨེ་༢པི་ཨེསི་འཚོལ་ཚུགས་ ཁྱོད་ཀྱིས་ཨེཀསི་ཨེཕ་"
+"པིརིནཊི་གི་ཐོག་ལས་ཡིག་སྣོད་དཔར་བསྐྲུན་འབད་མི་ཚུགས།"
+
+#: ../xfprint/print_dialog.c:482
+msgid "An error occurred while trying to print the file"
+msgstr "ཡིག་སྣོད་དཔར་བསྐྲུན་འབད་ནི་ལུ་འབད་རྩོལ་བསྐྱེད་པའི་སྐབས་འཛོལ་བ་བྱུང་ནུག།"
+
+#: ../xfprint/print_dialog.c:519
+msgid "Select file where to print"
+msgstr "ག་ཏེ་ལུ་དཔར་བསྐྲུན་འབད་ནི་ཨིན་ན་ཡིག་སྣོད་སེལ་འཐུ་འབད།"
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "ཤོག་ལེབ་ཀྱི་ཚད་:"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "ཡར་ཕྲང་།"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "ཀེ་ཀེ།"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "ཀེར་ཐིག་ཚུ་:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "དང་པ་རང་ཀེར་ཐིག་ཚུ་བཀང་།"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "དང་པ་རང་གྱལ་ཚུ་བཀང་།"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "གྱལ་ཚུ་:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "ཀེར་ཐིག་ཚུའི་མཐའ་སྐོར་ལུ་མཐའ་མཚམས་ཚུ་དཔར་བསྐྲུན་འབད།"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "རིམ་ལོག་གོ་རིམ་ནང་ཤོག་ལེབ་ཚུ་དཔར་བསྐྲུན་འབད།"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "གྲལ་ཐིག་གི་གྲངས་ཚུ་:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "ཤོག་ལེབ་རེ་ནང་གྱལ་རིམ་:"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "གྱལ་རིམ་རེ་ནང་ཡིག་འབྲུ:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "རེའུ་མིག་བཟོ་ནིའི་ཚད་:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "དཔར་བསྐྲུན་འབད་མ་བཏུབ་མིའི་རྩ་སྒྲིག་:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr ""
+"ཨེཀསི་ཨེཕ་པིརིནཊི་གིས་ལག་ལེན་འཐབ་ནི་ཨིན་མི་དཔར་བསྐྲུན་རིམ་ལུགས་རྒྱབ་མཐའ་འདི་ཁྱོད་ལུ་སེལ་འཐུ་འབད་བཅུགཔ་"
+"ཨིན།"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+msgid "Printing System Settings"
+msgstr "དཔར་བསྐྲུན་རིམ་ལུགས་སྒྲིག་སྟངས།"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+msgid "Xfce 4 Printing System Settings"
+msgstr "ཨེཀསི་ཨེཕ་སི་ཨི་༤དཔར་བསྐྲུན་རིམ་ལུགས་སྒྲིག་སྟངས།"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+msgid "Print Manager"
+msgstr "དཔར་བསྐྲུན་འཛིན་སྐྱོང་པ།"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr "དཔར་འཕྲུལ་ཐོ་ཡིག་སྟོནམ་ད་ཁྱོད་ལུ་དེ་ཚུའི་ལས་གཡོག་ཚུ་འཛིན་སྐྱོང་འབད་བཅུགཔ་ཨིན།"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+msgid "Xfce 4 Print Manager"
+msgstr "ཨེཀསི་ཨེཕ་སི་ཨི་༤དཔར་བསྐྲུན་འཛིན་སྐྱོང་པ།"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "དཔར་བསྐྲུན་ཌའི་ལོག།"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr "ཡིག་སྣོད་དཔར་བསྐྲུན་འབདཝ་ད་ཁྱོད་ལུ་དེ་གི་སྒྲིག་བཀོད་གཞི་སྒྲིག་འབད་བཅུགཔ་ཨིན།"
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "ཨེཀསི་ཨེཕ་སི་ཨི་༤དཔར་བསྐྲུན་ཌའི་ལོག།"

@@ -1,0 +1,39 @@
+# European Portuguese translation of the xfce4-websearch-plugin.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Nuno Miguel <nunis@netcabo.pt>, 2007, 2008.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-websearch-plugin 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:29+0200\n"
+"PO-Revision-Date: 2007-06-30 15:50+0100\n"
+"Last-Translator: Nuno Miguel <nunis@netcabo.pt>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/websearch.c:312
+msgid "Properties"
+msgstr "Propriedades"
+
+#: ../src/websearch.c:321
+msgid "Browser command: "
+msgstr "Comando do Browser: "
+
+#: ../src/websearch.c:328
+msgid "Search engine: "
+msgstr "Motor de busca:"
+
+#: ../src/websearch.c:345
+#: ../src/websearch.desktop.in.in.h:2
+msgid "WebSearch"
+msgstr "Procura Web"
+
+#: ../src/websearch.desktop.in.in.h:1
+msgid "Search the Web directly from the Panel"
+msgstr "Pesquisar a Web directamente do Painel"
+

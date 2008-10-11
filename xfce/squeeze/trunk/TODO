@@ -1,0 +1,24 @@
+---------------------------------------------------------------
+| ROAD MAP                                           ROAD MAP |
+---------------------------------------------------------------
+0.1:
+	Save settings
+	Add settings to menu
+	Documentation
+	Website
+	A few support objects
+	Test custom action
+
+0.2:
+	Settings dialog
+	Bug fixes
+	More support objects
+	Review libsqueeze
+
+0.3:
+	Make support objects plugins
+	Custom archive action
+	Password support
+	Improve the user interface
+
+---------------------------------------------------------------

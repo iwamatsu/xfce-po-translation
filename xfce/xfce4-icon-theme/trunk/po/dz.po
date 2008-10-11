@@ -1,0 +1,28 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-icon-theme 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-11-22 00:16+0900\n"
+"PO-Revision-Date: 2006-10-24 17:12+0530\n"
+"Last-Translator: sonam rinchen <somindruk@druknet.bt>\n"
+"Language-Team: dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1)\n"
+"X-Poedit-Language: dzongkha\n"
+"X-Poedit-Country: bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../Rodent/index.theme.in.h:1
+msgid "Default icon for the Xfce Desktop Environment"
+msgstr "ཨེཀསི་ཨེཕ་སི་ཨི་ཌེཀསི་ཊོཔ་མཐའ་འཁོར་གྱི་དོན་ལས་སྔོན་སྒྲིག་ངོས་དཔར།"
+
+#: ../Rodent/index.theme.in.h:2
+msgid "Rodent"
+msgstr "རོ་ཌེནཊི།"

@@ -1,0 +1,292 @@
+dnl configure.ac
+dnl
+dnl xfdesktop - xfce4's desktop manager
+dnl
+
+dnl version info
+m4_define([xfdesktop_version_major], [4])
+m4_define([xfdesktop_version_minor], [5])
+m4_define([xfdesktop_version_micro], [90])
+m4_define([xfdesktop_version_build], [r@REVISION@])
+m4_define([xfdesktop_version_tag],[])
+m4_define([xfdesktop_version], [xfdesktop_version_major().xfdesktop_version_minor().xfdesktop_version_micro()ifelse(xfdesktop_version_tag(), [svn], [xfdesktop_version_tag()-xfdesktop_version_build()], [xfdesktop_version_tag()])])
+
+dnl minimum required versions
+m4_define([gtk_minimum_version], [2.6.0])
+m4_define([libxfce4util_minimum_version], [4.5.90])
+m4_define([libxfcegui4_minimum_version], [4.5.90])
+m4_define([xfce_minimum_version], [4.5.0])
+m4_define([xfce4menu_minimum_version], [4.5.90])
+m4_define([exo_minimum_version], [0.3.80])
+m4_define([thunar_minimum_version], [0.8.0])
+m4_define([dbus_minimum_version], [0.34])
+m4_define([wnck_minimum_version], [2.12])
+m4_define([intltool_minimum_version], [0.31])
+m4_define([xfconf_minimum_version], [4.5.90])
+
+dnl init autoconf
+AC_INIT([xfdesktop], [xfdesktop_version], [http://bugzilla.xfce.org/])
+AC_PREREQ([2.50])
+
+dnl init automake
+XFDESKTOP_VERSION=xfdesktop_version
+AM_INIT_AUTOMAKE([xfdesktop], [$XFDESKTOP_VERSION])
+AM_CONFIG_HEADER([config.h])
+AM_MAINTAINER_MODE
+
+dnl check for UNIX variants
+AC_AIX
+AC_ISC_POSIX
+AC_MINIX
+AM_CONDITIONAL([HAVE_CYGWIN], [test "`uname | grep \"CYGWIN\"`" != ""])
+
+dnl check for basic programs
+AC_PROG_CC
+AC_PROG_INSTALL
+AC_PROG_LIBTOOL
+AC_PROG_INTLTOOL([intltool_minimum_version], [no-xml])
+
+dnl check for standard header files
+AC_HEADER_STDC
+AC_CHECK_HEADERS([ctype.h errno.h fcntl.h math.h signal.h stddef.h \
+                  string.h sys/mman.h sys/stat.h sys/statvfs.h \
+                  sys/types.h sys/wait.h time.h \
+                  unistd.h])
+AC_CHECK_FUNCS([mmap sigaction srandom])
+
+dnl Check for i18n support
+XDT_I18N([@LINGUAS@])
+
+dnl Check for X11 installed
+XDT_CHECK_LIBX11_REQUIRE
+XDT_CHECK_LIBSM
+
+dnl required
+XDT_CHECK_PACKAGE([GMODULE], [gmodule-2.0], [gtk_minimum_version])
+XDT_CHECK_PACKAGE([GOBJECT], [gobject-2.0], [gtk_minimum_version])
+XDT_CHECK_PACKAGE([GTHREAD], [gthread-2.0], [gtk_minimum_version])
+XDT_CHECK_PACKAGE([GTK], [gtk+-2.0], [gtk_minimum_version])
+XDT_CHECK_PACKAGE([LIBXFCE4UTIL], [libxfce4util-1.0],
+                  [libxfce4util_minimum_version])
+XDT_CHECK_PACKAGE([LIBXFCEGUI4], [libxfcegui4-1.0],
+                  [libxfcegui4_minimum_version])
+XDT_CHECK_PACKAGE([LIBWNCK], [libwnck-1.0], [wnck_minimum_version])
+XDT_CHECK_PACKAGE([XFCONF], [libxfconf-0], [xfconf_minimum_version])
+XDT_CHECK_PACKAGE([LIBGLADE], [libglade-2.0], [2.0.0])
+
+dnl do we want desktop icons at all?
+AC_ARG_ENABLE([desktop-icons],
+    [AC_HELP_STRING([--disable-desktop-icons],
+            [Do not compile in support for desktop icons (default=enabled)])],
+        [ac_cv_enable_desktop_icons=$enableval],
+        [ac_cv_enable_desktop_icons=yes])
+if test "x$ac_cv_enable_desktop_icons" = "xno"; then
+    enable_desktop_icons="no"
+else
+    enable_desktop_icons="yes"
+    AC_DEFINE([ENABLE_DESKTOP_ICONS], [1], [Set if desktop icon support is enabled])
+fi
+AM_CONDITIONAL([ENABLE_DESKTOP_ICONS], [test "x$enable_desktop_icons" = "xyes"])
+
+dnl if we want desktop icons, do we also want file icons?
+AC_ARG_ENABLE([file-icons],
+    [AC_HELP_STRING([--disable-file-icons],
+            [Do not compile in support for desktop file icons (default=enabled)])],
+        [ac_cv_enable_file_icons=$enableval],
+        [ac_cv_enable_file_icons=yes])
+if test "x$ac_cv_enable_file_icons" = "xno" -o "x$enable_desktop_icons" != "xyes"; then
+    enable_file_icons="no"
+else
+    enable_file_icons="yes"
+fi
+
+if test "x$enable_desktop_icons" = "xyes" -a "x$enable_file_icons" = "xyes"; then
+    dnl here i shall abuse the XDT_CHECK_PACKAGE macro
+    XDT_CHECK_PACKAGE([THUNAR_VFS], [thunar-vfs-1],
+                      [thunar_minimum_version], [], [
+echo "*** Optional package thunar-vfs-1 was either not found on your system"
+echo "*** or is too old.  Please install or upgrade to at least version"
+echo "*** thunar_minimum_version, or adjust the PKG_CONFIG_PATH environment variable"
+echo "*** if you installed the new version of the package in a nonstandard"
+echo "*** prefix.  File/launcher icons will be disabled."
+])
+    XDT_CHECK_PACKAGE([DBUS], [dbus-glib-1], [dbus_minimum_version], [], [
+echo "*** Optional package dbus-glib-1 was either not found on your system"
+echo "*** or is too old.  Please install or upgrade to at least version"
+echo "*** dbus_minimum_version, or adjust the PKG_CONFIG_PATH environment variable"
+echo "*** if you installed the new version of the package in a nonstandard"
+echo "*** prefix.  File/launcher icons will be disabled."
+])
+    enable_file_icons="no"
+    if test "x$THUNAR_VFS_VERSION" != "x"; then
+        already_have_thunar_vfs=yes
+        
+        if test "x$DBUS_VERSION" != "x"; then
+            enable_file_icons="yes"
+            AC_DEFINE([ENABLE_FILE_ICONS], [1],
+                      [Define if file icons should be enabled])
+        fi
+    fi
+fi
+
+AM_CONDITIONAL([ENABLE_FILE_ICONS], [test "x$enable_file_icons" = "xyes"])
+
+
+dnl i'd rather have these two only checked conditionally, but this macro also
+dnl calls AM_CONDITIONAL(), which cannot be in an 'if' block
+
+XDT_CHECK_OPTIONAL_PACKAGE([THUNARX], [thunarx-1], [thunar_minimum_version],
+    [thunarx],
+    [Thunar's extension mechanism, to add external features to the desktop icon implementation])
+XDT_CHECK_OPTIONAL_PACKAGE([LIBEXO], [exo-0.3], [exo_minimum_version], [exo],
+    [libexo, for nifty icon effects])
+
+
+AC_ARG_ENABLE([menu-editor],
+        AC_HELP_STRING([--enable-menu-editor],
+                [Build the menu editor (default=disabled)]),
+        [ac_cv_enable_menueditor=$enableval],
+        [ac_cv_enable_menueditor=no])
+if test "x$ac_cv_enable_menueditor" != "xyes"; then
+        build_menueditor="no"
+else
+        build_menueditor="yes"
+fi
+AM_CONDITIONAL([BUILD_MENUEDITOR], [test "x$build_menueditor" = "xyes"])
+
+AC_ARG_ENABLE([desktop-menu],
+        AC_HELP_STRING([--disable-desktop-menu],
+                [Do not build the desktop menu module (default=enabled)]),
+        [ac_cv_enable_desktop_menu=$enableval],
+        [ac_cv_enable_desktop_menu=yes])
+if test "x$ac_cv_enable_desktop_menu" = "xno"; then
+    build_desktop_menu="no"
+else
+    dnl time for more abuse!
+    XDT_CHECK_PACKAGE([LIBXFCE4MENU], [libxfce4menu-0.1],
+                      [xfce4menu_minimum_version], [build_desktop_menu="yes"],
+                      [
+echo "*** Optional package libxfce4menu-0.1 was either not found on your system"
+echo "*** or is too old.  Please install or upgrade to at least version"
+echo "*** xfce4menu_minimum_version, or adjust the PKG_CONFIG_PATH environment variable"
+echo "*** if you installed the new version of the package in a nonstandard"
+echo "*** prefix.  Desktop menu will be disabled."
+build_desktop_menu="no"
+])
+    if test "x$build_desktop_menu" = "xyes"; then
+        AC_DEFINE([USE_DESKTOP_MENU], [1],
+                  [Define if we should build the desktop menu module])
+    fi
+fi
+AM_CONDITIONAL([BUILD_DESKTOP_MENU], [test "x$build_desktop_menu" = "xyes"])
+
+dnl time for more abuse.  if we don't yet have thunar-vfs, we still might want
+dnl it for desktop menu directory monitoring.
+AC_ARG_ENABLE([desktop-menu-dir-monitor],
+              [AC_HELP_STRING([--disable-desktop-menu-dir-monitor],
+                              [Don't use thunar-vfs to monitor menu files to automatically update the desktop menu when needed. (default=enabled)])],
+              [want_thunar_vfs=$enableval],
+              [want_thunar_vfs=yes])
+if test "x$want_thunar_vfs" = "xyes" -a "x$build_desktop_menu" = "xyes"; then
+    if test "x$already_have_thunar_vfs" != "xyes"; then
+        XDT_CHECK_PACKAGE([THUNAR_VFS], [thunar-vfs-1],
+                          [thunar_minimum_version], [have_thunar_vfs=yes], [
+echo "*** Optional package thunar-vfs-1 was either not found on your system"
+echo "*** or is too old.  Please install or upgrade to at least version"
+echo "*** thunar_minimum_version, or adjust the PKG_CONFIG_PATH environment variable"
+echo "*** if you installed the new version of the package in a nonstandard"
+echo "*** prefix.  Desktop menu directory monitoring will be disabled."
+])
+    fi
+
+    if test "x$have_thunar_vfs" = "xyes" \
+       -o "x$already_have_thunar_vfs" = "xyes"
+    then
+        AC_DEFINE([HAVE_THUNAR_VFS], [1], [Define if thunar-vfs is present.])
+    fi
+fi
+
+AC_ARG_ENABLE([panel-plugin],
+        [AC_HELP_STRING([--disable-panel-plugin],
+                [Do not build the panel plugin (default=enabled)])],
+        [ac_cv_enable_panel_plugin=$enableval],
+        [ac_cv_enable_panel_plugin=yes])
+if test "x$ac_cv_enable_panel_plugin" = "xno" -o "x$build_desktop_menu" = "xno"; then
+        build_panel_plugin="no"
+else
+        build_panel_plugin="yes"
+        XDT_CHECK_PACKAGE([LIBXFCE4PANEL], [libxfce4panel-1.0],
+                          [xfce_minimum_version])
+fi
+AM_CONDITIONAL([BUILD_PANEL_PLUGIN], [test "x$build_panel_plugin" = "xyes"])
+
+AC_ARG_WITH([file-manager-fallback],
+    [AC_HELP_STRING([--with-file-manager-fallback=PATH],
+            [Default file manager fallback to handle external folders and applications (default=Thunar)])],
+    [ac_cv_file_manager_fallback="$withval"],
+    [ac_cv_file_manager_fallback=Thunar])
+AC_DEFINE_UNQUOTED([FILE_MANAGER_FALLBACK], ["$ac_cv_file_manager_fallback"],
+    [Set to the file manager to use as a fallback])
+
+dnl xsltproc support (to generate html docs)
+AC_ARG_ENABLE([xsltproc],
+              [AC_HELP_STRING([--enable-xsltproc],
+                              [Use xsltproc to generate HTML documentation @<:@default=no@:>@])],
+                              , [enable_xsltproc=no])
+if test "x$enable_xsltproc" = "xyes"; then
+    AC_PATH_PROG([XSLTPROC], [xsltproc], [no])
+    if test "x$XSLTPROC" = "xno"; then
+        AC_MSG_FAILURE([*** xsltproc was requested, but not found.])
+    fi
+fi
+AM_CONDITIONAL([HAVE_XSLTPROC], [test "x$enable_xsltproc" = "xyes"])
+
+dnl xml2po support (for docs translations)
+AC_ARG_ENABLE([xml2po],
+              [AC_HELP_STRING([--enable-xml2po],
+                              [Use xml2po to translate documentation @<:@default=no@:>@])],
+              [], [enable_xml2po=no])
+if test "x$enable_xml2po" = "xyes"; then
+    AC_PATH_PROG([XML2PO], [xml2po], [no])
+    if test "x$XML2PO" = "xno"; then
+        AC_MSG_FAILURE([*** xml2po was requested, but not found.])
+    fi
+fi
+AM_CONDITIONAL([ENABLE_XML2PO], [test "x$enable_xml2po" = "xyes"])
+
+dnl check for debugging support
+XDT_FEATURE_DEBUG
+
+AC_OUTPUT([
+Makefile
+backdrops/Makefile
+common/Makefile
+doc/Makefile
+doc/C/Makefile
+doc/C/xfdesktop.xml
+doc/C/images/Makefile
+doc/fr/Makefile
+doc/fr/xfdesktop.xml
+doc/fr/images/Makefile
+menueditor/Makefile
+modules/Makefile
+modules/menu/Makefile
+modules/menu/directory-data/Makefile
+modules/menu/menu-data/Makefile
+panel-plugin/Makefile
+pixmaps/Makefile
+po/Makefile.in
+po-doc/Makefile
+settings/Makefile
+src/Makefile
+xfdesktop.spec
+])
+
+echo
+echo "Build Configuration:"
+echo "  Build menu editor:                            $build_menueditor"
+echo "  Build desktop menu module:                    $build_desktop_menu"
+echo "  Build desktop menu panel plugin:              $build_panel_plugin"
+echo "  Build support for desktop icons:              $enable_desktop_icons"
+echo "      Include support for file/launcher icons:  $enable_file_icons"
+echo

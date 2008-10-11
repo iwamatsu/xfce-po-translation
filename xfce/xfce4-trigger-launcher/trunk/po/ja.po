@@ -1,0 +1,117 @@
+# $Id: ja.po 21714 2006-05-18 13:13:03Z daichi $
+#
+# Japanese translations for xfce4-trigger-launcher package.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as
+#   the xfce4-trigger-launcher package.
+# Zhao Ji <zhao-ji@awz.ne.jp>, 2003.
+# Daichi Kawahata <daichi@xfce.org>, 2005-2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-trigger-launcher 4.3.90.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-18 00:44+0900\n"
+"PO-Revision-Date: 2006-05-18 00:14+0900\n"
+"Last-Translator: Daichi Kawahata <daichi@xfce.org>\n"
+"Language-Team: Japanese <xfce-users-jp@ml.fdiary.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../panel-plugin/triggerlauncher-old2.c:287
+msgid "Check status every"
+msgstr "ステータスを"
+
+#: ../panel-plugin/triggerlauncher-old2.c:296
+#: ../panel-plugin/xfce-trigger-launcher-options.c:132
+msgid "seconds"
+msgstr "秒毎に確認"
+
+#: ../panel-plugin/triggerlauncher-old2.c:1005
+msgid "Icon (off)"
+msgstr "アイコン (オフ)"
+
+#: ../panel-plugin/triggerlauncher-old2.c:1006
+msgid "Icon (on)"
+msgstr "アイコン (オン)"
+
+#: ../panel-plugin/triggerlauncher-old2.c:1143
+msgid "Two-state Launcher"
+msgstr "二値ランチャー"
+
+#: ../panel-plugin/xfce-file-chooser-button.c:141
+msgid "Select Icon"
+msgstr "アイコンを選択してください"
+
+#: ../panel-plugin/xfce-file-chooser-button.c:146
+msgid "_Select"
+msgstr "選択(_S)"
+
+#: ../panel-plugin/xfce-file-chooser-button.c:157
+msgid "(None Selected)"
+msgstr "(未選択)"
+
+#: ../panel-plugin/xfce-launcher-command-entry.c:118
+#, c-format
+msgid "Could not run \"%s\""
+msgstr "「%s」を実行できませんでした"
+
+#: ../panel-plugin/xfce-launcher-command-entry.c:120
+msgid "Xfce Panel"
+msgstr "Xfce パネル"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:127
+msgid "Command To Check Status:"
+msgstr "ステータス確認するコマンド:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:128
+msgid "Command To Enable:"
+msgstr "有効にするコマンド:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:129
+msgid "Command To Disable:"
+msgstr "無効にするコマンド:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:130
+msgid "Command to Poke:"
+msgstr "Pokeするコマンド:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:131
+msgid "Check Interval:"
+msgstr "チェックする間隔:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:134
+#: ../panel-plugin/xfce-trigger-launcher-options.c:135
+#: ../panel-plugin/xfce-trigger-launcher-options.c:136
+#: ../panel-plugin/xfce-trigger-launcher-options.c:137
+msgid "Icon:"
+msgstr "アイコン:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:236
+msgid "To Check Status"
+msgstr "ステータスの確認"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:237
+msgid "When Disabled"
+msgstr "無効の場合"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:238
+msgid "When Enabled"
+msgstr "有効の場合"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:239
+msgid "When Undefined"
+msgstr "未定義の場合"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:240
+msgid "When Dodgy"
+msgstr "不明の場合"
+
+#: ../panel-plugin/xfce4-trigger-launcher.desktop.in.in.h:1
+msgid "Keeps track of the state of something and can control it"
+msgstr "状態を記録しておいてコントロールできるようにします。"
+
+#: ../panel-plugin/xfce4-trigger-launcher.desktop.in.in.h:2
+msgid "Trigger Launcher Plugin"
+msgstr "トリガーランチャー"

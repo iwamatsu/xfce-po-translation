@@ -1,0 +1,83 @@
+2008-10-10  Maximilian Schleiss <maximilian@xfce.org>
+
+	* ja.po, LINGUAS: Japanese translation added (Nobuhiro Iwamatsu)
+
+2008-09-29 Lars Nielsen <lars@mit-web>
+
+	* da.po: Updated the danish translation
+
+2008-7-15 Mohamed Magdy <alnokta@xfce.org>
+
+        * ar.po, LINGUAS: Arabic translation added     
+
+2008-06-26  Maximilian Schleiss <maximilian@xfce.org>
+
+	* gl.po, LINGUAS: Galician translation added (Leandro Regueiro)
+
+2008-06-22  Mike Massonnet <mmassonnet@xfce.org>
+
+	* id.po, LINGUAS: Add Indonesian translation (Andhika Padmawan)
+
+2008-05-27  Mike Massonnet <mmassonnet@xfce.org>
+
+	* da.po, LINGUAS: Add Danish translation (Jens Hyllegaard)
+
+2007-11-18	Maximilian Schleiss <maximilian@xfce.org>
+
+	* lv.po: Latvian translation added
+	by Rihards Priedītis <rprieditis@inbox.lv>
+
+2007-11-15	Mike Massonnet <mmassonnet@xfce.org>
+
+	* ur.po: Update translation by Muhammad Ali Makki <makki.ma@gmail.com>
+	* pk.po, ur.po: Rename pk.po to ur.po.
+
+2007-11-03  Maximilian Schleiss <maximilian@xfce.org>
+
+	* it.po:  Italian translation update
+	by Fabio Riga <usul@aruba.it>
+
+2007-10-28	Mike Massonnet <mmassonnet@xfce.org>
+
+	* pk.po: Add new translation by محمد علي المكي <makki.ma@gmail.com>
+
+2007-09-12  Mike Massonnet <mmassonnet@xfce.org>
+
+	* eu.po: Add Basque translations
+	by <piarres@gmail.com>
+
+2007-09-08  Og Maciel <ogmaciel@gnome.org>
+
+	* pt_BR.po: Brazilian Protuguese translation added
+	by Og Maciel <ogmaciel@gnome.org>
+
+2007-07-08  Maximilian Schleiss <maximilian@xfce.org>
+
+	* nb_NO.po: Norwegian Bokmal translation added
+	by Terje Uriansrud <ter@operamail.com>
+	* pt_PT.po: European Protuguese translation added
+	by Nuno Miguel <nunis@netcabo.pt>
+
+2007-04-01  Maximilian Schleiss <maximilian@xfce.org>
+
+	* pl.po: Added the Polish translation
+	by Piotr Maliński <riklaunim@gmail.com>
+
+2007-03-31  Pau Rul-lan Ferragut <paurullan@bulma.net>
+
+  * gb.po: British translation by Jeff Bailes <thepizzaking@gmail.com>
+
+2007-03-30  Alexander Nyakhaychyk  <nyakhaychyk@gmail.com>
+
+	* be.po: Added Belarusian translation
+
+2007-02-20  Maximilian Schleiss <maximilian@xfce.org>
+
+	* sq.po: Modified the headers for the Albanian translation by
+	Besnik Bleta <besnik@programeshqip.org>
+
+2007-02-02  Maximilian Schleiss <maximilian@xfce.org>
+
+	* fr.po: Added the Albanian translation by
+	Besnik Bleta <besnik@programeshqip.org>
+

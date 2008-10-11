@@ -1,0 +1,275 @@
+# Russian translations for xfce4-volstatus-icon package
+# Английские переводы для пакета xfce4-volstatus-icon.
+# Copyright (C) 2008 THE xfce4-volstatus-icon'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfce4-volstatus-icon package.
+# walq <walq64@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-volstatus-icon 0.2.0svn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-25 01:00+0300\n"
+"PO-Revision-Date: 2008-03-25 01:01+0300\n"
+"Last-Translator: walq <walq64@gmail.com>\n"
+"Language-Team: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../xfce4-volstatus-icon/main.c:101 ../xfce4-volstatus-icon/main.c:114
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:731
+msgid "Removable Volumes"
+msgstr "Съемные носители"
+
+#: ../xfce4-volstatus-icon/main.c:103
+msgid "This is the first time you've run the Xfce Volstatus Icon application"
+msgstr "Это Ваш первый запуск Xfce Volstatus Icon"
+
+#: ../xfce4-volstatus-icon/main.c:104
+msgid ""
+"Would you like Xfce Volstatus to run automatically each time your session "
+"begins?  You can disable this behavior later by using the \"Autostarted "
+"Applications\" settings panel."
+msgstr ""
+"Хотите ли Вы чтобы Xfce Volstatus Icon автоматически запускался "
+"при начале каждого сеанса? Вы можете сделать эту настройку позже используя  "
+"\"Менеджер приложений запускаемых автоматически\" (xfce4-autostart-editor)."
+
+#: ../xfce4-volstatus-icon/main.c:116
+msgid "Failed to write autostart file"
+msgstr "Ошибка записи файла автостарта"
+
+#: ../xfce4-volstatus-icon/main.c:117
+msgid ""
+"For some reason, the autostart location could not be found or written to.  "
+"This location is usually in your home directory, in ~/.config/autostart/."
+msgstr ""
+"Возможная причина - отсутствие пути автостарта или отсутствие прав на запись. "
+"Папка автостарта обычно располежена в домашнем директории, в ~/.config/autostart/."
+
+#: ../xfce4-volstatus-icon/main.c:124
+msgid "Xfce Volstatus Icon"
+msgstr "Xfce Volstatus Icon"
+
+#: ../xfce4-volstatus-icon/main.c:126
+msgid "Safe removal of removable volumes"
+msgstr "Безопасное извлечение съмных носителей"
+
+#: ../xfce4-volstatus-icon/main.c:203
+#, c-format
+msgid "Mount \"%s\""
+msgstr "Смонтировать  \"%s\""
+
+#: ../xfce4-volstatus-icon/main.c:288
+msgid "An unknown error occurred."
+msgstr "Неизвестная ошибка."
+
+#: ../xfce4-volstatus-icon/main.c:290 ../xfce4-volstatus-icon/main.c:301
+#: ../xfce4-volstatus-icon/main.c:316
+#: ../xfce4-volstatus-icon/xfce-volstatus-common.c:49
+msgid "Xfce Volstatus"
+msgstr "Xfce Volstatus"
+
+#: ../xfce4-volstatus-icon/main.c:291
+msgid "Unable to connect to D-Bus system bus daemon"
+msgstr "Невозможно подключиться к D-Bus "
+
+#: ../xfce4-volstatus-icon/main.c:302
+msgid "Unable to connect to HAL"
+msgstr "Невозможно подключиться к HAL"
+
+#: ../xfce4-volstatus-icon/main.c:317
+msgid "Unable to get device list from HAL"
+msgstr "Невозможно считать список устройств от HAL"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-common.c:48
+#, c-format
+msgid "Unable to mount device labeled \"%s\""
+msgstr "Невозможно смонтировать устройство \"%s\""
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-common.c:51
+#: ../xfce4-volstatus-icon/xfce-volstatus-common.c:105
+msgid "Unknown error"
+msgstr "Неизвестная ошибка"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-common.c:102
+#, c-format
+msgid "Unable to remove \"%s\""
+msgstr "Невозможно извлечь \"%s\""
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-common.c:103
+msgid "Removal Failure"
+msgstr "Сбой при извлечении"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:171
+msgid "Audio CD"
+msgstr "Аудио CD"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:178
+msgid "Recordable CD"
+msgstr "Записываемый CD"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:181
+msgid "Rewritable CD"
+msgstr "Перезаписываемый CD"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:184
+msgid "DVD"
+msgstr "DVD"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:187
+msgid "Rewritable DVD (DVD-RAM)"
+msgstr "Перезаписываемый DVD (DVD-RAM)"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:192
+msgid "Recordable DVD"
+msgstr "Записываемый DVD"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:196
+msgid "Rewritable DVD"
+msgstr "Перезаписываемый DVD"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:199
+msgid "Blu-ray Disc"
+msgstr "Диск Blu-ray"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:202
+msgid "Recordable Blu-ray Disc"
+msgstr "Записываемый Диск Blu-ray"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:205
+msgid "Rewritable Blu-ray Disc"
+msgstr "Перезаписываемый Диск Blu-ray"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:208
+msgid "HD-DVD"
+msgstr "HD-DVD"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:211
+msgid "Recordable HD-DVD"
+msgstr "Записываемый HD-DVD"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:214
+msgid "Rewritable HD-DVD"
+msgstr "Перезаписываемый HD-DVD"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:217
+msgid "Data CD"
+msgstr "CD с данными"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:227
+msgid "Optical Drive"
+msgstr "Опитический Привод"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:233
+msgid "Floppy Disk"
+msgstr "Дискета"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:235
+msgid "Removable Disk"
+msgstr "Съемный Диск"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:237
+msgid "Hard Disk"
+msgstr "Жесткий Диск"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:240
+msgid "Flash Disk"
+msgstr "Флэш"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:242
+msgid "Audio Player"
+msgstr "Аудио плейер"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:244
+msgid "Memory Stick"
+msgstr ""
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:246
+msgid "Smart Media Disk"
+msgstr ""
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:248
+msgid "SD/MMC Disk"
+msgstr "Карта памяти SD/MMC"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:250
+msgid "Camera"
+msgstr "Камера"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:252
+msgid "Zip Disk"
+msgstr "Привод Zip"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:254
+msgid "Jaz Disk"
+msgstr "Jaz диск"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:256
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:600
+msgid "Unknown"
+msgstr "Неизвестный"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:547
+msgid "n/a"
+msgstr "н/д"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:558
+#, c-format
+msgid "Filesystem (%s)"
+msgstr "Файловая система (%s)"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:563
+msgid "Filesystem"
+msgstr "Файловая система"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:569
+msgid "(unknown)"
+msgstr "(неизвестно)"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:571
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:580
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:587
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:595
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:602
+msgid "(n/a)"
+msgstr "(н/д)"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:578
+msgid "Partition Table"
+msgstr "Таблица разделов"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:585
+msgid "RAID Array Member"
+msgstr "RAID массив"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:593
+msgid "Encrypted Filesystem"
+msgstr "Шифрованная ФС"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:675
+msgid "Name:"
+msgstr "Название:"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:680
+msgid "Kind:"
+msgstr "Тип:"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:685
+msgid "Mount Point:"
+msgstr "Точка монтирования:"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-dialog.c:732
+msgid "Use the list below to safely remove removable volumes."
+msgstr "Используйте данный список для безопасного извлечения съемных устройств"
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-icon.c:230
+#, c-format
+msgid "Safely remove \"%s\""
+msgstr "Безопасно извлечь \"%s\""
+
+#: ../xfce4-volstatus-icon/xfce-volstatus-icon.c:260
+msgid "(no removable drives)"
+msgstr "(нет съемных устройств)"

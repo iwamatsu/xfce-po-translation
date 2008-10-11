@@ -1,0 +1,105 @@
+# Albanian translation of teatime-plugin package 
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Besnik Bleta <besnik@programeshqip.org>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: teatime-plugin 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:29+0200\n"
+"PO-Revision-Date: 2007-01-29 17:45+0200\n"
+"Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
+"Language-Team: Albanian <translation-team-sq@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: ../src/interface.c:69
+msgid "Edit properties"
+msgstr "Përpunoni veti"
+
+#: ../src/interface.c:75
+msgid "<b>Xfteatime</b>"
+msgstr "<b>Xfteatime</b>"
+
+#: ../src/interface.c:103
+#, fuzzy
+msgid "Tea can"
+msgstr "Ibrik çaji"
+
+#: ../src/interface.c:109
+#, fuzzy
+msgid "Coffee can"
+msgstr "Xhezve kafeje"
+
+#: ../src/interface.c:115
+msgid "Stove"
+msgstr "Stufë"
+
+#: ../src/interface.c:128
+msgid "/usr/share/icons/image.png"
+msgstr "/usr/share/icons/image.png"
+
+#: ../src/interface.c:142
+msgid "<b>Icon image</b>"
+msgstr "<b>Pamje ikone</b>"
+
+#: ../src/interface.c:168
+msgid "Just a minute, please (1 minute)"
+msgstr "Një minutë, ju lutem (1 minutë)"
+
+#: ../src/interface.c:169
+msgid "Assam tea (2 minutes)"
+msgstr "Çaj asam (2 minuta)"
+
+#: ../src/interface.c:170
+msgid "Coffee (5 minutes)"
+msgstr "Kafe (5 minuta)"
+
+#: ../src/interface.c:171
+msgid "Italian noodles (10 minutes)"
+msgstr "Makarona italiane (10 minuta)"
+
+#: ../src/interface.c:172
+msgid "Pizza (12 minutes)"
+msgstr "Pizza (12 minuta)"
+
+#: ../src/interface.c:173
+msgid "Turkey (2 hours)"
+msgstr "Rikë (2 orë)"
+
+#: ../src/interface.c:175
+msgid "after"
+msgstr "pas"
+
+#: ../src/interface.c:184
+msgid "seconds"
+msgstr "sekonda"
+
+#: ../src/interface.c:192
+msgid "per"
+msgstr "për"
+
+#: ../src/interface.c:196
+msgid "System bell"
+msgstr "Zile Sistemi"
+
+#: ../src/interface.c:200
+msgid "Popup window"
+msgstr "Dritare flluckë"
+
+#: ../src/interface.c:204
+msgid "Blinking image"
+msgstr "Xixëllim pamjeje"
+
+#: ../src/interface.c:208
+msgid "<b>Notification</b>"
+msgstr "<b>Njoftim</b>"
+
+#: ../src/support.c:90
+#: ../src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "S'gjeta dot kartelë pixmap: %s"
+

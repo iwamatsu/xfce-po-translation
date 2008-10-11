@@ -1,0 +1,210 @@
+# Translation of xfce4-diskperf-plugin to Ukrainian
+# Copyright (C) 2007 Dmitry Nikitin
+# This file is distributed under the same license as the xfce4-diskperf-plugi package.
+#
+# Dmitry Nikitin <luckas_fb@mail.ru>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-diskperf-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-03-13 16:59+0200\n"
+"PO-Revision-Date: 2007-03-08 02:15+0200\n"
+"Last-Translator: Dmitry Nikitin <luckas_fb@mail.ru>\n"
+"Language-Team: Ukrainian <xfce-i18n@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../panel-plugin/config_gui.c:103
+msgid "Device"
+msgstr "Пристрій"
+
+#: ../panel-plugin/config_gui.c:117
+msgid "Input the device name, then press <Enter>"
+msgstr "Введіть назву пристрою, потім натисніть <Ввід>"
+
+#: ../panel-plugin/config_gui.c:120
+msgid "/dev/hda1"
+msgstr "/dev/hda1"
+
+#: ../panel-plugin/config_gui.c:138
+msgid "Data collection period"
+msgstr "Період збору даних"
+
+#: ../panel-plugin/config_gui.c:141
+msgid "Update interval (s) "
+msgstr "Період поновлення (сек) "
+
+#: ../panel-plugin/config_gui.c:149
+msgid "Label"
+msgstr "Мітка"
+
+#: ../panel-plugin/config_gui.c:154
+msgid "Tick to display label"
+msgstr "Підв'язати до показу мітки"
+
+#: ../panel-plugin/config_gui.c:163
+msgid "Input the label, then press <Enter>"
+msgstr "Введіть мітку, потім натисніть <Ввід>"
+
+#: ../panel-plugin/config_gui.c:165
+msgid "hda1"
+msgstr "hda1"
+
+#: ../panel-plugin/config_gui.c:175
+msgid "Monitor    "
+msgstr "Спостереження    "
+
+#: ../panel-plugin/config_gui.c:180
+msgid "I/O transfer"
+msgstr "I/O передача"
+
+#: ../panel-plugin/config_gui.c:183
+msgid "MB transferred / second"
+msgstr "Мб передано / секунд"
+
+#: ../panel-plugin/config_gui.c:189
+msgid "Busy time"
+msgstr "Зайняло часу"
+
+#: ../panel-plugin/config_gui.c:193
+msgid "Percentage of time the device is busy"
+msgstr "Відсотків часу пристрій був зайнятий"
+
+#: ../panel-plugin/config_gui.c:204
+msgid "Max. I/O rate (MB/s) "
+msgstr "Макс. швидкість I/O (Мб/с) "
+
+#: ../panel-plugin/config_gui.c:215
+msgid "Input the maximum I/O transfer rate of the device, then press <Enter>"
+msgstr ""
+"Введіть максимальну швидкість I/O передачі пристрою, потім натисніть <Ввід>"
+
+#: ../panel-plugin/config_gui.c:218
+msgid "35"
+msgstr "35"
+
+#: ../panel-plugin/config_gui.c:225
+msgid "Combine Read/Write data"
+msgstr "Поєднувати Читання/Запис даних"
+
+#: ../panel-plugin/config_gui.c:230
+msgid "Combine Read/Write data into one single monitor?"
+msgstr "Поєднувати Читання/Запис даних всередині єдиного спостереження?"
+
+#: ../panel-plugin/config_gui.c:237
+msgid "Bar color "
+msgstr "Колір зони"
+
+#: ../panel-plugin/config_gui.c:252 ../panel-plugin/config_gui.c:318
+#: ../panel-plugin/config_gui.c:327
+msgid "Press to change color"
+msgstr "Натисніть для вибору кольору"
+
+#: ../panel-plugin/config_gui.c:258
+msgid "Read bar color "
+msgstr "Колір зони Читання "
+
+#: ../panel-plugin/config_gui.c:266
+msgid "Write bar color "
+msgstr "Колір зони Запису"
+
+#: ../panel-plugin/config_gui.c:274
+msgid "Bar order"
+msgstr "Порядок зон"
+
+#: ../panel-plugin/config_gui.c:289
+msgid "Read-Write"
+msgstr "Читання-Запис"
+
+#: ../panel-plugin/config_gui.c:294
+msgid "\"Read\" monitor first"
+msgstr "\"Читати\" спостерігати першим"
+
+#: ../panel-plugin/config_gui.c:301
+msgid "Write-Read"
+msgstr "Запис-Читання"
+
+#: ../panel-plugin/config_gui.c:306
+msgid "\"Write\" monitor first"
+msgstr "\"Запис\" спостерігати першим"
+
+#: ../panel-plugin/main.c:812
+msgid "Select color"
+msgstr "Вибрати колір"
+
+#: ../panel-plugin/main.c:861
+#, c-format
+msgid ""
+"%s\n"
+"%s: %s (%d)\n"
+"\n"
+"This monitor will not work!\n"
+"Please remove it."
+msgstr ""
+"%s\n"
+"%s: %s (%d)\n"
+"\n"
+"Це спостереження не робоче!\n"
+"Будь-ласка видаліть це."
+
+#: ../panel-plugin/main.c:871
+#, c-format
+msgid ""
+"%s: No disk extended statistics found!\n"
+"Either old kernel (< 2.4.20) or not\n"
+"compiled with CONFIG_BLK_STATS turned on.\n"
+"\n"
+"This monitor will not work!\n"
+"Please remove it."
+msgstr ""
+"%s: Не знайдено розширеної інформації про диск!\n"
+"Використовується старе ядро (< 2.4.20) або\n"
+"компільоване з CONFIG_BLK_STATS значення в on.\n"
+"\n"
+"Це спостереження не робоче!\n"
+"Будь-ласка видаліть це."
+
+#: ../panel-plugin/main.c:878
+#, c-format
+msgid ""
+"%s: Unknown error\n"
+"\n"
+"This monitor will not work!\n"
+"Please remove it."
+msgstr ""
+"%s: Невідома помилка\n"
+"\n"
+"Це спостереження не робоче!\n"
+"Будь-ласка видаліть це."
+
+#: ../panel-plugin/main.c:890
+#, c-format
+msgid ""
+"%s %s - Disk Performance Monitor\n"
+"Display instantaneous disk I/O transfer rates and busy times on Linux and "
+"NetBSD systems\n"
+"\n"
+"(c) 2003, 2004 Roger Seguin <roger_seguin@msn.com>\n"
+"NetBSD statistics collection: (c) 2003 Benedikt Meurer\n"
+"\t<benedikt.meurer@unix-ag.uni-siegen.de>"
+msgstr ""
+"%s %s - Спостереження за продуктивністю диску\n"
+"Показати теперішні I/O швидкість передачі диску і час зайнятості в Linux і "
+"NetBSD системах\n"
+"\n"
+"(c) 2003, 2004 Roger Seguin <roger_seguin@msn.com>\n"
+"NetBSD statistics collection: (c) 2003 Benedikt Meurer\n"
+"\t<benedikt.meurer@unix-ag.uni-siegen.de>"
+
+#: ../panel-plugin/main.c:929 ../panel-plugin/diskperf.desktop.in.in.h:1
+msgid "Disk Performance Monitor"
+msgstr "Спостереження за продуктивністю диску"
+
+#: ../panel-plugin/diskperf.desktop.in.in.h:2
+msgid "Show disk performance"
+msgstr "Показати продуктивність диску"
+

@@ -1,0 +1,494 @@
+# Amharic translation to xfprint.
+# Copyright (C) 2002-2007 The Xfce development team.
+# This file is distributed under the same license as the xfprint package.
+# Tegegne Tefera <tefera@mekuria.com>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint 4.4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-20 18:56+0100\n"
+"PO-Revision-Date: 2007-07-01 19:01+0100\n"
+"Last-Translator: tegegne tefera <tefera@mekuria.com>\n"
+"Language-Team: Amharic <l10n-am@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "አታሚ"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "ውጣ"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "ከሸፍሲ4-ህትመት-አስተዳዳሪ ውጣ"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "ስለ"
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "ስለ ሸፍሲ4-ህትመት-አስተዳዳሪ"
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "ስለ ሸፍሲ-ኅትመት4-አስተዳዳሪ መረጃ አሳይ"
+
+#: ../libxfprint/printer-list-window.c:134
+msgid "Printer manager"
+msgstr "ህትመት-አስተዳዳሪ"
+
+#: ../libxfprint/printer-list-window.c:200
+msgid "Alias name"
+msgstr "የለዋጭ ስም"
+
+#: ../libxfprint/printer-list-window.c:204
+#: ../libxfprint/printer-queue-window.c:212
+msgid "State"
+msgstr "ሁኔታ"
+
+#: ../libxfprint/printer-list-window.c:258
+msgid "Xfprint printers manager"
+msgstr "የሸፍሲ-ህትመት የማተሚያዎች አስተዳዳሪ"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:263
+msgid "Former maintainer"
+msgstr "የቀድሞ አስተዳዳሪ"
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Maintainer"
+msgstr "አስተዳዳሪ"
+
+#: ../libxfprint/printer-list-window.c:327
+msgid "Unknown"
+msgstr "ያልታወቀ"
+
+#: ../libxfprint/printer-list-window.c:330
+msgid "Idle"
+msgstr "ስራ ፈቷል"
+
+#: ../libxfprint/printer-list-window.c:333
+msgid "Processing"
+msgstr "በማስኬድ ላይ"
+
+#: ../libxfprint/printer-list-window.c:336
+msgid "Stopped"
+msgstr "ቆሟል"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "ዝጋ"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "የሰልፍ መስኮትን ዝጋ"
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr "ስራዎች"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:380
+#: ../libxfprint/printer-queue-window.c:384
+msgid "Remove job"
+msgstr "ስራን ሰርዝ"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "የተመረጠውን ስራ ከሰልፉ ሰርዝ"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "እንደገና ጫን"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "ሰልፉን እንደገና እይ"
+
+#: ../libxfprint/printer-queue-window.c:121
+#: ../libxfprint/printer-queue-window.c:533
+msgid "Queue Manager"
+msgstr "የሰልፍ አስተዳዳሪ"
+
+#: ../libxfprint/printer-queue-window.c:202
+msgid "Name"
+msgstr "ስም"
+
+#: ../libxfprint/printer-queue-window.c:206
+msgid "ID"
+msgstr "መታወቂያ"
+
+#: ../libxfprint/printer-queue-window.c:209
+msgid "User"
+msgstr "ተጠቃሚ"
+
+#: ../libxfprint/printer-queue-window.c:215
+msgid "Size"
+msgstr "መጠን"
+
+#: ../libxfprint/printer-queue-window.c:218
+msgid "Priority"
+msgstr "ቅድሚያ"
+
+#: ../libxfprint/printer-queue-window.c:221
+msgid "Creation time"
+msgstr "የተፈጠረበት ጊዜ"
+
+#: ../libxfprint/printer-queue-window.c:224
+msgid "Processing time"
+msgstr "ሰዓትን በማስኬድ ላይ"
+
+#: ../libxfprint/printer-queue-window.c:377
+msgid "Are you sure you want to remove the job "
+msgstr "ስራውን ለመሰረዝ እንደሚፈልጉ እርግጠኛ ነዎት?"
+
+#: ../libxfprint/printer-queue-window.c:383
+msgid "Don't remove job"
+msgstr "ስራው አይሰረዝ"
+
+#: ../libxfprint/printer-queue-window.c:390
+msgid "An error occurred while removing job !"
+msgstr "ስራው ሲሰረዝ ስህተት ተከስቷል"
+
+#: ../libxfprint/printer-queue-window.c:441
+msgid "pending"
+msgstr "በመጠበቅ ላይ"
+
+#: ../libxfprint/printer-queue-window.c:444
+msgid "printing"
+msgstr "በማተም ላይ"
+
+#: ../libxfprint/printer-queue-window.c:447
+msgid "Kb"
+msgstr "ኪባ"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "የህትመት ስርዓት"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "የኅትመት ስርዓት መረጣ"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "መረጃ"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "መግለጫ"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "ዝርያ"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "ደራሲ"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "የመረብቤት ገጽ"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "ምንም"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr "ፋይል ለመጻፍ ከሆነ የሚፈልጉት ይህንን ከጀርባ-ሰሪን ይጠቀሙ"
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "ለሸፍሲ-ኅትመት የBSD-LPR ኅትመት ስርዓት ድጋፍ"
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr "ለሸፍሲ-ኅትመት የCUPS ኅትመት ስርዓት ድጋፍ"
+
+#: ../printing-systems/cups/cups.c:48
+msgid "Set as default printer"
+msgstr "እንደ ቀዳሚ ማተሚያ ሰይም"
+
+#: ../printing-systems/cups/cups.c:49
+msgid "Set as default CUPS printer"
+msgstr "እንደ ቀዳሚ CUPS ማተሚያ ሰይም"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "ባህሪዎች"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "የማተሚያ ባህሪን አሳይ"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "ማለፊያ ቃል"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "ተጠቃሚ:"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "ማለፊያ ቃል:"
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr "የተጠቃሚ ስምን መስጠት አለብዎት!"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "የኅትመት የራስጌ ማስታወሻ"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "የራስጌ ማስታወሻ፦"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "Underlay:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "Center title:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "የግራ አርዕስት፦"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "የቀኝ አርዕስት፦"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "Center footer:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "ግራ የግርጌ ማስታወሻ፦"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "ቀኝ የግርጌ ማስታወሻ፦"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "Encoding:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "ሁሉንም ገጾች አትም"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "ክ... ጀምሮ እስከ... ያሉትን አትም"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "ረጅም መስመሮችን ቁረጥ"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "Interpret TAB, BS and FF characters"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "Force binary printing"
+
+#: ../xfprint/main.c:113
+msgid "Select file to print"
+msgstr "ለማትም ፋይል ምረጥ"
+
+#: ../xfprint/main.c:125
+msgid "The specified file does not exist"
+msgstr "የተሰጠው ፋይል አልተገኘም"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "ቋንቋ፦"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "Highlight level:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "Strip level:"
+
+#: ../xfprint/print_dialog.c:199
+msgid "Save settings"
+msgstr "ስየማዎችን አስቀምጥ"
+
+#: ../xfprint/print_dialog.c:207
+msgid "Xfprint"
+msgstr "ሸፍሲህትመት"
+
+#: ../xfprint/print_dialog.c:215
+msgid "Print to:"
+msgstr "በ...ላይ አትም፦"
+
+#: ../xfprint/print_dialog.c:245
+msgid "Print to file:"
+msgstr "በ... ፋይል ላይ አትም፦"
+
+#: ../xfprint/print_dialog.c:275
+msgid "Sheets"
+msgstr "ሉኮች"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Virtual pages"
+msgstr "Virtual pages"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Pretty-printing"
+msgstr "Pretty-printing"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Input"
+msgstr "ገቢ"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Headings"
+msgstr "አርዕስቶች"
+
+#: ../xfprint/print_dialog.c:304
+msgid "Copies:"
+msgstr "ቅጂዎች፦"
+
+#: ../xfprint/print_dialog.c:311
+msgid "Apply filters"
+msgstr "ምረጥ"
+
+#: ../xfprint/print_dialog.c:366
+msgid "Neither the printing system backend or a2ps could be found on your system, you won't be able to print a file with xfprint !"
+msgstr "የማተሚያ የጀርባ-ስርዓት ወይም a2ps በስርዓቱ ውስጥ አልተገኙም። ሸፍሲ ማተሚያ ማተም አይቻልዎትም!!"
+
+#: ../xfprint/print_dialog.c:484
+msgid "An error occurred while trying to print the file"
+msgstr "ፋይሉን ለማተም ሲሞከር ሱተት ተፈጥሯል"
+
+#: ../xfprint/print_dialog.c:521
+msgid "Select file where to print"
+msgstr "ፋይል ላይ ለማተም ምረጥ "
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "የወረቀት መጠን"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "ቁም"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "አግድም"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "ቋሚ፦"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "ቋሚዎቹን መጀመሪያው ሙላ"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "አግድሞቹን መጀመሪያው ሙላ"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "አግድም፦"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "በቋሚው ዙሪያ መስመር አትም"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "ገጾቹን ከኋላ በመጀመር አትማቸው"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "የመስመር ቁጥሮች፦"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "መስመር በገጽ"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "ፊደል በመስመር፦"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "የሰንጠረዥ መጠን፦"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "የማይታተም ፎርማት፦"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr "የሸፍሲ ኅትመት ስርዓት የሚጠቀምበትን የጀርባ-ስርዓትለመምረጥ ያስችልዎታል"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+msgid "Printing System Settings"
+msgstr "የኅትመት ስርዓት ስየማዎች"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+msgid "Xfce 4 Printing System Settings"
+msgstr "የሸፍሲ 4 የኅትመት ስርዓት ስየማዎች"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+msgid "Print Manager"
+msgstr "የህትመት አስተዳዳሪ"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr "ያሉትን ማተሚያዎች በማሳየት ለማስተዳደር ያስችልዎታል"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+msgid "Xfce 4 Print Manager"
+msgstr "የሸፍሲ 4 የህትመት አስተዳዳሪ"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "የኅትመት መጠይቅ"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr "ፋይልስ ለማተምና የገጽ አጣጣሉን ለመሰየም ያስችሎታል"
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "የሸፍሲ 4 የኅትመት መጠይቅ"
+

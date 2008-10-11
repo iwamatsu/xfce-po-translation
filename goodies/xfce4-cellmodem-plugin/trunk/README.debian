@@ -1,0 +1,11 @@
+*
+*
+* Installing xfce4-cellmodem-plugin on debian
+*
+*
+Use the following line:
+
+./configure --prefix=/usr libexecdir=/usr/lib/xfce4-cellmodem-plugin
+
+That should put the plugin in the correct place.
+

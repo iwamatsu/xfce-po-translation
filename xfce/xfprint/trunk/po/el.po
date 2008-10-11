@@ -1,0 +1,504 @@
+# Greek translations for xfprint package.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfprint package.
+# Stavros Giannouris <stavrosg@serverhive.com>, 2005.
+# Stathis Kamperis <ekamperi@auth.gr>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-14 15:26+0200\n"
+"PO-Revision-Date: 2006-05-06 17:25+0200\n"
+"Last-Translator: Stavros Giannouris <stavrosg@serverhive.com>\n"
+"Language-Team: Greek <nls@tux.hellug.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Greek\n"
+"X-Poedit-Country: GREECE\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "Εκτυπωτής"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "Έξοδος"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "Έξοδος από το διαχειριστή εκτυπώσεων"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "Περί"
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "Περί διαχειριστή εκτυπώσεων"
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "Προβολή πληροφοριών για το διαχειριστή εκτυπώσεων"
+
+#: ../libxfprint/printer-list-window.c:140
+msgid "Printer manager"
+msgstr "Διαχειριστής εκτυπωτών"
+
+#: ../libxfprint/printer-list-window.c:206
+msgid "Alias name"
+msgstr "Ψευδώνυμο"
+
+#: ../libxfprint/printer-list-window.c:210
+#: ../libxfprint/printer-queue-window.c:217
+msgid "State"
+msgstr "Κατάσταση"
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Xfprint printers manager"
+msgstr "Διαχειριστής εκτυπωτών Xfprint"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:269
+msgid "Former maintainer"
+msgstr "Πρώην προγραμματιστής"
+
+#: ../libxfprint/printer-list-window.c:270
+msgid "Maintainer"
+msgstr "Προγραμματιστής"
+
+#: ../libxfprint/printer-list-window.c:271
+msgid "Artist"
+msgstr "Καλλιτέχνης"
+
+#: ../libxfprint/printer-list-window.c:334
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+#: ../libxfprint/printer-list-window.c:337
+msgid "Idle"
+msgstr "Αδρανής"
+
+#: ../libxfprint/printer-list-window.c:340
+msgid "Processing"
+msgstr "Επεξεργασία"
+
+#: ../libxfprint/printer-list-window.c:343
+msgid "Stopped"
+msgstr "Σταματημένος"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "Κλείσιμο παραθύρου ουράς"
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr "Εργασίες"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:385
+#: ../libxfprint/printer-queue-window.c:389
+msgid "Remove job"
+msgstr "Αφαίρεση εργασίας"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "Διαγραφή της επιλεγμένης εργασίας από την ουρά"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "Ανανέωση"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "Ανανέωση ουράς"
+
+#: ../libxfprint/printer-queue-window.c:122
+#: ../libxfprint/printer-queue-window.c:538
+msgid "Queue Manager"
+msgstr "Διαχειριστής ουράς"
+
+#: ../libxfprint/printer-queue-window.c:207
+msgid "Name"
+msgstr "Όνομα"
+
+#: ../libxfprint/printer-queue-window.c:211
+msgid "ID"
+msgstr "ID"
+
+#: ../libxfprint/printer-queue-window.c:214
+msgid "User"
+msgstr "Χρήστης"
+
+#: ../libxfprint/printer-queue-window.c:220
+msgid "Size"
+msgstr "Μέγεθος"
+
+#: ../libxfprint/printer-queue-window.c:223
+msgid "Priority"
+msgstr "Προτεραιότητα"
+
+#: ../libxfprint/printer-queue-window.c:226
+msgid "Creation time"
+msgstr "Ώρα δημιουργίας"
+
+#: ../libxfprint/printer-queue-window.c:229
+msgid "Processing time"
+msgstr "Χρόνος επεξεργασίας"
+
+#: ../libxfprint/printer-queue-window.c:382
+msgid "Are you sure you want to remove the job "
+msgstr "Είστε βέβαιοι για την αφαίρεση αυτής της εργασίας;"
+
+#: ../libxfprint/printer-queue-window.c:388
+msgid "Don't remove job"
+msgstr "Όχι αφαίρεση εργασίας"
+
+#: ../libxfprint/printer-queue-window.c:395
+msgid "An error occurred while removing job !"
+msgstr "Δημιουργήθηκε σφάλμα κατά την αφαίρεση της εργασίας !"
+
+#: ../libxfprint/printer-queue-window.c:446
+msgid "pending"
+msgstr "εκκρεμή"
+
+#: ../libxfprint/printer-queue-window.c:449
+msgid "printing"
+msgstr "Εκτύπωση"
+
+#: ../libxfprint/printer-queue-window.c:452
+msgid "Kb"
+msgstr "Kb"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "Σύστημα εκτύπωσης"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "Επιλογή του συστήματος εκτύπωσης"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "Πληροφορίες"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "Έκδοση"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "Δημιουργός"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "Αρχική σελίδα"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "Κανένα"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr "Χρησιμοποιήστε αυτό το σύστημα αν θέλετε να τυπώσετε σε αρχείο."
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "Υποστήριξη συστήματος εκτύπωσης BSD-LPR για το Xfprint"
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr "Υποστήριξη συστήματος εκτύπωσης CUPS για το Xfprint"
+
+#: ../printing-systems/cups/cups.c:48
+msgid "Set as default printer"
+msgstr "Ορισμός ως προκαθορισμένου εκτυπωτή"
+
+#: ../printing-systems/cups/cups.c:49
+msgid "Set as default CUPS printer"
+msgstr "Ορισμός ως προκαθορισμένου εκτυπωτή CUPS"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "Ιδιότητες"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "Προβολή ιδιοτήτων εκτυπωτή"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "Συνθηματικό"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "Χρήστης :"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "Συνθηματικό :"
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr "Θα πρέπει να προσδιορίσετε ένα όνομα χρήστη !"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "Εκτύπωση κεφαλίδων σελίδας"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "Κεφαλίδα:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "Υποσέλιδο:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "Κεντρικός τίτλος:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "Αριστερός τίτλος:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "Δεξιός τίτλος:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "Κεντρικό υποσέλιδο:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "Αριστερό υποσέλιδο:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "Δεξί υποσέλιδο:"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "Κωδικοποίηση:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "Εκτύπωση όλων των σελίδων"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "Εκτύπωση σελίδων στο εύρος από"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "Αποκοπή μακρών γραμμών"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "Διερμηνεία χαρακτήρων TAB, BS και FF"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "Εξαναγκασμός δυαδικής εκτύπωσης"
+
+#: ../xfprint/main.c:116
+msgid "Select file to print"
+msgstr "Επιλογή αρχείου για εκτύπωση"
+
+#: ../xfprint/main.c:128
+msgid "The specified file does not exist"
+msgstr "Το ζητούμενο αρχείο δεν υπάρχει."
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "Γλώσσα:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "Επίπεδο επισήμανσης:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "Επίπεδο αποκοπής:"
+
+#: ../xfprint/print_dialog.c:204
+msgid "Save settings"
+msgstr "Αποθήκευση ρυθμίσεων"
+
+#: ../xfprint/print_dialog.c:212
+msgid "Xfprint"
+msgstr "Xfprint"
+
+#: ../xfprint/print_dialog.c:220
+msgid "Print to:"
+msgstr "Εκτύπωση σε:"
+
+#: ../xfprint/print_dialog.c:250
+msgid "Print to file:"
+msgstr "Εκτύπωση σε αρχείο:"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Sheets"
+msgstr "Φύλλα"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Virtual pages"
+msgstr "Εικονικές σελίδες"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Pretty-printing"
+msgstr "Όμορφη-εκτύπωση"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Input"
+msgstr "Εισαγωγή"
+
+#: ../xfprint/print_dialog.c:300
+msgid "Headings"
+msgstr "Επικεφαλίδες"
+
+#: ../xfprint/print_dialog.c:309
+msgid "Copies:"
+msgstr "Αντίγραφα:"
+
+#: ../xfprint/print_dialog.c:316
+msgid "Apply filters"
+msgstr "Εφαρμογή φίλτρων"
+
+#: ../xfprint/print_dialog.c:371
+msgid ""
+"Neither the printing system backend or a2ps could be found on your system, "
+"you won't be able to print a file with xfprint !"
+msgstr ""
+"Δεν βρέθηκε ούτε το σύστημα εκτύπωσης, ούτε το a2ps στο σύστημά σας. Δεν "
+"είναι δυνατή η εκτύπωση αρχείων !"
+
+#: ../xfprint/print_dialog.c:486
+msgid "An error occurred while trying to print the file"
+msgstr "Δημιουργήθηκε σφάλμα κατά την εκτύπωση του αρχείου"
+
+#: ../xfprint/print_dialog.c:523
+msgid "Select file where to print"
+msgstr "Επιλογή του αρχείου στο οποίο θα γίνει η εκτύπωση"
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "Μέγεθος χαρτιού:"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "Κατακόρυφα"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "Οριζόντια"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "Στήλες:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "Συμπλήρωση στηλών πρώτα"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "Συμπλήρωση γραμμών πρώτα"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "Γραμμές:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "Εκτύπωση πλαισίων γύρω από τις στήλες"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "Εκτύπωση με αντίστροφη σειρά"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "Αριθμοί γραμμής:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "Γραμμές ανά σελίδα:"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "Χαρακτήρες ανα γραμμή:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "Μέγεθος πινακοποίησης:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "Μη εκτυπώσιμη μορφή:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr "Με δυνατότητα επιλογής συστήματος εκτύπωσης για το xfprint"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+msgid "Printing System Settings"
+msgstr "Σύστημα εκτύπωσης"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+msgid "Xfce 4 Printing System Settings"
+msgstr "Ρυθμίσεις του συστήματος εκτύπωσης Xfce 4"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+msgid "Print Manager"
+msgstr "Διαχειριστής εκτυπώσεων"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr "Προβολή της λίστας εκτυπωτών και διαχείριση των εργασιών τους"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+msgid "Xfce 4 Print Manager"
+msgstr "Διαχειριστής εκτυπωτών Xfce 4"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "Διάλογος εκτύπωσης"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr "Σελιδοποίηση και εκτύπωση αρχείων"
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "Διάλογος εκτύπωσης Xfce 4"

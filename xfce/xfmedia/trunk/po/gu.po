@@ -1,0 +1,1646 @@
+# Gujarati translation for the xfmedia package.
+# Copyright (C) 2004-2007 Brian J. Tarricone.
+# This file is distributed under the same license as the xfmedia package.
+# Ankit Patel <ankit644@yahoo.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfmedia 0.10.0svn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-06-16 22:22+0900\n"
+"PO-Revision-Date: 2005-10-10 00:59+0900\n"
+"Last-Translator: Ankit Patel <ankit644@yahoo.com>\n"
+"Language-Team: Gujarati <xfce-i18n@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:102
+#, c-format
+msgid "Status:                  %s\n"
+msgstr "પરિસ્થિતિ:                  %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:106
+#, c-format
+msgid "Now Playing:             %s\n"
+msgstr "હમણાં વગાડી રહ્યા છીએ:             %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:111
+#, c-format
+msgid "Filename:                %s\n"
+msgstr "ફાઈલનામ:                %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:112
+#: ../plugins/infopipe/xfmedia-infopipe.c:127
+#: ../plugins/infopipe/xfmedia-infopipe.c:138
+msgid "(none)"
+msgstr "(કંઈ નહિં)"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:115
+#, c-format
+msgid "Track Position:          %d\n"
+msgstr "ટ્રેક સ્થિતિ:          %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:119
+#, c-format
+msgid "Track Length:            %d\n"
+msgstr "ટ્રેક લંબાઈ:            %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:126
+#, c-format
+msgid ""
+"Audio Codec:             %s\n"
+"Audio Bitrate:           %d\n"
+"Audio Sample Rate:       %d\n"
+"Audio Channels:          %d\n"
+"Audio Bits Per Sample:   %d\n"
+msgstr ""
+"ઓડિયો કોડેક:             %s\n"
+"ઓડિયો બીટદર:           %d\n"
+"ઓડિયો નમૂના દર:       %d\n"
+"ઓડિયો ચેનલો:          %d\n"
+"નમૂના પ્રતિ ઓડિયો બીટ્સ:   %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:137
+#, c-format
+msgid ""
+"Video Codec:            %s\n"
+"Video Bitrate:          %d\n"
+"Video Frames Per Second: %.02f\n"
+"Video Frame Size:        %dx%d\n"
+"Video Aspect Ratio:      %.02f\n"
+msgstr ""
+"વીડિયો કોડેક:            %s\n"
+"વીડિયો બીટદર:          %d\n"
+"સેકન્ડ પ્રતિ વીડિયો ચોકઠાંઓ: %.02f\n"
+"વીડિયો ચોકઠાં માપ:        %dx%d\n"
+"વીડિયો એસ્પેક્ટ રેશિયો:      %.02f\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:144
+#, c-format
+msgid "Playlist Length:         %d\n"
+msgstr "પ્લેલીસ્ટ લંબાઈ:         %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:148
+#, c-format
+msgid "Current Playlist Index:  %d\n"
+msgstr "વર્તમાન પ્લેલીસ્ટ અનુક્રમણિકા:  %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:234
+#, c-format
+msgid "Xfmedia-Infopipe: Unable to delete file '%s'."
+msgstr "Xfmedia-Infopipe: ફાઈલ '%s' કાઢી નાંખવામાં અસમર્થ."
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:245
+#, c-format
+msgid "Xfmedia-Infopipe: Unable to create pipe '%s'."
+msgstr "Xfmedia-Infopipe: pipe '%s' બનાવવામાં અસમર્થ."
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:262
+msgid "Xfmedia Infopipe"
+msgstr "Xfmedia Infopipe"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:264
+msgid ""
+"The Infopipe plugin creates a pipe in /tmp that you can use to retrieve "
+"information about the currently playing track."
+msgstr ""
+"Infopipe પ્લગઈન /tmp માં pipe બનાવે છે કે જે તમે વર્તમાનમાં ટ્રેક વગાડી રહેલ વિશે જાણકારી "
+"મેળવવા માટે વાપરી શકાય છે."
+
+#: ../src/equaliser.c:132
+#, fuzzy
+msgid "Equalizer"
+msgstr "Equalizer"
+
+#: ../src/equaliser.c:175
+msgid "Preamp"
+msgstr ""
+
+#: ../src/http.c:95
+#, c-format
+msgid "http: failed to open socket: %s\n"
+msgstr ""
+
+#: ../src/http.c:105
+#, c-format
+msgid "http: cannot connect to host\n"
+msgstr ""
+
+#: ../src/http.c:121
+#, c-format
+msgid "http: unable to resolve '%s'\n"
+msgstr ""
+
+#: ../src/http.c:133
+#, c-format
+msgid "http: unable to connect to '%s'\n"
+msgstr ""
+
+#: ../src/http.c:311 ../src/http.c:330
+msgid "URL parse error"
+msgstr ""
+
+#: ../src/http.c:322 ../src/http.c:340
+msgid "proxy authentication error"
+msgstr ""
+
+#: ../src/http.c:360
+msgid "host connect error"
+msgstr ""
+
+#: ../src/http.c:399
+msgid "couldn't send request"
+msgstr ""
+
+#: ../src/http.c:420
+msgid "read error"
+msgstr ""
+
+#: ../src/http.c:446
+msgid "invalid HTTP response"
+msgstr ""
+
+#: ../src/http.c:454
+msgid "HTTP 3xx redirection not implemented"
+msgstr ""
+
+#: ../src/http.c:461
+msgid "HTTP status is not 2xx"
+msgstr ""
+
+#: ../src/http.c:480
+msgid "HTTP 'Location:' redirection not implemented"
+msgstr ""
+
+#. FIXME: report errno, and possibly in a window
+#: ../src/http.c:534
+#, c-format
+msgid "http: read error\n"
+msgstr ""
+
+#: ../src/main.c:227 ../src/xfmedia-remote.c:102
+#, c-format
+msgid ""
+"Xfmedia %s.  Released under the terms of the GNU GPL.  See the COPYING\n"
+"file for details.\n"
+"\n"
+msgstr ""
+"Xfmedia %s.  Released under the terms of the GNU GPL.  See the COPYING\n"
+"file for details.\n"
+"\n"
+
+#: ../src/main.c:228
+#, c-format
+msgid ""
+"Usage: %s [options] [files]\n"
+"\n"
+msgstr ""
+"વપરાશ: %s [options] [files]\n"
+"\n"
+
+#: ../src/main.c:229 ../src/xfmedia-remote.c:104
+msgid "    -h, --help           Print this help message and exit.\n"
+msgstr "    -h, --help           આ મદદ સંદેશો છાપો અને બહાર નીકળો.\n"
+
+#: ../src/main.c:230 ../src/xfmedia-remote.c:105
+msgid "    -V, --version        Print version information and exit.\n"
+msgstr "    -V, --version        આવૃત્તિ જાણકારી છાપો અને બહાર નીકળો.\n"
+
+#: ../src/main.c:231
+msgid ""
+"    -v, --verbose        Instruct xine to print useful status information.\n"
+msgstr ""
+"    -v, --verbose        xine ને ઉપયોગી પરિસ્થિતિ જાણકારી છાપવા માટે સૂચવે છે.\n"
+
+#: ../src/main.c:232
+msgid ""
+"    --debug              Instruct xine to print detailed debug information.\n"
+msgstr ""
+"    --debug              xine ને વિગતવાર ડિબગ જાણકારી છાપવા માટે સૂચવે છે.\n"
+
+#: ../src/main.c:233
+msgid ""
+"    -f, --fullscreen     Start xfmedia's video window in fullscreen mode.\n"
+msgstr ""
+"    -f, --fullscreen     xfmedia ની વીડિયો વિન્ડો પૂર્ણ સ્ક્રીન સ્થિતિમાં શરૂ કરે છે.\n"
+
+#: ../src/main.c:234
+msgid ""
+"    -p, --autoplay       Start playing when Xfmedia starts.  (This is the\n"
+"                         default if xfmedia is given filenames on the "
+"command\n"
+"                         line.)\n"
+msgstr ""
+"    -p, --autoplay       જ્યારે Xfmedia શરૂ થાય છે ત્યારે વગાડવાનું શરૂ કરે છે.  (આ "
+"મૂળભુત હોય છે\n"
+"                         જો xfmedia ને આદેશ વાક્ય પર ફાઈલનામો આપેલ\n"
+"                         હોય.)\n"
+
+#: ../src/main.c:237
+msgid "    -c, --clear-playlist Start xfmedia with an empty playlist.\n"
+msgstr "    -c, --clear-playlist xfmedia ને ખાલી પ્લેલીસ્ટ સાથે શરૂ કરે છે.\n"
+
+#: ../src/main.c:238
+msgid "    --audio-out=DRIVER   Specify the audio output driver to use.\n"
+msgstr "    --audio-out=DRIVER   વાપરવા માટે ઓડિયો આઉટપુટ ડ્રાઈવર સ્પષ્ટ કરો.\n"
+
+#: ../src/main.c:239
+msgid "    --video-out=DRIVER   Specify the video output driver to use.\n"
+msgstr "    --video-out=DRIVER   વાપરવા માટે વીડિયો આઉટપુટ ડ્રાઈવર સ્પષ્ટ કરો.\n"
+
+#: ../src/main.c:240
+msgid ""
+"    --vwin-geometry=WxH[+X+Y]\n"
+"                         Specify a fixed size and/or position for xfmedia's\n"
+"                         video window.\n"
+msgstr ""
+"    --vwin-geometry=WxH[+X+Y]\n"
+"                         xfmedia ની વીડિયો વિન્ડો માટે ચોક્કસ માપ અને/અથવા સ્થાન\n"
+"                         સ્પષ્ટ કરો.\n"
+
+#: ../src/main.c:315 ../src/xfmedia-remote.c:167
+#, c-format
+msgid ""
+"Xfmedia version %s, Copyright (c) Brian Tarricone, <bjt23@cornell.edu>\n"
+msgstr ""
+"Xfmedia version %s, Copyright (c) Brian Tarricone, <bjt23@cornell.edu>\n"
+
+#: ../src/main.c:316 ../src/xfmedia-remote.c:168
+msgid "Released under the terms of the GNU General Public License.\n"
+msgstr "Released under the terms of the GNU General Public License.\n"
+
+#: ../src/main.c:317
+#, c-format
+msgid "Compiled against xine-lib %s, using xine-lib %s.\n"
+msgstr "xine-lib %s વિરુદ્ધ, xine-lib %s ની મદદથી કમ્પાઈલ થયેલ છે.\n"
+
+#: ../src/main.c:319
+#, c-format
+msgid "Compiled against Xfce %d.%d.%d, using Xfce %s.\n"
+msgstr "Xfce %d.%d.%d વિરુદ્ધ, Xfce %s ની મદદથી કમ્પાઈલ થયેલ છે.\n"
+
+#: ../src/main.c:354
+msgid "The option --audio-out requires an argument.\n"
+msgstr "વિકલ્પ --audio-out માટે દલીલ જરૂરી છે.\n"
+
+#: ../src/main.c:363
+msgid "The option --video-out requires an argument.\n"
+msgstr "વિકલ્પ --video-out માટે દલીલ જરૂરી છે.\n"
+
+#: ../src/mainwin-callbacks.c:130
+msgid "Unable to play file."
+msgstr "ફાઈલ વગાડવામાં અસમર્થ."
+
+#: ../src/mainwin-callbacks.c:131
+msgid ""
+"Xfmedia was unable to play the selected file.  Be sure that the file exists "
+"and that you have permission to access it."
+msgstr ""
+"Xfmedia એ પસંદિત ફાઈલ વગાડવામાં અસમર્થ હતો.  ખાતરી કરો કે ફાઈલ પહેલાથી જ હાજર છે "
+"અને તમારી પાસે તેને વાપરવાની પરવાગનીઓ છે."
+
+#: ../src/mainwin-callbacks.c:222
+msgid "Metadata Changed"
+msgstr "મેટાડેટા બદલાઈ ગયેલ છે"
+
+#: ../src/mainwin-callbacks.c:224
+msgid "You have edited this file's metadata."
+msgstr "તમે આ ફાઈલના મેટાડેટામાં ફેરફાર કરેલ છે."
+
+#: ../src/mainwin-callbacks.c:225
+msgid ""
+"Changes will be lost unless they are saved.  Do you wish to save changes?"
+msgstr "જ્યાં સુધી સંગ્રહ નહિં થાય તો ફેરફારો નષ્ટ થઈ જશે.  શું તમે ફેરફારો સંગ્રહવા માંગો છો?"
+
+#: ../src/mainwin-callbacks.c:226
+msgid "_Discard Changes"
+msgstr "ફેરફારો અવગણો (_D)"
+
+#: ../src/mainwin-callbacks.c:227
+msgid "_Save Changes"
+msgstr "ફેરફારો સંગ્રહો (_S)"
+
+#: ../src/mainwin-callbacks.c:285
+#, c-format
+msgid ""
+"Xfmedia was unable to open '%s'.  Be sure that the file exists and that you "
+"have permission to access it."
+msgstr ""
+"Xfmedia એ '%s' ખોલવામાં અસમર્થ હતું.  ખાતરી કરો કે ફાઈલ અસ્તિત્વમાં છે અને તમારી પાસે "
+"તેને વાપરવાની પરવાગનગીઓ છે."
+
+#: ../src/mainwin-callbacks.c:287
+msgid "Unable to open file."
+msgstr "ફાઈલ ખોલવામાં અસમર્થ."
+
+#: ../src/mainwin-callbacks.c:308
+msgid "File Info"
+msgstr "ફાઈલ જાણ"
+
+#: ../src/mainwin-callbacks.c:323
+msgid "Filename"
+msgstr "ફાઈલનામ"
+
+#: ../src/mainwin-callbacks.c:336
+msgid "Media Info"
+msgstr "મીડિયા જાણ"
+
+#: ../src/mainwin-callbacks.c:348
+msgid "Title:"
+msgstr "શીર્ષક:"
+
+#: ../src/mainwin-callbacks.c:375
+msgid "Artist:"
+msgstr "કલાકાર:"
+
+#: ../src/mainwin-callbacks.c:402
+msgid "Album:"
+msgstr "આલ્બમ:"
+
+#: ../src/mainwin-callbacks.c:429
+msgid "Genre:"
+msgstr "જાતિ:"
+
+#: ../src/mainwin-callbacks.c:452
+msgid "Track:"
+msgstr "ટ્રેક:"
+
+#: ../src/mainwin-callbacks.c:477
+msgid "Year:"
+msgstr "વર્ષ:"
+
+#: ../src/mainwin-callbacks.c:504
+msgid "Comment:"
+msgstr "ટિપ્પણી:"
+
+#: ../src/mainwin-callbacks.c:535
+msgid "Length:"
+msgstr "લંબાઈ:"
+
+#: ../src/mainwin-callbacks.c:552
+msgid "File size (b):"
+msgstr "ફાઈલ માપ (b):"
+
+#: ../src/mainwin-callbacks.c:569
+msgid "Audio Info"
+msgstr "ઓડિયો જાણ"
+
+#: ../src/mainwin-callbacks.c:581 ../src/mainwin-callbacks.c:675
+msgid "Codec:"
+msgstr "કોડેક:"
+
+#: ../src/mainwin-callbacks.c:596
+msgid "Samples/sec:"
+msgstr "નમૂનાઓ/સેક:"
+
+#: ../src/mainwin-callbacks.c:615
+msgid "Bits/sample:"
+msgstr "બીટ/નમૂનો:"
+
+#: ../src/mainwin-callbacks.c:631 ../src/mainwin-callbacks.c:732
+msgid "Channels:"
+msgstr "ચેનલો:"
+
+#: ../src/mainwin-callbacks.c:646 ../src/mainwin-callbacks.c:746
+msgid "Bitrate (kbit):"
+msgstr "બીટદર (kbit):"
+
+#: ../src/mainwin-callbacks.c:663
+msgid "Video Info"
+msgstr "વીડિયો જાણ"
+
+#: ../src/mainwin-callbacks.c:690
+msgid "FourCC:"
+msgstr "FourCC:"
+
+#: ../src/mainwin-callbacks.c:714
+msgid "Frame size:"
+msgstr "ચોકઠાં માપ:"
+
+#: ../src/mainwin-callbacks.c:895
+msgid "Add URL"
+msgstr "URL ઉમેરો"
+
+#: ../src/mainwin-callbacks.c:912
+msgid "_URL:"
+msgstr "_URL:"
+
+#: ../src/mainwin-callbacks.c:937
+msgid "Sort by filename"
+msgstr "ફાઈલનામ દ્વારા ક્રમમાં ગોઠવો"
+
+#: ../src/mainwin-callbacks.c:938
+msgid "Sort by title"
+msgstr "શીર્ષક દ્વારા ક્રમમાં ગોઠવો"
+
+#: ../src/mainwin-callbacks.c:939
+msgid "Sort by artist, title"
+msgstr "કલાકાર, શીર્ષક દ્વારા ક્રમમાં ગોઠવો"
+
+#: ../src/mainwin-callbacks.c:940
+msgid "Sort by artist, album, track number"
+msgstr "કલાકાર, આલ્બમ, ટ્રેક નંબર દ્વારા ક્રમમાં ગોઠવો"
+
+#: ../src/mainwin-callbacks.c:1241
+msgid "Add Directory"
+msgstr "ડિરેક્ટરી ઉમેરો"
+
+#: ../src/mainwin-callbacks.c:1329
+msgid "Add Media File"
+msgstr "મીડિયા ફાઈલ ઉમેરો"
+
+#: ../src/mainwin-callbacks.c:1331
+msgid "Add _Selected"
+msgstr "પસંદિત ઉમેરો (_S)"
+
+#: ../src/mainwin-callbacks.c:1335
+msgid "A_dd and Close"
+msgstr "ઉમેરો અને બંધ કરો (_d)"
+
+#: ../src/mainwin-callbacks.c:1349 ../src/playlist.c:686
+msgid "All Files"
+msgstr "બધી ફાઈલો"
+
+#: ../src/mainwin-callbacks.c:1353
+msgid "Music Files"
+msgstr "સંગીત ફાઈલો"
+
+#: ../src/mainwin-callbacks.c:1367 ../src/playlist.c:690
+msgid "Playlists"
+msgstr "પ્લેલીસ્ટ"
+
+#: ../src/mainwin-callbacks.c:1373
+msgid "Video Files"
+msgstr "વીડિયો ફાઈલો"
+
+#: ../src/mainwin-callbacks.c:1949
+msgid "Translator"
+msgstr "અનુવાદક"
+
+#: ../src/mainwin-callbacks.c:1962
+msgid ""
+"Xfmedia is a lightweight media player,\n"
+"based on the xine engine"
+msgstr ""
+"Xfmedia એ હલકું મીડિયા પ્લેયર છે,\n"
+"xine એંજીન પર આધારિત છે"
+
+#: ../src/mainwin-callbacks.c:1967
+msgid "Original Author/Maintainer"
+msgstr "મૂળ લેખક/જાળવણી કરનાર"
+
+#: ../src/mainwin-callbacks.c:2080 ../src/mainwin.c:1843
+msgid "Stopped"
+msgstr "અટકાવાયેલ"
+
+#: ../src/mainwin.c:383
+msgid "_Other"
+msgstr "અન્ય (_O)"
+
+#: ../src/mainwin.c:429
+msgid "_URL..."
+msgstr "_URL..."
+
+#: ../src/mainwin.c:438
+msgid "_Directory..."
+msgstr "ડિરેક્ટરી (_D)..."
+
+#: ../src/mainwin.c:447
+msgid "_File..."
+msgstr "ફાઈલ (_F)..."
+
+#: ../src/mainwin.c:633
+msgid "Volume"
+msgstr "અવાજ"
+
+#: ../src/mainwin.c:658 ../src/xfmedia-keybindings.c:513
+msgid "Previous Track"
+msgstr "પહેલાંનો ટ્રેક"
+
+#: ../src/mainwin.c:670
+msgid "Play/Pause Track"
+msgstr "ટ્રેક વગાડો/અટકાવો"
+
+#: ../src/mainwin.c:686
+msgid "Stop Playback"
+msgstr "પ્લેબેક અટકાવો"
+
+#: ../src/mainwin.c:697 ../src/xfmedia-keybindings.c:514
+msgid "Next Track"
+msgstr "આગળનો ટ્રેક"
+
+#: ../src/mainwin.c:705
+msgid "_Playlist"
+msgstr "પ્લેલીસ્ટ (_P)"
+
+#: ../src/mainwin.c:759
+msgid "_Enqueue"
+msgstr "કતારમાં મૂકો (_E)"
+
+#: ../src/mainwin.c:768
+msgid "Add _Mediamark..."
+msgstr "મીડિયામાર્ક ઉમેરો (_M)..."
+
+#: ../src/mainwin.c:781
+msgid "_File Info"
+msgstr "ફાઈલ જાણ (_F)"
+
+#: ../src/mainwin.c:798
+msgid "About _Xfmedia"
+msgstr "_Xfmedia વિશે"
+
+#: ../src/mainwin.c:811
+msgid "_Preferences"
+msgstr "પસંદગીઓ (_P)"
+
+#: ../src/mainwin.c:821
+msgid "_Equalizer..."
+msgstr "_Equalizer..."
+
+#: ../src/mainwin.c:832
+msgid "_Jump to File..."
+msgstr "ફાઈલ પર જાવ (_J)..."
+
+#: ../src/mainwin.c:841
+msgid "Play_list Queue..."
+msgstr "પ્લેલીસ્ટ કતાર (_l)..."
+
+#: ../src/mainwin.c:848
+msgid "_Mediamarks"
+msgstr "મીડિયામાર્ક (_M)"
+
+#: ../src/mainwin.c:858
+msgid "Re_order"
+msgstr "પુનઃક્રમમાં ગોઠવો (_o)"
+
+#: ../src/mainwin.c:869
+msgid "Sort by _Title"
+msgstr "શીર્ષક દ્વારા ક્રમમાં ગોઠવો (_T)"
+
+#: ../src/mainwin.c:875
+msgid "Sort by _Filename"
+msgstr "ફાઈલનામ દ્વારા ક્રમમાં ગોઠવો (_F)"
+
+#: ../src/mainwin.c:881
+msgid "_Randomize List"
+msgstr "રેન્ડમ યાદી કરો (_R)"
+
+#: ../src/mainwin.c:893
+msgid "_Shuffle"
+msgstr "શફલ (_S)"
+
+#: ../src/mainwin.c:901
+msgid "_Repeat"
+msgstr "પુનરાવર્તન કરો (_R)"
+
+#: ../src/mainwin.c:909
+msgid "Repeat Single _Track"
+msgstr "એક ટ્રેકનું પુનરાવર્તન કરો (_T)"
+
+#: ../src/mainwin.c:917
+msgid "Show Audio _Visualization"
+msgstr "ઓડિય વીઝ્યુલાઈઝેશન બતાવો (_V)"
+
+#: ../src/mainwin.c:1124 ../src/mainwin.c:1733
+msgid "Playing"
+msgstr "વગાડી રહ્યા છીએ"
+
+#: ../src/mainwin.c:1141
+msgid "P_revious Track"
+msgstr "પહેલાંનો ટ્રેક (_r)"
+
+#: ../src/mainwin.c:1150 ../src/mainwin.c:1262
+msgid "_Play"
+msgstr "વગાડો (_P)"
+
+#: ../src/mainwin.c:1167 ../src/mainwin.c:1283
+msgid "_Pause"
+msgstr "અટકાવો (_P)"
+
+#: ../src/mainwin.c:1178
+msgid "_Stop"
+msgstr "બંધ કરો (_S)"
+
+#: ../src/mainwin.c:1186
+msgid "_Next Track"
+msgstr "આગળનો ટ્રેક (_N)"
+
+#: ../src/mainwin.c:1754
+msgid "Paused"
+msgstr "અટકાવાયેલ"
+
+#: ../src/mediamarks.c:125
+msgid "Mediamarks Save Error"
+msgstr "મીડિયામાર્ક સંગ્રહ ભૂલ"
+
+#: ../src/mediamarks.c:127
+msgid "The mediamarks file failed to save."
+msgstr "મીડિયામાર્ક ફાઈલ સંગ્રહવામાં નિષ્ફળ."
+
+#: ../src/mediamarks.c:128 ../src/xfmedia-keybindings.c:683
+#: ../src/xfmedia-keybindings.c:696
+msgid ""
+"This could be because your disk is full, or you don't have permission to "
+"write to the configuration directory.  Any changes will be lost when you "
+"quit Xfmedia."
+msgstr ""
+"આ તમારી ડિસ્ક ભરેલી હોવાને કારણે હોઈ શકે, અથવા તમારી પાસે રૂપરેખાંકન ડિરેક્ટરીમાં લખવાની "
+"પરવાનગીઓ નથી.  જ્યારે તમે Xfmedia માંથી બહાર નીકળો તો ત્યારે કોઈપણ ફેરફારો ગુમ થઈ જશે."
+
+#: ../src/mediamarks.c:625 ../src/mediamarks.c:889
+msgid "Mediamarks"
+msgstr "મીડિયામાર્ક"
+
+#: ../src/mediamarks.c:721
+msgid "Add Mediamark"
+msgstr "મીડિયામાર્ક ઉમેરો"
+
+#: ../src/mediamarks.c:726
+msgid "_Add Mediamark"
+msgstr "મીડિયામાર્ક ઉમેરો (_A)"
+
+#: ../src/mediamarks.c:745 ../src/mediamarks.c:1191
+msgid "_Name:"
+msgstr "નામ (_N):"
+
+#: ../src/mediamarks.c:766 ../src/mediamarks.c:1213
+msgid "_Location:"
+msgstr "સ્થાન (_L):"
+
+#: ../src/mediamarks.c:781 ../src/mediamarks.c:987
+msgid "File _in:"
+msgstr "આમાં ફાઈલ (_i):"
+
+#: ../src/mediamarks.c:803
+msgid "New Folder"
+msgstr "નવું ફોલ્ડર"
+
+#: ../src/mediamarks.c:808
+msgid "Add _Folder"
+msgstr "ફોલ્ડર ઉમેરો (_F)"
+
+#: ../src/mediamarks.c:956
+msgid "Add Mediamark Folder"
+msgstr "મીડિયામાર્ક ફોલ્ડર ઉમેરો"
+
+#: ../src/mediamarks.c:962
+msgid "_Add Folder"
+msgstr "ફોલ્ડર ઉમેરો (_A)"
+
+#: ../src/mediamarks.c:978
+msgid "_Folder Name:"
+msgstr "ફોલ્ડર નામ (_F):"
+
+#: ../src/mediamarks.c:1047
+msgid "Remove Mediamark"
+msgstr "મીડિયામાર્ક દૂર કરો"
+
+#: ../src/mediamarks.c:1048 ../src/mediamarks.c:1053
+msgid "Are you sure?"
+msgstr "શું તમે ચોક્કસ છો?"
+
+#: ../src/mediamarks.c:1048
+msgid "You're about to remove a Mediamark, which can't be undone."
+msgstr "તમે મીડિયામાર્ક દૂર કરવા જઈ રહ્યા છો, કે જે પાછું રદ કરી શકાતું નથી."
+
+#: ../src/mediamarks.c:1052
+msgid "Remove Folder"
+msgstr "ફોલ્ડર દૂર કરો"
+
+#: ../src/mediamarks.c:1054
+msgid ""
+"Removing a folder also removes all items and subfolders contained in it, and "
+"can't be undone."
+msgstr ""
+"ફોલ્ડર દૂર કરવાનું તેમાં સમાયેલ બધી વસ્તુઓ અને ઉપફોલ્ડરો પણ દૂર કરશે, અને તે પાછું રદ કરી "
+"શકાશે નહિં."
+
+#: ../src/mediamarks.c:1174
+msgid "Mediamark Properties"
+msgstr "મીડિયામાર્ક ગુણધર્મો"
+
+#: ../src/mediamarks.c:1174
+msgid "Folder Properties"
+msgstr "ફોલ્ડર ગુણધર્મો"
+
+#: ../src/mediamarks.c:1593
+msgid "Manage Mediamarks"
+msgstr "મીડિયામાર્કની વ્યવસ્થા કરો"
+
+#: ../src/mediamarks.c:1615
+#, fuzzy
+msgid "New Mediamark..."
+msgstr "મીડિયામાર્ક ઉમેરો..."
+
+#: ../src/mediamarks.c:1616
+msgid "Add a new mediamark"
+msgstr "નવું મીડિયામાર્ક ઉમેરો"
+
+#: ../src/mediamarks.c:1621
+msgid "Add Folder..."
+msgstr "ફોલ્ડર ઉમેરો..."
+
+#: ../src/mediamarks.c:1622
+msgid "Add a new folder"
+msgstr "નવું ફોલ્ડર ઉમેરો"
+
+#: ../src/mediamarks.c:1627
+msgid "Remove Item"
+msgstr "વસ્તુ દૂર કરો"
+
+#: ../src/mediamarks.c:1628
+msgid "Remove the selected item"
+msgstr "પસંદિત વસ્તુ દૂર કરો"
+
+#: ../src/mediamarks.c:1635
+msgid "Move Item Up"
+msgstr "વસ્તુ ઉપર ખસેડો"
+
+#: ../src/mediamarks.c:1636
+msgid "Move the selected item up"
+msgstr "પસંદિત વસ્તુ ઉપર ખસેડો"
+
+#: ../src/mediamarks.c:1641
+msgid "Move Item Down"
+msgstr "વસ્તુ નીચે ખસેડો"
+
+#: ../src/mediamarks.c:1642
+msgid "Move the selected item down"
+msgstr "પસંદિત વસ્તુ નીચે ખસેડો"
+
+#: ../src/mediamarks.c:1649
+msgid "Refresh"
+msgstr "પુનઃતાજું કરો"
+
+#: ../src/mediamarks.c:1650
+msgid "Refresh the list"
+msgstr "યાદી પુનઃતાજી કરો"
+
+#: ../src/mediamarks.c:1655
+msgid "Properties..."
+msgstr "ગુણધર્મો..."
+
+#: ../src/mediamarks.c:1656
+msgid "Edit the selected item's properties"
+msgstr "પસંદિત વસ્તુના ગુણધર્મોમાં ફેરફાર કરો"
+
+#: ../src/mediamarks.c:1686
+msgid "Name"
+msgstr "નામ"
+
+#: ../src/mediamarks.c:1713
+msgid "Location"
+msgstr "સ્થાન"
+
+#: ../src/mediamarks.c:1806
+msgid "_Add Current Stream..."
+msgstr "વર્તમાન શબ્દમાળા ઉમેરો (_A)..."
+
+#: ../src/mediamarks.c:1815
+msgid "_Manage Mediamarks..."
+msgstr "મીડિયામાર્કની વ્યવસ્થા કરો (_M)..."
+
+#: ../src/playlist.c:536
+msgid "Save changes to this playlist before closing?"
+msgstr "શું બંધ કરવા પહેલાં આ પ્લેલીસ્ટના ફેરફારો સંગ્રહવા માંગો છો?"
+
+#: ../src/playlist.c:537
+msgid "You've changed this playlist since it was last saved."
+msgstr "તમે આ પ્લેલીસ્ટ બદલેલું છે કારણ કે તે છેલ્લે સંગ્રહાયેલ હતું."
+
+#: ../src/playlist.c:541
+msgid "Do_n't save"
+msgstr "સંગ્રહ કરશો નહિં (_n)"
+
+#: ../src/playlist.c:590 ../src/xfmedia-keybindings.c:534
+msgid "Save Playlist"
+msgstr "પ્લેલીસ્ટ સંગ્રહો"
+
+#: ../src/playlist.c:600
+msgid "Autodetect type by extension"
+msgstr "એક્સટેન્સન દ્વારા પ્રકાર આપોઆપ શોધો"
+
+#: ../src/playlist.c:604
+msgid "Flat file"
+msgstr "ફ્લેટ ફાઈલ"
+
+#: ../src/playlist.c:676
+msgid "Open Playlist"
+msgstr "પ્લેલીસ્ટ ખોલો"
+
+#: ../src/playlist.c:1359
+msgid "#"
+msgstr "#"
+
+#: ../src/playlist.c:1373
+msgid "Title"
+msgstr "શીર્ષક"
+
+#: ../src/playlist.c:1381
+msgid "Length"
+msgstr "લંબાઈ"
+
+#: ../src/playlist.c:1431
+msgid "Add entry to playlist"
+msgstr "પ્લેલીસ્ટમાં પ્રવેશ ઉમેરો"
+
+#: ../src/playlist.c:1441
+msgid "Remove entry from playlist"
+msgstr "પ્લેલીસ્ટમાંથી પ્રવેશ દૂર કરો"
+
+#: ../src/playlist.c:1451
+msgid "Move selected playlist entry up"
+msgstr "પસંદિત પ્લેલીસ્ટ પ્રવેશ ઉપર ખસેડો"
+
+#: ../src/playlist.c:1461
+msgid "Move selected playlist entry down"
+msgstr "પસંદિત પ્લેલીસ્ટ પ્રવેશ નીચે ખસેડો"
+
+#: ../src/playlist.c:1486
+msgid "Randomize play order"
+msgstr "વગાડવાનો ક્રમ રેન્ડમ કરો"
+
+#: ../src/playlist.c:1505
+msgid "Repeat after playlist finishes"
+msgstr "પ્લેલીસ્ટ પૂર્ણ થાય પછી પુનરાવર્તન કરો"
+
+#: ../src/playlist.c:1520
+msgid "Save current playlist"
+msgstr "વર્તમાન પ્લેલીસ્ટ સંગ્રહો"
+
+#: ../src/playlist.c:1530
+msgid "Open a saved playlist"
+msgstr "સંગ્રહાયેલ પ્લેલીસ્ટ ખોલો"
+
+#: ../src/playlist.c:1540
+msgid "Start a new playlist"
+msgstr "નવું પ્લેલીસ્ટ શરૂ કરો"
+
+#: ../src/playlist.c:1548
+msgid "_Remove Entry"
+msgstr "પ્રવેશ દૂર કરો (_R)"
+
+#: ../src/playlist.c:1557
+msgid "Move _Up"
+msgstr "ઉપર ખસેડો (_U)"
+
+#: ../src/playlist.c:1566
+msgid "Move _Down"
+msgstr "નીચે ખસેડો (_D)"
+
+#: ../src/remote.c:223 ../src/remote.c:466
+msgid "(no title)"
+msgstr "(કોઈ શીર્ષક નથી)"
+
+#: ../src/settings-dialog.c:145
+msgid "Optical Devices"
+msgstr "ઓપ્ટિકલ ઉપકરણો"
+
+#: ../src/settings-dialog.c:159
+#, fuzzy
+msgid "CD A_udio Device:"
+msgstr "_CD ઓડિયો ઉપકરણ:"
+
+#: ../src/settings-dialog.c:181
+#, fuzzy
+msgid "DVD Vide_o Device:"
+msgstr "_DVD વીડિયો ઉપકરણ:"
+
+#: ../src/settings-dialog.c:203
+#, fuzzy
+msgid "Vid_eo CD Device:"
+msgstr "વીડિયો CD ઉપકરણ (_V):"
+
+#: ../src/settings-dialog.c:221
+msgid "Audio"
+msgstr "ઓડિયો"
+
+#: ../src/settings-dialog.c:233
+#, fuzzy
+msgid "Dr_iver:"
+msgstr "ડ્રાઈવર (_D):"
+
+#: ../src/settings-dialog.c:243 ../src/settings-dialog.c:312
+msgid "(no drivers)"
+msgstr "(કોઈ ડ્રાઈવરો નથી)"
+
+#: ../src/settings-dialog.c:267
+msgid "_Speaker Layout:"
+msgstr "સ્પીકર લેઆઉટ (_S):"
+
+#: ../src/settings-dialog.c:275
+msgid "(option unavailable)"
+msgstr "(વિકલ્પ ઉપલબ્ધ નથી)"
+
+#: ../src/settings-dialog.c:290
+msgid "Video"
+msgstr "વીડિયો"
+
+#: ../src/settings-dialog.c:302
+msgid "D_river:"
+msgstr "ડ્રાઈવર (_r):"
+
+#: ../src/settings-dialog.c:608
+msgid "Xfmedia Preferences"
+msgstr "Xfmedia પસંદગીઓ"
+
+#: ../src/settings-dialog.c:630
+msgid "Playlist"
+msgstr "પ્લેલીસ્ટ"
+
+#: ../src/settings-dialog.c:643
+msgid "_Title Display:"
+msgstr "શીર્ષક દર્શાવો (_T):"
+
+#: ../src/settings-dialog.c:653
+msgid ""
+"This is a printf-like format string controlling the display of the "
+"playlist.  Xfmedia will replace the following symbols:\n"
+"\t%p: Artist/Performer\n"
+"\t%t: Track Title\n"
+"\t%a: Album Name\n"
+"\t%T: Track Number\n"
+"\t%g: Genre\n"
+"\t%y: Year\n"
+"\t%f: Filename\n"
+"\t%%: a percent sign"
+msgstr ""
+"આ printf-જેવા બંધારણવાળી શબ્દમાળા છે કે જે પ્લેલીસ્ટનું દૃશ્ય નિયંત્રિત કરે છે.  Xfmedia એ "
+"નીચેની સંજ્ઞાઓ બદલી નાંખશે:\n"
+"\t%p: કલાકાર/પ્રભાવ આપનાર\n"
+"\t%t: ટ્રેક શીર્ષક\n"
+"\t%a: આલ્બમ નામ\n"
+"\t%T: ટ્રેક નંબર\n"
+"\t%g: જાતિ\n"
+"\t%y: વર્ષ\n"
+"\t%f: ફાઈલનામ\n"
+"\t%%: ટકાનું ચિહ્ન"
+
+#: ../src/settings-dialog.c:667
+msgid "_Advance playlist when track ends"
+msgstr "જ્યારે ટ્રેકનો અંત થાય ત્યારે અદ્યતન પ્લેલીસ્ટ"
+
+#: ../src/settings-dialog.c:675
+msgid ""
+"When a track ends, Xfmedia can automatically advance to the next track in "
+"the playlist and continue playback."
+msgstr ""
+"જ્યારે ટ્રેક અંત થાય, ત્યારે Xfmedia આપોઆપ પ્લેલીસ્ટમાંના આગળના ટ્રેકમાં અદ્યતન રીતે પહોંચી "
+"જાય છે અને વગાડવાનું ચાલુ રાખે છે."
+
+#: ../src/settings-dialog.c:677
+msgid "_Don't save playlist on exit for one-shot invocations"
+msgstr "એક-વારના બુલાવાઓ માટે બહાર નીકળતી વખતે પ્લેલીસ્ટ સંગ્રહશો નહિં (_D)"
+
+#: ../src/settings-dialog.c:685
+msgid ""
+"Only automatically save the playlist during interactive use; i.e., don't "
+"save the playlist when Xfmedia was invoked from the commandline with a short "
+"list of definite arguments.  This option needs to be named better."
+msgstr ""
+"પૂછપરશવાળા વપરાશ દરમ્યાન માત્ર પ્લેલીસ્ટ આપોઆપ સંગ્રહ કરશો નહિં; i.e., જ્યારે Xfmedia એ "
+"આદેશ વાક્યમાંથી બોલાવાયેલ હતું ત્યારે પ્લેલીસ્ટ સંગ્રહ કરશો નહિં ટુંકી દલીલો સાથે.  આ વિકલ્પને "
+"સારું નામ અપાયેલ હોય એ જરૂરી છે."
+
+#: ../src/settings-dialog.c:691
+msgid "Load metadata:"
+msgstr "મેટાડેટા લાવો:"
+
+#: ../src/settings-dialog.c:695
+msgid "On _scroll"
+msgstr "સરકાવવા પર (_s)"
+
+#: ../src/settings-dialog.c:703
+msgid "Load file metadata for entries in the playlist when they are visible."
+msgstr "પ્લેલીસ્ટમાંના પ્રવેશો માટે ફાઈલ મેટાડેટા લાવો જ્યારે તેઓ દૃશ્યમાન થાય."
+
+#: ../src/settings-dialog.c:706
+msgid "On pla_y"
+msgstr "વગાડવા પર (_y)"
+
+#: ../src/settings-dialog.c:714
+msgid "Load file metadata for entries in the playlist only when playing them."
+msgstr "જ્યારે પ્રવેશો વગાડી રહ્યા હોય ત્યારે પ્લેલીસ્ટમાં તેમના માટે મેટાડેટા ફાઈલ લાવો."
+
+#: ../src/settings-dialog.c:717
+msgid "_Never"
+msgstr "ક્યારેય નહિં (_N)"
+
+#: ../src/settings-dialog.c:725
+msgid "Never load file metadata for entries in the playlist."
+msgstr "પ્લેલીસ્ટમાંના પ્રવેશો માટે ક્યારેય ફાઈલ મેટાડેટા લાવશો નહિં."
+
+#: ../src/settings-dialog.c:727
+msgid "Window"
+msgstr "વિન્ડો"
+
+#: ../src/settings-dialog.c:736
+msgid "Show Xfmedia on all _workspaces"
+msgstr "બધી કામ કરવાની જગ્યાઓ પર Xfmedia બતાવો (_w)"
+
+#: ../src/settings-dialog.c:742
+msgid ""
+"Sets Xfmedia \"sticky\" such that it appears on all workspaces (virtual "
+"desktops)."
+msgstr ""
+"Xfmedia ને \"sticky\" સુયોજિત કરે છે જેથી તે બધી કામ કરવાની જગ્યાઓ પર દેખાય (વર્ચ્યુઅલ "
+"ડેસ્કટોપ)."
+
+#: ../src/settings-dialog.c:744
+#, fuzzy
+msgid "Keep X_fmedia above other windows"
+msgstr "Xfmedia ને બાકીની વિન્ડોની ઉપર રાખો (_K)"
+
+#: ../src/settings-dialog.c:751
+msgid "Sets the Xfmedia window to \"Always-on-Top\" status."
+msgstr "Xfmedia વિન્ડોને \"હંમેશા-ટોચ-પર\" પરિસ્થિતિમાં સુયોજિત કરે છે."
+
+#: ../src/settings-dialog.c:753
+#, fuzzy
+msgid "Dock and auto-_hide Xfmedia at screen edges"
+msgstr "Xfmedia ને સ્ક્રીન બાજુઓ આગળ ડોક કરો અને આપોઆપ-છુપાવો (_D)"
+
+#: ../src/settings-dialog.c:760
+msgid ""
+"When the Xfmedia window is dragged to a screen edge, it will auto-hide "
+"itself and reappear when you move the mouse to the edge of the screen."
+msgstr ""
+"જ્યારે Xfmedia વિન્ડો એ સ્ક્રીન બાજુ પર ખેંચાયે, ત્યારે તે આપોઆપ-પોતાને છુપાવશે અને જ્યારે તમે "
+"માઉસને સ્ક્રીનની બાજુ પર ખસેડો ત્યારે પુનઃદૃશ્યમાન થશે."
+
+#: ../src/settings-dialog.c:762
+msgid "Tray Icon"
+msgstr "ટ્રે ચિહ્ન"
+
+#: ../src/settings-dialog.c:771
+msgid "Show _tray icon"
+msgstr "ટ્રે ચિહ્ન બતાવો (_t)"
+
+#: ../src/settings-dialog.c:777
+msgid "Displays an Xfmedia icon in the system notification area."
+msgstr "સિસ્ટમ સૂચન વિસ્તારમાં Xfmedia ચિહ્ન દર્શાવે છે."
+
+#: ../src/settings-dialog.c:779
+msgid "_Minimize Xfmedia to tray icon"
+msgstr "Xfmedia ને ટ્રે ચિહ્નમાં ન્યૂનતમ કરો (_M)"
+
+#: ../src/settings-dialog.c:787
+msgid ""
+"Minimizes Xfmedia to the tray icon rather than to the taskbar or iconbox."
+msgstr "Xfmedia ને ટ્રે ચિહ્નમાં ન્યૂનતમ કરે છે ક્રિયાપટ્ટી અથવા ચિહ્નબોક્સની જગ્યાએ."
+
+#: ../src/settings-dialog.c:793
+msgid "On middle _click:"
+msgstr "વચ્ચેનું ક્લિક કરવા પર (_c):"
+
+#: ../src/settings-dialog.c:796 ../src/settings-dialog.c:810
+msgid ""
+"The tray icon can perform an action when middle-clicked.  Select the action "
+"in the dropdown box."
+msgstr ""
+"ટ્રે ચિહ્ન જ્યારે વચ્ચેનું-ક્લિક થાય ત્યારે ક્રિયા કરી શકે છે.  નીચે આવતા બોક્સમાં ક્રિયા પસંદ "
+"કરો."
+
+#: ../src/settings-dialog.c:799
+msgid "Do nothing"
+msgstr "કંઈપણ કરો નહિં"
+
+#: ../src/settings-dialog.c:800
+msgid "Toggle play/pause"
+msgstr "વગાડો/અટકાવો બદલો"
+
+#: ../src/settings-dialog.c:801
+msgid "Next track"
+msgstr "આગળનો ટ્રેક"
+
+#: ../src/settings-dialog.c:802
+msgid "Previous track"
+msgstr "પહેલાંનો ટ્રેક"
+
+#: ../src/settings-dialog.c:815
+msgid "O_ptions"
+msgstr "વિકલ્પો (_p)"
+
+#: ../src/settings-dialog.c:826
+msgid "Selected Visualization"
+msgstr "વિઝ્યુલાઈઝેશન પસંદ થયેલ છે"
+
+#: ../src/settings-dialog.c:854
+msgid "(none available)"
+msgstr "(કંઈપણ ઉપલબ્ધ નથી)"
+
+#: ../src/settings-dialog.c:865
+msgid "Visualization Options"
+msgstr "વિઝ્યુલાઈઝેશન વિકલ્પો"
+
+#: ../src/settings-dialog.c:880
+msgid "_Audio Visualization"
+msgstr "ઓડિયો વિઝ્યુલાઈઝેશન (_A)"
+
+#: ../src/settings-dialog.c:886
+msgid "_Devices"
+msgstr "ઉપકરણો (_D)"
+
+#: ../src/settings-dialog.c:892
+msgid "_Keybindings"
+msgstr "કીબાઈન્ડીંગ (_K)"
+
+#: ../src/settings-dialog.c:900
+msgid "_Plugins"
+msgstr "પ્લગઈનો (_P)"
+
+#: ../src/settings.c:242
+#, fuzzy
+msgid "Settings Save Error"
+msgstr "કીબાઈન્ડીંગ સંગ્રહ ભૂલ"
+
+#: ../src/settings.c:243
+#, fuzzy
+msgid "The settings file failed to save."
+msgstr "કીબાઈન્ડીંગ ફાઈલ સંગ્રહ કરવામાં નિષ્ફળ."
+
+#: ../src/settings.c:244
+#, fuzzy
+msgid ""
+"This could be because your disk is full, or you don't have permission to "
+"write to the configuration directory.  Any changes will be lost when you "
+"exit Xfmedia."
+msgstr ""
+"આ તમારી ડિસ્ક ભરેલી હોવાને કારણે હોઈ શકે, અથવા તમારી પાસે રૂપરેખાંકન ડિરેક્ટરીમાં લખવાની "
+"પરવાનગીઓ નથી.  જ્યારે તમે Xfmedia માંથી બહાર નીકળો તો ત્યારે કોઈપણ ફેરફારો ગુમ થઈ જશે."
+
+#: ../src/xfmedia-common.c:422
+msgid "(UTF-8 conversion failed)"
+msgstr ""
+
+#: ../src/xfmedia-handle.c:141
+msgid "Handle Style"
+msgstr ""
+
+#: ../src/xfmedia-handle.c:142
+msgid "This property defines the handle style of the XfmediaHandle widget."
+msgstr ""
+
+#: ../src/xfmedia-handle.c:150
+msgid "Orientation"
+msgstr ""
+
+#: ../src/xfmedia-handle.c:151
+msgid "This property defines whether this is a horizontal or vertical handle."
+msgstr ""
+
+#: ../src/xfmedia-keybindings.c:510
+msgid "Play"
+msgstr "વગાડો"
+
+#: ../src/xfmedia-keybindings.c:511
+msgid "Pause"
+msgstr "અટકાવો"
+
+#: ../src/xfmedia-keybindings.c:512
+msgid "Stop"
+msgstr "બંધ કરો"
+
+#: ../src/xfmedia-keybindings.c:515
+msgid "Quit"
+msgstr "બહાર નીકળો"
+
+#: ../src/xfmedia-keybindings.c:516
+msgid "Toggle Fullscreen"
+msgstr "પૂર્ણસ્ક્રીનમાંથી બદલો"
+
+#: ../src/xfmedia-keybindings.c:517
+msgid "Toggle Shuffle Play"
+msgstr "શફલ વગાડવાનું બદલો"
+
+#: ../src/xfmedia-keybindings.c:518
+msgid "Toggle Repeat Play"
+msgstr "પુનરાવર્તિત વગાડવાનું બદલો"
+
+#: ../src/xfmedia-keybindings.c:519
+msgid "Toggle Audio Visualization"
+msgstr "ઓડિયો વિઝ્યુલાઈઝેશન બદલો"
+
+#: ../src/xfmedia-keybindings.c:520
+msgid "Set Speed Faster"
+msgstr "ઝડપ ઝડપી સુયોજિત કરો"
+
+#: ../src/xfmedia-keybindings.c:521
+msgid "Set Speed Slower"
+msgstr "ઝડપ ધીમી સુયોજિત કરો"
+
+#: ../src/xfmedia-keybindings.c:522
+msgid "Forward 10 Seconds"
+msgstr "૧૦ સેકન્ડો આગળ ધપાવો"
+
+#: ../src/xfmedia-keybindings.c:523
+msgid "Forward 30 Seconds"
+msgstr "૩૦ સેકન્ડો આગળ ધપાવો"
+
+#: ../src/xfmedia-keybindings.c:524
+msgid "Forward 60 Seconds"
+msgstr "૬૦ સેકન્ડો આગળ ધપાવો"
+
+#: ../src/xfmedia-keybindings.c:525
+msgid "Backward 10 Seconds"
+msgstr "૧૦ સેકન્ડો પાછળ ધપાવો"
+
+#: ../src/xfmedia-keybindings.c:526
+msgid "Backward 30 Seconds"
+msgstr "૩૦ સેકન્ડો પાછળ ધપાવો"
+
+#: ../src/xfmedia-keybindings.c:527
+msgid "Backward 60 Seconds"
+msgstr "૬૦ સેકન્ડો પાછળ ધપાવો"
+
+#: ../src/xfmedia-keybindings.c:528
+msgid "Enqueue Track"
+msgstr "ટ્રેક કતારમાં કરો"
+
+#: ../src/xfmedia-keybindings.c:529
+msgid "Show Queued Tracks"
+msgstr "કતારવાળા ટ્રેકો બતાવો"
+
+#: ../src/xfmedia-keybindings.c:530
+msgid "Toggle Audio Mute"
+msgstr "ઓડિયો મૂંગુ બદલો"
+
+#: ../src/xfmedia-keybindings.c:531
+msgid "Add File to Playlist"
+msgstr "પ્લેલીસ્ટમાં ફાઈલ ઉમેરો"
+
+#: ../src/xfmedia-keybindings.c:532
+msgid "Add URL to Playlist"
+msgstr "પ્લેલીસ્ટમાં URL ઉમેરો"
+
+#: ../src/xfmedia-keybindings.c:533
+msgid "Open Saved Playlist"
+msgstr "સંગ્રહાયેલ પ્લેલીસ્ટ ખોલો"
+
+#: ../src/xfmedia-keybindings.c:535
+msgid "Clear Playlist"
+msgstr "પ્લેલીસ્ટ સાફ કરો"
+
+#: ../src/xfmedia-keybindings.c:536
+msgid "A/V Sync Plus"
+msgstr "A/V Sync વત્તા"
+
+#: ../src/xfmedia-keybindings.c:537
+msgid "A/V Sync Minus"
+msgstr "A/V Sync બાદ"
+
+#: ../src/xfmedia-keybindings.c:538
+msgid "Select Aspect Ratio"
+msgstr "એસ્પેક્ટ રેશિયો પસંદ કરો"
+
+#: ../src/xfmedia-keybindings.c:539
+msgid "Jump to File"
+msgstr "ફાઈલ પર જાવ"
+
+#: ../src/xfmedia-keybindings.c:540
+msgid "Video Zoom In"
+msgstr "વીડિયો મોટું કરો"
+
+#: ../src/xfmedia-keybindings.c:541
+msgid "Video Zoom Out"
+msgstr "વીડિયો નાનું કરો"
+
+#: ../src/xfmedia-keybindings.c:542
+msgid "Video Window Larger"
+msgstr "વીડિયો વિન્ડો મોટી કરો"
+
+#: ../src/xfmedia-keybindings.c:543
+msgid "Video Window Smaller"
+msgstr "વીડિયો વિન્ડો નાની કરો"
+
+#: ../src/xfmedia-keybindings.c:544
+msgid "Volume Up"
+msgstr "અવાજ વધારો"
+
+#: ../src/xfmedia-keybindings.c:545
+msgid "Volume Down"
+msgstr "અવાજ ઓછો કરો"
+
+#: ../src/xfmedia-keybindings.c:546
+msgid "Audio Track Next"
+msgstr ""
+
+#: ../src/xfmedia-keybindings.c:547
+msgid "Audio Track Previous"
+msgstr ""
+
+#: ../src/xfmedia-keybindings.c:548
+msgid "Subtitle Track Next"
+msgstr ""
+
+#: ../src/xfmedia-keybindings.c:549
+msgid "Subtitle Track Previous"
+msgstr ""
+
+#: ../src/xfmedia-keybindings.c:635
+msgid "Set Keybinding"
+msgstr "કીબાઈન્ડીંગ સુયોજિત કરો"
+
+#: ../src/xfmedia-keybindings.c:638
+msgid "_Clear"
+msgstr "સાફ કરો (_C)"
+
+#: ../src/xfmedia-keybindings.c:647
+msgid "Set shortcut for:"
+msgstr "આના માટે ટુંકાણ સુયોજિત કરો:"
+
+#: ../src/xfmedia-keybindings.c:665
+msgid "Keybinding Error"
+msgstr "કીબાઈન્ડીંગ ભૂલ"
+
+#: ../src/xfmedia-keybindings.c:666
+msgid "Keybinding already in use."
+msgstr "કીબાઈન્ડીંગ પહેલાથી જ વપરાશમાં છે."
+
+#: ../src/xfmedia-keybindings.c:667
+msgid ""
+"The key sequence you selected is already in use by another function.  Please "
+"set the other function to something else."
+msgstr ""
+"તમે પસંદ કરેલ કી ક્રમ પહેલાથી જ અન્ય વિધેય દ્વારા વપરાશમાં છે.  મહેરબાની કરીને કંઈક બીજું "
+"કરવા માટે અન્ય વિધેય સુયોજિત કરો."
+
+#: ../src/xfmedia-keybindings.c:680 ../src/xfmedia-keybindings.c:693
+msgid "Keybindings Save Error"
+msgstr "કીબાઈન્ડીંગ સંગ્રહ ભૂલ"
+
+#: ../src/xfmedia-keybindings.c:682 ../src/xfmedia-keybindings.c:695
+msgid "The keybindings file failed to save."
+msgstr "કીબાઈન્ડીંગ ફાઈલ સંગ્રહ કરવામાં નિષ્ફળ."
+
+#: ../src/xfmedia-keybindings.c:691
+msgid "None"
+msgstr "કંઈ નહિં"
+
+#: ../src/xfmedia-keybindings.c:808
+msgid "Function"
+msgstr "વિધેય"
+
+#: ../src/xfmedia-keybindings.c:813
+msgid "Keys"
+msgstr "કીઓ"
+
+#: ../src/xfmedia-remote.c:103
+#, c-format
+msgid ""
+"Usage: %s [options]\n"
+"\n"
+msgstr ""
+"વપરાશ: %s [options]\n"
+"\n"
+
+#: ../src/xfmedia-remote.c:106
+msgid ""
+"    --session=N          Specify the number of the already-running instance "
+"of\n"
+"                         Xfmedia.  (Defaults to 0, or the first instance "
+"found.)\n"
+msgstr ""
+"    --session=N          Xfmedia ના પહેલાથી જ ચાલી રહેલ ઘટકોની સંખ્યા સ્પષ્ટ\n"
+"                         કરો.  (૦ મૂળભુત છે, અથવા પ્રથમ ઘટક મળ્યો.)\n"
+
+#: ../src/xfmedia-remote.c:108
+msgid ""
+"    --ping               Checks to see if an instance of Xfmedia is "
+"running.\n"
+msgstr ""
+"    --ping               શું Xfmedia નો ઘટક ચાલી રહ્યો છે તે જોવા માટે ચકાસે છે.\n"
+
+#: ../src/xfmedia-remote.c:109
+msgid ""
+"    -p, --play[=N]       Causes Xfmedia to play the file at playlist idx N.\n"
+"                         If N is not specified, Xfmedia will play the "
+"currently-\n"
+"                         selected entry, or, if no item is selected, the "
+"first\n"
+"                         entry.  If used in conjunction with --playlist-"
+"add,\n"
+"                         will cause Xfmedia to play the newly-added entry.\n"
+msgstr ""
+"    -p, --play[=N]       Xfmedia ને પ્લેલીસ્ટ idx N આગળ ફાઈલ વગાડવા માટેનું કારણ બને "
+"છે.\n"
+"                         જો N સ્પષ્ટ નહિં થયેલ હોય, તો Xfmedia વર્તમાનમાં-પસંદિત "
+"પ્રવેશ વગાડે,\n"
+"                         અથવા, જો વસ્તુ નહિં પસંદ થયેલ હોય, તો પ્રથમ પ્રવેશ\n"
+"                         વગાડે છે.  જો --playlist-add સાથે વપરાયેલ હોય,\n"
+"                         તો તે Xfmedia ને નવો-ઉમેરાયેલ પ્રવેશ વગાડવા માટેનું કારણ બને "
+"છે.\n"
+
+#: ../src/xfmedia-remote.c:114
+msgid ""
+"    --toggle             Causes Xfmedia to pause if playing, or play if "
+"paused\n"
+"                         or stopped.\n"
+msgstr ""
+"    --toggle             Xfmedia ને વગાડવાનું અટકાવવાનું કારણ બને છે, અથવા શું "
+"અટકાવાયેલ છે\n"
+"                         કે બંધ થયેલ છે.\n"
+
+#: ../src/xfmedia-remote.c:116
+msgid "    --pause              Causes Xfmedia to pause/unpause.\n"
+msgstr "    --pause              Xfmedia ને અટકાવવા/નહિં અટકાવવાનું કારણ બને છે.\n"
+
+#: ../src/xfmedia-remote.c:117
+msgid "    --stop               Causes Xfmedia to stop playback.\n"
+msgstr "    --stop               Xfmedia ને વગાડવાનું બંધ કરવાનું કારણ બને છે.\n"
+
+#: ../src/xfmedia-remote.c:118
+msgid ""
+"    --previous           Causes Xfmedia to play the entry played before the\n"
+"                         currently-selected (or -playing) entry.\n"
+msgstr ""
+"    --previous           Xfmedia ને પહેલાં વગાડાયેલ પ્રવેશ વગાડવાનું કારણ બને છે\n"
+"                         વર્તમાનમાં-પસંદ થયેલ (અથવા -playing) પ્રવેશ પહેલાં.\n"
+
+#: ../src/xfmedia-remote.c:120
+msgid ""
+"    --next               Causes Xfmedia to play the next entry in the "
+"playlist.\n"
+"                         If Xfmedia is in shuffle mode, a new entry will be\n"
+"                         selected randomly.\n"
+msgstr ""
+"    --next               Xfmedia ને પ્લેલીસ્ટમાં આગળનો પ્રવેશ વગાડવા માટેનું કારણ બને "
+"છે.\n"
+"                         જો Xfmedia એ શફલ સ્થિતિમાં હોય, તો નવો પ્રવેશ રેન્ડમ રીતે\n"
+"                         પસંદ થશે.\n"
+
+#: ../src/xfmedia-remote.c:123
+msgid ""
+"    -a, --playlist-add=FILE\n"
+"                         Adds FILE to the end of the playlist.\n"
+msgstr ""
+"    -a, --playlist-add=FILE\n"
+"                         FILE ને પ્લેલીસ્ટના અંતે ઉમેરે છે.\n"
+
+#: ../src/xfmedia-remote.c:125
+msgid ""
+"    -r, --playlist-remove=N\n"
+"                         Removes the specified playlist entry from the "
+"playlist.\n"
+msgstr ""
+"    -r, --playlist-remove=N\n"
+"                         સ્પષ્ટ થયેલ પ્લેલીસ્ટ પ્રવેશને પ્લેલીસ્ટમાંથી દૂર કરે છે.\n"
+
+#: ../src/xfmedia-remote.c:127
+msgid ""
+"    -c, --playlist-clear\n"
+"                         Removes all entries from the playlist.\n"
+msgstr ""
+"    -c, --playlist-clear\n"
+"                         પ્લેલીસ્ટમાંથી બધા પ્રવેશો દૂર કરે છે.\n"
+
+#: ../src/xfmedia-remote.c:129
+msgid ""
+"    -l, --playlist-load=FILE\n"
+"                         Loads the specified playlist.  Note that this does "
+"NOT\n"
+"                         first clear the playlist.\n"
+msgstr ""
+"    -l, --playlist-load=FILE\n"
+"                         સ્પષ્ટ થયેલ પ્લેલીસ્ટ લાવે છે.  નોંધ કરો કે આ પ્રથમ પ્લેલીસ્ટ "
+"સાફ\n"
+"                         કરતું નથી.\n"
+
+#: ../src/xfmedia-remote.c:132
+msgid ""
+"    -s, --playlist-save=FILE\n"
+"                         Saves the current playlist to the specified FILE.\n"
+msgstr ""
+"    -s, --playlist-save=FILE\n"
+"                         સ્પષ્ટ થયેલ ફાઈલ માટે વર્તમાન પ્લેલીસ્ટ સંગ્રહે છે.\n"
+
+#: ../src/xfmedia-remote.c:134
+msgid "    -Q, --quit           Instructs Xfmedia to quit.\n"
+msgstr "    -Q, --quit           Xfmedia ને બંધ કરવા માટે સૂચવે છે.\n"
+
+#: ../src/xfmedia-remote.c:135
+#, fuzzy
+msgid ""
+"    -j, --jump-to-file   Causes Xfmedia to show the main window (if not "
+"visible)\n"
+"                         and show the jump-to-file entry box.\n"
+msgstr ""
+"    -j, --jump-to-file   Xfmedia ને મુખ્ય વિન્ડો બતાવવાનું કારણ બને છે (જો દૃશ્યમાન "
+"નહિં હોય)\n"
+"                         અને ફાઈલ-પર-કૂદો પ્રવેશ બોક્સ બતાવવાનું કારણ બને છે.\n"
+
+#: ../src/xfmedia-remote.c:180
+msgid "Argument to --session must be greater than or equal to 0.\n"
+msgstr "--session ની દલીલ ૦ કરતાં મોટી અથવા તેના બરાબર હોવી જ જોઈએ.\n"
+
+#: ../src/xfmedia-remote.c:195
+msgid "Argument to --play must be greater than or equal to 0.\n"
+msgstr "--play ની દલીલ ૦ કરતાં મોટી અથવા તેના જેટલી હોવી જ જોઈએ.\n"
+
+#: ../src/xfmedia-remote.c:239
+msgid "Argument to --playlist-remove must be greater than or equal to 0.\n"
+msgstr "--playlist-remove ની દલીલ ૦ કરતાં મોટી અથવા તેના જેટલી હોવી જ જોઈએ.\n"
+
+#: ../src/xfmedia-remote.c:276
+#, c-format
+msgid "Unrecognized option: %s\n"
+msgstr "અવ્યાખ્યાયિત વિકલ્પ: %s\n"
+
+#: ../src/xfmedia-remote.c:289
+msgid ""
+"Unable to initialize the Xfmedia remote client service.  The most likely "
+"cause is that a DBUS session bus is not running"
+msgstr ""
+
+#: ../src/xfmedia-remote.c:301
+msgid "Unable to find a running Xfmedia instance."
+msgstr "ચાલી રહેલ Xfmedia ઘટક શોધવામાં અસમર્થ."
+
+#: ../src/xfmedia-video-window.c:188
+msgid "Xfmedia Video"
+msgstr "Xfmedia વીડિયો"
+
+#: ../xfmedia/getopt.c:686
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr ""
+
+#: ../xfmedia/getopt.c:711
+#, fuzzy, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "વિકલ્પ --audio-out માટે દલીલ જરૂરી છે.\n"
+
+#: ../xfmedia/getopt.c:716
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr ""
+
+#: ../xfmedia/getopt.c:734 ../xfmedia/getopt.c:907
+#, fuzzy, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "વિકલ્પ --audio-out માટે દલીલ જરૂરી છે.\n"
+
+#. --option
+#: ../xfmedia/getopt.c:763
+#, fuzzy, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "અવ્યાખ્યાયિત વિકલ્પ: %s\n"
+
+#. +option or -option
+#: ../xfmedia/getopt.c:767
+#, fuzzy, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "અવ્યાખ્યાયિત વિકલ્પ: %s\n"
+
+#. 1003.2 specifies the format of this message.
+#: ../xfmedia/getopt.c:793
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr ""
+
+#: ../xfmedia/getopt.c:796
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr ""
+
+#. 1003.2 specifies the format of this message.
+#: ../xfmedia/getopt.c:826 ../xfmedia/getopt.c:956
+#, fuzzy, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "વિકલ્પ --audio-out માટે દલીલ જરૂરી છે.\n"
+
+#: ../xfmedia/getopt.c:873
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr ""
+
+#: ../xfmedia/getopt.c:891
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr ""
+
+#: ../xfmedia/remote-client.c:607 ../xfmedia/remote-client.c:614
+#: ../xfmedia/remote-client.c:621
+msgid ""
+"Xfmedia was not compiled with D-BUS support.  Remote control interface is "
+"not available."
+msgstr ""
+
+#: ../xfmedia.desktop.in.h:1
+msgid "Enqueue and play with Xfmedia"
+msgstr ""
+
+#: ../xfmedia.desktop.in.h:2
+msgid "Enqueue in Xfmedia"
+msgstr ""
+
+#: ../xfmedia.desktop.in.h:3
+msgid "Lightweight Media Player"
+msgstr "હલકું મીડિયા પ્લેયર"
+
+#: ../xfmedia.desktop.in.h:4
+msgid "Xfmedia"
+msgstr "Xfmedia"

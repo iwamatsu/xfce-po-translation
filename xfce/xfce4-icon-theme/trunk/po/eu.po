@@ -1,0 +1,26 @@
+# translation of eu.po to librezale
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Piarres Beobide <pi@beobide.net>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-icon-theme 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-11-22 00:16+0900\n"
+"PO-Revision-Date: 2006-05-30 15:06+0200\n"
+"Last-Translator: Piarres Beobide <pi@beobide.net>\n"
+"Language-Team: librezale <librezale@librezale.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.2\n"
+
+#: ../Rodent/index.theme.in.h:1
+msgid "Default icon for the Xfce Desktop Environment"
+msgstr "Xfce Mahaigain Ingurunean lehenetsiriko ikono gaia"
+
+#: ../Rodent/index.theme.in.h:2
+msgid "Rodent"
+msgstr "Rodent"
+

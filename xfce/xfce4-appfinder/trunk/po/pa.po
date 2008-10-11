@@ -1,0 +1,175 @@
+# translation of pa.po to Punjabi
+# Punjabi translations for xfce4-appfinder package.
+# Copyright (C) 2004-2005 Eduard Roccatello.
+# This file is distributed under the same license as the xfce4-appfinder package.
+#
+# Amanpreet Singh Alam <aalam@redhat.com>, 2004.
+# A S Alam <apbrar@gmail.com>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-appfinder 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-10-02 17:55+0200\n"
+"PO-Revision-Date: 2006-12-29 06:22+0530\n"
+"Last-Translator: A S Alam <apbrar@gmail.com>\n"
+"Language-Team: Punjabi <fedora-trans-pa@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../src/main.c:42
+#, fuzzy
+msgid "Version information"
+msgstr "ਹੋਰ ਜਾਣਕਾਰੀ..."
+
+#: ../src/main.c:43
+msgid "[MENUFILE]"
+msgstr ""
+
+#: ../src/main.c:64
+#, c-format
+msgid "Type '%s --help' for usage information."
+msgstr ""
+
+#: ../src/main.c:70
+msgid "Unable to initialize GTK+."
+msgstr ""
+
+#: ../src/main.c:80
+msgid "The Xfce development team. All rights reserved."
+msgstr ""
+
+#: ../src/main.c:81
+#, c-format
+msgid "Please report bugs to <%s>."
+msgstr ""
+
+#: ../src/main.c:97
+#, c-format
+msgid "Failed to connect to xfconf daemon. Reason: %s"
+msgstr ""
+
+#: ../src/main.c:101
+msgid "Failed to connect to xfconf daemon."
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:244 ../src/xfce-appfinder-window.c:258
+#: ../data/xfce4-appfinder.desktop.in.h:1
+#, fuzzy
+msgid "Application Finder"
+msgstr "Xfce 4 ਲਈ ਐਪਲੀਕੇਸ਼ਨ ਫਾਇਡਰ"
+
+#: ../src/xfce-appfinder-window.c:259 ../data/xfce4-appfinder.desktop.in.h:2
+msgid "Find and launch applications installed on your system"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:282
+msgid "Filter"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:304
+msgid "Categories"
+msgstr "ਕੈਟਾਗਰੀ"
+
+#: ../src/xfce-appfinder-window.c:351
+msgid "C_lose after execute"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:614
+#, c-format
+msgid "Could not execute application %s. Reason: %s"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:618
+#, fuzzy, c-format
+msgid "Could not execute application %s"
+msgstr "ਚੁਣੀ ਐਪਲੀਕੇਸ਼ਨ ਚਲਾਈ ਨਹੀਂ ਜਾ ਸਕਦੀ"
+
+#: ../src/xfce-appfinder-window.c:736
+#, c-format
+msgid "Could not load menu from %s. Reason: %s"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:738 ../src/xfce-appfinder-window.c:747
+msgid "Could not load system menu"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:745
+#, c-format
+msgid "Could not load menu from %s"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:760 ../src/xfce-appfinder-window.c:1017
+msgid "All"
+msgstr "ਸਭ"
+
+#~ msgid "Xfce 4 Appfinder"
+#~ msgstr "Xfce 4 ਐਪ-ਫਾਇਡਰ"
+
+#~ msgid "<b>Name</b>"
+#~ msgstr "<b>ਨਾਂ</b>"
+
+#~ msgid "N/A"
+#~ msgstr "N/A"
+
+#~ msgid "<b>Comment</b>"
+#~ msgstr "<b>ਟਿੱਪਣੀ</b>"
+
+#~ msgid "<b>Categories</b>"
+#~ msgstr "<b>ਕੈਟਾਗਰੀ</b>"
+
+#~ msgid "<b>Command</b>"
+#~ msgstr "<b>ਕਮਾਂਡ</b>"
+
+#~ msgid "Run program"
+#~ msgstr "ਪ੍ਰੋਗਰਾਮ ਚਲਾਓ"
+
+#~ msgid "<b>Search:</b>"
+#~ msgstr "<b>ਖੋਜ:</b>"
+
+#~ msgid "Show Categories"
+#~ msgstr "ਕੈਟਾਗਰੀ ਵੇਖਾਓ"
+
+#~ msgid "Core"
+#~ msgstr "ਕੋਰ"
+
+#~ msgid "Development"
+#~ msgstr "ਡੀਵੈਂਲਪਮਿੰਟ"
+
+#~ msgid "Office"
+#~ msgstr "ਦਫਤਰ"
+
+#~ msgid "Graphics"
+#~ msgstr "ਗਰਾਫਿਕਸ"
+
+#~ msgid "Network"
+#~ msgstr "ਨੈੱਟਵਰਕ"
+
+#~ msgid "AudioVideo"
+#~ msgstr "ਆਡੀਓ-ਵੀਡਿਓ"
+
+#~ msgid "Game"
+#~ msgstr "ਖੇਡ"
+
+#~ msgid "Education"
+#~ msgstr "ਐਜ਼ੂਕੇਸ਼ਨ"
+
+#~ msgid "System"
+#~ msgstr "ਸਿਸਟਮ"
+
+#~ msgid "Filemanager"
+#~ msgstr "ਫਾਇਲ-ਮੈਨੇਜਰ"
+
+#~ msgid "Utility"
+#~ msgstr "ਯੂਟੈਲਟੀ"
+
+#~ msgid "No items available"
+#~ msgstr "ਕੋਈ ਆਈਟਮ ਉਪਲੱਬਧ ਨਹੀਂ"
+
+#~ msgid "Sorry, no match for searched text."
+#~ msgstr "ਅਫਸੋਸ ਹੈ ਕਿ ਖੋਜੇ ਟੈਕਸਟ ਲਈ ਮੇਲ ਨਹੀਂ ਹੈ।"
+
+#~ msgid "Appfinder"
+#~ msgstr "ਐਪ-ਫਾਇਡਰ"

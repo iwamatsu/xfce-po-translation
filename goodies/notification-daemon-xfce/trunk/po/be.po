@@ -1,0 +1,74 @@
+# translation of notification-daemon-xfce.po to librezale
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: notification-daemon-xfce trunk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-10-22 17:38+0200\n"
+"PO-Revision-Date: 2007-03-30 02:12+0300\n"
+"Last-Translator: Alexander Nyakhaychyk <nyakhaychyk@gmail.com>\n"
+"Language-Team: Belarusian <i18n@mova.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/settings/main.c:64
+msgid "Top Left"
+msgstr "Верхні левы кут"
+
+#: ../src/settings/main.c:65
+msgid "Top Right"
+msgstr "Верхні правы кут"
+
+#: ../src/settings/main.c:66
+msgid "Bottom Left"
+msgstr "Ніжні левы кут"
+
+#: ../src/settings/main.c:67
+msgid "Bottom Right"
+msgstr "Ніжні правы кут"
+
+#. create new preview notification
+#: ../src/settings/main.c:188
+msgid "Preview notification"
+msgstr "Дэманстрацыя інфармаваньня"
+
+#: ../src/settings/main.c:189
+msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr "Той люд жыве, што свае песьні мае..."
+
+#: ../src/settings/main.c:324
+#: ../src/settings/notification-settings.desktop.in.h:2
+msgid "Notification Settings"
+msgstr "Настаўленьні Інфармавальніка"
+
+#: ../src/settings/main.c:330
+msgid "Configure the Xfce notification daemon"
+msgstr "Наладка службы інфармаваньня Xfce"
+
+#: ../src/settings/main.c:340
+msgid "Notification _position:"
+msgstr "Па_зыцыя Інфармавальніка:"
+
+#: ../src/settings/main.c:370
+msgid "Pre_view"
+msgstr "П_ерадпрагляд"
+
+#: ../src/settings/mcs_plugin.c:41
+msgid "Failed to launch notification-settings"
+msgstr "Немагчыма запусьціць notification-settings"
+
+#: ../src/settings/mcs_plugin.c:61
+msgid "Button Label|Notification Settings"
+msgstr "Настаўленьні Інфармавальніка"
+
+#: ../src/settings/notification-settings.desktop.in.h:1
+msgid "Customize the notification daemon settings"
+msgstr "Наладка настаўленьняў службы інфармаваньня"
+
+#: ../src/settings/notification-settings.desktop.in.h:3
+msgid "Xfce 4 Notification Settings"
+msgstr "Настаўленьні Інфармавальніка Xfce 4"
+

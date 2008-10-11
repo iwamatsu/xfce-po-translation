@@ -1,0 +1,243 @@
+# Ukrainian translation of xfce4-cellmodem-plugin.
+# Copyright (C) 2007 Dmitry Nikitin
+# This file is distributed under the same license as the xfce4-cellmodem-plugin package.
+#
+# Dmitry Nikitin <luckas_fb@mail.ru>, 2007, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-cellmodem-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-12 12:26+0000\n"
+"PO-Revision-Date: 2008-07-28 18:16+0300\n"
+"Last-Translator: Dmitry Nikitin <luckas_fb@mail.ru>\n"
+"Language-Team: Ukrainian <xfce4-dev@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../panel-plugin/cellmodem.c:482
+msgid "Initializing plugin now"
+msgstr "Ініціювати розширення зараз"
+
+#: ../panel-plugin/cellmodem.c:505
+#, c-format
+msgid ""
+"Error detected:\n"
+"%s"
+msgstr ""
+"Виявлено помилку:\n"
+"%s"
+
+#: ../panel-plugin/cellmodem.c:511
+#, c-format
+msgid "Not registered"
+msgstr "Не зареєстровано"
+
+#: ../panel-plugin/cellmodem.c:514
+#, c-format
+msgid "Modem needs PIN"
+msgstr "Модему потрібен PIN"
+
+#: ../panel-plugin/cellmodem.c:517
+#, c-format
+msgid "Registering"
+msgstr "Реєстрація"
+
+#: ../panel-plugin/cellmodem.c:520
+#, c-format
+msgid ""
+"Registered [GPRS] to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"Зареєстровано [GPRS] для %s\n"
+"Якість: %d (%d%%)"
+
+#: ../panel-plugin/cellmodem.c:523
+#, c-format
+msgid ""
+"Registered [UMTS] to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"Зареєстровано [UMTS] для %s\n"
+"Якість: %d (%d%%)"
+
+#: ../panel-plugin/cellmodem.c:526
+#, c-format
+msgid ""
+"Registered [HSDPA] to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"Зареєстровано [HSDPA] для %s\n"
+"Якість: %d (%d%%)"
+
+#: ../panel-plugin/cellmodem.c:529
+#, c-format
+msgid ""
+"Registered to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"Зареєстровано для %s\n"
+"Якість: %d (%d%%)"
+
+#. Error
+#: ../panel-plugin/cellmodem.c:687
+msgid "Error in modem reply to CREG"
+msgstr "Помилка у відповіді модема для CREG"
+
+#: ../panel-plugin/cellmodem.c:696
+msgid "Invalid reply to +CREG"
+msgstr "Неправильна відповідь для +CREG"
+
+#: ../panel-plugin/cellmodem.c:721
+msgid "Invalid CREG reply from modem"
+msgstr "Неправильна CREG відповідь від модема"
+
+#: ../panel-plugin/cellmodem.c:760
+msgid "Error in modem reply to COPS"
+msgstr "Помилка у відповіді модема для COPS"
+
+#: ../panel-plugin/cellmodem.c:816
+msgid "Invalid COPS reply from modem"
+msgstr "Неправильна COPS відповідь від модема"
+
+#: ../panel-plugin/cellmodem.c:844
+msgid "Error in modem reply to CPIN"
+msgstr "Помилка у відповіді модема для CPIN"
+
+#: ../panel-plugin/cellmodem.c:870
+msgid "Invalid CPIN reply from modem"
+msgstr "Неправильна CPIN відповідь від модема"
+
+#: ../panel-plugin/cellmodem.c:875
+msgid "Unsupportted CPIN reply from modem"
+msgstr "Непідтримувана CPIN відповідь від модема"
+
+#: ../panel-plugin/cellmodem.c:919 ../panel-plugin/cellmodem.c:973
+msgid "Invalid OHCIP reply from modem"
+msgstr "Неправильна OHCIP відповідь від модема"
+
+#: ../panel-plugin/cellmodem.c:923 ../panel-plugin/cellmodem.c:977
+msgid "Unsupportted OHCIP reply from modem"
+msgstr "Непідтримувана OHCIP відповідь від модема"
+
+#. Error
+#: ../panel-plugin/cellmodem.c:1019
+msgid "Cannot send PIN to modem"
+msgstr "Неможливо послати PIN в модем"
+
+#: ../panel-plugin/cellmodem.c:1055
+msgid "Error in modem reply to CSQ"
+msgstr "Помилка у відповіді модема для CSQ"
+
+#: ../panel-plugin/cellmodem.c:1075
+msgid "Invalid CSQ reply from modem"
+msgstr "Неправильна CSQ відповідь від модема"
+
+#: ../panel-plugin/cellmodem.c:1276 ../panel-plugin/cellmodem.c:1603
+msgid "Cannot open modem"
+msgstr "Неможливо відкрити модем"
+
+#: ../panel-plugin/cellmodem.c:1429
+msgid "Error reading from modem"
+msgstr "Помилка читання з модема"
+
+#: ../panel-plugin/cellmodem.c:1507
+msgid "Error writing to modem"
+msgstr "Помилка запису в модем"
+
+#: ../panel-plugin/cellmodem.c:1523
+msgid "Modem did not reply to command"
+msgstr "Модем не відповів на команду"
+
+#: ../panel-plugin/cellmodem.c:1541
+msgid "No driver defined"
+msgstr "Не визначений драйвер"
+
+#: ../panel-plugin/cellmodem.c:1546
+msgid "No modem instance"
+msgstr "Модем не встановлено"
+
+#: ../panel-plugin/cellmodem.c:1720
+msgid "Modem initializing"
+msgstr "Ініціалізація модема"
+
+#: ../panel-plugin/cellmodem.c:1755
+msgid "Invalid driver specified"
+msgstr "Визначено неправильний драйвер"
+
+#. Error.
+#: ../panel-plugin/pin_helper.c:31
+msgid "Invalid PIN entered. PIN has 4 digits"
+msgstr "Введено неправильний PIN. PIN налічує 4 цифри"
+
+#: ../panel-plugin/pin_helper.c:65
+msgid "Enter PIN"
+msgstr "Ввід PIN"
+
+#: ../panel-plugin/pin_helper.c:77
+msgid "Please enter PIN:"
+msgstr "Введіть будь-ласка PIN:"
+
+#: ../panel-plugin/preferences.c:285
+msgid "Close"
+msgstr "Закрити"
+
+#: ../panel-plugin/preferences.c:290
+msgid "No known device found."
+msgstr "Виявлено невідомий пристрій."
+
+#: ../panel-plugin/preferences.c:292
+msgid "The following devices were found:"
+msgstr "Було знайдено наступні пристрої:"
+
+#: ../panel-plugin/preferences.c:299
+msgid "Use this device"
+msgstr "Використовувати цей пристрій"
+
+#: ../panel-plugin/preferences.c:343
+msgid "Configure Cell Modem Monitor"
+msgstr "Налаштувати спостереження за модемом"
+
+#. The header - this was most copied from other sources
+#: ../panel-plugin/preferences.c:356
+msgid "Cellular Modem Monitor"
+msgstr "Спостереження за набором номеру модемом"
+
+#: ../panel-plugin/preferences.c:387
+msgid "Modem driver:"
+msgstr "Драйвер модему:"
+
+#: ../panel-plugin/preferences.c:409
+msgid "Modem speed:"
+msgstr "Швидкість модему:"
+
+#: ../panel-plugin/preferences.c:422
+msgid "Modem device:"
+msgstr "Пристрій модему:"
+
+#: ../panel-plugin/preferences.c:434
+msgid "Autodetect modem..."
+msgstr "Автоматичне визначення модема..."
+
+#: ../panel-plugin/preferences.c:444
+msgid "Maximum quality:"
+msgstr "Максимальна якість:"
+
+#: ../panel-plugin/preferences.c:455
+msgid "Low quality percentage:"
+msgstr "Відсоток слабкої якості:"
+
+#: ../panel-plugin/preferences.c:465
+msgid "Critical quality percentage:"
+msgstr "Відсоток критичної якості:"
+
+#: ../panel-plugin/preferences.c:479
+msgid "Check for SMS every"
+msgstr "Перевіряти надходження SMS кожних"
+
+#: ../panel-plugin/preferences.c:481
+msgid "minutes"
+msgstr "хвилин"

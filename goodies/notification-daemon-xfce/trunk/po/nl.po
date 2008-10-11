@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.3.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-10-22 17:38+0200\n"
+"PO-Revision-Date: 2006-09-07 12:03+0200\n"
+"Last-Translator: Nick Schermer <nick@xfce.org>\n"
+"Language-Team: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/settings/main.c:64
+msgid "Top Left"
+msgstr "Links Boven"
+
+#: ../src/settings/main.c:65
+msgid "Top Right"
+msgstr "Rechts Boven"
+
+#: ../src/settings/main.c:66
+msgid "Bottom Left"
+msgstr "Links Onder"
+
+#: ../src/settings/main.c:67
+msgid "Bottom Right"
+msgstr "Rechts Onder"
+
+#. create new preview notification
+#: ../src/settings/main.c:188
+msgid "Preview notification"
+msgstr "Voorbeeld bericht"
+
+#: ../src/settings/main.c:189
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr ""
+"Lorum Ipsum is gewoon voorbeeld tekst voor de print en letterzet industrie."
+
+#: ../src/settings/main.c:324
+#: ../src/settings/notification-settings.desktop.in.h:2
+msgid "Notification Settings"
+msgstr "Berichtweergave Instellingen"
+
+#: ../src/settings/main.c:330
+msgid "Configure the Xfce notification daemon"
+msgstr "Instellingen van de Xfce berichtweergave daemon"
+
+#: ../src/settings/main.c:340
+msgid "Notification _position:"
+msgstr "Bericht _positie"
+
+#: ../src/settings/main.c:370
+msgid "Pre_view"
+msgstr "_Voorbeeld"
+
+#: ../src/settings/mcs_plugin.c:41
+msgid "Failed to launch notification-settings"
+msgstr "Het is niet gelukt notification-settings op te starten"
+
+#: ../src/settings/mcs_plugin.c:61
+msgid "Button Label|Notification Settings"
+msgstr "Button Label|Berichtweergave Instellingen"
+
+#: ../src/settings/notification-settings.desktop.in.h:1
+msgid "Customize the notification daemon settings"
+msgstr "Verander de berichtweergave daemon instellingen"
+
+#: ../src/settings/notification-settings.desktop.in.h:3
+msgid "Xfce 4 Notification Settings"
+msgstr "Xfce 4 Berichtweergave Instellingen"

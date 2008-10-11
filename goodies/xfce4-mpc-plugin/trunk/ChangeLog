@@ -1,0 +1,41 @@
+24-03-2008 Landry Breuil <landry at fr.homeunix.org>
+   * release 0.3.3
+   * pretty-print tracks in playlist and tooltip
+   * don't show multiple instances of playlist
+   * fix dumb segfaults when connection is dropped by MPD
+   * add aboutbox (useless, hence necessary)
+
+30-05-2007 Landry Breuil <landry at fr.homeunix.org>
+   * release 0.3.2
+   * fixed various bugs when running against MPD 0.12.2 or 0.13 (thanks drac)
+   * fixed stupid bug, first track was not shown in playlist
+   * rewritten parser in simple-libmpd.c using g_* funcs
+
+28-01-2007 Landry Breuil <landry at fr.homeunix.org>
+   * release 0.3.1
+   * fixed bugs in simple-libmpd.c, causing several crashes
+   * prevent creation of playlist window when mpd could not be contacted
+
+16-01-2007 Landry Breuil <landry at fr.homeunix.org>
+   * release 0.3.0
+   * added configurable client (gmpc, xterm -e ncmpc,..) entry in context menu (uses xfce_exec())
+   * added simple playlist window on middle-click permitting to select a track to play
+   * completed simple-libmpd to improve communication with mpd
+
+26-10-2006 Landry Breuil <landry at fr.homeunix.org>
+   * release 0.2.0
+   * written a simple interface with mpd when libmpd is not available
+   * cleaned/modularized code
+   * add repeat/random toggle in right-click menu
+   * use xfce_* functions for config dialog
+   * replaced play call/button with pause -> better
+   * don't connect at startup (plugin is not configured)
+
+11-06-2006 Landry Breuil <landry at fr.homeunix.org>
+   * Initial release 0.1.0
+   * depends on libmpd
+   * Features : 
+   * prev/next/stop/play buttons with gtk stock icons
+   * mousewheel to increase/decrease volume
+   * current title as tooltip
+   * configurable MPD host/port/password

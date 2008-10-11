@@ -1,0 +1,17 @@
+Special thanks goes to:
+=======================
+
+Nick Schermer <nickschermer@gmail.com> for
+ - Some cleanups after the initial version for the 4.2 panel
+
+Scott H <stonecrest@gmail.com>
+ - Bug# 2867
+
+Laurent Meunier <meunier.laurent@laposte.net>
+ - Bug# 3062, 3073
+
+Mike Massonnet <mmassonnet@gmail.com>
+ - Providing a bug fix patch that became svn r4812-4814
+
+Steve Tyler <stephent98@hotmail.com>
+ - Reporting over 15 bugs for the 0.6 release alone, including many patches

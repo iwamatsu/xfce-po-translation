@@ -1,0 +1,91 @@
+# Latvian translations for xfce-i package
+# Copyright (C) 2007 THE xfvnc COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfvnc package.
+# Rihards Prieditis <rprieditis@inbox.lv>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfvnc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-11-02 01:40-0700\n"
+"PO-Revision-Date: 2007-11-17 01:56+0300\n"
+"Last-Translator: Rihards Priedītis <rprieditis@inbox.lv>\n"
+"Language-Team: Latvian <rprieditis@inbox.lv>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../xfvnc/main.c:28
+msgid "Connected.  Starting session..."
+msgstr "Savienots. Uzsāku sesiju..."
+
+#: ../xfvnc/main.c:50
+#, c-format
+msgid "XfVNC .:. %s"
+msgstr "XfVNC .:. %s"
+
+#: ../xfvnc/main.c:64
+msgid "Connection Error"
+msgstr "Savienojuma Kļūda"
+
+#: ../xfvnc/main.c:66
+msgid "There was an error connecting to the VNC server"
+msgstr "Radās kļūfa savienojoties ar VNC serveri"
+
+#: ../xfvnc/main.c:67
+msgid "Unfortunately, the type of error is unknown."
+msgstr "Diemžēl, kļūdas tips nav zināms."
+
+#: ../xfvnc/xfvnc.desktop.in.h:1
+msgid "VNC Viewer"
+msgstr "VNC Skatītājs"
+
+#: ../xfvnc/xfvnc.desktop.in.h:2
+#: ../xfvnc/xfvnc.glade.h:4
+msgid "XfVNC"
+msgstr "XfVNC"
+
+#: ../xfvnc/xfvnc.desktop.in.h:3
+msgid "Xfce VNC Viewer Application"
+msgstr "Xfce VNC Skatītāja Lietotne"
+
+#: ../xfvnc/xfvnc.glade.h:1
+msgid "Connecting..."
+msgstr "Savienojos..."
+
+#: ../xfvnc/xfvnc.glade.h:2
+msgid "Display _number:"
+msgstr "_Skaits:"
+
+#: ../xfvnc/xfvnc.glade.h:3
+msgid "Show _fullscreen"
+msgstr "Pi_lnekrāna:"
+
+#: ../xfvnc/xfvnc.glade.h:5
+msgid "XfVNC Status"
+msgstr "XfVNC Status"
+
+#: ../xfvnc/xfvnc.glade.h:6
+msgid "Xfce VNC Viewer"
+msgstr "Xfce VNC Skatītājs"
+
+#: ../xfvnc/xfvnc.glade.h:7
+msgid "_Allow other clients to connect"
+msgstr "_Atļaut citiem klientiem savienoties"
+
+#: ../xfvnc/xfvnc.glade.h:8
+msgid "_Computer name:"
+msgstr "_Datora vārds:"
+
+#: ../xfvnc/xfvnc.glade.h:9
+msgid "_Password:"
+msgstr "_Parole:"
+
+#: ../xfvnc/xfvnc.glade.h:10
+msgid "_Recent servers:"
+msgstr "_Nesenie serveri:"
+
+#: ../xfvnc/xfvnc.glade.h:11
+msgid "_View only"
+msgstr "_Skatīt tikai"
+

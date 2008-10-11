@@ -1,0 +1,1629 @@
+# translation of he.po to Hebrew
+# Hebrew translation for xarchiver package.
+# Copyright (C) 2005-2006 Giuseppe Torelli.
+# This file is distributed under the same license as the xarchiver package.
+#
+# Yuval Tanny <tanai@int.gov.il>, 2006, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: he\n"
+"Report-Msgid-Bugs-To: colossus73@gmail.com\n"
+"POT-Creation-Date: 2008-10-08 13:09+0200\n"
+"PO-Revision-Date: 2007-01-19 14:24+0200\n"
+"Last-Translator: Yuval Tanny <tanai@int.gov.il>\n"
+"Language-Team: Hebrew\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../src/7zip.c:56 ../src/arj.c:47 ../src/bzip2.c:85 ../src/rar.c:62
+#: ../src/zip.c:49
+msgid "Original"
+msgstr "מקורי"
+
+#: ../src/7zip.c:56 ../src/arj.c:47 ../src/bzip2.c:85 ../src/gzip.c:79
+#: ../src/rar.c:62 ../src/zip.c:49
+msgid "Compressed"
+msgstr "מכווץ"
+
+#: ../src/7zip.c:56
+msgid "Attr"
+msgstr "Attr"
+
+#: ../src/7zip.c:56 ../src/arj.c:47 ../src/bzip2.c:166 ../src/gzip.c:62
+#: ../src/rar.c:62 ../src/tar.c:51 ../src/zip.c:49
+msgid "Time"
+msgstr "זמן"
+
+#: ../src/7zip.c:56 ../src/arj.c:47 ../src/bzip2.c:166 ../src/gzip.c:62
+#: ../src/rar.c:62 ../src/rpm.c:52 ../src/tar.c:51 ../src/zip.c:49
+msgid "Date"
+msgstr "תאריך"
+
+#: ../src/add_dialog.c:37 ../src/interface.c:399
+#, fuzzy
+msgid "Add files"
+msgstr "כל הקבצים"
+
+#: ../src/add_dialog.c:53
+#, fuzzy
+msgid "Selection"
+msgstr "_פעולה"
+
+#: ../src/add_dialog.c:67
+msgid "File Paths: "
+msgstr ""
+
+#: ../src/add_dialog.c:73
+msgid "Store full paths"
+msgstr ""
+
+#: ../src/add_dialog.c:79
+#, fuzzy
+msgid "Do not store paths"
+msgstr "אל תוסיף נתיבים מוחלטים"
+
+#: ../src/add_dialog.c:90
+#, fuzzy
+msgid "Options"
+msgstr "<b>אפשרויות </b>"
+
+#: ../src/add_dialog.c:108
+msgid "Update and add"
+msgstr ""
+
+#: ../src/add_dialog.c:110
+#, fuzzy
+msgid ""
+"This option will add any new files and update any files which have been "
+"modified since the archive was last created/modified"
+msgstr ""
+"אפשרות זו תוסיף כל קובץ חדש או תעדכן כל קובץ ששונה מאז שהארכיון נוצר/שונה."
+
+#: ../src/add_dialog.c:113
+msgid "Freshen and replace"
+msgstr ""
+
+#: ../src/add_dialog.c:116
+#, fuzzy
+msgid ""
+"This option affects the archive only if it has been modified more recently "
+"than the version already in the archive; unlike the update option it will "
+"not add files that are not already in the archive"
+msgstr ""
+"אפשרות זו משפיע על הארכיון רק אם הפריט עודכן אחרי הגרסה שנמצאת בארכיון. "
+"בשונה מעדכון, אפשרות זו לא תוסיף קבצים שלא נמצאים בארכיון אל הארכיון."
+
+#: ../src/add_dialog.c:120
+#, fuzzy
+msgid "Include subdirectories"
+msgstr "כלול גם תת-ספריות"
+
+#: ../src/add_dialog.c:124
+#, fuzzy
+msgid "Create a solid archive"
+msgstr "צור ארכיון קשיח"
+
+#: ../src/add_dialog.c:126
+#, fuzzy
+msgid ""
+"In a solid archive the files are grouped together featuring a better "
+"compression ratio"
+msgstr "בארכיון קשיח הקבצים מכווצים ביחד מה שמאפשר יחס דחיסה טוב יותר."
+
+#: ../src/add_dialog.c:129
+#, fuzzy
+msgid "Delete files after adding"
+msgstr "הסר קבצים לאחר הוספה"
+
+#: ../src/add_dialog.c:133
+#, fuzzy
+msgid "Actions: "
+msgstr "_פעולה"
+
+#: ../src/add_dialog.c:148
+#, fuzzy
+msgid "Compression: "
+msgstr "רמת כיווץ:"
+
+#: ../src/add_dialog.c:162 ../src/extract_dialog.c:153
+msgid "Password:"
+msgstr "סיסמה:"
+
+#: ../src/add_dialog.c:172
+msgid "Encryption: "
+msgstr ""
+
+#: ../src/add_dialog.c:185
+msgid "_Add"
+msgstr "_הוסף"
+
+#: ../src/add_dialog.c:246
+msgid "0 = no compression, 5 is default, 9 = best compression but slowest"
+msgstr ""
+"0 = בלי דחיסה, 5 זה ברירת מחדל, 9 = הדחיסה הטובה ביותר אך גם האיטית ביותר"
+
+#: ../src/add_dialog.c:252
+msgid "0 = no compression, 6 is default, 9 = best compression but slowest"
+msgstr ""
+"0 = בלי דחיסה, 6 זה ברירת מחדל, 9 = הדחיסה הטובה ביותר אך גם האיטית ביותר"
+
+#: ../src/add_dialog.c:258
+msgid "0 = no compression, 3 is default, 5 = best compression but slowest"
+msgstr ""
+"0 = בלי דחיסה, 3 זה ברירת מחדל, 5 = הדחיסה הטובה ביותר אך גם האיטית ביותר"
+
+#: ../src/add_dialog.c:264
+msgid "0 = no compression, 1 is default, 4 = fastest but least compression"
+msgstr ""
+"0 = בלי דחיסה, 1 זה ברירת מחדל וגם הדחיסה הטובה ביותר, 4 = הדחיסה המהירה "
+"ביותר והפחות דוחסת"
+
+#: ../src/add_dialog.c:270
+msgid "5 = default compression, 7 = max compression"
+msgstr "5 זה ברירת מחדל, 7 = הדחיסה הטובה ביותר אך גם האיטית ביותר"
+
+#: ../src/add_dialog.c:370 ../src/main.c:208
+msgid "Can't add files to the archive:"
+msgstr "אין אפשרות להוסיף קבצים לארכיון:"
+
+#: ../src/add_dialog.c:370
+msgid "You haven't selected any files to add!"
+msgstr "לא בחרת אף קובץ כדי להוסיף."
+
+#: ../src/add_dialog.c:378 ../src/interface.c:834
+msgid "You missed the password!"
+msgstr "עליך להכניס סיסמה."
+
+#: ../src/add_dialog.c:378 ../src/interface.c:834
+msgid "Please enter it!"
+msgstr "אנא הכנס אותה."
+
+#: ../src/add_dialog.c:448
+#, fuzzy
+msgid "Adding files to archive, please wait..."
+msgstr "מוסיף קבצים לארכיון, אנא המתן..."
+
+#: ../src/archive.c:82
+msgid "Can't run the archiver executable:"
+msgstr "אין אפשרות להריץ את קובץ ההרצה של יוצר הארכיונים:"
+
+#: ../src/archive.c:290
+msgid "Can't create temporary directory in /tmp:"
+msgstr "אין אפשרות ליצור ספרייה זמנית ב- tmp/:"
+
+#: ../src/archive.c:327
+msgid "Can't spawn the command:"
+msgstr "אין אפשרות להפעיל את הפקודה:"
+
+#: ../src/archive.c:339
+msgid ""
+"\n"
+"\n"
+"** Output was shortened; too many errors!"
+msgstr ""
+
+#: ../src/archive.c:341 ../src/archive.c:345 ../src/window.c:75
+msgid "An error occurred!"
+msgstr "ארעה שגיאה."
+
+#: ../src/arj.c:47 ../src/gzip.c:79 ../src/lha.c:50 ../src/rar.c:62
+msgid "Ratio"
+msgstr "יחס"
+
+#: ../src/arj.c:47
+msgid "Attributes"
+msgstr "מאפיינים"
+
+#: ../src/bzip2.c:166 ../src/gzip.c:62 ../src/rpm.c:52 ../src/tar.c:51
+msgid "Points to"
+msgstr ""
+
+#: ../src/bzip2.c:166 ../src/deb.c:45 ../src/gzip.c:62 ../src/lha.c:50
+#: ../src/rar.c:62 ../src/tar.c:51 ../src/zip.c:49
+msgid "Permissions"
+msgstr "הרשאות"
+
+#: ../src/bzip2.c:166 ../src/deb.c:45 ../src/gzip.c:62 ../src/tar.c:51
+msgid "Owner/Group"
+msgstr "בעלים/קבוצה"
+
+#: ../src/bzip2.c:166 ../src/deb.c:45 ../src/extract_dialog.c:396
+#: ../src/gzip.c:62 ../src/gzip.c:79 ../src/lha.c:50 ../src/rpm.c:52
+#: ../src/tar.c:51
+msgid "Size"
+msgstr "גודל"
+
+#: ../src/window.c:57
+#, c-format
+msgid "Please check \"%s\" since some files could have been already extracted."
+msgstr "מספר קבצים אולי כבר קיימים. אנא בדוק \"%s\"."
+
+#: ../src/window.c:75
+msgid "Please check the 'Store archiver output' option to see it."
+msgstr ""
+
+#: ../src/window.c:122
+msgid "The sfx archive was saved as:"
+msgstr "ארכיון ה sfx נשמר בשם:"
+
+#: ../src/window.c:208
+#, fuzzy
+msgid "Archiver output"
+msgstr "סוג הארכיון:"
+
+#: ../src/window.c:240
+#, fuzzy
+msgid "An error occurred while accessing the archive:"
+msgstr "ארעה שגיאה בזמן הגישה לארכיון."
+
+#: ../src/window.c:318
+#, fuzzy
+msgid "Save the archive as"
+msgstr "שומר את ארכיון החילוץ-עצמי בשם"
+
+#: ../src/window.c:377
+#, c-format
+msgid "Can't open file \"%s\":"
+msgstr "אין אפשרות לפתוח את הקובץ \"%s\":"
+
+#: ../src/window.c:379
+msgid "Archive format is not recognized!"
+msgstr "לא זוהה סוג הארכיון."
+
+#: ../src/window.c:405
+msgid "Sorry, this archive format is not supported:"
+msgstr "סליחה, סוג ארכיון זה אינו נתמך:"
+
+#: ../src/window.c:405
+msgid "the proper archiver is not installed!"
+msgstr "תכנתי הכיווץ הדרושה לא מותקנת."
+
+#: ../src/window.c:419
+msgid "Can't allocate memory for the archive structure:"
+msgstr "אין אפשרות להקצות זיכרון למבנה הארכיון:"
+
+#: ../src/window.c:443
+#, fuzzy
+msgid "Opening archive, please wait..."
+msgstr "בודק את תקינות הארכיון. אנא המתן..."
+
+#: ../src/window.c:514
+#, fuzzy
+msgid "Testing archive, please wait..."
+msgstr "בודק את תקינות הארכיון. אנא המתן..."
+
+#: ../src/window.c:534
+#, fuzzy
+msgid "Print the archive content as HTML"
+msgstr "הצג תוכן הארכיון כ-"
+
+#: ../src/window.c:536
+#, fuzzy
+msgid "Print the archive content as text"
+msgstr "הצג תוכן הארכיון כ-"
+
+#: ../src/window.c:585
+#, fuzzy, c-format
+msgid "Archive contents:\n"
+msgstr "הצג תוכן הארכיון כ-"
+
+#: ../src/window.c:589
+#, fuzzy, c-format
+msgid ""
+"\n"
+"Name: "
+msgstr "שם:"
+
+#: ../src/window.c:598
+#, fuzzy, c-format
+msgid "Compressed   size: "
+msgstr "מכווץ"
+
+#: ../src/window.c:605
+#, fuzzy, c-format
+msgid "Uncompressed size: "
+msgstr "בטל כיווץ של קובץ"
+
+#: ../src/window.c:613
+#, fuzzy, c-format
+msgid "Number of files: "
+msgstr "מספר הקבצים:"
+
+#: ../src/window.c:621
+#, fuzzy, c-format
+msgid "Comment:\n"
+msgstr "הערה:"
+
+#: ../src/window.c:634
+#, fuzzy, c-format
+msgid "Files:%*s%s"
+msgstr "קבצים"
+
+#: ../src/window.c:634
+#, fuzzy
+msgid "|Compressed\n"
+msgstr "מכווץ"
+
+#: ../src/window.c:640
+#, c-format
+msgid "<th>Files:</th>"
+msgstr ""
+
+#: ../src/window.c:641
+#, fuzzy, c-format
+msgid "<th>Compressed:</th>"
+msgstr "מכווץ"
+
+#: ../src/window.c:834
+msgid "Are you sure you want to do this?"
+msgstr "האם אתה בטוח כי ברצונך למחוק את קבצים אלה מהארכיון?"
+
+#: ../src/window.c:949 ../src/window.c:1049
+msgid "Can't convert the archive to self-extracting:"
+msgstr "אין אפשרות להמיר את הארכיון לסוג חילוץ-עצמי:"
+
+#: ../src/window.c:960 ../src/window.c:1060
+msgid "Can't write the unzipsfx module to the archive:"
+msgstr "אין אפשרות לכתוב את מודול ה- unzipsfx לארכיון."
+
+#: ../src/window.c:1020
+msgid "Please select the 7zCon.sfx module"
+msgstr "אנא בחר את מודול ה- 7zCon.sfx."
+
+#: ../src/window.c:1117
+msgid "translator-credits"
+msgstr "יובל טנאי <tanai@int.gov.il>"
+
+#: ../src/window.c:1147
+msgid "Save the self-extracting archive as"
+msgstr "שומר את ארכיון החילוץ-עצמי בשם"
+
+#: ../src/window.c:1176 ../src/interface.c:346
+msgid "Open an archive"
+msgstr "פתח ארכיון"
+
+#: ../src/window.c:1189 ../src/extract_dialog.c:88 ../src/new_dialog.c:62
+msgid "All files"
+msgstr "כל הקבצים"
+
+#: ../src/window.c:1194 ../src/new_dialog.c:67
+msgid "Only archives"
+msgstr "רק ארכיונים"
+
+#: ../src/window.c:1406
+msgid "Filename"
+msgstr "שם הקובץ"
+
+#: ../src/window.c:1464
+msgid "Doing so will probably corrupt your archive!"
+msgstr "ביצוע זאת כנראה יהרוס את הארכיון."
+
+#: ../src/window.c:1464
+msgid "Do you really want to cancel?"
+msgstr "האם אתה בטוח שברצונך לבטל?"
+
+#: ../src/window.c:1528 ../src/window.c:1543
+msgid "Yes"
+msgstr "כן"
+
+#: ../src/window.c:1530 ../src/window.c:1545
+msgid "No"
+msgstr "לא"
+
+#: ../src/window.c:1744
+#, fuzzy
+msgid "selected"
+msgstr "רק שנבחרו"
+
+#: ../src/window.c:1749
+#, c-format
+msgid "%d file and %d dir %s (%s)"
+msgid_plural "%d files and %d dirs %s (%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/window.c:1751
+#, c-format
+msgid "%d dir %s (%s)"
+msgid_plural "%d dirs %s (%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/window.c:1754
+#, c-format
+msgid "%d file %s (%s)"
+msgid_plural "%d files %s (%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../src/window.c:1815
+msgid "Can't perform another extraction:"
+msgstr "אין אפשרות לבצע עוד חילוץ:"
+
+#: ../src/window.c:1815
+msgid "Please wait until the completion of the current one!"
+msgstr "אנא המתן עד לסיום החילוץ הנוכחי."
+
+#: ../src/window.c:1890 ../src/extract_dialog.c:630
+msgid "Sorry, I could not perform the operation!"
+msgstr "סליחה, אין אפשרות לבצע את הפעולה."
+
+#: ../src/window.c:1924 ../src/window.c:1936 ../src/interface.c:1388
+msgid "Can't perform this action:"
+msgstr "אין אפשרות לבצע את פעולה זו:"
+
+#: ../src/window.c:1924
+msgid "You have to install rar package!"
+msgstr ""
+
+#: ../src/window.c:1931 ../src/interface.c:1385
+msgid "You can't add content to deb packages!"
+msgstr "אין אפשרות להוסיף תוכן לחבילת deb."
+
+#: ../src/window.c:1933 ../src/interface.c:1387
+msgid "You can't add content to rpm packages!"
+msgstr "אין אפשרות להוסיף תוכן לחבילת rpm."
+
+#: ../src/window.c:1935
+#, fuzzy
+msgid "The archiver doesn't support this feature!"
+msgstr "היישום unrar לא תומך ביצירת ארכיונים."
+
+#: ../src/window.c:2013
+msgid "You didn't set which browser to use!"
+msgstr ""
+
+#: ../src/window.c:2013 ../src/window.c:2054
+msgid "Please go to Preferences->Advanced and set it."
+msgstr ""
+
+#: ../src/window.c:2045
+#, fuzzy
+msgid "This file type is not supported!"
+msgstr "סליחה, סוג ארכיון זה אינו נתמך:"
+
+#: ../src/window.c:2045
+msgid "Please install xdg-utils package."
+msgstr ""
+
+#: ../src/window.c:2054
+msgid "You didn't set which program to use for opening this file!"
+msgstr ""
+
+#: ../src/window.c:2080
+msgid "Failed to launch the application!"
+msgstr ""
+
+#: ../src/window.c:2132
+#, fuzzy
+msgid "Comment"
+msgstr "הערה:"
+
+#: ../src/window.c:2162
+msgid "From File"
+msgstr ""
+
+#: ../src/window.c:2267
+#, fuzzy
+msgid "Open a text file"
+msgstr "הפעולה נכשלה."
+
+#: ../src/window.c:2285
+#, fuzzy, c-format
+msgid "Can't open file %s:"
+msgstr "אין אפשרות לפתוח את הקובץ \"%s\":"
+
+#: ../src/deb.c:45
+msgid "Date modified"
+msgstr ""
+
+#: ../src/extract_dialog.c:62 ../src/extract_dialog.c:466
+msgid "Extract to:"
+msgstr "חלץ אל:"
+
+#: ../src/extract_dialog.c:93
+#, fuzzy
+msgid "Selected files"
+msgstr "בחר ה_כל"
+
+#: ../src/extract_dialog.c:101
+#, fuzzy
+msgid "Files: "
+msgstr "קבצים"
+
+#: ../src/extract_dialog.c:112
+#, fuzzy
+msgid "Files "
+msgstr "קבצים"
+
+#: ../src/extract_dialog.c:126 ../src/extract_dialog.c:493
+msgid "Overwrite existing files"
+msgstr "החלף קבצים קיימים"
+
+#: ../src/extract_dialog.c:129
+msgid "Extract files with full path"
+msgstr "חלץ קבצים עם נתיב מלא"
+
+#: ../src/extract_dialog.c:130
+#, fuzzy
+msgid ""
+"The archive's directory structure is recreated in the extraction directory"
+msgstr "מבנה הספריות של הארכיון נוצר מחדש בתיקיית היעד."
+
+#: ../src/extract_dialog.c:133
+msgid "Touch files"
+msgstr "גע בקבצים"
+
+#: ../src/extract_dialog.c:134
+#, fuzzy
+msgid ""
+"When this option is used, tar leaves the data modification times of the "
+"files it extracts as the times when the files were extracted, instead of "
+"setting it to the times recorded in the archive"
+msgstr ""
+"כשאפשרות זאת בשימוש, tar קובע את תאריך שינוי הקבצים לתאריך שבהם הם חולצו, "
+"במקום לקבוע לתאריכים השמורים בארכיון."
+
+#: ../src/extract_dialog.c:137
+msgid "Freshen existing files"
+msgstr "רענן קבצים קיימים"
+
+#: ../src/extract_dialog.c:138
+#, fuzzy
+msgid ""
+"Extract only those files that already exist on disk and that are newer than "
+"the disk copies"
+msgstr ""
+"חלץ רק את הקבצים אשר כבר קיימים בספרייה ואשר מעודכנים יותר בארכיון מאשר "
+"ההעתק שלהם בספרייה."
+
+#: ../src/extract_dialog.c:142
+msgid "Update existing files"
+msgstr "עדכן קבצים קיימים"
+
+#: ../src/extract_dialog.c:143
+#, fuzzy
+msgid ""
+"This option performs the same function as the freshen one, extracting files "
+"that are newer than those with the same name on disk, and in addition it "
+"extracts those files that do not already exist on disk"
+msgstr ""
+"אפשרות זאת מחלצת את הקבצים אשר כבר קיימים בספרייה ואשר מעודכנים יותר בארכיון "
+"מאשר ההעתק שלהם בספרייה, ובנוסף לזאת היא מחלצת את הקבצים אשר לא קיימים "
+"בספרייה."
+
+#: ../src/extract_dialog.c:147
+#, fuzzy
+msgid "Options "
+msgstr "<b>אפשרויות </b>"
+
+#: ../src/extract_dialog.c:170 ../src/extract_dialog.c:509
+#: ../src/interface.c:175
+msgid "_Extract"
+msgstr "_חלץ"
+
+#: ../src/extract_dialog.c:224
+msgid "Decompress file"
+msgstr "בטל כיווץ של קובץ"
+
+#: ../src/extract_dialog.c:226 ../src/interface.c:408
+#, fuzzy
+msgid "Extract files"
+msgstr "מחלץ קבצים אל %s"
+
+#: ../src/extract_dialog.c:320 ../src/extract_dialog.c:697
+msgid "You missed where to extract the files!"
+msgstr "עליך להכניס את נתיב ספרייה היעד לחילוץ הקבצים."
+
+#: ../src/extract_dialog.c:320
+msgid "Please enter the extraction path."
+msgstr "אנא הכנס את נתיב החילוץ."
+
+#: ../src/extract_dialog.c:334
+msgid "This archive is encrypted!"
+msgstr "ארכיון זה מוצפן."
+
+#: ../src/extract_dialog.c:334
+msgid "Please enter the password."
+msgstr "אנא הכנס סיסמה."
+
+#: ../src/extract_dialog.c:344
+#, fuzzy, c-format
+msgid ""
+"You don't have the right permissions to extract the files to the directory "
+"\"%s\"."
+msgstr "אין לך את ההרשאות המתאימות לחלץ את הקבצים אל התיקייה \"%s\"."
+
+#: ../src/extract_dialog.c:345
+msgid "Can't perform extraction!"
+msgstr "אין אפשרות לבצע חילוץ."
+
+#: ../src/extract_dialog.c:379
+#, fuzzy
+msgid "Extracting files from archive, please wait..."
+msgstr "מוחק קבצים מהארכיון, אנא המתן..."
+
+#: ../src/extract_dialog.c:396
+#, fuzzy
+msgid "Archive Name"
+msgstr "[archive name]"
+
+#: ../src/extract_dialog.c:396
+#, fuzzy
+msgid "Path"
+msgstr "נתיב:"
+
+#: ../src/extract_dialog.c:408
+#, fuzzy
+msgid "Multi-Extract"
+msgstr "חלץ"
+
+#: ../src/extract_dialog.c:476
+#, fuzzy
+msgid "Extract to dir \"Archive Name\""
+msgstr "חלץ קבצים מהארכיון"
+
+#: ../src/extract_dialog.c:477
+#, fuzzy
+msgid ""
+"This option extracts archives in directories named with the archive names"
+msgstr "בחר את הקבצים או את הספריות להוסיף לארכיון"
+
+#: ../src/extract_dialog.c:481
+#, fuzzy
+msgid "Destination dirs:"
+msgstr "destination_path archive"
+
+#: ../src/extract_dialog.c:495
+#, fuzzy
+msgid "Extract pathnames"
+msgstr "מחלץ קבצים אל %s"
+
+#: ../src/extract_dialog.c:497
+#, fuzzy
+msgid "Options:"
+msgstr "<b>אפשרויות </b>"
+
+#: ../src/extract_dialog.c:529
+#, fuzzy
+msgid "Please select the archives you want to extract"
+msgstr "אנא בחר את הקבצים שברצונך להוסיף"
+
+#: ../src/extract_dialog.c:651
+#, fuzzy
+msgid "Please select the destination directory"
+msgstr "אנא בחר קובץ, לא תיקייה."
+
+#: ../src/extract_dialog.c:689
+#, fuzzy
+msgid "Can't multi-extract archives:"
+msgstr "אין אפשרות לחלץ קבצים מהארכיון:"
+
+#: ../src/extract_dialog.c:689
+#, fuzzy
+msgid "You haven't added any of them!"
+msgstr "לא בחרת אף קובץ כדי להוסיף."
+
+#: ../src/extract_dialog.c:697
+#, fuzzy
+msgid "Please fill the \"Extract to\" field!"
+msgstr "אנא לחץ על עצור קודם."
+
+#: ../src/extract_dialog.c:730
+#, fuzzy
+msgid "Some errors occurred:"
+msgstr "ארעה שגיאה:"
+
+#: ../src/lha.c:50
+msgid "UID/GID"
+msgstr "UID/GID"
+
+#: ../src/lha.c:50
+msgid "Timestamp"
+msgstr "חותמת זמן"
+
+#: ../src/interface.c:74
+#, fuzzy
+msgid "_Archive"
+msgstr "archive"
+
+#: ../src/interface.c:89
+msgid "List as"
+msgstr ""
+
+#: ../src/interface.c:100
+#, fuzzy
+msgid "Text file"
+msgstr "מחלץ קבצים אל %s"
+
+#: ../src/interface.c:107
+#, fuzzy
+msgid "HTML file"
+msgstr "גע בקבצים"
+
+#: ../src/interface.c:124
+msgid "_Test"
+msgstr "_בדיקה"
+
+#: ../src/interface.c:134
+msgid "_Properties"
+msgstr "_מאפיינים"
+
+#: ../src/interface.c:158
+#, fuzzy
+msgid "A_ction"
+msgstr "_פעולה"
+
+#: ../src/interface.c:165
+#, fuzzy
+msgid "A_dd"
+msgstr "הוסף"
+
+#: ../src/interface.c:191 ../src/interface.c:927
+#, fuzzy
+msgid "Rename"
+msgstr "שם הקובץ"
+
+#: ../src/interface.c:205
+msgid "Make SF_X"
+msgstr "_צור SF_X"
+
+#: ../src/interface.c:215
+#, fuzzy
+msgid "_Multi-Extract"
+msgstr "_חלץ"
+
+#: ../src/interface.c:220
+#, fuzzy
+msgid "Archive comment"
+msgstr "חלון הערות הארכיון"
+
+#: ../src/interface.c:234
+#, fuzzy
+msgid "Select _all"
+msgstr "בחר ה_כל"
+
+#: ../src/interface.c:244
+#, fuzzy
+msgid "Dese_lect all"
+msgstr "ב_טל בחירת הכל"
+
+#: ../src/interface.c:250
+msgid "Select _by pattern"
+msgstr ""
+
+#: ../src/interface.c:261
+#, fuzzy
+msgid "Cmd-line outp_ut"
+msgstr "פ_לט שורת פקודה"
+
+#: ../src/interface.c:274
+#, fuzzy
+msgid "Enter passwo_rd"
+msgstr "_הגדר מחדש סיסמה"
+
+#: ../src/interface.c:285
+msgid "_Preferences"
+msgstr "_מאפיינים"
+
+#: ../src/interface.c:294
+msgid "_Help"
+msgstr "_עזרה"
+
+#: ../src/interface.c:314
+msgid "_Thanks to"
+msgstr ""
+
+#: ../src/interface.c:334
+msgid "New"
+msgstr "חדש"
+
+#: ../src/interface.c:338 ../src/new_dialog.c:50
+msgid "Create a new archive"
+msgstr "צור ארכיון חדש"
+
+#: ../src/interface.c:342
+msgid "Open"
+msgstr "פתח"
+
+#: ../src/interface.c:354 ../src/interface.c:359
+msgid "Back"
+msgstr ""
+
+#: ../src/interface.c:363 ../src/interface.c:368
+msgid "Up"
+msgstr ""
+
+#: ../src/interface.c:372 ../src/interface.c:377
+msgid "Forward"
+msgstr ""
+
+#: ../src/interface.c:381
+msgid "Home"
+msgstr ""
+
+#: ../src/interface.c:386
+msgid "Root"
+msgstr ""
+
+#: ../src/interface.c:394
+msgid "Add"
+msgstr "הוסף"
+
+#: ../src/interface.c:403 ../src/interface.c:867
+msgid "Extract"
+msgstr "חלץ"
+
+#: ../src/interface.c:416
+msgid "Stop"
+msgstr "עצור"
+
+#: ../src/interface.c:421
+msgid "Cancel current operation"
+msgstr "בטל פעולה נוכחית"
+
+#: ../src/interface.c:434
+#, fuzzy
+msgid "Location:"
+msgstr "יישום:"
+
+#: ../src/interface.c:473
+#, fuzzy
+msgid "Archive tree"
+msgstr "סוג הארכיון:"
+
+#: ../src/interface.c:521
+msgid "This is Xarchiver led status. When it's flashing Xarchiver is busy"
+msgstr ""
+
+#: ../src/interface.c:703
+msgid "Close archive"
+msgstr "סגור ארכיון"
+
+#: ../src/interface.c:788
+msgid "<span weight='bold' size='larger'>Password required for:</span>"
+msgstr ""
+
+#: ../src/interface.c:790
+msgid "<span weight='bold' size='larger'>Enter password for:</span>"
+msgstr ""
+
+#: ../src/interface.c:808
+#, fuzzy
+msgid "_Password:"
+msgstr "סיסמה:"
+
+#: ../src/interface.c:859 ../src/open-with-dlg.c:50
+#, fuzzy
+msgid "Open With"
+msgstr "פתח"
+
+#: ../src/interface.c:875
+msgid "View"
+msgstr "תצוגה"
+
+#: ../src/interface.c:888
+msgid "Cut"
+msgstr ""
+
+#: ../src/interface.c:896
+msgid "Copy"
+msgstr ""
+
+#: ../src/interface.c:904
+#, fuzzy
+msgid "Paste"
+msgstr "תאריך"
+
+#: ../src/interface.c:918
+msgid "Delete"
+msgstr "מחק"
+
+#: ../src/interface.c:966
+msgid "Select by Pattern"
+msgstr ""
+
+#: ../src/interface.c:979
+#, fuzzy
+msgid "Pattern:"
+msgstr "נתיב:"
+
+#: ../src/interface.c:984
+msgid "example: *.txt; ac*"
+msgstr ""
+
+#: ../src/interface.c:1001
+#, fuzzy
+msgid "_Select"
+msgstr "בחר ה_כל"
+
+#: ../src/interface.c:1073
+#, fuzzy
+msgid "Archive Properties"
+msgstr "חלון מאפייני הארכיון"
+
+#: ../src/interface.c:1095
+msgid "Name:"
+msgstr "שם:"
+
+#: ../src/interface.c:1102
+msgid "Path:"
+msgstr "נתיב:"
+
+#: ../src/interface.c:1109
+msgid "Type:"
+msgstr "סוג:"
+
+#: ../src/interface.c:1116
+msgid "Encrypted:"
+msgstr ""
+
+#: ../src/interface.c:1123
+msgid "Modified on:"
+msgstr "שונה ב:"
+
+#: ../src/interface.c:1130
+#, fuzzy
+msgid "Compressed size:"
+msgstr "מכווץ"
+
+#: ../src/interface.c:1137
+#, fuzzy
+msgid "Uncompressed size:"
+msgstr "בטל כיווץ של קובץ"
+
+#: ../src/interface.c:1144
+#, fuzzy
+msgid "Comment:"
+msgstr "הערה:"
+
+#: ../src/interface.c:1151
+msgid "Number of files:"
+msgstr "מספר הקבצים:"
+
+#: ../src/interface.c:1158
+msgid "Compression ratio:"
+msgstr "יחס כיווץ:"
+
+#: ../src/interface.c:1395
+#, fuzzy
+msgid "Sorry,I could not perform the operation!"
+msgstr "סליחה, אין אפשרות לבצע את הפעולה."
+
+#: ../src/interface.c:1505 ../xarchiver.desktop.in.h:3
+msgid "Xarchiver"
+msgstr "Xarchiver"
+
+#: ../src/interface.c:1529
+#, fuzzy
+msgid "Extracting archive:"
+msgstr "מחלץ ארכיון אל %s"
+
+#: ../src/interface.c:1539
+msgid "Total Progress:"
+msgstr ""
+
+#: ../src/main.c:54
+#, fuzzy
+msgid "Extract archive to the destination directory and quits."
+msgstr "Extract archive by asking the destination directory and quits."
+
+#: ../src/main.c:55
+#, fuzzy
+msgid "destination archive"
+msgstr "destination_path archive"
+
+#: ../src/main.c:58
+#, fuzzy
+msgid "Extract archive by asking the extraction directory and quits."
+msgstr "Extract archive by asking the destination directory and quits."
+
+#: ../src/main.c:59 ../src/main.c:71
+msgid "archive"
+msgstr "archive"
+
+#: ../src/main.c:62
+#, fuzzy
+msgid "Multi-extract archives"
+msgstr "מחלץ ארכיון אל %s"
+
+#: ../src/main.c:63
+#, fuzzy
+msgid "filenames"
+msgstr "שם הקובץ"
+
+#: ../src/main.c:66
+msgid "Add the given files by asking the name of the archive and quits."
+msgstr "Add the given files by asking the name of the archive and quits."
+
+#: ../src/main.c:67
+msgid "file1 file2 file3 ... fileN"
+msgstr "file1 file2 file3 ... fileN"
+
+#: ../src/main.c:70
+msgid "Add files to archive by asking their filenames and quits."
+msgstr "Add files to archive by asking their filenames and quits."
+
+#: ../src/main.c:99
+msgid "[archive name]"
+msgstr "[archive name]"
+
+#: ../src/main.c:103
+#, c-format
+msgid ""
+"xarchiver: %s\n"
+"Try xarchiver --help to see a full list of available command line options.\n"
+msgstr ""
+"xarchiver: %s\n"
+"Try xarchiver --help to see a full list of available command line options.\n"
+
+#: ../src/main.c:128 ../src/main.c:153
+msgid "Can't extract files from the archive:"
+msgstr "אין אפשרות לחלץ קבצים מהארכיון:"
+
+#: ../src/main.c:128 ../src/main.c:153 ../src/main.c:208
+msgid "You missed the archive name!\n"
+msgstr "עליך לציין את שם הארכיון.\n"
+
+#: ../src/main.c:247
+msgid "Select \"New\" to create or \"Open\" to open an archive"
+msgstr ""
+
+#: ../src/main.c:474
+msgid "Can't allocate memory for the archive structure!"
+msgstr "אין אפשרות להקצות זיכרון למבנה הארכיון."
+
+#: ../src/open-with-dlg.c:52
+#, fuzzy
+msgid "Open the selected files with"
+msgstr "בחר ה_כל"
+
+#: ../src/open-with-dlg.c:81
+#, c-format
+msgid "Open <i>%s</i> with:"
+msgstr ""
+
+#: ../src/open-with-dlg.c:116
+msgid "Use a custom command:"
+msgstr ""
+
+#: ../src/open-with-dlg.c:122
+msgid "Browse"
+msgstr ""
+
+#: ../src/open-with-dlg.c:300
+#, fuzzy
+msgid "Select an application"
+msgstr "תוכנת הצגה מועדפת:"
+
+#: ../src/new_dialog.c:55
+msgid "Cr_eate"
+msgstr "_צור"
+
+#: ../src/new_dialog.c:92
+msgid "Archive type:"
+msgstr "סוג הארכיון:"
+
+#: ../src/new_dialog.c:97
+msgid "Choose the archive type to create"
+msgstr "בחר את סוג הארכיון שייוצר."
+
+#: ../src/new_dialog.c:119
+msgid "Add the archive extension to the filename"
+msgstr "הוסף לשם הקובץ את סיומת הארכיון"
+
+#: ../src/new_dialog.c:166
+#, c-format
+msgid "\"%s\" is already open!"
+msgstr "\"%s\" כבר פתוח."
+
+#: ../src/new_dialog.c:167
+msgid "Can't create a new archive:"
+msgstr "אין אפשרות ליצור ארכיון חדש:"
+
+#: ../src/new_dialog.c:182
+#, c-format
+msgid "The archive \"%s\" already exists!"
+msgstr "הארכיון בשם \"%s\" כבר קיים."
+
+#: ../src/new_dialog.c:188
+msgid "Do you want to overwrite it?"
+msgstr "האם ברצונך להחליפו?"
+
+#: ../src/pref_dialog.c:41
+msgid "Preferences"
+msgstr "העדפות"
+
+#: ../src/pref_dialog.c:61
+#, fuzzy
+msgid "Archive"
+msgstr "archive"
+
+#: ../src/pref_dialog.c:67
+msgid "Window"
+msgstr ""
+
+#: ../src/pref_dialog.c:72
+msgid "Advanced"
+msgstr "מתקדם"
+
+#: ../src/pref_dialog.c:99
+#, fuzzy
+msgid "Preferred archive format"
+msgstr "דפדפן מועדף:"
+
+#: ../src/pref_dialog.c:117
+#, fuzzy
+msgid "Confirm deletion of files"
+msgstr "בקש אישור למחיקת קבצים בתוך הארכיון."
+
+#: ../src/pref_dialog.c:121
+#, fuzzy
+msgid "Sort archive by filename"
+msgstr "מיין לפי שם"
+
+#: ../src/pref_dialog.c:124
+#, fuzzy
+msgid "The filename column is sorted after loading the archive"
+msgstr "עמודת שמות הקבצים ממוינת אחרי טעינת הארכיון"
+
+#: ../src/pref_dialog.c:126
+msgid "Store archiver output"
+msgstr ""
+
+#: ../src/pref_dialog.c:129
+msgid "This option takes more memory with large archives"
+msgstr ""
+
+#: ../src/pref_dialog.c:140
+msgid "Icons size (requires restart)"
+msgstr ""
+
+#: ../src/pref_dialog.c:146
+msgid "large"
+msgstr ""
+
+#: ../src/pref_dialog.c:147
+msgid "small"
+msgstr ""
+
+#: ../src/pref_dialog.c:152
+#, fuzzy
+msgid "Show archive comment"
+msgstr "חלון הערות הארכיון"
+
+#: ../src/pref_dialog.c:153
+msgid "If checked the archive comment is shown after the archive is loaded"
+msgstr ""
+
+#: ../src/pref_dialog.c:159
+msgid "Show archive tree sidebar"
+msgstr ""
+
+#: ../src/pref_dialog.c:165
+#, fuzzy
+msgid "Show archive location bar"
+msgstr "הצג תוכן הארכיון כ-"
+
+#: ../src/pref_dialog.c:187
+msgid "Web browser to use:"
+msgstr ""
+
+#: ../src/pref_dialog.c:194 ../src/pref_dialog.c:207 ../src/pref_dialog.c:220
+#: ../src/pref_dialog.c:233
+msgid "choose..."
+msgstr ""
+
+#: ../src/pref_dialog.c:200
+msgid "Open text files with:"
+msgstr ""
+
+#: ../src/pref_dialog.c:213
+msgid "Open image files with:"
+msgstr ""
+
+#: ../src/pref_dialog.c:226
+#, fuzzy
+msgid "Preferred temp directory:"
+msgstr "דפדפן מועדף:"
+
+#: ../src/pref_dialog.c:232
+msgid "/tmp"
+msgstr ""
+
+#: ../src/pref_dialog.c:239
+#, fuzzy
+msgid "Save window geometry"
+msgstr "הצג גודל ומיקום חלון ביציאה"
+
+#: ../src/pref_dialog.c:244
+#, fuzzy
+msgid "Allow subdirs with drag and drop"
+msgstr "אפשר חילוץ ספריות ע\"י גרירה"
+
+#: ../src/pref_dialog.c:248
+msgid ""
+"This option includes the subdirectories when you add files with drag and drop"
+msgstr ""
+
+#: ../src/pref_dialog.c:253
+msgid ""
+"<span color='red' style='italic'>Please install xdg-utils package so that\n"
+"Xarchiver can recognize more file types.</span>"
+msgstr ""
+
+#: ../src/pref_dialog.c:563
+#, fuzzy
+msgid "Choose the temp directory to use"
+msgstr "בחר את סוג הארכיון שייוצר."
+
+#: ../src/pref_dialog.c:563
+#, fuzzy
+msgid "Choose the application to use"
+msgstr "בחר את סוג הארכיון שייוצר."
+
+#: ../src/rar.c:62
+msgid "CRC"
+msgstr ""
+
+#: ../src/rar.c:62 ../src/zip.c:49
+msgid "Method"
+msgstr "שיטה"
+
+#: ../src/rar.c:62 ../src/zip.c:49
+msgid "Version"
+msgstr "גרסה"
+
+#: ../src/rpm.c:39
+#, c-format
+msgid "Can't open RPM file %s:"
+msgstr "אין אפשרות לפתוח קובץ RPM %s:"
+
+#: ../src/rpm.c:52
+msgid "Permission"
+msgstr "הרשאה"
+
+#: ../src/rpm.c:52
+msgid "Hard Link"
+msgstr "קישור אמ"
+
+#: ../src/rpm.c:52
+msgid "Owner"
+msgstr "בעלים"
+
+#: ../src/rpm.c:52
+msgid "Group"
+msgstr "קבוצה"
+
+#: ../src/rpm.c:62
+msgid "Can't fseek to position 104:"
+msgstr "אין אפשרות לבצע fseek למיקום 104:"
+
+#: ../src/rpm.c:68 ../src/rpm.c:84
+msgid "Can't read data from file:"
+msgstr "אין אפשרות לקרוא מידע מהקובץ:"
+
+#: ../src/rpm.c:78
+msgid "Can't fseek in file:"
+msgstr "אין אפשרות לבצע fseek בקובץ:"
+
+#: ../src/zip.c:49
+msgid "OS"
+msgstr ""
+
+#: ../xarchiver.desktop.in.h:1
+msgid "A GTK+2 only archive manager"
+msgstr "מנהל ארכיונים ב GTK+2"
+
+#: ../xarchiver.desktop.in.h:2
+msgid "Archive manager"
+msgstr "מנהל ארכיונים"
+
+#, fuzzy
+#~ msgid "Directories Tree:"
+#~ msgstr "ספריות"
+
+#, fuzzy
+#~ msgid "Create New Dir"
+#~ msgstr "צור ארכיון חדש"
+
+#~ msgid "Can't create directory \"%s\""
+#~ msgstr "אין אפשרות ליצור ספרייה \"%s\""
+
+#~ msgid "Add files to the archive"
+#~ msgstr "הוסף קבצים לארכיון"
+
+#~ msgid "Do you want to view the command line output?"
+#~ msgstr "האם ברצונך לראות את פלט שורת הפקודה?"
+
+#~ msgid "Operation completed."
+#~ msgstr "הפעולה הושלמה."
+
+#, fuzzy
+#~ msgid "Operation failed!"
+#~ msgstr "הפעולה נכשלה."
+
+#~ msgid "Please wait while the content of the archive is being updated..."
+#~ msgstr "אנא המתן בזמן שתוכן הארכיון מתעדכן..."
+
+#~ msgid "Operation canceled."
+#~ msgstr "הפעולה מבוטלת."
+
+#~ msgid "Choose Add to begin creating the archive."
+#~ msgstr "בחר הוסף כדי ליצור את הארכיון."
+
+#~ msgid "Please wait while the content of the archive is being read..."
+#~ msgstr "אנא המתן בזמן שתוכן הארכיון נטען..."
+
+#~ msgid "Ready."
+#~ msgstr "מוכן."
+
+#~ msgid "Converting archive to self-extracting, please wait..."
+#~ msgstr "ממיר את הארכיון לסוג חילוץ-עצמי, אנא המתן..."
+
+#~ msgid "Can't open archive \"%s\":"
+#~ msgstr "אין אפשרות לפתוח את ארכיון \"%s\""
+
+#~ msgid "Command line output"
+#~ msgstr "פלט שורת פקודה"
+
+#~ msgid "Waiting for the process to abort..."
+#~ msgstr "ממתין לעצירת התהליך..."
+
+#~ msgid "The password has been reset."
+#~ msgstr "הסיסמה הוגדרה מחדש."
+
+#~ msgid "Please enter the password first!"
+#~ msgstr "אנא הכנס את הסיסמה קודם."
+
+#~ msgid "Extracting files to %s"
+#~ msgstr "מחלץ קבצים אל %s"
+
+#~ msgid "_View"
+#~ msgstr "_תצוגה"
+
+#~ msgid "_Show comment"
+#~ msgstr "_הצג הערות"
+
+#~ msgid "Enter Archive Password"
+#~ msgstr "הכנס סיסמת ארכיון"
+
+#, fuzzy
+#~ msgid "Extract..."
+#~ msgstr "חלץ"
+
+#~ msgid "Archive size:"
+#~ msgstr "גודל הארכיון:"
+
+#~ msgid "Content size:"
+#~ msgstr "גודל תוכן הארכיון:"
+
+#~ msgid "Number of dirs:"
+#~ msgstr "מספר הספריות:"
+
+#, fuzzy
+#~ msgid "Show archive comment after loading it"
+#~ msgstr "הצג הערה בארכיון אחרי טעינתו"
+
+#~ msgid "An error occurred while decompressing the cpio archive."
+#~ msgstr "ארעה שגיאה פריסת ארכיון ה-cpio."
+
+#~ msgid "Can't write to /tmp:"
+#~ msgstr "אין אפשרות לכתוב אל tmp/:"
+
+#~ msgid "<b>Files and directories to add </b>"
+#~ msgstr "<b>קבצים וספריות שיוספו </b>"
+
+#~ msgid ""
+#~ "Include everything in the directory recursively \tstarting from the "
+#~ "current directory."
+#~ msgstr "כלול את כל מה שספריה מכילה באופן רקורסיבי \tהחל מספריה הנוכחית."
+
+#~ msgid "Do not add file paths"
+#~ msgstr "אל תוסיף נתיבי קבצים"
+
+#~ msgid "The files path doesn't include the user home directory."
+#~ msgstr "נתיב הקבצים לא מכיל את ספריית הבית של המשתמש"
+
+#~ msgid "Store just the name of a file without its directory names."
+#~ msgstr "אחסן רק את שם הקובץ בלי שם הספרייה שלו."
+
+#, fuzzy
+#~ msgid "Freshen an existing entry"
+#~ msgstr "רענן פריט קיים בארכיון"
+
+#, fuzzy
+#~ msgid "Update an existing entry"
+#~ msgstr "עדכן פריט קיים בארכיון"
+
+#~ msgid "Please select the directories you want to add"
+#~ msgstr "אנא בחר את הספריות שברצונך להוסיף"
+
+#~ msgid "Extracting gzip file to %s"
+#~ msgstr "מחלץ קובץ gzip אל %s"
+
+#~ msgid "Extracting bzip2 file to %s"
+#~ msgstr "מחלץ קובץ bzip2 אל %s"
+
+#~ msgid "Decompressing tar file with %s, please wait..."
+#~ msgstr "פורס קובץ tar עם %s, אנא המתן..."
+
+#~ msgid "Recompressing tar file with %s, please wait..."
+#~ msgstr "מכוון קובץ tar עם %s, אנא המתן..."
+
+#~ msgid "You are about to delete %d file(s) from the archive."
+#~ msgstr "אתה עומד למחוק %d קבצים מהארכיון."
+
+#~ msgid "An error occurred while trying to kill the process:"
+#~ msgstr "ארעה שגיאה בזמן הניסיון להרוג את התהליך:"
+
+#~ msgid "An error occurred while extracting the file to be viewed:"
+#~ msgstr "ארעה שגיאה בזמן חילוץ הקובץ לצפייה:"
+
+#~ msgid ""
+#~ "An error occurred while converting the file content to the UTF8 encoding:"
+#~ msgstr "ארעה שגיאה בזמן ההמרה של תוכן הקובץ לקידוד UTF8:"
+
+#~ msgid "Failed to open link."
+#~ msgstr "כשל בפתיחת קישור."
+
+#~ msgid "Choose a folder where to extract files"
+#~ msgstr "בחר תיקייה שאליה יחולצו הקבצים"
+
+#~ msgid "All"
+#~ msgstr "הכל"
+
+#~ msgid "<b>Files to extract </b>"
+#~ msgstr "<b> קבצים לחילוץ </b>"
+
+#~ msgid "Choose the destination folder where to extract the current archive"
+#~ msgstr "בחר תיקיית יעד שאליה יחולץ הארכיון הנוכחי"
+
+#~ msgid "_File"
+#~ msgstr "_קובץ"
+
+#~ msgid "Add files and directories to the current archive"
+#~ msgstr "הוסף קבצים וספריות לארכיון הנוכחי"
+
+#, fuzzy
+#~ msgid "Extract files from the current archive"
+#~ msgstr "מחק קבצים מהארכיון הנוכחי"
+
+#~ msgid "View file content in the current archive"
+#~ msgstr "הצג את תוכן הקובץ בארכיון הנוכחי"
+
+#~ msgid ""
+#~ "Extract archive to the directory specified by destination_path and quits."
+#~ msgstr ""
+#~ "Extract archive to the directory specified by destination_path and quits."
+
+#~ msgid "Behaviour"
+#~ msgstr "התנהגות"
+
+#~ msgid "Save settings for add dialog"
+#~ msgstr "שמור הגדרות של תיבת דו-שיח הוספה."
+
+#~ msgid "Save settings for extract dialog"
+#~ msgstr "שמור הגדרות של תיבת דו-שיח חילוץ."
+
+#~ msgid "list"
+#~ msgstr "רשימה"
+
+#~ msgid "icon"
+#~ msgstr "סמלים"
+
+#~ msgid "GUA"
+#~ msgstr "GUA"
+
+#~ msgid "BPMGS"
+#~ msgstr "BPMGS"
+
+#~ msgid "Symbolic Link"
+#~ msgstr "קישור סמלי"
+
+#~ msgid "Please wait while the content of the ISO image is being read..."
+#~ msgstr "אנא המתן בזמן שתוכן תמונת ה-ISO נטען..."
+
+#~ msgid " bytes"
+#~ msgstr "בתים"
+
+#~ msgid "Show ISO in_fo"
+#~ msgstr "הצג _מידע של ISO"
+
+#~ msgid ""
+#~ "Extract files from the current archive; use the mouse to select files "
+#~ "individually"
+#~ msgstr "חלץ קבצים מהארכיון הנוכחי. השתמש בעכבר כדי לבחור קבצים באופן יחידני"
+
+#~ msgid "SFX"
+#~ msgstr "SFX"
+
+#~ msgid "Make the current archive self-extracting"
+#~ msgstr "אפשר חילוץ-עצמי של הארכיון הנוכחי"
+
+#~ msgid "This archive contains password protected files"
+#~ msgstr "ארכיון זה מכיל קבצים מוגנים בסיסמה"
+
+#~ msgid "Can't create directory:"
+#~ msgstr "אין אפשרות ליצור ספרייה:"
+
+#~ msgid "Can't write file \"%s\":"
+#~ msgstr "אין אפשרות לכתוב קובץ \"%s\":"
+
+#~ msgid "Offset"
+#~ msgstr "היסט"
+
+#~ msgid "Rock Ridge version %d"
+#~ msgstr "גרסת Rock Ridge %d"
+
+#~ msgid "Rock Ridge - unknown version"
+#~ msgstr "גרסה לא ידועה - Rock Ridge"
+
+#~ msgid "Apple version %d"
+#~ msgstr "Apple, גרסה %d"
+
+#~ msgid "Standard ISO without extension"
+#~ msgstr "ISO תקני ללא סיומת"
+
+#~ msgid "Joliet Level %d"
+#~ msgstr "דרגת Joliet %d"
+
+#~ msgid "ISO Information Window"
+#~ msgstr "חלון מידע של ISO"
+
+#~ msgid "Filename:"
+#~ msgstr "שם קובץ:"
+
+#~ msgid "Size:"
+#~ msgstr "גודל:"
+
+#~ msgid "Extension:"
+#~ msgstr "הרחבה:"
+
+#~ msgid "System ID:"
+#~ msgstr "מספר מערכת:"
+
+#~ msgid "Volume ID:"
+#~ msgstr "מספר כרך:"
+
+#~ msgid "Publisher:"
+#~ msgstr "מוציא לאור:"
+
+#~ msgid "Preparer:"
+#~ msgstr "מכין:"
+
+#~ msgid "Creation date:"
+#~ msgstr "תאריך יצירה:"
+
+#~ msgid "Modified date:"
+#~ msgstr "תאריך שינוי:"
+
+#~ msgid "Expiration date:"
+#~ msgstr "תאריך תפוגה:"
+
+#~ msgid "Effective date:"
+#~ msgstr "תאריך אפקטיבי:"
+
+#~ msgid "Preferred format for new archives:"
+#~ msgstr "סוג מועדף לארכיונים חדשים:"
+
+#~ msgid "Show ISO info after loading the archive"
+#~ msgstr "הצג מידע ISO אחרי טעינת הארכיון"
+
+#~ msgid "xfce default"
+#~ msgstr "ברירת מחדל של Xfce"
+
+#~ msgid "konqueror"
+#~ msgstr "konqueror"
+
+#~ msgid "internal"
+#~ msgstr "פנימית"
+
+#~ msgid "Checksum"
+#~ msgstr "Checksum"
+
+#~ msgid "Error while extracting the cpio archive from the rpm one."
+#~ msgstr "ארעה שגיאה בזמן חילוץ ארכיון ה-cpio מארכיון הRPM."

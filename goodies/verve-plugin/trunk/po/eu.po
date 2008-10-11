@@ -1,0 +1,76 @@
+# Basque translation of the verve-plugin package.
+# Copyright (C) 2006-2007 Jannis Pohlmann.
+# This file is distributed under the same license as the verve-plugin package.
+# Piarres Beobide <pi@beobide.net>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: verve-plugin 0.3.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:29+0200\n"
+"PO-Revision-Date: 2006-02-14 10:45+0100\n"
+"Last-Translator: Piarres Beobide <pi@beobide.net>\n"
+"Language-Team: Librezale <xfce-i18n@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Pootle 0.6.3.20060126\n"
+
+#. Generate error message
+#: ../panel-plugin/verve-plugin.c:407
+msgid "Could not execute command:"
+msgstr "Ezin da komandoa exekutatu:"
+
+#. Create properties dialog
+#: ../panel-plugin/verve-plugin.c:781
+msgid "Verve"
+msgstr "Verve"
+
+#. Frame for appearance settings
+#: ../panel-plugin/verve-plugin.c:799
+msgid "Appearance"
+msgstr "Itxura"
+
+#. Plugin size label
+#: ../panel-plugin/verve-plugin.c:810
+msgid "Width (in chars):"
+msgstr "Zabalera (karaktere):"
+
+#. Frame for behaviour settings
+#: ../panel-plugin/verve-plugin.c:830
+msgid "Behaviour"
+msgstr "Portaera"
+
+#. History length label
+#: ../panel-plugin/verve-plugin.c:841
+msgid "Number of saved history items:"
+msgstr "Gordeko diren historia elementu kopurua:"
+
+#. vim:set expandtab sts=2 ts=2 sw=2:
+#: ../panel-plugin/verve.desktop.in.in.h:1
+msgid "Command line interface with auto-completion and command history"
+msgstr "Komando lerro interfazea auto-betetze eta komando historiarekin"
+
+#: ../panel-plugin/verve.desktop.in.in.h:2
+msgid "Verve Command Line"
+msgstr "Verve Komando Lerroa"
+
+#. Print error message
+#: ../scripts/verve-focus.c:61
+msgid "Failed to connect to the D-BUS session bus."
+msgstr "Huts D-BUS saio bus-arekin konektatzerakoan."
+
+#. Print error message
+#: ../scripts/verve-focus.c:84
+msgid ""
+"There seems to be no Verve D-BUS provider (e.g. the Verve panel plugin) "
+"running."
+msgstr ""
+"Dirudienez ez dago Verve D-BUS hornitzailerik (adib. Verve panel plugin-a) "
+"abiarazirik"
+
+#~ msgid "Verve Properties"
+#~ msgstr "Verve Propietateak"
+
+#~ msgid "Failed to deliver the org.xfce.Verve#GrabFocus method."
+#~ msgstr "Huts org.xfce.Verve#GrabFocus metodoa erabiltzean."

@@ -1,0 +1,245 @@
+# translation of el.po to Greek
+# Greek translation of libxfcegui4
+# Copyright (C) 2002-2006 The Xfce development team.
+# This file is distributed under the same license as the libxfcegui4 package.
+#
+# Stavros Giannouris <StavrosG2002@freemail.gr>, 2005.
+# Stathis Kamperis <ekamperi@auth.gr>, 2006.
+# Evaggelos Balaskas <ebalaskas@ebalaskas.gr>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: el\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-08-18 12:49-0700\n"
+"PO-Revision-Date: 2008-03-25 00:36+0200\n"
+"Last-Translator: Evaggelos Balaskas <ebalaskas@ebalaskas.gr>\n"
+"Language-Team: Greek <nls@tux.hellug.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../libxfcegui4/netk-window-action-menu.c:215
+#: ../libxfcegui4/netk-window-action-menu.c:217
+msgid "Workspace"
+msgstr "Χώρος εργασίας"
+
+#: ../libxfcegui4/netk-window-action-menu.c:246
+msgid "S_how"
+msgstr "Εμ_φάνιση"
+
+#: ../libxfcegui4/netk-window-action-menu.c:253
+msgid "_Hide"
+msgstr "Απόκρυ_ψη"
+
+#: ../libxfcegui4/netk-window-action-menu.c:261
+msgid "Un_maximize"
+msgstr "Απο_μεγιστοποίηση"
+
+#: ../libxfcegui4/netk-window-action-menu.c:268
+msgid "Ma_ximize"
+msgstr "Με_γιστοποίηση"
+
+#: ../libxfcegui4/netk-window-action-menu.c:276
+msgid "Un_shade"
+msgstr "Απ_οσκίαση"
+
+#: ../libxfcegui4/netk-window-action-menu.c:283
+msgid "_Shade"
+msgstr "_Σκίαση"
+
+#: ../libxfcegui4/netk-window-action-menu.c:291
+msgid "Uns_tick"
+msgstr "Αποεπικό_λληση"
+
+#: ../libxfcegui4/netk-window-action-menu.c:299
+msgid "S_tick"
+msgstr "_Επικόλληση"
+
+#: ../libxfcegui4/netk-window-action-menu.c:439
+msgid "Send to..."
+msgstr "Αποστολή προς..."
+
+#: ../libxfcegui4/netk-window-action-menu.c:463
+msgid "_Close"
+msgstr "_Κλείσιμο"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:230
+msgid "Needs terminal"
+msgstr "Χρειάζεται τερματικό"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:231
+msgid "Whether or not the command needs a terminal to execute"
+msgstr "Αν η εντολή χρειάζεται τερματικό για την εκτέλεσή της ή όχι"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../libxfcegui4/xfce-appmenuitem.c:235 ../glade/xfce4.xml.in.h:8
+msgid "Command"
+msgstr "Εντολή"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:236
+msgid "The command to run when the item is clicked"
+msgstr "Η εντολή που θα εκτελεστεί όταν γίνει κλικ στο αντικείμενο"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:240
+msgid "Icon name"
+msgstr "Όνομα εικονιδίου"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:241
+msgid "The name of the themed icon to display next to the item"
+msgstr "Το όνομα του εικονιδίου που θα εμφανίζεται στο αντικείμενο μενού"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../libxfcegui4/xfce-appmenuitem.c:245 ../glade/xfce4.xml.in.h:27
+msgid "Label"
+msgstr "Ετικέτα"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:246
+msgid "The label displayed in the item"
+msgstr "Η ετικέτα εμφανίστηκε στο αντικείμενο"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:250
+msgid "Startup notification"
+msgstr "Ειδοποίηση εκκίνησης"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:251
+msgid "Whether or not the app supports startup notification"
+msgstr "Αν η εφαρμογή υποστηρίζει ειδοποίηση εκκίνησης ή όχι"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:255
+msgid "Use underline"
+msgstr "Χρήση υπογράμμισης"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:256
+msgid "Whether or not to use an underscore in the label as a keyboard mnemonic"
+msgstr "Αν θα χρησιμοποιηθεί υπογράμμιση στην ετικέτα όπως μνημονικό πληκτρολογίου"
+
+#. set window title
+#: ../libxfcegui4/xfce_aboutdialog.c:644
+#, c-format
+msgid "About %s..."
+msgstr "Περί %s..."
+
+#: ../libxfcegui4/xfce_aboutdialog.c:1000
+msgid "Visit homepage"
+msgstr "Επίσκεψη αρχικής σελίδας"
+
+#: ../libxfcegui4/xfce_aboutdialog.c:1012
+msgid "Info"
+msgstr "Πληροφορίες"
+
+#: ../libxfcegui4/xfce_aboutdialog.c:1034
+msgid "Credits"
+msgstr "Μνεία"
+
+#: ../libxfcegui4/xfce_aboutdialog.c:1056
+msgid "License"
+msgstr "Άδεια"
+
+#: ../libxfcegui4/xfce_systemtray.c:347 ../libxfcegui4/xfce_systemtray.c:351
+msgid "Failed to acquire manager selection"
+msgstr "Αποτυχία λήψης της επιλογής του διαχειριστή"
+
+#: ../libxfcegui4/xfce_systemtray.c:487
+#, c-format
+msgid "tray icon has requested a size of (%i x %i), resizing to (%i x %i)"
+msgstr ""
+"Το εικονίδιο του πίνακα ζήτησε μέγεθος (%i x %i), αλλάζω το μέγεθος σε (%i x "
+"%i)"
+
+#: ../libxfcegui4/xfce_systemtray.c:496
+msgid "tray icon was not attached, destroying it"
+msgstr "Το εικονίδιο δεν συνδέθηκε στον πίνακα, το καταστρέφω"
+
+#: ../glade/xfce4.xml.in.h:9
+msgid "Dialog Header"
+msgstr "Επικεφαλίδα διαλόγου"
+
+#: ../glade/xfce4.xml.in.h:10
+msgid "Icon"
+msgstr "Εικονιδίο"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../glade/xfce4.xml.in.h:18
+msgid "Icon Filename"
+msgstr "Όνομα αρχείου εικονιδίου"
+
+#: ../glade/xfce4.xml.in.h:19
+msgid "Icon Name"
+msgstr "Όνομα εικονιδίου"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../glade/xfce4.xml.in.h:35
+msgid "Launcher Menu Item"
+msgstr "Αντικείμενο μενού εκκίνησης"
+
+#: ../glade/xfce4.xml.in.h:36
+msgid "Move Handle"
+msgstr "Μετακίνηση χερουλιού"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../glade/xfce4.xml.in.h:44
+msgid "Needs Terminal"
+msgstr "Χρειάζεται τερματικό"
+
+#: ../glade/xfce4.xml.in.h:45
+msgid "Scaled Image"
+msgstr "Διαβαθμισμένη εικόνα"
+
+#: ../glade/xfce4.xml.in.h:46
+msgid "Subtitle"
+msgstr "Υπότιτλος"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../glade/xfce4.xml.in.h:54
+msgid "Supports Startup Notification"
+msgstr "Υποστήριξη ειδοποίηση εκκίνησης"
+
+#: ../glade/xfce4.xml.in.h:55
+msgid "Title"
+msgstr "Τίτλος"
+
+#: ../glade/xfce4.xml.in.h:56
+msgid "Titled Dialog"
+msgstr "Διάλογος με τίτλο"
+
+#: ../glade/xfce4.xml.in.h:57
+msgid "Xfce4 Widgets"
+msgstr "Xfce4 Widgets"
+

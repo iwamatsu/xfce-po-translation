@@ -1,0 +1,255 @@
+# Ukrainian translation of xfce4-mount-plugin.
+# Copyright (C) 2004-2005 Jean-Baptiste Dulong.
+# Copytight (C) 2005-2007 Fabian Nowak.
+# This file is distributed under the same license as the xfce4-mount-plugin package.
+#
+# Eugene Ostapets <eostapets@altlinux.ru>, 2005.
+# Dmitry Nikitin <luckas_fb@mail.ru>, 2007, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-mount-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-14 09:31+0000\n"
+"PO-Revision-Date: 2008-07-09 10:31+0300\n"
+"Last-Translator: Dmitry Nikitin <luckas_fb@mail.ru>\n"
+"Language-Team: Ukrainian <xfce4-dev@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Ukrainian\n"
+"X-Poedit-Country: UKRAINE\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../panel-plugin/devices.c:54
+#, c-format
+msgid "%.1f B"
+msgstr "%.1f Б"
+
+#: ../panel-plugin/devices.c:55
+#, c-format
+msgid "%.1f KB"
+msgstr "%.1f КБ"
+
+#: ../panel-plugin/devices.c:56
+#, c-format
+msgid "%.1f MB"
+msgstr "%.1f МБ"
+
+#: ../panel-plugin/devices.c:57
+#, c-format
+msgid "%.1f GB"
+msgstr "%.1f ГБ"
+
+#: ../panel-plugin/devices.c:66
+#, c-format
+msgid "size:                %g\n"
+msgstr "розмір:                %g\n"
+
+#: ../panel-plugin/devices.c:67
+#, c-format
+msgid "used size:           %g\n"
+msgstr "використаний простір:           %g\n"
+
+#: ../panel-plugin/devices.c:68
+#, c-format
+msgid "available siz:       %g\n"
+msgstr "доступний простір:       %g\n"
+
+#: ../panel-plugin/devices.c:69
+#, c-format
+msgid "percentage used:     %d\n"
+msgstr "відсоток використання:     %d\n"
+
+#: ../panel-plugin/devices.c:70
+#, c-format
+msgid "file system type:    %s\n"
+msgstr "тип файлової системи:    %s\n"
+
+#: ../panel-plugin/devices.c:71
+#, c-format
+msgid "actual mount point:  %s\n"
+msgstr "поточна точка монтування:  %s\n"
+
+#: ../panel-plugin/devices.c:155
+#, c-format
+msgid "disk: %s\n"
+msgstr "диск: %s\n"
+
+#: ../panel-plugin/devices.c:156
+#, c-format
+msgid "mount point: %s\n"
+msgstr "точка монтування: %s\n"
+
+#: ../panel-plugin/devices.c:160
+#, c-format
+msgid "not mounted\n"
+msgstr "не змонтовано\n"
+
+#: ../panel-plugin/devices.c:245 ../panel-plugin/devices.c:294
+msgid "Mount Plugin: Error executing command."
+msgstr "Mount Plugin: Помилка виконання команди."
+
+#: ../panel-plugin/mount-plugin.c:54
+#, c-format
+msgid "The device \"%s\" should be removable safely now."
+msgstr "Пристрій \"%s\" може бути безпечно зараз від'єднано."
+
+#: ../panel-plugin/mount-plugin.c:57
+msgid "An error occurred. The device should not be removed!"
+msgstr "Сталася помилка. Пристрій не варто було від'єднувати!"
+
+#: ../panel-plugin/mount-plugin.c:249
+msgid "<span foreground=\"#FF0000\">not mounted</span>"
+msgstr "<span foreground=\"#FF0000\">не змонтовано</span>"
+
+#: ../panel-plugin/mount-plugin.c:557
+msgid "devices"
+msgstr "пристрої"
+
+#: ../panel-plugin/mount-plugin.c:722
+msgid "Edit Properties"
+msgstr "Редагувати властивості"
+
+#: ../panel-plugin/mount-plugin.c:729
+#: ../panel-plugin/xfce4-mount-plugin.desktop.in.in.h:1
+msgid "Mount devices"
+msgstr "Монтування/Відображення пристроїв"
+
+#: ../panel-plugin/mount-plugin.c:776
+msgid ""
+"This is only useful and recommended if you specify \"sync\" as part of the "
+"\"unmount\" command string."
+msgstr ""
+"Це використовується і рекомендується тільки якщо Ви зазначили \"sync\" як "
+"частину \"unmount\" рядка команди."
+
+#: ../panel-plugin/mount-plugin.c:781
+msgid "Show _message after unmount"
+msgstr "Показати _повідомлення після демонтування"
+
+#: ../panel-plugin/mount-plugin.c:793
+msgid "You can specify a distinct icon to be displayed in the panel."
+msgstr "Ви можете вказати шлях до значка, який буде відображатись у панелі."
+
+#: ../panel-plugin/mount-plugin.c:800
+msgid "Icon:"
+msgstr "Значок:"
+
+#: ../panel-plugin/mount-plugin.c:804
+msgid "Select an image"
+msgstr "Вибрати значок"
+
+#: ../panel-plugin/mount-plugin.c:811
+msgid "_General"
+msgstr "_Основне"
+
+#: ../panel-plugin/mount-plugin.c:826
+#, c-format
+msgid ""
+"This command will be executed after mounting the device with the mount point "
+"of the device as argument.\n"
+"If you are unsure what to insert, try \"thunar %m\".\n"
+"'%d' can be used to specify the device, '%m' for the mountpoint."
+msgstr ""
+"Ця команда буде виконана після монтування пристрою з точкою монтування "
+"пристрою як аргументом.\n"
+"Якщо ви не впевнені що тут зазначити, спробуйте \"thunar %m\".\n"
+"'%d' може бути використано для визначення пристрою, '%m' для точки "
+"монтування."
+
+#: ../panel-plugin/mount-plugin.c:836
+msgid "_Execute after mounting:"
+msgstr "_Виконати після монтування:"
+
+#: ../panel-plugin/mount-plugin.c:859
+msgid ""
+"WARNING: These options are for experts only! If you do not know what they "
+"may be good for, keep your hands off!"
+msgstr ""
+"ПОПЕРЕДЖЕННЯ: Ці опції призначені тільки для експертів! Якщо Ви не знаєте що "
+"все буде гаразд - краще геть руки!"
+
+#: ../panel-plugin/mount-plugin.c:864
+msgid "_Custom commands"
+msgstr "_Додаткові команди"
+
+#: ../panel-plugin/mount-plugin.c:883
+#, c-format
+msgid ""
+"Most users will only want to prepend \"sudo\" to both commands or prepend "
+"\"sync %d &&\" to the \"unmount %d\" command.\n"
+"'%d' is used to specify the device, '%m' for the mountpoint."
+msgstr ""
+"Більшість користувачів хотіли тільки додати \"sudo\" для обох команд, чи "
+"додати \"sync %d &&\" для \"unmount %d\" команди.\n"
+"'%d' використовується для визначення пристрою, '%m' для точки монтування."
+
+#: ../panel-plugin/mount-plugin.c:892
+msgid "_Mount command:"
+msgstr "Команда _монтування:"
+
+#: ../panel-plugin/mount-plugin.c:898
+msgid "_Unmount command:"
+msgstr "Команда д_емонтування:"
+
+#: ../panel-plugin/mount-plugin.c:924
+msgid "_Commands"
+msgstr "К_оманди"
+
+#: ../panel-plugin/mount-plugin.c:939
+msgid ""
+"Activate this option to also display network file systems like NFS, SMBFS, "
+"SHFS and SSHFS."
+msgstr ""
+"Активуйте цю опцію для відображення мережевих файлових систем таких як NFS, "
+"SMBFS, SHFS і SSHFS."
+
+#: ../panel-plugin/mount-plugin.c:944
+msgid "Display _network file systems"
+msgstr "Показувати мере_жеві файлові системи"
+
+#: ../panel-plugin/mount-plugin.c:957
+msgid ""
+"Activate this option to also eject a CD-drive after unmounting and to insert "
+"before mounting."
+msgstr ""
+"Активуйте цю опцію щоб витягнути CD-диск після демонтування і вставити його "
+"перед монтуванням."
+
+#: ../panel-plugin/mount-plugin.c:962
+msgid "_Eject CD-drives"
+msgstr "Ви_тягнути CD-диски"
+
+#: ../panel-plugin/mount-plugin.c:975
+msgid "Activate this option to only have the mount points be displayed."
+msgstr "Активуйте цю опцію щоб відображались тільки наявні точки монтування."
+
+#: ../panel-plugin/mount-plugin.c:979
+msgid "Display _mount points only"
+msgstr "Відображати тільки _точки монтування"
+
+#: ../panel-plugin/mount-plugin.c:994
+msgid ""
+"Exclude the following file systems from the menu.\n"
+"The list is separated by simple spaces.\n"
+"It is up to you to specify correct devices or mount points."
+msgstr ""
+"Виключити наступні файлові системи з меню.\n"
+"Перелік повинен бути розділений простими пробілами.\n"
+"Тут потрібно зазначати правильні пристрої чи точки монтування."
+
+#: ../panel-plugin/mount-plugin.c:1004
+msgid "E_xclude specified file systems"
+msgstr "В_иключити зазначені файлові системи"
+
+#: ../panel-plugin/mount-plugin.c:1019
+msgid "_File systems"
+msgstr "_Файлові системи"
+
+#: ../panel-plugin/xfce4-mount-plugin.desktop.in.in.h:2
+msgid "Shows all mountable devices and (un)mounts them on request."
+msgstr ""
+"Показати всі доступні для монтування пристрої і демонтовані тут в запиті."

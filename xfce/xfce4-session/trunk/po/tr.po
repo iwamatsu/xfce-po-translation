@@ -1,0 +1,632 @@
+# Turkish translations for xfce4-session package.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfce4-session package.
+# Erçin EKER <ercin.eker@linux.org.tr>, 2004.
+# Türker GÜLÜM <turker.gulum@linux.org.tr>, 2007
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-session 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-07-20 16:58+0200\n"
+"PO-Revision-Date: 2007-03-05 18:00+0200\n"
+"Last-Translator: Türker GÜLÜM <turker.gulum@linux.org.tr>\n"
+"Language-Team: Turkish <gnu-tr-u12a@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../engines/balou/balou-theme.c:110
+msgid "No description given"
+msgstr "Açıklama yok"
+
+#: ../engines/balou/config.c:321
+msgid "Choose theme file to install..."
+msgstr "Kurmak için tema dosyasını seçin..."
+
+#: ../engines/balou/config.c:333
+#, c-format
+msgid ""
+"Unable to install splash theme from file %s, please check that the file is a "
+"valid splash theme archive."
+msgstr ""
+"%s dosyasında tema yüklenemiyor, lütfen geçerli bir tema arşivi olup "
+"olmadığını kontrol edin."
+
+#: ../engines/balou/config.c:386
+#, c-format
+msgid "Unable to remove splash theme \"%s\" from directory %s."
+msgstr "Açılış teması \"%s\" %s dizininden silinemiyor."
+
+#: ../engines/balou/config.c:471
+msgid "Choose theme filename..."
+msgstr "Tema dosyasını seç..."
+
+#: ../engines/balou/config.c:604
+msgid "_Install new theme"
+msgstr "Yeni tema _kur"
+
+#: ../engines/balou/config.c:613
+msgid "_Remove theme"
+msgstr "Temayı _kaldır"
+
+#: ../engines/balou/config.c:630
+msgid "_Export theme"
+msgstr "Temayı _aktar"
+
+#: ../engines/balou/config.c:845
+msgid "Balou theme"
+msgstr "Balou teması"
+
+#: ../engines/balou/config.c:928
+msgid "Configure Balou..."
+msgstr "Balou'yu Yapılandır..."
+
+#: ../engines/balou/config.c:969
+msgid "Balou"
+msgstr "Balou teması"
+
+#: ../engines/balou/config.c:970
+msgid "Balou Splash Engine"
+msgstr "Balou Açılış Motoru"
+
+#: ../engines/mice/mice.c:369
+msgid "Mice"
+msgstr "Mice teması"
+
+#: ../engines/mice/mice.c:370
+msgid "Mice Splash Engine"
+msgstr "Mice Açılış Motoru"
+
+#: ../engines/simple/simple.c:319
+msgid "Choose image..."
+msgstr "Resim seç..."
+
+#: ../engines/simple/simple.c:364
+msgid "Configure Simple..."
+msgstr "Basit'i Yapılandır..."
+
+#: ../engines/simple/simple.c:375
+msgid "Font"
+msgstr "Yazı Tipi"
+
+#: ../engines/simple/simple.c:384
+msgid "Colors"
+msgstr "Renkler"
+
+#: ../engines/simple/simple.c:392
+msgid "Background color:"
+msgstr "Arka plan rengi:"
+
+#: ../engines/simple/simple.c:404
+msgid "Text color:"
+msgstr "Yazı rengi:"
+
+#: ../engines/simple/simple.c:416
+msgid "Image"
+msgstr "Resim"
+
+#: ../engines/simple/simple.c:424
+msgid "Use custom image"
+msgstr "Kişisel resim kullan"
+
+#: ../engines/simple/simple.c:509
+msgid "Simple"
+msgstr "Simple Teması"
+
+#: ../engines/simple/simple.c:510
+msgid "Simple Splash Engine"
+msgstr "Basit Başlangıç Ekranı Motoru"
+
+#: ../settings/session/session.c:137
+msgid "Session chooser"
+msgstr "Oturum seçici"
+
+#: ../settings/session/session.c:142
+msgid "Display chooser on login"
+msgstr "Girişte seçiciyi göster"
+
+#: ../settings/session/session.c:150
+msgid ""
+"If set, the session manager will ask you to choose a session every time you "
+"log in to Xfce."
+msgstr ""
+"Ayarlandığında, Xfce'ye her girişinizde size seçmeniz için oturumlar "
+"gösterilecek."
+
+#: ../settings/session/session.c:154
+msgid "Logout settings"
+msgstr "Çıkış ayarları"
+
+#: ../settings/session/session.c:160
+msgid "Automatically save session on logout"
+msgstr "Çıkışta oturumu otomatik kaydet"
+
+#: ../settings/session/session.c:166
+msgid ""
+"This option instructs the session manager to save the current session "
+"automatically when you log out. If you don't select this option you'll be "
+"prompted whether you want to save the current session on each logout."
+msgstr ""
+"Bu seçenek oturum yöneticisinin çıkışta, mevcut oturumu otomatik olarak "
+"kaydetmesini sağlar. Eğer bu seçeneği seçmezseniz her çıkışta oturum "
+"kaydedilip edilmeyeceği size sorulur."
+
+#: ../settings/session/session.c:173
+msgid "Prompt on logout"
+msgstr "Çıkışta sor"
+
+#: ../settings/session/session.c:179
+msgid ""
+"This option disables the logout confirmation dialog. Whether the session "
+"will be saved or not depends on whether you enabled the automatic saving of "
+"sessions on logout or not."
+msgstr ""
+"Bu seçenek çıkış için onaylamayı kaldırır. Oturumun çıkışta kayıt edilmesi "
+"otomatik oturum kaydetmeyi seçip seçmediğinize bağlı olacaktır."
+
+#: ../settings/session/session.c:215
+msgid "Compatibility"
+msgstr "Uyumluluk"
+
+#: ../settings/session/session.c:224
+msgid "Launch Gnome services on startup"
+msgstr "Başlangıçta Gnome hizmetlerini çalıştır"
+
+#: ../settings/session/session.c:230
+msgid ""
+"Enable this if you plan to use Gnome applications. This will instruct the "
+"session manager to start some vital Gnome services for you. You should also "
+"enable this if you want to use the Assistive Technologies that ship with "
+"Gnome."
+msgstr ""
+"Bu seçeneği Gnome uygulamaları kullanacaksanız etkinleştirin. Bu seçenek "
+"oturum yöneticisinin bazı önemli Gnome hizmetlerini çalıştırmasını sağlar. "
+"Bu seçeneği sadece Gnome ile birlikte gelen bazı Yardımcı Teknolojileri "
+"kullanmak istiyorsanız etkinleştirin."
+
+#: ../settings/session/session.c:237
+msgid "Launch KDE services on startup"
+msgstr "Başlangıçta KDE hizmetlerini çalıştır"
+
+#: ../settings/session/session.c:243
+msgid ""
+"Enable this option if you plan to run KDE applications as part of your Xfce "
+"Desktop session. This will notably increase the startup time, but on the "
+"other hand, KDE applications will startup faster. Some KDE applications may "
+"not work at all if you don't enable this option."
+msgstr ""
+"KDE uygulamalarını Xfce Masaüstü Ortamı altında çalıştırmak istiyorsanız bu "
+"seçeneği etkinleştirin. Bu açılış sürecini uzatacaktır, diğer yandan KDE "
+"uygulamaları daha hızlı açılacaktır. Bazı KDE uygulamaları bu seçeneği "
+"etkinleştirmediğiniz sürece çalışmayabilir."
+
+#: ../settings/session/session.c:256
+msgid "Security"
+msgstr "Güvenlik"
+
+#: ../settings/session/session.c:261
+msgid "Manage remote applications"
+msgstr "Uzaktaki uygulamaları yönet"
+
+#: ../settings/session/session.c:273
+msgid ""
+"Allow the session manager to manage applications running on remote hosts. Do "
+"not enable this option unless you know what you are doing."
+msgstr ""
+"Oturum yöneticisinin uzak sistemlerde çalışan uygulamarı yönetmesine izin "
+"ver. Ne yaptığınızı bilmiyorsanız bu seçeneği etkinleştirmeyin."
+
+#: ../settings/session/session.c:333
+msgid "Sessions and Startup"
+msgstr "Oturumlar ve Başlangıç"
+
+#: ../settings/session/session.c:352
+msgid "General"
+msgstr "Genel"
+
+#: ../settings/session/session.c:358
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+#. the button label in the xfce-mcs-manager dialog
+#: ../settings/session/session.c:382
+msgid "Button Label|Sessions and Startup"
+msgstr "Oturumlar ve Başlangıç"
+
+#: ../settings/splash/splash.c:309 ../settings/splash/splash.c:312
+#: ../settings/splash/splash.c:315 ../settings/splash/splash.c:318
+#: ../settings/splash/splash.c:386
+msgid "None"
+msgstr "Hiçbiri"
+
+#: ../settings/splash/splash.c:409
+#: ../settings/splash/xfce-splash-settings.desktop.in.h:1
+msgid "Splash Screen Settings"
+msgstr "Açılış Ekranı Ayarları"
+
+#: ../settings/splash/splash.c:457
+msgid "Configure"
+msgstr "Yapılandır"
+
+#: ../settings/splash/splash.c:465
+msgid "Opens the configuration panel for the selected splash screen."
+msgstr "Seçilmiş açılış ekranı için yapılandırma penceresini açar."
+
+#: ../settings/splash/splash.c:469
+msgid "Test"
+msgstr "Dene"
+
+#: ../settings/splash/splash.c:476
+msgid "Demonstrates the selected splash screen."
+msgstr "Seçilmiş olan açılış ekranını gösterir."
+
+#: ../settings/splash/splash.c:493
+msgid "Information"
+msgstr "Bilgi"
+
+#: ../settings/splash/splash.c:504
+msgid "<b>Description:</b>"
+msgstr "<b>Açıklama:</b>"
+
+#: ../settings/splash/splash.c:518
+msgid "<b>Version:</b>"
+msgstr "<b>Sürüm:</b>"
+
+#: ../settings/splash/splash.c:532
+msgid "<b>Author:</b>"
+msgstr "<b>Yazar:</b>"
+
+#: ../settings/splash/splash.c:546
+msgid "<b>Homepage:</b>"
+msgstr "<b>Anasayfa:</b>"
+
+#. the button label in the xfce-mcs-manager dialog
+#: ../settings/splash/splash.c:584
+msgid "Button Label|Splash Screen"
+msgstr "Açılış ekranı"
+
+#: ../xfce4-autostart-editor/xfae-dialog.c:99
+msgid "Add application"
+msgstr "Uygulama ekle"
+
+#: ../xfce4-autostart-editor/xfae-dialog.c:113
+msgid "Name:"
+msgstr "İsim:"
+
+#: ../xfce4-autostart-editor/xfae-dialog.c:130
+msgid "Description:"
+msgstr "Açıklama:"
+
+#: ../xfce4-autostart-editor/xfae-dialog.c:145
+msgid "Command:"
+msgstr "Komut:"
+
+#: ../xfce4-autostart-editor/xfae-dialog.c:205
+msgid "Select a command"
+msgstr "Bir komut seç"
+
+#: ../xfce4-autostart-editor/xfae-model.c:558
+#, c-format
+msgid "Failed to unlink %s: %s"
+msgstr "Bağ oluşturulamadı: %s %s"
+
+#: ../xfce4-autostart-editor/xfae-model.c:646
+#, c-format
+msgid "Failed to create file %s"
+msgstr "%s dosyası oluşturulamadı"
+
+#: ../xfce4-autostart-editor/xfae-model.c:668
+#, c-format
+msgid "Failed to write file %s"
+msgstr "%s dosyasına yazma hatası"
+
+#: ../xfce4-autostart-editor/xfae-model.c:767
+#, c-format
+msgid "Failed to open %s for writing"
+msgstr "%s dosyasında yazmaya uygun açılamıyor"
+
+#: ../xfce4-autostart-editor/xfae-window.c:89
+#: ../xfce4-autostart-editor/xfae-window.c:106
+msgid "Autostarted applications"
+msgstr "Açılışta çalıştırılan uygulamalar"
+
+#: ../xfce4-autostart-editor/xfae-window.c:124
+msgid ""
+"Below is the list of applications that will be started\n"
+"automatically when you login to your Xfce desktop,\n"
+"in addition to the applications that were saved when\n"
+"you logged out last time:"
+msgstr ""
+"Son çıkış yaptığınızda kayıt ettiğiniz uygulamalara ek olarak\n"
+"aşağıdaki listede bulunan uygulamalar Xfce masaüstüne\n"
+"giriş yaptığınızda otomatik olarak çalışacaktır:"
+
+#: ../xfce4-session/main.c:140
+msgid "Loading desktop settings"
+msgstr "Masaüstü ayarları yükleniyor"
+
+#. verify that the DNS settings are ok
+#: ../xfce4-session/main.c:200
+msgid "Verifying DNS settings"
+msgstr "DNS Ayarları Doğrulanıyor"
+
+#: ../xfce4-session/main.c:203
+msgid "Loading session data"
+msgstr "Oturum bilgisi yükleniyor"
+
+#: ../xfce4-session/shutdown.c:334
+msgid "Log Out"
+msgstr "Çıkış"
+
+#: ../xfce4-session/shutdown.c:357
+msgid "Restart"
+msgstr "Yeniden Başla"
+
+#: ../xfce4-session/shutdown.c:380
+msgid "Shut Down"
+msgstr "Kapat"
+
+#: ../xfce4-session/shutdown.c:388
+msgid "_Save session for future logins"
+msgstr "_Sonraki girişler için oturumu kaydet"
+
+#: ../xfce4-session/shutdown.c:451
+msgid "Please enter your password:"
+msgstr "Lütfen parolanızı girin:"
+
+#: ../xfce4-session/shutdown.c:482
+#, fuzzy
+msgid "<b>An error occurred</b>"
+msgstr "<b>Bir hata oluştu</b>"
+
+#: ../xfce4-session/shutdown.c:496
+msgid ""
+"Either the password you entered is invalid, or the system administrator "
+"disallows shutting down this computer with your user account."
+msgstr ""
+"Girdiğiniz parola yanlış ya da sistem yöneticisi kullandığınız kullanıcı "
+"hesabının bilgisayarı kapatmasına izin vermiyor."
+
+#: ../xfce4-session/xfsm-chooser.c:120
+#, c-format
+msgid "Last accessed: %s"
+msgstr "Son erişim: %s"
+
+#: ../xfce4-session/xfsm-chooser.c:213
+msgid ""
+"Choose the session you want to restore. You can simply double-click the "
+"session name to restore it."
+msgstr ""
+"Yüklenecek oturumu seçin. Basitçe oturum adına çift tıklayarak yüklenmesini "
+"sağlayabilirsiniz."
+
+#. "Logout" button
+#: ../xfce4-session/xfsm-chooser.c:239
+msgid "Logout"
+msgstr "Çıkış"
+
+#: ../xfce4-session/xfsm-chooser.c:241
+msgid "Cancel the login attempt and return to the login screen."
+msgstr "Giriş işlemini iptal et ve giriş ekranına geri dön."
+
+#. "New" button
+#: ../xfce4-session/xfsm-chooser.c:249
+msgid "New session"
+msgstr "Yeni oturum"
+
+#: ../xfce4-session/xfsm-chooser.c:251
+msgid "Create a new session."
+msgstr "Yeni bir oturum oluştur."
+
+#: ../xfce4-session/xfsm-compat-gnome.c:244
+msgid "Starting The Gnome Keyring Daemon"
+msgstr "Gnome Keyring Hizmeti Başlatılıyor"
+
+#: ../xfce4-session/xfsm-compat-gnome.c:256
+msgid "Starting Gnome Assistive Technologies"
+msgstr "Gnome Yardımcı Teknolojileri Başlatılıyor"
+
+#: ../xfce4-session/xfsm-compat-kde.c:118
+msgid "Starting KDE services"
+msgstr "KDE hizmetleri başlatılıyor"
+
+#: ../xfce4-session/xfsm-dns.c:77
+msgid "(Unknown)"
+msgstr "(Bilinmeyen)"
+
+#: ../xfce4-session/xfsm-dns.c:144
+#, c-format
+msgid ""
+"Could not look up internet address for %s.\n"
+"This will prevent Xfce from operating correctly.\n"
+"It may be possible to correct the problem by adding\n"
+"%s to the file /etc/hosts on your system."
+msgstr ""
+"%s internet adresi sorgulanamıyor.\n"
+"Bu Xfce'nin doğru çalışması engelleyebilir.\n"
+"Belki %s'i /etc/hosts dosyasına ekleyerek bu\n"
+"sorunu çözebilirsiniz."
+
+#: ../xfce4-session/xfsm-dns.c:151
+msgid "Continue anyway"
+msgstr "Yinede devam et"
+
+#: ../xfce4-session/xfsm-dns.c:152
+msgid "Try again"
+msgstr "Tekrar dene"
+
+#: ../xfce4-session/xfsm-splash-screen.c:178
+msgid "Choose session"
+msgstr "Oturum seç"
+
+#: ../xfce4-session/xfsm-splash-screen.c:208
+msgid "Choose session name"
+msgstr "Oturum ismi seç"
+
+#: ../xfce4-session/xfsm-splash-screen.c:222
+msgid "Choose a name for the new session:"
+msgstr "Yeni oturum için isim seç:"
+
+#: ../xfce4-session/xfsm-startup.c:101
+msgid "Starting the Volume Controller"
+msgstr "Ses Denetleyici Başlatılıyor"
+
+#: ../xfce4-session/xfsm-startup.c:103
+msgid "Starting the Panel"
+msgstr "Panel başlatılıyor"
+
+#: ../xfce4-session/xfsm-startup.c:105
+msgid "Starting the Desktop Manager"
+msgstr "Masaüstü Yöneticisi Başlatılıyor"
+
+#: ../xfce4-session/xfsm-startup.c:107
+msgid "Starting the Taskbar"
+msgstr "Görev Çubuğu Başlatılıyor"
+
+#: ../xfce4-session/xfsm-startup.c:109
+msgid "Starting the Window Manager"
+msgstr "Pencere Yöneticisi Başlatılıyor"
+
+#: ../xfce4-session/xfsm-startup.c:113
+msgid "Starting the Gnome Terminal Emulator"
+msgstr "Gnome Terminal Emülatörü Başlatılıyor"
+
+#: ../xfce4-session/xfsm-startup.c:117
+msgid "Starting the KDE Advanced Text Editor"
+msgstr "KDE Gelişmiş Metin Düzenleyicisi Başlatılıyor"
+
+#: ../xfce4-session/xfsm-startup.c:119
+msgid "Starting the KDE Clipboard Manager"
+msgstr "KDE Pano Yöneticisi Başlatılıyor"
+
+#: ../xfce4-session/xfsm-startup.c:121
+msgid "Starting the KDE Mail Reader"
+msgstr "KDE Posta Okuyucu Başlatılıyor"
+
+#: ../xfce4-session/xfsm-startup.c:123
+msgid "Starting the KDE News Reader"
+msgstr "KDE Haber Okuyucu Başlatılıyor"
+
+#: ../xfce4-session/xfsm-startup.c:125
+msgid "Starting the Konqueror"
+msgstr "Konqueror Başlatılıyor"
+
+#: ../xfce4-session/xfsm-startup.c:127
+msgid "Starting the KDE Terminal Emulator"
+msgstr "KDE Terminal Emülatörü Başlatılıyor"
+
+#: ../xfce4-session/xfsm-startup.c:131
+msgid "Starting the Beep Media Player"
+msgstr "Beep Ortam Yürütücüsü Başlatılıyor"
+
+#: ../xfce4-session/xfsm-startup.c:133
+msgid "Starting The Gimp"
+msgstr "Gimp Başlatılıyor"
+
+#: ../xfce4-session/xfsm-startup.c:135
+msgid "Starting the VI Improved Editor"
+msgstr "VI Improved Düzenleyicisi Başlatılıyor"
+
+#: ../xfce4-session/xfsm-startup.c:137
+msgid "Starting the Session Management Proxy"
+msgstr "Oturum Yönetim Vekili Başlatılıyor"
+
+#: ../xfce4-session/xfsm-startup.c:139
+msgid "Starting the X-Chat IRC Client"
+msgstr "X-Chat IRC İstemcisi Başlatılıyor"
+
+#: ../xfce4-session/xfsm-startup.c:141
+msgid "Starting the X Multimedia System"
+msgstr "X Multimedia System Başlatılıyor"
+
+#: ../xfce4-session/xfsm-startup.c:143
+msgid "Starting the X Terminal Emulator"
+msgstr "X Terminal Emülatörü Başlatılıyor"
+
+#: ../xfce4-session/xfsm-startup.c:145
+#, c-format
+msgid "Starting %s"
+msgstr "%s başlatılıyor"
+
+#: ../xfce4-session/xfsm-startup.c:270
+#, c-format
+msgid ""
+"The location and the format of the autostart directory has changed.\n"
+"The new location is\n"
+"\n"
+"  %s\n"
+"\n"
+"where you can place .desktop files to, that describe the applications\n"
+"to start when you login to your Xfce desktop. The files in your old\n"
+"autostart directory have been successfully migrated to the new\n"
+"location.\n"
+"You should delete this directory now.\n"
+msgstr ""
+"Açılışta çalışacakların dizin adresi ve biçimi değişmiştir.\n"
+"Xfce masaüstüne giriş yaptığınızda çalışacak uygulamaların\n"
+"tanımlandığı .desktop dosyalarının yerleştirileceği yeni dizin\n"
+"  %s\n"
+"\n"
+"Eski dizindeki dosyaların tamamı başarıyla yeni dizine\n"
+"taşınmıştır.\n"
+"Bu dizini artık silebilirsiniz.\n"
+
+#: ../xfce4-session/xfsm-startup.c:409
+msgid "Performing Autostart..."
+msgstr "Oto-Başlat Çalışıyor..."
+
+#: ../xfce4-tips/main.c:47 ../xfce4-tips/main.c:161
+msgid "Tips and Tricks"
+msgstr "İpuçları ve İncelikler"
+
+#: ../xfce4-tips/main.c:48 ../xfce4-tips/main.c:205
+msgid "Fortunes"
+msgstr "Gelecektekiler"
+
+#: ../xfce4-tips/main.c:190
+msgid "Display tips on _startup"
+msgstr "İpuçlarını açılışta gö_ster"
+
+#: ../xfce4-tips/main.c:199 ../xfce4-tips/xfce4-tips-autostart.desktop.in.h:1
+msgid "Tips and tricks"
+msgstr "İpuçları ve İncelikler"
+
+#: ../xfce4-tips/main.c:216
+msgid "Next"
+msgstr "Sonraki"
+
+#: ../settings/session/xfce-session-settings.desktop.in.h:1
+msgid "Session and Startup Settings"
+msgstr "Oturumlar ve Başlangıç Ayarları"
+
+#: ../settings/session/xfce-session-settings.desktop.in.h:2
+msgid "Sessions and Startup Settings"
+msgstr "Oturumlar ve Başlangıç Ayarları"
+
+#: ../settings/session/xfce-session-settings.desktop.in.h:3
+msgid "Xfce 4 Sessions and Startup Settings"
+msgstr "Xfce 4 Oturumlar ve Başlangıç Ayarları"
+
+#: ../settings/splash/xfce-splash-settings.desktop.in.h:2
+msgid "Xfce 4 Splash Screen Settings"
+msgstr "Xfce 4 Açılış Ekranı Ayarları"
+
+#: ../xfce4-autostart-editor/xfce4-autostart-editor.desktop.in.h:1
+msgid "Autostarted Applications"
+msgstr "Açılışta Çalıştırılan Uygulamalar"
+
+#: ../xfce4-autostart-editor/xfce4-autostart-editor.desktop.in.h:2
+msgid "Edit the list of autostarted applications"
+msgstr "Açılışta çalışacak uygulamaların listesini düzenle"
+
+#: ../xfce4-autostart-editor/xfce4-autostart-editor.desktop.in.h:3
+msgid "Xfce 4 Autostarted Applications"
+msgstr "Xfce 4 Açılışta Çalışacak Uygulamalar"
+
+#: ../xfce4-tips/xfce4-tips-autostart.desktop.in.h:2
+msgid "xfce4-tips"
+msgstr "xfce4-tips"
+
+#~ msgid "End Session"
+#~ msgstr "Oturumu Sonlandır"

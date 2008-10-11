@@ -1,0 +1,246 @@
+# Romanian translation of libxfcegui4.
+# Copyright (C) 2002-2006 The Xfce development team.
+# This file is distributed under the same license as the libxfcegui4 package.
+# Mişu Moldovan <dumol@gnome.ro>, 2004-2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libxfcegui4 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-08-18 12:49-0700\n"
+"PO-Revision-Date: 2007-01-21 01:23+0200\n"
+"Last-Translator: Mişu Moldovan <dumol@gnome.ro>\n"
+"Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3;plural=(n==1?0:(n==0||((n%100)>0&&(n%100)<20))?"
+"1:2)\n"
+
+#: ../libxfcegui4/netk-window-action-menu.c:215
+#: ../libxfcegui4/netk-window-action-menu.c:217
+msgid "Workspace"
+msgstr "Spaţiu de lucru"
+
+#: ../libxfcegui4/netk-window-action-menu.c:246
+msgid "S_how"
+msgstr "_Arată"
+
+#: ../libxfcegui4/netk-window-action-menu.c:253
+msgid "_Hide"
+msgstr "_Ascunde"
+
+#: ../libxfcegui4/netk-window-action-menu.c:261
+msgid "Un_maximize"
+msgstr "De_maximizează"
+
+#: ../libxfcegui4/netk-window-action-menu.c:268
+msgid "Ma_ximize"
+msgstr "_Maximizează"
+
+#: ../libxfcegui4/netk-window-action-menu.c:276
+msgid "Un_shade"
+msgstr "De_sfă"
+
+#: ../libxfcegui4/netk-window-action-menu.c:283
+msgid "_Shade"
+msgstr "_Strânge"
+
+#: ../libxfcegui4/netk-window-action-menu.c:291
+msgid "Uns_tick"
+msgstr "Dez_lipeşte"
+
+#: ../libxfcegui4/netk-window-action-menu.c:299
+msgid "S_tick"
+msgstr "_Lipeşte"
+
+#: ../libxfcegui4/netk-window-action-menu.c:439
+msgid "Send to..."
+msgstr "Trimite către..."
+
+#: ../libxfcegui4/netk-window-action-menu.c:463
+msgid "_Close"
+msgstr "În_chide"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:230
+msgid "Needs terminal"
+msgstr "Necesită terminal"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:231
+msgid "Whether or not the command needs a terminal to execute"
+msgstr "Dacă e nevoie sau nu de un terminal la executarea comenzii"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../libxfcegui4/xfce-appmenuitem.c:235 ../glade/xfce4.xml.in.h:8
+msgid "Command"
+msgstr "Comandă"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:236
+msgid "The command to run when the item is clicked"
+msgstr "Comanda the executat când elementul primeşte clic"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:240
+msgid "Icon name"
+msgstr "Nume iconiţă"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:241
+msgid "The name of the themed icon to display next to the item"
+msgstr "Numele iconiţei tematice de afişat împreună cu elementul"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../libxfcegui4/xfce-appmenuitem.c:245 ../glade/xfce4.xml.in.h:27
+msgid "Label"
+msgstr ""
+
+#: ../libxfcegui4/xfce-appmenuitem.c:246
+msgid "The label displayed in the item"
+msgstr ""
+
+#: ../libxfcegui4/xfce-appmenuitem.c:250
+msgid "Startup notification"
+msgstr ""
+
+#: ../libxfcegui4/xfce-appmenuitem.c:251
+msgid "Whether or not the app supports startup notification"
+msgstr ""
+
+#: ../libxfcegui4/xfce-appmenuitem.c:255
+msgid "Use underline"
+msgstr ""
+
+#: ../libxfcegui4/xfce-appmenuitem.c:256
+msgid "Whether or not to use an underscore in the label as a keyboard mnemonic"
+msgstr ""
+
+#. set window title
+#: ../libxfcegui4/xfce_aboutdialog.c:644
+#, c-format
+msgid "About %s..."
+msgstr "Despre %s..."
+
+#: ../libxfcegui4/xfce_aboutdialog.c:1000
+msgid "Visit homepage"
+msgstr "Vizitaţi pagina web"
+
+#: ../libxfcegui4/xfce_aboutdialog.c:1012
+msgid "Info"
+msgstr "Info"
+
+#: ../libxfcegui4/xfce_aboutdialog.c:1034
+msgid "Credits"
+msgstr "Credit"
+
+#: ../libxfcegui4/xfce_aboutdialog.c:1056
+msgid "License"
+msgstr "Licenţă"
+
+#: ../libxfcegui4/xfce_systemtray.c:347 ../libxfcegui4/xfce_systemtray.c:351
+msgid "Failed to acquire manager selection"
+msgstr "Nu s-a putut obţine selectarea unui administrator"
+
+#: ../libxfcegui4/xfce_systemtray.c:487
+#, c-format
+msgid "tray icon has requested a size of (%i x %i), resizing to (%i x %i)"
+msgstr ""
+"iconiţa de notificare a cerut o mărime de (%i x %i), va fi redimensionată la "
+"(%i x %i)"
+
+#: ../libxfcegui4/xfce_systemtray.c:496
+msgid "tray icon was not attached, destroying it"
+msgstr "iconiţa de notificare nu era ataşată, urmează a fi distrusă"
+
+#: ../glade/xfce4.xml.in.h:9
+msgid "Dialog Header"
+msgstr ""
+
+#: ../glade/xfce4.xml.in.h:10
+#, fuzzy
+msgid "Icon"
+msgstr "Nume iconiţă"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../glade/xfce4.xml.in.h:18
+#, fuzzy
+msgid "Icon Filename"
+msgstr "Nume iconiţă"
+
+#: ../glade/xfce4.xml.in.h:19
+#, fuzzy
+msgid "Icon Name"
+msgstr "Nume iconiţă"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../glade/xfce4.xml.in.h:35
+msgid "Launcher Menu Item"
+msgstr ""
+
+#: ../glade/xfce4.xml.in.h:36
+msgid "Move Handle"
+msgstr ""
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../glade/xfce4.xml.in.h:44
+#, fuzzy
+msgid "Needs Terminal"
+msgstr "Necesită terminal"
+
+#: ../glade/xfce4.xml.in.h:45
+msgid "Scaled Image"
+msgstr ""
+
+#: ../glade/xfce4.xml.in.h:46
+msgid "Subtitle"
+msgstr ""
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../glade/xfce4.xml.in.h:54
+msgid "Supports Startup Notification"
+msgstr ""
+
+#: ../glade/xfce4.xml.in.h:55
+msgid "Title"
+msgstr ""
+
+#: ../glade/xfce4.xml.in.h:56
+msgid "Titled Dialog"
+msgstr ""
+
+#: ../glade/xfce4.xml.in.h:57
+msgid "Xfce4 Widgets"
+msgstr ""

@@ -1,0 +1,131 @@
+dnl $Id$
+dnl
+dnl xfce4-cddrive-plugin - CD-ROM drive plugin for the Xfce panel
+dnl
+dnl Copyright (c) 2007
+dnl         The Xfce development team. All rights reserved.
+dnl
+dnl This program is free software; you can redistribute it and/or modify it
+dnl under the terms of the GNU General Public License as published by the Free
+dnl Software Foundation; either version 2 of the License, or (at your option)
+dnl any later version.
+dnl
+dnl This program is distributed in the hope that it will be useful, but WITHOUT
+dnl ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+dnl FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
+dnl more details.
+dnl
+dnl You should have received a copy of the GNU General Public License along with
+dnl this program; if not, write to the Free Software Foundation, Inc., 59 Temple
+dnl Place, Suite 330, Boston, MA  02111-1307  USA
+
+dnl ***************************
+dnl *** Version information ***
+dnl ***************************
+m4_define([cddrive_version], [0.1.0])
+
+dnl ***************************
+dnl *** Initialize autoconf ***
+dnl ***************************
+AC_COPYRIGHT([Copyright (c) 2006-2007
+        The Xfce development team. All rights reserved.])
+AC_INIT([xfce4-cddrive-plugin], [cddrive_version], [http://bugzilla.xfce.org/], [xfce4-cddrive-plugin])
+AC_PREREQ([2.50])
+AC_CANONICAL_TARGET()
+AC_REVISION([$Id])
+
+dnl ***************************
+dnl *** Initialize automake ***
+dnl ***************************
+AM_INIT_AUTOMAKE([1.8 dist-bzip2 tar-ustar])
+AM_CONFIG_HEADER([config.h])
+AM_MAINTAINER_MODE()
+
+dnl ********************************
+dnl *** Check for basic programs ***
+dnl ********************************
+AC_PROG_CC()
+AC_PROG_LD()
+AC_PROG_INSTALL()
+AC_PROG_INTLTOOL()
+
+dnl **********************************
+dnl *** Check for standard headers ***
+dnl **********************************
+AC_CHECK_HEADERS([math.h memory.h stdlib.h string.h sys/stat.h \
+                  sys/time.h time.h])
+
+dnl ************************************
+dnl *** Check for standard functions ***
+dnl ************************************
+AC_CHECK_FUNCS([])
+
+dnl ******************************
+dnl *** Check for i18n support ***
+dnl ******************************
+XDT_I18N([@LINGUAS@])
+
+dnl *******************************
+dnl *** Check for X11 installed ***
+dnl *******************************
+XDT_CHECK_LIBX11_REQUIRE()
+
+dnl ***********************************
+dnl *** Check for required packages ***
+dnl ***********************************
+XDT_CHECK_PACKAGE([LIBXFCEGUI4], [libxfcegui4-1.0], [4.3.99.2])
+XDT_CHECK_PACKAGE([LIBXFCE4PANEL], [libxfce4panel-1.0], [4.3.99.2])
+XDT_CHECK_PACKAGE([EXO], [exo-0.3], [0.3.1.12rc2])
+XDT_CHECK_PACKAGE([HALSTORAGE], [hal-storage], [0.5.8.1])
+XDT_CHECK_PACKAGE([DBUSGLIB], [dbus-glib-1], [0.71])
+XDT_CHECK_PACKAGE([LIBCDIO], [libcdio], [0.76])
+
+dnl ***********************************
+dnl *** Check for optional packages ***
+dnl ***********************************
+XDT_CHECK_OPTIONAL_PACKAGE([LIBCDDB], [libcddb], [1.2.1], [cddb], [CD Data Base support])
+XDT_CHECK_OPTIONAL_PACKAGE([GTHREAD], [gthread-2.0], [2.12.4], [thread], [threaded CDDB queries support])
+
+dnl ************************************************
+dnl *** Check for required headers and libraries ***
+dnl ************************************************
+AC_CHECK_HEADERS(stdarg.h unistd.h fcntl.h sys/ioctl.h linux/cdrom.h errno.h, ,
+                 [AC_MSG_ERROR(Required header file is missing or unusable.)])
+
+dnl ***********************************
+dnl *** Check for debugging support ***
+dnl ***********************************
+XDT_FEATURE_DEBUG()
+
+dnl ***********************************
+dnl *** Check for optimisations     ***
+dnl ***********************************
+SYL_DEBUG_SUPPORT()
+
+dnl *********************************
+dnl *** Substitute platform flags ***
+dnl *********************************
+AC_MSG_CHECKING([PLATFORM_CPPFLAGS])
+AC_MSG_RESULT([$PLATFORM_CPPFLAGS])
+AC_SUBST([PLATFORM_CPPFLAGS])
+AC_MSG_CHECKING([PLATFORM_CFLAGS])
+AC_MSG_RESULT([$PLATFORM_CFLAGS])
+AC_SUBST([PLATFORM_CFLAGS])
+AC_MSG_CHECKING([PLATFORM_LDFLAGS])
+AC_MSG_RESULT([$PLATFORM_LDFLAGS])
+AC_SUBST([PLATFORM_LDFLAGS])
+
+AC_OUTPUT([
+Makefile
+panel-plugin/Makefile
+po/Makefile.in
+])
+
+dnl ***************************
+dnl *** Print configuration ***
+dnl ***************************
+echo
+echo "Build Configuration:"
+echo
+echo "* Debug Support:    $enable_debug"
+echo

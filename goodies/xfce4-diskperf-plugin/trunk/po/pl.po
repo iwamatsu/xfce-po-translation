@@ -1,0 +1,281 @@
+# Polish translations for xfce4-diskperf-plugin package.
+# Piotr Maliński <admin@rk.edu.pl>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-diskperf-plugin 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:29+0200\n"
+"PO-Revision-Date: 2006-04-08 12:19+0900\n"
+"Last-Translator: Piotr Maliński <admin@rk.edu.pl>\n"
+"Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../panel-plugin/config_gui.c:108
+msgid "About..."
+msgstr "O programie..."
+
+#: ../panel-plugin/config_gui.c:123
+msgid "Disk Performance"
+msgstr "Parametry Dysku"
+
+#: ../panel-plugin/config_gui.c:136
+msgid "Device"
+msgstr "Urządzenie"
+
+#: ../panel-plugin/config_gui.c:150
+msgid "Input the device name, then press <Enter>"
+msgstr "Podaj nazwę urządzenia i wciśnij <Enter>"
+
+#: ../panel-plugin/config_gui.c:153
+msgid "/dev/hda1"
+msgstr "/dev/hda1"
+
+#: ../panel-plugin/config_gui.c:171
+msgid "Data collection period"
+msgstr "Okres zbierania danych"
+
+#: ../panel-plugin/config_gui.c:174
+msgid "Update interval (s) "
+msgstr "Interwał aktualizacji (s)"
+
+#: ../panel-plugin/config_gui.c:182
+msgid "Label"
+msgstr "Etykieta"
+
+#: ../panel-plugin/config_gui.c:187
+msgid "Tick to display label"
+msgstr "Zaznacz by wyświetlać etykietę"
+
+#: ../panel-plugin/config_gui.c:196
+msgid "Input the label, then press <Enter>"
+msgstr "Podaj etykietę i wciśnij <Enter>"
+
+#: ../panel-plugin/config_gui.c:198
+msgid "hda1"
+msgstr "hda1"
+
+#: ../panel-plugin/config_gui.c:208
+msgid "Monitor    "
+msgstr "Monitor    "
+
+#: ../panel-plugin/config_gui.c:213
+msgid "I/O transfer"
+msgstr "Trasfer We/Wy"
+
+#: ../panel-plugin/config_gui.c:216
+msgid "MB transferred / second"
+msgstr "MB  przesyłane / sekunda"
+
+#: ../panel-plugin/config_gui.c:222
+msgid "Busy time"
+msgstr "Czas wykonywania operacji"
+
+#: ../panel-plugin/config_gui.c:226
+msgid "Percentage of time the device is busy"
+msgstr "Procentowo czas wykonywania operacji"
+
+#: ../panel-plugin/config_gui.c:237
+msgid "Max. I/O rate (MB/s) "
+msgstr "Max szybkość operacji We/Wy (MB/s) "
+
+#: ../panel-plugin/config_gui.c:248
+msgid "Input the maximum I/O transfer rate of the device, then press <Enter>"
+msgstr "Podaj maksymalny transfer We/Wy i wciśnij <Enter>"
+
+#: ../panel-plugin/config_gui.c:251
+msgid "35"
+msgstr "35"
+
+#: ../panel-plugin/config_gui.c:258
+msgid "Combine Read/Write data"
+msgstr "Połącz Odczyt/Zapis"
+
+#: ../panel-plugin/config_gui.c:263
+msgid "Combine Read/Write data into one single monitor?"
+msgstr "Połączyć dane Odczytu/Zapisu w jeden monitor ?"
+
+#: ../panel-plugin/config_gui.c:270
+msgid "Bar color "
+msgstr "Kolor słupka"
+
+#: ../panel-plugin/config_gui.c:284 ../panel-plugin/config_gui.c:349
+#: ../panel-plugin/config_gui.c:357
+msgid "Press to change color"
+msgstr "Wciśnij by zmienić kolor"
+
+#: ../panel-plugin/config_gui.c:290
+msgid "Read bar color "
+msgstr "Kolor słupka odczytu"
+
+#: ../panel-plugin/config_gui.c:298
+msgid "Write bar color "
+msgstr "Kolor słupka zapisu"
+
+#: ../panel-plugin/config_gui.c:306
+msgid "Bar order"
+msgstr "Kolejność słupków"
+
+#: ../panel-plugin/config_gui.c:321
+msgid "Read-Write"
+msgstr "Odczyt-Zapis"
+
+#: ../panel-plugin/config_gui.c:326
+msgid "\"Read\" monitor first"
+msgstr "Słupek odczytu jako pierwszy"
+
+#: ../panel-plugin/config_gui.c:333
+msgid "Write-Read"
+msgstr "Zapis-Odczyt"
+
+#: ../panel-plugin/config_gui.c:338
+msgid "\"Write\" monitor first"
+msgstr "Słupek zapisu jako pierwszy"
+
+#: ../panel-plugin/main.c:809
+msgid "Select color"
+msgstr "Wybierz kolor"
+
+#: ../panel-plugin/main.c:858
+#, c-format
+msgid ""
+"%s\n"
+"%s: %s (%d)\n"
+"\n"
+"This monitor will not work!\n"
+"Please remove it."
+msgstr ""
+"%s\n"
+"%s: %s (%d)\n"
+"\n"
+"Ten monitor nie będzie działał!\n"
+"Usuń go."
+
+#: ../panel-plugin/main.c:868
+#, c-format
+msgid ""
+"%s: No disk extended statistics found!\n"
+"Either old kernel (< 2.4.20) or not\n"
+"compiled with CONFIG_BLK_STATS turned on.\n"
+"\n"
+"This monitor will not work!\n"
+"Please remove it."
+msgstr ""
+"%s: Brak rozszerzonych statystyk dysku!\n"
+"Albo stary kernel (< 2.4.20) lub \n"
+"skompilowany bez CONFIG_BLK_STATS.\n"
+"\n"
+"Ten monitor nie będzie działał!\n"
+"Usuń go."
+
+#: ../panel-plugin/main.c:875
+#, c-format
+msgid ""
+"%s: Unknown error\n"
+"\n"
+"This monitor will not work!\n"
+"Please remove it."
+msgstr ""
+"%s:  Nieznany Błąd\n"
+"\n"
+"Ten monitor nie będzie działał!\n"
+"Usuń go."
+
+#: ../panel-plugin/main.c:887
+#, c-format
+msgid ""
+"%s %s - Disk Performance Monitor\n"
+"Display instantaneous disk I/O transfer rates and busy times on Linux and "
+"NetBSD systems\n"
+"\n"
+"(c) 2003, 2004 Roger Seguin <roger_seguin@msn.com>\n"
+"NetBSD statistics collection: (c) 2003 Benedikt Meurer\n"
+"\t<benedikt.meurer@unix-ag.uni-siegen.de>"
+msgstr ""
+"%s %s - Monitor Osiągów Dysku\n"
+"Wyświetla transfer operacji Wejścia/Wyjścia\n"
+"\n"
+"(c) 2003, 2004 Roger Seguin <roger_seguin@msn.com>\n"
+"NetBSD statistics collection: (c) 2003 Benedikt Meurer\n"
+"\t<benedikt.meurer@unix-ag.uni-siegen.de>"
+
+#: ../panel-plugin/main.c:926
+msgid "Configuration"
+msgstr "Konfiguracja"
+
+#. ************************************************************
+#.
+#. $Log: main.c,v $
+#. Revision 1.7  2004/08/25 10:08:40  rogerms
+#. DiskPerf 1.5
+#.
+#. Revision 1.14  2004/08/25 08:51:02  RogerSeguin
+#. MT support and About... dialog box added
+#.
+#. Revision 1.6  2003/11/11 12:40:34  rogerms
+#. Release 1.4
+#.
+#. Revision 1.13  2003/11/11 12:12:42  RogerSeguin
+#. Force to single "total busy time" monitor when platform doesn't provide separate read and write data (e.g. NetBSD)
+#.
+#. Revision 1.5  2003/11/04 10:26:13  rogerms
+#. DiskPerf 1.3
+#.
+#. Revision 1.12  2003/11/04 10:16:36  RogerSeguin
+#. Got rid of Microsoft ^M
+#.
+#. Revision 1.11  2003/11/04 09:43:36  RogerSeguin
+#. Added busy time monitoring for Linux
+#.
+#. Revision 1.4  2003/11/02 06:57:50  rogerms
+#. Release 1.2
+#.
+#. Revision 1.10  2003/11/02 06:18:33  RogerSeguin
+#. Added busy time in tooltips for Linux 2.4 and 2.6
+#.
+#. Revision 1.9  2003/10/24 11:16:20  RogerSeguin
+#. Different scalable fonts with Mandrake 9.2 ==> diffent tooltips string spacing
+#.
+#. Revision 1.3  2003/10/18 23:02:58  rogerms
+#. DiskPerf release 1.1
+#.
+#. Revision 1.8  2003/10/18 06:56:50  RogerSeguin
+#. Integration of Benedikt Meurer's work on NetBSD port
+#.
+#. Revision 1.7  2003/10/16 13:07:42  RogerSeguin
+#. Kernel 2.6 support
+#.
+#. Revision 1.2  2003/10/16 18:48:39  benny
+#. Added support for NetBSD.
+#.
+#. Revision 1.1.1.1  2003/10/07 03:39:25  rogerms
+#. Initial release - v1.0
+#.
+#. Revision 1.6  2003/10/02 04:16:07  RogerSeguin
+#. Compute using rbytes/wbytes instead of rsect/wsect
+#.
+#. Revision 1.5  2003/09/25 12:24:11  RogerSeguin
+#. Implemented some error processing
+#.
+#. Revision 1.4  2003/09/25 09:32:13  RogerSeguin
+#. Added color configuration
+#.
+#. Revision 1.3  2003/09/24 10:56:36  RogerSeguin
+#. Now swapping the monitor bars is possible
+#.
+#. Revision 1.2  2003/09/23 15:17:01  RogerSeguin
+#. Now supports panel orientation
+#.
+#. Revision 1.1  2003/09/22 02:25:35  RogerSeguin
+#. Initial revision
+#.
+#.
+#: ../panel-plugin/main.c:938 ../panel-plugin/diskperf.desktop.in.in.h:1
+msgid "Disk Performance Monitor"
+msgstr "Monitor Osiągów Dysku"
+
+#: ../panel-plugin/diskperf.desktop.in.in.h:2
+msgid "Show disk performance"
+msgstr "Pokazuj osiągi dysku"

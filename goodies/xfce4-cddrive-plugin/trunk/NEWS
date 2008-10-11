@@ -1,0 +1,11 @@
+0.1.0
+=====
+- Bug fixes.
+- Add CD-TEXT support.
+- performer name to audio cd label (in addition of the cd title).
+(see Changelog file for more details)
+
+
+0.0.1
+=====
+- First release.

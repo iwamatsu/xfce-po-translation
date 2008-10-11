@@ -1,0 +1,48 @@
+20051008:
+---------
+	* Version 1.6.0
+	* Port to the Xfce 4.4 Panel
+
+20031130:
+---------
+	* Released 1.4.1 - Just a bug fix for Linux-2.6 systems
+	* Thanks to Ivan Todoroski who found a bug introduced with release 1.3
+
+20031111:
+---------
+	* Released 1.4 with Benedikt's support for "busy time" on NetBSD
+	* Force to single "total busy time" monitor when platform doesn't
+	  provide separate read and write data (NetBSD)
+
+20031110:
+---------
+	* NetBSD port now supports busy time stats as well, though currently
+	  theres no way to gather separate read/write stats, therefore 
+	  read and write stats are just total/2 for now.
+
+20031104:
+---------
+	* Added option for monitoring disk busy time statistics on Linux
+	  instead of I/O transfers
+	* Released 1.3.
+
+20031102:
+---------
+	* Improved Linux 2.6 specific processing.
+	* Added Linux disk busy time into tooltips.
+	* Released 1.2.
+
+20031019:
+---------
+	* Added support for Linux 2.6.
+	* Released 1.1.
+
+20031016:
+---------
+
+	* Added support for NetBSD. Adding support for Open/FreeBSD and
+	  Darwin should be trivial now.
+
+20031008:
+---------
+	* Initial release (1.0) for Linux 2.4.x, x>= 20

@@ -1,0 +1,521 @@
+# Tamil translation of Tamil XFprint.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfprint package.
+# Dinesh Nadarajah <n_dinesh@yahoo.com>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-14 15:26+0200\n"
+"PO-Revision-Date: 2003-09-24 17:52-0500\n"
+"Last-Translator: Dinesh Nadarajah <n_dinesh@yahoo.com>\n"
+"Language-Team: Tamil <tamilinix@yahoogroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+#, fuzzy
+msgid "Printer"
+msgstr "_அச்சுப்பொறி"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr ""
+
+#: ../libxfprint/printer-list-window.c:76
+#, fuzzy
+msgid "Quit xfprint4-manager"
+msgstr "அச்சுப்பொறி மேலாளர்"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr ""
+
+#: ../libxfprint/printer-list-window.c:78
+#, fuzzy
+msgid "About xfprint4-manager"
+msgstr "அச்சுப்பொறி மேலாளர்"
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr ""
+
+#: ../libxfprint/printer-list-window.c:140
+msgid "Printer manager"
+msgstr "அச்சுப்பொறி மேலாளர்"
+
+#: ../libxfprint/printer-list-window.c:206
+msgid "Alias name"
+msgstr "புனைப் பெயர்:"
+
+#: ../libxfprint/printer-list-window.c:210
+#: ../libxfprint/printer-queue-window.c:217
+msgid "State"
+msgstr ""
+
+#: ../libxfprint/printer-list-window.c:264
+#, fuzzy
+msgid "Xfprint printers manager"
+msgstr "அச்சுப்பொறி மேலாளர்"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:269
+#, fuzzy
+msgid "Former maintainer"
+msgstr "அச்சுப்பொறி மேலாளர்"
+
+#: ../libxfprint/printer-list-window.c:270
+#, fuzzy
+msgid "Maintainer"
+msgstr "அச்சுப்பொறி மேலாளர்"
+
+#: ../libxfprint/printer-list-window.c:271
+msgid "Artist"
+msgstr ""
+
+#: ../libxfprint/printer-list-window.c:334
+msgid "Unknown"
+msgstr ""
+
+#: ../libxfprint/printer-list-window.c:337
+msgid "Idle"
+msgstr ""
+
+#: ../libxfprint/printer-list-window.c:340
+msgid "Processing"
+msgstr ""
+
+#: ../libxfprint/printer-list-window.c:343
+msgid "Stopped"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:385
+#: ../libxfprint/printer-queue-window.c:389
+msgid "Remove job"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:122
+#: ../libxfprint/printer-queue-window.c:538
+msgid "Queue Manager"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:207
+#, fuzzy
+msgid "Name"
+msgstr "பெயர்:"
+
+#: ../libxfprint/printer-queue-window.c:211
+msgid "ID"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:214
+msgid "User"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:220
+msgid "Size"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:223
+#, fuzzy
+msgid "Priority"
+msgstr "உருவகாட்சி"
+
+#: ../libxfprint/printer-queue-window.c:226
+msgid "Creation time"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:229
+msgid "Processing time"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:382
+msgid "Are you sure you want to remove the job "
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:388
+msgid "Don't remove job"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:395
+msgid "An error occurred while removing job !"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:446
+#, fuzzy
+msgid "pending"
+msgstr "தலைப்புகள்"
+
+#: ../libxfprint/printer-queue-window.c:449
+#, fuzzy
+msgid "printing"
+msgstr "அழகுப்படுத்தி அச்சிடு"
+
+#: ../libxfprint/printer-queue-window.c:452
+msgid "Kb"
+msgstr ""
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+#, fuzzy
+msgid "Printing system"
+msgstr "அழகுப்படுத்தி அச்சிடு"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr ""
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr ""
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr ""
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr ""
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr ""
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr ""
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr ""
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr ""
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr ""
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr ""
+
+#: ../printing-systems/cups/cups.c:48
+#, fuzzy
+msgid "Set as default printer"
+msgstr "வேலையை அச்சுப்பொறிக்கு அனுப்பமுடியவில்லை"
+
+#: ../printing-systems/cups/cups.c:49
+#, fuzzy
+msgid "Set as default CUPS printer"
+msgstr "வேலையை அச்சுப்பொறிக்கு அனுப்பமுடியவில்லை"
+
+#: ../printing-systems/cups/cups.c:50
+#, fuzzy
+msgid "Properties"
+msgstr "_பண்புகள்"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr ""
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr ""
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr ""
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr ""
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr ""
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "தலைப்பகுதிகளை அச்சிடு"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "தலைப்பு:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "அடி-அடுக்கு:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "நடுத் தலைப்பு"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "þடது தலைப்பு:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "வலது தலைப்பு:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "நடு அடிக்குறிப்பு:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "þடது  அடிக்குறிப்பு:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "வலது அடிக்குறிப்பு:"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "குறியாக்கம்:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "அனைத்து பக்கங்களையும் அச்சிடுக"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "அச்சிடும் வீச்சு பக்கங்கள்"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "நீண்ட வரிசைகளை வெட்டுக"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "TAB, BS மற்றும் FF வரியுருகளை பயன்படுத்துக"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "இரும (binary) அச்சிடுவதை கட்டாயப்படுத்து"
+
+#: ../xfprint/main.c:116
+msgid "Select file to print"
+msgstr "அச்சிடுவதட்கு கோப்பு தெரிவுசெய்யவும்"
+
+#: ../xfprint/main.c:128
+msgid "The specified file does not exist"
+msgstr "குறிப்பிட்ட கோப்பு கிடையாது"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "மொழி:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "தனிப்படுத்தல் மட்டம்:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "வரி மட்டம்:"
+
+#: ../xfprint/print_dialog.c:204
+msgid "Save settings"
+msgstr "அமைப்புகளை சேமிக்கவும்"
+
+#: ../xfprint/print_dialog.c:212
+#, fuzzy
+msgid "Xfprint"
+msgstr "XFஅச்சு"
+
+#: ../xfprint/print_dialog.c:220
+#, fuzzy
+msgid "Print to:"
+msgstr "கோப்புக்கு அச்சிடு:"
+
+#: ../xfprint/print_dialog.c:250
+msgid "Print to file:"
+msgstr "கோப்புக்கு அச்சிடு:"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Sheets"
+msgstr "தாள்கள்"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Virtual pages"
+msgstr "மாய பக்கங்கள்"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Pretty-printing"
+msgstr "அழகுப்படுத்தி அச்சிடு"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Input"
+msgstr "உள்ளீடு"
+
+#: ../xfprint/print_dialog.c:300
+msgid "Headings"
+msgstr "தலைப்புகள்"
+
+#: ../xfprint/print_dialog.c:309
+msgid "Copies:"
+msgstr "நகல்கள்:"
+
+#: ../xfprint/print_dialog.c:316
+msgid "Apply filters"
+msgstr ""
+
+#: ../xfprint/print_dialog.c:371
+msgid ""
+"Neither the printing system backend or a2ps could be found on your system, "
+"you won't be able to print a file with xfprint !"
+msgstr ""
+
+#: ../xfprint/print_dialog.c:486
+msgid "An error occurred while trying to print the file"
+msgstr ""
+
+#: ../xfprint/print_dialog.c:523
+#, fuzzy
+msgid "Select file where to print"
+msgstr "அச்சிடுவதட்கு கோப்பு தெரிவுசெய்யவும்"
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "தாள் அளவு:"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "உருவகாட்சி"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "நிலக்காட்சி"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "பத்திகள்:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "நெடுவரிசைகளை முதல் நிரப்பு"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "வரிகளை முதல் நிரப்பு"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "வரிசைகள்:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "நெடுவரிசைகளை சுற்றி எல்லைகள அச்சிடு"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "பக்கங்களை பின் வரிசைப்படுத்தி அச்சிடுக"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "வரிசை எண்கள்:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "ஒரு பக்கத்தில் வரிசைகள்:"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "வரியுருகள்/வரிசை:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "பட்டியலிடல் அளவு:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "அச்சிட-முடியாத வகை:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr ""
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+#, fuzzy
+msgid "Printing System Settings"
+msgstr "அழகுப்படுத்தி அச்சிடு"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+#, fuzzy
+msgid "Xfce 4 Printing System Settings"
+msgstr "அழகுப்படுத்தி அச்சிடு"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+#, fuzzy
+msgid "Print Manager"
+msgstr "அச்சுப்பொறி மேலாளர்"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr ""
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+#, fuzzy
+msgid "Xfce 4 Print Manager"
+msgstr "அச்சுப்பொறி மேலாளர்"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+#, fuzzy
+msgid "Print Dialog"
+msgstr "அனைத்து பக்கங்களையும் அச்சிடுக"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr ""
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr ""

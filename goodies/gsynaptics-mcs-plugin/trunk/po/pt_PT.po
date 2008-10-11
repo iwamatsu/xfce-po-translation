@@ -1,0 +1,22 @@
+# European Portuguese translation of the gsynaptics-mcs-plugin package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Nuno Miguel <nunis@netcabo.pt>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gsynaptics-mcs-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-29 15:23+0100\n"
+"PO-Revision-Date: 2007-06-30 17:40+0100\n"
+"Last-Translator: Nuno Miguel <nunis@netcabo.pt>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. the button label in the xfce-mcs-manager dialog
+#: ../src/gsynaptics-plugin.c:54
+msgid "Button Label|Synaptics settings"
+msgstr "Definições do Synaptics"
+

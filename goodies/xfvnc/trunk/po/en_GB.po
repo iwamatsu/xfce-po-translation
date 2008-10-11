@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfvnc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-11-02 01:40-0700\n"
+"PO-Revision-Date: 2008-05-10 13:42+1000\n"
+"Last-Translator: Jeff Bailes <thepizzaking@gmail.com>\n"
+"Language-Team: English/GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+
+#: ../xfvnc/main.c:28
+msgid "Connected.  Starting session..."
+msgstr "Connected.  Starting session..."
+
+#: ../xfvnc/main.c:50
+#, c-format
+msgid "XfVNC .:. %s"
+msgstr "XfVNC .:. %s"
+
+#: ../xfvnc/main.c:64
+msgid "Connection Error"
+msgstr "Connection Error"
+
+#: ../xfvnc/main.c:66
+msgid "There was an error connecting to the VNC server"
+msgstr "There was an error connecting to the VNC server"
+
+#: ../xfvnc/main.c:67
+msgid "Unfortunately, the type of error is unknown."
+msgstr "Unfortunately, the type of error is unknown."
+
+#: ../xfvnc/xfvnc.desktop.in.h:1
+msgid "VNC Viewer"
+msgstr "VNC Viewer"
+
+#: ../xfvnc/xfvnc.desktop.in.h:2
+#: ../xfvnc/xfvnc.glade.h:4
+msgid "XfVNC"
+msgstr "XfVNC"
+
+#: ../xfvnc/xfvnc.desktop.in.h:3
+msgid "Xfce VNC Viewer Application"
+msgstr "Xfce VNC Viewer Application"
+
+#: ../xfvnc/xfvnc.glade.h:1
+msgid "Connecting..."
+msgstr "Connecting..."
+
+#: ../xfvnc/xfvnc.glade.h:2
+msgid "Display _number:"
+msgstr "Display _number:"
+
+#: ../xfvnc/xfvnc.glade.h:3
+msgid "Show _fullscreen"
+msgstr "Show _fullscreen"
+
+#: ../xfvnc/xfvnc.glade.h:5
+msgid "XfVNC Status"
+msgstr "XfVNC Status"
+
+#: ../xfvnc/xfvnc.glade.h:6
+msgid "Xfce VNC Viewer"
+msgstr "Xfce VNC Viewer"
+
+#: ../xfvnc/xfvnc.glade.h:7
+msgid "_Allow other clients to connect"
+msgstr "_Allow other clients to connect"
+
+#: ../xfvnc/xfvnc.glade.h:8
+msgid "_Computer name:"
+msgstr "_Computer name:"
+
+#: ../xfvnc/xfvnc.glade.h:9
+msgid "_Password:"
+msgstr "_Password:"
+
+#: ../xfvnc/xfvnc.glade.h:10
+msgid "_Recent servers:"
+msgstr "_Recent servers:"
+
+#: ../xfvnc/xfvnc.glade.h:11
+msgid "_View only"
+msgstr "_View only"
+

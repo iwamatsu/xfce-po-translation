@@ -1,0 +1,120 @@
+# Swedish translation for xfce4-netload-plugin
+# Copyright (c) 2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the xfce4-netload-plugin package.
+# Daniel Nylander <po@danielnylander.se>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-netload-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-05 02:01+0100\n"
+"PO-Revision-Date: 2006-05-17 18:36+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../panel-plugin/netload.c:57
+msgid "Xfce4-Netload-Plugin"
+msgstr "Xfce4-Netload-Plugin"
+
+#: ../panel-plugin/netload.c:60
+msgid "Unknown error."
+msgstr "Okänt fel."
+
+#: ../panel-plugin/netload.c:61
+msgid "Linux proc device '/proc/net/dev' not found."
+msgstr "Linux proc-enheten \"/proc/net/dev\" hittades inte."
+
+#: ../panel-plugin/netload.c:62
+msgid "Interface was not found."
+msgstr "Gränssnittet hittades inte."
+
+#: ../panel-plugin/netload.c:144
+#, c-format
+msgid "<< %s >> (Interface down)"
+msgstr ""
+
+#: ../panel-plugin/netload.c:228
+#, c-format
+msgid ""
+"<< %s >> (%s)\n"
+"Average of last %d measures:\n"
+"Incoming: %s kByte/s\n"
+"Outgoing: %s kByte/s\n"
+"Total: %s kByte/s"
+msgstr ""
+"<< %s >> (%s)\n"
+"Medel för senaste %d mätningar:\n"
+"Inkommande: %s kByte/s\n"
+"Utgående: %s kByte/s\n"
+"Totalt: %s kByte/s"
+
+#: ../panel-plugin/netload.c:230
+msgid "no IP address"
+msgstr "ingen IP-adress"
+
+#: ../panel-plugin/netload.c:468
+#, c-format
+msgid ""
+"%s: Error in initalizing:\n"
+"%s"
+msgstr ""
+"%s: Fel vid initiering:\n"
+"%s"
+
+#: ../panel-plugin/netload.c:773
+msgid "Select color"
+msgstr "Välj färg"
+
+#: ../panel-plugin/netload.c:839
+msgid "Bar color (incoming):"
+msgstr "Stapelfärg (inkommande):"
+
+#: ../panel-plugin/netload.c:840
+msgid "Bar color (outgoing):"
+msgstr "Stapelfärg (utgående):"
+
+#: ../panel-plugin/netload.c:843
+msgid "Maximum (incoming):"
+msgstr "Maximalt (inkommande):"
+
+#: ../panel-plugin/netload.c:844
+msgid "Maximum (outgoing):"
+msgstr "Maximalt (utgående):"
+
+#: ../panel-plugin/netload.c:849 ../panel-plugin/netload.desktop.in.in.h:1
+msgid "Network Monitor"
+msgstr "Nätverksövervakare"
+
+#: ../panel-plugin/netload.c:878
+msgid "Text to display:"
+msgstr "Text att visa:"
+
+#: ../panel-plugin/netload.c:909
+msgid "Network device:"
+msgstr "Nätverksenhet:"
+
+#: ../panel-plugin/netload.c:935
+msgid "Update interval:"
+msgstr "Uppdateringsintervall:"
+
+#: ../panel-plugin/netload.c:946
+msgid "s"
+msgstr "s"
+
+#: ../panel-plugin/netload.c:959
+msgid "Automatic maximum"
+msgstr "Automatiskt maximalt"
+
+#: ../panel-plugin/netload.c:991
+msgid "kByte/s"
+msgstr "kByte/s"
+
+#: ../panel-plugin/netload.desktop.in.in.h:2
+msgid "Show network traffic"
+msgstr "Visa nätverkstrafik"
+
+#~ msgid "Edit Properties"
+#~ msgstr "Redigera egenskaper"

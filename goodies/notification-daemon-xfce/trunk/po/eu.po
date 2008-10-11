@@ -1,0 +1,76 @@
+# translation of notification-daemon-xfce.po to librezale
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Piarres Beobide <pi@beobide.net>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: notification-daemon-xfce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:12+0200\n"
+"PO-Revision-Date: 2006-10-24 12:29+0200\n"
+"Last-Translator: Piarres Beobide <pi@beobide.net>\n"
+"Language-Team: librezale <librezale@librezale.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../settings/main.c:65
+msgid "Top Left"
+msgstr "Goian Ezkerrean"
+
+#: ../settings/main.c:66
+msgid "Top Right"
+msgstr "Goian Eskuinean"
+
+#: ../settings/main.c:67
+msgid "Bottom Left"
+msgstr "Behean Ezkerrean"
+
+#: ../settings/main.c:68
+msgid "Bottom Right"
+msgstr "Behean Eskuinean"
+
+#. create new preview notification
+#: ../settings/main.c:189
+msgid "Preview notification"
+msgstr "Aurrebista jakinaraztea"
+
+#: ../settings/main.c:190
+msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr "Lorem ipsum inprimatze eta letra-tipo industrientzat proba testu sinple bat da"
+
+#: ../settings/main.c:325 ../settings/notification-settings.desktop.in.h:2
+msgid "Notification Settings"
+msgstr "Jakinarazte Ezarpenak"
+
+#: ../settings/main.c:331
+msgid "Configure the Xfce notification daemon"
+msgstr "Xfce jakinarazte deabrua konfiguratu"
+
+#: ../settings/main.c:341
+msgid "Notification _position:"
+msgstr "Jakinarazte _kokalekua:"
+
+#: ../settings/main.c:371
+msgid "Pre_view"
+msgstr "_Aurrebista"
+
+#: ../settings/mcs_plugin.c:41
+msgid "Failed to launch notification-settings"
+msgstr "Huts egin du jakinarazte ezarpenak abiaraztean"
+
+#: ../settings/mcs_plugin.c:61
+msgid "Button Label|Notification Settings"
+msgstr "Jakinarazte Ezarpenak"
+
+#: ../settings/notification-settings.desktop.in.h:1
+msgid "Customize the notification daemon settings"
+msgstr "Jakinarazte ezarpen deabrua pertsonalizatu"
+
+#: ../settings/notification-settings.desktop.in.h:3
+msgid "Xfce 4 Notification Settings"
+msgstr "Xfce 4 jakinarazte Ezarpenak"
+

@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-11-02 01:40-0700\n"
+"PO-Revision-Date: 2008-07-15 23:36+0200\n"
+"Last-Translator: Mohamed Magdy <mohamedmk@gmail.com>\n"
+"Language-Team: Arabeyes <doc@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Arabic\n"
+
+#: ../xfvnc/main.c:28
+msgid "Connected.  Starting session..."
+msgstr ""
+
+#: ../xfvnc/main.c:50
+#, c-format
+msgid "XfVNC .:. %s"
+msgstr ""
+
+#: ../xfvnc/main.c:64
+msgid "Connection Error"
+msgstr ""
+
+#: ../xfvnc/main.c:66
+msgid "There was an error connecting to the VNC server"
+msgstr ""
+
+#: ../xfvnc/main.c:67
+msgid "Unfortunately, the type of error is unknown."
+msgstr ""
+
+#: ../xfvnc/xfvnc.desktop.in.h:1
+msgid "VNC Viewer"
+msgstr ""
+
+#: ../xfvnc/xfvnc.desktop.in.h:2 ../xfvnc/xfvnc.glade.h:4
+msgid "XfVNC"
+msgstr ""
+
+#: ../xfvnc/xfvnc.desktop.in.h:3
+msgid "Xfce VNC Viewer Application"
+msgstr ""
+
+#: ../xfvnc/xfvnc.glade.h:1
+msgid "Connecting..."
+msgstr ""
+
+#: ../xfvnc/xfvnc.glade.h:2
+msgid "Display _number:"
+msgstr ""
+
+#: ../xfvnc/xfvnc.glade.h:3
+msgid "Show _fullscreen"
+msgstr ""
+
+#: ../xfvnc/xfvnc.glade.h:5
+msgid "XfVNC Status"
+msgstr ""
+
+#: ../xfvnc/xfvnc.glade.h:6
+msgid "Xfce VNC Viewer"
+msgstr ""
+
+#: ../xfvnc/xfvnc.glade.h:7
+msgid "_Allow other clients to connect"
+msgstr ""
+
+#: ../xfvnc/xfvnc.glade.h:8
+msgid "_Computer name:"
+msgstr ""
+
+#: ../xfvnc/xfvnc.glade.h:9
+msgid "_Password:"
+msgstr ""
+
+#: ../xfvnc/xfvnc.glade.h:10
+msgid "_Recent servers:"
+msgstr ""
+
+#: ../xfvnc/xfvnc.glade.h:11
+msgid "_View only"
+msgstr ""

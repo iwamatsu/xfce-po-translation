@@ -1,0 +1,37 @@
+2007-04-15 Squeeze 0.2.0
+
+	* src/main_window,c,
+	  src/notebook.c: Added throbber to indicate activity. (Bug #2641)
+	* icons/scalable/squeeze.svg,
+	  icons/48x48/squeeze.png,
+	  icons/16x16/squeeze.png: Added (temporary) application icons.
+	* libsqueeze/command-builder.c: Using a new command interface,
+	fix crash with compressed tar archives.  (Bug #2848)
+	* libsqueeze/xfce_launch_command.c: Now using dbus directly instead of 
+	libexo for opening internal files.
+	* libsqueeze/command-builder-rar.c: Prevent creating .rar archives when
+	rar isn't installed (Bug #2774).
+	* libsqueeze/archive-command.c: Added a better reporting of errors,
+	though at the moment it only gives technical details of what went wrong.
+	* libsqueeze/archive-iter.c: Added an extra layer to keep the internals
+	of libsqueeze safe of direct modification.
+	* po/be.po,
+	  po/ca.po,
+	  po/cs.po,
+	  po/de.po,
+	  po/el.po,
+	  po/en_GB.po,
+	  po/fi.po,
+	  po/fr.po,
+	  po/hu.po,
+	  po/nl.po,
+	  po/pa.po,
+	  po/sq.po,
+	  po/tr.po,
+	  po/uk.po: Added and updated translations for Belarusian, Catalan, 
+	Czech, German, Greek, English (Great Brittain), Finnish, French,
+	Hungarian, Dutch, Panjabi, Albanian, Turkish and Ukranian.
+
+2007-01-29 Squeeze 0.1.0
+
+	* .: Initial Release

@@ -1,0 +1,498 @@
+# translation of lv.po to Latvian
+# Latvian translations for xfprint package.
+# Copyright (C) 2003-2007 The Xfce development team.
+# This file is distributed under the same license as the xfprint package.
+#
+# Rihards Prieditis <rprieditis@inbox.lv>, 2007.
+# Rihards Prieditis <RPrieditis@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: lv\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-20 18:56+0100\n"
+"PO-Revision-Date: 2008-04-06 22:11+0300\n"
+"Last-Translator: Rihards Prieditis <RPrieditis@gmail.com>\n"
+"Language-Team: Latvian <RPrieditis@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "Printeris"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "Iziet"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "Iziet no xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "Par"
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "Par xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "Informācija par xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:134
+msgid "Printer manager"
+msgstr "Printera pārvaldnieks"
+
+#: ../libxfprint/printer-list-window.c:200
+msgid "Alias name"
+msgstr "Aizstājvārds"
+
+#: ../libxfprint/printer-list-window.c:204
+#: ../libxfprint/printer-queue-window.c:212
+msgid "State"
+msgstr "Status"
+
+#: ../libxfprint/printer-list-window.c:258
+msgid "Xfprint printers manager"
+msgstr "Xfprint printera pārvaldnieks"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:263
+msgid "Former maintainer"
+msgstr "Iepriekšējais uzturētājs"
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Maintainer"
+msgstr "Uzturētājs"
+
+#: ../libxfprint/printer-list-window.c:327
+msgid "Unknown"
+msgstr "Nezināms"
+
+#: ../libxfprint/printer-list-window.c:330
+msgid "Idle"
+msgstr "Dīkstāve"
+
+#: ../libxfprint/printer-list-window.c:333
+msgid "Processing"
+msgstr "Apstrāde"
+
+#: ../libxfprint/printer-list-window.c:336
+msgid "Stopped"
+msgstr "Apturēts"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "Aizvērt"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "Aizvērt rindas logu"
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr "Darbi"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:380
+#: ../libxfprint/printer-queue-window.c:384
+msgid "Remove job"
+msgstr "Dzēst darbu"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "Dzēst izvēlēto darbu no rindas"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "Atsvaidzināt"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "Atsvaidzināt rindu"
+
+#: ../libxfprint/printer-queue-window.c:121
+#: ../libxfprint/printer-queue-window.c:533
+msgid "Queue Manager"
+msgstr "Rindas pārvaldnieks"
+
+#: ../libxfprint/printer-queue-window.c:202
+msgid "Name"
+msgstr "Nosaukums"
+
+#: ../libxfprint/printer-queue-window.c:206
+msgid "ID"
+msgstr "ID"
+
+#: ../libxfprint/printer-queue-window.c:209
+msgid "User"
+msgstr "Lietotājs"
+
+#: ../libxfprint/printer-queue-window.c:215
+msgid "Size"
+msgstr "Izmērs"
+
+#: ../libxfprint/printer-queue-window.c:218
+msgid "Priority"
+msgstr "Prioritāte"
+
+#: ../libxfprint/printer-queue-window.c:221
+msgid "Creation time"
+msgstr "Izveides laiks"
+
+#: ../libxfprint/printer-queue-window.c:224
+msgid "Processing time"
+msgstr "Apstrādes laiks"
+
+#: ../libxfprint/printer-queue-window.c:377
+msgid "Are you sure you want to remove the job "
+msgstr "Vai tiešām vēlaties dzēst darbu"
+
+#: ../libxfprint/printer-queue-window.c:383
+msgid "Don't remove job"
+msgstr "Nedzēst darbu"
+
+#: ../libxfprint/printer-queue-window.c:390
+msgid "An error occurred while removing job !"
+msgstr "Radās kļūda dzēšot darbu !"
+
+#: ../libxfprint/printer-queue-window.c:441
+msgid "pending"
+msgstr "gaida izpildi"
+
+#: ../libxfprint/printer-queue-window.c:444
+msgid "printing"
+msgstr "drukā"
+
+#: ../libxfprint/printer-queue-window.c:447
+msgid "Kb"
+msgstr "Kb"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "Drukas sistēma"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "Drukas sistēmas atlase"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "Informācija"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "Apraksts"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "Versija"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "Autors"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "Mājas lapa"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "Nekas"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr "Izmantojiet šo aizmuguri, ja vēlaties tikai drukāt uz failu."
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "BSD-LPR drukāšanas sistēmas atbalsts priekš Xfprint"
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr "CUPS drukāšanas atbalsts priekš Xfprint"
+
+#: ../printing-systems/cups/cups.c:48
+msgid "Set as default printer"
+msgstr "Uzstādīt, kā noklusēto printeri"
+
+#: ../printing-systems/cups/cups.c:49
+msgid "Set as default CUPS printer"
+msgstr "Uzstādīt, kā noklusēto CUPS printeri"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "Rekvizīti"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "Printera rekvizīti"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "Parole"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "Lietotājs :"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "Parole :"
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr "Jums jānorāda lietotāja vārds !"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "Printera galvene"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "Galvene:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "Apakšlīmenis:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "Centra virsraksts:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "Kreisais virsraksts:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "Labais virsraksts:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "Centra kājene:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "Kreisā kājene:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "Labā kājene:"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "Kodējums:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "Drukāt visas lapas"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "Drukāt lapas intervālā no"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "Apgriezt garās rindas"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "Interpretēt TAB, BS un FF rakstzīmes"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "Uzspiest bināro drukāšanu"
+
+#: ../xfprint/main.c:113
+msgid "Select file to print"
+msgstr "Izvēlaties drukājamo failu"
+
+#: ../xfprint/main.c:125
+msgid "The specified file does not exist"
+msgstr "Norādītais fails neeksistē"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "Valoda:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "Iekrāsošanas līmenis:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "Līniju līmenis:"
+
+#: ../xfprint/print_dialog.c:199
+msgid "Save settings"
+msgstr "Saglabāt uzstādījumus"
+
+#: ../xfprint/print_dialog.c:207
+msgid "Xfprint"
+msgstr "Xfprint:"
+
+#: ../xfprint/print_dialog.c:215
+msgid "Print to:"
+msgstr "Drukāt uz:"
+
+#: ../xfprint/print_dialog.c:245
+msgid "Print to file:"
+msgstr "Drukāt uz failu:"
+
+#: ../xfprint/print_dialog.c:275
+msgid "Sheets"
+msgstr "Lappuses"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Virtual pages"
+msgstr "Virtuālās lapas"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Pretty-printing"
+msgstr "Smukā-druka"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Input"
+msgstr "Ievads"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Headings"
+msgstr "Virsraksti"
+
+#: ../xfprint/print_dialog.c:304
+msgid "Copies:"
+msgstr "Kopijas:"
+
+#: ../xfprint/print_dialog.c:311
+msgid "Apply filters"
+msgstr "Uzstādīt filtrus"
+
+#: ../xfprint/print_dialog.c:366
+msgid "Neither the printing system backend or a2ps could be found on your system, you won't be able to print a file with xfprint !"
+msgstr "Uz sistēmas netika atrasta neviena drukāšanas sistēmas aizmugure ne a2ps, jūs nevarat drukāt failus ar xfprint !"
+
+#: ../xfprint/print_dialog.c:484
+msgid "An error occurred while trying to print the file"
+msgstr "Radās kļūda mēģinot drukāt failu"
+
+#: ../xfprint/print_dialog.c:521
+msgid "Select file where to print"
+msgstr "Norādiet failu, kurā drukāt"
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "Papīra izmērs:"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "Portrets"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "Ainava"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "Kolonnas:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "Pirmās aizpildīt kolonnas"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "Pirmās aizpildīt rindas"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "Rindas:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "Drukāt apmales ap kolonnām"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "Drukāt lapas apgrieztā secībā"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "Rindu skaits:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "Rindas lapā:"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "Rakstzīmes rindā:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "Tabulācijas izmērs:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "Neizdrukājamie formāti:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr "Ļauj izvēlēties izmantojamo drukāšanas sistēmas aizmuguri"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+msgid "Printing System Settings"
+msgstr "Drukas sistēmas uzstādījumi"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+msgid "Xfce 4 Printing System Settings"
+msgstr "Xfce 4 drukas sistēmas uzstādījumi"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+msgid "Print Manager"
+msgstr "Drukas pārvaldnieks"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr "Rāda printeru sarakstu un ļauj pārvaldīt to darbus"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+msgid "Xfce 4 Print Manager"
+msgstr "Xfce 4 drukas pārvaldnieks"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "Drukas dialogs"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr "Drukāt failu un ļaut izvēlēties tā izkārtojumu"
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "Xfce 4 drukas dialogs"
+

@@ -1,0 +1,107 @@
+# .pot file for the xfce-radio-plugin
+# Copyright (C) 2006 Stefan Ott
+# This file is distributed under the same license as the xfce4-radio-plugin
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-06-14 15:16+0200\n"
+"PO-Revision-Date: 2006-05-09 03:06+0200\n"
+"Last-Translator: Stefan Ott <stefan@ott.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../panel-plugin/radio.c:82
+msgid "Not tuned"
+msgstr "Kein Sender"
+
+#: ../panel-plugin/radio.c:104
+msgid "- off -"
+msgstr "- aus -"
+
+#: ../panel-plugin/radio.c:174
+msgid "Error opening radio device"
+msgstr "Fehler beim Öffnen des Geräts"
+
+#: ../panel-plugin/radio.c:296 ../panel-plugin/radio.c:327
+#: ../panel-plugin/radio.c:527
+msgid "Add preset"
+msgstr "Sender speichern"
+
+#: ../panel-plugin/radio.c:302 ../panel-plugin/radio.c:333
+msgid "Station name:"
+msgstr "Sendername"
+
+#: ../panel-plugin/radio.c:354
+msgid "There is already a preset with this frequency."
+msgstr "Es existiert bereits ein Sender mit dieser Frequenz."
+
+#: ../panel-plugin/radio.c:392
+msgid "Tune radio"
+msgstr "Frequenz wählen"
+
+#: ../panel-plugin/radio.c:398
+msgid "Frequency [MHz]:"
+msgstr "Frequenz [MHz]:"
+
+#: ../panel-plugin/radio.c:421
+msgid "Illegal frequency."
+msgstr "Ungültige Frequenz"
+
+#: ../panel-plugin/radio.c:498
+msgid "Presets"
+msgstr "Sender"
+
+#: ../panel-plugin/radio.c:534
+msgid "Delete active preset"
+msgstr "Aktuellen Sender löschen"
+
+#: ../panel-plugin/radio.c:541
+msgid "Rename active preset"
+msgstr "Aktuellen Sender umbenennen"
+
+#: ../panel-plugin/radio.c:553
+msgid "Tune to frequency"
+msgstr "Frequenz wählen"
+
+#: ../panel-plugin/radio.c:821
+msgid "Properties"
+msgstr "Einstellungen"
+
+#: ../panel-plugin/radio.c:839
+msgid "V4L device"
+msgstr "V4L Gerät"
+
+#: ../panel-plugin/radio.c:845
+msgid "Display signal strength"
+msgstr "Signalqualität anzeigen"
+
+#: ../panel-plugin/radio.c:856
+msgid "yes"
+msgstr "ja"
+
+#: ../panel-plugin/radio.c:865
+msgid "no"
+msgstr "nein"
+
+#: ../panel-plugin/radio.c:875
+msgid "Execute command after startup"
+msgstr "Befehl nach dem Einschalten ausführen"
+
+#: ../panel-plugin/radio.c:889
+msgid "Execute command after shutdown"
+msgstr "Befehl nach dem Ausschalten ausführen"
+
+#: ../panel-plugin/radio.c:903
+msgid "Mouse scrolling changes"
+msgstr "Maus-Scrollen ändert"
+
+#: ../panel-plugin/radio.c:915
+msgid "frequency"
+msgstr "Frequenz"
+
+#: ../panel-plugin/radio.c:923
+msgid "preset"
+msgstr "Sender"

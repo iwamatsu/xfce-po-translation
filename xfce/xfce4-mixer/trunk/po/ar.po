@@ -1,0 +1,286 @@
+# Arabic translations for xfce4-mixer package.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfce4-mixer package.
+# Saleh Alhathal <hathalsal@hotmail.com>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-mixer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-10-06 15:29+0200\n"
+"PO-Revision-Date: 2008-07-18 21:26+0200\n"
+"Last-Translator: Mohamed Magdy <mohamedmk@gmail.com>\n"
+"Language-Team: Arabeyes Translation & Documentation <admin@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Arabic\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. Set tooltip (e.g. 'Master: 50%')
+#: ../panel-plugin/xfce-mixer-plugin.c:276
+#: ../panel-plugin/xfce-mixer-plugin.c:550
+#, c-format
+msgid "%s: %i%%"
+msgstr "%s: %i%%"
+
+#: ../panel-plugin/xfce-mixer-plugin.c:351
+msgid "No left-click command defined"
+msgstr ""
+
+#: ../panel-plugin/xfce-mixer-plugin.c:354
+msgid ""
+"No left-click command defined yet. You can change this in the plugin "
+"properties."
+msgstr ""
+
+#: ../panel-plugin/xfce-mixer-plugin.c:355
+msgid "Properties"
+msgstr ""
+
+#. Generate error message and insert the current command
+#: ../panel-plugin/xfce-mixer-plugin.c:370
+#, c-format
+msgid ""
+"Could not execute the command %s. Perhaps you need to adjust the PATH "
+"variable."
+msgstr ""
+
+#: ../panel-plugin/xfce-mixer-plugin.c:400 ../xfce4-mixer/main.c:118
+msgid ""
+"GStreamer was unable to detect any sound cards on your system. You might be "
+"missing sound system specific GStreamer packages. It might as well be a "
+"permission problem."
+msgstr ""
+
+#: ../panel-plugin/xfce-plugin-dialog.c:237
+msgid "Mixer Plugin"
+msgstr ""
+
+#: ../panel-plugin/xfce-plugin-dialog.c:239
+msgid "Please select which mixer track should be used by the plugin"
+msgstr ""
+
+#: ../panel-plugin/xfce-plugin-dialog.c:251
+msgid "Sound card"
+msgstr "كرت صوت"
+
+#: ../panel-plugin/xfce-plugin-dialog.c:269
+msgid "Mixer track"
+msgstr ""
+
+#: ../panel-plugin/xfce-plugin-dialog.c:287
+msgid "Left-click command"
+msgstr ""
+
+#: ../panel-plugin/xfce-plugin-dialog.c:325
+#, fuzzy
+msgid "Select command"
+msgstr "اختر المتحكمات"
+
+#: ../panel-plugin/xfce-plugin-dialog.c:333
+msgid "All Files"
+msgstr ""
+
+#: ../panel-plugin/xfce-plugin-dialog.c:338
+msgid "Executable Files"
+msgstr ""
+
+#: ../panel-plugin/xfce-plugin-dialog.c:353
+msgid "Perl Scripts"
+msgstr ""
+
+#: ../panel-plugin/xfce-plugin-dialog.c:359
+msgid "Python Scripts"
+msgstr ""
+
+#: ../panel-plugin/xfce-plugin-dialog.c:365
+msgid "Ruby Scripts"
+msgstr ""
+
+#: ../panel-plugin/xfce-plugin-dialog.c:371
+msgid "Shell Scripts"
+msgstr ""
+
+#. Set application name
+#: ../panel-plugin/xfce4-mixer-plugin.desktop.in.in.h:1
+#: ../xfce4-mixer/main.c:82 ../xfce4-mixer/xfce-mixer-window.c:168
+#: ../xfce4-mixer/xfce-mixer-window.c:186
+#: ../xfce4-mixer/xfce-mixer-window.c:287
+#: ../xfce4-mixer/xfce4-mixer.desktop.in.in.h:2
+msgid "Mixer"
+msgstr "مازج"
+
+#: ../panel-plugin/xfce4-mixer-plugin.desktop.in.in.h:2
+msgid "Volume control for your sound card"
+msgstr ""
+
+#: ../libxfce4mixer/libxfce4mixer.c:237
+#, c-format
+msgid "Unknown Volume Control %d"
+msgstr "متحكم حجم مجهول %d"
+
+#: ../xfce4-mixer/main.c:92
+#, c-format
+msgid "Failed to initialize xfconf: %s"
+msgstr ""
+
+#: ../xfce4-mixer/xfce-mixer.c:163
+msgid "Playback"
+msgstr "تشغيل"
+
+#: ../xfce4-mixer/xfce-mixer.c:163
+msgid "Capture"
+msgstr ""
+
+#: ../xfce4-mixer/xfce-mixer.c:163
+msgid "Switches"
+msgstr "محولات"
+
+#: ../xfce4-mixer/xfce-mixer.c:163
+msgid "Options"
+msgstr "الخيارات"
+
+#: ../xfce4-mixer/xfce-mixer.c:298
+msgid "No Controls Visible"
+msgstr "لا متحكمات ظاهرة"
+
+#: ../xfce4-mixer/xfce-mixer.c:302
+msgid ""
+"No controls are marked as visible. Please open the <span "
+"size='large'><b>Select Controls</b></span> dialog to select some."
+msgstr ""
+
+#: ../xfce4-mixer/xfce-mixer-controls-dialog.c:135
+msgid "Select Controls"
+msgstr "اختر المتحكمات"
+
+#: ../xfce4-mixer/xfce-mixer-controls-dialog.c:137
+msgid "Please select which controls you want to be visible"
+msgstr ""
+
+#: ../xfce4-mixer/xfce-mixer-window.c:87
+msgid "_Quit"
+msgstr "_اخرج"
+
+#: ../xfce4-mixer/xfce-mixer-window.c:87
+#, fuzzy
+msgid "Exit the mixer"
+msgstr "أغلق مازج إكسفس"
+
+#: ../xfce4-mixer/xfce-mixer-window.c:89
+msgid "_Select Controls..."
+msgstr "_اختر المتحكمات..."
+
+#: ../xfce4-mixer/xfce-mixer-window.c:89
+msgid "Select which controls are displayed"
+msgstr ""
+
+#: ../xfce4-mixer/xfce-mixer-window.c:187
+msgid "Configure your sound card(s) and control the volume of selected tracks"
+msgstr ""
+
+#: ../xfce4-mixer/xfce-mixer-window.c:202
+msgid "Sound card:"
+msgstr "كرت صوت:"
+
+#: ../xfce4-mixer/xfce4-mixer.desktop.in.in.h:1
+msgid "Audio mixer for the Xfce Desktop Environment"
+msgstr ""
+
+#~ msgid "Xfce Mixer"
+#~ msgstr "مازج إكسفس"
+
+#~ msgid "Could not find xfce4-mixer in PATH."
+#~ msgstr "عجز في إيجاد في xfce4-mixer في ال PATH."
+
+#~ msgid "Vol"
+#~ msgstr "صوت"
+
+#~ msgid "Spkr"
+#~ msgstr "سماعات"
+
+#~ msgid "Mic"
+#~ msgstr "ميكرفون"
+
+#~ msgid "CD"
+#~ msgstr "قرص مدمج"
+
+#~ msgid "Rec"
+#~ msgstr "تسجيل"
+
+#~ msgid "IGain"
+#~ msgstr "تكبير داخل"
+
+#~ msgid "OGain"
+#~ msgstr "تكبير خارج"
+
+#~ msgid "PhoneIn"
+#~ msgstr "هاتف إرسال"
+
+#~ msgid "PhoneOut"
+#~ msgstr "هاتف إستقبال"
+
+#~ msgid "Video"
+#~ msgstr "فيديو"
+
+#~ msgid "Radio"
+#~ msgstr "راديو"
+
+#~ msgid "Monitor"
+#~ msgstr "شاشة"
+
+#~ msgid "Volume: %d%%"
+#~ msgstr "صوت : %d%%"
+
+#~ msgid "Device:"
+#~ msgstr "جهاز:"
+
+#~ msgid "Device"
+#~ msgstr "جهاز"
+
+#~ msgid "None"
+#~ msgstr "لا شيء"
+
+#~ msgid "Control"
+#~ msgstr "تحكم"
+
+#~ msgid "Type"
+#~ msgstr "نوع"
+
+#~ msgid "<unknown>"
+#~ msgstr "<مجهول>"
+
+#~ msgid "<select>"
+#~ msgstr "<إختر>"
+
+#~ msgid "Create new profile"
+#~ msgstr "تكوين ملف خصائص جديد"
+
+#~ msgid "Delete this profile"
+#~ msgstr "حذف ملف الخصائص"
+
+#~ msgid "Profile"
+#~ msgstr "ملف الخصائص"
+
+#~ msgid "Really delete those %d profiles?"
+#~ msgstr "متاكد من حذف %d  ملف الخصائص؟"
+
+#~ msgid "Really delete profile \"%s\"?"
+#~ msgstr "متاكد من حذف ملف الخصائص \"%s\"?"
+
+#~ msgid "%s - New"
+#~ msgstr "%s - جديد"
+
+#~ msgid "A profile needs a name"
+#~ msgstr "ملف الخصائص يحتاج تسمية"
+
+#~ msgid "A profile with that name already exists"
+#~ msgstr "ملف خصائص بهذ اﻹسم موجود مسبقا"
+
+#, fuzzy
+#~ msgid "profile%d"
+#~ msgstr "ملف الخصائص"
+
+#~ msgid "Hide Switches"
+#~ msgstr "إخفاء المفاتيح"

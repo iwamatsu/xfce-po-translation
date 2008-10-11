@@ -1,0 +1,8 @@
+* Store servers in history
+* Look into adding tight encoding support to gtk-vnc
+* Fix fullscreen showing scrollbars when it shouldn't, ditto for session resizes
+* Figure out how to do view only/allow other clients
+* Make color depth, encodings, compression, etc. configurable
+* limit max size of window to vnc session resolution
+* command-line options for server/port
+* popup menu - or something - to get connection info, send special keys, etc.

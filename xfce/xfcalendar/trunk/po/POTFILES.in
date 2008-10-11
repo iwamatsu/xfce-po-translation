@@ -1,0 +1,28 @@
+# List of source files containing translatable strings.
+
+globaltime/globaltime.c
+globaltime/gt_parfile.c
+globaltime/gt_prefs.c
+panel-plugin/oc_config.c
+panel-plugin/orageclock.c
+plugin/xfcalendar_plugin.c
+src/about-xfcalendar.c
+src/appointment.c
+src/day-view.c
+src/event-list.c
+src/functions.c
+src/ical-code.c
+src/interface.c
+src/main.c
+src/mainbox.c
+src/orage-dbus-client.c
+src/orage-dbus-object.c
+src/parameters.c
+src/reminder.c
+src/tray_icon.c
+src/xfce_trayicon.c
+
+# files added by intltool-prepare.
+panel-plugin/orageclock.desktop.in.in
+plugin/xfce-xfcalendar-settings.desktop.in
+xfcalendar.desktop.in

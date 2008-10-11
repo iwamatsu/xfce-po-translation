@@ -1,0 +1,48 @@
+dnl configure.ac
+dnl
+dnl xfce4-tvonoff - Two-State Launcher for XFce4 (knowns and passes two states
+dnl to the launched program - as 0 or 1)
+dnl
+dnl 2003 Danny Milosavljevic <danny_milo@yahoo.com>
+dnl 2003 Benedikt Meurer <benedikt.meurer@unix-ag.uni-siegen.de>
+dnl
+
+AC_INIT([xfce4-trigger-launcher], [4.4.0], [xfce4-dev@xfce.org])
+AC_REVISION([$Id: configure.in.in 24575 2007-01-19 21:33:51Z olivier $])
+AM_CONFIG_HEADER([config.h])
+AM_INIT_AUTOMAKE([AC_PACKAGE_TARNAME()], [AC_PACKAGE_VERSION()])
+AM_MAINTAINER_MODE
+
+dnl Check for UNIX variants
+AC_AIX
+AC_ISC_POSIX
+AC_MINIX
+AM_CONDITIONAL([HAVE_CYGWIN], [test "`uname | grep \"CYGWIN\"`" != ""])
+
+dnl Check for basic programs
+AC_PROG_CC
+AC_PROG_INSTALL
+AC_PROG_LIBTOOL
+AC_PROG_INTLTOOL
+
+dnl Check for standard header files
+AC_HEADER_STDC
+AC_CHECK_HEADERS([signal.h])
+AC_CHECK_FUNCS([sigaction])
+
+dnl Check for i18n support
+XDT_I18N([@LINGUAS@])
+
+dnl configure the panel plugin
+XDT_CHECK_PACKAGE([XFCE4_PANEL], [libxfce4panel-1.0], [4.4.0])
+XDT_CHECK_PACKAGE([XFCE4_GUI], [libxfcegui4-1.0], [4.4.0])
+
+dnl Check for debugging support
+BM_DEBUG_SUPPORT
+
+AC_OUTPUT([
+Makefile
+xfce4-trigger-launcher.spec
+panel-plugin/Makefile
+po/Makefile.in
+])

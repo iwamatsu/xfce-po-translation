@@ -1,0 +1,52 @@
+# Catalan translation of xfce4-wavelan-plugin.
+# Copyright (C) 2003-2006 Benedikt Meurer <benny@xfce.org>
+# This file is distributed under the same license as the xfce4-wavelan-plugin package.
+# Pau Ruŀlan Ferragut <paurullan@bulma.net>, 2006.
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-wavelan-plugin 0.4.3svn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 22:55+0200\n"
+"PO-Revision-Date: 2006-09-18 18:32+0200\n"
+"Last-Translator: Pau Ruŀlan Ferragut <paurullan@bulma.net>\n"
+"Language-Team: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+#: ../panel-plugin/wavelan.c:187
+msgid "No carrier signal"
+msgstr "Sense senyal"
+
+#: ../panel-plugin/wavelan.c:217
+msgid "No device configured"
+msgstr "No s’ha trobat cap dispositiu configurat"
+
+#: ../panel-plugin/wavelan.c:499
+msgid "Properties"
+msgstr "Propietats"
+
+#: ../panel-plugin/wavelan.c:515
+msgid "Wavelan Plugin Options"
+msgstr "Opcions del connector Wavelan"
+
+#: ../panel-plugin/wavelan.c:531
+msgid "Interface"
+msgstr "Interfície"
+
+#: ../panel-plugin/wavelan.c:553
+msgid "_Autohide when offline"
+msgstr "_Autoamaga en estar desconnectat"
+
+#: ../panel-plugin/wavelan.c:563
+msgid "Autohide when no hardware present"
+msgstr "Autoamaga quan no hi hagi maquinari enxufat"
+
+#: ../panel-plugin/wavelan.c:574
+msgid ""
+"Note: This will make it difficult to remove or configure the plugin if there "
+"is no device detected."
+msgstr "Nota: si no s’ha detectat dispositiu suprimir o configurar el connector serà més problemàtic."
+

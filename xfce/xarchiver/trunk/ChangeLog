@@ -1,0 +1,120 @@
+Xarchiver changelog:
+
+xx/08/08 - 0.5:
+		- Archive content can now be browsed just like a file manager.
+		- Mime icon for each of the archive entries.
+		- New archive type support: lzma and tar.lzma.
+		- Archive directories can now be browsed through a sidepane.
+		- Files and directories can now be added into archive directories.
+		- Files can be directly opened with the registered application within Xarchiver.
+		- Ability to add a comment for those archives supporting it.
+		- Added a brand new preferences dialog to set Xarchiver's options.
+		- Ability to save the archive content in text or HTML format.
+		- The add and extract dialogs layout have been redesigned.
+		- Multi-Extract dialog for extracting multiple archives in one shot.
+		- Context menu on each of the entries with cut/copy/paste ability from and to archives.
+		- Ability to rename entries in the archives.
+		- The cmd-line output window now displays each archiver's output.
+		- Tabs are now reorderable.
+		- Better menu layout.
+		- Fixed bugs #2045,#2614, #2616, #2620, #2626, #2627, #2799, #3422, #3542, #3548, #4102, #4103
+		- Fixed several memory leaks thanks to valgrind.
+
+27/11/06 - 0.4.6:
+		- Fixed code in support.c to load the images when installing the software.
+		- Renamed png icons to make them freedesktop compliant.
+
+23/11/06 - 0.4.4:
+		- G R E A T L Y improved speed and memory usage.
+		- Added documentation. It will be showed in the system browser (currently supported are firefox, opera and mozilla).
+		- Added Firefox like tabs.
+		- Added comment support for ARJ and ZIP. The rar one is more difficult since it's compressed in the archive itself.
+		- The files and directories to add can be dropped into the add dialog window.
+		- Extracting files in encrypted archives with DnD no more fails since the password it's now asked.
+		- Better behaviour of the GUI while archive operations are in progress.
+		- Fixed unsuccessful open of rpm archives when the cpio archive was compressed with bzip2.c.
+		- Changed View Window title as the filename of the ASCII file whose content the user wants to see. 
+		- Added ability to convert archives to self-extracting.
+		- The archive properties dialog and the ISO info window can be closed by hitting ESC.
+		- Fixed bug preventing to add files by drag and drop when no archive has been created.
+		- Fixed Xarchiver rar problem when only unrar is available.
+		- Fixed creation of directory with "\ " when extracting an iso whose filename has spaces.
+		- Added LHA archive and DEB format (without dpkg executable) thanks to Łukasz.
+		- Fixed code to compile under Solaris.
+		- Changed some strings for a better usability.
+		- A lot of other small bug fixes; thanks to baze for notifying most of them.
+		- Fixed bugs #2434, #2321, #22477, #1736, #2455, #2451, #2552 and others I forgot .
+
+01/09/06 - 0.4:
+		- Added symbolic link column in tar/tar.bz2/tar.gz and RPM archives.
+		- Ability to extract files inside RPM archives without the directory they are contained in.
+		- View ability works now with files inside RPM archives nested in more than one directory.
+		- Increased speed ! Xarchiver is faster than ever when opening archives.
+		- The GUI looks neat and clean respect to the 0.3.3 release.
+		- Added a brand extract and add dialog supporting most of the archiver command line options.
+		- Added drag and drop from and to Xarchiver window by using the XDS protocol.
+		- Added the (in)famous cmd-line switches; see xarchiver -? for details.
+		- Added a Stop button who cancels the current operation or you can use the ESC key.
+		- Added the ability to test archives.
+		- Added an archive properties window showing useful info about the archive and its content.
+		- Added two menu entries in the Action menu to select or unselect the files in the treeview.
+		- Added support for ISO images (opening, extract and view only).
+		- "Row selection while you type" ability. Useful when you have thousand of files inside the archive.
+		- The extract dialog now "remembers" the last used extraction path.
+		- The extract dialog automatically sets the destination directory as the archive path.
+                - The enter key can be also used with the extract dialog.
+		- You can use accelerators (keyboard shortcuts) for almost the menu entries.
+		- The Del key can also be used instead of the Delete button on the toolbar.
+		- Removed the confirmation dialog when opening bzip2 and gzip compressed files.
+		- Added a confirmation dialog when deleting files from the archive.
+		- Finally fixed bug randomly causing rar and arj output badly appears.
+		- Finally fixed bug randomly causing tar.bz2 and tar.gz archives to be corrupted when deleting files from them.
+		- Fixed some memory leaks but surely someone is left :)
+		- Fixed bug causing filenames with spaces inside the archive not being viewed.
+		- Fixed bug causing filenames with spaces in arj archives appear truncated in Xarchiver window.
+		- Fixed a bug preventing the file dialog to select more than one file when adding to arj archives. 
+		- Fixed progress bar not appearing when adding only one big file to an archive.
+		- Fixed a bug causing Xarchiver to hang when opening empty zip archives.
+		- Fixed a bug causing Xarchiver to exit when opening a not supported archive directly from the command line.
+
+09/01/06 - 0.3.1 a bug fix release no new features:
+                - Some code cleanup.
+                - Fixed bug in detecting arj password protected archives.
+                - Fixed a memory leak with the string who contains the extract_path.
+                - Fixed detection of bzip2 causing Xarchiver to recognize only 900k block size compressed files.
+                - Fixed a regression causing bzip2 and gunzip to remain as zombie processes.
+                - Fixed bug causing Xarchiver to emit a seg fault when the X button is pressed while it is working.
+                - Fixed a regression causing Xarchiver not supporting creation of tar.bz2 and tar.gz archives.
+
+16/12/05 - 0.3:
+		- 7z and arj (also password protected) formats are supported if you have 7za and arj installed. 7z password
+		  protected archives are not automatically detected. If you are able to decompress the main header of a 7z archive
+		  let me know about it.
+		- Added a view ability for text files inside the archive. No external editor needed :-) !
+		- The size columns are treated as uint instead as string so that sorting by size is possible now.
+		- The bottom window is now used for reporting messages to the user.
+		- Added a progress bar that shows the archive's operation progress.
+		- Greatly improved the zip password detection; if an archive contains 10 files and only the last one is password 
+		  protected Xarchiver will detect it (the same is true for arj).
+		- When you open or create a password protected archive a small padlock is shown in the window bottom right.
+		- Fixed an occasional crash when opening zip archives.
+		- Fixed a bug causing filenames of rpm archive not displayed correctly.
+		- Fixed a bug causing cpio temp file not to be deleted when an error occurs.
+		- Added russian and german translation (thanks to Eugene Ostapets and Enrico Troeger).
+		- Better gettext support.
+
+28/10/05 - 0.2.1 a bug fix release no new features:
+                - Fixed a series of bug introduced with the support of the RPM format. The extract ability now works again sorry.
+                - Fixed a bug preventing extraction of more than one file inside an RPM archive.
+                - After opening rar or zip password protected archives the extraction of other archive types was not possible. Fixed.
+
+27/10/05 - 0.2:
+		- Added ability to open and extract RPM archives.
+		- Xarchiver can extract and create password protected zip and rar archives.
+		- Fixed some memory leaks when extracting archives.
+		- Fixed a bug when detecting the type of archive.
+		- Added gettext support.
+		- Added a .desktop file.
+
+13/10/05 - 0.1:
+		- Initial release. Xarchiver opens and creates rar,zip,tar,bzip2 and gzip archives.

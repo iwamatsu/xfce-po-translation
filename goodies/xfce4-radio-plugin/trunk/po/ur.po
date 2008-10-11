@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-radio-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:29+0200\n"
+"PO-Revision-Date: 2007-10-27 16:17+0500\n"
+"Last-Translator: Muhammad Ali Makki <makk.ma@gmail.com>\n"
+"Language-Team: Urdu <makki.ma@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Urdu\n"
+"X-Poedit-Country: PAKISTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../panel-plugin/radio.c:78
+msgid "Not tuned"
+msgstr "ٹیونڈ نہیں ہے"
+
+#: ../panel-plugin/radio.c:100
+msgid "- off -"
+msgstr "- بند -"
+
+#: ../panel-plugin/radio.c:118
+msgid "Error opening radio device"
+msgstr "ریڈیو ڈیوائس کھولنے میں ناکامی"
+
+#: ../panel-plugin/radio.c:236
+#: ../panel-plugin/radio.c:267
+#: ../panel-plugin/radio.c:467
+msgid "Add preset"
+msgstr "preset شامل کریں"
+
+#: ../panel-plugin/radio.c:242
+#: ../panel-plugin/radio.c:273
+msgid "Station name:"
+msgstr "سٹیشن کا نام:"
+
+#: ../panel-plugin/radio.c:294
+msgid "There is already a preset with this frequency."
+msgstr "اس فریکوینسی کے ساتھ پہلے ہی preset ہے."
+
+#: ../panel-plugin/radio.c:332
+msgid "Tune radio"
+msgstr "ریڈیو ٹیون کریں"
+
+#: ../panel-plugin/radio.c:338
+msgid "Frequency [MHz]:"
+msgstr "فریکوینسی [MHz]:"
+
+#: ../panel-plugin/radio.c:361
+msgid "Illegal frequency."
+msgstr "غیرقانونی فریکوینسی."
+
+#: ../panel-plugin/radio.c:438
+msgid "Presets"
+msgstr "Presets"
+
+#: ../panel-plugin/radio.c:474
+msgid "Delete active preset"
+msgstr "فعال preset حذف کریں"
+
+#: ../panel-plugin/radio.c:481
+msgid "Rename active preset"
+msgstr "فعال preset کا نام بدلیں"
+
+#: ../panel-plugin/radio.c:493
+msgid "Tune to frequency"
+msgstr "ٹیون تا فریکوینسی"
+
+#: ../panel-plugin/radio.c:720
+msgid "Properties"
+msgstr "خصوصیات"
+
+#: ../panel-plugin/radio.c:739
+msgid "V4L device"
+msgstr "V4L ڈیوائس"
+
+#: ../panel-plugin/radio.c:745
+msgid "Display signal strength"
+msgstr "سگنل کی طاقت ظاہر کریں"
+
+#: ../panel-plugin/radio.c:756
+msgid "yes"
+msgstr "ہاں"
+
+#: ../panel-plugin/radio.c:765
+msgid "no"
+msgstr "نہیں"
+
+#: ../panel-plugin/radio.c:775
+msgid "Execute command after shutdown"
+msgstr "شٹ ڈاؤن سے پہل کمانڈ چلائیں"
+
+#: ../panel-plugin/radio.c:787
+msgid "Mouse scrolling changes"
+msgstr "ماؤس سکرولنگ تبدیلیاں"
+
+#: ../panel-plugin/radio.c:799
+msgid "frequency"
+msgstr "فریکوینسی"
+
+#: ../panel-plugin/radio.c:807
+msgid "preset"
+msgstr "preset"
+

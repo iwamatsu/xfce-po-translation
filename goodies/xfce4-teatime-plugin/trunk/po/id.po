@@ -1,0 +1,101 @@
+# Indonesian translations for xfce4-teatime-plugin package.
+# Copyright (C) 2008 THE xfce4-teatime-plugin'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfce4-teatime-plugin package.
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-teatime-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:29+0200\n"
+"PO-Revision-Date: 2008-06-21 14:57+0700\n"
+"Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
+"Language-Team: Indonesian <id@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/interface.c:69
+msgid "Edit properties"
+msgstr "Sunting properti"
+
+#: ../src/interface.c:75
+msgid "<b>Xfteatime</b>"
+msgstr "<b>Xfteatime</b>"
+
+#: ../src/interface.c:103
+msgid "Tea can"
+msgstr "Cangkir teh"
+
+#: ../src/interface.c:109
+msgid "Coffee can"
+msgstr "Cangkir kopi"
+
+#: ../src/interface.c:115
+msgid "Stove"
+msgstr "Tungku"
+
+#: ../src/interface.c:128
+msgid "/usr/share/icons/image.png"
+msgstr "/usr/share/icons/image.png"
+
+#: ../src/interface.c:142
+msgid "<b>Icon image</b>"
+msgstr "<b>Ikon gambar</b>"
+
+#: ../src/interface.c:168
+msgid "Just a minute, please (1 minute)"
+msgstr "Silakan tunggu sebentar (1 menit)"
+
+#: ../src/interface.c:169
+msgid "Assam tea (2 minutes)"
+msgstr "Teh assam (2 menit)"
+
+#: ../src/interface.c:170
+msgid "Coffee (5 minutes)"
+msgstr "Kopi (5 menit)"
+
+#: ../src/interface.c:171
+msgid "Italian noodles (10 minutes)"
+msgstr "Mie Italia (10 menit)"
+
+#: ../src/interface.c:172
+msgid "Pizza (12 minutes)"
+msgstr "Pizza (12 menit)"
+
+#: ../src/interface.c:173
+msgid "Turkey (2 hours)"
+msgstr "Ayam kalkun (2 jam)"
+
+#: ../src/interface.c:175
+msgid "after"
+msgstr "setelah"
+
+#: ../src/interface.c:184
+msgid "seconds"
+msgstr "detik"
+
+#: ../src/interface.c:192
+msgid "per"
+msgstr "per"
+
+#: ../src/interface.c:196
+msgid "System bell"
+msgstr "Bel sistem"
+
+#: ../src/interface.c:200
+msgid "Popup window"
+msgstr "Jendela popup"
+
+#: ../src/interface.c:204
+msgid "Blinking image"
+msgstr "Gambar berkedip"
+
+#: ../src/interface.c:208
+msgid "<b>Notification</b>"
+msgstr "<b>Pemberitahuan</b>"
+
+#: ../src/support.c:90 ../src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Tak dapat menemukan berkas pixmap: %s"

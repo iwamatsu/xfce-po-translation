@@ -1,0 +1,1579 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfmedia\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-06-16 22:22+0900\n"
+"PO-Revision-Date: 2007-10-28 19:52+0200\n"
+"Last-Translator: Muhammad Ali Makki <makki.ma@gmai.com>\n"
+"Language-Team: Urdu <makki.ma@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Urdu\n"
+"X-Poedit-Country: PAKISTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:102
+#, c-format
+msgid "Status:                  %s\n"
+msgstr "حالت:                  %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:106
+#, c-format
+msgid "Now Playing:             %s\n"
+msgstr "چل رہا ہے:             %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:111
+#, c-format
+msgid "Filename:                %s\n"
+msgstr "فائل نام:                %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:112
+#: ../plugins/infopipe/xfmedia-infopipe.c:127
+#: ../plugins/infopipe/xfmedia-infopipe.c:138
+msgid "(none)"
+msgstr "(کچھ نہیں)"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:115
+#, c-format
+msgid "Track Position:          %d\n"
+msgstr "ٹریک کامقام:          %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:119
+#, c-format
+msgid "Track Length:            %d\n"
+msgstr "ٹریک کی لمبائی:            %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:126
+#, c-format
+msgid ""
+"Audio Codec:             %s\n"
+"Audio Bitrate:           %d\n"
+"Audio Sample Rate:       %d\n"
+"Audio Channels:          %d\n"
+"Audio Bits Per Sample:   %d\n"
+msgstr ""
+"صوتی کوڈیک:             %s\n"
+"صوتی بٹ ریٹ:           %d\n"
+"صوتی سیمپل ریٹ:       %d\n"
+"صوتی چینل:          %d\n"
+"صوتی بٹ فی سیمپل:   %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:137
+#, c-format
+msgid ""
+"Video Codec:            %s\n"
+"Video Bitrate:          %d\n"
+"Video Frames Per Second: %.02f\n"
+"Video Frame Size:        %dx%d\n"
+"Video Aspect Ratio:      %.02f\n"
+msgstr ""
+"ویڈیو کوڈیک:            %s\n"
+"ویڈیو بٹ ریٹ:          %d\n"
+"ویڈیو فریم فی سیکنڈ: %.02f\n"
+"ویڈیو فریم حجم:        %dx%d\n"
+"ویڈیو ریشو:      %.02f\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:144
+#, c-format
+msgid "Playlist Length:         %d\n"
+msgstr "پلے لسٹ طول:         %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:148
+#, c-format
+msgid "Current Playlist Index:  %d\n"
+msgstr "حالیہ پلے لسٹ انڈیکس:  %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:234
+#, c-format
+msgid "Xfmedia-Infopipe: Unable to delete file '%s'."
+msgstr "Xfmedia-Infopipe: فائل '%s' حذف نہیں ہوسکتی."
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:245
+#, c-format
+msgid "Xfmedia-Infopipe: Unable to create pipe '%s'."
+msgstr "Xfmedia-Infopipe: pipe '%s' بنانے میں ناکامی."
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:262
+msgid "Xfmedia Infopipe"
+msgstr "Xfmedia انفو پائپ"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:264
+msgid "The Infopipe plugin creates a pipe in /tmp that you can use to retrieve information about the currently playing track."
+msgstr "Infopipe نے /tmp میں ایک pipe بنادیا ہے جس سے آپ حالیہ چلتے ہوئے ٹریک کی معلومات حاصل کرسکتے ہیں."
+
+#: ../src/equaliser.c:132
+msgid "Equalizer"
+msgstr "Equalizer"
+
+#: ../src/equaliser.c:175
+msgid "Preamp"
+msgstr "Preamp"
+
+#: ../src/http.c:95
+#, c-format
+msgid "http: failed to open socket: %s\n"
+msgstr "http: ساکٹ کھولنے میں ناکامی: %s\n"
+
+#: ../src/http.c:105
+#, c-format
+msgid "http: cannot connect to host\n"
+msgstr "http: ہوسٹ سے رابطہ نہیں ہوسکا\n"
+
+#: ../src/http.c:121
+#, c-format
+msgid "http: unable to resolve '%s'\n"
+msgstr "http: دریافت نہیں ہوسکا '%s'\n"
+
+#: ../src/http.c:133
+#, c-format
+msgid "http: unable to connect to '%s'\n"
+msgstr "http: '%s' سے رابطہ نہیں ہوسکا\n"
+
+#: ../src/http.c:311
+#: ../src/http.c:330
+msgid "URL parse error"
+msgstr "URL میں غلطی"
+
+#: ../src/http.c:322
+#: ../src/http.c:340
+msgid "proxy authentication error"
+msgstr "پراکسی تصدیق میں غلطی"
+
+#: ../src/http.c:360
+msgid "host connect error"
+msgstr "ہوسٹ اتصال میں غلطی"
+
+#: ../src/http.c:399
+msgid "couldn't send request"
+msgstr "درخواست نہیں بھیجی جاسکی"
+
+#: ../src/http.c:420
+msgid "read error"
+msgstr "پڑھنے کی غلطی"
+
+#: ../src/http.c:446
+msgid "invalid HTTP response"
+msgstr "غلط HTTP جواب"
+
+#: ../src/http.c:454
+msgid "HTTP 3xx redirection not implemented"
+msgstr "HTTP 3xx ری ڈائریکشن اطلاق شدہ نہیں ہے"
+
+#: ../src/http.c:461
+msgid "HTTP status is not 2xx"
+msgstr "HTTP حالت 2xx نہیں ہے"
+
+#: ../src/http.c:480
+msgid "HTTP 'Location:' redirection not implemented"
+msgstr "HTTP 'مقام:' ری ڈائریکشن اطلاق شدہ نہیں ہے"
+
+#. FIXME: report errno, and possibly in a window
+#: ../src/http.c:534
+#, c-format
+msgid "http: read error\n"
+msgstr "http: پڑھنے کی غلطی\n"
+
+#: ../src/main.c:227
+#: ../src/xfmedia-remote.c:102
+#, c-format
+msgid ""
+"Xfmedia %s.  Released under the terms of the GNU GPL.  See the COPYING\n"
+"file for details.\n"
+"\n"
+msgstr ""
+"Xfmedia %s گنو جنرل پبلک لائسنس کے تحت جاری کیا گیا ہے.\n"
+"مزید تفصیلات کے لیے COPYING فائل دیکھیے.\n"
+"\n"
+
+#: ../src/main.c:228
+#, c-format
+msgid ""
+"Usage: %s [options] [files]\n"
+"\n"
+msgstr ""
+"استعمال: %s [options] [files]\n"
+"\n"
+
+#: ../src/main.c:229
+#: ../src/xfmedia-remote.c:104
+msgid "    -h, --help           Print this help message and exit.\n"
+msgstr "    -h, --help           Print this help message and exit.\n"
+
+#: ../src/main.c:230
+#: ../src/xfmedia-remote.c:105
+msgid "    -V, --version        Print version information and exit.\n"
+msgstr "    -V, --version        Print version information and exit.\n"
+
+#: ../src/main.c:231
+msgid "    -v, --verbose        Instruct xine to print useful status information.\n"
+msgstr "    -v, --verbose        Instruct xine to print useful status information.\n"
+
+#: ../src/main.c:232
+msgid "    --debug              Instruct xine to print detailed debug information.\n"
+msgstr "    --debug              Instruct xine to print detailed debug information.\n"
+
+#: ../src/main.c:233
+msgid "    -f, --fullscreen     Start xfmedia's video window in fullscreen mode.\n"
+msgstr "    -f, --fullscreen     Start xfmedia's video window in fullscreen mode.\n"
+
+#: ../src/main.c:234
+msgid ""
+"    -p, --autoplay       Start playing when Xfmedia starts.  (This is the\n"
+"                         default if xfmedia is given filenames on the command\n"
+"                         line.)\n"
+msgstr ""
+"    -p, --autoplay       Start playing when Xfmedia starts.  (This is the\n"
+"                         default if xfmedia is given filenames on the command\n"
+"                         line.)\n"
+
+#: ../src/main.c:237
+msgid "    -c, --clear-playlist Start xfmedia with an empty playlist.\n"
+msgstr "    -c, --clear-playlist Start xfmedia with an empty playlist.\n"
+
+#: ../src/main.c:238
+msgid "    --audio-out=DRIVER   Specify the audio output driver to use.\n"
+msgstr "    --audio-out=DRIVER   Specify the audio output driver to use.\n"
+
+#: ../src/main.c:239
+msgid "    --video-out=DRIVER   Specify the video output driver to use.\n"
+msgstr "    --video-out=DRIVER   Specify the video output driver to use.\n"
+
+#: ../src/main.c:240
+msgid ""
+"    --vwin-geometry=WxH[+X+Y]\n"
+"                         Specify a fixed size and/or position for xfmedia's\n"
+"                         video window.\n"
+msgstr ""
+"    --vwin-geometry=WxH[+X+Y]\n"
+"                         Specify a fixed size and/or position for xfmedia's\n"
+"                         video window.\n"
+
+#: ../src/main.c:315
+#: ../src/xfmedia-remote.c:167
+#, c-format
+msgid "Xfmedia version %s, Copyright (c) Brian Tarricone, <bjt23@cornell.edu>\n"
+msgstr "Xfmedia ورژن %s، کاپی رائٹ © Brian Tarricone، <bjt23@cornell.edu>\n"
+
+#: ../src/main.c:316
+#: ../src/xfmedia-remote.c:168
+msgid "Released under the terms of the GNU General Public License.\n"
+msgstr "گنو جنرل پبلک لائسنس کے تحت جاری کیا گیا. اردو ترجمہ از محمد علی مکی\n"
+
+#: ../src/main.c:317
+#, c-format
+msgid "Compiled against xine-lib %s, using xine-lib %s.\n"
+msgstr "xine-lib %s کے مقابل xine-lib %s کو استعمال کرتے ہوئے کمپائل کیا گیا.\n"
+
+#: ../src/main.c:319
+#, c-format
+msgid "Compiled against Xfce %d.%d.%d, using Xfce %s.\n"
+msgstr "ایکسفس %d.%d.%d کے مقابل ایکسفس %s کو استعمال کرتے ہوئے کمپائل کیا گیا.\n"
+
+#: ../src/main.c:354
+msgid "The option --audio-out requires an argument.\n"
+msgstr "The option --audio-out requires an argument.\n"
+
+#: ../src/main.c:363
+msgid "The option --video-out requires an argument.\n"
+msgstr "The option --video-out requires an argument.\n"
+
+#: ../src/mainwin-callbacks.c:130
+msgid "Unable to play file."
+msgstr "فائل نہیں چلائی جاسکی."
+
+#: ../src/mainwin-callbacks.c:131
+msgid "Xfmedia was unable to play the selected file.  Be sure that the file exists and that you have permission to access it."
+msgstr "Xfmedia منتخب کردہ فائل کو نہیں چلا سکا. یقین کر لیں کہ فائل موجود ہے اور آپ کو اس تک رسائل کی اجازت ہے."
+
+#: ../src/mainwin-callbacks.c:222
+msgid "Metadata Changed"
+msgstr "میٹا ڈیٹا تبدیل"
+
+#: ../src/mainwin-callbacks.c:224
+msgid "You have edited this file's metadata."
+msgstr "آپ نے اس فائل کا میٹا ڈیٹا تبدیل کردیا."
+
+#: ../src/mainwin-callbacks.c:225
+msgid "Changes will be lost unless they are saved.  Do you wish to save changes?"
+msgstr "جب تک آپ محفوظ نہیں کریں گے تبدیلیاں محفوظ نہیں ہوں گی. کیا آپ تبدیلیاں محفوظ کرنا چاہتے ہیں؟"
+
+#: ../src/mainwin-callbacks.c:226
+msgid "_Discard Changes"
+msgstr "تبدیلیاں _ختم کریں"
+
+#: ../src/mainwin-callbacks.c:227
+msgid "_Save Changes"
+msgstr "تبدیلیاں _محفوظ کریں"
+
+#: ../src/mainwin-callbacks.c:285
+#, c-format
+msgid "Xfmedia was unable to open '%s'.  Be sure that the file exists and that you have permission to access it."
+msgstr "Xfmedia '%s' کو نہیں کھول سکا. یقین کر لیں کہ فائل موجود ہے اور آپ کو اس تک رسائی کی اجازت ہے."
+
+#: ../src/mainwin-callbacks.c:287
+msgid "Unable to open file."
+msgstr "فائل نہیں کھولی جاسکتی."
+
+#: ../src/mainwin-callbacks.c:308
+msgid "File Info"
+msgstr "فائل کی معلومات"
+
+#: ../src/mainwin-callbacks.c:323
+msgid "Filename"
+msgstr "فائل نام"
+
+#: ../src/mainwin-callbacks.c:336
+msgid "Media Info"
+msgstr "میڈیا معلومات"
+
+#: ../src/mainwin-callbacks.c:348
+msgid "Title:"
+msgstr "عنوان:"
+
+#: ../src/mainwin-callbacks.c:375
+msgid "Artist:"
+msgstr "فنکار:"
+
+#: ../src/mainwin-callbacks.c:402
+msgid "Album:"
+msgstr "ایلبم"
+
+#: ../src/mainwin-callbacks.c:429
+msgid "Genre:"
+msgstr "قسم:"
+
+#: ../src/mainwin-callbacks.c:452
+msgid "Track:"
+msgstr "ٹریک:"
+
+#: ../src/mainwin-callbacks.c:477
+msgid "Year:"
+msgstr "سال:"
+
+#: ../src/mainwin-callbacks.c:504
+msgid "Comment:"
+msgstr "تبصرہ:"
+
+#: ../src/mainwin-callbacks.c:535
+msgid "Length:"
+msgstr "طول:"
+
+#: ../src/mainwin-callbacks.c:552
+msgid "File size (b):"
+msgstr "فائل حجم (ب):"
+
+#: ../src/mainwin-callbacks.c:569
+msgid "Audio Info"
+msgstr "صوتی معلومات"
+
+#: ../src/mainwin-callbacks.c:581
+#: ../src/mainwin-callbacks.c:675
+msgid "Codec:"
+msgstr "کوڈیک:"
+
+#: ../src/mainwin-callbacks.c:596
+msgid "Samples/sec:"
+msgstr "سیمپل/سیکنڈ:"
+
+#: ../src/mainwin-callbacks.c:615
+msgid "Bits/sample:"
+msgstr "بٹس/سیمپل:"
+
+#: ../src/mainwin-callbacks.c:631
+#: ../src/mainwin-callbacks.c:732
+msgid "Channels:"
+msgstr "چینلز:"
+
+#: ../src/mainwin-callbacks.c:646
+#: ../src/mainwin-callbacks.c:746
+msgid "Bitrate (kbit):"
+msgstr "بٹ ریٹ (kbit):"
+
+#: ../src/mainwin-callbacks.c:663
+msgid "Video Info"
+msgstr "ویڈیو معلومات"
+
+#: ../src/mainwin-callbacks.c:690
+msgid "FourCC:"
+msgstr "FourCC:"
+
+#: ../src/mainwin-callbacks.c:714
+msgid "Frame size:"
+msgstr "فریم حجم:"
+
+#: ../src/mainwin-callbacks.c:895
+msgid "Add URL"
+msgstr "URL شامل کریں"
+
+#: ../src/mainwin-callbacks.c:912
+msgid "_URL:"
+msgstr "_URL:"
+
+#: ../src/mainwin-callbacks.c:937
+msgid "Sort by filename"
+msgstr "فائل کے نام سے ترتیب دیں"
+
+#: ../src/mainwin-callbacks.c:938
+msgid "Sort by title"
+msgstr "عنوان سے ترتیب دیں"
+
+#: ../src/mainwin-callbacks.c:939
+msgid "Sort by artist, title"
+msgstr "فنکار، عنوان سے ترتیب دیں"
+
+#: ../src/mainwin-callbacks.c:940
+msgid "Sort by artist, album, track number"
+msgstr "فنکار، ایلبم، ٹریک نمبر سے ترتیب دیں"
+
+#: ../src/mainwin-callbacks.c:1241
+msgid "Add Directory"
+msgstr "ڈائریکٹری شامل کریں"
+
+#: ../src/mainwin-callbacks.c:1329
+msgid "Add Media File"
+msgstr "میڈیا فائل شامل کریں"
+
+#: ../src/mainwin-callbacks.c:1331
+msgid "Add _Selected"
+msgstr "_منتخب شامل کریں"
+
+#: ../src/mainwin-callbacks.c:1335
+msgid "A_dd and Close"
+msgstr "_شامل کریں اور بند کریں"
+
+#: ../src/mainwin-callbacks.c:1349
+#: ../src/playlist.c:686
+msgid "All Files"
+msgstr "تمام فائلیں"
+
+#: ../src/mainwin-callbacks.c:1353
+msgid "Music Files"
+msgstr "موسیقی فائلیں"
+
+#: ../src/mainwin-callbacks.c:1367
+#: ../src/playlist.c:690
+msgid "Playlists"
+msgstr "پلے لسٹ"
+
+#: ../src/mainwin-callbacks.c:1373
+msgid "Video Files"
+msgstr "ویڈیو فائلیں"
+
+#: ../src/mainwin-callbacks.c:1949
+msgid "Translator"
+msgstr "مترجم"
+
+#: ../src/mainwin-callbacks.c:1962
+msgid ""
+"Xfmedia is a lightweight media player,\n"
+"based on the xine engine"
+msgstr ""
+"Xfmedia ایک ہلکا پھلکا میڈیا پلیئر ہے\n"
+"جو xine انجن پر مبنی ہے."
+
+#: ../src/mainwin-callbacks.c:1967
+msgid "Original Author/Maintainer"
+msgstr "اصل مالک/منتظم"
+
+#: ../src/mainwin-callbacks.c:2080
+#: ../src/mainwin.c:1843
+msgid "Stopped"
+msgstr "رکاہوا"
+
+#: ../src/mainwin.c:383
+msgid "_Other"
+msgstr "_دوسرا"
+
+#: ../src/mainwin.c:429
+msgid "_URL..."
+msgstr "_URL..."
+
+#: ../src/mainwin.c:438
+msgid "_Directory..."
+msgstr "_ڈائریکٹری..."
+
+#: ../src/mainwin.c:447
+msgid "_File..."
+msgstr "_فائل..."
+
+#: ../src/mainwin.c:633
+msgid "Volume"
+msgstr "والیم"
+
+#: ../src/mainwin.c:658
+#: ../src/xfmedia-keybindings.c:513
+msgid "Previous Track"
+msgstr "سابقہ ٹریک"
+
+#: ../src/mainwin.c:670
+msgid "Play/Pause Track"
+msgstr "ٹریک چلائیں/روکیں"
+
+#: ../src/mainwin.c:686
+msgid "Stop Playback"
+msgstr "پلے بیک روکیں"
+
+#: ../src/mainwin.c:697
+#: ../src/xfmedia-keybindings.c:514
+msgid "Next Track"
+msgstr "اگلا ٹریک"
+
+#: ../src/mainwin.c:705
+msgid "_Playlist"
+msgstr "_پلے لسٹ"
+
+#: ../src/mainwin.c:759
+msgid "_Enqueue"
+msgstr "_Enqueue"
+
+#: ../src/mainwin.c:768
+msgid "Add _Mediamark..."
+msgstr "می_ڈیا مارک شامل کریں..."
+
+#: ../src/mainwin.c:781
+msgid "_File Info"
+msgstr "فا_ئل معلومات"
+
+#: ../src/mainwin.c:798
+msgid "About _Xfmedia"
+msgstr "Xfmedia کی _بابت"
+
+#: ../src/mainwin.c:811
+msgid "_Preferences"
+msgstr "_ترجیحات"
+
+#: ../src/mainwin.c:821
+msgid "_Equalizer..."
+msgstr "_Equalizer..."
+
+#: ../src/mainwin.c:832
+msgid "_Jump to File..."
+msgstr "_جمپ تا فائل..."
+
+#: ../src/mainwin.c:841
+msgid "Play_list Queue..."
+msgstr "پل_ے لسٹ منتظر..."
+
+#: ../src/mainwin.c:848
+msgid "_Mediamarks"
+msgstr "_میڈیا مارک"
+
+#: ../src/mainwin.c:858
+msgid "Re_order"
+msgstr "_ترتیب دیں"
+
+#: ../src/mainwin.c:869
+msgid "Sort by _Title"
+msgstr "_عنوان سے ترتیب دیں"
+
+#: ../src/mainwin.c:875
+msgid "Sort by _Filename"
+msgstr "_فائل کے نام سے ترتیب دیں"
+
+#: ../src/mainwin.c:881
+msgid "_Randomize List"
+msgstr "_رینڈمائز لسٹ"
+
+#: ../src/mainwin.c:893
+msgid "_Shuffle"
+msgstr "_شفل"
+
+#: ../src/mainwin.c:901
+msgid "_Repeat"
+msgstr "_دہرائیں"
+
+#: ../src/mainwin.c:909
+msgid "Repeat Single _Track"
+msgstr "م_فرد ٹریک دہرائیں"
+
+#: ../src/mainwin.c:917
+msgid "Show Audio _Visualization"
+msgstr "صوتی _وزولائزیشن ظاہر کریں"
+
+#: ../src/mainwin.c:1124
+#: ../src/mainwin.c:1733
+msgid "Playing"
+msgstr "چل رہا ہے"
+
+#: ../src/mainwin.c:1141
+msgid "P_revious Track"
+msgstr "_سابقہ ٹریک"
+
+#: ../src/mainwin.c:1150
+#: ../src/mainwin.c:1262
+msgid "_Play"
+msgstr "_چلائیں"
+
+#: ../src/mainwin.c:1167
+#: ../src/mainwin.c:1283
+msgid "_Pause"
+msgstr "_موقوف کریں"
+
+#: ../src/mainwin.c:1178
+msgid "_Stop"
+msgstr "_روکیں"
+
+#: ../src/mainwin.c:1186
+msgid "_Next Track"
+msgstr "_اگلا ٹریک"
+
+#: ../src/mainwin.c:1754
+msgid "Paused"
+msgstr "رکا ہوا"
+
+#: ../src/mediamarks.c:125
+msgid "Mediamarks Save Error"
+msgstr "میڈیا مارک محفوظ کرنے میں غلطی"
+
+#: ../src/mediamarks.c:127
+msgid "The mediamarks file failed to save."
+msgstr "میڈیا مارک فائل محفوظ نہیں ہوسکی."
+
+#: ../src/mediamarks.c:128
+#: ../src/xfmedia-keybindings.c:683
+#: ../src/xfmedia-keybindings.c:696
+msgid "This could be because your disk is full, or you don't have permission to write to the configuration directory.  Any changes will be lost when you quit Xfmedia."
+msgstr "ہوسکتا ہے کہ ہارڈ ڈسک بھری ہوئی ہو یا آپ کے پاس تشکیل ڈائریکٹری میں لکھنے کا اجازہ نہیں ہے. جب آپ Xfmedia بند کریں گے تمام تبدیلیاں ضائع ہوجائیں گی."
+
+#: ../src/mediamarks.c:625
+#: ../src/mediamarks.c:889
+msgid "Mediamarks"
+msgstr "میڈیا مارکس"
+
+#: ../src/mediamarks.c:721
+msgid "Add Mediamark"
+msgstr "میڈیا مارک شامل کریں"
+
+#: ../src/mediamarks.c:726
+msgid "_Add Mediamark"
+msgstr "میڈیا مارک _شامل کریں"
+
+#: ../src/mediamarks.c:745
+#: ../src/mediamarks.c:1191
+msgid "_Name:"
+msgstr "_نام:"
+
+#: ../src/mediamarks.c:766
+#: ../src/mediamarks.c:1213
+msgid "_Location:"
+msgstr "_مقام:"
+
+#: ../src/mediamarks.c:781
+#: ../src/mediamarks.c:987
+msgid "File _in:"
+msgstr "فائل _ہے:"
+
+#: ../src/mediamarks.c:803
+msgid "New Folder"
+msgstr "نیا فولڈر"
+
+#: ../src/mediamarks.c:808
+msgid "Add _Folder"
+msgstr "_فولڈر شامل کریں"
+
+#: ../src/mediamarks.c:956
+msgid "Add Mediamark Folder"
+msgstr "میڈیا مارک فولڈر شامل کریں"
+
+#: ../src/mediamarks.c:962
+msgid "_Add Folder"
+msgstr "ف_ولڈر شامل کریں"
+
+#: ../src/mediamarks.c:978
+msgid "_Folder Name:"
+msgstr "_فولڈر کا نام:"
+
+#: ../src/mediamarks.c:1047
+msgid "Remove Mediamark"
+msgstr "میڈیا مارک حذف کریں"
+
+#: ../src/mediamarks.c:1048
+#: ../src/mediamarks.c:1053
+msgid "Are you sure?"
+msgstr "کیا آپ پریقین ہیں؟"
+
+#: ../src/mediamarks.c:1048
+msgid "You're about to remove a Mediamark, which can't be undone."
+msgstr "آپ میڈیا مارک حذف کرنے جارہے ہیں جنہیں پھر واپس لانا ممکن نہیں ہوگا."
+
+#: ../src/mediamarks.c:1052
+msgid "Remove Folder"
+msgstr "فولڈر حذف کرین"
+
+#: ../src/mediamarks.c:1054
+msgid "Removing a folder also removes all items and subfolders contained in it, and can't be undone."
+msgstr "فولڈر حذف کرنے سے اس میں موجود ذیلی فولڈر اور تمام مواد بھی حذف ہوجائے گا جنہیں واپس لانا ممکن نہیں ہوگا."
+
+#: ../src/mediamarks.c:1174
+msgid "Mediamark Properties"
+msgstr "میڈیا مارک خصوصیات"
+
+#: ../src/mediamarks.c:1174
+msgid "Folder Properties"
+msgstr "فولڈر خصوصیات"
+
+#: ../src/mediamarks.c:1593
+msgid "Manage Mediamarks"
+msgstr "میڈیا مارک ادارت"
+
+#: ../src/mediamarks.c:1615
+msgid "New Mediamark..."
+msgstr "نیا میڈیا مارک..."
+
+#: ../src/mediamarks.c:1616
+msgid "Add a new mediamark"
+msgstr "نیا میڈیا مارک شامل کریں"
+
+#: ../src/mediamarks.c:1621
+msgid "Add Folder..."
+msgstr "فولڈر شامل کریں..."
+
+#: ../src/mediamarks.c:1622
+msgid "Add a new folder"
+msgstr "نیا فولڈر شامل کریں"
+
+#: ../src/mediamarks.c:1627
+msgid "Remove Item"
+msgstr "عنصر حذف کریں"
+
+#: ../src/mediamarks.c:1628
+msgid "Remove the selected item"
+msgstr "منتخب کردہ عنصر حذف کریں"
+
+#: ../src/mediamarks.c:1635
+msgid "Move Item Up"
+msgstr "عنصر اوپر منتقل کریں"
+
+#: ../src/mediamarks.c:1636
+msgid "Move the selected item up"
+msgstr "منتخب کردہ عنصر اوپر منتقل کریں"
+
+#: ../src/mediamarks.c:1641
+msgid "Move Item Down"
+msgstr "عنصر نیچے منتقل کریں"
+
+#: ../src/mediamarks.c:1642
+msgid "Move the selected item down"
+msgstr "منتخب کردہ عنصر نیچے منتقل کریں"
+
+#: ../src/mediamarks.c:1649
+msgid "Refresh"
+msgstr "پھرتازہ"
+
+#: ../src/mediamarks.c:1650
+msgid "Refresh the list"
+msgstr "فہرست تازہ کریں"
+
+#: ../src/mediamarks.c:1655
+msgid "Properties..."
+msgstr "خصوصیات..."
+
+#: ../src/mediamarks.c:1656
+msgid "Edit the selected item's properties"
+msgstr "منتخب کردہ عنصر کی خصوصیات مدون کریں"
+
+#: ../src/mediamarks.c:1686
+msgid "Name"
+msgstr "نام"
+
+#: ../src/mediamarks.c:1713
+msgid "Location"
+msgstr "مقام"
+
+#: ../src/mediamarks.c:1806
+msgid "_Add Current Stream..."
+msgstr "حالیہ سٹریم _شامل کریں..."
+
+#: ../src/mediamarks.c:1815
+msgid "_Manage Mediamarks..."
+msgstr "میڈیا مارکس کی _ادارت کریں..."
+
+#: ../src/playlist.c:536
+msgid "Save changes to this playlist before closing?"
+msgstr "بند کرنے سے پہلے تبدیلیان اس پلے لسٹ میں محفوظ کردی جائیں؟"
+
+#: ../src/playlist.c:537
+msgid "You've changed this playlist since it was last saved."
+msgstr "آخری محفوظگی کے بعد آپ نے اس پلے لسٹ میں تبدیلی کی ہے."
+
+#: ../src/playlist.c:541
+msgid "Do_n't save"
+msgstr "محفوظ م_ت کریں"
+
+#: ../src/playlist.c:590
+#: ../src/xfmedia-keybindings.c:534
+msgid "Save Playlist"
+msgstr "پلے لسٹ محفوظ کریں"
+
+#: ../src/playlist.c:600
+msgid "Autodetect type by extension"
+msgstr "لاحقوں سے قسم کی خودکار دریافت"
+
+#: ../src/playlist.c:604
+msgid "Flat file"
+msgstr "فلیٹ فائل"
+
+#: ../src/playlist.c:676
+msgid "Open Playlist"
+msgstr "پلے لسٹ کھولیں"
+
+#: ../src/playlist.c:1359
+msgid "#"
+msgstr "#"
+
+#: ../src/playlist.c:1373
+msgid "Title"
+msgstr "عنوان"
+
+#: ../src/playlist.c:1381
+msgid "Length"
+msgstr "طول"
+
+#: ../src/playlist.c:1431
+msgid "Add entry to playlist"
+msgstr "پلے لسٹ میں انٹری شامل کریں"
+
+#: ../src/playlist.c:1441
+msgid "Remove entry from playlist"
+msgstr "پلے لسٹ سے انٹری حذف کریں"
+
+#: ../src/playlist.c:1451
+msgid "Move selected playlist entry up"
+msgstr "منتخب پلے لسٹ انٹری اوپر کریں"
+
+#: ../src/playlist.c:1461
+msgid "Move selected playlist entry down"
+msgstr "منتخب پلے لسٹ انٹری نیچے کریں"
+
+#: ../src/playlist.c:1486
+msgid "Randomize play order"
+msgstr "چلانے کی ترتیب رینڈمائز کریں"
+
+#: ../src/playlist.c:1505
+msgid "Repeat after playlist finishes"
+msgstr "پلے لسٹ ختم ہونے پر دہرائیں"
+
+#: ../src/playlist.c:1520
+msgid "Save current playlist"
+msgstr "حالیہ پلے لسٹ محفوظ کریں"
+
+#: ../src/playlist.c:1530
+msgid "Open a saved playlist"
+msgstr "محفوظ پلے لسٹ کھولیں"
+
+#: ../src/playlist.c:1540
+msgid "Start a new playlist"
+msgstr "نئی پلے لسٹ بنائیں"
+
+#: ../src/playlist.c:1548
+msgid "_Remove Entry"
+msgstr "انٹری _حذف کریں"
+
+#: ../src/playlist.c:1557
+msgid "Move _Up"
+msgstr "_اوپر کریں"
+
+#: ../src/playlist.c:1566
+msgid "Move _Down"
+msgstr "_نیچے کریں"
+
+#: ../src/remote.c:223
+#: ../src/remote.c:466
+msgid "(no title)"
+msgstr "(بلا عنوان)"
+
+#: ../src/settings-dialog.c:145
+msgid "Optical Devices"
+msgstr "آپٹیکل ڈیوائسس"
+
+#: ../src/settings-dialog.c:159
+msgid "CD A_udio Device:"
+msgstr "CD _صوتی ڈیوائس:"
+
+#: ../src/settings-dialog.c:181
+msgid "DVD Vide_o Device:"
+msgstr "DVD _ویڈیو ڈیوائس:"
+
+#: ../src/settings-dialog.c:203
+msgid "Vid_eo CD Device:"
+msgstr "وی_ڈیو CD ڈیوائس:"
+
+#: ../src/settings-dialog.c:221
+msgid "Audio"
+msgstr "صوتی"
+
+#: ../src/settings-dialog.c:233
+msgid "Dr_iver:"
+msgstr "_ڈرائیو:"
+
+#: ../src/settings-dialog.c:243
+#: ../src/settings-dialog.c:312
+msgid "(no drivers)"
+msgstr "(کوئی ڈرائیو نہیں)"
+
+#: ../src/settings-dialog.c:267
+msgid "_Speaker Layout:"
+msgstr "_سپیکر خاکہ:"
+
+#: ../src/settings-dialog.c:275
+msgid "(option unavailable)"
+msgstr "(آپشن دستیاب نہیں)"
+
+#: ../src/settings-dialog.c:290
+msgid "Video"
+msgstr "ویڈیو"
+
+#: ../src/settings-dialog.c:302
+msgid "D_river:"
+msgstr "_ڈرائیو:"
+
+#: ../src/settings-dialog.c:608
+msgid "Xfmedia Preferences"
+msgstr "Xfmedia ترجیحات"
+
+#: ../src/settings-dialog.c:630
+msgid "Playlist"
+msgstr "پلے لسٹ"
+
+#: ../src/settings-dialog.c:643
+msgid "_Title Display:"
+msgstr "_عنوان ڈسپلے:"
+
+#: ../src/settings-dialog.c:653
+msgid ""
+"This is a printf-like format string controlling the display of the playlist.  Xfmedia will replace the following symbols:\n"
+"\t%p: Artist/Performer\n"
+"\t%t: Track Title\n"
+"\t%a: Album Name\n"
+"\t%T: Track Number\n"
+"\t%g: Genre\n"
+"\t%y: Year\n"
+"\t%f: Filename\n"
+"\t%%: a percent sign"
+msgstr ""
+"This is a printf-like format string controlling the display of the playlist.  Xfmedia will replace the following symbols:\n"
+"\t%p: فنکار/اداکار\n"
+"\t%t: ٹریک عنوان\n"
+"\t%a: ایلبم کا نام\n"
+"\t%T: ٹریک نمبر\n"
+"\t%g: قسم\n"
+"\t%y: سال\n"
+"\t%f: فائل نام\n"
+"\t%%: فیصد نشان"
+
+#: ../src/settings-dialog.c:667
+msgid "_Advance playlist when track ends"
+msgstr "ا_علی پلے لسٹ جب ٹریک ختم ہو"
+
+#: ../src/settings-dialog.c:675
+msgid "When a track ends, Xfmedia can automatically advance to the next track in the playlist and continue playback."
+msgstr "جب ٹریک ختم ہوگا Xfmedia پلے لسٹ میں موجود اگلا ٹریک خوکار طور پر چلادے گا."
+
+#: ../src/settings-dialog.c:677
+msgid "_Don't save playlist on exit for one-shot invocations"
+msgstr "_Don't save playlist on exit for one-shot invocations"
+
+#: ../src/settings-dialog.c:685
+msgid "Only automatically save the playlist during interactive use; i.e., don't save the playlist when Xfmedia was invoked from the commandline with a short list of definite arguments.  This option needs to be named better."
+msgstr "Only automatically save the playlist during interactive use; i.e., don't save the playlist when Xfmedia was invoked from the commandline with a short list of definite arguments.  This option needs to be named better."
+
+#: ../src/settings-dialog.c:691
+msgid "Load metadata:"
+msgstr "میٹاڈیٹا لوڈ:"
+
+#: ../src/settings-dialog.c:695
+msgid "On _scroll"
+msgstr "سکرو_ل پر"
+
+#: ../src/settings-dialog.c:703
+msgid "Load file metadata for entries in the playlist when they are visible."
+msgstr "Load file metadata for entries in the playlist when they are visible."
+
+#: ../src/settings-dialog.c:706
+msgid "On pla_y"
+msgstr "_چلنے پر"
+
+#: ../src/settings-dialog.c:714
+msgid "Load file metadata for entries in the playlist only when playing them."
+msgstr "Load file metadata for entries in the playlist only when playing them."
+
+#: ../src/settings-dialog.c:717
+msgid "_Never"
+msgstr "_کبھی نہیں"
+
+#: ../src/settings-dialog.c:725
+msgid "Never load file metadata for entries in the playlist."
+msgstr "پلے لسٹ کی انٹریوں کے لیے میٹاڈیٹا فائل کبھی لوڈ مت کریں."
+
+#: ../src/settings-dialog.c:727
+msgid "Window"
+msgstr "ونڈوز"
+
+#: ../src/settings-dialog.c:736
+msgid "Show Xfmedia on all _workspaces"
+msgstr "Xfmedia کو تمام ورک سپیس میں ظاہر کریں"
+
+#: ../src/settings-dialog.c:742
+msgid "Sets Xfmedia \"sticky\" such that it appears on all workspaces (virtual desktops)."
+msgstr "Xfmedia کو تمام ڈیسک ٹاپس پر ظاہر کریں"
+
+#: ../src/settings-dialog.c:744
+msgid "Keep X_fmedia above other windows"
+msgstr "Xfmedia کو تم_ام ونڈوز سے آگے رکھیں"
+
+#: ../src/settings-dialog.c:751
+msgid "Sets the Xfmedia window to \"Always-on-Top\" status."
+msgstr "Xfmedia کو تمام دوسری ونڈوز سے ہمیشہ آگے رکھیں."
+
+#: ../src/settings-dialog.c:753
+msgid "Dock and auto-_hide Xfmedia at screen edges"
+msgstr "سکرین کے کناروں پر خود کار غائب"
+
+#: ../src/settings-dialog.c:760
+msgid "When the Xfmedia window is dragged to a screen edge, it will auto-hide itself and reappear when you move the mouse to the edge of the screen."
+msgstr "جب Xfmedia کو سکرین کے کناروں تک گھسیٹا جائے گا تو وہ خود ہی غائب ہوجائے گا اور ماؤس کو سکرین کے کناروں پر لانے سے دوبارہ واپس آجائے گا."
+
+#: ../src/settings-dialog.c:762
+msgid "Tray Icon"
+msgstr "ٹرے آئکن"
+
+#: ../src/settings-dialog.c:771
+msgid "Show _tray icon"
+msgstr "_ٹرے آئکن دکھائیں"
+
+#: ../src/settings-dialog.c:777
+msgid "Displays an Xfmedia icon in the system notification area."
+msgstr "نظام کی ٹرے میں Xfmedia کی آئکن دکھاتی ہے."
+
+#: ../src/settings-dialog.c:779
+msgid "_Minimize Xfmedia to tray icon"
+msgstr "Xfmedia کو ٹرے آئکن میں _منمائز کریں"
+
+#: ../src/settings-dialog.c:787
+msgid "Minimizes Xfmedia to the tray icon rather than to the taskbar or iconbox."
+msgstr "Xfmedia کو ٹاسک بار کی بجائے نظام کی ٹرے میں منمائز کریں."
+
+#: ../src/settings-dialog.c:793
+msgid "On middle _click:"
+msgstr "درمیانی _کلک پر:"
+
+#: ../src/settings-dialog.c:796
+#: ../src/settings-dialog.c:810
+msgid "The tray icon can perform an action when middle-clicked.  Select the action in the dropdown box."
+msgstr "ماؤس کے درمیانے بٹن دبانے پر پر ٹرے آئکن کوئی حرکت ادا کرسکتی ہے. ذیل سے یہ حرکت منتخب کریں."
+
+#: ../src/settings-dialog.c:799
+msgid "Do nothing"
+msgstr "کچھ نہ کریں"
+
+#: ../src/settings-dialog.c:800
+msgid "Toggle play/pause"
+msgstr "چلانا/موقوف کرنا منعکس کریں"
+
+#: ../src/settings-dialog.c:801
+msgid "Next track"
+msgstr "اگلا ٹریک"
+
+#: ../src/settings-dialog.c:802
+msgid "Previous track"
+msgstr "سابقہ ٹریک"
+
+#: ../src/settings-dialog.c:815
+msgid "O_ptions"
+msgstr "_اختیارات"
+
+#: ../src/settings-dialog.c:826
+msgid "Selected Visualization"
+msgstr "منتخب کردہ وزولائزیشن"
+
+#: ../src/settings-dialog.c:854
+msgid "(none available)"
+msgstr "(کچھ دستیاب نہیں)"
+
+#: ../src/settings-dialog.c:865
+msgid "Visualization Options"
+msgstr "وزولائزیشن اختیارات"
+
+#: ../src/settings-dialog.c:880
+msgid "_Audio Visualization"
+msgstr "_صوتی وزولائزیشن"
+
+#: ../src/settings-dialog.c:886
+msgid "_Devices"
+msgstr "_ڈیوائس"
+
+#: ../src/settings-dialog.c:892
+msgid "_Keybindings"
+msgstr "بٹن با_ئنڈنگ"
+
+#: ../src/settings-dialog.c:900
+msgid "_Plugins"
+msgstr "_پلگ ان"
+
+#: ../src/settings.c:242
+msgid "Settings Save Error"
+msgstr "ترتیبات محفوظ کرنے میں غلطی"
+
+#: ../src/settings.c:243
+msgid "The settings file failed to save."
+msgstr "ترتیبات فائل محفوظ کرنے میں ناکامی."
+
+#: ../src/settings.c:244
+msgid "This could be because your disk is full, or you don't have permission to write to the configuration directory.  Any changes will be lost when you exit Xfmedia."
+msgstr "یا تو آپ کی ہارڈ ڈسک بھری ہوئی ہے، یا آپ کے پاس تشکیل ڈائریکٹری میں لکھنے کی اجازت نہیں ہے Xfmedia کو بند کرنے پر تمام تبدیلیاں ضائع ہوجائیں گی."
+
+#: ../src/xfmedia-common.c:422
+msgid "(UTF-8 conversion failed)"
+msgstr "(UTF-8 کنورزن ناکام)"
+
+#: ../src/xfmedia-handle.c:141
+msgid "Handle Style"
+msgstr "ہنڈل انداز"
+
+#: ../src/xfmedia-handle.c:142
+msgid "This property defines the handle style of the XfmediaHandle widget."
+msgstr "This property defines the handle style of the XfmediaHandle widget."
+
+#: ../src/xfmedia-handle.c:150
+msgid "Orientation"
+msgstr "جہتیابی"
+
+#: ../src/xfmedia-handle.c:151
+msgid "This property defines whether this is a horizontal or vertical handle."
+msgstr "یہ خاصیت تعین کرتی ہے کہ کیا ہینڈل افقی ہے یا عمودی ہے."
+
+#: ../src/xfmedia-keybindings.c:510
+msgid "Play"
+msgstr "چلائیں"
+
+#: ../src/xfmedia-keybindings.c:511
+msgid "Pause"
+msgstr "موقوف کریں"
+
+#: ../src/xfmedia-keybindings.c:512
+msgid "Stop"
+msgstr "روکیں"
+
+#: ../src/xfmedia-keybindings.c:515
+msgid "Quit"
+msgstr "برخاست"
+
+#: ../src/xfmedia-keybindings.c:516
+msgid "Toggle Fullscreen"
+msgstr "فل سکرین منعکس کریں"
+
+#: ../src/xfmedia-keybindings.c:517
+msgid "Toggle Shuffle Play"
+msgstr "شفل پلے منعکس کریں"
+
+#: ../src/xfmedia-keybindings.c:518
+msgid "Toggle Repeat Play"
+msgstr "چلانا دہرانا منعکس کیں"
+
+#: ../src/xfmedia-keybindings.c:519
+msgid "Toggle Audio Visualization"
+msgstr "صوتی وزولائزیشن منعکس کریں"
+
+#: ../src/xfmedia-keybindings.c:520
+msgid "Set Speed Faster"
+msgstr "تیز رفتار"
+
+#: ../src/xfmedia-keybindings.c:521
+msgid "Set Speed Slower"
+msgstr "آہستہ رفتار"
+
+#: ../src/xfmedia-keybindings.c:522
+msgid "Forward 10 Seconds"
+msgstr "10 سیکنڈ آگے جائیں"
+
+#: ../src/xfmedia-keybindings.c:523
+msgid "Forward 30 Seconds"
+msgstr "30 سیکنڈ آگے جائیں"
+
+#: ../src/xfmedia-keybindings.c:524
+msgid "Forward 60 Seconds"
+msgstr "60 سیکنڈ آگے جائیں"
+
+#: ../src/xfmedia-keybindings.c:525
+msgid "Backward 10 Seconds"
+msgstr "10 سیکنڈ پیچھے جائیں"
+
+#: ../src/xfmedia-keybindings.c:526
+msgid "Backward 30 Seconds"
+msgstr "30 سیکنڈ پیچھے جائیں"
+
+#: ../src/xfmedia-keybindings.c:527
+msgid "Backward 60 Seconds"
+msgstr "60 سیکنڈ پیچھے جائیں"
+
+#: ../src/xfmedia-keybindings.c:528
+msgid "Enqueue Track"
+msgstr "منتظر ٹریک"
+
+#: ../src/xfmedia-keybindings.c:529
+msgid "Show Queued Tracks"
+msgstr "منتظر ٹریک ظاہر کریں"
+
+#: ../src/xfmedia-keybindings.c:530
+msgid "Toggle Audio Mute"
+msgstr "صوتی میوٹ منعکس کریں"
+
+#: ../src/xfmedia-keybindings.c:531
+msgid "Add File to Playlist"
+msgstr "پلے لسٹ میں فائل شامل کریں"
+
+#: ../src/xfmedia-keybindings.c:532
+msgid "Add URL to Playlist"
+msgstr "پلے لسٹ میں URL شامل کریں"
+
+#: ../src/xfmedia-keybindings.c:533
+msgid "Open Saved Playlist"
+msgstr "محفوظ پلے لسٹ کھولیں"
+
+#: ../src/xfmedia-keybindings.c:535
+msgid "Clear Playlist"
+msgstr "پلے لسٹ صاف کریں"
+
+#: ../src/xfmedia-keybindings.c:536
+msgid "A/V Sync Plus"
+msgstr "A/V Sync Plus"
+
+#: ../src/xfmedia-keybindings.c:537
+msgid "A/V Sync Minus"
+msgstr "A/V Sync Minus"
+
+#: ../src/xfmedia-keybindings.c:538
+msgid "Select Aspect Ratio"
+msgstr "ایسپیکٹ ریشو منتخب کریں"
+
+#: ../src/xfmedia-keybindings.c:539
+msgid "Jump to File"
+msgstr "جمپ تا فائل"
+
+#: ../src/xfmedia-keybindings.c:540
+msgid "Video Zoom In"
+msgstr "ویڈیو نزدیک"
+
+#: ../src/xfmedia-keybindings.c:541
+msgid "Video Zoom Out"
+msgstr "ویڈیو دور"
+
+#: ../src/xfmedia-keybindings.c:542
+msgid "Video Window Larger"
+msgstr "بڑی ویڈیو ونڈو"
+
+#: ../src/xfmedia-keybindings.c:543
+msgid "Video Window Smaller"
+msgstr "چھوٹی ویڈیو ونڈو"
+
+#: ../src/xfmedia-keybindings.c:544
+msgid "Volume Up"
+msgstr "والیم اوپر"
+
+#: ../src/xfmedia-keybindings.c:545
+msgid "Volume Down"
+msgstr "والیم نیچے"
+
+#: ../src/xfmedia-keybindings.c:546
+msgid "Audio Track Next"
+msgstr "اگلا صوتی ٹریک"
+
+#: ../src/xfmedia-keybindings.c:547
+msgid "Audio Track Previous"
+msgstr "سابقہ صوتی ٹریک"
+
+#: ../src/xfmedia-keybindings.c:548
+msgid "Subtitle Track Next"
+msgstr "اگلا ذیلی عنوان ٹریک"
+
+#: ../src/xfmedia-keybindings.c:549
+msgid "Subtitle Track Previous"
+msgstr "سابقہ ذیلی عنوان ٹریک"
+
+#: ../src/xfmedia-keybindings.c:635
+msgid "Set Keybinding"
+msgstr "Keybinding سیٹ کریں"
+
+#: ../src/xfmedia-keybindings.c:638
+msgid "_Clear"
+msgstr "_صاف"
+
+#: ../src/xfmedia-keybindings.c:647
+msgid "Set shortcut for:"
+msgstr "شارٹ کٹ مرتب برائے:"
+
+#: ../src/xfmedia-keybindings.c:665
+msgid "Keybinding Error"
+msgstr "Keybinding غلطی"
+
+#: ../src/xfmedia-keybindings.c:666
+msgid "Keybinding already in use."
+msgstr "Keybinding پہلے ہی استعمال میں ہے."
+
+#: ../src/xfmedia-keybindings.c:667
+msgid "The key sequence you selected is already in use by another function.  Please set the other function to something else."
+msgstr "بٹنوں کی ترتیب جو آپ نے منتخب کی ہے وہ پہلے ہی کسی دوسرے فنکشن میں مستعمل ہے، دوسرے فنکشن کو کسی اور ترتیب میں مرتب کریں."
+
+#: ../src/xfmedia-keybindings.c:680
+#: ../src/xfmedia-keybindings.c:693
+msgid "Keybindings Save Error"
+msgstr "keybindings محفوظ کرنے میں غلطی"
+
+#: ../src/xfmedia-keybindings.c:682
+#: ../src/xfmedia-keybindings.c:695
+msgid "The keybindings file failed to save."
+msgstr "keybindings فائل محفوظ ہونے میں ناکام"
+
+#: ../src/xfmedia-keybindings.c:691
+msgid "None"
+msgstr "کچھ نہیں"
+
+#: ../src/xfmedia-keybindings.c:808
+msgid "Function"
+msgstr "فنکشن"
+
+#: ../src/xfmedia-keybindings.c:813
+msgid "Keys"
+msgstr "کیز"
+
+#: ../src/xfmedia-remote.c:103
+#, c-format
+msgid ""
+"Usage: %s [options]\n"
+"\n"
+msgstr ""
+"استعمال: %s [options]\n"
+"\n"
+
+#: ../src/xfmedia-remote.c:106
+msgid ""
+"    --session=N          Specify the number of the already-running instance of\n"
+"                         Xfmedia.  (Defaults to 0, or the first instance found.)\n"
+msgstr ""
+"    --session=N          Specify the number of the already-running instance of\n"
+"                         Xfmedia.  (Defaults to 0, or the first instance found.)\n"
+
+#: ../src/xfmedia-remote.c:108
+msgid "    --ping               Checks to see if an instance of Xfmedia is running.\n"
+msgstr "    --ping               Checks to see if an instance of Xfmedia is running.\n"
+
+#: ../src/xfmedia-remote.c:109
+msgid ""
+"    -p, --play[=N]       Causes Xfmedia to play the file at playlist idx N.\n"
+"                         If N is not specified, Xfmedia will play the currently-\n"
+"                         selected entry, or, if no item is selected, the first\n"
+"                         entry.  If used in conjunction with --playlist-add,\n"
+"                         will cause Xfmedia to play the newly-added entry.\n"
+msgstr ""
+"    -p, --play[=N]       Causes Xfmedia to play the file at playlist idx N.\n"
+"                         If N is not specified, Xfmedia will play the currently-\n"
+"                         selected entry, or, if no item is selected, the first\n"
+"                         entry.  If used in conjunction with --playlist-add,\n"
+"                         will cause Xfmedia to play the newly-added entry.\n"
+
+#: ../src/xfmedia-remote.c:114
+msgid ""
+"    --toggle             Causes Xfmedia to pause if playing, or play if paused\n"
+"                         or stopped.\n"
+msgstr ""
+"    --toggle             Causes Xfmedia to pause if playing, or play if paused\n"
+"                         or stopped.\n"
+
+#: ../src/xfmedia-remote.c:116
+msgid "    --pause              Causes Xfmedia to pause/unpause.\n"
+msgstr "    --pause              Causes Xfmedia to pause/unpause.\n"
+
+#: ../src/xfmedia-remote.c:117
+msgid "    --stop               Causes Xfmedia to stop playback.\n"
+msgstr "    --stop               Causes Xfmedia to stop playback.\n"
+
+#: ../src/xfmedia-remote.c:118
+msgid ""
+"    --previous           Causes Xfmedia to play the entry played before the\n"
+"                         currently-selected (or -playing) entry.\n"
+msgstr ""
+"    --previous           Causes Xfmedia to play the entry played before the\n"
+"                         currently-selected (or -playing) entry.\n"
+
+#: ../src/xfmedia-remote.c:120
+msgid ""
+"    --next               Causes Xfmedia to play the next entry in the playlist.\n"
+"                         If Xfmedia is in shuffle mode, a new entry will be\n"
+"                         selected randomly.\n"
+msgstr ""
+"    --next               Causes Xfmedia to play the next entry in the playlist.\n"
+"                         If Xfmedia is in shuffle mode, a new entry will be\n"
+"                         selected randomly.\n"
+
+#: ../src/xfmedia-remote.c:123
+msgid ""
+"    -a, --playlist-add=FILE\n"
+"                         Adds FILE to the end of the playlist.\n"
+msgstr ""
+"    -a, --playlist-add=FILE\n"
+"                         Adds FILE to the end of the playlist.\n"
+
+#: ../src/xfmedia-remote.c:125
+msgid ""
+"    -r, --playlist-remove=N\n"
+"                         Removes the specified playlist entry from the playlist.\n"
+msgstr ""
+"    -r, --playlist-remove=N\n"
+"                         Removes the specified playlist entry from the playlist.\n"
+
+#: ../src/xfmedia-remote.c:127
+msgid ""
+"    -c, --playlist-clear\n"
+"                         Removes all entries from the playlist.\n"
+msgstr ""
+"    -c, --playlist-clear\n"
+"                         Removes all entries from the playlist.\n"
+
+#: ../src/xfmedia-remote.c:129
+msgid ""
+"    -l, --playlist-load=FILE\n"
+"                         Loads the specified playlist.  Note that this does NOT\n"
+"                         first clear the playlist.\n"
+msgstr ""
+"    -l, --playlist-load=FILE\n"
+"                         Loads the specified playlist.  Note that this does NOT\n"
+"                         first clear the playlist.\n"
+
+#: ../src/xfmedia-remote.c:132
+msgid ""
+"    -s, --playlist-save=FILE\n"
+"                         Saves the current playlist to the specified FILE.\n"
+msgstr ""
+"    -s, --playlist-save=FILE\n"
+"                         Saves the current playlist to the specified FILE.\n"
+
+#: ../src/xfmedia-remote.c:134
+msgid "    -Q, --quit           Instructs Xfmedia to quit.\n"
+msgstr "    -Q, --quit           Instructs Xfmedia to quit.\n"
+
+#: ../src/xfmedia-remote.c:135
+msgid ""
+"    -j, --jump-to-file   Causes Xfmedia to show the main window (if not visible)\n"
+"                         and show the jump-to-file entry box.\n"
+msgstr ""
+"    -j, --jump-to-file   Causes Xfmedia to show the main window (if not visible)\n"
+"                         and show the jump-to-file entry box.\n"
+
+#: ../src/xfmedia-remote.c:180
+msgid "Argument to --session must be greater than or equal to 0.\n"
+msgstr "Argument to --session must be greater than or equal to 0.\n"
+
+#: ../src/xfmedia-remote.c:195
+msgid "Argument to --play must be greater than or equal to 0.\n"
+msgstr "Argument to --play must be greater than or equal to 0.\n"
+
+#: ../src/xfmedia-remote.c:239
+msgid "Argument to --playlist-remove must be greater than or equal to 0.\n"
+msgstr "Argument to --playlist-remove must be greater than or equal to 0.\n"
+
+#: ../src/xfmedia-remote.c:276
+#, c-format
+msgid "Unrecognized option: %s\n"
+msgstr "غیر معترف آپشن: %s\n"
+
+#: ../src/xfmedia-remote.c:289
+msgid "Unable to initialize the Xfmedia remote client service.  The most likely cause is that a DBUS session bus is not running"
+msgstr "Xfmedia کی ریموٹ کلائنٹ سروس کو تیار نہیں کیا جاسکا. ہوسکتا ہے کہ DBUS نشست نہ چل رہی ہو."
+
+#: ../src/xfmedia-remote.c:301
+msgid "Unable to find a running Xfmedia instance."
+msgstr "Xfmedia کی کوئی چلتی ہوئی حالت تلاش نہیں کی جاسکی"
+
+#: ../src/xfmedia-video-window.c:188
+msgid "Xfmedia Video"
+msgstr "Xfmedia ویڈیو"
+
+#: ../xfmedia/getopt.c:686
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: آپشن `%s' ملتبس ہے\n"
+
+#: ../xfmedia/getopt.c:711
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: آپشن `--%s' آرگومنٹ کی اجازت نہیں دیتا\n"
+
+#: ../xfmedia/getopt.c:716
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: آپشن `%c%s' آرگومنٹ کی اجازت نہیں دیتا\n"
+
+#: ../xfmedia/getopt.c:734
+#: ../xfmedia/getopt.c:907
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: آپشن `%s' کو آرگومنٹ کی ضرورت ہے\n"
+
+#. --option
+#: ../xfmedia/getopt.c:763
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: غیر معترف آپشن `--%s'\n"
+
+#. +option or -option
+#: ../xfmedia/getopt.c:767
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: غیر معترف آپشن `%c%s'\n"
+
+#. 1003.2 specifies the format of this message.
+#: ../xfmedia/getopt.c:793
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: غیر قانونی آپشن -- %c\n"
+
+#: ../xfmedia/getopt.c:796
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: غلط آپشن -- %c\n"
+
+#. 1003.2 specifies the format of this message.
+#: ../xfmedia/getopt.c:826
+#: ../xfmedia/getopt.c:956
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: آپشن کو آرکومنٹ کی ضرورت ہے -- %c\n"
+
+#: ../xfmedia/getopt.c:873
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: آپشن `-W %s' ملتبس ہے\n"
+
+#: ../xfmedia/getopt.c:891
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: آپشن `-W %s' آرگومنٹ کی اجازت نہیں دیتا\n"
+
+#: ../xfmedia/remote-client.c:607
+#: ../xfmedia/remote-client.c:614
+#: ../xfmedia/remote-client.c:621
+msgid "Xfmedia was not compiled with D-BUS support.  Remote control interface is not available."
+msgstr "Xfmedia کو D-BUS معاونت کے ساتھ کمپائل نہیں کیا گیا ہے. بعید کنٹرول مواجہ دستیاب نہیں."
+
+#: ../xfmedia.desktop.in.h:1
+msgid "Enqueue and play with Xfmedia"
+msgstr "Enqueue اور Xfmedia میں چلائیں"
+
+#: ../xfmedia.desktop.in.h:2
+msgid "Enqueue in Xfmedia"
+msgstr "Xfmedia میں Enqueue"
+
+#: ../xfmedia.desktop.in.h:3
+msgid "Lightweight Media Player"
+msgstr "ہلکا پھلکا میڈیا پلیئر"
+
+#: ../xfmedia.desktop.in.h:4
+msgid "Xfmedia"
+msgstr "Xfmedia"
+

@@ -1,0 +1,815 @@
+# translation of si.po to Sinhalese
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Rashan Anushka <rashan.uoc@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-panel\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-12-12 12:57+0100\n"
+"PO-Revision-Date: 2008-10-06 18:04+0530\n"
+"Last-Translator: Rashan Anushka <rashan.uoc@gmail.com>\n"
+"Language-Team: Sinhalese <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../config/launcher-7.rc.in.h:1
+msgid "Command Prompt"
+msgstr "විධාන ප්‍රේරකය"
+
+#: ../config/launcher-7.rc.in.h:2
+msgid "X terminal emulator"
+msgstr "X terminal emulator"
+
+#: ../config/launcher-8.rc.in.h:1
+msgid "Edit text files"
+msgstr "පෙළ ගොනු සකසන්න"
+
+#: ../config/launcher-8.rc.in.h:2
+msgid "Editor"
+msgstr "සකසනය"
+
+#: ../config/launcher-9.rc.in.h:1
+msgid "File Manager"
+msgstr "ගොනු කළමණාකරු"
+
+#: ../config/launcher-9.rc.in.h:2
+msgid "Manage files and folders"
+msgstr "ගොනු හා ෆෝල්ඩර කළමණාකරනය කරන්න"
+
+#: ../config/launcher-10.rc.in.h:1
+msgid "Surf the internet"
+msgstr "අන්තර්ජාලය සැරිසරන්න"
+
+#: ../config/launcher-10.rc.in.h:2
+msgid "Web Browser"
+msgstr "වියුනු බ්‍රව්සරය"
+
+#. dialogs are annoying, just spit out a warning
+#: ../libxfce4panel/xfce-panel-external-item.c:169
+#, c-format
+msgid "An item was unexpectedly removed: \"%s\"."
+msgstr "බලාපොරොත්තු නොවූ ලෙස අයිතමයක් ඉවත්විය: \"%s\"."
+
+#: ../libxfce4panel/xfce-panel-plugin-iface.c:606
+#, c-format
+msgid "Remove \"%s\"?"
+msgstr "\"%s\" ඉවත් කරන්නද?"
+
+#: ../libxfce4panel/xfce-panel-plugin-iface.c:620
+msgid "The item will be removed from the panel and its configuration will be lost."
+msgstr "අයිතමය පුවරුවෙන් ඉවත් කරනු ඇති අතර එහි වින්‍යාසයන් නැතිවනු ඇත."
+
+#. configure, hide by default
+#: ../libxfce4panel/xfce-panel-plugin-iface.c:837
+msgid "Properties"
+msgstr "වත්කම්"
+
+#. about item, hide by default
+#: ../libxfce4panel/xfce-panel-plugin-iface.c:854
+msgid "About"
+msgstr "සම්බන්ධයෙන්"
+
+#. move
+#: ../libxfce4panel/xfce-panel-plugin-iface.c:866
+msgid "Move"
+msgstr "මාරු කරන්න"
+
+#: ../libxfce4panel/xfce-panel-plugin-iface.c:885
+msgid "Remove"
+msgstr "ඉවත් කරන්න"
+
+#: ../libxfce4panel/xfce-panel-plugin-iface.c:902
+msgid "Add New Item"
+msgstr "නව අයිතමයක් එක් කරන්න"
+
+#: ../libxfce4panel/xfce-panel-plugin-iface.c:913 ../panel/panel.c:694
+#: ../mcs-plugin/xfce4-panel-manager.desktop.in.h:1
+msgid "Customize Panel"
+msgstr "පුවරුව සකසන්න"
+
+#: ../panel/panel.c:705
+msgid "Add Items"
+msgstr "අයිතම එක් කරන්න"
+
+#: ../panel/panel.c:721 ../plugins/actions/actions.c:286
+#: ../plugins/actions/actions.c:320 ../plugins/actions/actions.c:458
+msgid "Quit"
+msgstr "පිටවන්න"
+
+#: ../panel/panel.c:731
+msgid "Restart"
+msgstr "යළි අරඹන්න"
+
+#: ../panel/panel.c:745
+msgid "About the Xfce Panel"
+msgstr "Xfce පුවරුව ගැන"
+
+#: ../panel/panel-app.c:258 ../panel/panel-app.c:892
+msgid "Exit Xfce Panel?"
+msgstr "Xfce පුවරුවෙන් පිටවන්නද?"
+
+#: ../panel/panel-app.c:890 ../panel/panel-app.c:922 ../panel/panel-app.c:955
+msgid "Xfce Panel"
+msgstr "Xfce පුවරුව"
+
+#: ../panel/panel-app.c:893
+msgid "You can't remove the last panel. Would you like to exit the program?"
+msgstr "ඔබට අවසාන පුවරුව ඉවත්කළ නොහැක. ඔබට යෙදුමෙන් පිටවීමට කැමතිද?"
+
+#: ../panel/panel-app.c:920
+#, c-format
+msgid "Remove Panel \"%d\"?"
+msgstr "\"%d\" පුවරුව ඉවත් කරන්නද?"
+
+#: ../panel/panel-app.c:924
+msgid "The selected panel and all its items will be removed."
+msgstr "තේරු පුවරුව හා එහි සියළුම අයිතමයන් ඉවත් කරනු ඇත."
+
+#: ../panel/panel-app.c:961 ../panel/panel-app.c:962
+msgid "Developer"
+msgstr "වැඩිදියුණුකරන්නා"
+
+#: ../panel/main.c:60
+msgid "Show this message and exit"
+msgstr "මෙම පණුවිඩය පෙන්වා පිටවන්න"
+
+#: ../panel/main.c:61
+msgid "Show configuration dialog"
+msgstr "වින්‍යාස කවුළුව පෙන්වන්න"
+
+#: ../panel/main.c:62
+msgid "Save configuration"
+msgstr "වින්‍යාසයන් සුරකින්න"
+
+#: ../panel/main.c:63
+msgid "Restart panels"
+msgstr "පැනලය යළි අරඹන්න"
+
+#: ../panel/main.c:64
+msgid "End the session"
+msgstr "සැසිය අවසන් කරන්න"
+
+#: ../panel/main.c:65
+msgid "Close all panels and end the program"
+msgstr "සියළුම කවුළු වසා දමා යෙදුම අවසන් කරන්න"
+
+#: ../panel/main.c:66
+msgid "Add new items"
+msgstr "නව අයිතම් එක් කරන්න"
+
+#: ../panel/main.c:90
+msgid "Failed to open display"
+msgstr "සංදර්ශකය විවෘත කිරීම අසමත් විය"
+
+#: ../panel/main.c:102
+msgid "Copyright (c) 2004-2007"
+msgstr "කතුහිමිකම (c) 2004-2007"
+
+#: ../panel/main.c:103
+msgid "The Xfce development team. All rights reserved."
+msgstr "Xfce වැඩිදියුණු කිරීමේ කණ්ඩායම. සියළු හිමිකම් ඇවිරිණි."
+
+#: ../panel/main.c:104
+#, c-format
+msgid "Please report bugs to <%s>."
+msgstr "කරුණාකර දෝෂයන් <%s> වෙත වාර්ථා කරන්න."
+
+#: ../panel/main.c:148
+msgid "xfce4-panel already running"
+msgstr "xfce4-panel දැනටමත් ක්‍රියාත්මක වේ"
+
+#. restart
+#: ../panel/main.c:160
+msgid "Restarting xfce4-panel..."
+msgstr "xfce4-panel යළි ආරම්භවේ..."
+
+#: ../panel/panel-dialogs.c:189
+#, c-format
+msgid "Could not open \"%s\" module"
+msgstr "\"%s\" මොඩියුලය විවෘත කළ නොහැක"
+
+#: ../panel/panel-dialogs.c:634
+msgid "Add Items to the Panel"
+msgstr "පුවරුවට අයිතම එක් කරන්න"
+
+#: ../panel/panel-dialogs.c:665
+msgid ""
+"Drag items from the list to a panel or remove them by dragging them back to "
+"the list."
+msgstr "ලැයිස්තුවෙන් අයිතම පුවරුවට ඇදහෙළන්න හෝ නැවත ඒවා ලැයිස්තුවට ඇදහෙළීම මගින් ඉවත් කරන්න."
+
+#: ../panel/panel-dialogs.c:682
+msgid "Available Items"
+msgstr "පවතින අයිතම"
+
+#: ../panel/panel-dialogs.c:908 ../panel/panel-dialogs.c:1144
+msgid "Normal Width"
+msgstr "සාමාන්‍ය පළල"
+
+#: ../panel/panel-dialogs.c:909 ../panel/panel-dialogs.c:1145
+msgid "Full Width"
+msgstr "සම්පූර්ණ පළල"
+
+#: ../panel/panel-dialogs.c:913 ../panel/panel-dialogs.c:1149
+msgid "Normal Height"
+msgstr "සාමාන්‍ය උස"
+
+#: ../panel/panel-dialogs.c:914 ../panel/panel-dialogs.c:1150
+msgid "Full Height"
+msgstr "සම්පූර්ණ උස"
+
+#: ../panel/panel-dialogs.c:922 ../panel/panel-dialogs.c:1159
+msgid "Span Monitors"
+msgstr "පාරායණ මොනිටර"
+
+#: ../panel/panel-dialogs.c:985 ../panel/panel-dialogs.c:1224
+#: ../panel/panel-dialogs.c:1521 ../plugins/launcher/launcher-dialog.c:1558
+msgid "Left"
+msgstr "වම"
+
+#: ../panel/panel-dialogs.c:987 ../panel/panel-dialogs.c:1226
+#: ../panel/panel-dialogs.c:1522 ../plugins/launcher/launcher-dialog.c:1559
+msgid "Right"
+msgstr "දකුණ"
+
+#: ../panel/panel-dialogs.c:992 ../panel/panel-dialogs.c:1231
+#: ../panel/panel-dialogs.c:1523 ../plugins/launcher/launcher-dialog.c:1560
+msgid "Top"
+msgstr "ඉහළ"
+
+#: ../panel/panel-dialogs.c:994 ../panel/panel-dialogs.c:1233
+#: ../panel/panel-dialogs.c:1524 ../plugins/launcher/launcher-dialog.c:1561
+msgid "Bottom"
+msgstr "පහළ"
+
+#. position
+#: ../panel/panel-dialogs.c:1024
+msgid "Position"
+msgstr "ස්ථානය"
+
+#: ../panel/panel-dialogs.c:1038
+msgid "Fixed Position"
+msgstr "අචල ස්ථානය"
+
+#: ../panel/panel-dialogs.c:1044
+msgid "Freely Moveable"
+msgstr "නිදහසේ චලනය කළ හැකි"
+
+#: ../panel/panel-dialogs.c:1167
+msgid "Auto_hide"
+msgstr "ස්වයංක්‍රීය සැඟවීම(_h)"
+
+#: ../panel/panel-dialogs.c:1185 ../plugins/actions/actions.c:471
+msgid "Orientation:"
+msgstr "දිශානතිය:"
+
+#: ../panel/panel-dialogs.c:1197 ../plugins/actions/actions.c:484
+msgid "Horizontal"
+msgstr "තිරස්"
+
+#: ../panel/panel-dialogs.c:1199 ../plugins/actions/actions.c:485
+msgid "Vertical"
+msgstr "සිරස්"
+
+#: ../panel/panel-dialogs.c:1208
+msgid "Handle:"
+msgstr "හසුරුව:"
+
+#: ../panel/panel-dialogs.c:1220
+msgid "At both sides"
+msgstr "පැති දෙකේම"
+
+#: ../panel/panel-dialogs.c:1300
+msgid "Select Monitor"
+msgstr "මොනිටරය තෝරන්න"
+
+#. appearance settings
+#. appearance
+#. Button Layout
+#: ../panel/panel-dialogs.c:1428 ../plugins/clock/clock-dialog.c:502
+#: ../plugins/systray/xfce-tray-dialogs.c:351
+#: ../plugins/tasklist/tasklist-dialogs.c:168
+#: ../plugins/windowlist/windowlist-dialog.c:190
+msgid "Appearance"
+msgstr "පෙනුම"
+
+#: ../panel/panel-dialogs.c:1441
+msgid "Size (pixels):"
+msgstr "තරම (පික්සල):"
+
+#: ../panel/panel-dialogs.c:1471
+msgid "Transparency (%):"
+msgstr "පාරදෘශ්‍යතාව (%):"
+
+#: ../panel/panel-dialogs.c:1497
+msgid "Make active panel opaque"
+msgstr "සක්‍රිය පුවරු පාරාන්ධ කරන්න"
+
+#: ../panel/panel-dialogs.c:1510
+msgid "Popup position:"
+msgstr "උත්පතන ස්ථානය:"
+
+#: ../panel/panel-dialogs.c:1520
+msgid "Automatic"
+msgstr "ස්වයංක්‍රීය"
+
+#: ../panel/panel-dialogs.c:1564 ../panel/panel-dialogs.c:1600
+#: ../panel/panel-dialogs.c:1624
+#, c-format
+msgid "Panel %d"
+msgstr "%d පුවරුව"
+
+#: ../panel/panel-dialogs.c:1643
+msgid "Remove Panel"
+msgstr "පුවරුව ඉවත් කරන්න"
+
+#: ../panel/panel-dialogs.c:1656
+msgid "New Panel"
+msgstr "නව පුවරුවක්"
+
+#: ../panel/panel-dialogs.c:1716
+#: ../mcs-plugin/xfce4-panel-manager.desktop.in.h:2
+msgid "Panel Manager"
+msgstr "පුවරු කළමණාකරු"
+
+#: ../plugins/actions/actions.c:267 ../plugins/actions/actions.c:303
+#: ../plugins/actions/actions.c:459
+msgid "Lock screen"
+msgstr "තිරය අඟුළුලන්න"
+
+#: ../plugins/actions/actions.c:419
+msgid "Panel Actions"
+msgstr "පුවරු ක්‍රියාවන්"
+
+#: ../plugins/actions/actions.c:449
+msgid "Select action type:"
+msgstr "ක්‍රියා වර්ගය තෝරන්න:"
+
+#: ../plugins/actions/actions.c:460
+msgid "Quit + Lock screen"
+msgstr "පිටවන්න + තිරය අඟුළුලන්න"
+
+#: ../plugins/clock/clock-dialog.c:358
+msgid "Custom"
+msgstr "අභිරුචි"
+
+#: ../plugins/clock/clock-dialog.c:412
+msgid "Display _seconds"
+msgstr "තත්පර පෙන්වන්න(_s)"
+
+#: ../plugins/clock/clock-dialog.c:421
+msgid "Use 24-_hour clock"
+msgstr "පැය 24 ඔරලෝසුව භාවිතා කරන්න(_h)"
+
+#: ../plugins/clock/clock-dialog.c:427
+msgid "Fl_ash time separators"
+msgstr "කාල විභේදකයන් බබළවන්න"
+
+#: ../plugins/clock/clock-dialog.c:433
+msgid "Sho_w AM/PM"
+msgstr "පෙ.ව/ප.ව පෙන්වන්න(_w)"
+
+#: ../plugins/clock/clock-dialog.c:442
+msgid "True _binary clock"
+msgstr "සැබෑ බූලීය ඔරලෝසුව(_b)"
+
+#. create dialog
+#: ../plugins/clock/clock-dialog.c:484
+#: ../plugins/clock/clock.desktop.in.in.h:1
+msgid "Clock"
+msgstr "ඔරලෝසුව"
+
+#: ../plugins/clock/clock-dialog.c:512
+msgid "Analog"
+msgstr "ප්‍රතිසමය"
+
+#: ../plugins/clock/clock-dialog.c:513
+msgid "Binary"
+msgstr "බූලීය"
+
+#: ../plugins/clock/clock-dialog.c:514
+msgid "Digital"
+msgstr "අංකිත"
+
+#: ../plugins/clock/clock-dialog.c:515
+msgid "LCD"
+msgstr "LED"
+
+#. show frame
+#: ../plugins/clock/clock-dialog.c:520
+#: ../plugins/systray/xfce-tray-dialogs.c:362
+msgid "Show _frame"
+msgstr "රාමුව පෙන්වන්න (_f)"
+
+#. tooltip settings
+#: ../plugins/clock/clock-dialog.c:527
+msgid "Tooltip Format"
+msgstr "මෙවලම් ඉඟි හැඩතලය"
+
+#. clock settings
+#: ../plugins/clock/clock-dialog.c:553
+msgid "Clock Options"
+msgstr "ඔරලෝසු අභිරුචි"
+
+#: ../plugins/iconbox/iconbox.c:910
+#: ../plugins/iconbox/iconbox.desktop.in.in.h:1
+msgid "Icon Box"
+msgstr "නිරූපක කොටුව"
+
+#: ../plugins/iconbox/iconbox.c:935
+msgid "Only show minimized applications"
+msgstr "හැකිළූ යෙදුම් පමණක් පෙන්වන්න"
+
+#: ../plugins/iconbox/iconbox.c:944
+msgid "Show applications of all workspaces"
+msgstr "සියළු වැඩතලයන්හි යෙදුම් පෙන්වන්න"
+
+#: ../plugins/iconbox/iconbox.c:952 ../plugins/tasklist/tasklist-dialogs.c:187
+msgid "Use all available space"
+msgstr "පවතින සියළුම ඉඩ භාවිතා කරන්න"
+
+#. create menu item
+#. set some default values
+#: ../plugins/launcher/launcher.c:700 ../plugins/launcher/launcher.c:760
+msgid "New Item"
+msgstr "නව අයිතමයක්"
+
+#: ../plugins/launcher/launcher-exec.c:526
+#, c-format
+msgid "Failed to launch \"%s\""
+msgstr "\"%s\" ක්‍රියාත්මක කිරීම අසමත් විය"
+
+#: ../plugins/launcher/launcher-dialog.c:577
+msgid "No icon"
+msgstr "නිරූපකයක් නැත"
+
+#: ../plugins/launcher/launcher-dialog.c:597
+msgid "Select a Directory"
+msgstr "ඩිරෙක්ටරියක් තෝරන්න"
+
+#: ../plugins/launcher/launcher-dialog.c:641
+msgid "Select an Application"
+msgstr "යේදුමක් තෝරන්න:"
+
+#: ../plugins/launcher/launcher-dialog.c:651
+msgid "All Files"
+msgstr "සියළුම ගොනු"
+
+#: ../plugins/launcher/launcher-dialog.c:656
+msgid "Executable Files"
+msgstr "ක්‍රියාත්මක කළ හැකි ගොනු"
+
+#: ../plugins/launcher/launcher-dialog.c:671
+msgid "Perl Scripts"
+msgstr "පර්ල් විධානාවලි"
+
+#: ../plugins/launcher/launcher-dialog.c:677
+msgid "Python Scripts"
+msgstr "පයිතන් විධානාවලි"
+
+#: ../plugins/launcher/launcher-dialog.c:683
+msgid "Ruby Scripts"
+msgstr "රූබි විධානාවලි"
+
+#: ../plugins/launcher/launcher-dialog.c:689
+msgid "Shell Scripts"
+msgstr "කවච විධානාවලි"
+
+#: ../plugins/launcher/launcher-dialog.c:761
+msgid "Unknown"
+msgstr "නොදන්නා"
+
+#. allocate the chooser dialog
+#: ../plugins/launcher/launcher-dialog.c:764
+#, c-format
+msgid "Select an Icon for \"%s\""
+msgstr "\"%s\" සඳහා නිරූපකයක් තෝරන්න"
+
+#. build name
+#: ../plugins/launcher/launcher-dialog.c:842
+#: ../plugins/launcher/launcher-dialog.c:1341
+msgid "Unnamed"
+msgstr "නම් කරන නොලද"
+
+#: ../plugins/launcher/launcher-dialog.c:1120
+msgid "_Name"
+msgstr "නම(_N)"
+
+#: ../plugins/launcher/launcher-dialog.c:1138
+msgid "_Description"
+msgstr "විස්තරය(_D)"
+
+#: ../plugins/launcher/launcher-dialog.c:1157
+msgid "_Icon"
+msgstr "නිරූපකය(_I)"
+
+#: ../plugins/launcher/launcher-dialog.c:1175
+msgid "Co_mmand"
+msgstr "විධානය(_m)"
+
+#: ../plugins/launcher/launcher-dialog.c:1202
+msgid "_Working Directory"
+msgstr "වැඩකරන ඩිරෙක්ටරිය(_W)"
+
+#: ../plugins/launcher/launcher-dialog.c:1234
+msgid "Run in _terminal"
+msgstr "අග්‍රයේ ක්‍රියාත්මක කරන්න(_t)"
+
+#: ../plugins/launcher/launcher-dialog.c:1250
+msgid "Use _startup notification"
+msgstr "ආරම්භක නිවේදන භාවිතා කරන්න(_s)"
+
+#. create new dialog
+#: ../plugins/launcher/launcher-dialog.c:1523
+msgid "Program Launcher"
+msgstr "යෙදුම් පුරනය"
+
+#: ../plugins/launcher/launcher-dialog.c:1551
+msgid "A_rrow:"
+msgstr "ඊතල බොත්තම(_r):"
+
+#: ../plugins/launcher/launcher-dialog.c:1557
+msgid "Default"
+msgstr "පෙරනිමිය"
+
+#: ../plugins/launcher/launcher-dialog.c:1562
+msgid "Inside Button"
+msgstr "බොත්තම තුල"
+
+#: ../plugins/pager/pager.c:365 ../plugins/pager/pager.desktop.in.in.h:2
+msgid "Pager"
+msgstr "පේජරය"
+
+#: ../plugins/pager/pager.c:396
+msgid "Number of rows:"
+msgstr "පේළි ගණන:"
+
+#: ../plugins/pager/pager.c:400
+msgid "Number of columns:"
+msgstr "තීරු ගණන:"
+
+#: ../plugins/pager/pager.c:426
+msgid "Switch workspaces using the mouse wheel"
+msgstr "මූසික රෝදය මගින් වැඩතල අතුරුමාරු කරන්න"
+
+#: ../plugins/pager/pager.c:434
+msgid "Show workspace names"
+msgstr "වැඩතල නාමයන් පෙන්වන්න"
+
+#: ../plugins/separator/separator.c:409
+#: ../plugins/separator/separator.desktop.in.in.h:2
+msgid "Separator or Spacing"
+msgstr "වෙන්කරනය හෝ අවකාශය"
+
+#: ../plugins/separator/separator.c:430
+msgid "Separator Style"
+msgstr "වෙන්කරනයේ විලාසය"
+
+#. space
+#: ../plugins/separator/separator.c:437
+msgid "_Empty Space"
+msgstr "හිස් අවකාශය(_E)"
+
+#: ../plugins/separator/separator.c:446
+msgid "_Expanding Empty Space"
+msgstr "හිස් අවකාශය වර්ධනය කරන්න(_E)"
+
+#: ../plugins/separator/separator.c:455
+msgid "_Line"
+msgstr "ඉර(_L)"
+
+#: ../plugins/separator/separator.c:464
+msgid "_Handle"
+msgstr "හසුරුව(_H)"
+
+#: ../plugins/separator/separator.c:473
+msgid "_Dots"
+msgstr "තිත්(_D)"
+
+#: ../plugins/showdesktop/showdesktop.c:33
+msgid "Restore hidden windows"
+msgstr "සැඟවුණු කවුළු පිලිනගන්න"
+
+#: ../plugins/showdesktop/showdesktop.c:34
+msgid "Hide windows and show desktop"
+msgstr "කවුළු සඟවා වැඩතලය පෙන්වන්න"
+
+#. create a dialog
+#. create dialog
+#: ../plugins/systray/xfce-tray-plugin.c:71
+#: ../plugins/systray/xfce-tray-dialogs.c:333
+#: ../plugins/systray/systray.desktop.in.in.h:2
+msgid "System Tray"
+msgstr "පද්ධති බන්දේසිය"
+
+#: ../plugins/systray/xfce-tray-plugin.c:98
+msgid "There is already a system tray running on this screen"
+msgstr "මෙම තිරයේ දැනටමත් පද්ධති බන්දේසියක් ක්‍රියාත්මක වේ"
+
+#. message
+#: ../plugins/systray/xfce-tray-plugin.c:219
+msgid "The tray manager lost selection"
+msgstr "බන්දේසි කළමණාකරුට තේරීම නැතිවිය"
+
+#: ../plugins/systray/xfce-tray-dialogs.c:280
+msgid "Are you sure you want to clear the list of known applications?"
+msgstr "ඔබට දන්නා යෙදුම්හි ලැයිස්තුව  ඉවත් කිරීමට අවශ්‍ය බව විශ්වාසද?"
+
+#. number of rows
+#: ../plugins/systray/xfce-tray-dialogs.c:374
+msgid "_Number of rows:"
+msgstr "පේළි ගණන(_N):"
+
+#. applications
+#: ../plugins/systray/xfce-tray-dialogs.c:389
+msgid "Hidden Applications"
+msgstr "සැඟවුනු යෙදුම්"
+
+#: ../plugins/systray/xfce-tray-manager.c:431
+#, c-format
+msgid "Failed to acquire manager selection for screen %d"
+msgstr "%d තිරය සඳහා තේරුම් කළමණාකරු ලබා ගැනීම අසමත් විය"
+
+#: ../plugins/tasklist/tasklist-dialogs.c:143
+#: ../plugins/tasklist/tasklist-dialogs.c:209
+#: ../plugins/tasklist/tasklist.desktop.in.in.h:2
+msgid "Task List"
+msgstr "කාර්ය ලැයිස්තුව"
+
+#: ../plugins/tasklist/tasklist-dialogs.c:174
+msgid "Minimum Width:"
+msgstr "අවම පළල:"
+
+#: ../plugins/tasklist/tasklist-dialogs.c:194
+msgid "Use flat buttons"
+msgstr "සමතල බොත්තම් භාවිතා කරන්න"
+
+#: ../plugins/tasklist/tasklist-dialogs.c:200
+msgid "Show handle"
+msgstr "හසුරුව පෙන්වන්න"
+
+#: ../plugins/tasklist/tasklist-dialogs.c:212
+msgid "Show tasks from _all workspaces"
+msgstr "සියළු වැඩතලයන්ගේ කාර්යයන් පෙන්වන්න(_a)"
+
+#. keep order in sync with WnckTasklistGroupingType
+#: ../plugins/tasklist/tasklist-dialogs.c:222
+msgid "Never group tasks"
+msgstr "කිසිවිටෙක කාර්යන් සමූහනය නොකරන්න"
+
+#: ../plugins/tasklist/tasklist-dialogs.c:223
+msgid "Automatically group tasks"
+msgstr "ස්වයංක්‍රීයවම කාර්යන් සමූහනය කරන්න"
+
+#: ../plugins/tasklist/tasklist-dialogs.c:224
+msgid "Always group tasks"
+msgstr "සෑමවිටම කාර්යන් සමූහනය කරන්න"
+
+#: ../plugins/windowlist/windowlist.c:263
+#, c-format
+msgid "Are you sure you want to remove workspace %d?"
+msgstr "ඔබට %d වැඩතලය ඉවත් කිරීමට අවශ්‍ය බව විශ්වාසද?"
+
+#: ../plugins/windowlist/windowlist.c:264
+#, c-format
+msgid "Are you sure you want to remove workspace '%s'?"
+msgstr "ඔබට '%s' වැඩතලය ඉවත් කිරීමට අවශ්‍ය බව විශ්වාසද?"
+
+#: ../plugins/windowlist/windowlist.c:477
+#, c-format
+msgid "Workspace %d"
+msgstr "%d වැඩතලය"
+
+#: ../plugins/windowlist/windowlist.c:592
+#: ../plugins/windowlist/windowlist.c:598
+msgid "Add workspace"
+msgstr "වැඩතලයක් එක් කරන්න"
+
+#: ../plugins/windowlist/windowlist.c:617
+#, c-format
+msgid "Remove Workspace %d"
+msgstr "%d වැඩතලය ඉවත් කරන්න"
+
+#: ../plugins/windowlist/windowlist.c:618
+#, c-format
+msgid "Remove Workspace '%s'"
+msgstr "'%s' වැඩතලය ඉවත් කරන්න"
+
+#. Windowlist Settings
+#: ../plugins/windowlist/windowlist-dialog.c:121
+#: ../plugins/windowlist/windowlist-dialog.c:212
+#: ../plugins/windowlist/windowlist.desktop.in.in.h:2
+msgid "Window List"
+msgstr "කවුළු ලැයිස්තුව"
+
+#: ../plugins/windowlist/windowlist-dialog.c:150
+msgid ""
+"<i>Urgency notification</i> will blink the button when an application needs "
+"attention."
+msgstr "<i>හදිසි නිවේදන</i>මඟින් යෙදුමකට අවධානය අවශ්‍ය විටදී බොත්තම බබළවනු ඇත."
+
+#. Button Urgency Notification
+#: ../plugins/windowlist/windowlist-dialog.c:157
+msgid "Urgency Notification"
+msgstr "හදිසි නිවේදන"
+
+#: ../plugins/windowlist/windowlist-dialog.c:164
+msgid "_Disabled"
+msgstr "අක්‍රීයයි(_D)"
+
+#: ../plugins/windowlist/windowlist-dialog.c:173
+msgid "For _other workspaces"
+msgstr "වෙනත් වැඩතල සඳහා(_o)"
+
+#: ../plugins/windowlist/windowlist-dialog.c:182
+msgid "For _all workspaces"
+msgstr "සියළු වැඩතල සඳහා(_a)"
+
+#: ../plugins/windowlist/windowlist-dialog.c:196
+msgid "_Icon button"
+msgstr "නිරූපක බොත්තම(_I)"
+
+#: ../plugins/windowlist/windowlist-dialog.c:203
+msgid "A_rrow button"
+msgstr "ඊතල බොත්තම(_r)"
+
+#: ../plugins/windowlist/windowlist-dialog.c:221
+msgid "Show _windows from all workspaces"
+msgstr "සියළු වැඩතලයන්ගෙන් කවුළු පෙන්වන්න(_w)"
+
+#: ../plugins/windowlist/windowlist-dialog.c:230
+msgid "Show a_pplication icons"
+msgstr "යෙදුම් නිරූපක පෙන්වන්න(_p)"
+
+#: ../plugins/windowlist/windowlist-dialog.c:239
+msgid "Show wor_kspace actions"
+msgstr "වැඩතල ක්‍රියාවන් පෙන්වන්න(_k)"
+
+#: ../mcs-plugin/plugin.c:39
+msgid "Failed to launch 'xfce4-panel -c'"
+msgstr "'xfce4-panel -c' ක්‍රියාත්මක කිරීම අසමත් විය"
+
+#: ../mcs-plugin/plugin.c:57
+msgid "Panel"
+msgstr "පුවරුව"
+
+#: ../plugins/actions/actions.desktop.in.in.h:1
+msgid "Action Buttons"
+msgstr "ක්‍රියා බොත්තම්"
+
+#: ../plugins/actions/actions.desktop.in.in.h:2
+msgid "Log out or lock the screen"
+msgstr "ලොගවුට් වන්න හෝ තිරය අඟුළුලන්න"
+
+#: ../plugins/clock/clock.desktop.in.in.h:2
+msgid "What time is it?"
+msgstr "දැන් වේලාව කීයද?"
+
+#: ../plugins/iconbox/iconbox.desktop.in.in.h:2
+msgid "Show icons of all running applications"
+msgstr "ක්‍රියාත්මක වන සියළු යෙදුම්හි නිරූපක පෙන්වන්න"
+
+#: ../plugins/launcher/launcher.desktop.in.in.h:1
+msgid "Launcher"
+msgstr "පුරනය"
+
+#: ../plugins/launcher/launcher.desktop.in.in.h:2
+msgid "Program launcher with optional menu"
+msgstr "විකල්ප මෙනුවක් සහිත යෙදුම් පුරනය"
+
+#: ../plugins/pager/pager.desktop.in.in.h:1
+msgid "Miniature view of all virtual desktops"
+msgstr "සියළු  අතාතවික වැඩතලයන්හි සිඟිති දසුනක"
+
+#: ../plugins/separator/separator.desktop.in.in.h:1
+msgid "Adds a space or a line between panel items"
+msgstr "පුවරු අයිතම අතර රේඛාවක් හෝ හිඩැසක් එක් කරයි"
+
+#: ../plugins/showdesktop/showdesktop.desktop.in.in.h:1
+msgid "Show Desktop"
+msgstr "වැඩතලය පෙන්වන්න"
+
+#: ../plugins/showdesktop/showdesktop.desktop.in.in.h:2
+msgid "Toggle desktop show/hide"
+msgstr "වැඩතලය පෙන්වන්න/සඟවන්න"
+
+#: ../plugins/systray/systray.desktop.in.in.h:1
+msgid "Show notification icons"
+msgstr "නිවේදන නිරූපක පෙන්වන්න"
+
+#: ../plugins/tasklist/tasklist.desktop.in.in.h:1
+msgid "Show all running applications"
+msgstr "ක්‍රියාත්මකවන සියළු යෙදුම් පෙන්වන්න"
+
+#: ../plugins/windowlist/windowlist.desktop.in.in.h:1
+msgid "Show list of available windows"
+msgstr "පවතින කවුළුවල ලැයිස්තුවක් පෙන්වන්න"
+
+#: ../mcs-plugin/xfce4-panel-manager.desktop.in.h:3
+msgid "Xfce 4 Panel Manager"
+msgstr "Xfce 4 පුවරු කළමණාකරු"
+

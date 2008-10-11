@@ -1,0 +1,261 @@
+# Portuguese translations for Xfbib package.
+# Copyright (C) 2008 THE Xfbib'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Xfbib package.
+# Fábio Nogueira <deb-user-ba@ubuntu.com>, 2008.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Xfbib\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-30 19:16+0200\n"
+"PO-Revision-Date: 2008-03-22 11:06-0300\n"
+"Last-Translator: Fábio Nogueira <deb-user-ba@ubuntu.com>\n"
+"Language-Team: Brazilian Portuguese <ldp-br@bazar2.conectiva.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../src/about_dialog.c:28
+msgid "Developers:"
+msgstr "Desenvolvedores:"
+
+#: ../src/about_dialog.c:38
+msgid "BibTeX editor for Xfce"
+msgstr "Editor BibTex para o Xfce"
+
+#: ../src/entry_edit_dialog.c:304
+msgid "Key used when citing the publication"
+msgstr "Chave usada na citação da publicação"
+
+#: ../src/entry_edit_dialog.c:327
+msgid "Type: "
+msgstr "Tipo: "
+
+#: ../src/entry_edit_dialog.c:330
+msgid "Key: "
+msgstr "Chave: "
+
+#: ../src/entry_edit_dialog.c:449
+msgid "Address of publisher"
+msgstr "Endereço da editora"
+
+#: ../src/entry_edit_dialog.c:450
+msgid "Annotation for annotated bibliography styles"
+msgstr "Anotação para estilos de bibliografia anotada"
+
+#: ../src/entry_edit_dialog.c:451
+msgid "Name(s) of the author(s), separated by 'and' if more than one"
+msgstr "Nome(s) do(s) autor(es), separados por 'e' se existir mais de um"
+
+#: ../src/entry_edit_dialog.c:452
+msgid "Title of the book, if only part of it is being cited"
+msgstr "Título do livro, se somente partes dele são citadas"
+
+#: ../src/entry_edit_dialog.c:453
+msgid "Chapter number"
+msgstr "Número do capítulo"
+
+#: ../src/entry_edit_dialog.c:454
+msgid "Citation key of the cross-referenced entry"
+msgstr "Chave de citação da entrada da referência-cruzada"
+
+#: ../src/entry_edit_dialog.c:455
+msgid "Edition of the book (such as \"first\" or \"second\")"
+msgstr "Edição do livro (como \"primeira\" ou \"segunda\")"
+
+#: ../src/entry_edit_dialog.c:456
+msgid "Name(s) of the editor(s), separated by 'and' if more than one"
+msgstr "Nome(s) do(s) editor(es), separados por 'e' se existir mais de um"
+
+#: ../src/entry_edit_dialog.c:457
+msgid "Specification of electronic publication"
+msgstr "Especificação da publicação eletrônica"
+
+#: ../src/entry_edit_dialog.c:458
+msgid "Publishing method if the method is nonstandard"
+msgstr "Método de publicação se o métogo não é padrão"
+
+#: ../src/entry_edit_dialog.c:459
+msgid "Institution that was involved in the publishing"
+msgstr "Instituição que está envolvida com a publicação"
+
+#: ../src/entry_edit_dialog.c:460
+msgid "Journal or magazine in which the work was published"
+msgstr "Jornal ou revista no qual o trabalho foi publicado"
+
+#: ../src/entry_edit_dialog.c:461
+msgid ""
+"Hidden field used for specifying or overriding the alphabetical order of "
+"entries"
+msgstr ""
+"Campo escondido usado para especificar ou priorizar a ordem alfabética das "
+"entradas"
+
+#: ../src/entry_edit_dialog.c:462
+msgid "Month of publication or creation if unpublished"
+msgstr "Mês da publicação ou criação se não publicado"
+
+#: ../src/entry_edit_dialog.c:463
+msgid "Miscellaneous extra information"
+msgstr "Informações extra variadas"
+
+#: ../src/entry_edit_dialog.c:464
+msgid "Number of journal, magazine, or tech-report"
+msgstr "Número do Jornal, revista ou relatório técnico"
+
+#: ../src/entry_edit_dialog.c:465
+msgid "Sponsor of the conference"
+msgstr "Patrocinador da conferência"
+
+#: ../src/entry_edit_dialog.c:466
+msgid "Page numbers separated by commas or double-hyphens"
+msgstr "Números de páginasm separadas por vírgulas ou hífens-duplos"
+
+#: ../src/entry_edit_dialog.c:467
+msgid "Name of publisher"
+msgstr "Nome da editora"
+
+#: ../src/entry_edit_dialog.c:468
+msgid "School where thesis was written"
+msgstr "Escola onde a tese foi escrita"
+
+#: ../src/entry_edit_dialog.c:469
+msgid "Series of books in which the book was published"
+msgstr "Séries de livros nos quais o livro foi publicado"
+
+#: ../src/entry_edit_dialog.c:470
+msgid "Title of the work"
+msgstr "Título do trabalho"
+
+#: ../src/entry_edit_dialog.c:471
+msgid "Type of technical report"
+msgstr "Tipo do relatório técnico"
+
+#: ../src/entry_edit_dialog.c:472
+msgid "Internet address"
+msgstr "Endereço de internet"
+
+#: ../src/entry_edit_dialog.c:473
+msgid "Number of the volume"
+msgstr "Número do volume"
+
+#: ../src/entry_edit_dialog.c:474
+msgid "Year of publication or creation if unpublished"
+msgstr "Ano de publicação ou criação se não publicado"
+
+#: ../src/entry_edit_dialog.c:478
+msgid "Add entry"
+msgstr "Adicionar entrada"
+
+#: ../src/entry_edit_dialog.c:478
+msgid "Edit entry"
+msgstr "Editar entrada"
+
+#: ../src/entry_edit_dialog.c:498
+msgid "Toggle case sensitivity."
+msgstr "Alternar sensibilidade de maiúscula e minúscula."
+
+#: ../src/entry_edit_dialog.c:544 ../src/treeview.c:144
+msgid "Title"
+msgstr "Título"
+
+#: ../src/entry_edit_dialog.c:545
+msgid "Author/Editor"
+msgstr "Autor/Editor"
+
+#: ../src/entry_edit_dialog.c:546
+msgid "Publication"
+msgstr "Publicação"
+
+#: ../src/entry_edit_dialog.c:547
+msgid "Publisher"
+msgstr "Editora"
+
+#: ../src/entry_edit_dialog.c:548
+msgid "Misc"
+msgstr "Var"
+
+#: ../src/entry_edit_dialog.c:592
+msgid "No type was selected"
+msgstr "Nenhum tipo foi selecionado"
+
+#: ../src/entry_edit_dialog.c:596
+msgid "No key was selected"
+msgstr "Nenhuma chave foi selecionada"
+
+#: ../src/menubar.c:159
+msgid "File"
+msgstr "Arquivo"
+
+#: ../src/menubar.c:201
+msgid "E_ntry"
+msgstr "E_ntrada"
+
+#: ../src/menubar.c:224 ../src/treeview.c:117
+msgid "Variable"
+msgstr "Variável"
+
+#: ../src/menubar.c:247
+msgid "_View"
+msgstr "_Ver"
+
+#: ../src/menubar.c:249
+msgid "Show _Toolbar"
+msgstr "Mostrar Barra de Ferramen_tas"
+
+#: ../src/menubar.c:253
+msgid "Show _Variable List"
+msgstr "Mostrar lista de _variáveis"
+
+#: ../src/menubar.c:274
+msgid "Help"
+msgstr "Ajuda"
+
+#: ../src/open.c:41
+msgid " loaded..."
+msgstr " carregado..."
+
+#: ../src/open_dialog.c:37
+msgid "Open"
+msgstr "Abrir"
+
+#: ../src/open_dialog.c:43 ../src/save_dialog.c:39
+msgid "BibTeX files"
+msgstr "Arquivos BibTex"
+
+#: ../src/open_dialog.c:49 ../src/save_dialog.c:43
+msgid "All files"
+msgstr "Todos os arquivos"
+
+#: ../src/save_dialog.c:33
+msgid "Save As"
+msgstr "Salvar Como"
+
+#: ../src/string_edit_dialog.c:42
+msgid "Variable name: "
+msgstr "Nome da variável: "
+
+#: ../src/string_edit_dialog.c:42
+msgid "Value: "
+msgstr "Valor: "
+
+#: ../src/string_edit_dialog.c:45
+msgid "Add variable"
+msgstr "Adicionar variável"
+
+#: ../src/string_edit_dialog.c:45
+msgid "Edit variable"
+msgstr "Editar variável"
+
+#: ../src/treeview.c:144
+msgid "Key"
+msgstr "Chave"
+
+#: ../src/treeview.c:144
+msgid "Type"
+msgstr "Tipo"
+
+#: ../src/treeview.c:144
+msgid "Author"
+msgstr "Autor"

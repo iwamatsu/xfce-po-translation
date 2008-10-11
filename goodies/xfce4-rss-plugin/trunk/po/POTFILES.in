@@ -1,0 +1,9 @@
+# List of source files containing translatable strings.
+panel-plugin/xfce4-rss-plugin.py
+panel-plugin/globals.py
+panel-plugin/props.py
+panel-plugin/config.py
+panel-plugin/plugin.py
+
+# Files added by intltool-prepare.
+panel-plugin/rss.desktop.in.in

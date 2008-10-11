@@ -1,0 +1,117 @@
+# Greek translations for xfce4-xkb-plugin package.
+# Copyright (C) 2004-2006 Alexander Iliev.
+# This file is distributed under the same license as the xfce4-xkb-plugin package.
+# Stavros Giannouris <stavrosg@serverhive.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-xkb-plugin 0.4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-09-24 16:14+0300\n"
+"PO-Revision-Date: 2006-04-08 11:01+0200\n"
+"Last-Translator: Stavros Giannouris <stavrosg@serverhive.com>\n"
+"Language-Team: Greek <nls@tux.hellug.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../panel-plugin/xkb-settings-dialog.c:361
+msgid ""
+"XKB configuration modifications are\n"
+"disabled from the config file.\n"
+"\n"
+"See the README file for more information."
+msgstr ""
+
+#: ../panel-plugin/xkb-settings-dialog.c:387
+#: ../panel-plugin/xkb-plugin.desktop.in.in.h:1
+#, fuzzy
+msgid "Keyboard Layouts"
+msgstr "Εναλλάκτης διάταξης πληκτρολογίου"
+
+#: ../panel-plugin/xkb-settings-dialog.c:408
+msgid "Keyboard model:"
+msgstr ""
+
+#: ../panel-plugin/xkb-settings-dialog.c:432
+msgid "Change layout option:"
+msgstr ""
+
+#: ../panel-plugin/xkb-settings-dialog.c:456
+#, fuzzy
+msgid "Keyboard layouts:"
+msgstr "Εναλλάκτης διάταξης πληκτρολογίου"
+
+#. ***
+#: ../panel-plugin/xkb-settings-dialog.c:528
+#, fuzzy
+msgid "Show layout as:"
+msgstr "Προβολή διάταξης ως"
+
+#: ../panel-plugin/xkb-settings-dialog.c:533
+msgid "image"
+msgstr "εικόνα"
+
+#: ../panel-plugin/xkb-settings-dialog.c:534
+msgid "text"
+msgstr "κείμενο"
+
+#: ../panel-plugin/xkb-settings-dialog.c:538
+#, fuzzy
+msgid "Manage layout:"
+msgstr "Εξορισμού διάταξη:"
+
+#: ../panel-plugin/xkb-settings-dialog.c:543
+msgid "globally"
+msgstr ""
+
+#: ../panel-plugin/xkb-settings-dialog.c:544
+msgid "per window"
+msgstr ""
+
+#: ../panel-plugin/xkb-settings-dialog.c:545
+#, fuzzy
+msgid "per application"
+msgstr "Ρυθμίσεις ανά εφαρμογή"
+
+#: ../panel-plugin/xkb-settings-dialog.c:584
+#, fuzzy
+msgid "Keyboard Layouts Plugin"
+msgstr "Εναλλάκτης διάταξης πληκτρολογίου"
+
+#: ../panel-plugin/xkb-settings-dialog.c:590
+msgid "Allows you to configure and use multiple keyboard layouts."
+msgstr ""
+
+#: ../panel-plugin/xkb-settings-dialog.c:594
+msgid "Other plugins available here"
+msgstr "Άλλα διαθέσιμα πρόσθετα"
+
+#: ../panel-plugin/xkb-settings-dialog.c:643
+msgid "Add layout"
+msgstr ""
+
+#: ../panel-plugin/xkb-plugin.desktop.in.in.h:2
+#, fuzzy
+msgid "Keyboard layouts setup and switch plugin"
+msgstr "Εναλλάκτης διάταξης πληκτρολογίου"
+
+#~ msgid ""
+#~ "Allows you to switch the keyboard layout and\n"
+#~ "displays the currently selected layout."
+#~ msgstr ""
+#~ "Επιτρέπει την εναλλαγή της διάταξης πληκτρολογίου\n"
+#~ "και εμφανίζει την τρέχουσα διάταξη."
+
+#~ msgid "Configure Keyboard Layout Switcher"
+#~ msgstr "Ρύθμιση εναλλάκτη διάταξης πληκτρολογίου"
+
+#~ msgid "_Remember layout for each application"
+#~ msgstr "_Καταγραφή διάταξης ανά εφαρμογή"
+
+#~ msgid ""
+#~ "Displays the current keyboard layout and switches the layout when clicked"
+#~ msgstr ""
+#~ "Εμφανίζει την τρέχουσα διάταξη πληκτρολογίου και την αλλάζει όταν κάνετε "
+#~ "κλικ επάνω"

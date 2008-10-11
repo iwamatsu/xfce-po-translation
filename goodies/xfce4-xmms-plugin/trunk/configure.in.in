@@ -1,0 +1,101 @@
+dnl $Id: configure.in.in 2420 2007-01-18 00:46:30Z ilgar $
+dnl
+dnl xfce4-xmms-plugin - XMMS Control plugin for xfce4 panel
+dnl
+dnl 2003 Patrick van Staveren <pvanstav@cs.wmich.edu>
+dnl 2005 Kemal Ilgar Eroglu <kieroglu@math.washington.edu>
+
+dnl version info
+m4_define([xfce4_xmms_version_major], [0])
+m4_define([xfce4_xmms_version_minor], [5])
+m4_define([xfce4_xmms_version_micro], [1])
+m4_define([xfce4_xmms_version_build], [@REVISION@])
+m4_define([xfce4_xmms_version_tag], [svn])
+m4_define([xfce4_xmms_version], [xfce4_xmms_version_major().xfce4_xmms_version_minor().xfce4_xmms_version_micro()ifelse(xfce4_xmms_version_tag(), [svn], [xfce4_xmms_version_tag()-xfce4_xmms_version_build()], [xfce4_xmms_version_tag()])])
+
+dnl # DO NOT MODIFY ANYTHING BELOW THIS LINE, UNLESS YOU KNOW WHAT
+dnl # YOU ARE DOING.
+
+dnl init autoconf
+AC_INIT([xfce4-xmms-plugin], [xfce4_xmms_version], [kieroglu@math.washington.edu])
+AC_PREREQ([2.50])
+
+dnl init automake
+XFCE4_XMMS_VERSION=xfce4_xmms_version
+AM_INIT_AUTOMAKE([xfce4-xmms-plugin], [$XFCE4_XMMS_VERSION])
+AM_CONFIG_HEADER([config.h])
+AM_MAINTAINER_MODE
+
+dnl Check for basic stuff
+AC_PROG_CC
+AC_HEADER_STDC
+AC_PROG_INSTALL
+AC_PROG_LIBTOOL
+AC_PROG_INTLTOOL()
+
+dnl check for standard header files
+AC_HEADER_STDC
+
+dnl Check for i18n support
+XDT_I18N([@LINGUAS@])
+
+dnl required
+XDT_CHECK_PACKAGE([GTHREAD], [gthread-2.0], [2.4.0])
+XDT_CHECK_PACKAGE([GTK], [gtk+-2.0], [2.4.0])
+XDT_CHECK_PACKAGE([LIBXFCEGUI4], [libxfcegui4-1.0], [4.2.0])
+XDT_CHECK_PACKAGE([LIBXFCE4PANEL], [libxfce4panel-1.0], [4.3.20])
+XDT_CHECK_PACKAGE([LIBXFCE4UTIL], [libxfce4util-1.0], [4.3.0])
+XDT_CHECK_PACKAGE([PANGO], [pango], [1.8.0])
+XDT_CHECK_PACKAGE([GMODULE], [gmodule-2.0], [2.4.0])
+
+dnl Set PACKAGE_LOCALE_DIR in config.h.
+if test "x${prefix}" = "xNONE"; then
+  AC_DEFINE_UNQUOTED(PACKAGE_LOCALE_DIR, "${ac_default_prefix}/${DATADIRNAME}/locale", [Package local directory])
+else
+  AC_DEFINE_UNQUOTED(PACKAGE_LOCALE_DIR, "${prefix}/${DATADIRNAME}/locale", [Package local directory])
+fi
+
+dnl Check for Gtk 2.8. If yes, add Cairo flags
+dnl CAIRO_CF=`pkg-config --cflags cairo`
+dnl CAIRO_L=`pkg-config --libs cairo`
+dnl PKG_CHECK_MODULES(GTK, gtk+-2.0 >= 3.8.0, CAIRO_CFLAGS = CAIRO_CF, AC_MSG_RESULT())
+dnl PKG_CHECK_MODULES(GTK, gtk+-2.0 >= 3.8.0, CAIRO_LIBS = CAIRO_L, AC_MSG_RESULT())
+
+dnl check for player
+dnl AC_MSG_CHECKING([what player to link with])
+dnl AC_ARG_WITH([player], [  --with-player=xmms/beep Specify player to link with [default=xmms]])
+dnl if test x"$with_player" = x"beep"; then
+dnl   AC_MSG_RESULT([Beep media player])
+dnl   XDT_CHECK_PACKAGE([PLAYER], [beep], [0.9.6.0])
+dnl 
+dnl   PLAYER_CFLAGS="$PLAYER_CFLAGS -DPLAYER_COMMAND=\\\"beep-media-player\\\" -DPLAYER_BEEP"
+dnl else
+dnl   AC_MSG_RESULT([XMMS media player])
+dnl 
+dnl   AC_CHECK_PROGS([XMMS_CONFIG], [xmms-config], [no])
+dnl   if test x"$XMMS_CONFIG" = x"no"; then
+dnl     AC_MSG_ERROR([*** XMMS not found. Please install XMMS first. ***])
+dnl   fi
+dnl 
+dnl   AC_MSG_CHECKING([PLAYER_CFLAGS])
+dnl   PLAYER_CFLAGS=`$XMMS_CONFIG --cflags`
+dnl   AC_MSG_RESULT([$PLAYER_CFLAGS])
+dnl 
+dnl   AC_MSG_CHECKING([PLAYER_LIBS])
+dnl   PLAYER_LIBS=`$XMMS_CONFIG --libs`
+dnl   AC_MSG_RESULT([$PLAYER_LIBS])
+dnl 
+dnl   PLAYER_CFLAGS="$PLAYER_CFLAGS -DPLAYER_COMMAND=\\\"xmms\\\" -DPLAYER_XMMS"
+dnl fi
+dnl AC_SUBST([PLAYER_CFLAGS])
+dnl AC_SUBST([PLAYER_LIBS])
+AC_SUBST([CAIRO_CFLAGS])
+AC_SUBST([CAIRO_LIBS])
+
+AC_OUTPUT([
+Makefile
+panel-plugin/Makefile
+pixmaps/Makefile
+po/Makefile.in
+xfce4-xmms-plugin.spec
+])

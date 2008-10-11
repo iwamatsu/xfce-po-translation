@@ -1,0 +1,83 @@
+2008-07-15 Mohamed Magdy <alnokta@xfce.org>
+
+        * ar.po: Add Arabic translation
+
+2008-06-26  Maximilian Schleiss <maximilian@xfce.org>
+
+	* gl.po, LINGUAS: Galician translation added (Leandro Regueiro)
+
+2008-06-25  Maximilian Schleiss <maximilian@xfce.org>
+
+	* id.po, LINGUAS: Indonesian translation added (Andhika Padmawan)
+
+2008-05-27  Mike Massonnet <mmassonnet@xfce.org>
+
+	* da.po, LINGUAS: Add Danish translation (Jens Hyllegaard)
+
+2007-11-18	Maximilian Schleiss <maximilian@xfce.org>
+
+	* lv.po: Latvian translation added
+	by Rihards Priedītis <rprieditis@inbox.lv>
+
+2007-11-15	Mike Massonnet <mmassonnet@xfce.org>
+
+	* ur.po: Update translation by Muhammad Ali Makki <makki.ma@gmail.com>
+	* pk.po, ur.po: Rename pk.po to ur.po.
+
+2007-10-28	Mike Massonnet <mmassonnet@xfce.org>
+
+	* pk.po: Add new translation by محمد علي المكي <makki.ma@gmail.com>
+
+2007-10-24  Mike Massonnet <mmassonnet@xfce.org>
+
+	* fr.po: Update translation
+
+2007-08-23  Og Maciel <ogmaciel@gnome.org>
+
+	* pt_BR.po: Updated Brazilian Portuguese translations 
+
+2007-07-08  Maximilian Schleiss <maximilian@xfce.org>
+
+	* pt_PT.po: European Protuguese translation added
+	by Nuno Miguel <nunis@netcabo.pt>
+
+2007-03-31  Pau Rul-lan Ferragut <paurullan@bulma.net>
+
+	* gb.po: British translation by Jeff Bailes <thepizzaking@gmail.com>
+
+2007-02-24  Maximilian Schleiss <maximilian@xfce.org>
+
+	* ja.po: Added the Japanese translation by
+	Nobuhiro Iwamatsu <iwamatsu@nigauri.org>
+	* Added LINGUAS file
+
+2007-02-02  Maximilian Schleiss <maximilian@xfce.org>
+
+	* fr.po: Added the Albanian translation by
+	Besnik Bleta <besnik@programeshqip.org>
+
+2006-09-19  Piarres Beobide <pi@beobide.net>
+
+	* eu.po: Add Basque translations
+
+2006-09-17  Jean-François Wauthy <pollux@xfce.org>
+
+	* pl.po: Updated Polish translations 
+
+2006-09-03  Jean-François Wauthy <pollux@xfce.org>
+
+	* pl.po: Add Polish translations
+
+2006-08-27  Jean-François Wauthy <pollux@xfce.org>
+
+	* cs.po: Add Czech translations
+
+2006-07-30  Jean-François Wauthy <pollux@xfce.org>
+
+	* fr.po: Updated French translations by Maximilian Schleiss
+	<maximilian@xfce.org>
+
+2006-07-29  Adriano Winter Bess  <adriano@xfce.org>
+
+	* fr.po: Added french translations by Gauvain Pocentek
+	<gauvainpocentek@ubuntu.com>.

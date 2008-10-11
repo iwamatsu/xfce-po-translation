@@ -1,0 +1,11 @@
+Patrick van Staveren <pvanstav@cs.wmich.edu>
+Kemal Ilgar Eroglu <kieroglu@math.washington.edu>
+Mario Streiber <mario.streiber@gmx.de>
+
+Portions from the xfce4-sample-plugin, written by
+Benedikt Meurer <benedikt.meurer@unix-ag.uni-siegen.de>
+
+Progressbar update code based on code from gxmms by 
+Aleix Conchillo Flaque <aleix@member.fsf.org>
+
+Also code from XFCE 4.2 volume control panel plugin is used.

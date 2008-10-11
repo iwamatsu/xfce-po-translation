@@ -1,0 +1,3466 @@
+# Hungarian translations for orage package.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the orage package.
+# SZERVÁC Attila <sas@321.hu>, 2006.
+# András Mohari <mayday@mailpoint.hu>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: orage 4.3.90.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-09-27 23:53+0300\n"
+"PO-Revision-Date: 2008-10-08 21:50+0100\n"
+"Last-Translator: SZERVÁC Attila <sas@321.hu>\n"
+"Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Country: HUNGARY\n"
+"X-Poedit-Language: Hungarian\n"
+
+#: ../globaltime/globaltime.c:100
+msgid "Raising GlobalTime window..."
+msgstr "GlobalTime ablak megnyitása"
+
+#: ../globaltime/globaltime.c:102
+msgid "GlobalTime window raise failed"
+msgstr "A GlobalTime ablak megnyitása nem sikerült"
+
+#. ********** timezone tooltip **********
+#: ../globaltime/globaltime.c:278
+#, c-format
+msgid ""
+"%s\n"
+"click to modify clock"
+msgstr ""
+"%s\n"
+"kattintson az óra módosításához"
+
+#. trick to refresh clocks once
+#: ../globaltime/globaltime.c:358
+msgid "Ending time adjustment mode"
+msgstr "Az idő beállító mód befejezése"
+
+#: ../globaltime/globaltime.c:366
+msgid "Starting time adjustment mode"
+msgstr "Az idő beállító mód indítása"
+
+#: ../globaltime/globaltime.c:381
+msgid "Localtime"
+msgstr "Helyi idő"
+
+#: ../globaltime/globaltime.c:456
+msgid ""
+"button 1 to change preferences \n"
+"button 2 to adjust time of clocks"
+msgstr ""
+"gomb 1 beállítások módosítása \n"
+"gomb 2 az órák idejének beállítása"
+
+#: ../globaltime/globaltime.c:472
+msgid "adjust to change hour"
+msgstr "óra módosítása"
+
+#: ../globaltime/globaltime.c:487
+msgid "adjust to change minute"
+msgstr "perc módosítása"
+
+#: ../globaltime/gt_prefs.c:69
+#: ../globaltime/gt_prefs.c:1077
+msgid "Standard"
+msgstr "Szabvány"
+
+#: ../globaltime/gt_prefs.c:71
+#: ../src/appointment.c:2780
+msgid "None"
+msgstr "Nincs"
+
+#: ../globaltime/gt_prefs.c:84
+#: ../globaltime/gt_prefs.c:1100
+msgid "Equal"
+msgstr "Egyenlő"
+
+#: ../globaltime/gt_prefs.c:86
+msgid "Vary"
+msgstr "Változik"
+
+#: ../globaltime/gt_prefs.c:267
+#: ../globaltime/gt_prefs.c:268
+msgid "NEW"
+msgstr "ÚJ"
+
+#: ../globaltime/gt_prefs.c:291
+msgid "NEW COPY"
+msgstr "ÚJ MÁSOLAT"
+
+#: ../globaltime/gt_prefs.c:312
+msgid "Not possible to delete the last clock."
+msgstr "Nem lehet az utolsó órát törölni."
+
+#: ../globaltime/gt_prefs.c:366
+#: ../panel-plugin/oc_config.c:114
+msgid "Select timezone"
+msgstr "Válassz időzónát"
+
+#: ../globaltime/gt_prefs.c:511
+msgid "update this clock"
+msgstr "ezen óra frissítése"
+
+#: ../globaltime/gt_prefs.c:516
+#: ../globaltime/gt_prefs.c:1033
+msgid "add new empty clock"
+msgstr "üres óra hozzáadása"
+
+#: ../globaltime/gt_prefs.c:521
+msgid "add new clock using this clock as model"
+msgstr "új óra hozzáadása ez alapján"
+
+#: ../globaltime/gt_prefs.c:526
+msgid "delete this clock"
+msgstr "ezen óra törlése"
+
+#: ../globaltime/gt_prefs.c:534
+msgid "move this clock first"
+msgstr "mozgasd ezt legelőbbre"
+
+#: ../globaltime/gt_prefs.c:539
+msgid "move this clock left"
+msgstr "mozgasd ezt balra"
+
+#: ../globaltime/gt_prefs.c:544
+msgid "move this clock right"
+msgstr "mozgasd ezt jobbra"
+
+#: ../globaltime/gt_prefs.c:549
+msgid "move this clock last"
+msgstr "mozgasd ezt a legvégére"
+
+#: ../globaltime/gt_prefs.c:557
+msgid "set the timezone of this clock to be local timezone"
+msgstr "ezen óra időzónája legyen a helyi időzóna"
+
+#: ../globaltime/gt_prefs.c:563
+#: ../globaltime/gt_prefs.c:1041
+msgid "close window and exit"
+msgstr "ablak bezárása és kilépés"
+
+#: ../globaltime/gt_prefs.c:586
+msgid "Modify Clock "
+msgstr "Óra módosítása"
+
+#. -----------------------HEADING-------------------------------------------
+#: ../globaltime/gt_prefs.c:599
+msgid "Clock Parameters"
+msgstr "Óra paraméterei"
+
+#: ../globaltime/gt_prefs.c:603
+msgid "Name of the clock:"
+msgstr "Óra neve:"
+
+#: ../globaltime/gt_prefs.c:609
+msgid "enter name of clock"
+msgstr "Adja meg az óra nevét"
+
+#: ../globaltime/gt_prefs.c:612
+msgid "Timezone of the clock:"
+msgstr "Óra időzónája:"
+
+#: ../globaltime/gt_prefs.c:618
+msgid ""
+"enter timezone of clock,\n"
+"(=any valid TZ value)"
+msgstr ""
+"óra időzóna beállítása,\n"
+"(=bármilyen valós TZ érték)"
+
+#: ../globaltime/gt_prefs.c:642
+msgid "Text Formatting"
+msgstr "Szöveg formázás"
+
+#. ------------------------background-------------------------
+#: ../globaltime/gt_prefs.c:648
+#: ../globaltime/gt_prefs.c:855
+msgid "Background color:"
+msgstr "Háttér színe:"
+
+#: ../globaltime/gt_prefs.c:655
+msgid "Click to change background colour for clock"
+msgstr "Kattints az óra háttér szín módosításához"
+
+#: ../globaltime/gt_prefs.c:664
+#: ../globaltime/gt_prefs.c:696
+#: ../globaltime/gt_prefs.c:728
+#: ../globaltime/gt_prefs.c:761
+#: ../globaltime/gt_prefs.c:795
+#: ../globaltime/gt_prefs.c:825
+#: ../globaltime/gt_prefs.c:871
+#: ../globaltime/gt_prefs.c:904
+#: ../globaltime/gt_prefs.c:937
+#: ../globaltime/gt_prefs.c:971
+msgid "Use default"
+msgstr "Alap használata"
+
+#: ../globaltime/gt_prefs.c:669
+#: ../globaltime/gt_prefs.c:701
+#: ../globaltime/gt_prefs.c:734
+#: ../globaltime/gt_prefs.c:767
+#: ../globaltime/gt_prefs.c:801
+#: ../globaltime/gt_prefs.c:831
+msgid "Cross this to use default instead of selected value"
+msgstr "Jelöld be, hogy az alapértelmezett legyen a kiválasztott helyett"
+
+#. ------------------------foreground-------------------------
+#: ../globaltime/gt_prefs.c:680
+#: ../globaltime/gt_prefs.c:888
+msgid "Foreground (=text) color:"
+msgstr "Előtér (=szöveg) színe:"
+
+#: ../globaltime/gt_prefs.c:687
+msgid "Click to change foreground colour for clock"
+msgstr "Kattints az óra előtér színének módosításához"
+
+#. ------------------------name font-------------------------
+#: ../globaltime/gt_prefs.c:712
+#: ../globaltime/gt_prefs.c:921
+msgid "Font for name of clock:"
+msgstr "Óra nevének betűje:"
+
+#: ../globaltime/gt_prefs.c:719
+msgid "Click to change font for clock name"
+msgstr "Kattints az óranév betűjének módosításához"
+
+#. ------------------------time font-------------------------
+#: ../globaltime/gt_prefs.c:745
+#: ../globaltime/gt_prefs.c:955
+msgid "Font for time of clock:"
+msgstr "Betű az óra idejéhez:"
+
+#: ../globaltime/gt_prefs.c:752
+msgid "Click to change font for clock time"
+msgstr "Kattints az idő betűjének módosításához"
+
+#. ------------------------underline name--------------------
+#: ../globaltime/gt_prefs.c:779
+msgid "Underline name of clock:"
+msgstr ""
+
+#. ------------------------underline time--------------------
+#: ../globaltime/gt_prefs.c:809
+msgid "Underline time of clock:"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:849
+msgid "Text Default Formatting"
+msgstr "Szöveg alap formázása"
+
+#: ../globaltime/gt_prefs.c:862
+msgid "Click to change default background colour for clocks"
+msgstr "Kattints az órák alap háttér színének módosításához"
+
+#: ../globaltime/gt_prefs.c:876
+#: ../globaltime/gt_prefs.c:909
+msgid "Cross this to use system default instead of selected color"
+msgstr "Jelöld ki a rendszer alapértelmezettje használatához a választott szín helyett"
+
+#: ../globaltime/gt_prefs.c:895
+msgid "Click to change default text colour for clocks"
+msgstr "Kattints az órák alap szöveg színének módosításához"
+
+#: ../globaltime/gt_prefs.c:928
+msgid "Click to change default font for clock name"
+msgstr "Kattints az óra neve alap betűjének módosításához"
+
+#: ../globaltime/gt_prefs.c:943
+#: ../globaltime/gt_prefs.c:977
+msgid "Cross this to use system default font instead of selected font"
+msgstr "Jelöld ki a rendszer alap betűje használatához a választott betű helyett"
+
+#: ../globaltime/gt_prefs.c:962
+msgid "Click to change default font for clock time"
+msgstr "Kattints az idő alap betűje módosításához"
+
+#. ------------------------underline name--------------------
+#: ../globaltime/gt_prefs.c:989
+msgid "Underline for name of clock:"
+msgstr ""
+
+#. ------------------------underline time--------------------
+#: ../globaltime/gt_prefs.c:1003
+msgid "Underline for time of clock:"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:1026
+msgid "update preferences"
+msgstr "Jellemzők frissítése"
+
+#: ../globaltime/gt_prefs.c:1061
+msgid "Modify Preferences"
+msgstr "Jellemzők módosítása"
+
+#. -----------------------HEADING--------------------------------------
+#: ../globaltime/gt_prefs.c:1072
+msgid "General Preferences"
+msgstr "Általános jellemzők"
+
+#: ../globaltime/gt_prefs.c:1076
+msgid "Decorations:"
+msgstr "Díszek:"
+
+#: ../globaltime/gt_prefs.c:1082
+msgid "Use normal decorations"
+msgstr "Normál díszítések használata"
+
+#: ../globaltime/gt_prefs.c:1093
+msgid "Do not show window decorations (borders)"
+msgstr "Ablakok díszítéseinek elrejtése (keretek)"
+
+#: ../globaltime/gt_prefs.c:1099
+msgid "Clock size:"
+msgstr "Óra mérete:"
+
+#: ../globaltime/gt_prefs.c:1105
+msgid "All clocks have same size"
+msgstr "Minden óra azonos méretű"
+
+#: ../globaltime/gt_prefs.c:1110
+msgid "Varying"
+msgstr "Változás"
+
+#: ../globaltime/gt_prefs.c:1115
+msgid "Clock sizes vary"
+msgstr "Óra méretek eltérnek"
+
+#: ../globaltime/gt_prefs.c:1121
+msgid "Local timezone:"
+msgstr "Helyi időzóna"
+
+#: ../globaltime/gt_prefs.c:1128
+msgid "Enter local timezone. (it is used to show if time is on previous(-) or next date(+) by adding a +/- after the time)"
+msgstr "Adja meg a helyi időzónát. ("
+
+#: ../panel-plugin/oc_config.c:193
+msgid "Appearance"
+msgstr "Megjelenés"
+
+#. show frame
+#: ../panel-plugin/oc_config.c:204
+msgid "Show _frame"
+msgstr "Keret mutatása"
+
+#. foreground color
+#: ../panel-plugin/oc_config.c:214
+msgid "set foreground _color:"
+msgstr "_Előtérszín:"
+
+#. background color
+#: ../panel-plugin/oc_config.c:228
+msgid "set _background color:"
+msgstr "_Háttérszín:"
+
+#. clock size (=vbox size): height and width
+#: ../panel-plugin/oc_config.c:242
+msgid "set _height:"
+msgstr "_Magasság:"
+
+#: ../panel-plugin/oc_config.c:254
+msgid "set _width:"
+msgstr "_Szélesség:"
+
+#: ../panel-plugin/oc_config.c:275
+msgid "Clock Options"
+msgstr "Az óra beállításai"
+
+#. timezone
+#: ../panel-plugin/oc_config.c:286
+msgid "set timezone to:"
+msgstr "Időzóna:"
+
+#: ../panel-plugin/oc_config.c:295
+msgid "Set any valid timezone (=TZ) value or pick one from the list."
+msgstr "Állíts be egy érvényes időzóna (=TZ) értéket vagy válassz egyet a listából."
+
+#. line 1
+#: ../panel-plugin/oc_config.c:304
+msgid "show line _1:"
+msgstr "_1. sor mutatása:"
+
+#: ../panel-plugin/oc_config.c:315
+msgid "Enter any valid strftime function parameter."
+msgstr "Adj meg az strftime függvény által használható paramétereket."
+
+#. line 2
+#: ../panel-plugin/oc_config.c:331
+msgid "show line _2:"
+msgstr "_2. sor mutatása:"
+
+#. line 3
+#: ../panel-plugin/oc_config.c:353
+msgid "show line _3:"
+msgstr "_3. sor mutatása:"
+
+#. Tooltip hint
+#: ../panel-plugin/oc_config.c:375
+msgid "Tooltip:"
+msgstr "Eszköztipp:"
+
+#: ../panel-plugin/oc_config.c:392
+msgid ""
+"This program uses strftime function to get time.\n"
+"Use any valid code to get time in the format you prefer.\n"
+"Some common codes are:\n"
+"\t%A = weekday\t\t\t%B = month\n"
+"\t%c = date & time\t\t%R = hour & minute\n"
+"\t%V = week number\t\t%Z = timezone in use\n"
+"\t%H = hours \t\t\t\t%M = minute\n"
+"\t%X = local time\t\t\t%x = local date"
+msgstr ""
+"E program az strftime függvénnyel kapja az időt.\n"
+"Bármilyen érvényes kódot használhatsz a kedvenc formátumodhoz.\n"
+"Pár szokásos kód:\n"
+"\t%A = a hét napja\t\t\t%B = hónap\n"
+"\t%c = dátum és idő\t\t%R = óra és perc\n"
+"\t%V = a hét száma\t\t%Z = használt időzóna\n"
+"\t%H = óra \t\t\t\t%M = perc\n"
+"\t%X = helyi idő\t\t\t%x = helyi dátum"
+
+#: ../panel-plugin/oc_config.c:416
+msgid "Properties"
+msgstr "Tulajdonságok"
+
+#: ../panel-plugin/oc_config.c:431
+msgid "Orage clock"
+msgstr "Orage óra"
+
+#. TRANSLATORS: Use format characters from strftime(3)
+#. * to get the proper string for your locale.
+#. * I used these:
+#. * %A  : full weekday name
+#. * %d  : day of the month
+#. * %B  : full month name
+#. * %Y  : four digit year
+#. * %V  : ISO week number
+#.
+#: ../panel-plugin/orageclock.c:641
+msgid "%A %d %B %Y/%V"
+msgstr "%Y./%V., %B %d., %A"
+
+#: ../plugin/xfcalendar_plugin.c:43
+msgid "Failed to launch 'orage -p'"
+msgstr "'orage -p' indítása nem sikerült"
+
+#. the button label in the xfce-mcs-manager dialog
+#: ../plugin/xfcalendar_plugin.c:61
+msgid "Orage - Calendar"
+msgstr "Orage - Naptár"
+
+#: ../src/about-xfcalendar.c:42
+msgid "Manage your time with Xfce4"
+msgstr "Oszd be az időd az Xfce4-gyel"
+
+#: ../src/about-xfcalendar.c:52
+msgid "Maintainer"
+msgstr "Karbantartó"
+
+#: ../src/about-xfcalendar.c:57
+msgid "Original creator, retired maintainer"
+msgstr "Eredeti alkotó, nyugalmazott karbantartó"
+
+#: ../src/about-xfcalendar.c:62
+msgid "Contributor"
+msgstr "Közreműködő"
+
+#. if (gtk_toggle_button_get_active(
+#. GTK_TOGGLE_BUTTON(apptw->Type_journal_rb)))
+#. end time
+#: ../src/appointment.c:348
+#: ../src/appointment.c:384
+#: ../src/appointment.c:2330
+msgid "End"
+msgstr "Vége"
+
+#: ../src/appointment.c:366
+msgid "Due"
+msgstr "Esedékes"
+
+#: ../src/appointment.c:501
+#: ../src/mainbox.c:689
+#: ../xfcalendar.desktop.in.h:3
+msgid "Orage"
+msgstr "Orage"
+
+#. to avoid timing problems when updating entry
+#. Create file chooser
+#: ../src/appointment.c:651
+#: ../src/interface.c:277
+#: ../src/parameters.c:383
+msgid "Select a file..."
+msgstr "Válassz fájlt..."
+
+#: ../src/appointment.c:659
+msgid "Sound Files"
+msgstr "Hangfájlok"
+
+#: ../src/appointment.c:666
+#: ../src/interface.c:290
+msgid "All Files"
+msgstr "Minden fájl"
+
+#: ../src/appointment.c:717
+#: ../src/appointment.c:1145
+#: ../src/event-list.c:897
+msgid "Warning"
+msgstr "Figyelmeztetés"
+
+#: ../src/appointment.c:719
+msgid "The appointment information has been modified."
+msgstr "A találkozó adatai módosultak."
+
+#: ../src/appointment.c:720
+#: ../src/appointment.c:1148
+#: ../src/event-list.c:900
+msgid "Do you want to continue?"
+msgstr "Folytatja?"
+
+#: ../src/appointment.c:750
+msgid "Error"
+msgstr "Hiba"
+
+#: ../src/appointment.c:752
+msgid "The end of this appointment is earlier than the beginning."
+msgstr "A találkozó vége korábban van a kezdeténél."
+
+#. cat_groups[0] is special [NULL] entry always
+#: ../src/appointment.c:1007
+#: ../src/appointment.c:1547
+msgid "Not set"
+msgstr "Nincs beállítva"
+
+#: ../src/appointment.c:1147
+msgid "This appointment will be permanently removed."
+msgstr "Végleg törölve lesz ez a találkozó."
+
+#: ../src/appointment.c:1421
+#: ../src/event-list.c:726
+msgid "Info"
+msgstr "Infó"
+
+#: ../src/appointment.c:1423
+msgid "This appointment does not exist."
+msgstr "Ez a találkozó nem létezik"
+
+#: ../src/appointment.c:1424
+msgid "It was probably removed, please refresh your screen."
+msgstr "Valószínűleg eltávolításra került, frissítse a képernyőt."
+
+#: ../src/appointment.c:1729
+msgid "Current categories"
+msgstr "Jelen kategória"
+
+#: ../src/appointment.c:1744
+msgid "Add new category with color"
+msgstr "Új kategória hozzáadása színnel"
+
+#: ../src/appointment.c:1748
+msgid "Category:"
+msgstr "Kategória:"
+
+#: ../src/appointment.c:1779
+msgid "Colors of categories - Orage"
+msgstr "A kategóriák színei - Orage"
+
+#: ../src/appointment.c:1940
+msgid "New appointment - Orage"
+msgstr "Új találkozó - Orage"
+
+#: ../src/appointment.c:1964
+msgid " *** COPY ***"
+msgstr "*** MÁSOLAT ***"
+
+#. File menu stuff
+#. ********* File menu *********
+#. File menu
+#: ../src/appointment.c:2074
+#: ../src/day-view.c:254
+#: ../src/event-list.c:994
+#: ../src/interface.c:762
+#: ../src/mainbox.c:261
+msgid "_File"
+msgstr "_Fájl"
+
+#: ../src/appointment.c:2080
+msgid "Sav_e and close"
+msgstr "M_entés és bezárás"
+
+#: ../src/appointment.c:2093
+#: ../src/event-list.c:1000
+msgid "D_uplicate"
+msgstr "Megkettőzés"
+
+#: ../src/appointment.c:2227
+msgid "Save"
+msgstr "Mentés"
+
+#: ../src/appointment.c:2229
+msgid "Save and close"
+msgstr "Mentés és bezárás"
+
+#: ../src/appointment.c:2234
+msgid "Revert"
+msgstr "Visszavonás"
+
+#: ../src/appointment.c:2236
+#: ../src/event-list.c:1085
+msgid "Duplicate"
+msgstr "Megkettőzés"
+
+#: ../src/appointment.c:2241
+#: ../src/event-list.c:1087
+msgid "Delete"
+msgstr "Törlés"
+
+#: ../src/appointment.c:2259
+msgid "Free"
+msgstr "Szabad"
+
+#: ../src/appointment.c:2259
+msgid "Busy"
+msgstr "Elfoglalt"
+
+#: ../src/appointment.c:2263
+msgid "General"
+msgstr "Általános"
+
+#. type
+#: ../src/appointment.c:2269
+msgid "Type "
+msgstr "Típus"
+
+#: ../src/appointment.c:2271
+#: ../src/event-list.c:1139
+msgid "Event"
+msgstr "Esemény"
+
+#: ../src/appointment.c:2274
+msgid ""
+"Event that will happen sometime. For example:\n"
+"Meeting or birthday or TV show."
+msgstr ""
+"Valami esemény ami következik majd. Például:\n"
+"Találkozó vagy születésnap vagy TV műsor."
+
+#: ../src/appointment.c:2277
+#: ../src/event-list.c:1160
+msgid "Todo"
+msgstr "Teendők"
+
+#: ../src/appointment.c:2280
+msgid ""
+"Something that you should do sometime. For example:\n"
+"Wash your car or test new version of Orage."
+msgstr ""
+"Valami amit valamikor el kell végeznie. Például:\n"
+"Mossa le a kocsit vagy próbálja ki az Orage új verzióját."
+
+#: ../src/appointment.c:2283
+#: ../src/event-list.c:1175
+msgid "Journal"
+msgstr "Naplókönyv"
+
+#: ../src/appointment.c:2287
+msgid ""
+"Make a note that something happened. For example:\n"
+"Remark that your mother called or first snow came."
+msgstr ""
+"Valamilyen történés rögzítése. Például:\n"
+"Hívta az édesanyja vagy idén először esett a hó."
+
+#. title
+#: ../src/appointment.c:2294
+msgid "Title "
+msgstr "Cím"
+
+#. location
+#: ../src/appointment.c:2301
+#: ../src/ical-code.c:4495
+#: ../src/ical-code.c:4500
+msgid "Location"
+msgstr "Hely"
+
+#: ../src/appointment.c:2309
+msgid "All day event"
+msgstr "Egész napos esemény"
+
+#. start time
+#: ../src/appointment.c:2315
+#: ../src/day-view.c:681
+msgid "Start"
+msgstr "Kezdete"
+
+#: ../src/appointment.c:2335
+msgid "Set      "
+msgstr "Beállítva"
+
+#: ../src/appointment.c:2356
+msgid "Duration"
+msgstr "Hossza"
+
+#: ../src/appointment.c:2360
+#: ../src/appointment.c:2532
+#: ../src/day-view.c:702
+msgid "days"
+msgstr "nap"
+
+#: ../src/appointment.c:2362
+#: ../src/appointment.c:2534
+msgid "hours"
+msgstr "óra"
+
+#: ../src/appointment.c:2364
+#: ../src/appointment.c:2536
+msgid "mins"
+msgstr "perc"
+
+#. Availability (only for EVENT)
+#: ../src/appointment.c:2376
+msgid "Availability"
+msgstr "Elérhetőség"
+
+#. completed (only for TODO)
+#: ../src/appointment.c:2384
+msgid "Completed"
+msgstr "Befejezve"
+
+#: ../src/appointment.c:2387
+msgid "Done"
+msgstr "Kész"
+
+#. categories
+#: ../src/appointment.c:2408
+msgid "Categories"
+msgstr "Kategóriák"
+
+#: ../src/appointment.c:2420
+msgid "This is special category, which can be used to color this appointment in list views."
+msgstr "Ez egy különleges kategória, amellyel kiszínezheti ezt az eseményt a lista nézeteknél."
+
+#: ../src/appointment.c:2425
+msgid "update colors for categories."
+msgstr "Kategória színek frissítése."
+
+#. note
+#: ../src/appointment.c:2431
+msgid "Note"
+msgstr "Megjegyzés"
+
+#: ../src/appointment.c:2450
+msgid ""
+"<D> inserts current date in local date format.\n"
+"<T> inserts time and\n"
+"<DT> inserts date and time."
+msgstr ""
+"<D> Beilleszti a mai dátumota helyi időformátumnak megfelelően.\n"
+"<T> beilleszti az időt\n"
+"<DT> beilleszti az időt és dátumot."
+
+#: ../src/appointment.c:2517
+msgid "Before Start"
+msgstr ""
+
+#: ../src/appointment.c:2517
+msgid "Before End"
+msgstr ""
+
+#: ../src/appointment.c:2518
+msgid "After Start"
+msgstr "Kezdés"
+
+#: ../src/appointment.c:2518
+msgid "After End"
+msgstr ""
+
+#: ../src/appointment.c:2523
+msgid "Alarm"
+msgstr "Riasztás"
+
+#. **** ALARM TIME ****
+#: ../src/appointment.c:2529
+msgid "Alarm time"
+msgstr "Riasztás ideje"
+
+#: ../src/appointment.c:2553
+msgid ""
+"Often you want to get alarm:\n"
+" 1) before Event start\n"
+" 2) before Todo end\n"
+" 3) after Todo start"
+msgstr ""
+
+#: ../src/appointment.c:2558
+msgid "Persistent alarm"
+msgstr ""
+
+#: ../src/appointment.c:2560
+msgid "Select this if you want Orage to remind you even if it has not been active when the alarm happened."
+msgstr ""
+
+#. **** Audio Alarm ****
+#: ../src/appointment.c:2569
+msgid "Sound"
+msgstr "Hang"
+
+#: ../src/appointment.c:2573
+#: ../src/appointment.c:2694
+msgid "Use"
+msgstr ""
+
+#: ../src/appointment.c:2575
+msgid "Select this if you want audible alarm"
+msgstr ""
+
+#: ../src/appointment.c:2592
+msgid "Repeat alarm sound"
+msgstr "Hangriasztás ismétlése"
+
+#: ../src/appointment.c:2608
+#: ../src/appointment.c:2852
+msgid "times"
+msgstr "alkalommal"
+
+#: ../src/appointment.c:2624
+msgid "sec interval"
+msgstr "mp intervallum"
+
+#. **** Display Alarm ****
+#: ../src/appointment.c:2634
+msgid "Visual"
+msgstr ""
+
+#: ../src/appointment.c:2638
+msgid "Use Orage window"
+msgstr ""
+
+#: ../src/appointment.c:2640
+msgid "Select this if you want Orage window alarm"
+msgstr ""
+
+#: ../src/appointment.c:2652
+msgid "Use notification"
+msgstr ""
+
+#: ../src/appointment.c:2654
+msgid "Select this if you want notification alarm"
+msgstr ""
+
+#: ../src/appointment.c:2660
+msgid "Set timeout"
+msgstr "Időtúllépés"
+
+#: ../src/appointment.c:2663
+msgid "Select this if you want notification to expire automatically"
+msgstr ""
+
+#: ../src/appointment.c:2674
+msgid "0 = system default expiration time"
+msgstr ""
+
+#: ../src/appointment.c:2679
+msgid "seconds"
+msgstr ""
+
+#. **** Procedure Alarm ****
+#: ../src/appointment.c:2690
+msgid "Procedure"
+msgstr "Művelet"
+
+#: ../src/appointment.c:2696
+msgid "Select this if you want procedure or script alarm"
+msgstr ""
+
+#: ../src/appointment.c:2702
+msgid ""
+"You must enter all escape etc characters yourself.\n"
+" This string is just given to shell to process"
+msgstr ""
+
+#. **** Default Alarm Settings ****
+#: ../src/appointment.c:2711
+msgid "Default alarm"
+msgstr "Alapértelmezett riasztás"
+
+#: ../src/appointment.c:2718
+msgid "Store current settings as default alarm"
+msgstr ""
+
+#: ../src/appointment.c:2723
+msgid "Set current settings from default alarm"
+msgstr ""
+
+#: ../src/appointment.c:2780
+msgid "Daily"
+msgstr "Naponta"
+
+#: ../src/appointment.c:2780
+msgid "Weekly"
+msgstr "Hetente"
+
+#: ../src/appointment.c:2780
+msgid "Monthly"
+msgstr "Havonta"
+
+#: ../src/appointment.c:2780
+msgid "Yearly"
+msgstr "Évente"
+
+#: ../src/appointment.c:2782
+msgid "Mon"
+msgstr "Hé"
+
+#: ../src/appointment.c:2782
+msgid "Tue"
+msgstr "Ke"
+
+#: ../src/appointment.c:2782
+msgid "Wed"
+msgstr "Sze"
+
+#: ../src/appointment.c:2782
+msgid "Thu"
+msgstr "Csü"
+
+#: ../src/appointment.c:2782
+msgid "Fri"
+msgstr "Pé"
+
+#: ../src/appointment.c:2782
+msgid "Sat"
+msgstr "Szo"
+
+#: ../src/appointment.c:2782
+msgid "Sun"
+msgstr "Va"
+
+#: ../src/appointment.c:2786
+msgid "Recurrence"
+msgstr "Ismétlődés"
+
+#: ../src/appointment.c:2791
+msgid "Complexity"
+msgstr "Összetettség"
+
+#: ../src/appointment.c:2794
+msgid "Basic"
+msgstr "Alap"
+
+#: ../src/appointment.c:2800
+msgid "Advanced"
+msgstr "Haladó"
+
+#: ../src/appointment.c:2807
+msgid "Use this if you want regular repeating event"
+msgstr ""
+
+#: ../src/appointment.c:2809
+msgid ""
+"Use this if you need complex times like:\n"
+" Every Saturday and Sunday or \n"
+" First Tuesday every month"
+msgstr ""
+
+#: ../src/appointment.c:2812
+msgid "Frequency"
+msgstr "Gyakoriság"
+
+#: ../src/appointment.c:2818
+msgid "Each"
+msgstr ""
+
+#: ../src/appointment.c:2825
+msgid "occurrence"
+msgstr "Előfordulás"
+
+#: ../src/appointment.c:2829
+msgid ""
+"Limit frequency to certain interval.\n"
+" For example: Every third day:\n"
+" Frequency = Daily and Interval = 3"
+msgstr ""
+
+#: ../src/appointment.c:2835
+msgid "Limit"
+msgstr ""
+
+#: ../src/appointment.c:2837
+msgid "Repeat forever"
+msgstr "Ismétlés örökké"
+
+#: ../src/appointment.c:2844
+msgid "Repeat "
+msgstr "Ismétlés"
+
+#: ../src/appointment.c:2861
+msgid "Repeat until "
+msgstr "Ismétlés eddig: "
+
+#: ../src/appointment.c:2871
+msgid "Weekdays"
+msgstr "Hét napjai"
+
+#: ../src/appointment.c:2883
+msgid "Which day"
+msgstr ""
+
+#: ../src/appointment.c:2891
+msgid ""
+"Specify which weekday for monthly and yearly events.\n"
+" For example:\n"
+" Second Wednesday each month:\n"
+"\tFrequency = Monthly,\n"
+"\tWeekdays = check only Wednesday,\n"
+"\tWhich day = select 2 from the number below Wednesday"
+msgstr ""
+
+#. ********* View menu *********
+#. View menu
+#: ../src/day-view.c:264
+#: ../src/event-list.c:1017
+#: ../src/mainbox.c:287
+msgid "_View"
+msgstr "_Nézet"
+
+#. ********* Go menu   *********
+#: ../src/day-view.c:278
+#: ../src/event-list.c:1036
+msgid "_Go"
+msgstr "_Ugrás"
+
+#: ../src/day-view.c:319
+#: ../src/event-list.c:1083
+msgid "New"
+msgstr "Új"
+
+#: ../src/day-view.c:324
+#: ../src/event-list.c:1092
+msgid "Back"
+msgstr "Vissza"
+
+#: ../src/day-view.c:326
+#: ../src/event-list.c:1094
+#: ../src/functions.c:132
+#: ../src/tray_icon.c:330
+msgid "Today"
+msgstr "Ma"
+
+#: ../src/day-view.c:328
+#: ../src/event-list.c:1096
+msgid "Forward"
+msgstr "Előre"
+
+#: ../src/day-view.c:333
+#: ../src/event-list.c:1101
+msgid "Refresh"
+msgstr "Frissítés"
+
+#: ../src/day-view.c:338
+#: ../src/event-list.c:1108
+#: ../src/interface.c:804
+msgid "Close"
+msgstr "Bezárás"
+
+#. then add the appointment
+#: ../src/day-view.c:452
+msgid "Unknown"
+msgstr ""
+
+#: ../src/day-view.c:694
+#: ../src/parameters.c:662
+msgid "Show"
+msgstr "Látható"
+
+#: ../src/day-view.c:931
+msgid "Orage - day view"
+msgstr "Orage - napi nézet"
+
+#. date only appointment
+#: ../src/event-list.c:190
+msgid "All day"
+msgstr "Egész nap"
+
+#: ../src/event-list.c:557
+#: ../src/event-list.c:1266
+msgid "Time"
+msgstr "Idő"
+
+#: ../src/event-list.c:728
+msgid "No rows have been selected."
+msgstr ""
+
+#: ../src/event-list.c:729
+msgid "Click a row to select it and after that you can copy it."
+msgstr ""
+
+#: ../src/event-list.c:899
+msgid ""
+"You will permanently remove all\n"
+"selected appointments."
+msgstr ""
+
+#: ../src/event-list.c:1103
+msgid "Find"
+msgstr ""
+
+#: ../src/event-list.c:1110
+msgid "Dayview"
+msgstr ""
+
+#: ../src/event-list.c:1143
+msgid "Extra days to show "
+msgstr ""
+
+#: ../src/event-list.c:1179
+msgid "Journal entries starting from:"
+msgstr ""
+
+#: ../src/event-list.c:1204
+msgid "Search"
+msgstr ""
+
+#: ../src/event-list.c:1208
+msgid "Search text "
+msgstr ""
+
+#: ../src/event-list.c:1274
+msgid "Flags"
+msgstr "Jelzők"
+
+#: ../src/event-list.c:1282
+msgid "Title"
+msgstr "Cím"
+
+#: ../src/event-list.c:1308
+msgid ""
+"Double click line to edit it.\n"
+"\n"
+"Flags in order:\n"
+"\t 1. Alarm: n=no alarm\n"
+"\t\t A=visual Alarm S=also Sound alarm\n"
+"\t 2. Recurrence: n=no recurrence\n"
+"\t\t D=Daily W=Weekly M=Monthly Y=Yearly\n"
+"\t 3. Type: f=free B=Busy\n"
+"\t 4. Located in file:\n"
+"\t\tO=Orage A=Archive F=Foreign\n"
+"\t 5. Appointment type:\n"
+"\t\tE=Event T=Todo J=Journal"
+msgstr ""
+"Kattints duplán a sorra a szerkesztéséhez.\n"
+"\n"
+"A jelzések jelentése (sorrendben):\n"
+"\t 1. Riasztás: n=nincs riasztás\n"
+"  \t\tA=látható riasztás S=hangosan is riasszon\n"
+"\t 2. Ismétlődés: n=nem ismétlődik\n"
+"\t\t D=naponta W=hetente M=havonta Y=évente\n"
+"\t 3. Típus: f=szabad B=elfoglalt\t 4. Fájl:\n"
+"\t 4. Ebben a fájlban:\n"
+"\t\tO=Orage A=Archív F=Idegen\n"
+"\t 5.Esemény típusa:\n"
+"\t\tE=Esemény T=Tennivaló J=Naplókönyv"
+
+#: ../src/functions.c:130
+msgid "Pick the date"
+msgstr "Válassz napot"
+
+#: ../src/ical-code.c:115
+msgid "Africa"
+msgstr "Afrika"
+
+#: ../src/ical-code.c:116
+msgid "Africa/Abidjan"
+msgstr "Afrika/Abidjan"
+
+#: ../src/ical-code.c:117
+msgid "Africa/Accra"
+msgstr "Afrika/Accra"
+
+#: ../src/ical-code.c:118
+msgid "Africa/Addis_Ababa"
+msgstr "Afrika/Addis Ababa"
+
+#: ../src/ical-code.c:119
+msgid "Africa/Algiers"
+msgstr "Afrika/Algír"
+
+#: ../src/ical-code.c:120
+msgid "Africa/Asmera"
+msgstr "Afrika/Asmera"
+
+#: ../src/ical-code.c:121
+msgid "Africa/Bamako"
+msgstr "Afrika/Bamako"
+
+#: ../src/ical-code.c:122
+msgid "Africa/Bangui"
+msgstr "Afrika/Bangui"
+
+#: ../src/ical-code.c:123
+msgid "Africa/Banjul"
+msgstr "Afrika/Banjul"
+
+#: ../src/ical-code.c:124
+msgid "Africa/Bissau"
+msgstr "Afrika/Bissau"
+
+#: ../src/ical-code.c:125
+msgid "Africa/Blantyre"
+msgstr "Afrika/Blantyre"
+
+#: ../src/ical-code.c:126
+msgid "Africa/Brazzaville"
+msgstr "Afrika/Brazzaville"
+
+#: ../src/ical-code.c:127
+msgid "Africa/Bujumbura"
+msgstr "Afrika/Bujumbura"
+
+#: ../src/ical-code.c:128
+msgid "Africa/Cairo"
+msgstr "Afrika/Kairó"
+
+#: ../src/ical-code.c:129
+msgid "Africa/Casablanca"
+msgstr "Afrika/Casablanca"
+
+#: ../src/ical-code.c:130
+msgid "Africa/Ceuta"
+msgstr "Afrika/Ceuta"
+
+#: ../src/ical-code.c:131
+msgid "Africa/Conakry"
+msgstr "Afrika/Conakry"
+
+#: ../src/ical-code.c:132
+msgid "Africa/Dakar"
+msgstr "Afrika/Dakar"
+
+#: ../src/ical-code.c:133
+msgid "Africa/Dar_es_Salaam"
+msgstr "Afrika/Dar_es_Salaam"
+
+#: ../src/ical-code.c:134
+msgid "Africa/Djibouti"
+msgstr "Afrika/Djibouti"
+
+#: ../src/ical-code.c:135
+msgid "Africa/Douala"
+msgstr "Afrika/Douala"
+
+#: ../src/ical-code.c:136
+msgid "Africa/El_Aaiun"
+msgstr "Afrika/El_Aaiun"
+
+#: ../src/ical-code.c:137
+msgid "Africa/Freetown"
+msgstr "Afrika/Freetown"
+
+#: ../src/ical-code.c:138
+msgid "Africa/Gaborone"
+msgstr "Afrika/Gaborone"
+
+#: ../src/ical-code.c:139
+msgid "Africa/Harare"
+msgstr "Afrika/Harare"
+
+#: ../src/ical-code.c:140
+msgid "Africa/Johannesburg"
+msgstr "Afrika/Johannesburg"
+
+#: ../src/ical-code.c:141
+msgid "Africa/Kampala"
+msgstr "Afrika/Kampala"
+
+#: ../src/ical-code.c:142
+msgid "Africa/Khartoum"
+msgstr "Afrika/Khartoum"
+
+#: ../src/ical-code.c:143
+msgid "Africa/Kigali"
+msgstr "Afrika/Kigali"
+
+#: ../src/ical-code.c:144
+msgid "Africa/Kinshasa"
+msgstr "Afrika/Kinshasa"
+
+#: ../src/ical-code.c:145
+msgid "Africa/Lagos"
+msgstr "Afrika/Lagos"
+
+#: ../src/ical-code.c:146
+msgid "Africa/Libreville"
+msgstr "Afrika/Libreville"
+
+#: ../src/ical-code.c:147
+msgid "Africa/Lome"
+msgstr "Afrika/Lome"
+
+#: ../src/ical-code.c:148
+msgid "Africa/Luanda"
+msgstr "Afrika/Luanda"
+
+#: ../src/ical-code.c:149
+msgid "Africa/Lubumbashi"
+msgstr "Afrika/Lubumbashi"
+
+#: ../src/ical-code.c:150
+msgid "Africa/Lusaka"
+msgstr "Afrika/Lusaka"
+
+#: ../src/ical-code.c:151
+msgid "Africa/Malabo"
+msgstr "Afrika/Malabo"
+
+#: ../src/ical-code.c:152
+msgid "Africa/Maputo"
+msgstr "Afrika/Maputo"
+
+#: ../src/ical-code.c:153
+msgid "Africa/Maseru"
+msgstr "Afrika/Maseru"
+
+#: ../src/ical-code.c:154
+msgid "Africa/Mbabane"
+msgstr "Afrika/Mbabane"
+
+#: ../src/ical-code.c:155
+msgid "Africa/Mogadishu"
+msgstr "Afrika/Mogadishu"
+
+#: ../src/ical-code.c:156
+msgid "Africa/Monrovia"
+msgstr "Afrika/Monrovia"
+
+#: ../src/ical-code.c:157
+msgid "Africa/Nairobi"
+msgstr "Afrika/Nairobi"
+
+#: ../src/ical-code.c:158
+msgid "Africa/Ndjamena"
+msgstr "Afrika/Ndjamena"
+
+#: ../src/ical-code.c:159
+msgid "Africa/Niamey"
+msgstr "Afrika/Niamey"
+
+#: ../src/ical-code.c:160
+msgid "Africa/Nouakchott"
+msgstr "Afrika/Nouakchott"
+
+#: ../src/ical-code.c:161
+msgid "Africa/Ouagadougou"
+msgstr "Afrika/Ouagadougou"
+
+#: ../src/ical-code.c:162
+msgid "Africa/Porto-Novo"
+msgstr "Afrika/Porto-Novo"
+
+#: ../src/ical-code.c:163
+msgid "Africa/Sao_Tome"
+msgstr "Afrika/Sao_Tome"
+
+#: ../src/ical-code.c:164
+msgid "Africa/Timbuktu"
+msgstr "Afrika/Timbuktu"
+
+#: ../src/ical-code.c:165
+msgid "Africa/Tripoli"
+msgstr "Afrika/Tripoli"
+
+#: ../src/ical-code.c:166
+msgid "Africa/Tunis"
+msgstr "Afrika/Tunis"
+
+#: ../src/ical-code.c:167
+msgid "Africa/Windhoek"
+msgstr "Afrika/Windhoek"
+
+#: ../src/ical-code.c:168
+msgid "America"
+msgstr "Amerika"
+
+#: ../src/ical-code.c:169
+msgid "America/Adak"
+msgstr "Amerika/Adak"
+
+#: ../src/ical-code.c:170
+msgid "America/Anchorage"
+msgstr "Amerika/Anchorage"
+
+#: ../src/ical-code.c:171
+msgid "America/Anguilla"
+msgstr "Amerika/Anguilla"
+
+#: ../src/ical-code.c:172
+msgid "America/Antigua"
+msgstr "Amerika/Antigua"
+
+#: ../src/ical-code.c:173
+msgid "America/Araguaina"
+msgstr "Amerika/Araguaina"
+
+#: ../src/ical-code.c:174
+msgid "America/Argentina/Buenos_Aires"
+msgstr "America/Argentina/Buenos_Aires"
+
+#: ../src/ical-code.c:175
+msgid "America/Argentina/Catamarca"
+msgstr "America/Argentina/Catamarca"
+
+#: ../src/ical-code.c:176
+msgid "America/Argentina/Cordoba"
+msgstr "America/Argentina/Cordoba"
+
+#: ../src/ical-code.c:177
+msgid "America/Argentina/Jujuy"
+msgstr "America/Argentina/Jujuy"
+
+#: ../src/ical-code.c:178
+msgid "America/Argentina/Mendoza"
+msgstr "America/Argentina/Mendoza"
+
+#: ../src/ical-code.c:179
+msgid "America/Aruba"
+msgstr "Amerika/Aruba"
+
+#: ../src/ical-code.c:180
+msgid "America/Asuncion"
+msgstr "Amerika/Asuncion"
+
+#: ../src/ical-code.c:181
+msgid "America/Barbados"
+msgstr "Amerika/Barbados"
+
+#: ../src/ical-code.c:182
+msgid "America/Belem"
+msgstr "Amerika/Belem"
+
+#: ../src/ical-code.c:183
+msgid "America/Belize"
+msgstr "Amerika/Belize"
+
+#: ../src/ical-code.c:184
+msgid "America/Boa_Vista"
+msgstr "Amerika/Boa_Vista"
+
+#: ../src/ical-code.c:185
+msgid "America/Bogota"
+msgstr "Amerika/Bogota"
+
+#: ../src/ical-code.c:186
+msgid "America/Boise"
+msgstr "Amerika/Boise"
+
+#: ../src/ical-code.c:187
+msgid "America/Buenos_Aires"
+msgstr "Amerika/Buenos_Aires"
+
+#: ../src/ical-code.c:188
+msgid "America/Cambridge_Bay"
+msgstr "Amerika/Cambridge_Bay"
+
+#: ../src/ical-code.c:189
+msgid "America/Cancun"
+msgstr "Amerika/Cancun"
+
+#: ../src/ical-code.c:190
+msgid "America/Caracas"
+msgstr "Amerika/Caracas"
+
+#: ../src/ical-code.c:191
+msgid "America/Catamarca"
+msgstr "Amerika/Catamarca"
+
+#: ../src/ical-code.c:192
+msgid "America/Cayenne"
+msgstr "Amerika/Cayenne"
+
+#: ../src/ical-code.c:193
+msgid "America/Cayman"
+msgstr "Amerika/Cayman"
+
+#: ../src/ical-code.c:194
+msgid "America/Chicago"
+msgstr "Amerika/Chicago"
+
+#: ../src/ical-code.c:195
+msgid "America/Chihuahua"
+msgstr "Amerika/Chihuahua"
+
+#: ../src/ical-code.c:196
+msgid "America/Cordoba"
+msgstr "Amerika/Cordoba"
+
+#: ../src/ical-code.c:197
+msgid "America/Costa_Rica"
+msgstr "Amerika/Costa_Rica"
+
+#: ../src/ical-code.c:198
+msgid "America/Cuiaba"
+msgstr "Amerika/Cuiaba"
+
+#: ../src/ical-code.c:199
+msgid "America/Curacao"
+msgstr "Amerika/Curacao"
+
+#: ../src/ical-code.c:200
+msgid "America/Dawson"
+msgstr "Amerika/Dawson"
+
+#: ../src/ical-code.c:201
+msgid "America/Dawson_Creek"
+msgstr "Amerika/Dawson_Creek"
+
+#: ../src/ical-code.c:202
+msgid "America/Denver"
+msgstr "Amerika/Denver"
+
+#: ../src/ical-code.c:203
+msgid "America/Detroit"
+msgstr "Amerika/Detroit"
+
+#: ../src/ical-code.c:204
+msgid "America/Dominica"
+msgstr "Amerika/Dominica"
+
+#: ../src/ical-code.c:205
+msgid "America/Edmonton"
+msgstr "Amerika/Edmonton"
+
+#: ../src/ical-code.c:206
+msgid "America/Eirunepe"
+msgstr "Amerika/Eirunepe"
+
+#: ../src/ical-code.c:207
+msgid "America/El_Salvador"
+msgstr "Amerika/El_Salvador"
+
+#: ../src/ical-code.c:208
+msgid "America/Fortaleza"
+msgstr "Amerika/Fortaleza"
+
+#: ../src/ical-code.c:209
+msgid "America/Glace_Bay"
+msgstr "Amerika/Glace_Bay"
+
+#: ../src/ical-code.c:210
+msgid "America/Godthab"
+msgstr "Amerika/Godthab"
+
+#: ../src/ical-code.c:211
+msgid "America/Goose_Bay"
+msgstr "Amerika/Goose_Bay"
+
+#: ../src/ical-code.c:212
+msgid "America/Grand_Turk"
+msgstr "Amerika/Grand_Turk"
+
+#: ../src/ical-code.c:213
+msgid "America/Grenada"
+msgstr "Amerika/Grenada"
+
+#: ../src/ical-code.c:214
+msgid "America/Guadeloupe"
+msgstr "Amerika/Guadeloupe"
+
+#: ../src/ical-code.c:215
+msgid "America/Guatemala"
+msgstr "Amerika/Guatemala"
+
+#: ../src/ical-code.c:216
+msgid "America/Guayaquil"
+msgstr "Amerika/Guayaquil"
+
+#: ../src/ical-code.c:217
+msgid "America/Guyana"
+msgstr "Amerika/Guyana"
+
+#: ../src/ical-code.c:218
+msgid "America/Halifax"
+msgstr "Amerika/Halifax"
+
+#: ../src/ical-code.c:219
+msgid "America/Havana"
+msgstr "Amerika/Havana"
+
+#: ../src/ical-code.c:220
+msgid "America/Hermosillo"
+msgstr "Amerika/Hermosillo"
+
+#: ../src/ical-code.c:221
+msgid "America/Indiana/Indianapolis"
+msgstr "Amerika/Indiana/Indianapolis"
+
+#: ../src/ical-code.c:222
+msgid "America/Indiana/Knox"
+msgstr "Amerika/Indiana/Knox"
+
+#: ../src/ical-code.c:223
+msgid "America/Indiana/Marengo"
+msgstr "Amerika/Indiana/Marengo"
+
+#: ../src/ical-code.c:224
+msgid "America/Indiana/Vevay"
+msgstr "Amerika/Indiana/Vevay"
+
+#: ../src/ical-code.c:225
+msgid "America/Indianapolis"
+msgstr "Amerika/Indianapolis"
+
+#: ../src/ical-code.c:226
+msgid "America/Inuvik"
+msgstr "Amerika/Inuvik"
+
+#: ../src/ical-code.c:227
+msgid "America/Iqaluit"
+msgstr "Amerika/Iqaluit"
+
+#: ../src/ical-code.c:228
+msgid "America/Jamaica"
+msgstr "Amerika/Jamaica"
+
+#: ../src/ical-code.c:229
+msgid "America/Jujuy"
+msgstr "Amerika/Jujuy"
+
+#: ../src/ical-code.c:230
+msgid "America/Juneau"
+msgstr "Amerika/Juneau"
+
+#: ../src/ical-code.c:231
+msgid "America/Kentucky/Louisville"
+msgstr "Amerika/Kentucky/Louisville"
+
+#: ../src/ical-code.c:232
+msgid "America/Kentucky/Monticello"
+msgstr "Amerika/Kentucky/Monticello"
+
+#: ../src/ical-code.c:233
+msgid "America/La_Paz"
+msgstr "Amerika/La_Paz"
+
+#: ../src/ical-code.c:234
+msgid "America/Lima"
+msgstr "Amerika/Lima"
+
+#: ../src/ical-code.c:235
+msgid "America/Los_Angeles"
+msgstr "Amerika/Los_Angeles"
+
+#: ../src/ical-code.c:236
+msgid "America/Louisville"
+msgstr "Amerika/Louisville"
+
+#: ../src/ical-code.c:237
+msgid "America/Maceio"
+msgstr "Amerika/Maceio"
+
+#: ../src/ical-code.c:238
+msgid "America/Managua"
+msgstr "Amerika/Managua"
+
+#: ../src/ical-code.c:239
+msgid "America/Manaus"
+msgstr "Amerika/Manaus"
+
+#: ../src/ical-code.c:240
+msgid "America/Martinique"
+msgstr "Amerika/Martinique"
+
+#: ../src/ical-code.c:241
+msgid "America/Mazatlan"
+msgstr "Amerika/Mazatlan"
+
+#: ../src/ical-code.c:242
+msgid "America/Mendoza"
+msgstr "Amerika/Mendoza"
+
+#: ../src/ical-code.c:243
+msgid "America/Menominee"
+msgstr "Amerika/Menominee"
+
+#: ../src/ical-code.c:244
+msgid "America/Merida"
+msgstr "Amerika/Merida"
+
+#: ../src/ical-code.c:245
+msgid "America/Mexico_City"
+msgstr "Amerika/Mexico_City"
+
+#: ../src/ical-code.c:246
+msgid "America/Miquelon"
+msgstr "Amerika/Miquelon"
+
+#: ../src/ical-code.c:247
+msgid "America/Monterrey"
+msgstr "Amerika/Monterrey"
+
+#: ../src/ical-code.c:248
+msgid "America/Montevideo"
+msgstr "Amerika/Montevideo"
+
+#: ../src/ical-code.c:249
+msgid "America/Montreal"
+msgstr "Amerika/Montreal"
+
+#: ../src/ical-code.c:250
+msgid "America/Montserrat"
+msgstr "Amerika/Montserrat"
+
+#: ../src/ical-code.c:251
+msgid "America/Nassau"
+msgstr "Amerika/Nassau"
+
+#: ../src/ical-code.c:252
+msgid "America/New_York"
+msgstr "Amerika/New_York"
+
+#: ../src/ical-code.c:253
+msgid "America/Nipigon"
+msgstr "Amerika/Nipigon"
+
+#: ../src/ical-code.c:254
+msgid "America/Nome"
+msgstr "Amerika/Nome"
+
+#: ../src/ical-code.c:255
+msgid "America/Noronha"
+msgstr "Amerika/Noronha"
+
+#: ../src/ical-code.c:256
+msgid "America/Panama"
+msgstr "Amerika/Panama"
+
+#: ../src/ical-code.c:257
+msgid "America/Pangnirtung"
+msgstr "Amerika/Pangnirtung"
+
+#: ../src/ical-code.c:258
+msgid "America/Paramaribo"
+msgstr "Amerika/Paramaribo"
+
+#: ../src/ical-code.c:259
+msgid "America/Phoenix"
+msgstr "Amerika/Phoenix"
+
+#: ../src/ical-code.c:260
+msgid "America/Port-au-Prince"
+msgstr "Amerika/Port-au-Prince"
+
+#: ../src/ical-code.c:261
+msgid "America/Port_of_Spain"
+msgstr "Amerika/Port_of_Spain"
+
+#: ../src/ical-code.c:262
+msgid "America/Porto_Velho"
+msgstr "Amerika/Porto_Velho"
+
+#: ../src/ical-code.c:263
+msgid "America/Puerto_Rico"
+msgstr "Amerika/Puerto_Rico"
+
+#: ../src/ical-code.c:264
+msgid "America/Rainy_River"
+msgstr "Amerika/Rainy_River"
+
+#: ../src/ical-code.c:265
+msgid "America/Rankin_Inlet"
+msgstr "Amerika/Rankin_Inlet"
+
+#: ../src/ical-code.c:266
+msgid "America/Recife"
+msgstr "Amerika/Recife"
+
+#: ../src/ical-code.c:267
+msgid "America/Regina"
+msgstr "Amerika/Regina"
+
+#: ../src/ical-code.c:268
+msgid "America/Rio_Branco"
+msgstr "Amerika/Rio_Branco"
+
+#: ../src/ical-code.c:269
+msgid "America/Rosario"
+msgstr "Amerika/Rosario"
+
+#: ../src/ical-code.c:270
+msgid "America/Santiago"
+msgstr "Amerika/Santiago"
+
+#: ../src/ical-code.c:271
+msgid "America/Santo_Domingo"
+msgstr "Amerika/Santo_Domingo"
+
+#: ../src/ical-code.c:272
+msgid "America/Sao_Paulo"
+msgstr "Amerika/Sao_Paulo"
+
+#: ../src/ical-code.c:273
+msgid "America/Scoresbysund"
+msgstr "Amerika/Scoresbysund"
+
+#: ../src/ical-code.c:274
+msgid "America/Shiprock"
+msgstr "Amerika/Shiprock"
+
+#: ../src/ical-code.c:275
+msgid "America/St_Johns"
+msgstr "Amerika/St_Johns"
+
+#: ../src/ical-code.c:276
+msgid "America/St_Kitts"
+msgstr "Amerika/St_Kitts"
+
+#: ../src/ical-code.c:277
+msgid "America/St_Lucia"
+msgstr "Amerika/St_Lucia"
+
+#: ../src/ical-code.c:278
+msgid "America/St_Thomas"
+msgstr "Amerika/St_Thomas"
+
+#: ../src/ical-code.c:279
+msgid "America/St_Vincent"
+msgstr "Amerika/St_Vincent"
+
+#: ../src/ical-code.c:280
+msgid "America/Swift_Current"
+msgstr "Amerika/Swift_Current"
+
+#: ../src/ical-code.c:281
+msgid "America/Tegucigalpa"
+msgstr "Amerika/Tegucigalpa"
+
+#: ../src/ical-code.c:282
+msgid "America/Thule"
+msgstr "Amerika/Thule"
+
+#: ../src/ical-code.c:283
+msgid "America/Thunder_Bay"
+msgstr "Amerika/Thunder_Bay"
+
+#: ../src/ical-code.c:284
+msgid "America/Tijuana"
+msgstr "Amerika/Tijuana"
+
+#: ../src/ical-code.c:285
+msgid "America/Tortola"
+msgstr "Amerika/Tortola"
+
+#: ../src/ical-code.c:286
+msgid "America/Vancouver"
+msgstr "Amerika/Vancouver"
+
+#: ../src/ical-code.c:287
+msgid "America/Whitehorse"
+msgstr "Amerika/Whitehorse"
+
+#: ../src/ical-code.c:288
+msgid "America/Winnipeg"
+msgstr "Amerika/Winnipeg"
+
+#: ../src/ical-code.c:289
+msgid "America/Yakutat"
+msgstr "Amerika/Yakutat"
+
+#: ../src/ical-code.c:290
+msgid "America/Yellowknife"
+msgstr "Amerika/Yellowknife"
+
+#: ../src/ical-code.c:291
+msgid "Antarctica"
+msgstr "Antarktisz"
+
+#: ../src/ical-code.c:292
+msgid "Antarctica/Casey"
+msgstr "Antarktisz/Casey"
+
+#: ../src/ical-code.c:293
+msgid "Antarctica/Davis"
+msgstr "Antarktisz/Davis"
+
+#: ../src/ical-code.c:294
+msgid "Antarctica/DumontDUrville"
+msgstr "Antarktisz/DumontDUrville"
+
+#: ../src/ical-code.c:295
+msgid "Antarctica/Mawson"
+msgstr "Antarktisz/Mawson"
+
+#: ../src/ical-code.c:296
+msgid "Antarctica/McMurdo"
+msgstr "Antarktisz/McMurdo"
+
+#: ../src/ical-code.c:297
+msgid "Antarctica/Palmer"
+msgstr "Antarktisz/Palmer"
+
+#: ../src/ical-code.c:298
+msgid "Antarctica/South_Pole"
+msgstr "Antarktisz/Déli-sark"
+
+#: ../src/ical-code.c:299
+msgid "Antarctica/Syowa"
+msgstr "Antarktisz/Syowa"
+
+#: ../src/ical-code.c:300
+msgid "Antarctica/Vostok"
+msgstr "Antarktisz/Vostok"
+
+#: ../src/ical-code.c:301
+msgid "Arctic"
+msgstr "Északi-sark"
+
+#: ../src/ical-code.c:302
+msgid "Arctic/Longyearbyen"
+msgstr "Északi-sark/Longyearbyen"
+
+#: ../src/ical-code.c:303
+msgid "Asia"
+msgstr "Ázsia"
+
+#: ../src/ical-code.c:304
+msgid "Asia/Aden"
+msgstr "Ázsia/Áden"
+
+#: ../src/ical-code.c:305
+msgid "Asia/Almaty"
+msgstr "Ázsia/Almaty"
+
+#: ../src/ical-code.c:306
+msgid "Asia/Amman"
+msgstr "Ázsia/Ammán"
+
+#: ../src/ical-code.c:307
+msgid "Asia/Anadyr"
+msgstr "Ázsia/Anadyr"
+
+#: ../src/ical-code.c:308
+msgid "Asia/Aqtau"
+msgstr "Ázsia/Aktau"
+
+#: ../src/ical-code.c:309
+msgid "Asia/Aqtobe"
+msgstr "Ázsia/Aqtobe"
+
+#: ../src/ical-code.c:310
+msgid "Asia/Ashgabat"
+msgstr "Ázsia/Ashgabat"
+
+#: ../src/ical-code.c:311
+msgid "Asia/Baghdad"
+msgstr "Ázsia/Bagdad"
+
+#: ../src/ical-code.c:312
+msgid "Asia/Bahrain"
+msgstr "Ázsia/Bahrain"
+
+#: ../src/ical-code.c:313
+msgid "Asia/Baku"
+msgstr "Ázsia/Baku"
+
+#: ../src/ical-code.c:314
+msgid "Asia/Bangkok"
+msgstr "Ázsia/Bangkok"
+
+#: ../src/ical-code.c:315
+msgid "Asia/Beirut"
+msgstr "Ázsia/Bejrút"
+
+#: ../src/ical-code.c:316
+msgid "Asia/Bishkek"
+msgstr "Ázsia/Bishkek"
+
+#: ../src/ical-code.c:317
+msgid "Asia/Brunei"
+msgstr "Ázsia/Brunei"
+
+#: ../src/ical-code.c:318
+msgid "Asia/Calcutta"
+msgstr "Ázsia/Calcutta"
+
+#: ../src/ical-code.c:319
+msgid "Asia/Chungking"
+msgstr "Ázsia/Chungking"
+
+#: ../src/ical-code.c:320
+msgid "Asia/Colombo"
+msgstr "Ázsia/Colombo"
+
+#: ../src/ical-code.c:321
+msgid "Asia/Damascus"
+msgstr "Ázsia/Damaszkusz"
+
+#: ../src/ical-code.c:322
+msgid "Asia/Dhaka"
+msgstr "Ázsia/Dhaka"
+
+#: ../src/ical-code.c:323
+msgid "Asia/Dili"
+msgstr "Ázsia/Dili"
+
+#: ../src/ical-code.c:324
+msgid "Asia/Dubai"
+msgstr "Ázsia/Dubai"
+
+#: ../src/ical-code.c:325
+msgid "Asia/Dushanbe"
+msgstr "Ázsia/Dushanbe"
+
+#: ../src/ical-code.c:326
+msgid "Asia/Gaza"
+msgstr "Ázsia/Gáza"
+
+#: ../src/ical-code.c:327
+msgid "Asia/Harbin"
+msgstr "Ázsia/Harbin"
+
+#: ../src/ical-code.c:328
+msgid "Asia/Hong_Kong"
+msgstr "Ázsia/Hongkong"
+
+#: ../src/ical-code.c:329
+msgid "Asia/Hovd"
+msgstr "Ázsia/Hovd"
+
+#: ../src/ical-code.c:330
+msgid "Asia/Irkutsk"
+msgstr "Ázsia/Irkutszk"
+
+#: ../src/ical-code.c:331
+msgid "Asia/Istanbul"
+msgstr "Ázsia/Istanbul"
+
+#: ../src/ical-code.c:332
+msgid "Asia/Jakarta"
+msgstr "Ázsia/Jakarta"
+
+#: ../src/ical-code.c:333
+msgid "Asia/Jayapura"
+msgstr "Ázsia/Jayapura"
+
+#: ../src/ical-code.c:334
+msgid "Asia/Jerusalem"
+msgstr "Ázsia/Jeruzsálem"
+
+#: ../src/ical-code.c:335
+msgid "Asia/Kabul"
+msgstr "Ázsia/Kabul"
+
+#: ../src/ical-code.c:336
+msgid "Asia/Kamchatka"
+msgstr "Ázsia/Kamcsatka"
+
+#: ../src/ical-code.c:337
+msgid "Asia/Karachi"
+msgstr "Ázsia/Karachi"
+
+#: ../src/ical-code.c:338
+msgid "Asia/Kashgar"
+msgstr "Ázsia/Kashgar"
+
+#: ../src/ical-code.c:339
+msgid "Asia/Katmandu"
+msgstr "Ázsia/Katmandu"
+
+#: ../src/ical-code.c:340
+msgid "Asia/Krasnoyarsk"
+msgstr "Ázsia/Krasznojarszk"
+
+#: ../src/ical-code.c:341
+msgid "Asia/Kuala_Lumpur"
+msgstr "Ázsia/Kuala_Lumpur"
+
+#: ../src/ical-code.c:342
+msgid "Asia/Kuching"
+msgstr "Ázsia/Kuching"
+
+#: ../src/ical-code.c:343
+msgid "Asia/Kuwait"
+msgstr "Ázsia/Kuvait"
+
+#: ../src/ical-code.c:344
+msgid "Asia/Macao"
+msgstr "Ázsia/Macao"
+
+#: ../src/ical-code.c:345
+msgid "Asia/Magadan"
+msgstr "Ázsia/Magadan"
+
+#: ../src/ical-code.c:346
+msgid "Asia/Manila"
+msgstr "Ázsia/Manila"
+
+#: ../src/ical-code.c:347
+msgid "Asia/Muscat"
+msgstr "Ázsia/Muscat"
+
+#: ../src/ical-code.c:348
+msgid "Asia/Nicosia"
+msgstr "Ázsia/Nicosia"
+
+#: ../src/ical-code.c:349
+msgid "Asia/Novosibirsk"
+msgstr "Ázsia/Novoszibirszk"
+
+#: ../src/ical-code.c:350
+msgid "Asia/Omsk"
+msgstr "Ázsia/Omszk"
+
+#: ../src/ical-code.c:351
+msgid "Asia/Phnom_Penh"
+msgstr "Ázsia/Phnom_Penh"
+
+#: ../src/ical-code.c:352
+msgid "Asia/Pontianak"
+msgstr "Ázsia/Pontianak"
+
+#: ../src/ical-code.c:353
+msgid "Asia/Pyongyang"
+msgstr "Ázsia/Pyongyang"
+
+#: ../src/ical-code.c:354
+msgid "Asia/Qatar"
+msgstr "Ázsia/Katar"
+
+#: ../src/ical-code.c:355
+msgid "Asia/Rangoon"
+msgstr "Ázsia/Rangoon"
+
+#: ../src/ical-code.c:356
+msgid "Asia/Riyadh"
+msgstr "Ázsia/Rijád"
+
+#: ../src/ical-code.c:357
+msgid "Asia/Saigon"
+msgstr "Ázsia/Saigon"
+
+#: ../src/ical-code.c:358
+msgid "Asia/Samarkand"
+msgstr "Ázsia/Samarkand"
+
+#: ../src/ical-code.c:359
+msgid "Asia/Seoul"
+msgstr "Ázsia/Szöul"
+
+#: ../src/ical-code.c:360
+msgid "Asia/Shanghai"
+msgstr "Ázsia/Sanghaj"
+
+#: ../src/ical-code.c:361
+msgid "Asia/Singapore"
+msgstr "Ázsia/Singapore"
+
+#: ../src/ical-code.c:362
+msgid "Asia/Taipei"
+msgstr "Ázsia/Tajpej"
+
+#: ../src/ical-code.c:363
+msgid "Asia/Tashkent"
+msgstr "Ázsia/Tashkent"
+
+#: ../src/ical-code.c:364
+msgid "Asia/Tbilisi"
+msgstr "Ázsia/Tbilisi"
+
+#: ../src/ical-code.c:365
+msgid "Asia/Tehran"
+msgstr "Ázsia/Teherán"
+
+#: ../src/ical-code.c:366
+msgid "Asia/Thimphu"
+msgstr "Ázsia/Thimphu"
+
+#: ../src/ical-code.c:367
+msgid "Asia/Tokyo"
+msgstr "Ázsia/Tokió"
+
+#: ../src/ical-code.c:368
+msgid "Asia/Ujung_Pandang"
+msgstr "Ázsia/Ujung_Pandang"
+
+#: ../src/ical-code.c:369
+msgid "Asia/Ulaanbaatar"
+msgstr "Ázsia/Ulánbátor"
+
+#: ../src/ical-code.c:370
+msgid "Asia/Urumqi"
+msgstr "Ázsia/Urumqi"
+
+#: ../src/ical-code.c:371
+msgid "Asia/Vientiane"
+msgstr "Ázsia/Vientiane"
+
+#: ../src/ical-code.c:372
+msgid "Asia/Vladivostok"
+msgstr "Ázsia/Vlagyivosztok"
+
+#: ../src/ical-code.c:373
+msgid "Asia/Yakutsk"
+msgstr "Ázsia/Jakutszk"
+
+#: ../src/ical-code.c:374
+msgid "Asia/Yekaterinburg"
+msgstr "Ázsia/Jekatyerinburg"
+
+#: ../src/ical-code.c:375
+msgid "Asia/Yerevan"
+msgstr "Ázsia/Jereván"
+
+#: ../src/ical-code.c:376
+msgid "Atlantic"
+msgstr "Atlanti-óceán"
+
+#: ../src/ical-code.c:377
+msgid "Atlantic/Azores"
+msgstr "Atlanti-óceán/Azores"
+
+#: ../src/ical-code.c:378
+msgid "Atlantic/Bermuda"
+msgstr "Atlanti-óceán/Bermuda"
+
+#: ../src/ical-code.c:379
+msgid "Atlantic/Canary"
+msgstr "Atlanti-óceán/Canary"
+
+#: ../src/ical-code.c:380
+msgid "Atlantic/Cape_Verde"
+msgstr "Atlanti-óceán/Cape_Verde"
+
+#: ../src/ical-code.c:381
+msgid "Atlantic/Faeroe"
+msgstr "Atlanti-óceán/Faeroe"
+
+#: ../src/ical-code.c:382
+msgid "Atlantic/Jan_Mayen"
+msgstr "Atlanti-óceán/Jan_Mayen"
+
+#: ../src/ical-code.c:383
+msgid "Atlantic/Madeira"
+msgstr "Atlanti-óceán/Madeira"
+
+#: ../src/ical-code.c:384
+msgid "Atlantic/Reykjavik"
+msgstr "Atlanti-óceán/Reykjavík"
+
+#: ../src/ical-code.c:385
+msgid "Atlantic/South_Georgia"
+msgstr "Atlanti-óceán/South_Georgia"
+
+#: ../src/ical-code.c:386
+msgid "Atlantic/St_Helena"
+msgstr "Atlanti-óceán/Szent_Ilona"
+
+#: ../src/ical-code.c:387
+msgid "Atlantic/Stanley"
+msgstr "Atlanti-óceán/Stanley"
+
+#: ../src/ical-code.c:388
+msgid "Australia"
+msgstr "Ausztrália"
+
+#: ../src/ical-code.c:389
+msgid "Australia/Adelaide"
+msgstr "Ausztrália/Adelaide"
+
+#: ../src/ical-code.c:390
+msgid "Australia/Brisbane"
+msgstr "Ausztrália/Brisbane"
+
+#: ../src/ical-code.c:391
+msgid "Australia/Broken_Hill"
+msgstr "Ausztrália/Broken_Hill"
+
+#: ../src/ical-code.c:392
+msgid "Australia/Darwin"
+msgstr "Ausztrália/Darwin"
+
+#: ../src/ical-code.c:393
+msgid "Australia/Hobart"
+msgstr "Ausztrália/Hobart"
+
+#: ../src/ical-code.c:394
+msgid "Australia/Lindeman"
+msgstr "Ausztrália/Lindeman"
+
+#: ../src/ical-code.c:395
+msgid "Australia/Lord_Howe"
+msgstr "Ausztrália/Lord_Howe"
+
+#: ../src/ical-code.c:396
+msgid "Australia/Melbourne"
+msgstr "Ausztrália/Melbourne"
+
+#: ../src/ical-code.c:397
+msgid "Australia/Perth"
+msgstr "Ausztrália/Perth"
+
+#: ../src/ical-code.c:398
+msgid "Australia/Sydney"
+msgstr "Ausztrália/Sydney"
+
+#: ../src/ical-code.c:399
+msgid "Europe"
+msgstr "Európa"
+
+#: ../src/ical-code.c:400
+msgid "Europe/Amsterdam"
+msgstr "Európa/Amszterdam"
+
+#: ../src/ical-code.c:401
+msgid "Europe/Andorra"
+msgstr "Európa/Andorra"
+
+#: ../src/ical-code.c:402
+msgid "Europe/Athens"
+msgstr "Európa/Athén"
+
+#: ../src/ical-code.c:403
+msgid "Europe/Belfast"
+msgstr "Európa/Belfast"
+
+#: ../src/ical-code.c:404
+msgid "Europe/Belgrade"
+msgstr "Európa/Belgrád"
+
+#: ../src/ical-code.c:405
+msgid "Europe/Berlin"
+msgstr "Európa/Berlin"
+
+#: ../src/ical-code.c:406
+msgid "Europe/Bratislava"
+msgstr "Európa/Pozsony"
+
+#: ../src/ical-code.c:407
+msgid "Europe/Brussels"
+msgstr "Európa/Brüsszel"
+
+#: ../src/ical-code.c:408
+msgid "Europe/Bucharest"
+msgstr "Európa/Bukarest"
+
+#: ../src/ical-code.c:409
+msgid "Europe/Budapest"
+msgstr "Európa/Budapest"
+
+#: ../src/ical-code.c:410
+msgid "Europe/Chisinau"
+msgstr "Európa/Chişinău"
+
+#: ../src/ical-code.c:411
+msgid "Europe/Copenhagen"
+msgstr "Európa/Koppenhága"
+
+#: ../src/ical-code.c:412
+msgid "Europe/Dublin"
+msgstr "Európa/Dublin"
+
+#: ../src/ical-code.c:413
+msgid "Europe/Gibraltar"
+msgstr "Európa/Gibraltár"
+
+#: ../src/ical-code.c:414
+msgid "Europe/Helsinki"
+msgstr "Európa/Helsinki"
+
+#: ../src/ical-code.c:415
+msgid "Europe/Istanbul"
+msgstr "Európa/Isztambul"
+
+#: ../src/ical-code.c:416
+msgid "Europe/Kaliningrad"
+msgstr "Európa/Kalinyingrád"
+
+#: ../src/ical-code.c:417
+msgid "Europe/Kiev"
+msgstr "Európa/Kijev"
+
+#: ../src/ical-code.c:418
+msgid "Europe/Lisbon"
+msgstr "Európa/Lisszabon"
+
+#: ../src/ical-code.c:419
+msgid "Europe/Ljubljana"
+msgstr "Európa/Ljubljana"
+
+#: ../src/ical-code.c:420
+msgid "Europe/London"
+msgstr "Európa/London"
+
+#: ../src/ical-code.c:421
+msgid "Europe/Luxembourg"
+msgstr "Európa/Luxemburg"
+
+#: ../src/ical-code.c:422
+msgid "Europe/Madrid"
+msgstr "Európa/Madrid"
+
+#: ../src/ical-code.c:423
+msgid "Europe/Malta"
+msgstr "Európa/Málta"
+
+#: ../src/ical-code.c:424
+msgid "Europe/Minsk"
+msgstr "Európa/Minszk"
+
+#: ../src/ical-code.c:425
+msgid "Europe/Monaco"
+msgstr "Európa/Monaco"
+
+#: ../src/ical-code.c:426
+msgid "Europe/Moscow"
+msgstr "Európa/Moszkva"
+
+#: ../src/ical-code.c:427
+msgid "Europe/Nicosia"
+msgstr "Európa/Nicosia"
+
+#: ../src/ical-code.c:428
+msgid "Europe/Oslo"
+msgstr "Európa/Oslo"
+
+#: ../src/ical-code.c:429
+msgid "Europe/Paris"
+msgstr "Európa/Párizs"
+
+#: ../src/ical-code.c:430
+msgid "Europe/Prague"
+msgstr "Európa/Prága"
+
+#: ../src/ical-code.c:431
+msgid "Europe/Riga"
+msgstr "Európa/Riga"
+
+#: ../src/ical-code.c:432
+msgid "Europe/Rome"
+msgstr "Európa/Róma"
+
+#: ../src/ical-code.c:433
+msgid "Europe/Samara"
+msgstr "Európa/Szamara"
+
+#: ../src/ical-code.c:434
+msgid "Europe/San_Marino"
+msgstr "Európa/San_Marino"
+
+#: ../src/ical-code.c:435
+msgid "Europe/Sarajevo"
+msgstr "Európa/Szarajevó"
+
+#: ../src/ical-code.c:436
+msgid "Europe/Simferopol"
+msgstr "Európa/Simferopol"
+
+#: ../src/ical-code.c:437
+msgid "Europe/Skopje"
+msgstr "Európa/Szkopje"
+
+#: ../src/ical-code.c:438
+msgid "Europe/Sofia"
+msgstr "Európa/Szófia"
+
+#: ../src/ical-code.c:439
+msgid "Europe/Stockholm"
+msgstr "Európa/Stockholm"
+
+#: ../src/ical-code.c:440
+msgid "Europe/Tallinn"
+msgstr "Európa/Tallinn"
+
+#: ../src/ical-code.c:441
+msgid "Europe/Tirane"
+msgstr "Európa/Tirana"
+
+#: ../src/ical-code.c:442
+msgid "Europe/Uzhgorod"
+msgstr "Európa/Ungvár"
+
+#: ../src/ical-code.c:443
+msgid "Europe/Vaduz"
+msgstr "Európa/Vaduz"
+
+#: ../src/ical-code.c:444
+msgid "Europe/Vatican"
+msgstr "Európa/Vatikán"
+
+#: ../src/ical-code.c:445
+msgid "Europe/Vienna"
+msgstr "Európa/Bécs"
+
+#: ../src/ical-code.c:446
+msgid "Europe/Vilnius"
+msgstr "Európa/Vilnius"
+
+#: ../src/ical-code.c:447
+msgid "Europe/Warsaw"
+msgstr "Európa/Varsó"
+
+#: ../src/ical-code.c:448
+msgid "Europe/Zagreb"
+msgstr "Európa/Zágráb"
+
+#: ../src/ical-code.c:449
+msgid "Europe/Zaporozhye"
+msgstr "Európa/Zaporozsje"
+
+#: ../src/ical-code.c:450
+msgid "Europe/Zurich"
+msgstr "Európa/Zürich"
+
+#: ../src/ical-code.c:451
+msgid "Indian"
+msgstr "Indiai-óceán"
+
+#: ../src/ical-code.c:452
+msgid "Indian/Antananarivo"
+msgstr "Indiai-óceán/Antananarivo"
+
+#: ../src/ical-code.c:453
+msgid "Indian/Chagos"
+msgstr "Indiai-óceán/Chagos"
+
+#: ../src/ical-code.c:454
+msgid "Indian/Christmas"
+msgstr "Indiai-óceán/Karácsony-sziget"
+
+#: ../src/ical-code.c:455
+msgid "Indian/Cocos"
+msgstr "Indiai-óceán/Kókusz-szigetek"
+
+#: ../src/ical-code.c:456
+msgid "Indian/Comoro"
+msgstr "Indiai-óceán/Comoro"
+
+#: ../src/ical-code.c:457
+msgid "Indian/Kerguelen"
+msgstr "Indiai-óceán/Kerguelen"
+
+#: ../src/ical-code.c:458
+msgid "Indian/Mahe"
+msgstr "Indiai-óceán/Mahe"
+
+#: ../src/ical-code.c:459
+msgid "Indian/Maldives"
+msgstr "Indiai-óceán/Maldív-szigetek"
+
+#: ../src/ical-code.c:460
+msgid "Indian/Mauritius"
+msgstr "Indiai-óceán/Mauritius"
+
+#: ../src/ical-code.c:461
+msgid "Indian/Mayotte"
+msgstr "Indiai-óceán/Mayotte"
+
+#: ../src/ical-code.c:462
+msgid "Indian/Reunion"
+msgstr "Indiai-óceán/Réunion"
+
+#: ../src/ical-code.c:463
+msgid "Pacific"
+msgstr "Csendes-óceán"
+
+#: ../src/ical-code.c:464
+msgid "Pacific/Apia"
+msgstr "Csendes-óceán/Apia"
+
+#: ../src/ical-code.c:465
+msgid "Pacific/Auckland"
+msgstr "Csendes-óceán/Auckland"
+
+#: ../src/ical-code.c:466
+msgid "Pacific/Chatham"
+msgstr "Csendes-óceán/Chatham"
+
+#: ../src/ical-code.c:467
+msgid "Pacific/Easter"
+msgstr "Csendes-óceán/Húsvét-sziget"
+
+#: ../src/ical-code.c:468
+msgid "Pacific/Efate"
+msgstr "Csendes-óceán/Efate"
+
+#: ../src/ical-code.c:469
+msgid "Pacific/Enderbury"
+msgstr "Csendes-óceán/Enderbury"
+
+#: ../src/ical-code.c:470
+msgid "Pacific/Fakaofo"
+msgstr "Csendes-óceán/Fakaofo"
+
+#: ../src/ical-code.c:471
+msgid "Pacific/Fiji"
+msgstr "Csendes-óceán/Fidzsi-szigetek"
+
+#: ../src/ical-code.c:472
+msgid "Pacific/Funafuti"
+msgstr "Csendes-óceán/Funafuti"
+
+#: ../src/ical-code.c:473
+msgid "Pacific/Galapagos"
+msgstr "Csendes-óceán/Galápagos-szigetek"
+
+#: ../src/ical-code.c:474
+msgid "Pacific/Gambier"
+msgstr "Csendes-óceán/Gambier"
+
+#: ../src/ical-code.c:475
+msgid "Pacific/Guadalcanal"
+msgstr "Csendes-óceán/Guadalcanal"
+
+#: ../src/ical-code.c:476
+msgid "Pacific/Guam"
+msgstr "Csendes-óceán/Guam"
+
+#: ../src/ical-code.c:477
+msgid "Pacific/Honolulu"
+msgstr "Csendes-óceán/Honolulu"
+
+#: ../src/ical-code.c:478
+msgid "Pacific/Johnston"
+msgstr "Csendes-óceán/Johnston-atoll"
+
+#: ../src/ical-code.c:479
+msgid "Pacific/Kiritimati"
+msgstr "Csendes-óceán/Kiritimati"
+
+#: ../src/ical-code.c:480
+msgid "Pacific/Kosrae"
+msgstr "Csendes-óceán/Kosrae"
+
+#: ../src/ical-code.c:481
+msgid "Pacific/Kwajalein"
+msgstr "Csendes-óceán/Kwajalein"
+
+#: ../src/ical-code.c:482
+msgid "Pacific/Majuro"
+msgstr "Csendes-óceán/Majuro"
+
+#: ../src/ical-code.c:483
+msgid "Pacific/Marquesas"
+msgstr "Csendes-óceán/Marquesas"
+
+#: ../src/ical-code.c:484
+msgid "Pacific/Midway"
+msgstr "Csendes-óceán/Midway-szigetek"
+
+#: ../src/ical-code.c:485
+msgid "Pacific/Nauru"
+msgstr "Csendes-óceán/Nauru"
+
+#: ../src/ical-code.c:486
+msgid "Pacific/Niue"
+msgstr "Csendes-óceán/Niue"
+
+#: ../src/ical-code.c:487
+msgid "Pacific/Norfolk"
+msgstr "Csendes-óceán/Norfolk-sziget"
+
+#: ../src/ical-code.c:488
+msgid "Pacific/Noumea"
+msgstr "Csendes-óceán/Noumea"
+
+#: ../src/ical-code.c:489
+msgid "Pacific/Pago_Pago"
+msgstr "Csendes-óceán/Pago_Pago"
+
+#: ../src/ical-code.c:490
+msgid "Pacific/Palau"
+msgstr "Csendes-óceán/Palau"
+
+#: ../src/ical-code.c:491
+msgid "Pacific/Pitcairn"
+msgstr "Csendes-óceán/Pitcairn-szigetek"
+
+#: ../src/ical-code.c:492
+msgid "Pacific/Ponape"
+msgstr "Csendes-óceán/Ponape"
+
+#: ../src/ical-code.c:493
+msgid "Pacific/Port_Moresby"
+msgstr "Csendes-óceán/Port_Moresby"
+
+#: ../src/ical-code.c:494
+msgid "Pacific/Rarotonga"
+msgstr "Csendes-óceán/Rarotonga"
+
+#: ../src/ical-code.c:495
+msgid "Pacific/Saipan"
+msgstr "Csendes-óceán/Saipan"
+
+#: ../src/ical-code.c:496
+msgid "Pacific/Tahiti"
+msgstr "Csendes-óceán/Tahiti"
+
+#: ../src/ical-code.c:497
+msgid "Pacific/Tarawa"
+msgstr "Csendes-óceán/Tarawa"
+
+#: ../src/ical-code.c:498
+msgid "Pacific/Tongatapu"
+msgstr "Csendes-óceán/Tongatapu"
+
+#: ../src/ical-code.c:499
+msgid "Pacific/Truk"
+msgstr "Csendes-óceán/Truk"
+
+#: ../src/ical-code.c:500
+msgid "Pacific/Wake"
+msgstr "Csendes-óceán/Wake-sziget"
+
+#: ../src/ical-code.c:501
+msgid "Pacific/Wallis"
+msgstr "Csendes-óceán/Wallis"
+
+#: ../src/ical-code.c:502
+msgid "Pacific/Yap"
+msgstr "Csendes-óceán/Yap"
+
+#: ../src/ical-code.c:1329
+msgid "Orage default alarm"
+msgstr "Az Orage alapértelmezett riasztása"
+
+#: ../src/ical-code.c:3023
+#, c-format
+msgid "Build alarm list: Added %d alarms. Processed %d events."
+msgstr ""
+
+#: ../src/ical-code.c:3025
+#, c-format
+msgid "\tFound %d alarms of which %d are active. (Searched %d recurring alarms.)"
+msgstr ""
+
+#. remove since it has ended
+#: ../src/ical-code.c:3542
+msgid "\tRecur ended, moving to archive file."
+msgstr ""
+
+#: ../src/ical-code.c:3604
+msgid "Archiving not enabled. Exiting"
+msgstr ""
+
+#: ../src/ical-code.c:3622
+#, c-format
+msgid "Archiving threshold: %d month(s)"
+msgstr "Archiválás küszöbe: %d hó"
+
+#. yy mon day
+#: ../src/ical-code.c:3625
+#, c-format
+msgid "\tArchiving events, which are older than: %04d-%02d-%02d"
+msgstr ""
+
+#: ../src/ical-code.c:3652
+#, fuzzy, c-format
+msgid "Archiving uid: %s"
+msgstr "Archiválás:  %s\n"
+
+#. VTODO not completed, do not archive
+#: ../src/ical-code.c:3658
+msgid "\tVTODO not complete; not archived"
+msgstr ""
+
+#. it is recurrent event
+#: ../src/ical-code.c:3663
+#, c-format
+msgid "\tRecurring. End year: %04d, month: %02d, day: %02d"
+msgstr ""
+
+#: ../src/ical-code.c:3680
+msgid "Archiving done\n"
+msgstr "Archiválás kész\n"
+
+#. PHASE 1: go through base orage file and remove "repeat" shortcuts
+#: ../src/ical-code.c:3696
+msgid "Starting archive removal."
+msgstr "Archívok törlésének indítása."
+
+#: ../src/ical-code.c:3697
+msgid "\tPHASE 1: reset recurring appointments"
+msgstr ""
+
+#. PHASE 2: go through archive file and add everything back to base orage.
+#. * After that delete the whole arch file
+#: ../src/ical-code.c:3719
+msgid "\tPHASE 2: return archived appointments"
+msgstr ""
+
+#: ../src/ical-code.c:3745
+msgid "Archive removal done\n"
+msgstr "Archívok törlése befejezve.\n"
+
+#: ../src/ical-code.c:3835
+msgid "Starting import file preprocessing"
+msgstr ""
+
+#: ../src/ical-code.c:3870
+msgid "... Patched DCREATED to be CREATED."
+msgstr ""
+
+#: ../src/ical-code.c:3909
+msgid "... Patched timezone to Orage format."
+msgstr ""
+
+#: ../src/ical-code.c:3918
+msgid "Import file preprocessing done"
+msgstr ""
+
+#. show it
+#: ../src/ical-code.c:4506
+msgid "Pick timezone"
+msgstr "Válasszon időzónát"
+
+#: ../src/ical-code.c:4509
+#: ../src/ical-code.c:4537
+msgid "UTC"
+msgstr "UTC"
+
+# XXX [mayday]: Ez bizony az időzónára vonatkozik. A forrás alapján: floating = local = no timezone
+#: ../src/ical-code.c:4510
+#: ../src/ical-code.c:4541
+#: ../src/parameters.c:492
+msgid "floating"
+msgstr "lebegő"
+
+#: ../src/interface.c:284
+msgid "Calendar files"
+msgstr "Naptárfájlok"
+
+#: ../src/interface.c:626
+msgid "Current foreign files"
+msgstr ""
+
+#: ../src/interface.c:638
+msgid "READ ONLY"
+msgstr ""
+
+#: ../src/interface.c:640
+msgid "READ WRITE"
+msgstr ""
+
+#: ../src/interface.c:658
+msgid "***** No foreign files *****"
+msgstr ""
+
+#: ../src/interface.c:968
+msgid "Import/export"
+msgstr ""
+
+#: ../src/interface.c:975
+msgid "Import"
+msgstr ""
+
+#: ../src/interface.c:980
+msgid "Read from file:"
+msgstr "Olvasás fájlból:"
+
+#: ../src/interface.c:997
+msgid ""
+"Separate filenames with comma(,).\n"
+" NOTE: comma is not valid character in filenames for Orage."
+msgstr ""
+
+#: ../src/interface.c:1002
+msgid "Export"
+msgstr ""
+
+#: ../src/interface.c:1007
+msgid "Write to file:"
+msgstr "Fájlba írás:"
+
+#: ../src/interface.c:1028
+#: ../src/interface.c:1040
+msgid "Select"
+msgstr "Válassz"
+
+#: ../src/interface.c:1031
+msgid "All appointments"
+msgstr "Minden találkozó"
+
+#: ../src/interface.c:1044
+msgid "Named appointments: "
+msgstr "Adott találkozó:"
+
+#: ../src/interface.c:1056
+msgid ""
+"Note that only main file appointments are read.\n"
+"Archived and Foreign events are not exported."
+msgstr ""
+
+#: ../src/interface.c:1059
+msgid ""
+"Note that only main file appointments are read.\n"
+"Foreign events are not exported."
+msgstr ""
+
+#: ../src/interface.c:1062
+msgid "You can easily drag these from event-list window."
+msgstr ""
+
+#: ../src/interface.c:1064
+msgid "Orage appointment UIDs separated by commas."
+msgstr ""
+
+#: ../src/interface.c:1070
+msgid "Archive"
+msgstr "Archívok"
+
+#: ../src/interface.c:1078
+#, c-format
+msgid "Archive now (threshold: %d months)"
+msgstr "Archiváld most (küszöbe: %d hó)"
+
+#: ../src/interface.c:1088
+msgid "You can change archive threshold in parameters"
+msgstr ""
+
+#: ../src/interface.c:1095
+msgid "Revert archive now"
+msgstr ""
+
+#: ../src/interface.c:1101
+msgid ""
+"Return all archived events into main orage file and remove arch file.\n"
+"This is useful for example when doing export and moving orage\n"
+"appointments to another system."
+msgstr ""
+
+#: ../src/interface.c:1111
+msgid "Orage files"
+msgstr "Orage fájlok"
+
+#: ../src/interface.c:1118
+msgid "Orage main calendar file"
+msgstr "Orage fő naptár fájl"
+
+#: ../src/interface.c:1123
+#: ../src/interface.c:1188
+msgid "Current file"
+msgstr "Jelen fájl"
+
+#: ../src/interface.c:1130
+#: ../src/interface.c:1195
+msgid "New file"
+msgstr "Új fájl"
+
+#: ../src/interface.c:1146
+#: ../src/interface.c:1212
+msgid "Action options"
+msgstr ""
+
+#: ../src/interface.c:1149
+#: ../src/interface.c:1215
+msgid "Rename"
+msgstr ""
+
+#: ../src/interface.c:1153
+msgid ""
+"Orage internal file rename only.\n"
+"Does not touch external filesystem at all.\n"
+"New file must exist."
+msgstr ""
+
+#: ../src/interface.c:1157
+#: ../src/interface.c:1220
+msgid "Copy"
+msgstr ""
+
+#: ../src/interface.c:1161
+msgid "Current file is copied and stays unmodified in the old place."
+msgstr ""
+
+#: ../src/interface.c:1165
+#: ../src/interface.c:1225
+msgid "Move"
+msgstr ""
+
+#: ../src/interface.c:1169
+msgid "Current file is moved and vanishes from the old place."
+msgstr ""
+
+#: ../src/interface.c:1183
+msgid "Archive file"
+msgstr "Archív fájl"
+
+#: ../src/interface.c:1246
+msgid "Foreign files"
+msgstr ""
+
+#: ../src/interface.c:1253
+msgid "Add new foreign file"
+msgstr ""
+
+#: ../src/interface.c:1258
+msgid "Foreign file:"
+msgstr ""
+
+#: ../src/interface.c:1276
+msgid "Options"
+msgstr "Lehetőségek"
+
+#: ../src/interface.c:1278
+msgid "Read only"
+msgstr ""
+
+#: ../src/interface.c:1286
+msgid ""
+"Set this if you want to make sure that this file is never modified by Orage.\n"
+"Note that modifying foreign files may make them incompatible with the original tool, where they came from!"
+msgstr ""
+
+#: ../src/interface.c:1300
+msgid "Exchange data - Orage"
+msgstr ""
+
+#: ../src/main.c:192
+#, c-format
+msgid ""
+"\tThis is %s version %s for Xfce %s\n"
+"\n"
+msgstr ""
+
+#: ../src/main.c:194
+#, c-format
+msgid "\tReleased under the terms of the GNU General Public License.\n"
+msgstr ""
+
+#: ../src/main.c:195
+#, c-format
+msgid "\tCompiled against GTK+-%d.%d.%d, "
+msgstr "\tGTK+ -al fordítva-%d.%d.%d, "
+
+#: ../src/main.c:197
+#, c-format
+msgid "using GTK+-%d.%d.%d.\n"
+msgstr "GTK+ használatával-%d.%d.%d\n"
+
+#: ../src/main.c:200
+#, c-format
+msgid "\tUsing DBUS for import.\n"
+msgstr "\tDBUS használata importáláshoz.\n"
+
+#: ../src/main.c:202
+#, c-format
+msgid "\tNot using DBUS. Import works only partially.\n"
+msgstr "\t DBUS nincs használatban. Az import csak részben működik.\n"
+
+#: ../src/main.c:205
+#, c-format
+msgid "\tUsing libnotify.\n"
+msgstr "\tLibnotify-t használja.\n"
+
+#: ../src/main.c:207
+#, c-format
+msgid "\tNot using libnotify.\n"
+msgstr "\tLibnotify nincs használatban.\n"
+
+#: ../src/main.c:210
+#, fuzzy, c-format
+msgid "\tUsing automatic archiving.\n"
+msgstr "\tAutomatikus archiválást használ.\n"
+
+#: ../src/main.c:212
+#, c-format
+msgid "\tNot using archiving.\n"
+msgstr "\tNincs automatikus archiválás.\n"
+
+#: ../src/main.c:225
+#, c-format
+msgid ""
+"Usage: orage [options] [files]\n"
+"\n"
+msgstr ""
+"Használat: orage [opciók] [fájlok]\n"
+"\n"
+
+#: ../src/main.c:226
+#, c-format
+msgid "Options:\n"
+msgstr "Lehetőségek:\n"
+
+#: ../src/main.c:227
+#, c-format
+msgid "--version (-v) \t\tshow version of orage\n"
+msgstr "--version (-v) \t\tOrage verzió megjelenítése\n"
+
+#: ../src/main.c:228
+#, c-format
+msgid "--help (-h) \t\tprint this text\n"
+msgstr "--help (-h)\t\tez a szöveg\n"
+
+#: ../src/main.c:229
+#, c-format
+msgid "--preferences (-p) \tshow preferences form\n"
+msgstr "--preferences (-p) \tbeállítások mutatása\n"
+
+#: ../src/main.c:230
+#, c-format
+msgid "--toggle (-t) \t\tmake orage visible/unvisible\n"
+msgstr ""
+"--toggle (-t) \t\tOrage látható\n"
+"em látható\n"
+
+#: ../src/main.c:231
+#, c-format
+msgid "--add-foreign (-a) file [RW] \tadd a foreign file\n"
+msgstr "--add-foreign (-a) file [RW] \t idegen fájl hozzáadása\n"
+
+#: ../src/main.c:232
+#, c-format
+msgid "--remove-foreign (-r) file \tremove a foreign file\n"
+msgstr "--remove-foreign (-r) file \tidegen fájl eltávolítása\n"
+
+#: ../src/main.c:234
+#, c-format
+msgid "files=ical files to load into orage\n"
+msgstr "files=ical fájlok [a naptárfájlok ált. neve] betöltése az Orage-ba\n"
+
+#: ../src/main.c:236
+#, c-format
+msgid "\tdbus not included in orage. \n"
+msgstr "\tdbus nincs az Orage-ban. \n"
+
+#: ../src/main.c:237
+#, c-format
+msgid "\twithout dbus [files] and foreign file options(-a & -r) can only be used when starting orage \n"
+msgstr "\twithout dbus [fájlok] és idegen fájl opciók (-a és -r) csak az Orage indításakor használhatók \n"
+
+#: ../src/main.c:380
+#, c-format
+msgid ""
+"\n"
+"Unknown option %s\n"
+"\n"
+msgstr ""
+"\n"
+"Ismeretlen opció %s\n"
+"\n"
+
+#: ../src/mainbox.c:269
+msgid "_Exchange data"
+msgstr "_Adatcsere"
+
+#. Edit menu
+#: ../src/mainbox.c:280
+msgid "_Edit"
+msgstr "_Szerkesztés"
+
+#: ../src/mainbox.c:290
+msgid "View selected _date"
+msgstr "Kijelölt _dátum megtekintése"
+
+#: ../src/mainbox.c:293
+msgid "View selected _week"
+msgstr "Kijelölt _hét megtekintése"
+
+#: ../src/mainbox.c:299
+msgid "Select _Today"
+msgstr "Ugrás mára"
+
+#. Help menu
+#: ../src/mainbox.c:303
+msgid "_Help"
+msgstr "_Súgó"
+
+#: ../src/mainbox.c:401
+msgid "Never"
+msgstr "Soha"
+
+#: ../src/mainbox.c:406
+#, c-format
+msgid ""
+"Title: %s\n"
+" Start:\t%s\n"
+" Due:\t%s\n"
+" Done:\t%s\n"
+"Note:\n"
+"%s"
+msgstr ""
+"Cím: %s\n"
+" Kezdet:\t%s\n"
+" Esedékes:\t%s\n"
+" Kész:\t%s\n"
+"Megjegyzés:\n"
+"%s"
+
+#: ../src/mainbox.c:412
+#, c-format
+msgid ""
+"Title: %s\n"
+" Start:\t%s\n"
+" End:\t%s\n"
+" Note:\n"
+"%s"
+msgstr ""
+"Cím: %s\n"
+" Kezdet:\t%s\n"
+" Befejezés:\t%s\n"
+" Megjegyzés:\n"
+"%s"
+
+#: ../src/mainbox.c:487
+msgid "<b>To do:</b>"
+msgstr "<b>Tennivalók:</b>"
+
+#: ../src/mainbox.c:516
+#, c-format
+msgid "<b>Events for %s:</b>"
+msgstr "<b>Események %s:</b>"
+
+#: ../src/parameters.c:472
+msgid "Main setups"
+msgstr "Fő beállítások"
+
+#: ../src/parameters.c:478
+msgid "Timezone"
+msgstr "Időzóna"
+
+#: ../src/parameters.c:497
+msgid "You should always define your local timezone."
+msgstr "Mindig állítsa be a helyi időzónát."
+
+#: ../src/parameters.c:506
+msgid "Archive threshold (months)"
+msgstr "Archiválás küszöbe (hónapok)"
+
+#: ../src/parameters.c:516
+msgid "(0 = no archiving)"
+msgstr "(0 = nincs archiválás)"
+
+#: ../src/parameters.c:519
+msgid "Archiving is used to save time and space when handling events."
+msgstr "Az archiválás időt és lemezterületet takarít meg az események kezelésekor."
+
+#: ../src/parameters.c:528
+msgid "Sound command"
+msgstr "Hang parancsa"
+
+#: ../src/parameters.c:543
+msgid "This command is given to shell to make sound in alarms."
+msgstr "Ez a parancs a héjnak lesz átadva, hogy hangot adjon a riasztás."
+
+#: ../src/parameters.c:558
+msgid "Display"
+msgstr "Megjelenítés"
+
+#: ../src/parameters.c:565
+msgid "Calendar main window"
+msgstr "Naptár főablak"
+
+#: ../src/parameters.c:570
+msgid "Show borders"
+msgstr "Keretek mutatása"
+
+#: ../src/parameters.c:577
+msgid "Show menu"
+msgstr "Menü mutatása"
+
+#: ../src/parameters.c:584
+msgid "Show todo list"
+msgstr "Tennivalók mutatása"
+
+#: ../src/parameters.c:591
+msgid "Show event list"
+msgstr "Események mutatása"
+
+#: ../src/parameters.c:598
+msgid "Set sticked"
+msgstr "Legyen ragadós"
+
+#: ../src/parameters.c:605
+msgid "Set on top"
+msgstr "Mindig felül"
+
+#: ../src/parameters.c:626
+msgid "Show in taskbar"
+msgstr "Látszik a feladatlistában"
+
+#: ../src/parameters.c:633
+msgid "Show in pager"
+msgstr "Látszik a lapozóban"
+
+#: ../src/parameters.c:640
+msgid "Show in systray"
+msgstr "Látszik a rendszertálcán"
+
+#: ../src/parameters.c:657
+msgid "Calendar start"
+msgstr "Naptár indítása"
+
+#: ../src/parameters.c:674
+msgid "Hide"
+msgstr "Rejtett"
+
+#: ../src/parameters.c:686
+msgid "Minimized"
+msgstr "Minimalizált"
+
+#: ../src/parameters.c:716
+msgid "Extra setups"
+msgstr "Különleges beállítások"
+
+#: ../src/parameters.c:723
+#: ../src/parameters.c:728
+msgid "Select always today"
+msgstr "Mindig mát válassz"
+
+#: ../src/parameters.c:734
+msgid "When showing main calendar, set pointer to either previously selected day or always to current day."
+msgstr "Amikor a naptárat mutatja, a mutatót vagy az előzőleg kiválasztott vagy mindig a mai napra állítja. "
+
+#: ../src/parameters.c:765
+msgid "Dynamic icon size"
+msgstr "Dinamikus ikon mérete"
+
+#: ../src/parameters.c:778
+#: ../src/parameters.c:795
+msgid "(0 = use static icon)"
+msgstr "(0 = statikus ikont használ)"
+
+#: ../src/parameters.c:781
+msgid "Dynamic icon shows current day and month. It is visible only in tray. If tray is too small for dynamic icon size, Orage switches automatically back to static icon."
+msgstr "A dinamikus ikon a mai napot és hónapot mutatja és csak a Tálcán látható. Ha a Tálca túl keskeny, az Orage automatikusan a statikus ikont mutatja."
+
+#: ../src/parameters.c:804
+msgid "Main Calendar double click shows"
+msgstr "A naptár főablakban dupla kattintásra megjelenik a"
+
+#: ../src/parameters.c:809
+msgid "Days view"
+msgstr "Napi nézet"
+
+#: ../src/parameters.c:821
+msgid "Event list"
+msgstr "Esemény lista"
+
+#: ../src/parameters.c:846
+msgid "Orage Preferences"
+msgstr "Orage beállításai"
+
+#: ../src/reminder.c:425
+msgid "Reminder "
+msgstr "Emlékeztető"
+
+#: ../src/reminder.c:449
+msgid "Open"
+msgstr "Megnyit"
+
+#: ../src/reminder.c:539
+msgid "Reminder - Orage"
+msgstr "Emlékeztető - Orage"
+
+#: ../src/reminder.c:844
+msgid "Next active alarms:"
+msgstr "Következő aktív riasztás"
+
+#: ../src/reminder.c:872
+#, c-format
+msgid ""
+"\n"
+"%02d d %02d h %02d min to: %s"
+msgstr ""
+"\n"
+"%02d nap %02d óra %02d perc: %s-ig"
+
+#: ../src/reminder.c:880
+#, c-format
+msgid ""
+"\n"
+"No active alarms found"
+msgstr ""
+"\n"
+"No active alarms found"
+
+#: ../src/tray_icon.c:341
+msgid "New appointment"
+msgstr "Új találkozó"
+
+#: ../src/tray_icon.c:361
+msgid "About Orage"
+msgstr "Az Orage névjegye"
+
+#: ../panel-plugin/orageclock.desktop.in.in.h:1
+msgid "Orage Clock"
+msgstr "Orage óra"
+
+#: ../panel-plugin/orageclock.desktop.in.in.h:2
+msgid "What time and date is it?"
+msgstr "Mi a pontos idő és dátum?"
+
+#: ../plugin/xfce-xfcalendar-settings.desktop.in.h:1
+#: ../xfcalendar.desktop.in.h:1
+msgid "Calendar"
+msgstr "Naptár"
+
+#: ../plugin/xfce-xfcalendar-settings.desktop.in.h:2
+msgid "Calendar Settings"
+msgstr "Naptár beállításai"
+
+#: ../plugin/xfce-xfcalendar-settings.desktop.in.h:3
+msgid "Settings for the Xfce 4 Calendar Application"
+msgstr "Az Xfce 4 naptárának beállításai"
+
+#: ../plugin/xfce-xfcalendar-settings.desktop.in.h:4
+msgid "Xfce 4 Calendar Settings"
+msgstr "Xfce 4 naptár beállításai"
+
+#: ../xfcalendar.desktop.in.h:2
+msgid "Desktop calendar"
+msgstr "Asztali naptár"
+
+#~ msgid "Monday"
+#~ msgstr "Hétfő"
+#~ msgid "Tuesday"
+#~ msgstr "Kedd"
+#~ msgid "Wednesday"
+#~ msgstr "Szerda"
+#~ msgid "Thursday"
+#~ msgstr "Csütörtök"
+#~ msgid "Friday"
+#~ msgstr "Péntek"
+#~ msgid "Sunday"
+#~ msgstr "Vasárnap"
+
+#, fuzzy
+#~ msgid "Days"
+#~ msgstr "nap"
+#~ msgid "normal"
+#~ msgstr "normál"
+#~ msgid "%m/%d/%Y"
+#~ msgstr "%Y-%m-%d"
+
+#, fuzzy
+#~ msgid "Calendar Files"
+#~ msgstr "Naptárfájlok"
+#~ msgid "Calendar borders"
+#~ msgstr "Naptár kerete"
+#~ msgid "Displayed"
+#~ msgstr "Látszik"
+#~ msgid "Hidden"
+#~ msgstr "Rejtett"
+#~ msgid "3 months"
+#~ msgstr "3 hónap"
+#~ msgid "6 months"
+#~ msgstr "6 hónap"
+#~ msgid "1 year"
+#~ msgstr "1 év"
+#~ msgid "Application"
+#~ msgstr "Alkalmazás"
+#~ msgid "Button Label|Orage"
+#~ msgstr "Naptár (Orage)"
+#~ msgid "Core developer"
+#~ msgstr "Fő fejlesztő"
+#~ msgid ""
+#~ "You will remove all information \n"
+#~ "associated with this date."
+#~ msgstr ""
+#~ "Törölve lesz az ehhez a dátumhoz\n"
+#~ "kapcsolódó összes adat."
+#~ msgid "Clear"
+#~ msgstr "Törlés"
+

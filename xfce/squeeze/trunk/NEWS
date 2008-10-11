@@ -1,0 +1,23 @@
+
+
+0.2.0
+=====
+
+- Added throbber to indicate activity (Bug #2641)
+- Added (temporary) application icons
+- Using a new command interface to prevent crashes caused in 0.1.0 with
+  compressed tar archives. (Bug #2848)
+- Using d-bus to tell thunar to launch an application for opening files
+  from inside an archive.
+- Prevent trying to create rar archives when rar isn't installed, opening
+  rar archives is still supported using the free unrar. (Bug #2774)
+- Added an extra layer to keep the internals of libsqueeze safe of direct
+  modification.
+- Added and updated translations for Belarusian, Catalan, Czech, German,
+  Greek, English (Great Brittain), Finnish, French, Hungarian, Dutch,
+  Panjabi, Albanian, Turkish and Ukranian languages.
+
+0.1.0
+=====
+
+- Initial release

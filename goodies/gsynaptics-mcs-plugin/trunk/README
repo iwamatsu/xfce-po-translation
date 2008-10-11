@@ -1,0 +1,1 @@
+gsynaptics-mcs-plugin is a simple MCS plugin for Xfce that starts gsynaptics when invoked and launches gsynaptics-init once loaded by the MCS manager.

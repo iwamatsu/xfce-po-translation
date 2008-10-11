@@ -1,0 +1,119 @@
+# Czech translations for xfce4-xkb-plugin package.
+# Copyright (C) 2006 THE xfce4-xkb-plugin'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfce4-xkb-plugin package.
+# Michal Várady <miko.vaji@gmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-xkb-plugin 0.4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-09-24 16:14+0300\n"
+"PO-Revision-Date: 2007-01-20 13:16+0100\n"
+"Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
+"Language-Team: Czech <translation-team-cs@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: ../panel-plugin/xkb-settings-dialog.c:361
+msgid ""
+"XKB configuration modifications are\n"
+"disabled from the config file.\n"
+"\n"
+"See the README file for more information."
+msgstr ""
+
+#: ../panel-plugin/xkb-settings-dialog.c:387
+#: ../panel-plugin/xkb-plugin.desktop.in.in.h:1
+#, fuzzy
+msgid "Keyboard Layouts"
+msgstr "Přepínač rozložení klávesnice"
+
+#: ../panel-plugin/xkb-settings-dialog.c:408
+msgid "Keyboard model:"
+msgstr ""
+
+#: ../panel-plugin/xkb-settings-dialog.c:432
+msgid "Change layout option:"
+msgstr ""
+
+#: ../panel-plugin/xkb-settings-dialog.c:456
+#, fuzzy
+msgid "Keyboard layouts:"
+msgstr "Přepínač rozložení klávesnice"
+
+#. ***
+#: ../panel-plugin/xkb-settings-dialog.c:528
+#, fuzzy
+msgid "Show layout as:"
+msgstr "Zobrazit rozvržení jako"
+
+#: ../panel-plugin/xkb-settings-dialog.c:533
+msgid "image"
+msgstr "obrázek"
+
+#: ../panel-plugin/xkb-settings-dialog.c:534
+msgid "text"
+msgstr "text"
+
+#: ../panel-plugin/xkb-settings-dialog.c:538
+#, fuzzy
+msgid "Manage layout:"
+msgstr "Výchozí rozvržení:"
+
+#: ../panel-plugin/xkb-settings-dialog.c:543
+msgid "globally"
+msgstr ""
+
+#: ../panel-plugin/xkb-settings-dialog.c:544
+msgid "per window"
+msgstr ""
+
+#: ../panel-plugin/xkb-settings-dialog.c:545
+#, fuzzy
+msgid "per application"
+msgstr "Nastavení pro jednotlivé aplikace"
+
+#: ../panel-plugin/xkb-settings-dialog.c:584
+#, fuzzy
+msgid "Keyboard Layouts Plugin"
+msgstr "Přepínač rozložení klávesnice"
+
+#: ../panel-plugin/xkb-settings-dialog.c:590
+msgid "Allows you to configure and use multiple keyboard layouts."
+msgstr ""
+
+#: ../panel-plugin/xkb-settings-dialog.c:594
+msgid "Other plugins available here"
+msgstr "Další zásuvné moduly jsou dostupné zde"
+
+#: ../panel-plugin/xkb-settings-dialog.c:643
+msgid "Add layout"
+msgstr ""
+
+#: ../panel-plugin/xkb-plugin.desktop.in.in.h:2
+#, fuzzy
+msgid "Keyboard layouts setup and switch plugin"
+msgstr "Přepínač rozložení klávesnice"
+
+#~ msgid ""
+#~ "Allows you to switch the keyboard layout and\n"
+#~ "displays the currently selected layout."
+#~ msgstr ""
+#~ "Umožňuje Vám přepnout rozložení klávesnice\n"
+#~ "a zobrazuje aktuálně používané rozložení."
+
+#~ msgid "Configure Keyboard Layout Switcher"
+#~ msgstr "Konfigurovat přepínač rozvržení klávesnice"
+
+#~ msgid "_Remember layout for each application"
+#~ msgstr "_Pamatovat si rozvržení pro každou aplikaci zvlášť"
+
+#~ msgid "Button to switch the X keyboard layout"
+#~ msgstr "Tlačítko pro přepínání rozložení klávesnice"
+
+#~ msgid ""
+#~ "Displays the current keyboard layout and switches the layout when clicked"
+#~ msgstr ""
+#~ "Zobrazuje aktuální rozložení klávesnice a přepíná rozvržení při kliknutí"

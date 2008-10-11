@@ -1,0 +1,1610 @@
+# Traditional Chinese translations for xfmedia package.
+# Copyright (C) 2004-2006 Brian J. Tarricone.
+# This file is distributed under the same license as the xfmedia package.
+# Hydonsingore Cia <hydonsingore@educities.edu.tw>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfmedia 0.10.0svn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-06-16 22:22+0900\n"
+"PO-Revision-Date: 2006-06-12 22:01+0800\n"
+"Last-Translator: Hydonsingore Cia <hydonsingore@educities.edu.tw>\n"
+"Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:102
+#, c-format
+msgid "Status:                  %s\n"
+msgstr "狀態：\t\t\t %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:106
+#, c-format
+msgid "Now Playing:             %s\n"
+msgstr "現正播放：\t\t %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:111
+#, c-format
+msgid "Filename:                %s\n"
+msgstr "檔名：\t\t\t %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:112
+#: ../plugins/infopipe/xfmedia-infopipe.c:127
+#: ../plugins/infopipe/xfmedia-infopipe.c:138
+msgid "(none)"
+msgstr "(無)"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:115
+#, c-format
+msgid "Track Position:          %d\n"
+msgstr "音軌位置：               %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:119
+#, c-format
+msgid "Track Length:            %d\n"
+msgstr "音軌長度                 %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:126
+#, c-format
+msgid ""
+"Audio Codec:             %s\n"
+"Audio Bitrate:           %d\n"
+"Audio Sample Rate:       %d\n"
+"Audio Channels:          %d\n"
+"Audio Bits Per Sample:   %d\n"
+msgstr ""
+"音訊編碼：\t\t  %s\n"
+"音訊位元率：\t\t  %d\n"
+"音訊取樣率：\t\t  %d\n"
+"音訊聲道數：\t\t  %d\n"
+"音訊樣本位元數：\t  %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:137
+#, c-format
+msgid ""
+"Video Codec:            %s\n"
+"Video Bitrate:          %d\n"
+"Video Frames Per Second: %.02f\n"
+"Video Frame Size:        %dx%d\n"
+"Video Aspect Ratio:      %.02f\n"
+msgstr ""
+"視訊編碼：\t\t %s\n"
+"視訊位元率：\t\t %d\n"
+"視訊 Frames Per Second:  %.02f\n"
+"視訊畫面尺寸\t\t  %dx%d\n"
+"視訊畫面比例\t\t  %.02f\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:144
+#, c-format
+msgid "Playlist Length:         %d\n"
+msgstr "播放清單長度\t\t %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:148
+#, c-format
+msgid "Current Playlist Index:  %d\n"
+msgstr "目前播放清單索引：      %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:234
+#, c-format
+msgid "Xfmedia-Infopipe: Unable to delete file '%s'."
+msgstr "Xfmedia-Infopipe: 無法刪除檔案 '%s' 。"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:245
+#, c-format
+msgid "Xfmedia-Infopipe: Unable to create pipe '%s'."
+msgstr "Xfmedia-Infopipe: 無法產生pipe '%s' 。"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:262
+msgid "Xfmedia Infopipe"
+msgstr "Xfmeida Infopipe"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:264
+msgid ""
+"The Infopipe plugin creates a pipe in /tmp that you can use to retrieve "
+"information about the currently playing track."
+msgstr ""
+"Infopipe plugin在 /tmp 中產生一個 pipe ，您可以從該處取得目前播放曲目的資訊。"
+
+#: ../src/equaliser.c:132
+#, fuzzy
+msgid "Equalizer"
+msgstr "平衡器(_E)..."
+
+#: ../src/equaliser.c:175
+msgid "Preamp"
+msgstr ""
+
+#: ../src/http.c:95
+#, c-format
+msgid "http: failed to open socket: %s\n"
+msgstr ""
+
+#: ../src/http.c:105
+#, c-format
+msgid "http: cannot connect to host\n"
+msgstr ""
+
+#: ../src/http.c:121
+#, c-format
+msgid "http: unable to resolve '%s'\n"
+msgstr ""
+
+#: ../src/http.c:133
+#, c-format
+msgid "http: unable to connect to '%s'\n"
+msgstr ""
+
+#: ../src/http.c:311 ../src/http.c:330
+msgid "URL parse error"
+msgstr ""
+
+#: ../src/http.c:322 ../src/http.c:340
+msgid "proxy authentication error"
+msgstr ""
+
+#: ../src/http.c:360
+msgid "host connect error"
+msgstr ""
+
+#: ../src/http.c:399
+msgid "couldn't send request"
+msgstr ""
+
+#: ../src/http.c:420
+msgid "read error"
+msgstr ""
+
+#: ../src/http.c:446
+msgid "invalid HTTP response"
+msgstr ""
+
+#: ../src/http.c:454
+msgid "HTTP 3xx redirection not implemented"
+msgstr ""
+
+#: ../src/http.c:461
+msgid "HTTP status is not 2xx"
+msgstr ""
+
+#: ../src/http.c:480
+msgid "HTTP 'Location:' redirection not implemented"
+msgstr ""
+
+#. FIXME: report errno, and possibly in a window
+#: ../src/http.c:534
+#, c-format
+msgid "http: read error\n"
+msgstr ""
+
+#: ../src/main.c:227 ../src/xfmedia-remote.c:102
+#, c-format
+msgid ""
+"Xfmedia %s.  Released under the terms of the GNU GPL.  See the COPYING\n"
+"file for details.\n"
+"\n"
+msgstr ""
+"Xfmedia %s. 以 GNU GPL 授權發行。詳情請見 COPYING 檔案\n"
+"。\n"
+
+#: ../src/main.c:228
+#, c-format
+msgid ""
+"Usage: %s [options] [files]\n"
+"\n"
+msgstr ""
+"用法： %s [選項] [檔案]\n"
+"\n"
+
+#: ../src/main.c:229 ../src/xfmedia-remote.c:104
+msgid "    -h, --help           Print this help message and exit.\n"
+msgstr "    -h, --help \t\t 顯示此說明訊息並離開\n"
+
+#: ../src/main.c:230 ../src/xfmedia-remote.c:105
+msgid "    -V, --version        Print version information and exit.\n"
+msgstr "    -V, --version\t 顯示版本資訊並離開\n"
+
+#: ../src/main.c:231
+msgid ""
+"    -v, --verbose        Instruct xine to print useful status information.\n"
+msgstr "    -v, --verbose\t  指示 xine 顯示有用的狀態資訊\n"
+
+#: ../src/main.c:232
+msgid ""
+"    --debug              Instruct xine to print detailed debug information.\n"
+msgstr "    --debug\t\t  指示 xine 顯示詳細的除錯資訊\n"
+
+#: ../src/main.c:233
+msgid ""
+"    -f, --fullscreen     Start xfmedia's video window in fullscreen mode.\n"
+msgstr "    -f, --fullscreen     以全螢幕模式啟用 xfmedia 視訊視窗\n"
+
+#: ../src/main.c:234
+msgid ""
+"    -p, --autoplay       Start playing when Xfmedia starts.  (This is the\n"
+"                         default if xfmedia is given filenames on the "
+"command\n"
+"                         line.)\n"
+msgstr ""
+"    -p, --autoplay\t  當 Xfmeida 啟動時便開始播放。 (如果有在命令列中告\n"
+"\t\t\t  知 xfmedia 要播放的檔名，這會是預設的情形。)\n"
+
+#: ../src/main.c:237
+msgid "    -c, --clear-playlist Start xfmedia with an empty playlist.\n"
+msgstr "    -c, --clear-playlist 啟動 xfmedia ，播放清單留白。\n"
+
+#: ../src/main.c:238
+msgid "    --audio-out=DRIVER   Specify the audio output driver to use.\n"
+msgstr "    --audio-out=DRIVER   指定要使用的音訊輸出驅動程式\n"
+
+#: ../src/main.c:239
+msgid "    --video-out=DRIVER   Specify the video output driver to use.\n"
+msgstr "    --video-out=DRIVER   指定要使用的視訊輸出驅動程式\n"
+
+#: ../src/main.c:240
+msgid ""
+"    --vwin-geometry=WxH[+X+Y]\n"
+"                         Specify a fixed size and/or position for xfmedia's\n"
+"                         video window.\n"
+msgstr ""
+"    --vwin-geometry=WxH[+X+Y]\n"
+"\t\t\t  指定 xfmedia 視訊視窗為固定的尺寸和/或位置\n"
+
+#: ../src/main.c:315 ../src/xfmedia-remote.c:167
+#, c-format
+msgid ""
+"Xfmedia version %s, Copyright (c) Brian Tarricone, <bjt23@cornell.edu>\n"
+msgstr "Xfmedia 版本 %s, Copyright (c) Brian Tarricone, <bjt23@cornell.edu>\n"
+
+#: ../src/main.c:316 ../src/xfmedia-remote.c:168
+msgid "Released under the terms of the GNU General Public License.\n"
+msgstr "以 GNU General Public License 授權發行\n"
+
+#: ../src/main.c:317
+#, c-format
+msgid "Compiled against xine-lib %s, using xine-lib %s.\n"
+msgstr "根據 xine-lib %s 編譯, 使用 xine-lib %s.\n"
+
+#: ../src/main.c:319
+#, c-format
+msgid "Compiled against Xfce %d.%d.%d, using Xfce %s.\n"
+msgstr "根據 Xfce %d.%d.%d 編譯, 使用 Xfce %s.\n"
+
+#: ../src/main.c:354
+msgid "The option --audio-out requires an argument.\n"
+msgstr "選項 --audio-out 需要一個引數\n"
+
+#: ../src/main.c:363
+msgid "The option --video-out requires an argument.\n"
+msgstr "選項 --vedio-out 需要一個引數\n"
+
+#: ../src/mainwin-callbacks.c:130
+msgid "Unable to play file."
+msgstr "無法播放檔案"
+
+#: ../src/mainwin-callbacks.c:131
+msgid ""
+"Xfmedia was unable to play the selected file.  Be sure that the file exists "
+"and that you have permission to access it."
+msgstr "Xfmedia 無法播放所選取的檔案，請確認檔案存在且您有讀取該檔案的權限。"
+
+#: ../src/mainwin-callbacks.c:222
+msgid "Metadata Changed"
+msgstr "Metadata 已變更"
+
+#: ../src/mainwin-callbacks.c:224
+msgid "You have edited this file's metadata."
+msgstr "您已經編輯此檔案的metadata"
+
+#: ../src/mainwin-callbacks.c:225
+msgid ""
+"Changes will be lost unless they are saved.  Do you wish to save changes?"
+msgstr "這些變更將會遺失除非您將之儲存，您要儲存變更嗎？"
+
+#: ../src/mainwin-callbacks.c:226
+msgid "_Discard Changes"
+msgstr "忽略變更(_D)"
+
+#: ../src/mainwin-callbacks.c:227
+msgid "_Save Changes"
+msgstr "儲存變更(_S)"
+
+#: ../src/mainwin-callbacks.c:285
+#, c-format
+msgid ""
+"Xfmedia was unable to open '%s'.  Be sure that the file exists and that you "
+"have permission to access it."
+msgstr "Xfmedia 無法開啟 '%s' ，請確認檔案存在且您有讀取該檔案的權限。"
+
+#: ../src/mainwin-callbacks.c:287
+msgid "Unable to open file."
+msgstr "無法開啟檔案"
+
+#: ../src/mainwin-callbacks.c:308
+msgid "File Info"
+msgstr "檔案資訊"
+
+#: ../src/mainwin-callbacks.c:323
+msgid "Filename"
+msgstr "檔案名稱"
+
+#: ../src/mainwin-callbacks.c:336
+msgid "Media Info"
+msgstr "媒體資訊"
+
+#: ../src/mainwin-callbacks.c:348
+msgid "Title:"
+msgstr "曲名："
+
+#: ../src/mainwin-callbacks.c:375
+msgid "Artist:"
+msgstr "藝人："
+
+#: ../src/mainwin-callbacks.c:402
+msgid "Album:"
+msgstr "專輯："
+
+#: ../src/mainwin-callbacks.c:429
+msgid "Genre:"
+msgstr "樂風："
+
+#: ../src/mainwin-callbacks.c:452
+msgid "Track:"
+msgstr "音軌："
+
+#: ../src/mainwin-callbacks.c:477
+msgid "Year:"
+msgstr "年："
+
+#: ../src/mainwin-callbacks.c:504
+msgid "Comment:"
+msgstr "備註："
+
+#: ../src/mainwin-callbacks.c:535
+msgid "Length:"
+msgstr "長度："
+
+#: ../src/mainwin-callbacks.c:552
+msgid "File size (b):"
+msgstr "檔案大小 (b)："
+
+#: ../src/mainwin-callbacks.c:569
+msgid "Audio Info"
+msgstr "音訊資訊"
+
+#: ../src/mainwin-callbacks.c:581 ../src/mainwin-callbacks.c:675
+msgid "Codec:"
+msgstr "編碼："
+
+#: ../src/mainwin-callbacks.c:596
+msgid "Samples/sec:"
+msgstr "每秒樣本數："
+
+#: ../src/mainwin-callbacks.c:615
+msgid "Bits/sample:"
+msgstr "每樣本位元數："
+
+#: ../src/mainwin-callbacks.c:631 ../src/mainwin-callbacks.c:732
+msgid "Channels:"
+msgstr "聲道數："
+
+#: ../src/mainwin-callbacks.c:646 ../src/mainwin-callbacks.c:746
+msgid "Bitrate (kbit):"
+msgstr "位元率 (kbit)："
+
+#: ../src/mainwin-callbacks.c:663
+msgid "Video Info"
+msgstr "視訊資訊"
+
+#: ../src/mainwin-callbacks.c:690
+msgid "FourCC:"
+msgstr "FourCC："
+
+#: ../src/mainwin-callbacks.c:714
+msgid "Frame size:"
+msgstr "畫面尺寸："
+
+#: ../src/mainwin-callbacks.c:895
+msgid "Add URL"
+msgstr "新增 URL"
+
+#: ../src/mainwin-callbacks.c:912
+msgid "_URL:"
+msgstr "URL(_U):"
+
+#: ../src/mainwin-callbacks.c:937
+msgid "Sort by filename"
+msgstr "以檔名排序"
+
+#: ../src/mainwin-callbacks.c:938
+msgid "Sort by title"
+msgstr "以曲名排序"
+
+#: ../src/mainwin-callbacks.c:939
+msgid "Sort by artist, title"
+msgstr "以藝人、曲名排序"
+
+#: ../src/mainwin-callbacks.c:940
+msgid "Sort by artist, album, track number"
+msgstr "以藝人、專輯、音軌排序"
+
+#: ../src/mainwin-callbacks.c:1241
+msgid "Add Directory"
+msgstr "新增目錄"
+
+#: ../src/mainwin-callbacks.c:1329
+msgid "Add Media File"
+msgstr "新增媒體檔案"
+
+#: ../src/mainwin-callbacks.c:1331
+msgid "Add _Selected"
+msgstr "新增所選(_S)"
+
+#: ../src/mainwin-callbacks.c:1335
+msgid "A_dd and Close"
+msgstr "新增並關閉(_D)"
+
+#: ../src/mainwin-callbacks.c:1349 ../src/playlist.c:686
+msgid "All Files"
+msgstr "所有檔案"
+
+#: ../src/mainwin-callbacks.c:1353
+msgid "Music Files"
+msgstr "音訊檔案"
+
+#: ../src/mainwin-callbacks.c:1367 ../src/playlist.c:690
+msgid "Playlists"
+msgstr "播放清單"
+
+#: ../src/mainwin-callbacks.c:1373
+msgid "Video Files"
+msgstr "視訊檔案"
+
+#: ../src/mainwin-callbacks.c:1949
+msgid "Translator"
+msgstr "翻譯者"
+
+#: ../src/mainwin-callbacks.c:1962
+msgid ""
+"Xfmedia is a lightweight media player,\n"
+"based on the xine engine"
+msgstr ""
+"Xfmedia 是一個輕量級的媒體播放器，\n"
+"其根基為 xine 引擎"
+
+#: ../src/mainwin-callbacks.c:1967
+msgid "Original Author/Maintainer"
+msgstr "原作者/維護者"
+
+#: ../src/mainwin-callbacks.c:2080 ../src/mainwin.c:1843
+msgid "Stopped"
+msgstr "已停止"
+
+#: ../src/mainwin.c:383
+msgid "_Other"
+msgstr "其他(_O)"
+
+#: ../src/mainwin.c:429
+msgid "_URL..."
+msgstr "URL(_U)..."
+
+#: ../src/mainwin.c:438
+msgid "_Directory..."
+msgstr "目錄(_D)..."
+
+#: ../src/mainwin.c:447
+msgid "_File..."
+msgstr "檔案(_F)..."
+
+#: ../src/mainwin.c:633
+msgid "Volume"
+msgstr "音量"
+
+#: ../src/mainwin.c:658 ../src/xfmedia-keybindings.c:513
+msgid "Previous Track"
+msgstr "前一音軌"
+
+#: ../src/mainwin.c:670
+msgid "Play/Pause Track"
+msgstr "播放/暫停音軌"
+
+#: ../src/mainwin.c:686
+msgid "Stop Playback"
+msgstr "停止播放"
+
+#: ../src/mainwin.c:697 ../src/xfmedia-keybindings.c:514
+msgid "Next Track"
+msgstr "次一音軌"
+
+#: ../src/mainwin.c:705
+msgid "_Playlist"
+msgstr "播放清單(_P)"
+
+#: ../src/mainwin.c:759
+msgid "_Enqueue"
+msgstr "進入佇列(_E)"
+
+#: ../src/mainwin.c:768
+msgid "Add _Mediamark..."
+msgstr "新增Mediamark(_M)"
+
+#: ../src/mainwin.c:781
+msgid "_File Info"
+msgstr "檔案資訊(_F)"
+
+#: ../src/mainwin.c:798
+msgid "About _Xfmedia"
+msgstr "關於 Xfmeida (_X)"
+
+#: ../src/mainwin.c:811
+msgid "_Preferences"
+msgstr "偏好設定(_P)"
+
+#: ../src/mainwin.c:821
+msgid "_Equalizer..."
+msgstr "平衡器(_E)..."
+
+#: ../src/mainwin.c:832
+msgid "_Jump to File..."
+msgstr "跳至檔案(_J)"
+
+#: ../src/mainwin.c:841
+msgid "Play_list Queue..."
+msgstr "檔案清單佇列(_L)..."
+
+#: ../src/mainwin.c:848
+msgid "_Mediamarks"
+msgstr "媒體書籤(_M)"
+
+#: ../src/mainwin.c:858
+msgid "Re_order"
+msgstr "重新排序(_O)"
+
+#: ../src/mainwin.c:869
+msgid "Sort by _Title"
+msgstr "以曲名排序(_T)"
+
+#: ../src/mainwin.c:875
+msgid "Sort by _Filename"
+msgstr "以檔名排序(_F)"
+
+#: ../src/mainwin.c:881
+msgid "_Randomize List"
+msgstr "隨機清單(_R)"
+
+#: ../src/mainwin.c:893
+msgid "_Shuffle"
+msgstr "混播(_S)"
+
+#: ../src/mainwin.c:901
+msgid "_Repeat"
+msgstr "重複(_R)"
+
+#: ../src/mainwin.c:909
+msgid "Repeat Single _Track"
+msgstr "重複單一音軌(_T)"
+
+#: ../src/mainwin.c:917
+msgid "Show Audio _Visualization"
+msgstr "顯示音訊視覺化(_V)"
+
+#: ../src/mainwin.c:1124 ../src/mainwin.c:1733
+msgid "Playing"
+msgstr "正在播放"
+
+#: ../src/mainwin.c:1141
+msgid "P_revious Track"
+msgstr "前一音軌(_R)"
+
+#: ../src/mainwin.c:1150 ../src/mainwin.c:1262
+msgid "_Play"
+msgstr "播放(_P)"
+
+#: ../src/mainwin.c:1167 ../src/mainwin.c:1283
+msgid "_Pause"
+msgstr "暫停(_P)"
+
+#: ../src/mainwin.c:1178
+msgid "_Stop"
+msgstr "停止(_S)"
+
+#: ../src/mainwin.c:1186
+msgid "_Next Track"
+msgstr "次一音軌(_N)"
+
+#: ../src/mainwin.c:1754
+msgid "Paused"
+msgstr "已暫停"
+
+#: ../src/mediamarks.c:125
+msgid "Mediamarks Save Error"
+msgstr "媒體書籤儲存錯誤"
+
+#: ../src/mediamarks.c:127
+msgid "The mediamarks file failed to save."
+msgstr "媒體書籤檔案儲存失敗"
+
+#: ../src/mediamarks.c:128 ../src/xfmedia-keybindings.c:683
+#: ../src/xfmedia-keybindings.c:696
+msgid ""
+"This could be because your disk is full, or you don't have permission to "
+"write to the configuration directory.  Any changes will be lost when you "
+"quit Xfmedia."
+msgstr ""
+"這可能是因為您的磁碟已經全滿，或是您沒有權限寫入所設定的目錄任何變更都將在您"
+"離開 Xfmedia 時遺失。"
+
+#: ../src/mediamarks.c:625 ../src/mediamarks.c:889
+msgid "Mediamarks"
+msgstr "媒體書籤"
+
+#: ../src/mediamarks.c:721
+msgid "Add Mediamark"
+msgstr "新增媒體書籤"
+
+#: ../src/mediamarks.c:726
+msgid "_Add Mediamark"
+msgstr "新增媒體書籤(_A)"
+
+#: ../src/mediamarks.c:745 ../src/mediamarks.c:1191
+msgid "_Name:"
+msgstr "名稱(_N)："
+
+#: ../src/mediamarks.c:766 ../src/mediamarks.c:1213
+msgid "_Location:"
+msgstr "位置(_L)："
+
+#: ../src/mediamarks.c:781 ../src/mediamarks.c:987
+msgid "File _in:"
+msgstr "檔案在(_I)："
+
+#: ../src/mediamarks.c:803
+msgid "New Folder"
+msgstr "新資料夾"
+
+#: ../src/mediamarks.c:808
+msgid "Add _Folder"
+msgstr "新增資料夾(_F)"
+
+#: ../src/mediamarks.c:956
+msgid "Add Mediamark Folder"
+msgstr "新增媒體書籤資料夾"
+
+#: ../src/mediamarks.c:962
+msgid "_Add Folder"
+msgstr "新增資料夾(_A)"
+
+#: ../src/mediamarks.c:978
+msgid "_Folder Name:"
+msgstr "資料夾名稱(_F)"
+
+#: ../src/mediamarks.c:1047
+msgid "Remove Mediamark"
+msgstr "移除媒體書籤"
+
+#: ../src/mediamarks.c:1048 ../src/mediamarks.c:1053
+msgid "Are you sure?"
+msgstr "您確定嗎？"
+
+#: ../src/mediamarks.c:1048
+msgid "You're about to remove a Mediamark, which can't be undone."
+msgstr "您正要移除一媒體書籤，這是無法回復的。"
+
+#: ../src/mediamarks.c:1052
+msgid "Remove Folder"
+msgstr "移除資料夾"
+
+#: ../src/mediamarks.c:1054
+msgid ""
+"Removing a folder also removes all items and subfolders contained in it, and "
+"can't be undone."
+msgstr "移除一資料夾會同時移除其下所有的項目和資料夾，而且無法回復。"
+
+#: ../src/mediamarks.c:1174
+msgid "Mediamark Properties"
+msgstr "媒體書籤性質"
+
+#: ../src/mediamarks.c:1174
+msgid "Folder Properties"
+msgstr "資料夾性質"
+
+#: ../src/mediamarks.c:1593
+msgid "Manage Mediamarks"
+msgstr "管理媒體書籤"
+
+#: ../src/mediamarks.c:1615
+#, fuzzy
+msgid "New Mediamark..."
+msgstr "新增媒體書籤"
+
+#: ../src/mediamarks.c:1616
+msgid "Add a new mediamark"
+msgstr "新增一媒體書籤"
+
+#: ../src/mediamarks.c:1621
+msgid "Add Folder..."
+msgstr "新增資料夾..."
+
+#: ../src/mediamarks.c:1622
+msgid "Add a new folder"
+msgstr "新增一資料夾"
+
+#: ../src/mediamarks.c:1627
+msgid "Remove Item"
+msgstr "移除項目"
+
+#: ../src/mediamarks.c:1628
+msgid "Remove the selected item"
+msgstr "移除所選取的項目"
+
+#: ../src/mediamarks.c:1635
+msgid "Move Item Up"
+msgstr "將項目上移"
+
+#: ../src/mediamarks.c:1636
+msgid "Move the selected item up"
+msgstr "將所選取的項目上移"
+
+#: ../src/mediamarks.c:1641
+msgid "Move Item Down"
+msgstr "將項目下移"
+
+#: ../src/mediamarks.c:1642
+msgid "Move the selected item down"
+msgstr "將所選取的項目下移"
+
+#: ../src/mediamarks.c:1649
+msgid "Refresh"
+msgstr "更新"
+
+#: ../src/mediamarks.c:1650
+msgid "Refresh the list"
+msgstr "更新清單"
+
+#: ../src/mediamarks.c:1655
+msgid "Properties..."
+msgstr "性質..."
+
+#: ../src/mediamarks.c:1656
+msgid "Edit the selected item's properties"
+msgstr "編輯所選項目的性質"
+
+#: ../src/mediamarks.c:1686
+msgid "Name"
+msgstr "名稱"
+
+#: ../src/mediamarks.c:1713
+msgid "Location"
+msgstr "位置"
+
+#: ../src/mediamarks.c:1806
+msgid "_Add Current Stream..."
+msgstr "新增目前的串流(_A)..."
+
+#: ../src/mediamarks.c:1815
+msgid "_Manage Mediamarks..."
+msgstr "編輯媒體書籤(_M)"
+
+#: ../src/playlist.c:536
+msgid "Save changes to this playlist before closing?"
+msgstr "關閉此播放清單之前儲存變更？"
+
+#: ../src/playlist.c:537
+msgid "You've changed this playlist since it was last saved."
+msgstr "從上次儲存後，您曾經變更此播放清單"
+
+#: ../src/playlist.c:541
+msgid "Do_n't save"
+msgstr "不要儲存(_N)"
+
+#: ../src/playlist.c:590 ../src/xfmedia-keybindings.c:534
+msgid "Save Playlist"
+msgstr "儲存播放清單"
+
+#: ../src/playlist.c:600
+msgid "Autodetect type by extension"
+msgstr "以擴充套件自動偵測格式"
+
+#: ../src/playlist.c:604
+msgid "Flat file"
+msgstr "平面檔案"
+
+#: ../src/playlist.c:676
+msgid "Open Playlist"
+msgstr "開啟播放清單"
+
+#: ../src/playlist.c:1359
+msgid "#"
+msgstr "#"
+
+#: ../src/playlist.c:1373
+msgid "Title"
+msgstr "曲名"
+
+#: ../src/playlist.c:1381
+msgid "Length"
+msgstr "長度"
+
+#: ../src/playlist.c:1431
+msgid "Add entry to playlist"
+msgstr "新增條目到播放清單"
+
+#: ../src/playlist.c:1441
+msgid "Remove entry from playlist"
+msgstr "從播放清單中移除條目"
+
+#: ../src/playlist.c:1451
+msgid "Move selected playlist entry up"
+msgstr "將選取的播放清單條目上移"
+
+#: ../src/playlist.c:1461
+msgid "Move selected playlist entry down"
+msgstr "將選取的播放清單條目下移"
+
+#: ../src/playlist.c:1486
+msgid "Randomize play order"
+msgstr "隨機編排播放順序"
+
+#: ../src/playlist.c:1505
+msgid "Repeat after playlist finishes"
+msgstr "播放完畢之後重複"
+
+#: ../src/playlist.c:1520
+msgid "Save current playlist"
+msgstr "儲存目前的播放清單"
+
+#: ../src/playlist.c:1530
+msgid "Open a saved playlist"
+msgstr "開啟儲存的播放清單"
+
+#: ../src/playlist.c:1540
+msgid "Start a new playlist"
+msgstr "開啟新的播放清單"
+
+#: ../src/playlist.c:1548
+msgid "_Remove Entry"
+msgstr "移除條目(_R)"
+
+#: ../src/playlist.c:1557
+msgid "Move _Up"
+msgstr "上移(_U)"
+
+#: ../src/playlist.c:1566
+msgid "Move _Down"
+msgstr "下移(_D)"
+
+#: ../src/remote.c:223 ../src/remote.c:466
+msgid "(no title)"
+msgstr "(無標題)"
+
+#: ../src/settings-dialog.c:145
+msgid "Optical Devices"
+msgstr "視覺設備"
+
+#: ../src/settings-dialog.c:159
+#, fuzzy
+msgid "CD A_udio Device:"
+msgstr "CD 音訊設備(_C)"
+
+#: ../src/settings-dialog.c:181
+#, fuzzy
+msgid "DVD Vide_o Device:"
+msgstr "DVD 視訊設備(_D)"
+
+#: ../src/settings-dialog.c:203
+#, fuzzy
+msgid "Vid_eo CD Device:"
+msgstr "Video CD 設備(_V)"
+
+#: ../src/settings-dialog.c:221
+msgid "Audio"
+msgstr "音訊"
+
+#: ../src/settings-dialog.c:233
+#, fuzzy
+msgid "Dr_iver:"
+msgstr "驅動程式(_D)"
+
+#: ../src/settings-dialog.c:243 ../src/settings-dialog.c:312
+msgid "(no drivers)"
+msgstr "(無驅動程式)"
+
+#: ../src/settings-dialog.c:267
+msgid "_Speaker Layout:"
+msgstr "揚聲器輸出(_S)"
+
+#: ../src/settings-dialog.c:275
+msgid "(option unavailable)"
+msgstr "(無選項)"
+
+#: ../src/settings-dialog.c:290
+msgid "Video"
+msgstr "視訊"
+
+#: ../src/settings-dialog.c:302
+msgid "D_river:"
+msgstr "驅動程式(_R)"
+
+#: ../src/settings-dialog.c:608
+msgid "Xfmedia Preferences"
+msgstr "Xfmedia 偏好設定"
+
+#: ../src/settings-dialog.c:630
+msgid "Playlist"
+msgstr "播放清單"
+
+#: ../src/settings-dialog.c:643
+msgid "_Title Display:"
+msgstr "曲名顯示(_T)"
+
+#: ../src/settings-dialog.c:653
+msgid ""
+"This is a printf-like format string controlling the display of the "
+"playlist.  Xfmedia will replace the following symbols:\n"
+"\t%p: Artist/Performer\n"
+"\t%t: Track Title\n"
+"\t%a: Album Name\n"
+"\t%T: Track Number\n"
+"\t%g: Genre\n"
+"\t%y: Year\n"
+"\t%f: Filename\n"
+"\t%%: a percent sign"
+msgstr ""
+"\t%p: 藝人/表演者\n"
+"\t%t: 曲名\n"
+"\t%a: 專輯名稱\n"
+"\t%T: 音軌\n"
+"\t%g: 曲風\n"
+"\t%y: 年\n"
+"\t%f: 檔名\n"
+"\t%%: 百分比符號"
+
+#: ../src/settings-dialog.c:667
+msgid "_Advance playlist when track ends"
+msgstr "音軌播放結束時使播放清單前進"
+
+#: ../src/settings-dialog.c:675
+msgid ""
+"When a track ends, Xfmedia can automatically advance to the next track in "
+"the playlist and continue playback."
+msgstr ""
+"當一音軌播放結束後，Xfmedia 可以自動前進至播放清單中次一音軌，繼續播放。"
+
+#: ../src/settings-dialog.c:677
+msgid "_Don't save playlist on exit for one-shot invocations"
+msgstr "在為了一次用途而啟動時，不要儲存播放清單"
+
+#: ../src/settings-dialog.c:685
+msgid ""
+"Only automatically save the playlist during interactive use; i.e., don't "
+"save the playlist when Xfmedia was invoked from the commandline with a short "
+"list of definite arguments.  This option needs to be named better."
+msgstr ""
+"只在互動模式下自動儲存播放清單。也就是：在 Xfmedia 由命令列啟動並附加某些引數"
+"時，不要儲存播放清單。這個選項需要更好的名字。"
+
+#: ../src/settings-dialog.c:691
+msgid "Load metadata:"
+msgstr "載入 metadata"
+
+#: ../src/settings-dialog.c:695
+msgid "On _scroll"
+msgstr "於名冊中"
+
+#: ../src/settings-dialog.c:703
+msgid "Load file metadata for entries in the playlist when they are visible."
+msgstr "當該項目為可見時，在播放清單中載入其檔案 metadata "
+
+#: ../src/settings-dialog.c:706
+msgid "On pla_y"
+msgstr "於播放時"
+
+#: ../src/settings-dialog.c:714
+msgid "Load file metadata for entries in the playlist only when playing them."
+msgstr "只在播放該項目時，於播放清單載入其檔案 metadata"
+
+#: ../src/settings-dialog.c:717
+msgid "_Never"
+msgstr "永不(_N)"
+
+#: ../src/settings-dialog.c:725
+msgid "Never load file metadata for entries in the playlist."
+msgstr "在播放清單中永不載入項目檔案 metadata"
+
+#: ../src/settings-dialog.c:727
+msgid "Window"
+msgstr "視窗"
+
+#: ../src/settings-dialog.c:736
+msgid "Show Xfmedia on all _workspaces"
+msgstr "在所有工作區中顯示 Xfmedia (_W)"
+
+#: ../src/settings-dialog.c:742
+msgid ""
+"Sets Xfmedia \"sticky\" such that it appears on all workspaces (virtual "
+"desktops)."
+msgstr "將 Xfmedia 設為 \"貼連\" ，好讓其能出現在所有的工作區(虛擬桌面)。"
+
+#: ../src/settings-dialog.c:744
+#, fuzzy
+msgid "Keep X_fmedia above other windows"
+msgstr "使 Xfmedia 在其他視窗之上 (_K)"
+
+#: ../src/settings-dialog.c:751
+msgid "Sets the Xfmedia window to \"Always-on-Top\" status."
+msgstr "將 Xfmedia 視窗設為 \"總是置頂\" 的狀態。"
+
+#: ../src/settings-dialog.c:753
+#, fuzzy
+msgid "Dock and auto-_hide Xfmedia at screen edges"
+msgstr "在螢幕邊緣吸引並自動隱藏 Xfmedia"
+
+#: ../src/settings-dialog.c:760
+msgid ""
+"When the Xfmedia window is dragged to a screen edge, it will auto-hide "
+"itself and reappear when you move the mouse to the edge of the screen."
+msgstr ""
+"當 Xfmedia 視窗被拖曳到螢幕邊緣時，將會自動隱藏。當您的滑鼠移動到該處螢幕邊緣"
+"時，則會重新出現。"
+
+#: ../src/settings-dialog.c:762
+msgid "Tray Icon"
+msgstr "系統匣圖示"
+
+#: ../src/settings-dialog.c:771
+msgid "Show _tray icon"
+msgstr "顯示系統匣圖示(_T)"
+
+#: ../src/settings-dialog.c:777
+msgid "Displays an Xfmedia icon in the system notification area."
+msgstr "在系統提示區中顯示 Xfmedia 圖示"
+
+#: ../src/settings-dialog.c:779
+msgid "_Minimize Xfmedia to tray icon"
+msgstr "將 Xfmedia 最小化到系統匣圖示"
+
+#: ../src/settings-dialog.c:787
+msgid ""
+"Minimizes Xfmedia to the tray icon rather than to the taskbar or iconbox."
+msgstr "將 Xfmedia 最小化到系統匣圖示，而非工作列或圖示盒。"
+
+#: ../src/settings-dialog.c:793
+msgid "On middle _click:"
+msgstr "按下中鍵時(_C)："
+
+#: ../src/settings-dialog.c:796 ../src/settings-dialog.c:810
+msgid ""
+"The tray icon can perform an action when middle-clicked.  Select the action "
+"in the dropdown box."
+msgstr ""
+"在系統匣圖示按下滑鼠中鍵時，可以產生一項作為，請於下拉式選單中選擇該作為"
+
+#: ../src/settings-dialog.c:799
+msgid "Do nothing"
+msgstr "沒有作為"
+
+#: ../src/settings-dialog.c:800
+msgid "Toggle play/pause"
+msgstr "切換播放/暫停"
+
+#: ../src/settings-dialog.c:801
+msgid "Next track"
+msgstr "次一音軌"
+
+#: ../src/settings-dialog.c:802
+msgid "Previous track"
+msgstr "前一音軌"
+
+#: ../src/settings-dialog.c:815
+msgid "O_ptions"
+msgstr "選項(_P)"
+
+#: ../src/settings-dialog.c:826
+msgid "Selected Visualization"
+msgstr "選擇視覺化"
+
+#: ../src/settings-dialog.c:854
+msgid "(none available)"
+msgstr "(無)"
+
+#: ../src/settings-dialog.c:865
+msgid "Visualization Options"
+msgstr "視覺化選項"
+
+#: ../src/settings-dialog.c:880
+msgid "_Audio Visualization"
+msgstr "音訊視覺化(_A)"
+
+#: ../src/settings-dialog.c:886
+msgid "_Devices"
+msgstr "設備(_D)"
+
+#: ../src/settings-dialog.c:892
+msgid "_Keybindings"
+msgstr "快捷鍵"
+
+#: ../src/settings-dialog.c:900
+msgid "_Plugins"
+msgstr "Plugins"
+
+#: ../src/settings.c:242
+#, fuzzy
+msgid "Settings Save Error"
+msgstr "快捷鍵儲存錯誤"
+
+#: ../src/settings.c:243
+#, fuzzy
+msgid "The settings file failed to save."
+msgstr "快捷鍵檔案儲存失敗"
+
+#: ../src/settings.c:244
+#, fuzzy
+msgid ""
+"This could be because your disk is full, or you don't have permission to "
+"write to the configuration directory.  Any changes will be lost when you "
+"exit Xfmedia."
+msgstr ""
+"這可能是因為您的磁碟已經全滿，或是您沒有權限寫入所設定的目錄任何變更都將在您"
+"離開 Xfmedia 時遺失。"
+
+#: ../src/xfmedia-common.c:422
+msgid "(UTF-8 conversion failed)"
+msgstr ""
+
+#: ../src/xfmedia-handle.c:141
+msgid "Handle Style"
+msgstr ""
+
+#: ../src/xfmedia-handle.c:142
+msgid "This property defines the handle style of the XfmediaHandle widget."
+msgstr ""
+
+#: ../src/xfmedia-handle.c:150
+msgid "Orientation"
+msgstr ""
+
+#: ../src/xfmedia-handle.c:151
+msgid "This property defines whether this is a horizontal or vertical handle."
+msgstr ""
+
+#: ../src/xfmedia-keybindings.c:510
+msgid "Play"
+msgstr "播放"
+
+#: ../src/xfmedia-keybindings.c:511
+msgid "Pause"
+msgstr "暫停"
+
+#: ../src/xfmedia-keybindings.c:512
+msgid "Stop"
+msgstr "停止"
+
+#: ../src/xfmedia-keybindings.c:515
+msgid "Quit"
+msgstr "退出"
+
+#: ../src/xfmedia-keybindings.c:516
+msgid "Toggle Fullscreen"
+msgstr "切換全螢幕"
+
+#: ../src/xfmedia-keybindings.c:517
+msgid "Toggle Shuffle Play"
+msgstr "切換混播"
+
+#: ../src/xfmedia-keybindings.c:518
+msgid "Toggle Repeat Play"
+msgstr "切換重複播放"
+
+#: ../src/xfmedia-keybindings.c:519
+msgid "Toggle Audio Visualization"
+msgstr "切換音訊視覺化"
+
+#: ../src/xfmedia-keybindings.c:520
+msgid "Set Speed Faster"
+msgstr "加速"
+
+#: ../src/xfmedia-keybindings.c:521
+msgid "Set Speed Slower"
+msgstr "減速"
+
+#: ../src/xfmedia-keybindings.c:522
+msgid "Forward 10 Seconds"
+msgstr "快轉10秒"
+
+#: ../src/xfmedia-keybindings.c:523
+msgid "Forward 30 Seconds"
+msgstr "快轉30秒"
+
+#: ../src/xfmedia-keybindings.c:524
+msgid "Forward 60 Seconds"
+msgstr "快轉60秒"
+
+#: ../src/xfmedia-keybindings.c:525
+msgid "Backward 10 Seconds"
+msgstr "回溯10秒"
+
+#: ../src/xfmedia-keybindings.c:526
+msgid "Backward 30 Seconds"
+msgstr "回溯30秒"
+
+#: ../src/xfmedia-keybindings.c:527
+msgid "Backward 60 Seconds"
+msgstr "回溯60秒"
+
+#: ../src/xfmedia-keybindings.c:528
+msgid "Enqueue Track"
+msgstr "將音軌加入佇列"
+
+#: ../src/xfmedia-keybindings.c:529
+msgid "Show Queued Tracks"
+msgstr "顯示佇列中的音軌"
+
+#: ../src/xfmedia-keybindings.c:530
+msgid "Toggle Audio Mute"
+msgstr "切換靜音"
+
+#: ../src/xfmedia-keybindings.c:531
+msgid "Add File to Playlist"
+msgstr "將檔案加入播放清單"
+
+#: ../src/xfmedia-keybindings.c:532
+msgid "Add URL to Playlist"
+msgstr "將 URL 加入播放清單"
+
+#: ../src/xfmedia-keybindings.c:533
+msgid "Open Saved Playlist"
+msgstr "開啟已儲存的播放清單"
+
+#: ../src/xfmedia-keybindings.c:535
+msgid "Clear Playlist"
+msgstr "清除播放清單"
+
+#: ../src/xfmedia-keybindings.c:536
+msgid "A/V Sync Plus"
+msgstr "A/V 同步 +"
+
+#: ../src/xfmedia-keybindings.c:537
+msgid "A/V Sync Minus"
+msgstr "A/V 同步 -"
+
+#: ../src/xfmedia-keybindings.c:538
+msgid "Select Aspect Ratio"
+msgstr "選擇畫面比例"
+
+#: ../src/xfmedia-keybindings.c:539
+msgid "Jump to File"
+msgstr "跳至檔案"
+
+#: ../src/xfmedia-keybindings.c:540
+msgid "Video Zoom In"
+msgstr "視訊放大"
+
+#: ../src/xfmedia-keybindings.c:541
+msgid "Video Zoom Out"
+msgstr "視訊縮小"
+
+#: ../src/xfmedia-keybindings.c:542
+msgid "Video Window Larger"
+msgstr "視訊視窗加大"
+
+#: ../src/xfmedia-keybindings.c:543
+msgid "Video Window Smaller"
+msgstr "視訊視窗縮小"
+
+#: ../src/xfmedia-keybindings.c:544
+msgid "Volume Up"
+msgstr "增加音量"
+
+#: ../src/xfmedia-keybindings.c:545
+msgid "Volume Down"
+msgstr "降低音量"
+
+#: ../src/xfmedia-keybindings.c:546
+msgid "Audio Track Next"
+msgstr ""
+
+#: ../src/xfmedia-keybindings.c:547
+msgid "Audio Track Previous"
+msgstr ""
+
+#: ../src/xfmedia-keybindings.c:548
+msgid "Subtitle Track Next"
+msgstr ""
+
+#: ../src/xfmedia-keybindings.c:549
+msgid "Subtitle Track Previous"
+msgstr ""
+
+#: ../src/xfmedia-keybindings.c:635
+msgid "Set Keybinding"
+msgstr "設定快捷鍵"
+
+#: ../src/xfmedia-keybindings.c:638
+msgid "_Clear"
+msgstr "清除(_C)"
+
+#: ../src/xfmedia-keybindings.c:647
+msgid "Set shortcut for:"
+msgstr "設定捷徑："
+
+#: ../src/xfmedia-keybindings.c:665
+msgid "Keybinding Error"
+msgstr "快捷鍵錯誤"
+
+#: ../src/xfmedia-keybindings.c:666
+msgid "Keybinding already in use."
+msgstr "該快捷鍵已被使用"
+
+#: ../src/xfmedia-keybindings.c:667
+msgid ""
+"The key sequence you selected is already in use by another function.  Please "
+"set the other function to something else."
+msgstr "您所選擇的按鍵順序已經被其他功能所佔用，請將其他功能的快捷鍵變更。"
+
+#: ../src/xfmedia-keybindings.c:680 ../src/xfmedia-keybindings.c:693
+msgid "Keybindings Save Error"
+msgstr "快捷鍵儲存錯誤"
+
+#: ../src/xfmedia-keybindings.c:682 ../src/xfmedia-keybindings.c:695
+msgid "The keybindings file failed to save."
+msgstr "快捷鍵檔案儲存失敗"
+
+#: ../src/xfmedia-keybindings.c:691
+msgid "None"
+msgstr "無"
+
+#: ../src/xfmedia-keybindings.c:808
+msgid "Function"
+msgstr "功能"
+
+#: ../src/xfmedia-keybindings.c:813
+msgid "Keys"
+msgstr "按鍵"
+
+#: ../src/xfmedia-remote.c:103
+#, c-format
+msgid ""
+"Usage: %s [options]\n"
+"\n"
+msgstr ""
+"用法： %s [選項]\n"
+"\n"
+
+#: ../src/xfmedia-remote.c:106
+msgid ""
+"    --session=N          Specify the number of the already-running instance "
+"of\n"
+"                         Xfmedia.  (Defaults to 0, or the first instance "
+"found.)\n"
+msgstr ""
+"    --session=N          指定 Xfmedia 已執行中的物件數目\n"
+"\t\t\t  (預設為0，或是第一個被找到的物件)\n"
+
+#: ../src/xfmedia-remote.c:108
+msgid ""
+"    --ping               Checks to see if an instance of Xfmedia is "
+"running.\n"
+msgstr "    --ping               確認是否有 Xfmedia 物件執行中\n"
+
+#: ../src/xfmedia-remote.c:109
+msgid ""
+"    -p, --play[=N]       Causes Xfmedia to play the file at playlist idx N.\n"
+"                         If N is not specified, Xfmedia will play the "
+"currently-\n"
+"                         selected entry, or, if no item is selected, the "
+"first\n"
+"                         entry.  If used in conjunction with --playlist-"
+"add,\n"
+"                         will cause Xfmedia to play the newly-added entry.\n"
+msgstr ""
+"    -p, --play[=N]       使 Xfmedia 播放位於播放清單第 N 首。\n"
+"                         若沒有指定 N，Xfmedia會播放目前選擇的曲目，\n"
+"                         如果沒有選取，就會播放第一首。\n"
+"                         如果和 --playlist-add 一起使用，\n"
+"               \t  Xfmeida 會播放新增的曲目。\n"
+
+#: ../src/xfmedia-remote.c:114
+msgid ""
+"    --toggle             Causes Xfmedia to pause if playing, or play if "
+"paused\n"
+"                         or stopped.\n"
+msgstr ""
+"    --toggle\t\t  使 Xfmedia 切換為暫停(如在播放中)或播放(如在\t\t\t  暫停或"
+"停止狀態)。\n"
+
+#: ../src/xfmedia-remote.c:116
+msgid "    --pause              Causes Xfmedia to pause/unpause.\n"
+msgstr "    --pause\t\t 使 Xfmedia 暫停/不要暫停\n"
+
+#: ../src/xfmedia-remote.c:117
+msgid "    --stop               Causes Xfmedia to stop playback.\n"
+msgstr "    --stop               使 Xfmedia 停止播放\n"
+
+#: ../src/xfmedia-remote.c:118
+msgid ""
+"    --previous           Causes Xfmedia to play the entry played before the\n"
+"                         currently-selected (or -playing) entry.\n"
+msgstr ""
+"    --previous\t\t  使 Xfmedia 播放目前所選擇(或播放中)項目的前一項目\n"
+
+#: ../src/xfmedia-remote.c:120
+msgid ""
+"    --next               Causes Xfmedia to play the next entry in the "
+"playlist.\n"
+"                         If Xfmedia is in shuffle mode, a new entry will be\n"
+"                         selected randomly.\n"
+msgstr ""
+"    --next\t\t  使 Xfmedia 播放清單中次一項目。\n"
+"\t\t\t  若 Xfmedia 處於混播模式，擇會播放隨意選出的項目。\n"
+
+#: ../src/xfmedia-remote.c:123
+msgid ""
+"    -a, --playlist-add=FILE\n"
+"                         Adds FILE to the end of the playlist.\n"
+msgstr ""
+"    -a, --playlist-add=FILE\n"
+"                         新增 FILE 到播放清單的結尾\n"
+
+#: ../src/xfmedia-remote.c:125
+msgid ""
+"    -r, --playlist-remove=N\n"
+"                         Removes the specified playlist entry from the "
+"playlist.\n"
+msgstr ""
+"    -r, --playlist-remove=N\n"
+"                         從播放清單中移除指定的項目\n"
+
+#: ../src/xfmedia-remote.c:127
+msgid ""
+"    -c, --playlist-clear\n"
+"                         Removes all entries from the playlist.\n"
+msgstr ""
+"    -c, --playlist-clear\n"
+"                         移除播放清單中所有項目\n"
+
+#: ../src/xfmedia-remote.c:129
+msgid ""
+"    -l, --playlist-load=FILE\n"
+"                         Loads the specified playlist.  Note that this does "
+"NOT\n"
+"                         first clear the playlist.\n"
+msgstr ""
+"    -l, --playlist-load=FILE\n"
+"                         載入者定的播放清單。 請注意這並不會先清除\n"
+"                         原有的播放清單。\n"
+
+#: ../src/xfmedia-remote.c:132
+msgid ""
+"    -s, --playlist-save=FILE\n"
+"                         Saves the current playlist to the specified FILE.\n"
+msgstr ""
+"    -s, --playlist-save=FILE\n"
+"                         將目前的播放清單儲存到 FILE\n"
+
+#: ../src/xfmedia-remote.c:134
+msgid "    -Q, --quit           Instructs Xfmedia to quit.\n"
+msgstr "    -Q, --quit           指示 Xfmedia 退出\n"
+
+#: ../src/xfmedia-remote.c:135
+#, fuzzy
+msgid ""
+"    -j, --jump-to-file   Causes Xfmedia to show the main window (if not "
+"visible)\n"
+"                         and show the jump-to-file entry box.\n"
+msgstr ""
+"    -j, --jump-to-file   使 Xfmedia 顯示主視窗(如果沒有出現)\n"
+"                         並顯示「跳至檔案」項目方框\n"
+
+#: ../src/xfmedia-remote.c:180
+msgid "Argument to --session must be greater than or equal to 0.\n"
+msgstr " --session 的引數必須大於等於 0\n"
+
+#: ../src/xfmedia-remote.c:195
+msgid "Argument to --play must be greater than or equal to 0.\n"
+msgstr " --play 的引數必須大於等於 0\n"
+
+#: ../src/xfmedia-remote.c:239
+msgid "Argument to --playlist-remove must be greater than or equal to 0.\n"
+msgstr " --playlist-remove 的引數必須大於等於 0\n"
+
+#: ../src/xfmedia-remote.c:276
+#, c-format
+msgid "Unrecognized option: %s\n"
+msgstr "未被承認的選項： %s\n"
+
+#: ../src/xfmedia-remote.c:289
+msgid ""
+"Unable to initialize the Xfmedia remote client service.  The most likely "
+"cause is that a DBUS session bus is not running"
+msgstr ""
+
+#: ../src/xfmedia-remote.c:301
+msgid "Unable to find a running Xfmedia instance."
+msgstr "無法找到執行中的 Xfmedia 物件"
+
+#: ../src/xfmedia-video-window.c:188
+msgid "Xfmedia Video"
+msgstr "Xfmedia Video"
+
+#: ../xfmedia/getopt.c:686
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr ""
+
+#: ../xfmedia/getopt.c:711
+#, fuzzy, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "選項 --audio-out 需要一個引數\n"
+
+#: ../xfmedia/getopt.c:716
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr ""
+
+#: ../xfmedia/getopt.c:734 ../xfmedia/getopt.c:907
+#, fuzzy, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "選項 --audio-out 需要一個引數\n"
+
+#. --option
+#: ../xfmedia/getopt.c:763
+#, fuzzy, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "未被承認的選項： %s\n"
+
+#. +option or -option
+#: ../xfmedia/getopt.c:767
+#, fuzzy, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "未被承認的選項： %s\n"
+
+#. 1003.2 specifies the format of this message.
+#: ../xfmedia/getopt.c:793
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr ""
+
+#: ../xfmedia/getopt.c:796
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr ""
+
+#. 1003.2 specifies the format of this message.
+#: ../xfmedia/getopt.c:826 ../xfmedia/getopt.c:956
+#, fuzzy, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "選項 --audio-out 需要一個引數\n"
+
+#: ../xfmedia/getopt.c:873
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr ""
+
+#: ../xfmedia/getopt.c:891
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr ""
+
+#: ../xfmedia/remote-client.c:607 ../xfmedia/remote-client.c:614
+#: ../xfmedia/remote-client.c:621
+msgid ""
+"Xfmedia was not compiled with D-BUS support.  Remote control interface is "
+"not available."
+msgstr ""
+
+#: ../xfmedia.desktop.in.h:1
+msgid "Enqueue and play with Xfmedia"
+msgstr ""
+
+#: ../xfmedia.desktop.in.h:2
+msgid "Enqueue in Xfmedia"
+msgstr ""
+
+#: ../xfmedia.desktop.in.h:3
+msgid "Lightweight Media Player"
+msgstr "輕量級媒體播放器"
+
+#: ../xfmedia.desktop.in.h:4
+msgid "Xfmedia"
+msgstr "Xfmedia"

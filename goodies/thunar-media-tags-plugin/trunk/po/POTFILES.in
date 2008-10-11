@@ -1,0 +1,4 @@
+thunar-plugin/media-tags-provider.c
+thunar-plugin/tag-renamer.c
+thunar-plugin/media-tags-plugin.c
+thunar-plugin/audio-tags-page.c

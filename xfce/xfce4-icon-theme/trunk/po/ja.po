@@ -1,0 +1,26 @@
+# $Id: ja.po 24661 2007-01-20 17:20:30Z benny $
+#
+# Japanese translations for xfce4-icon-theme package.
+# Copyright (C) 2004-2006 The Xfce development team.
+# This file is distributed under the same license as the xfce4-icon-theme package.
+# Daichi Kawahata <daichi@xfce.org>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-icon-theme 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-11-22 00:16+0900\n"
+"PO-Revision-Date: 2005-06-05 02:41+0900\n"
+"Last-Translator: Daichi Kawahata <daichi@xfce.org>\n"
+"Language-Team: Japanese <xfce-users-jp@ml.fdiary.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../Rodent/index.theme.in.h:1
+msgid "Default icon for the Xfce Desktop Environment"
+msgstr "Xfce デスクトップ環境の標準のアイコンです"
+
+#: ../Rodent/index.theme.in.h:2
+msgid "Rodent"
+msgstr "ネズミ"

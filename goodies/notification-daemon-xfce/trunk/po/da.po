@@ -1,0 +1,73 @@
+# translation of notification-daemon-xfce to Danish
+# Copyright (C) 2007 THE notification-daemon-xfce'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the notification-daemon-xfce package.
+# Jens Hyllegaard <jens.hyllegaard@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: notification-daemon-xfce\n"
+"POT-Creation-Date: 2006-10-22 17:38+0200\n"
+"PO-Revision-Date: 2008-05-17 15:16+0100\n"
+"Last-Translator: Jens Hyllegaard <jens.hyllegaard@gmail.com>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/settings/main.c:64
+msgid "Top Left"
+msgstr "Øverst venstre"
+
+#: ../src/settings/main.c:65
+msgid "Top Right"
+msgstr "Øverst højre"
+
+#: ../src/settings/main.c:66
+msgid "Bottom Left"
+msgstr "Nederst venstre"
+
+#: ../src/settings/main.c:67
+msgid "Bottom Right"
+msgstr "Nederst højre"
+
+#. create new preview notification
+#: ../src/settings/main.c:188
+msgid "Preview notification"
+msgstr "Forhåndsvis påmindelse"
+
+#: ../src/settings/main.c:189
+msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr "Lorem Ipsum er blot kunstig tekst fra tryk- og typografiindustrien."
+
+#: ../src/settings/main.c:324
+#: ../src/settings/notification-settings.desktop.in.h:2
+msgid "Notification Settings"
+msgstr "Påmindelses-indstillinger"
+
+#: ../src/settings/main.c:330
+msgid "Configure the Xfce notification daemon"
+msgstr "Konfigurér Xfce påmindelsesdæmonen"
+
+#: ../src/settings/main.c:340
+msgid "Notification _position:"
+msgstr "Påmindelses_position:"
+
+#: ../src/settings/main.c:370
+msgid "Pre_view"
+msgstr "Forhånds_visning"
+
+#: ../src/settings/mcs_plugin.c:41
+msgid "Failed to launch notification-settings"
+msgstr "Kunne ikke starte påmindelses-indstillinger"
+
+#: ../src/settings/mcs_plugin.c:61
+msgid "Button Label|Notification Settings"
+msgstr "Påmindelses-indstillinger"
+
+#: ../src/settings/notification-settings.desktop.in.h:1
+msgid "Customize the notification daemon settings"
+msgstr "Tilpas påmindelsesdæmonens indstillinger"
+
+#: ../src/settings/notification-settings.desktop.in.h:3
+msgid "Xfce 4 Notification Settings"
+msgstr "Xfce 4 påmindelses-indstillinger"
+

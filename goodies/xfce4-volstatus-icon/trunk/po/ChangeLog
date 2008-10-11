@@ -1,0 +1,89 @@
+2008-07-15 Mohamed Magdy <alnokta@xfce.org>
+
+        * ar.po: Add Arabic translation
+
+2008-06-26  Maximilian Schleiss <maximilian@xfce.org>
+
+	* gl.po, LINGUAS: Galician translation added (Leandro Regueiro)
+
+2008-06-25  Maximilian Schleiss <maximilian@xfce.org>
+
+	* id.po, LINGUAS: Indonesian translation added (Andhika Padmawan)
+
+2008-05-27  Mike Massonnet <mmassonnet@xfce.org>
+
+	* da.po, LINGUAS: Add Danish translation (Jens Hyllegaard)
+
+2008-05-13	Mike Massonnet <mmassonnet@xfce.org>
+
+	* en_GB.po: Update translation (Jeff Bailes)
+
+2008-05-10	Stavros Giannouris <stavrosg@hellug.gr>
+
+	* el.po, LINGUAS: Addes Greek translation by Evaggelos Balaskas
+	  <ebalaskas@ebalaskas.gr>
+		  
+2008-03-30	Mike Massonnet <mmassonnet@xfce.org>
+
+	* ru.po, LINGUAS: Add Russian translation
+	by Valentin Pesegov <walq64@gmail.com>
+
+2007-11-18	Maximilian Schleiss <maximilian@xfce.org>
+
+	* lv.po: Latvian translation added
+	by Rihards Priedītis <rprieditis@inbox.lv>
+
+2007-11-15	Mike Massonnet <mmassonnet@xfce.org>
+
+	* ur.po: Update translation by Muhammad Ali Makki <makki.ma@gmail.com>
+	* pk.po, ur.po: Rename pk.po to ur.po.
+
+2007-11-06  Og Maciel <ogmaciel@gnome.org>
+
+	* pt_BR.po: Added new Brazilian Portuguese translation
+	by Fábio Nogueira <deb-user-ba@ubuntu.com>
+	* LINGUAS: Added pt_BR to the list
+
+2007-10-28	Mike Massonnet <mmassonnet@xfce.org>
+
+	* pk.po: Add new translation by محمد علي المكي <makki.ma@gmail.com>
+
+2007-10-24  Mike Massonnet <mmassonnet@xfce.org>
+
+	* fr.po: Update translation
+
+2007-08-25  Mike Massonnet <mmassonnet@xfce.org>
+
+	* pt_PT.po: European Portuguese update
+	by Nuno Miguel <nunis@netcabo.pt>
+
+2007-07-08  Maximilian Schleiss <maximilian@xfce.org>
+
+	* pt_PT.po: European Protuguese translation added
+	by Nuno Miguel <nunis@netcabo.pt>
+
+2007-05-30  Maximilian Schleiss <maximilian@xfce.org>
+
+	* de.po: Added the German translation
+	by Mathias Brodala <info@noctus.net>
+
+2007-04-01  Maximilian Schleiss <maximilian@xfce.org>
+
+	* pl.po: Added the Polish translation
+	by Piotr Maliński <riklaunim@gmail.com>
+
+2007-03-31  Pau Rul-lan Ferragut <paurullan@bulma.net>
+
+	* gb.po: British translation by Jeff Bailes <thepizzaking@gmail.com>
+
+2007-02-20  Maximilian Schleiss <maximilian@xfce.org>
+
+	* ja.po: Added the Japanese translation by
+	Nobuhiro Iwamatsu <iwamatsu@nigauri.org>
+	* Updated LINGUAS file
+
+2007-02-02  Maximilian Schleiss <maximilian@xfce.org>
+
+	* Created this ChangeLog file
+	* fr.po: Added the French translation
+

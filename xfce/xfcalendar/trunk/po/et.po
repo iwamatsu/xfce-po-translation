@@ -1,0 +1,3188 @@
+# Translation of orage package into Estonian.
+# Copyright (C) 2002-2008 The Xfce development team.
+# This file is distributed under the same license as the orage package.
+# Mart Tõnso <mart.tonso@ttu.ee>, 2004.
+# Peeter Vois <peeter.vois@proekspert.ee>, 2004, 2006.
+# Kristjan Siimson <epost@ksiimson.se>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Xfce4-trunk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-14 22:23+0300\n"
+"PO-Revision-Date: 2008-09-30 10:53-0700\n"
+"Last-Translator: Kristjan Siimson <epost@ksiimson.se>\n"
+"Language-Team: Estonian <et@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Narro 0.9.2 on http://tolge.pingviin.org\n"
+
+#: ../globaltime/globaltime.c:100
+msgid "Raising GlobalTime window..."
+msgstr "GlobalTime'i akna tõstmine..."
+
+#: ../globaltime/globaltime.c:102
+msgid "GlobalTime window raise failed"
+msgstr "GlobalTime'i akna tõstmine ebaõnnestus"
+
+#. ********** timezone tooltip **********
+#: ../globaltime/globaltime.c:278
+#, c-format
+msgid "%s\nclick to modify clock"
+msgstr "%s\nkella muutmiseks klõpsa"
+
+#. trick to refresh clocks once
+#: ../globaltime/globaltime.c:358
+msgid "Ending time adjustment mode"
+msgstr "Ajasättimisviisi lõpetamine"
+
+#: ../globaltime/globaltime.c:366
+msgid "Starting time adjustment mode"
+msgstr "Ajasättimisviisi alustamine"
+
+#: ../globaltime/globaltime.c:381
+msgid "Localtime"
+msgstr "Kohalik aeg"
+
+#: ../globaltime/globaltime.c:456
+msgid "button 1 to change preferences \nbutton 2 to adjust time of clocks"
+msgstr "1. klahv eelistuste muutmiseks \n2. klahv kellaaja sättimiseks"
+
+#: ../globaltime/globaltime.c:472
+msgid "adjust to change hour"
+msgstr "sättida tundide muutmiseks"
+
+#: ../globaltime/globaltime.c:487
+msgid "adjust to change minute"
+msgstr "sättida minutite muutmiseks"
+
+#: ../globaltime/gt_prefs.c:69 ../globaltime/gt_prefs.c:1078
+msgid "Standard"
+msgstr "Tavaline"
+
+#: ../globaltime/gt_prefs.c:71 ../src/appointment.c:2772
+msgid "None"
+msgstr "Puudub"
+
+#: ../globaltime/gt_prefs.c:84 ../globaltime/gt_prefs.c:1101
+msgid "Equal"
+msgstr "Võrdne"
+
+#: ../globaltime/gt_prefs.c:86
+msgid "Vary"
+msgstr "Vahelduv"
+
+#: ../globaltime/gt_prefs.c:267 ../globaltime/gt_prefs.c:268
+msgid "NEW"
+msgstr "UUS"
+
+#: ../globaltime/gt_prefs.c:291
+msgid "NEW COPY"
+msgstr "UUS KOOPIA"
+
+#: ../globaltime/gt_prefs.c:312
+msgid "Not possible to delete the last clock."
+msgstr "Viimast kella ei ole võimalik kustutada."
+
+#: ../globaltime/gt_prefs.c:367 ../panel-plugin/oc_config.c:114
+msgid "Select timezone"
+msgstr "Valige ajavöönd välja"
+
+#: ../globaltime/gt_prefs.c:512
+msgid "update this clock"
+msgstr "uuendada seda kella"
+
+#: ../globaltime/gt_prefs.c:517 ../globaltime/gt_prefs.c:1034
+msgid "add new empty clock"
+msgstr "lisada uus tühi kell"
+
+#: ../globaltime/gt_prefs.c:522
+msgid "add new clock using this clock as model"
+msgstr "lisada uus kell, kasutades mudelina käesolevat kella"
+
+#: ../globaltime/gt_prefs.c:527
+msgid "delete this clock"
+msgstr "kustutada see kell"
+
+#: ../globaltime/gt_prefs.c:535
+msgid "move this clock first"
+msgstr "esmalt liigutada seda kella"
+
+#: ../globaltime/gt_prefs.c:540
+msgid "move this clock left"
+msgstr "liigutada seda kella vasakule"
+
+#: ../globaltime/gt_prefs.c:545
+msgid "move this clock right"
+msgstr "liigutada seda kella paremale"
+
+#: ../globaltime/gt_prefs.c:550
+msgid "move this clock last"
+msgstr "liigutada seda kella viimasena"
+
+#: ../globaltime/gt_prefs.c:558
+msgid "set the timezone of this clock to be local timezone"
+msgstr "määrata selle kella ajavööndiks kohalik ajavöönd"
+
+#: ../globaltime/gt_prefs.c:564 ../globaltime/gt_prefs.c:1042
+msgid "close window and exit"
+msgstr "sulgeda aken ja väljuda"
+
+#: ../globaltime/gt_prefs.c:587
+msgid "Modify Clock "
+msgstr "Muuta kella "
+
+#. -----------------------HEADING-------------------------------------------
+#: ../globaltime/gt_prefs.c:600
+msgid "Clock Parameters"
+msgstr "Kella parameetrid"
+
+#: ../globaltime/gt_prefs.c:604
+msgid "Name of the clock:"
+msgstr "Selle kella nimetus:"
+
+#: ../globaltime/gt_prefs.c:610
+msgid "enter name of clock"
+msgstr "sisestage kellale nimetus"
+
+#: ../globaltime/gt_prefs.c:613
+msgid "Timezone of the clock:"
+msgstr "Selle kella ajavöönd:"
+
+#: ../globaltime/gt_prefs.c:619
+msgid "enter timezone of clock,\n(=any valid TZ value)"
+msgstr "sisestage kellale ajavöönd,\n(=iga korrektne TZ väärtus)"
+
+#: ../globaltime/gt_prefs.c:643
+msgid "Text Formatting"
+msgstr "Teksti vormindamine"
+
+#. ------------------------background-------------------------
+#: ../globaltime/gt_prefs.c:649 ../globaltime/gt_prefs.c:856
+msgid "Background color:"
+msgstr "Taustavärv:"
+
+#: ../globaltime/gt_prefs.c:656
+msgid "Click to change background colour for clock"
+msgstr "Klõpsake, et muuta kella taustavärvi"
+
+#: ../globaltime/gt_prefs.c:665 ../globaltime/gt_prefs.c:697
+#: ../globaltime/gt_prefs.c:729 ../globaltime/gt_prefs.c:762
+#: ../globaltime/gt_prefs.c:796 ../globaltime/gt_prefs.c:826
+#: ../globaltime/gt_prefs.c:872 ../globaltime/gt_prefs.c:905
+#: ../globaltime/gt_prefs.c:938 ../globaltime/gt_prefs.c:972
+msgid "Use default"
+msgstr "Kasutada vaikeseadet"
+
+#: ../globaltime/gt_prefs.c:670 ../globaltime/gt_prefs.c:702
+#: ../globaltime/gt_prefs.c:735 ../globaltime/gt_prefs.c:768
+#: ../globaltime/gt_prefs.c:802 ../globaltime/gt_prefs.c:832
+msgid "Cross this to use default instead of selected value"
+msgstr "Märkige, et kasutada vaikeseadet, mitte valitud väärtust"
+
+#. ------------------------foreground-------------------------
+#: ../globaltime/gt_prefs.c:681 ../globaltime/gt_prefs.c:889
+msgid "Foreground (=text) color:"
+msgstr "Esiplaani (=tekst) värv:"
+
+#: ../globaltime/gt_prefs.c:688
+msgid "Click to change foreground colour for clock"
+msgstr "Klõpsake, et muuta kella esiplaani värvi"
+
+#. ------------------------name font-------------------------
+#: ../globaltime/gt_prefs.c:713 ../globaltime/gt_prefs.c:922
+msgid "Font for name of clock:"
+msgstr "Kellanime font:"
+
+#: ../globaltime/gt_prefs.c:720
+msgid "Click to change font for clock name"
+msgstr "Klõpsake, et muuta kella nime fonti"
+
+#. ------------------------time font-------------------------
+#: ../globaltime/gt_prefs.c:746 ../globaltime/gt_prefs.c:956
+msgid "Font for time of clock:"
+msgstr "Kellaaja font:"
+
+#: ../globaltime/gt_prefs.c:753
+msgid "Click to change font for clock time"
+msgstr "Klõpsake, et muuta kellaaja fonti"
+
+#. ------------------------underline name--------------------
+#: ../globaltime/gt_prefs.c:780
+msgid "Underline name of clock:"
+msgstr "Jooni kella nimi alla:"
+
+#. ------------------------underline time--------------------
+#: ../globaltime/gt_prefs.c:810
+msgid "Underline time of clock:"
+msgstr "Jooni kellaaeg alla:"
+
+#: ../globaltime/gt_prefs.c:850
+msgid "Text Default Formatting"
+msgstr "Vaikimisi vormistus tekstile"
+
+#: ../globaltime/gt_prefs.c:863
+msgid "Click to change default background colour for clocks"
+msgstr "Klõpsake, et muuta kellade vaikimisi taustavärvi"
+
+#: ../globaltime/gt_prefs.c:877 ../globaltime/gt_prefs.c:910
+msgid "Cross this to use system default instead of selected color"
+msgstr "Märkige, et kasutada vaikeseadet, mitte valitud värvi"
+
+#: ../globaltime/gt_prefs.c:896
+msgid "Click to change default text colour for clocks"
+msgstr "Klõpsake, et muuta kellade vaikimisi tekstivärvi"
+
+#: ../globaltime/gt_prefs.c:929
+msgid "Click to change default font for clock name"
+msgstr "Klõpsake, et muuta kellanimede vaikimisi fonti"
+
+#: ../globaltime/gt_prefs.c:944 ../globaltime/gt_prefs.c:978
+msgid "Cross this to use system default font instead of selected font"
+msgstr "Märkige, et kasutada vaikeseadet, mitte valitud fonti"
+
+#: ../globaltime/gt_prefs.c:963
+msgid "Click to change default font for clock time"
+msgstr "Klõpsa muutmaks vaikimisi kellaaja fonti"
+
+#. ------------------------underline name--------------------
+#: ../globaltime/gt_prefs.c:990
+msgid "Underline for name of clock:"
+msgstr "Kellanime allajoonimine:"
+
+#. ------------------------underline time--------------------
+#: ../globaltime/gt_prefs.c:1004
+msgid "Underline for time of clock:"
+msgstr "Kellaaja allajoonimine:"
+
+#: ../globaltime/gt_prefs.c:1027
+msgid "update preferences"
+msgstr "uuendada eelistusi"
+
+#: ../globaltime/gt_prefs.c:1062
+msgid "Modify Preferences"
+msgstr "Muuta eelistusi"
+
+#. -----------------------HEADING--------------------------------------
+#: ../globaltime/gt_prefs.c:1073
+msgid "General Preferences"
+msgstr "Üldised eelistused"
+
+#: ../globaltime/gt_prefs.c:1077
+msgid "Decorations:"
+msgstr "Dekoratsioonid:"
+
+#: ../globaltime/gt_prefs.c:1083
+msgid "Use normal decorations"
+msgstr "Kasutada harilike dekoratsioone"
+
+#: ../globaltime/gt_prefs.c:1094
+msgid "Do not show window decorations (borders)"
+msgstr "Mitte näidata akende dekoratsioone (raame)"
+
+#: ../globaltime/gt_prefs.c:1100
+msgid "Clock size:"
+msgstr "Kella suurus:"
+
+#: ../globaltime/gt_prefs.c:1106
+msgid "All clocks have same size"
+msgstr "Kõik kellad on sama suured"
+
+#: ../globaltime/gt_prefs.c:1111
+msgid "Varying"
+msgstr "Vahelduv"
+
+#: ../globaltime/gt_prefs.c:1116
+msgid "Clock sizes vary"
+msgstr "Kellade suurused vahelduvad"
+
+#: ../globaltime/gt_prefs.c:1122
+msgid "Local timezone:"
+msgstr "Kohalik ajavöönd:"
+
+#: ../globaltime/gt_prefs.c:1129
+msgid "Enter local timezone. (it is used to show if time is on previous(-) or next date(+) by adding a +/- after the time)"
+msgstr "Sisestage kohalik ajavöönd.(kasutatakse näitamaks kas aeg on eelmisel(-) või järgmisel kuupäeval(+) lisades pärast aega vastavalt + või -)"
+
+#: ../panel-plugin/oc_config.c:193
+msgid "Appearance"
+msgstr "Välimus"
+
+#. show frame
+#: ../panel-plugin/oc_config.c:204
+msgid "Show _frame"
+msgstr "_Näidata raami"
+
+#. foreground color
+#: ../panel-plugin/oc_config.c:214
+msgid "set foreground _color:"
+msgstr "_määrata esiplaanile värv:"
+
+#. background color
+#: ../panel-plugin/oc_config.c:228
+msgid "set _background color:"
+msgstr "_määrata tagaplaanile värv:"
+
+#. clock size (=vbox size): height and width
+#: ../panel-plugin/oc_config.c:242
+msgid "set _height:"
+msgstr "_määrata kõrgus:"
+
+#: ../panel-plugin/oc_config.c:254
+msgid "set _width:"
+msgstr "määrata _laius:"
+
+#: ../panel-plugin/oc_config.c:275
+msgid "Clock Options"
+msgstr "Kella valikud"
+
+#. timezone
+#: ../panel-plugin/oc_config.c:286
+msgid "set timezone to:"
+msgstr "määrata ajavööndiks:"
+
+#: ../panel-plugin/oc_config.c:295
+msgid "Set any valid timezone (=TZ) value or pick one from the list."
+msgstr "Määrake ajavööndile korrektne (=TZ) väärtus või valige see loendist."
+
+#. line 1
+#: ../panel-plugin/oc_config.c:304
+msgid "show line _1:"
+msgstr "näidata _1. rida:"
+
+#: ../panel-plugin/oc_config.c:315
+msgid "Enter any valid strftime function parameter."
+msgstr "Sisesta ükskõik milline korrektne funktsiooni „strftime” parameeter."
+
+#. line 2
+#: ../panel-plugin/oc_config.c:331
+msgid "show line _2:"
+msgstr "näidata _2. rida:"
+
+#. line 3
+#: ../panel-plugin/oc_config.c:353
+msgid "show line _3:"
+msgstr "näidata _3. rida:"
+
+#. Tooltip hint
+#: ../panel-plugin/oc_config.c:375
+msgid "Tooltip:"
+msgstr "Vahendivihje:"
+
+#: ../panel-plugin/oc_config.c:392
+msgid "This program uses strftime function to get time.\nUse any valid code to get time in the format you prefer.\nSome common codes are:\n\t%A = weekday\t\t\t%B = month\n\t%c = date & time\t\t%R = hour & minute\n\t%V = week number\t\t%Z = timezone in use\n\t%H = hours \t\t\t\t%M = minute\n\t%X = local time\t\t\t%x = local date"
+msgstr "Selles programmis kasutatakse aja hankimiseks strftime funktsiooni.\nKasutage ükskõik millist korrektset koodi, et saada soovikohaselt vormistatud aeg.\nMõned levinumad koodid on:\n\t%A = nädalapäev\t\t\t%B = kuu\n\t%c= kuupäev ja aeg\t\t%R = tund ja minut\n\t%V = nädalaarv\t\t%Z = kasutatav ajavöönd\n\t%H = tunnid \t\t\t\t%M = minut\n\t%X = kohalik aeg\t\t\t%x = kohalik kuupäev"
+
+#: ../panel-plugin/oc_config.c:416
+msgid "Properties"
+msgstr "Omadused"
+
+#: ../panel-plugin/oc_config.c:431
+msgid "Orage clock"
+msgstr "Orage'i kell"
+
+#. TRANSLATORS: Use format characters from strftime(3)
+#. * to get the proper string for your locale.
+#. * I used these:
+#. * %A  : full weekday name
+#. * %d  : day of the month
+#. * %B  : full month name
+#. * %Y  : four digit year
+#. * %V  : ISO week number
+#.
+#: ../panel-plugin/orageclock.c:627
+msgid "%A %d %B %Y/%V"
+msgstr "%A. %d %B %Y/%V"
+
+#: ../plugin/xfcalendar_plugin.c:43
+msgid "Failed to launch 'orage -p'"
+msgstr "'orage -p' käivitamine ebaõnnestus"
+
+#. the button label in the xfce-mcs-manager dialog
+#: ../plugin/xfcalendar_plugin.c:61
+msgid "Orage - Calendar"
+msgstr "Orage - kalender"
+
+#: ../src/about-xfcalendar.c:42
+msgid "Manage your time with Xfce4"
+msgstr "Halda oma aega Xfce4 abil"
+
+#: ../src/about-xfcalendar.c:52
+msgid "Maintainer"
+msgstr "Hooldaja"
+
+#: ../src/about-xfcalendar.c:57
+msgid "Original creator, retired maintainer"
+msgstr "Algne looja, endine hooldaja"
+
+#: ../src/about-xfcalendar.c:62
+msgid "Contributor"
+msgstr "Kaasaaitaja"
+
+#. if (gtk_toggle_button_get_active(
+#. GTK_TOGGLE_BUTTON(apptw->Type_journal_rb)))
+#. end time
+#: ../src/appointment.c:348 ../src/appointment.c:384 ../src/appointment.c:2322
+msgid "End"
+msgstr "Lõpp"
+
+#: ../src/appointment.c:366
+msgid "Due"
+msgstr "Tähtaeg"
+
+#: ../src/appointment.c:501 ../src/mainbox.c:689 ../xfcalendar.desktop.in.h:3
+msgid "Orage"
+msgstr "Orage"
+
+#. to avoid timing problems when updating entry
+#. Create file chooser
+#: ../src/appointment.c:651 ../src/interface.c:277 ../src/parameters.c:371
+msgid "Select a file..."
+msgstr "Valige fail..."
+
+#: ../src/appointment.c:659
+msgid "Sound Files"
+msgstr "Helifailid"
+
+#: ../src/appointment.c:666 ../src/interface.c:290
+msgid "All Files"
+msgstr "Kõik failid"
+
+#: ../src/appointment.c:717 ../src/appointment.c:1145 ../src/event-list.c:897
+msgid "Warning"
+msgstr "Hoiatus"
+
+#: ../src/appointment.c:719
+msgid "The appointment information has been modified."
+msgstr "Kohtumise andmeid on muudetud."
+
+#: ../src/appointment.c:720 ../src/appointment.c:1148 ../src/event-list.c:900
+msgid "Do you want to continue?"
+msgstr "Kas jätkata?"
+
+#: ../src/appointment.c:750
+msgid "Error"
+msgstr "Viga"
+
+#: ../src/appointment.c:752
+msgid "The end of this appointment is earlier than the beginning."
+msgstr "Kohtumine lõpeb enne selle algust."
+
+#. cat_groups[0] is special [NULL] entry always
+#: ../src/appointment.c:1007 ../src/appointment.c:1538
+msgid "Not set"
+msgstr "Sättimata"
+
+#: ../src/appointment.c:1147
+msgid "This appointment will be permanently removed."
+msgstr "See kohtumine eemaldatakse jäädavalt."
+
+#: ../src/appointment.c:1421 ../src/event-list.c:726
+msgid "Info"
+msgstr "Teave"
+
+#: ../src/appointment.c:1423
+msgid "This appointment does not exist."
+msgstr "Seda kohtumist pole olemas."
+
+#: ../src/appointment.c:1424
+msgid "It was probably removed, please refresh your screen."
+msgstr "See on tõenäoliselt eemaldatud, palun värskenda oma ekraani."
+
+#: ../src/appointment.c:1721
+msgid "Current categories"
+msgstr "Praegused jaotised"
+
+#: ../src/appointment.c:1736
+msgid "Add new category with color"
+msgstr "Lisa uus värviga jaotis"
+
+#: ../src/appointment.c:1740
+msgid "Category:"
+msgstr "Jaotis:"
+
+#: ../src/appointment.c:1771
+msgid "Colors of categories - Orage"
+msgstr "Jaotiste värvid - Orage"
+
+#: ../src/appointment.c:1932
+msgid "New appointment - Orage"
+msgstr "Uus kohtumine - Orage"
+
+#: ../src/appointment.c:1956
+msgid " *** COPY ***"
+msgstr " *** KOPEERI ***"
+
+#. File menu stuff
+#. ********* File menu *********
+#. File menu
+#: ../src/appointment.c:2066 ../src/day-view.c:254 ../src/event-list.c:994
+#: ../src/interface.c:762 ../src/mainbox.c:261
+msgid "_File"
+msgstr "_Fail"
+
+#: ../src/appointment.c:2072
+msgid "Sav_e and close"
+msgstr "Salv_estada ja sulgeda"
+
+#: ../src/appointment.c:2085 ../src/event-list.c:1000
+msgid "D_uplicate"
+msgstr "_Kloonida"
+
+#: ../src/appointment.c:2219
+msgid "Save"
+msgstr "Salvestada"
+
+#: ../src/appointment.c:2221
+msgid "Save and close"
+msgstr "Salvestada ja sulgeda"
+
+#: ../src/appointment.c:2226
+msgid "Revert"
+msgstr "Taastada"
+
+#: ../src/appointment.c:2228 ../src/event-list.c:1085
+msgid "Duplicate"
+msgstr "Kloonida"
+
+#: ../src/appointment.c:2233 ../src/event-list.c:1087
+msgid "Delete"
+msgstr "Kustutada"
+
+#: ../src/appointment.c:2251
+msgid "Free"
+msgstr "Vaba"
+
+#: ../src/appointment.c:2251
+msgid "Busy"
+msgstr "Hõivatud"
+
+#: ../src/appointment.c:2255
+msgid "General"
+msgstr "Üldine"
+
+#. type
+#: ../src/appointment.c:2261
+msgid "Type "
+msgstr "Liik "
+
+#: ../src/appointment.c:2263 ../src/event-list.c:1139
+msgid "Event"
+msgstr "Sündmus"
+
+#: ../src/appointment.c:2266
+msgid "Event that will happen sometime. For example:\nMeeting or birthday or TV show."
+msgstr "Millalgi toimuv sündmus. Näiteks:\nKohtumine, sünnipäev, või telekasaade."
+
+#: ../src/appointment.c:2269 ../src/event-list.c:1160
+msgid "Todo"
+msgstr "Agenda"
+
+#: ../src/appointment.c:2272
+msgid "Something that you should do sometime. For example:\nWash your car or test new version of Orage."
+msgstr "Asjad mida sa peaksid kunagi tegema. Näiteks:\nAutot pesta või uut Orage'i versiooni katsetada."
+
+#: ../src/appointment.c:2275 ../src/event-list.c:1175
+msgid "Journal"
+msgstr "Päevik"
+
+#: ../src/appointment.c:2279
+msgid "Make a note that something happened. For example:\nRemark that your mother called or first snow came."
+msgstr "Juba toimunud sündmuste ülesmärkimine. Näiteks:\nTähelda, et sinu ema helistas, või sadas esimest korda lund."
+
+#. title
+#: ../src/appointment.c:2286
+msgid "Title "
+msgstr "Pealkiri"
+
+#. location
+#: ../src/appointment.c:2293 ../src/ical-code.c:4495 ../src/ical-code.c:4500
+msgid "Location"
+msgstr "Asukoht"
+
+#: ../src/appointment.c:2301
+msgid "All day event"
+msgstr "Terve päeva sündmus"
+
+#. start time
+#: ../src/appointment.c:2307 ../src/day-view.c:681
+msgid "Start"
+msgstr "Algus"
+
+#: ../src/appointment.c:2327
+msgid "Set      "
+msgstr "Määrata      "
+
+#: ../src/appointment.c:2348
+msgid "Duration"
+msgstr "Kestvus"
+
+#: ../src/appointment.c:2352 ../src/appointment.c:2524 ../src/day-view.c:702
+msgid "days"
+msgstr "päeva"
+
+#: ../src/appointment.c:2354 ../src/appointment.c:2526
+msgid "hours"
+msgstr "tundi"
+
+#: ../src/appointment.c:2356 ../src/appointment.c:2528
+msgid "mins"
+msgstr "minutit"
+
+#. Availability (only for EVENT)
+#: ../src/appointment.c:2368
+msgid "Availability"
+msgstr "Kättesaadavus"
+
+#. completed (only for TODO)
+#: ../src/appointment.c:2376
+msgid "Completed"
+msgstr "Valmis"
+
+#: ../src/appointment.c:2379
+msgid "Done"
+msgstr "Tehtud"
+
+#. categories
+#: ../src/appointment.c:2400
+msgid "Categories"
+msgstr "Jaotised"
+
+#: ../src/appointment.c:2412
+msgid "This is special category, which can be used to color this appointment in list views."
+msgstr "See on erijaotis, mida kasutatakse selle kohtumise värvimiseks loendivaates."
+
+#: ../src/appointment.c:2417
+msgid "update colors for categories."
+msgstr "uuendada jaotiste värve."
+
+#. note
+#: ../src/appointment.c:2423
+msgid "Note"
+msgstr "Märge"
+
+#: ../src/appointment.c:2442
+msgid "<D> inserts current date in local date format.\n<T> inserts time and\n<DT> inserts date and time."
+msgstr "<D> sisestab käesoleva kuupäeva kohalikus ajavormingus.\n<T> sisestab aja ja\n<DT> sisestab kuupäeva ja aja."
+
+#: ../src/appointment.c:2509
+msgid "Before Start"
+msgstr "Enne algust"
+
+#: ../src/appointment.c:2509
+msgid "Before End"
+msgstr "Enne lõppu"
+
+#: ../src/appointment.c:2510
+msgid "After Start"
+msgstr "Pärast algust"
+
+#: ../src/appointment.c:2510
+msgid "After End"
+msgstr "Pärast lõppu"
+
+#: ../src/appointment.c:2515
+msgid "Alarm"
+msgstr "Alarm"
+
+#. **** ALARM TIME ****
+#: ../src/appointment.c:2521
+msgid "Alarm time"
+msgstr "Alarmi aeg"
+
+#: ../src/appointment.c:2545
+msgid "Often you want to get alarm:\n 1) before Event start\n 2) before Todo end\n 3) after Todo start"
+msgstr "Tavaliselt läheb sul alarmi vaja:\n 1) enne sündmuse algust\n 2) enne ülesande lõppu\n 3) pärast ülesande algust"
+
+#: ../src/appointment.c:2550
+msgid "Persistent alarm"
+msgstr "Järjekindel alarm"
+
+#: ../src/appointment.c:2552
+msgid "Select this if you want Orage to remind you even if it has not been active when the alarm happened."
+msgstr "Valige juhul, kui soovite meeletuletust, isegi kui Orage ei olnud alarmi ajal aktiivne."
+
+#. **** Audio Alarm ****
+#: ../src/appointment.c:2561
+msgid "Sound"
+msgstr "Helin"
+
+#: ../src/appointment.c:2565 ../src/appointment.c:2686
+msgid "Use"
+msgstr "Kasutada"
+
+#: ../src/appointment.c:2567
+msgid "Select this if you want audible alarm"
+msgstr "Valige juhul, kui soovite kuuldavat alarmi"
+
+#: ../src/appointment.c:2584
+msgid "Repeat alarm sound"
+msgstr "Korrata alarmi helinat"
+
+#: ../src/appointment.c:2600 ../src/appointment.c:2844
+msgid "times"
+msgstr "kordi"
+
+#: ../src/appointment.c:2616
+msgid "sec interval"
+msgstr "ajavahemik sekundites"
+
+#. **** Display Alarm ****
+#: ../src/appointment.c:2626
+msgid "Visual"
+msgstr "Visuaalne"
+
+#: ../src/appointment.c:2630
+msgid "Use Orage window"
+msgstr "Kasutada Orage'i akent"
+
+#: ../src/appointment.c:2632
+msgid "Select this if you want Orage window alarm"
+msgstr "Valige juhul, kui soovite alarmi Orage'i aknas"
+
+#: ../src/appointment.c:2644
+msgid "Use notification"
+msgstr "Kasutada märguannet"
+
+#: ../src/appointment.c:2646
+msgid "Select this if you want notification alarm"
+msgstr "Valige juhul, kui soovite alarmi märguandena"
+
+#: ../src/appointment.c:2652
+msgid "Set timeout"
+msgstr "Määrata ajakatkestus"
+
+#: ../src/appointment.c:2655
+msgid "Select this if you want notification to expire automatically"
+msgstr "Valige juhul, kui soovite automaatselt aeguvat märguannet"
+
+#: ../src/appointment.c:2666
+msgid "0 = system default expiration time"
+msgstr "0 = süsteemi vaikimisi aegumisperiood"
+
+#: ../src/appointment.c:2671
+msgid "seconds"
+msgstr "sekundit"
+
+#. **** Procedure Alarm ****
+#: ../src/appointment.c:2682
+msgid "Procedure"
+msgstr "Toiming"
+
+#: ../src/appointment.c:2688
+msgid "Select this if you want procedure or script alarm"
+msgstr "Valige juhul, kui soovite protseduuri- või skriptialarmi"
+
+#: ../src/appointment.c:2694
+msgid "You must enter all escape etc characters yourself.\n This string is just given to shell to process"
+msgstr "Peate ise kõik katkestusmärgid jms. sisestama.\n Sõne edastatakse lihtsalt Shellile käsitlemiseks"
+
+#. **** Default Alarm Settings ****
+#: ../src/appointment.c:2703
+msgid "Default alarm"
+msgstr "Vaikimisi alarm"
+
+#: ../src/appointment.c:2710
+msgid "Store current settings as default alarm"
+msgstr "Säilitada käesolevad seadistused vaikimisi alarmina"
+
+#: ../src/appointment.c:2715
+msgid "Set current settings from default alarm"
+msgstr "Määrata käesolevad seadistused vaikimisi alarmi põhjal"
+
+#: ../src/appointment.c:2772
+msgid "Daily"
+msgstr "Päeviti"
+
+#: ../src/appointment.c:2772
+msgid "Weekly"
+msgstr "Nädalati"
+
+#: ../src/appointment.c:2772
+msgid "Monthly"
+msgstr "Kuiselt"
+
+#: ../src/appointment.c:2772
+msgid "Yearly"
+msgstr "Aastati"
+
+#: ../src/appointment.c:2774
+msgid "Mon"
+msgstr "Esmp"
+
+#: ../src/appointment.c:2774
+msgid "Tue"
+msgstr "Teisip"
+
+#: ../src/appointment.c:2774
+msgid "Wed"
+msgstr "Kolmap"
+
+#: ../src/appointment.c:2774
+msgid "Thu"
+msgstr "Neljap"
+
+#: ../src/appointment.c:2774
+msgid "Fri"
+msgstr "Reede"
+
+#: ../src/appointment.c:2774
+msgid "Sat"
+msgstr "Laup"
+
+#: ../src/appointment.c:2774
+msgid "Sun"
+msgstr "Pühap"
+
+#: ../src/appointment.c:2778
+msgid "Recurrence"
+msgstr "Korduvus"
+
+#: ../src/appointment.c:2783
+msgid "Complexity"
+msgstr "Keerukus"
+
+#: ../src/appointment.c:2786
+msgid "Basic"
+msgstr "Algeline"
+
+#: ../src/appointment.c:2792
+msgid "Advanced"
+msgstr "Täpsem"
+
+#: ../src/appointment.c:2799
+msgid "Use this if you want regular repeating event"
+msgstr "Kasutada kui soovid regulaarselt korduvat sündmust"
+
+#: ../src/appointment.c:2801
+msgid "Use this if you need complex times like:\n Every Saturday and Sunday or \n First Tuesday every month"
+msgstr "Kasutada kui vajate keerukamaid aegu nagu:\n Iga laupäev ja pühapäev või \n Iga kuu esimene teisipäev"
+
+#: ../src/appointment.c:2804
+msgid "Frequency"
+msgstr "Sagedus"
+
+#: ../src/appointment.c:2810
+msgid "Each"
+msgstr "Iga"
+
+#: ../src/appointment.c:2817
+msgid "occurrence"
+msgstr "juhtum"
+
+#: ../src/appointment.c:2821
+msgid "Limit frequency to certain interval.\n For example: Every third day:\n Frequency = Daily and Interval = 3"
+msgstr "Piirata sagedus kindla vahemikuga.\n Näiteks: Iga kolmas päev:\n Sagedus = Iga päev ja Vahemik = 3"
+
+#: ../src/appointment.c:2827
+msgid "Limit"
+msgstr "Piir"
+
+#: ../src/appointment.c:2829
+msgid "Repeat forever"
+msgstr "Korrata lõpmatult"
+
+#: ../src/appointment.c:2836
+msgid "Repeat "
+msgstr "Korrata "
+
+#: ../src/appointment.c:2853
+msgid "Repeat until "
+msgstr "Korrata kuni "
+
+#: ../src/appointment.c:2863
+msgid "Weekdays"
+msgstr "Nädalapäevad"
+
+#: ../src/appointment.c:2875
+msgid "Which day"
+msgstr "Milline päev"
+
+#: ../src/appointment.c:2883
+msgid "Specify which weekday for monthly and yearly events.\n For example:\n Second Wednesday each month:\n\tFrequency = Monthly,\n\tWeekdays = check only Wednesday,\n\tWhich day = select 2 from the number below Wednesday"
+msgstr "Määrake igakuustele- ja aastastele sündmustele nädalapäev.\n Näiteks:\n Iga kuu teine kolmapäev:\n\tSagedus = Iga kuu,\n\tNädalapäevad = vali ainult kolmapäev,\n\tMilline päev = vali kolmapäeva all olevast numbrist 2"
+
+#. ********* View menu *********
+#. View menu
+#: ../src/day-view.c:264 ../src/event-list.c:1017 ../src/mainbox.c:287
+msgid "_View"
+msgstr "_Vaade"
+
+#. ********* Go menu   *********
+#: ../src/day-view.c:278 ../src/event-list.c:1036
+msgid "_Go"
+msgstr "_Liikuda"
+
+#: ../src/day-view.c:319 ../src/event-list.c:1083
+msgid "New"
+msgstr "Uus"
+
+#: ../src/day-view.c:324 ../src/event-list.c:1092
+msgid "Back"
+msgstr "Tagasi"
+
+#: ../src/day-view.c:326 ../src/event-list.c:1094 ../src/functions.c:132
+#: ../src/tray_icon.c:314
+msgid "Today"
+msgstr "Täna"
+
+#: ../src/day-view.c:328 ../src/event-list.c:1096
+msgid "Forward"
+msgstr "Edasi"
+
+#: ../src/day-view.c:333 ../src/event-list.c:1101
+msgid "Refresh"
+msgstr "Värskendada"
+
+#: ../src/day-view.c:338 ../src/event-list.c:1108 ../src/interface.c:804
+msgid "Close"
+msgstr "Sulgeda"
+
+#. then add the appointment
+#: ../src/day-view.c:452
+msgid "Unknown"
+msgstr "Tundmatu"
+
+#: ../src/day-view.c:694 ../src/parameters.c:650
+msgid "Show"
+msgstr "Näidata"
+
+#: ../src/day-view.c:928
+msgid "Orage - day view"
+msgstr "Orage - päevavaade"
+
+#. date only appointment
+#: ../src/event-list.c:190
+msgid "All day"
+msgstr "Terve päev"
+
+#: ../src/event-list.c:557 ../src/event-list.c:1266
+msgid "Time"
+msgstr "Aeg"
+
+#: ../src/event-list.c:728
+msgid "No rows have been selected."
+msgstr "Ühtegi veergu pole valitud."
+
+#: ../src/event-list.c:729
+msgid "Click a row to select it and after that you can copy it."
+msgstr "Klõpsake veerul, et see välja valida, siis saate seda kopeerida."
+
+#: ../src/event-list.c:899
+msgid "You will permanently remove all\nselected appointments."
+msgstr "Kustutate jäädavalt kõik\nvalitud kohtumised."
+
+#: ../src/event-list.c:1103
+msgid "Find"
+msgstr "Leia"
+
+#: ../src/event-list.c:1110
+msgid "Dayview"
+msgstr "Päevavaade"
+
+#: ../src/event-list.c:1143
+msgid "Extra days to show "
+msgstr "Näidata liigseid päevi "
+
+#: ../src/event-list.c:1179
+msgid "Journal entries starting from:"
+msgstr "Päeviku sissekanded algavad alates:"
+
+#: ../src/event-list.c:1204
+msgid "Search"
+msgstr "Otsida"
+
+#: ../src/event-list.c:1208
+msgid "Search text "
+msgstr "Otsida teksti "
+
+#: ../src/event-list.c:1274
+msgid "Flags"
+msgstr "Lipud"
+
+#: ../src/event-list.c:1282
+msgid "Title"
+msgstr "Pealkiri"
+
+#: ../src/event-list.c:1308
+msgid "Double click line to edit it.\n\nFlags in order:\n\t 1. Alarm: n=no alarm\n\t\t A=visual Alarm S=also Sound alarm\n\t 2. Recurrence: n=no recurrence\n\t\t D=Daily W=Weekly M=Monthly Y=Yearly\n\t 3. Type: f=free B=Busy\n\t 4. Located in file:\n\t\tO=Orage A=Archive F=Foreign\n\t 5. Appointment type:\n\t\tE=Event T=Todo J=Journal"
+msgstr "Rea toimetamiseks topeltklõpsake.\n\nJärjestatud valikud:\n\t 1. Alarm: n=Alarmi pole\n\t\t A=Nähtav alarm S=Ka helialarm\n\t 2. Kordumine: n=ei kordu\n\t\t D=Päevas W=Nädalas M=Kuus Y=Aastas\n\t 3. Liik: f=Vaba B=Hõivatud\n\t 4. Paikneb failis:\n\t\tO=Orage A=Arhiiv F=Väline\n\t 5. Kohtumise liik:\n\t\tE=Sündmus T=Ülesanne J=Päevik"
+
+#: ../src/functions.c:130
+msgid "Pick the date"
+msgstr "Valige kuupäev"
+
+#: ../src/ical-code.c:115
+msgid "Africa"
+msgstr "Aafrika"
+
+#: ../src/ical-code.c:116
+msgid "Africa/Abidjan"
+msgstr "Aafrika/Abidjan"
+
+#: ../src/ical-code.c:117
+msgid "Africa/Accra"
+msgstr "Aafrika/Accra"
+
+#: ../src/ical-code.c:118
+msgid "Africa/Addis_Ababa"
+msgstr "Aafrika/AddisA_beba"
+
+#: ../src/ical-code.c:119
+msgid "Africa/Algiers"
+msgstr "Aafrika/Alžiir"
+
+#: ../src/ical-code.c:120
+msgid "Africa/Asmera"
+msgstr "Aafrika/Asmara"
+
+#: ../src/ical-code.c:121
+msgid "Africa/Bamako"
+msgstr "Aafrika/Bamako"
+
+#: ../src/ical-code.c:122
+msgid "Africa/Bangui"
+msgstr "Aafrika/Bangui"
+
+#: ../src/ical-code.c:123
+msgid "Africa/Banjul"
+msgstr "Aafrika/Banjul"
+
+#: ../src/ical-code.c:124
+msgid "Africa/Bissau"
+msgstr "Aafrika/Bissau"
+
+#: ../src/ical-code.c:125
+msgid "Africa/Blantyre"
+msgstr "Aafrika/Blantyre"
+
+#: ../src/ical-code.c:126
+msgid "Africa/Brazzaville"
+msgstr "Aafrika/Brazzaville"
+
+#: ../src/ical-code.c:127
+msgid "Africa/Bujumbura"
+msgstr "Aafrika/Bujumbura"
+
+#: ../src/ical-code.c:128
+msgid "Africa/Cairo"
+msgstr "Aafrika/Kairo"
+
+#: ../src/ical-code.c:129
+msgid "Africa/Casablanca"
+msgstr "Aafrika/Casablanca"
+
+#: ../src/ical-code.c:130
+msgid "Africa/Ceuta"
+msgstr "Aafrika/Ceuta"
+
+#: ../src/ical-code.c:131
+msgid "Africa/Conakry"
+msgstr "Aafrika/Conakry"
+
+#: ../src/ical-code.c:132
+msgid "Africa/Dakar"
+msgstr "Aafrika/Dakar"
+
+#: ../src/ical-code.c:133
+msgid "Africa/Dar_es_Salaam"
+msgstr "Aafrika/Dar_esSalaam"
+
+#: ../src/ical-code.c:134
+msgid "Africa/Djibouti"
+msgstr "Aafrika/Djibouti"
+
+#: ../src/ical-code.c:135
+msgid "Africa/Douala"
+msgstr "Aafrika/Douala"
+
+#: ../src/ical-code.c:136
+msgid "Africa/El_Aaiun"
+msgstr "Aafrika/ElAaiú_n"
+
+#: ../src/ical-code.c:137
+msgid "Africa/Freetown"
+msgstr "Aafrika/Freetown"
+
+#: ../src/ical-code.c:138
+msgid "Africa/Gaborone"
+msgstr "Aafrika/Gaborone"
+
+#: ../src/ical-code.c:139
+msgid "Africa/Harare"
+msgstr "Aafrika/Harare"
+
+#: ../src/ical-code.c:140
+msgid "Africa/Johannesburg"
+msgstr "Aafrika/Johannesburg"
+
+#: ../src/ical-code.c:141
+msgid "Africa/Kampala"
+msgstr "Aafrika/Kampala"
+
+#: ../src/ical-code.c:142
+msgid "Africa/Khartoum"
+msgstr "Aafrika/Hartum"
+
+#: ../src/ical-code.c:143
+msgid "Africa/Kigali"
+msgstr "Aafrika/Kigali"
+
+#: ../src/ical-code.c:144
+msgid "Africa/Kinshasa"
+msgstr "Aafrika/Kinshasa"
+
+#: ../src/ical-code.c:145
+msgid "Africa/Lagos"
+msgstr "Aafrika/Lagos"
+
+#: ../src/ical-code.c:146
+msgid "Africa/Libreville"
+msgstr "Aafrika/Libreville"
+
+#: ../src/ical-code.c:147
+msgid "Africa/Lome"
+msgstr "Aafrika/Lomé"
+
+#: ../src/ical-code.c:148
+msgid "Africa/Luanda"
+msgstr "Aafrika/Luanda"
+
+#: ../src/ical-code.c:149
+msgid "Africa/Lubumbashi"
+msgstr "Aafrika/Lubumbashi"
+
+#: ../src/ical-code.c:150
+msgid "Africa/Lusaka"
+msgstr "Aafrika/Lusaka"
+
+#: ../src/ical-code.c:151
+msgid "Africa/Malabo"
+msgstr "Aafrika/Malabo"
+
+#: ../src/ical-code.c:152
+msgid "Africa/Maputo"
+msgstr "Aafrika/Maputo"
+
+#: ../src/ical-code.c:153
+msgid "Africa/Maseru"
+msgstr "Aafrika/Maseru"
+
+#: ../src/ical-code.c:154
+msgid "Africa/Mbabane"
+msgstr "Aafrika/Mbabane"
+
+#: ../src/ical-code.c:155
+msgid "Africa/Mogadishu"
+msgstr "Aafrika/Muqdisho"
+
+#: ../src/ical-code.c:156
+msgid "Africa/Monrovia"
+msgstr "Aafrika/Monrovia"
+
+#: ../src/ical-code.c:157
+msgid "Africa/Nairobi"
+msgstr "Aafrika/Nairobi"
+
+#: ../src/ical-code.c:158
+msgid "Africa/Ndjamena"
+msgstr "Aafrika/Ndjamena"
+
+#: ../src/ical-code.c:159
+msgid "Africa/Niamey"
+msgstr "Aafrika/Niamey"
+
+#: ../src/ical-code.c:160
+msgid "Africa/Nouakchott"
+msgstr "Aafrika/Nouakchott"
+
+#: ../src/ical-code.c:161
+msgid "Africa/Ouagadougou"
+msgstr "Aafrika/Ouagadougou"
+
+#: ../src/ical-code.c:162
+msgid "Africa/Porto-Novo"
+msgstr "Aafrika/Porto-Novo"
+
+#: ../src/ical-code.c:163
+msgid "Africa/Sao_Tome"
+msgstr "Aafrika/São_Tomé"
+
+#: ../src/ical-code.c:164
+msgid "Africa/Timbuktu"
+msgstr "Aafrika/Tombouctou"
+
+#: ../src/ical-code.c:165
+msgid "Africa/Tripoli"
+msgstr "Aafrika/Tripoli"
+
+#: ../src/ical-code.c:166
+msgid "Africa/Tunis"
+msgstr "Aafrika/Tunis"
+
+#: ../src/ical-code.c:167
+msgid "Africa/Windhoek"
+msgstr "Aafrika/Windhoek"
+
+#: ../src/ical-code.c:168
+msgid "America"
+msgstr "Ameerika"
+
+#: ../src/ical-code.c:169
+msgid "America/Adak"
+msgstr "Ameerika/Adak"
+
+#: ../src/ical-code.c:170
+msgid "America/Anchorage"
+msgstr "Ameerika/Anchorage"
+
+#: ../src/ical-code.c:171
+msgid "America/Anguilla"
+msgstr "Ameerika/Anguilla"
+
+#: ../src/ical-code.c:172
+msgid "America/Antigua"
+msgstr "Ameerika/Antigua"
+
+#: ../src/ical-code.c:173
+msgid "America/Araguaina"
+msgstr "Ameerika/Araguaína"
+
+#: ../src/ical-code.c:174
+msgid "America/Argentina/Buenos_Aires"
+msgstr "Ameerika/Argentiina/B_uenosAires"
+
+#: ../src/ical-code.c:175
+msgid "America/Argentina/Catamarca"
+msgstr "Ameerika/Argentiina/Catamarca"
+
+#: ../src/ical-code.c:176
+msgid "America/Argentina/Cordoba"
+msgstr "Ameerika/Argentiina/Córdoba"
+
+#: ../src/ical-code.c:177
+msgid "America/Argentina/Jujuy"
+msgstr "Ameerika/Argentiina/Jujuy"
+
+#: ../src/ical-code.c:178
+msgid "America/Argentina/Mendoza"
+msgstr "Ameerika/Argentiina/Mendoza"
+
+#: ../src/ical-code.c:179
+msgid "America/Aruba"
+msgstr "Ameerika/Aruba"
+
+#: ../src/ical-code.c:180
+msgid "America/Asuncion"
+msgstr "Ameerika/Asunción"
+
+#: ../src/ical-code.c:181
+msgid "America/Barbados"
+msgstr "Ameerika/Barbados"
+
+#: ../src/ical-code.c:182
+msgid "America/Belem"
+msgstr "Ameerika/Belém"
+
+#: ../src/ical-code.c:183
+msgid "America/Belize"
+msgstr "Ameerika/Belize"
+
+#: ../src/ical-code.c:184
+msgid "America/Boa_Vista"
+msgstr "Ameerika/BoaVi_sta"
+
+#: ../src/ical-code.c:185
+msgid "America/Bogota"
+msgstr "Ameerika/Bogotá"
+
+#: ../src/ical-code.c:186
+msgid "America/Boise"
+msgstr "Ameerika/Boise"
+
+#: ../src/ical-code.c:187
+msgid "America/Buenos_Aires"
+msgstr "Ameerika/B_uenosAires"
+
+#: ../src/ical-code.c:188
+msgid "America/Cambridge_Bay"
+msgstr "Ameerika/Cambridge_Bay"
+
+#: ../src/ical-code.c:189
+msgid "America/Cancun"
+msgstr "Ameerika/Cancún"
+
+#: ../src/ical-code.c:190
+msgid "America/Caracas"
+msgstr "Ameerika/Caracas"
+
+#: ../src/ical-code.c:191
+msgid "America/Catamarca"
+msgstr "Ameerika/Catamarca"
+
+#: ../src/ical-code.c:192
+msgid "America/Cayenne"
+msgstr "Ameerika/Cayenne"
+
+#: ../src/ical-code.c:193
+msgid "America/Cayman"
+msgstr "Ameerika/Kaimanisaared"
+
+#: ../src/ical-code.c:194
+msgid "America/Chicago"
+msgstr "Ameerika/Chicago"
+
+#: ../src/ical-code.c:195
+msgid "America/Chihuahua"
+msgstr "Ameerika/Chihuahua"
+
+#: ../src/ical-code.c:196
+msgid "America/Cordoba"
+msgstr "Ameerika/Córdoba"
+
+#: ../src/ical-code.c:197
+msgid "America/Costa_Rica"
+msgstr "Ameerika/_CostaRica"
+
+#: ../src/ical-code.c:198
+msgid "America/Cuiaba"
+msgstr "Ameerika/Cuiabá"
+
+#: ../src/ical-code.c:199
+msgid "America/Curacao"
+msgstr "Ameerika/Curaçao"
+
+#: ../src/ical-code.c:200
+msgid "America/Dawson"
+msgstr "Ameerika/Bikar"
+
+#: ../src/ical-code.c:201
+msgid "America/Dawson_Creek"
+msgstr "Ameerika/Da_wsonCreek"
+
+#: ../src/ical-code.c:202
+msgid "America/Denver"
+msgstr "Ameerika/Denver"
+
+#: ../src/ical-code.c:203
+msgid "America/Detroit"
+msgstr "Ameerika/Detroit"
+
+#: ../src/ical-code.c:204
+msgid "America/Dominica"
+msgstr "Ameerika/Dominica"
+
+#: ../src/ical-code.c:205
+msgid "America/Edmonton"
+msgstr "Ameerika/Edmonton"
+
+#: ../src/ical-code.c:206
+msgid "America/Eirunepe"
+msgstr "Ameerika/Eirunepé"
+
+#: ../src/ical-code.c:207
+msgid "America/El_Salvador"
+msgstr "Ameerika/ElSal_vador"
+
+#: ../src/ical-code.c:208
+msgid "America/Fortaleza"
+msgstr "Ameerika/Fortaleza"
+
+#: ../src/ical-code.c:209
+msgid "America/Glace_Bay"
+msgstr "Ameerika/Glace_Bay"
+
+#: ../src/ical-code.c:210
+msgid "America/Godthab"
+msgstr "Ameerika/Nuuk"
+
+#: ../src/ical-code.c:211
+msgid "America/Goose_Bay"
+msgstr "Ameerika/_GooseBay"
+
+#: ../src/ical-code.c:212
+msgid "America/Grand_Turk"
+msgstr "Ameerika/GrandT_urk"
+
+#: ../src/ical-code.c:213
+msgid "America/Grenada"
+msgstr "Ameerika/Grenada"
+
+#: ../src/ical-code.c:214
+msgid "America/Guadeloupe"
+msgstr "Ameerika/Guadeloupe"
+
+#: ../src/ical-code.c:215
+msgid "America/Guatemala"
+msgstr "Ameerika/Guatemala"
+
+#: ../src/ical-code.c:216
+msgid "America/Guayaquil"
+msgstr "Ameerika/Guayaquil"
+
+#: ../src/ical-code.c:217
+msgid "America/Guyana"
+msgstr "Ameerika/Guyana"
+
+#: ../src/ical-code.c:218
+msgid "America/Halifax"
+msgstr "Ameerika/Halifax"
+
+#: ../src/ical-code.c:219
+msgid "America/Havana"
+msgstr "Ameerika/Havanna"
+
+#: ../src/ical-code.c:220
+msgid "America/Hermosillo"
+msgstr "Ameerika/Hermosillo"
+
+#: ../src/ical-code.c:221
+msgid "America/Indiana/Indianapolis"
+msgstr "Ameerika/Indiana/Indianapolis"
+
+#: ../src/ical-code.c:222
+msgid "America/Indiana/Knox"
+msgstr "Ameerika/Indiana/Knox"
+
+#: ../src/ical-code.c:223
+msgid "America/Indiana/Marengo"
+msgstr "Ameerika/Indiana/Marengo"
+
+#: ../src/ical-code.c:224
+msgid "America/Indiana/Vevay"
+msgstr "Ameerika/Indiana/Vevay"
+
+#: ../src/ical-code.c:225
+msgid "America/Indianapolis"
+msgstr "Ameerika/Indianapolis"
+
+#: ../src/ical-code.c:226
+msgid "America/Inuvik"
+msgstr "Ameerika/Inuvik"
+
+#: ../src/ical-code.c:227
+msgid "America/Iqaluit"
+msgstr "Ameerika/Iqaluit"
+
+#: ../src/ical-code.c:228
+msgid "America/Jamaica"
+msgstr "Ameerika/Jamaica"
+
+#: ../src/ical-code.c:229
+msgid "America/Jujuy"
+msgstr "Ameerika/Jujuy"
+
+#: ../src/ical-code.c:230
+msgid "America/Juneau"
+msgstr "Ameerika/Juneau"
+
+#: ../src/ical-code.c:231
+msgid "America/Kentucky/Louisville"
+msgstr "Ameerika/Kentucky/Louisville"
+
+#: ../src/ical-code.c:232
+msgid "America/Kentucky/Monticello"
+msgstr "Ameerika/Kentucky/Monticello"
+
+#: ../src/ical-code.c:233
+msgid "America/La_Paz"
+msgstr "Ameerika/LaPa_z"
+
+#: ../src/ical-code.c:234
+msgid "America/Lima"
+msgstr "Ameerika/Lima"
+
+#: ../src/ical-code.c:235
+msgid "America/Los_Angeles"
+msgstr "Ameerika/L_osAngeles"
+
+#: ../src/ical-code.c:236
+msgid "America/Louisville"
+msgstr "Ameerika/Louisville"
+
+#: ../src/ical-code.c:237
+msgid "America/Maceio"
+msgstr "Ameerika/Maceió"
+
+#: ../src/ical-code.c:238
+msgid "America/Managua"
+msgstr "Ameerika/Managua"
+
+#: ../src/ical-code.c:239
+msgid "America/Manaus"
+msgstr "Ameerika/Manaus"
+
+#: ../src/ical-code.c:240
+msgid "America/Martinique"
+msgstr "Ameerika/Martinique"
+
+#: ../src/ical-code.c:241
+msgid "America/Mazatlan"
+msgstr "Ameerika/Mazatlán"
+
+#: ../src/ical-code.c:242
+msgid "America/Mendoza"
+msgstr "Ameerika/Mendoza"
+
+#: ../src/ical-code.c:243
+msgid "America/Menominee"
+msgstr "Ameerika/Menomini"
+
+#: ../src/ical-code.c:244
+msgid "America/Merida"
+msgstr "Ameerika/Mérida"
+
+#: ../src/ical-code.c:245
+msgid "America/Mexico_City"
+msgstr "Ameerika/Mé_xico"
+
+#: ../src/ical-code.c:246
+msgid "America/Miquelon"
+msgstr "Ameerika/Miquelon"
+
+#: ../src/ical-code.c:247
+msgid "America/Monterrey"
+msgstr "Ameerika/Monterrey"
+
+#: ../src/ical-code.c:248
+msgid "America/Montevideo"
+msgstr "Ameerika/Montevideo"
+
+#: ../src/ical-code.c:249
+msgid "America/Montreal"
+msgstr "Ameerika/Montreal"
+
+#: ../src/ical-code.c:250
+msgid "America/Montserrat"
+msgstr "Ameerika/Montserrat"
+
+#: ../src/ical-code.c:251
+msgid "America/Nassau"
+msgstr "Ameerika/Nassau"
+
+#: ../src/ical-code.c:252
+msgid "America/New_York"
+msgstr "Ameerika/Ne_wYork"
+
+#: ../src/ical-code.c:253
+msgid "America/Nipigon"
+msgstr "Ameerika/Nipigon"
+
+#: ../src/ical-code.c:254
+msgid "America/Nome"
+msgstr "Ameerika/Nome"
+
+#: ../src/ical-code.c:255
+msgid "America/Noronha"
+msgstr "Ameerika/Noronha"
+
+#: ../src/ical-code.c:256
+msgid "America/Panama"
+msgstr "Ameerika/Panama"
+
+#: ../src/ical-code.c:257
+msgid "America/Pangnirtung"
+msgstr "Ameerika/Pangnirtung"
+
+#: ../src/ical-code.c:258
+msgid "America/Paramaribo"
+msgstr "Ameerika/Paramaribo"
+
+#: ../src/ical-code.c:259
+msgid "America/Phoenix"
+msgstr "Ameerika/Phoenix"
+
+#: ../src/ical-code.c:260
+msgid "America/Port-au-Prince"
+msgstr "Ameerika/Port-au-Prince"
+
+#: ../src/ical-code.c:261
+msgid "America/Port_of_Spain"
+msgstr "Ameerika/P_ortof_Spain"
+
+#: ../src/ical-code.c:262
+msgid "America/Porto_Velho"
+msgstr "Ameerika/Pôrto_Velho"
+
+#: ../src/ical-code.c:263
+msgid "America/Puerto_Rico"
+msgstr "Ameerika/Puerto_Rico"
+
+#: ../src/ical-code.c:264
+msgid "America/Rainy_River"
+msgstr "Ameerika/_RainyRiver"
+
+#: ../src/ical-code.c:265
+msgid "America/Rankin_Inlet"
+msgstr "Ameerika/Rankin_Inlet"
+
+#: ../src/ical-code.c:266
+msgid "America/Recife"
+msgstr "Ameerika/Recife"
+
+#: ../src/ical-code.c:267
+msgid "America/Regina"
+msgstr "Ameerika/Regina"
+
+#: ../src/ical-code.c:268
+msgid "America/Rio_Branco"
+msgstr "Ameerika/Rio_Branco"
+
+#: ../src/ical-code.c:269
+msgid "America/Rosario"
+msgstr "Ameerika/Rosario"
+
+#: ../src/ical-code.c:270
+msgid "America/Santiago"
+msgstr "Ameerika/Santiago"
+
+#: ../src/ical-code.c:271
+msgid "America/Santo_Domingo"
+msgstr "Ameerika/Santo_Domingo"
+
+#: ../src/ical-code.c:272
+msgid "America/Sao_Paulo"
+msgstr "Ameerika/São_Paulo"
+
+#: ../src/ical-code.c:273
+msgid "America/Scoresbysund"
+msgstr "Ameerika/Ittoqqortoormiit"
+
+#: ../src/ical-code.c:274
+msgid "America/Shiprock"
+msgstr "Ameerika/Shiprock"
+
+#: ../src/ical-code.c:275
+msgid "America/St_Johns"
+msgstr "Ameerika/St_Johns"
+
+#: ../src/ical-code.c:276
+msgid "America/St_Kitts"
+msgstr "Ameerika/St_Kitts"
+
+#: ../src/ical-code.c:277
+msgid "America/St_Lucia"
+msgstr "Ameerika/St_Lucia"
+
+#: ../src/ical-code.c:278
+msgid "America/St_Thomas"
+msgstr "Ameerika/St_Thomas"
+
+#: ../src/ical-code.c:279
+msgid "America/St_Vincent"
+msgstr "Ameerika/St_Vincent"
+
+#: ../src/ical-code.c:280
+msgid "America/Swift_Current"
+msgstr "Ameerika/Swift_Current"
+
+#: ../src/ical-code.c:281
+msgid "America/Tegucigalpa"
+msgstr "Ameerika/Tegucigalpa"
+
+#: ../src/ical-code.c:282
+msgid "America/Thule"
+msgstr "Ameerika/Qaanaaq"
+
+#: ../src/ical-code.c:283
+msgid "America/Thunder_Bay"
+msgstr "Ameerika/Thunder_Bay"
+
+#: ../src/ical-code.c:284
+msgid "America/Tijuana"
+msgstr "Ameerika/Tijuana"
+
+#: ../src/ical-code.c:285
+msgid "America/Tortola"
+msgstr "Ameerika/Tortola"
+
+#: ../src/ical-code.c:286
+msgid "America/Vancouver"
+msgstr "Ameerika/Vancouver"
+
+#: ../src/ical-code.c:287
+msgid "America/Whitehorse"
+msgstr "Ameerika/Whitehorse"
+
+#: ../src/ical-code.c:288
+msgid "America/Winnipeg"
+msgstr "Ameerika/Winnipeg"
+
+#: ../src/ical-code.c:289
+msgid "America/Yakutat"
+msgstr "Ameerika/Yakutat"
+
+#: ../src/ical-code.c:290
+msgid "America/Yellowknife"
+msgstr "Ameerika/Yellowknife"
+
+#: ../src/ical-code.c:291
+msgid "Antarctica"
+msgstr "Antarktika"
+
+#: ../src/ical-code.c:292
+msgid "Antarctica/Casey"
+msgstr "Antarktika/Casey"
+
+#: ../src/ical-code.c:293
+msgid "Antarctica/Davis"
+msgstr "Antarktika/Davis"
+
+#: ../src/ical-code.c:294
+msgid "Antarctica/DumontDUrville"
+msgstr "Antarktika/DumontDUrville"
+
+#: ../src/ical-code.c:295
+msgid "Antarctica/Mawson"
+msgstr "Antarktika/Mawson"
+
+#: ../src/ical-code.c:296
+msgid "Antarctica/McMurdo"
+msgstr "Antarktika/McMurdo"
+
+#: ../src/ical-code.c:297
+msgid "Antarctica/Palmer"
+msgstr "Antarktika/Palmer"
+
+#: ../src/ical-code.c:298
+msgid "Antarctica/South_Pole"
+msgstr "Antarktika/Lõuna_poolus"
+
+#: ../src/ical-code.c:299
+msgid "Antarctica/Syowa"
+msgstr "Antarktika/Syowa"
+
+#: ../src/ical-code.c:300
+msgid "Antarctica/Vostok"
+msgstr "Antarktika/Vostok"
+
+#: ../src/ical-code.c:301
+msgid "Arctic"
+msgstr "Arktika"
+
+#: ../src/ical-code.c:302
+msgid "Arctic/Longyearbyen"
+msgstr "Arktika/Longyearbyen"
+
+#: ../src/ical-code.c:303
+msgid "Asia"
+msgstr "Aasia"
+
+#: ../src/ical-code.c:304
+msgid "Asia/Aden"
+msgstr "Aasia/Aden"
+
+#: ../src/ical-code.c:305
+msgid "Asia/Almaty"
+msgstr "Aasia/Almatõ"
+
+#: ../src/ical-code.c:306
+msgid "Asia/Amman"
+msgstr "Aasia/Ammān"
+
+#: ../src/ical-code.c:307
+msgid "Asia/Anadyr"
+msgstr "Aasia/Anadõr"
+
+#: ../src/ical-code.c:308
+msgid "Asia/Aqtau"
+msgstr "Aasia/Aktau"
+
+#: ../src/ical-code.c:309
+msgid "Asia/Aqtobe"
+msgstr "Aasia/Aktöbe"
+
+#: ../src/ical-code.c:310
+msgid "Asia/Ashgabat"
+msgstr "Aasia/Aşgabat"
+
+#: ../src/ical-code.c:311
+msgid "Asia/Baghdad"
+msgstr "Aasia/Bagdad"
+
+#: ../src/ical-code.c:312
+msgid "Asia/Bahrain"
+msgstr "Aasia/Bahrein"
+
+#: ../src/ical-code.c:313
+msgid "Asia/Baku"
+msgstr "Aasia/Bakuu"
+
+#: ../src/ical-code.c:314
+msgid "Asia/Bangkok"
+msgstr "Aasia/Bangkok"
+
+#: ../src/ical-code.c:315
+msgid "Asia/Beirut"
+msgstr "Aasia/Beirut"
+
+#: ../src/ical-code.c:316
+msgid "Asia/Bishkek"
+msgstr "Aasia/Biškek"
+
+#: ../src/ical-code.c:317
+msgid "Asia/Brunei"
+msgstr "Aasia/Brunei"
+
+#: ../src/ical-code.c:318
+msgid "Asia/Calcutta"
+msgstr "Aasia/Kolkata"
+
+#: ../src/ical-code.c:319
+msgid "Asia/Chungking"
+msgstr "Aasia/Chongqing"
+
+#: ../src/ical-code.c:320
+msgid "Asia/Colombo"
+msgstr "Aasia/Colombo"
+
+#: ../src/ical-code.c:321
+msgid "Asia/Damascus"
+msgstr "Aasia/Damaskus"
+
+#: ../src/ical-code.c:322
+msgid "Asia/Dhaka"
+msgstr "Aasia/Dhaka"
+
+#: ../src/ical-code.c:323
+msgid "Asia/Dili"
+msgstr "Aasia/Dili"
+
+#: ../src/ical-code.c:324
+msgid "Asia/Dubai"
+msgstr "Aasia/Dubai"
+
+#: ../src/ical-code.c:325
+msgid "Asia/Dushanbe"
+msgstr "Aasia/Dušanbe"
+
+#: ../src/ical-code.c:326
+msgid "Asia/Gaza"
+msgstr "Aasia/Gaza"
+
+#: ../src/ical-code.c:327
+msgid "Asia/Harbin"
+msgstr "Aasia/Harbin"
+
+#: ../src/ical-code.c:328
+msgid "Asia/Hong_Kong"
+msgstr "Aasia/Hong_Kong"
+
+#: ../src/ical-code.c:329
+msgid "Asia/Hovd"
+msgstr "Aasia/Hovd"
+
+#: ../src/ical-code.c:330
+msgid "Asia/Irkutsk"
+msgstr "Aasia/Irkutsk"
+
+#: ../src/ical-code.c:331
+msgid "Asia/Istanbul"
+msgstr "Aasia/İstanbul"
+
+#: ../src/ical-code.c:332
+msgid "Asia/Jakarta"
+msgstr "Aasia/Jakarta"
+
+#: ../src/ical-code.c:333
+msgid "Asia/Jayapura"
+msgstr "Aasia/Jayapura"
+
+#: ../src/ical-code.c:334
+msgid "Asia/Jerusalem"
+msgstr "Aasia/Jeruusalemm"
+
+#: ../src/ical-code.c:335
+msgid "Asia/Kabul"
+msgstr "Aasia/Kabul"
+
+#: ../src/ical-code.c:336
+msgid "Asia/Kamchatka"
+msgstr "Aasia/Kamtšatka"
+
+#: ../src/ical-code.c:337
+msgid "Asia/Karachi"
+msgstr "Aasia/Karāchi"
+
+#: ../src/ical-code.c:338
+msgid "Asia/Kashgar"
+msgstr "Aasia/Kaxgar"
+
+#: ../src/ical-code.c:339
+msgid "Asia/Katmandu"
+msgstr "Aasia/Katmandu"
+
+#: ../src/ical-code.c:340
+msgid "Asia/Krasnoyarsk"
+msgstr "Aasia/Krasnojarsk"
+
+#: ../src/ical-code.c:341
+msgid "Asia/Kuala_Lumpur"
+msgstr "Aasia/Kuala_Lumpur"
+
+#: ../src/ical-code.c:342
+msgid "Asia/Kuching"
+msgstr "Aasia/Kuching"
+
+#: ../src/ical-code.c:343
+msgid "Asia/Kuwait"
+msgstr "Aasia/Kuveit"
+
+#: ../src/ical-code.c:344
+msgid "Asia/Macao"
+msgstr "Aasia/Aomen"
+
+#: ../src/ical-code.c:345
+msgid "Asia/Magadan"
+msgstr "Aasia/Magadan"
+
+#: ../src/ical-code.c:346
+msgid "Asia/Manila"
+msgstr "Aasia/Manila"
+
+#: ../src/ical-code.c:347
+msgid "Asia/Muscat"
+msgstr "Aasia/Masqaţ"
+
+#: ../src/ical-code.c:348
+msgid "Asia/Nicosia"
+msgstr "Aasia/Nikosia"
+
+#: ../src/ical-code.c:349
+msgid "Asia/Novosibirsk"
+msgstr "Aasia/Novosibirsk"
+
+#: ../src/ical-code.c:350
+msgid "Asia/Omsk"
+msgstr "Aasia/Omsk"
+
+#: ../src/ical-code.c:351
+msgid "Asia/Phnom_Penh"
+msgstr "Aasia/_PhnomPenh"
+
+#: ../src/ical-code.c:352
+msgid "Asia/Pontianak"
+msgstr "Aasia/Pontianak"
+
+#: ../src/ical-code.c:353
+msgid "Asia/Pyongyang"
+msgstr "Aasia/Pyŏngyang"
+
+#: ../src/ical-code.c:354
+msgid "Asia/Qatar"
+msgstr "Aasia/Katar"
+
+#: ../src/ical-code.c:355
+msgid "Asia/Rangoon"
+msgstr "Aasia/Yangon"
+
+#: ../src/ical-code.c:356
+msgid "Asia/Riyadh"
+msgstr "Aasia/Ar-Riyāḑ"
+
+#: ../src/ical-code.c:357
+msgid "Asia/Saigon"
+msgstr "Aasia/Hồ Chí Minh"
+
+#: ../src/ical-code.c:358
+msgid "Asia/Samarkand"
+msgstr "Aasia/Samarqand"
+
+#: ../src/ical-code.c:359
+msgid "Asia/Seoul"
+msgstr "Aasia/Sŏul"
+
+#: ../src/ical-code.c:360
+msgid "Asia/Shanghai"
+msgstr "Aasia/Shanghai"
+
+#: ../src/ical-code.c:361
+msgid "Asia/Singapore"
+msgstr "Aasia/Singapur"
+
+#: ../src/ical-code.c:362
+msgid "Asia/Taipei"
+msgstr "Aasia/Taipei"
+
+#: ../src/ical-code.c:363
+msgid "Asia/Tashkent"
+msgstr "Aasia/Toshkent"
+
+#: ../src/ical-code.c:364
+msgid "Asia/Tbilisi"
+msgstr "Aasia/Thbilisi"
+
+#: ../src/ical-code.c:365
+msgid "Asia/Tehran"
+msgstr "Aasia/Teheran"
+
+#: ../src/ical-code.c:366
+msgid "Asia/Thimphu"
+msgstr "Aasia/Thimphu"
+
+#: ../src/ical-code.c:367
+msgid "Asia/Tokyo"
+msgstr "Aasia/Tōkyō"
+
+#: ../src/ical-code.c:368
+msgid "Asia/Ujung_Pandang"
+msgstr "Aasia/_Makassar"
+
+#: ../src/ical-code.c:369
+msgid "Asia/Ulaanbaatar"
+msgstr "Aasia/Ulaanbaatar"
+
+#: ../src/ical-code.c:370
+msgid "Asia/Urumqi"
+msgstr "Aasia/Ürümqi"
+
+#: ../src/ical-code.c:371
+msgid "Asia/Vientiane"
+msgstr "Aasia/Viangchan"
+
+#: ../src/ical-code.c:372
+msgid "Asia/Vladivostok"
+msgstr "Aasia/Vladivostok"
+
+#: ../src/ical-code.c:373
+msgid "Asia/Yakutsk"
+msgstr "Aasia/Jakutsk"
+
+#: ../src/ical-code.c:374
+msgid "Asia/Yekaterinburg"
+msgstr "Aasia/Jekaterinburg"
+
+#: ../src/ical-code.c:375
+msgid "Asia/Yerevan"
+msgstr "Aasia/Jerevan"
+
+#: ../src/ical-code.c:376
+msgid "Atlantic"
+msgstr "Atlandi ookean"
+
+#: ../src/ical-code.c:377
+msgid "Atlantic/Azores"
+msgstr "Atlandi ookean/Assoorid"
+
+#: ../src/ical-code.c:378
+msgid "Atlantic/Bermuda"
+msgstr "Atlandi ookean/Bermuda"
+
+#: ../src/ical-code.c:379
+msgid "Atlantic/Canary"
+msgstr "Atlandi ookean/Kanaari"
+
+#: ../src/ical-code.c:380
+msgid "Atlantic/Cape_Verde"
+msgstr "Atlandi ookean/_Roheneemesaared"
+
+#: ../src/ical-code.c:381
+msgid "Atlantic/Faeroe"
+msgstr "Atlandi ookean/Fääri"
+
+#: ../src/ical-code.c:382
+msgid "Atlantic/Jan_Mayen"
+msgstr "Atlandi ookean/Jan_Mayen"
+
+#: ../src/ical-code.c:383
+msgid "Atlantic/Madeira"
+msgstr "Atlandi ookean/Madeira"
+
+#: ../src/ical-code.c:384
+msgid "Atlantic/Reykjavik"
+msgstr "Atlandi ookean/Reykjavík"
+
+#: ../src/ical-code.c:385
+msgid "Atlantic/South_Georgia"
+msgstr "Atlandi ookean/Lõuna_Georgia"
+
+#: ../src/ical-code.c:386
+msgid "Atlantic/St_Helena"
+msgstr "Atlandi ookean/St_Helena"
+
+#: ../src/ical-code.c:387
+msgid "Atlantic/Stanley"
+msgstr "Atlandi ookean/PortStanley"
+
+#: ../src/ical-code.c:388
+msgid "Australia"
+msgstr "Austraalia"
+
+#: ../src/ical-code.c:389
+msgid "Australia/Adelaide"
+msgstr "Austraalia/Adelaide"
+
+#: ../src/ical-code.c:390
+msgid "Australia/Brisbane"
+msgstr "Austraalia/Brisbane"
+
+#: ../src/ical-code.c:391
+msgid "Australia/Broken_Hill"
+msgstr "Austraalia/Broken_Hill"
+
+#: ../src/ical-code.c:392
+msgid "Australia/Darwin"
+msgstr "Austraalia/Darwin"
+
+#: ../src/ical-code.c:393
+msgid "Australia/Hobart"
+msgstr "Austraalia/Hobart"
+
+#: ../src/ical-code.c:394
+msgid "Australia/Lindeman"
+msgstr "Austraalia/Lindeman"
+
+#: ../src/ical-code.c:395
+msgid "Australia/Lord_Howe"
+msgstr "Austraalia/Lord_Howe"
+
+#: ../src/ical-code.c:396
+msgid "Australia/Melbourne"
+msgstr "Austraalia/Melbourne"
+
+#: ../src/ical-code.c:397
+msgid "Australia/Perth"
+msgstr "Austraalia/Perth"
+
+#: ../src/ical-code.c:398
+msgid "Australia/Sydney"
+msgstr "Austraalia/Sydney"
+
+#: ../src/ical-code.c:399
+msgid "Europe"
+msgstr "Euroopa"
+
+#: ../src/ical-code.c:400
+msgid "Europe/Amsterdam"
+msgstr "Euroopa/Amsterdam"
+
+#: ../src/ical-code.c:401
+msgid "Europe/Andorra"
+msgstr "Euroopa/Andorra"
+
+#: ../src/ical-code.c:402
+msgid "Europe/Athens"
+msgstr "Euroopa/Ateena"
+
+#: ../src/ical-code.c:403
+msgid "Europe/Belfast"
+msgstr "Euroopa/Belfast"
+
+#: ../src/ical-code.c:404
+msgid "Europe/Belgrade"
+msgstr "Euroopa/Belgrad"
+
+#: ../src/ical-code.c:405
+msgid "Europe/Berlin"
+msgstr "Euroopa/Berliin"
+
+#: ../src/ical-code.c:406
+msgid "Europe/Bratislava"
+msgstr "Euroopa/Bratislava"
+
+#: ../src/ical-code.c:407
+msgid "Europe/Brussels"
+msgstr "Euroopa/Brüssel"
+
+#: ../src/ical-code.c:408
+msgid "Europe/Bucharest"
+msgstr "Euroopa/Bukarest"
+
+#: ../src/ical-code.c:409
+msgid "Europe/Budapest"
+msgstr "Euroopa/Budapest"
+
+#: ../src/ical-code.c:410
+msgid "Europe/Chisinau"
+msgstr "Euroopa/Chişinău"
+
+#: ../src/ical-code.c:411
+msgid "Europe/Copenhagen"
+msgstr "Euroopa/Kopenhaagen"
+
+#: ../src/ical-code.c:412
+msgid "Europe/Dublin"
+msgstr "Euroopa/Dublin"
+
+#: ../src/ical-code.c:413
+msgid "Europe/Gibraltar"
+msgstr "Euroopa/Gibraltar"
+
+#: ../src/ical-code.c:414
+msgid "Europe/Helsinki"
+msgstr "Euroopa/Helsingi"
+
+#: ../src/ical-code.c:415
+msgid "Europe/Istanbul"
+msgstr "Euroopa/İstanbul"
+
+#: ../src/ical-code.c:416
+msgid "Europe/Kaliningrad"
+msgstr "Euroopa/Kaliningrad"
+
+#: ../src/ical-code.c:417
+msgid "Europe/Kiev"
+msgstr "Euroopa/Kiiev"
+
+#: ../src/ical-code.c:418
+msgid "Europe/Lisbon"
+msgstr "Euroopa/Lissabon"
+
+#: ../src/ical-code.c:419
+msgid "Europe/Ljubljana"
+msgstr "Euroopa/Ljubljana"
+
+#: ../src/ical-code.c:420
+msgid "Europe/London"
+msgstr "Euroopa/London"
+
+#: ../src/ical-code.c:421
+msgid "Europe/Luxembourg"
+msgstr "Euroopa/Luksemburg"
+
+#: ../src/ical-code.c:422
+msgid "Europe/Madrid"
+msgstr "Euroopa/Madrid"
+
+#: ../src/ical-code.c:423
+msgid "Europe/Malta"
+msgstr "Euroopa/Malta"
+
+#: ../src/ical-code.c:424
+msgid "Europe/Minsk"
+msgstr "Euroopa/Minsk"
+
+#: ../src/ical-code.c:425
+msgid "Europe/Monaco"
+msgstr "Euroopa/Monaco"
+
+#: ../src/ical-code.c:426
+msgid "Europe/Moscow"
+msgstr "Euroopa/Moskva"
+
+#: ../src/ical-code.c:427
+msgid "Europe/Nicosia"
+msgstr "Euroopa/Nikosia"
+
+#: ../src/ical-code.c:428
+msgid "Europe/Oslo"
+msgstr "Euroopa/Oslo"
+
+#: ../src/ical-code.c:429
+msgid "Europe/Paris"
+msgstr "Euroopa/Pariis"
+
+#: ../src/ical-code.c:430
+msgid "Europe/Prague"
+msgstr "Euroopa/Praha"
+
+#: ../src/ical-code.c:431
+msgid "Europe/Riga"
+msgstr "Euroopa/Riia"
+
+#: ../src/ical-code.c:432
+msgid "Europe/Rome"
+msgstr "Euroopa/Rooma"
+
+#: ../src/ical-code.c:433
+msgid "Europe/Samara"
+msgstr "Euroopa/Samara"
+
+#: ../src/ical-code.c:434
+msgid "Europe/San_Marino"
+msgstr "Euroopa/San_Marino"
+
+#: ../src/ical-code.c:435
+msgid "Europe/Sarajevo"
+msgstr "Euroopa/Sarajevo"
+
+#: ../src/ical-code.c:436
+msgid "Europe/Simferopol"
+msgstr "Euroopa/Simferopol"
+
+#: ../src/ical-code.c:437
+msgid "Europe/Skopje"
+msgstr "Euroopa/Skopje"
+
+#: ../src/ical-code.c:438
+msgid "Europe/Sofia"
+msgstr "Euroopa/Sofia"
+
+#: ../src/ical-code.c:439
+msgid "Europe/Stockholm"
+msgstr "Euroopa/Stockholm"
+
+#: ../src/ical-code.c:440
+msgid "Europe/Tallinn"
+msgstr "Euroopa/Tallinn"
+
+#: ../src/ical-code.c:441
+msgid "Europe/Tirane"
+msgstr "Euroopa/Tiranë"
+
+#: ../src/ical-code.c:442
+msgid "Europe/Uzhgorod"
+msgstr "Euroopa/Užgorod"
+
+#: ../src/ical-code.c:443
+msgid "Europe/Vaduz"
+msgstr "Euroopa/Vaduz"
+
+#: ../src/ical-code.c:444
+msgid "Europe/Vatican"
+msgstr "Euroopa/Vatikan"
+
+#: ../src/ical-code.c:445
+msgid "Europe/Vienna"
+msgstr "Euroopa/Viin"
+
+#: ../src/ical-code.c:446
+msgid "Europe/Vilnius"
+msgstr "Euroopa/Vilnius"
+
+#: ../src/ical-code.c:447
+msgid "Europe/Warsaw"
+msgstr "Euroopa/Varssav"
+
+#: ../src/ical-code.c:448
+msgid "Europe/Zagreb"
+msgstr "Euroopa/Zagreb"
+
+#: ../src/ical-code.c:449
+msgid "Europe/Zaporozhye"
+msgstr "Euroopa/Zaporižžja"
+
+#: ../src/ical-code.c:450
+msgid "Europe/Zurich"
+msgstr "Euroopa/Zürich"
+
+#: ../src/ical-code.c:451
+msgid "Indian"
+msgstr "India ookean"
+
+#: ../src/ical-code.c:452
+msgid "Indian/Antananarivo"
+msgstr "India ookean/Antananarivo"
+
+#: ../src/ical-code.c:453
+msgid "Indian/Chagos"
+msgstr "India ookean/Chagos"
+
+#: ../src/ical-code.c:454
+msgid "Indian/Christmas"
+msgstr "India ookean/Jõulusaar"
+
+#: ../src/ical-code.c:455
+msgid "Indian/Cocos"
+msgstr "India ookean/Cocos"
+
+#: ../src/ical-code.c:456
+msgid "Indian/Comoro"
+msgstr "India ookean/Komoorid"
+
+#: ../src/ical-code.c:457
+msgid "Indian/Kerguelen"
+msgstr "India ookean/Kerguelen"
+
+#: ../src/ical-code.c:458
+msgid "Indian/Mahe"
+msgstr "India ookean/Mahe"
+
+#: ../src/ical-code.c:459
+msgid "Indian/Maldives"
+msgstr "India ookean/Maldiivid"
+
+#: ../src/ical-code.c:460
+msgid "Indian/Mauritius"
+msgstr "India ookean/Mauritius"
+
+#: ../src/ical-code.c:461
+msgid "Indian/Mayotte"
+msgstr "India ookean/Mayotte"
+
+#: ../src/ical-code.c:462
+msgid "Indian/Reunion"
+msgstr "India ookean/Réunion"
+
+#: ../src/ical-code.c:463
+msgid "Pacific"
+msgstr "Vaikne ookean"
+
+#: ../src/ical-code.c:464
+msgid "Pacific/Apia"
+msgstr "Vaikne ookean/Apia"
+
+#: ../src/ical-code.c:465
+msgid "Pacific/Auckland"
+msgstr "Vaikne ookean/Auckland"
+
+#: ../src/ical-code.c:466
+msgid "Pacific/Chatham"
+msgstr "Vaikne ookean/Chatham"
+
+#: ../src/ical-code.c:467
+msgid "Pacific/Easter"
+msgstr "Vaikne ookean/Lihavõttesaar"
+
+#: ../src/ical-code.c:468
+msgid "Pacific/Efate"
+msgstr "Vaikne ookean/Efate"
+
+#: ../src/ical-code.c:469
+msgid "Pacific/Enderbury"
+msgstr "Vaikne ookean/Enderbury"
+
+#: ../src/ical-code.c:470
+msgid "Pacific/Fakaofo"
+msgstr "Vaikne ookean/Fakaofo"
+
+#: ../src/ical-code.c:471
+msgid "Pacific/Fiji"
+msgstr "Vaikne ookean/Fidži"
+
+#: ../src/ical-code.c:472
+msgid "Pacific/Funafuti"
+msgstr "Vaikne ookean/Funafuti"
+
+#: ../src/ical-code.c:473
+msgid "Pacific/Galapagos"
+msgstr "Vaikne ookean/Galápagose"
+
+#: ../src/ical-code.c:474
+msgid "Pacific/Gambier"
+msgstr "Vaikne ookean/Gambier"
+
+#: ../src/ical-code.c:475
+msgid "Pacific/Guadalcanal"
+msgstr "Vaikne ookean/Guadalcanal"
+
+#: ../src/ical-code.c:476
+msgid "Pacific/Guam"
+msgstr "Vaikne ookean/Guam"
+
+#: ../src/ical-code.c:477
+msgid "Pacific/Honolulu"
+msgstr "Vaikne ookean/Honolulu"
+
+#: ../src/ical-code.c:478
+msgid "Pacific/Johnston"
+msgstr "Vaikne ookean/Johnston"
+
+#: ../src/ical-code.c:479
+msgid "Pacific/Kiritimati"
+msgstr "Vaikne ookean/Kiritimati"
+
+#: ../src/ical-code.c:480
+msgid "Pacific/Kosrae"
+msgstr "Vaikne ookean/Kosrae"
+
+#: ../src/ical-code.c:481
+msgid "Pacific/Kwajalein"
+msgstr "Vaikne ookean/Kuwajleen"
+
+#: ../src/ical-code.c:482
+msgid "Pacific/Majuro"
+msgstr "Vaikne ookean/Mājro"
+
+#: ../src/ical-code.c:483
+msgid "Pacific/Marquesas"
+msgstr "Vaikne ookean/Markiisaared"
+
+#: ../src/ical-code.c:484
+msgid "Pacific/Midway"
+msgstr "Vaikne ookean/Midway"
+
+#: ../src/ical-code.c:485
+msgid "Pacific/Nauru"
+msgstr "Vaikne ookean/Nauru"
+
+#: ../src/ical-code.c:486
+msgid "Pacific/Niue"
+msgstr "Vaikne ookean/Niue"
+
+#: ../src/ical-code.c:487
+msgid "Pacific/Norfolk"
+msgstr "Vaikne ookean/Norfolk"
+
+#: ../src/ical-code.c:488
+msgid "Pacific/Noumea"
+msgstr "Vaikne ookean/Nouméa"
+
+#: ../src/ical-code.c:489
+msgid "Pacific/Pago_Pago"
+msgstr "Vaikne ookean/_PagoPago"
+
+#: ../src/ical-code.c:490
+msgid "Pacific/Palau"
+msgstr "Vaikne ookean/Belau"
+
+#: ../src/ical-code.c:491
+msgid "Pacific/Pitcairn"
+msgstr "Vaikne ookean/Pitcairn"
+
+#: ../src/ical-code.c:492
+msgid "Pacific/Ponape"
+msgstr "Vaikne ookean/Pohnpei"
+
+#: ../src/ical-code.c:493
+msgid "Pacific/Port_Moresby"
+msgstr "Vaikne ookean/Port_Moresby"
+
+#: ../src/ical-code.c:494
+msgid "Pacific/Rarotonga"
+msgstr "Vaikne ookean/Rarotonga"
+
+#: ../src/ical-code.c:495
+msgid "Pacific/Saipan"
+msgstr "Vaikne ookean/Saipan"
+
+#: ../src/ical-code.c:496
+msgid "Pacific/Tahiti"
+msgstr "Vaikne ookean/Tahiti"
+
+#: ../src/ical-code.c:497
+msgid "Pacific/Tarawa"
+msgstr "Vaikne ookean/Tarawa"
+
+#: ../src/ical-code.c:498
+msgid "Pacific/Tongatapu"
+msgstr "Vaikne ookean/Tongatapu"
+
+#: ../src/ical-code.c:499
+msgid "Pacific/Truk"
+msgstr "Vaikne ookean/Chuuk"
+
+#: ../src/ical-code.c:500
+msgid "Pacific/Wake"
+msgstr "Vaikne ookean/Wake"
+
+#: ../src/ical-code.c:501
+msgid "Pacific/Wallis"
+msgstr "Vaikne ookean/Wallis"
+
+#: ../src/ical-code.c:502
+msgid "Pacific/Yap"
+msgstr "Vaikne ookean/Yap"
+
+#: ../src/ical-code.c:1329
+msgid "Orage default alarm"
+msgstr "Orage'i vaikimisi alarm"
+
+#: ../src/ical-code.c:3023
+#, c-format
+msgid "Build alarm list: Added %d alarms. Processed %d events."
+msgstr "Alarmide loendi koostamine: Lisatud %d alarmi. Käideldud %d sündmust."
+
+#: ../src/ical-code.c:3025
+#, c-format
+msgid "\tFound %d alarms of which %d are active. (Searched %d recurring alarms.)"
+msgstr "\tLeitud %d alarmi, millest %d on aktiivsed. (Leitud %d korduvat alarmi.)"
+
+#. remove since it has ended
+#: ../src/ical-code.c:3542
+msgid "\tRecur ended, moving to archive file."
+msgstr "\tKordamine läbi, liigutatakse arhiivifaili."
+
+#: ../src/ical-code.c:3604
+msgid "Archiving not enabled. Exiting"
+msgstr "Arhiivimine pole lubatud. Väljumine"
+
+#: ../src/ical-code.c:3622
+#, c-format
+msgid "Archiving threshold: %d month(s)"
+msgstr "Arhiivimise lävi: %d kuu(d)"
+
+#. yy mon day
+#: ../src/ical-code.c:3625
+#, c-format
+msgid "\tArchiving events, which are older than: %04d-%02d-%02d"
+msgstr "\tSündmuste arhiveerimine, mis on vanemad kui: %04d-%02d-%02d"
+
+#: ../src/ical-code.c:3652
+#, c-format
+msgid "Archiving uid: %s"
+msgstr "Arhiivimise uid: %s"
+
+#. VTODO not completed, do not archive
+#: ../src/ical-code.c:3658
+msgid "\tVTODO not complete; not archived"
+msgstr "\tAGENDA pole lõpetatud; ei arhiveeritud"
+
+#. it is recurrent event
+#: ../src/ical-code.c:3663
+#, c-format
+msgid "\tRecurring. End year: %04d, month: %02d, day: %02d"
+msgstr "\tKorduv. Lõpuaasta: %04d, -kuu: %02d, -päev: %02d"
+
+#: ../src/ical-code.c:3680
+msgid "Archiving done\n"
+msgstr "Arhiivimine tehtud\n"
+
+#. PHASE 1: go through base orage file and remove "repeat" shortcuts
+#: ../src/ical-code.c:3696
+msgid "Starting archive removal."
+msgstr "Arhiivieemalduse alustamine."
+
+#: ../src/ical-code.c:3697
+msgid "\tPHASE 1: reset recurring appointments"
+msgstr "\t1. FAAS: korduvkohtumiste lähtestamine"
+
+#. PHASE 2: go through archive file and add everything back to base orage.
+#. * After that delete the whole arch file
+#: ../src/ical-code.c:3719
+msgid "\tPHASE 2: return archived appointments"
+msgstr "\t2. FAAS: tagastada arhiveeritud kohtumised"
+
+#: ../src/ical-code.c:3745
+msgid "Archive removal done\n"
+msgstr "Arhiivieemaldus valmis\n"
+
+#: ../src/ical-code.c:3835
+msgid "Starting import file preprocessing"
+msgstr "Imporditud faili eelkäitluse alustamine"
+
+#: ../src/ical-code.c:3870
+msgid "... Patched DCREATED to be CREATED."
+msgstr "... LUUAKSE paigatud DCREATED."
+
+#: ../src/ical-code.c:3909
+msgid "... Patched timezone to Orage format."
+msgstr "... Ajavöönd paigati Orage'i vormingusse."
+
+#: ../src/ical-code.c:3918
+msgid "Import file preprocessing done"
+msgstr "Imporditud faili eelkäitlus sai tehtud"
+
+#. show it
+#: ../src/ical-code.c:4506
+msgid "Pick timezone"
+msgstr "Valige ajavöönd"
+
+#: ../src/ical-code.c:4509 ../src/ical-code.c:4537
+msgid "UTC"
+msgstr "UTC"
+
+#: ../src/ical-code.c:4510 ../src/ical-code.c:4541 ../src/parameters.c:480
+msgid "floating"
+msgstr "nihkuv"
+
+#: ../src/interface.c:284
+msgid "Calendar files"
+msgstr "Kalendri failid"
+
+#: ../src/interface.c:626
+msgid "Current foreign files"
+msgstr "Välisfailid hetkel"
+
+#: ../src/interface.c:638
+msgid "READ ONLY"
+msgstr "AINULT LUGEMISEKS"
+
+#: ../src/interface.c:640
+msgid "READ WRITE"
+msgstr "LUGEMINE KIRJUTAMINE"
+
+#: ../src/interface.c:658
+msgid "***** No foreign files *****"
+msgstr "***** Pole välisfaile *****"
+
+#: ../src/interface.c:968
+msgid "Import/export"
+msgstr "Importida/eksportida"
+
+#: ../src/interface.c:975
+msgid "Import"
+msgstr "Importida"
+
+#: ../src/interface.c:980
+msgid "Read from file:"
+msgstr "Lugeda failist:"
+
+#: ../src/interface.c:997
+msgid "Separate filenames with comma(,).\n NOTE: comma is not valid character in filenames for Orage."
+msgstr "Failinimed eraldatakse komaga(,).\n MÄRKUS: koma ei ole kehtiv tähemärk Orage'i failinimedes."
+
+#: ../src/interface.c:1002
+msgid "Export"
+msgstr "Eksportida"
+
+#: ../src/interface.c:1007
+msgid "Write to file:"
+msgstr "Kirjutada faili:"
+
+#: ../src/interface.c:1028 ../src/interface.c:1040
+msgid "Select"
+msgstr "Valida"
+
+#: ../src/interface.c:1031
+msgid "All appointments"
+msgstr "Kõik kohtumised"
+
+#: ../src/interface.c:1044
+msgid "Named appointments: "
+msgstr "Nimetatud kohtumised: "
+
+#: ../src/interface.c:1056
+msgid "Note that only main file appointments are read.\nArchived and Foreign events are not exported."
+msgstr "Pange tähele, et kohtumisi loetakse ainult põhifailist.\nArhiveeritud ja väliseid nimesid ei ekspordita."
+
+#: ../src/interface.c:1059
+msgid "Note that only main file appointments are read.\nForeign events are not exported."
+msgstr "Pange tähele, et kohtumisi loetakse ainult põhifailist.\nVäliseid sündmuseid ei ekspordita."
+
+#: ../src/interface.c:1062
+msgid "You can easily drag these from event-list window."
+msgstr "Saate neid vaevata lohistada sündmusteloendi aknast."
+
+#: ../src/interface.c:1064
+msgid "Orage appointment UIDs separated by commas."
+msgstr "Orage'i kohtumiste UID-d, eraldatud komadega."
+
+#: ../src/interface.c:1070
+msgid "Archive"
+msgstr "Arhiiv"
+
+#: ../src/interface.c:1078
+#, c-format
+msgid "Archive now (threshold: %d months)"
+msgstr "Arhiveerida nüüd (lävi: %d kuud)"
+
+#: ../src/interface.c:1088
+msgid "You can change archive threshold in parameters"
+msgstr "Arhiiveerimise lävi saate muuta parameetrite alt"
+
+#: ../src/interface.c:1095
+msgid "Revert archive now"
+msgstr "Tühistada arhiiv kohe"
+
+#: ../src/interface.c:1101
+msgid "Return all archived events into main orage file and remove arch file.\nThis is usefull for example when doing export and moving orage\nappointments to another system."
+msgstr "Tagastada kõik arhiveeritud sündmused Orage'i põhifaili ja eemalda arhiivifail.\nSee on kasulik näiteks Orage'i kohtumiste eksportimisel\nvõi teise süsteemi liigutamisel."
+
+#: ../src/interface.c:1111
+msgid "Orage files"
+msgstr "Orage'i failid"
+
+#: ../src/interface.c:1118
+msgid "Orage main calendar file"
+msgstr "Orage'i põhikalendri fail"
+
+#: ../src/interface.c:1123 ../src/interface.c:1188
+msgid "Current file"
+msgstr "Käsilolev fail"
+
+#: ../src/interface.c:1130 ../src/interface.c:1195
+msgid "New file"
+msgstr "Uus fail"
+
+#: ../src/interface.c:1146 ../src/interface.c:1212
+msgid "Action options"
+msgstr "Tegevuse valikud"
+
+#: ../src/interface.c:1149 ../src/interface.c:1215
+msgid "Rename"
+msgstr "Nimetada ümber"
+
+#: ../src/interface.c:1153
+msgid "Orage internal file rename only.\nDoes not touch external filesystem at all.\nNew file must exist."
+msgstr "Ainult Orage'i sisefaili nime muutmine.\nEi mõjuta mingil määral välist failisüsteemi.\nUus fail peab olemas olema."
+
+#: ../src/interface.c:1157 ../src/interface.c:1220
+msgid "Copy"
+msgstr "Kopeerida"
+
+#: ../src/interface.c:1161
+msgid "Current file is copied and stays unmodified in the old place."
+msgstr "Käesolevat faili kopeeritakse ja see jääb muutumatuna vanasse kohta."
+
+#: ../src/interface.c:1165 ../src/interface.c:1225
+msgid "Move"
+msgstr "Liigutada"
+
+#: ../src/interface.c:1169
+msgid "Current file is moved and vanishes from the old place."
+msgstr "Käesolevat faili liigutatakse ja see kaob vanast kohast."
+
+#: ../src/interface.c:1183
+msgid "Archive file"
+msgstr "Arhiivida fail"
+
+#: ../src/interface.c:1246
+msgid "Foreign files"
+msgstr "Välisfailid"
+
+#: ../src/interface.c:1253
+msgid "Add new foreign file"
+msgstr "Lisada uus välisfail"
+
+#: ../src/interface.c:1258
+msgid "Foreign file:"
+msgstr "Välisfail:"
+
+#: ../src/interface.c:1276
+msgid "Options"
+msgstr "Valikud"
+
+#: ../src/interface.c:1278
+msgid "Read only"
+msgstr "Ainult lugemiseks"
+
+#: ../src/interface.c:1286
+msgid "Set this if you want to make sure that this file is never modified by Orage.\nNote that modifying foreign files may make them incompatible with the original tool, where they came from!"
+msgstr "Valige, kui soovite veenduda, et Orage ei muudaks kunagi seda faili.\nPanna tähele, et välisfailide muutmine võib need muuta kasutuskõlbmatuks algsetes vahendites, kust need pärinevad!"
+
+#: ../src/interface.c:1300
+msgid "Exchange data - Orage"
+msgstr "Andmevahetus - Orage"
+
+#: ../src/main.c:192
+#, c-format
+msgid "\tThis is %s version %s for Xfce %s\n\n"
+msgstr "\tSee on %s versioon %s Xfce-le %s\n\n"
+
+#: ../src/main.c:194
+#, c-format
+msgid "\tReleased under the terms of the GNU General Public License.\n"
+msgstr "\tVälja antud GNU Üldise Avaliku Litsentsi tingimustel.\n"
+
+#: ../src/main.c:195
+#, c-format
+msgid "\tCompiled against GTK+-%d.%d.%d, "
+msgstr "\tKompileerimisel kasutatud GTK+-%d.%d.%d, "
+
+#: ../src/main.c:197
+#, c-format
+msgid "using GTK+-%d.%d.%d.\n"
+msgstr "kasutades GTK+-%d.%d.%d.\n"
+
+#: ../src/main.c:200
+#, c-format
+msgid "\tUsing DBUS for import.\n"
+msgstr "\tImportimiseks kasutatakse DBUS-i.\n"
+
+#: ../src/main.c:202
+#, c-format
+msgid "\tNot using DBUS. Import works only partially.\n"
+msgstr "\tDBUS-i ei kasutata. Importimine toimib ainult osaliselt.\n"
+
+#: ../src/main.c:205
+#, c-format
+msgid "\tUsing libnotify.\n"
+msgstr "\tKasutatakse libnotify'd.\n"
+
+#: ../src/main.c:207
+#, c-format
+msgid "\tNot using libnotify.\n"
+msgstr "\tEi kasutata libnotify'd.\n"
+
+#: ../src/main.c:210
+#, c-format
+msgid "\tUsing automatic archving.\n"
+msgstr "\tKasutatakse automaatset arhiveerimist.\n"
+
+#: ../src/main.c:212
+#, c-format
+msgid "\tNot using archiving.\n"
+msgstr "\tArhiveerimist ei kasutata.\n"
+
+#: ../src/main.c:225
+#, c-format
+msgid "Usage: orage [options] [files]\n\n"
+msgstr "Kasutamine: orage [valikud] [failid]\n\n"
+
+#: ../src/main.c:226
+#, c-format
+msgid "Options:\n"
+msgstr "Valikud:\n"
+
+#: ../src/main.c:227
+#, c-format
+msgid "--version (-v) \t\tshow version of orage\n"
+msgstr "--version (-v) \t\tnäidata orage'i versiooni\n"
+
+#: ../src/main.c:228
+#, c-format
+msgid "--help (-h) \t\tprint this text\n"
+msgstr "--help (-h) \t\ttrükkida see tekst\n"
+
+#: ../src/main.c:229
+#, c-format
+msgid "--preferences (-p) \tshow preferences form\n"
+msgstr "--preferences (-p) \tnäidata eelistuste ankeeti\n"
+
+#: ../src/main.c:230
+#, c-format
+msgid "--toggle (-t) \t\tmake orage visible/unvisible\n"
+msgstr "--toggle (-t) \t\tmuuta orage nähtavaks/nähtamatuks\n"
+
+#: ../src/main.c:231
+#, c-format
+msgid "--add-foreign (-a) file [RW] \tadd a foreign file\n"
+msgstr "--add-foreign (-a) fail [RW] \tlisada välisfail\n"
+
+#: ../src/main.c:232
+#, c-format
+msgid "--remove-foreign (-r) file \tremove a foreign file\n"
+msgstr "--remove-foreign (-r) fail \teemaldada välisfail\n"
+
+#: ../src/main.c:234
+#, c-format
+msgid "files=ical files to load into orage\n"
+msgstr "failid=Orage'i laaditavad ical failid\n"
+
+#: ../src/main.c:236
+#, c-format
+msgid "\tdbus not included in orage. \n"
+msgstr "\torage ei sisalda dbusi. \n"
+
+#: ../src/main.c:237
+#, c-format
+msgid "\twithout dbus [files] and foreign file options(-a & -r) can only be used when starting orage \n"
+msgstr "\tilma dbus-ita [failid] ja välisfailide valikuteta saab orage'i käivitamisel kaustada ainult (-a ja -r) \n"
+
+#: ../src/main.c:380
+#, c-format
+msgid "\nUnknown option %s\n\n"
+msgstr "\nTundmatu valik %s\n\n"
+
+#: ../src/mainbox.c:269
+msgid "_Exchange data"
+msgstr "Andm_evahetus"
+
+#. Edit menu
+#: ../src/mainbox.c:280
+msgid "_Edit"
+msgstr "Toim_etada"
+
+#: ../src/mainbox.c:290
+msgid "View selected _date"
+msgstr "Vaa_data valitud kuupäeva"
+
+#: ../src/mainbox.c:293
+msgid "View selected _week"
+msgstr "_Vaadata selekteeritud nädalat"
+
+#: ../src/mainbox.c:299
+msgid "Select _Today"
+msgstr "Selek_teerida tänane päev"
+
+#. Help menu
+#: ../src/mainbox.c:303
+msgid "_Help"
+msgstr "_Abi"
+
+#: ../src/mainbox.c:401
+msgid "Never"
+msgstr "Mitte kunagi"
+
+#: ../src/mainbox.c:406
+#, c-format
+msgid "Title: %s\n Start:\t%s\n Due:\t%s\n Done:\t%s\nNote:\n%s"
+msgstr "Pealkiri: %s\n Algus:\t%s\n Tähtaeg:\t%s\n Tehtud:\t%s\nMärkus:\n%s"
+
+#: ../src/mainbox.c:412
+#, c-format
+msgid "Title: %s\n Start:\t%s\n End:\t%s\n Note:\n%s"
+msgstr "Pealkiri: %s\n Algus:\t%s\n Lõpp:\t%s\n Märkus:\n%s"
+
+#: ../src/mainbox.c:487
+msgid "<b>To do:</b>"
+msgstr "<b>Agenda:</b>"
+
+#: ../src/mainbox.c:516
+#, c-format
+msgid "<b>Events for %s:</b>"
+msgstr "<b>%s sündmused:</b>"
+
+#: ../src/parameters.c:460
+msgid "Main setups"
+msgstr "Põhiseadistused"
+
+#: ../src/parameters.c:466
+msgid "Timezone"
+msgstr "Ajavöönd"
+
+#: ../src/parameters.c:485
+msgid "You should always define your local timezone."
+msgstr "Peaksite alati oma kohaliku ajavööndi defineerima."
+
+#: ../src/parameters.c:494
+msgid "Archive threshold (months)"
+msgstr "Arhiveerimise lävi (kuudes)"
+
+#: ../src/parameters.c:504
+msgid "(0 = no archiving)"
+msgstr "(0 = ei arhiveerita)"
+
+#: ../src/parameters.c:507
+msgid "Archiving is used to save time and space when handling events."
+msgstr "Arhiveerimist kasutatakse aja ja ruumi säästmiseks sündmuste käsitlemisel."
+
+#: ../src/parameters.c:516
+msgid "Sound command"
+msgstr "Heli käsk"
+
+#: ../src/parameters.c:531
+msgid "This command is given to shell to make sound in alarms."
+msgstr "See käsk edastatakse Shellile, et alarmides heli tekitada."
+
+#: ../src/parameters.c:546
+msgid "Display"
+msgstr "Ekraan"
+
+#: ../src/parameters.c:553
+msgid "Calendar main window"
+msgstr "Kalendri põhiaken"
+
+#: ../src/parameters.c:558
+msgid "Show borders"
+msgstr "Näidata raame"
+
+#: ../src/parameters.c:565
+msgid "Show menu"
+msgstr "Näidata menüüd"
+
+#: ../src/parameters.c:572
+msgid "Show todo list"
+msgstr "Näidata agendat"
+
+#: ../src/parameters.c:579
+msgid "Show event list"
+msgstr "Näidata sündmuste loendit"
+
+#: ../src/parameters.c:586
+msgid "Set sticked"
+msgstr "Määrata kinnistatuks"
+
+#: ../src/parameters.c:593
+msgid "Set on top"
+msgstr "Määrata pealmiseks"
+
+#: ../src/parameters.c:614
+msgid "Show in taskbar"
+msgstr "Näidata tegumiribal"
+
+#: ../src/parameters.c:621
+msgid "Show in pager"
+msgstr "Näidata piiparis"
+
+#: ../src/parameters.c:628
+msgid "Show in systray"
+msgstr "Näidata teatealas"
+
+#: ../src/parameters.c:645
+msgid "Calendar start"
+msgstr "Kalendri algus"
+
+#: ../src/parameters.c:662
+msgid "Hide"
+msgstr "Peita"
+
+#: ../src/parameters.c:674
+msgid "Minimized"
+msgstr "Minimeeritud"
+
+#: ../src/parameters.c:704
+msgid "Extra setups"
+msgstr "Lisaseadistused"
+
+#: ../src/parameters.c:711 ../src/parameters.c:716
+msgid "Select always today"
+msgstr "Alati selekteerida tänane päev"
+
+#: ../src/parameters.c:722
+msgid "When showing main calendar, set pointer to either previously selected day or always to current day."
+msgstr "Näidates peakalendrit, määratakse osuti kas eelnevalt välja valitud päevale, või alati käesolevale päevale."
+
+#: ../src/parameters.c:753
+msgid "Dynamic icon size"
+msgstr "Dünaamiline ikoonisuurus"
+
+#: ../src/parameters.c:766 ../src/parameters.c:783
+msgid "(0 = use static icon)"
+msgstr "(0 = kasutada staatilist ikooni)"
+
+#: ../src/parameters.c:769
+msgid "Dynamic icon shows current day and month. It is visible only in tray. If tray is too small for dynamic icon size, Orage switches automatically back to static icon."
+msgstr "Dünaamiline ikoon näitab käesolevat päeva ja kuud. Seda näeb ainult salvest. Kui salv on dünaamilise ikoonisuuruse jaoks liiga pisike, siis Orage lülitab staatilise ikooni uuesti sisse."
+
+#: ../src/parameters.c:792
+msgid "Main Calendar double click shows"
+msgstr "Topeltklõpsates põhikalendrile näidatakse"
+
+#: ../src/parameters.c:797
+msgid "Days view"
+msgstr "Päevavaade"
+
+#: ../src/parameters.c:809
+msgid "Event list"
+msgstr "Sündmuste loend"
+
+#: ../src/parameters.c:834
+msgid "Orage Preferences"
+msgstr "Orage'i seadistused"
+
+#: ../src/reminder.c:425
+msgid "Reminder "
+msgstr "Meeldetuletus "
+
+#: ../src/reminder.c:442
+msgid "Open"
+msgstr "Avada"
+
+#: ../src/reminder.c:532
+msgid "Reminder - Orage"
+msgstr "Meeldetuletus - Orage"
+
+#: ../src/reminder.c:832
+msgid "Next active alarms:"
+msgstr "Järgmised aktiivsed alarmid:"
+
+#: ../src/reminder.c:860
+#, c-format
+msgid "\n%02d d %02d h %02d min to: %s"
+msgstr "\n%02d p %02d t %02d min kuni: %s"
+
+#: ../src/reminder.c:868
+#, c-format
+msgid "\nNo active alarms found"
+msgstr "\nAktiivseid alarme ei leitud"
+
+#: ../src/tray_icon.c:325
+msgid "New appointment"
+msgstr "Uus kohtumine"
+
+#: ../src/tray_icon.c:345
+msgid "About Orage"
+msgstr "Orage'i teave"
+
+#: ../panel-plugin/orageclock.desktop.in.in.h:1
+msgid "Orage Clock"
+msgstr "Orage'i kell"
+
+#: ../panel-plugin/orageclock.desktop.in.in.h:2
+msgid "What time and date is it?"
+msgstr "Mis aeg on?"
+
+#: ../plugin/xfce-xfcalendar-settings.desktop.in.h:1
+msgid "Calendar Settings"
+msgstr "Kalendri seaded"
+
+#: ../plugin/xfce-xfcalendar-settings.desktop.in.h:2
+msgid "Settings for the Xfce 4 Calendar Application"
+msgstr "Xfce 4 kalendri seaded"
+
+#: ../plugin/xfce-xfcalendar-settings.desktop.in.h:3
+msgid "Xfce 4 Calendar Settings"
+msgstr "Xfce 4 kalendri seaded"
+
+#: ../xfcalendar.desktop.in.h:1
+msgid "Calendar"
+msgstr "Kalender"
+
+#: ../xfcalendar.desktop.in.h:2
+msgid "Desktop calendar"
+msgstr "Töölaua kalender"
+

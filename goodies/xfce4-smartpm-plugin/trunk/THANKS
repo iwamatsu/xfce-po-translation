@@ -1,0 +1,54 @@
+What's this file about?
+-----------------------
+This file lists all external people that have contributed to this project and
+thereby helped to make the Smart panel plugin project such a successful project.
+
+
+Translators (sorted by language):
+----------------------------------
+These people, as ASCII, have translated the Smart plugin to foreign languages:
+
+ Mohamed Magdy
+ * ar translations
+
+ Michal Varady
+ * cs translations
+
+ Jens Hyllegaard
+ * da translations
+
+ Pascal Bleser
+ * de translations
+
+ Mike Massonnet
+ * fr translations
+
+ Andhika Padmawan
+ * id translations
+
+ Rihards Prieditis
+ * lv translations
+
+ Fabio Nogueira
+ * pt_BR translations
+
+ Nuno Miguel
+ * pt_PT translations
+
+ Anders F Bjorklund
+ * sv translations
+
+ Muhammad Ali Makki
+ * ur translations
+
+Other contributors (sorted by name):
+------------------------------------
+
+ Mairin Duffy, Mike Langlie
+ * puplet icons
+
+ Gustavo Niemeyer
+ * smart, ksmarttray
+
+ Brian Tarricone, Jasper Huijsmans
+ * mailwatch

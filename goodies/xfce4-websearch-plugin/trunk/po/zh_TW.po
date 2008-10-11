@@ -1,0 +1,37 @@
+# Traditional Chinese translations for xfce4-websearch-plugin package.
+# Copyright (C) 2005 Piotr Wolny.
+# This file is distributed under the same license as the
+#   xfce4-websearch-plugin package.
+# Daichi Kawahata <daichi@xfce.org>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-websearch-plugin 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:29+0200\n"
+"PO-Revision-Date: 2006-08-12 11:44+0800\n"
+"Last-Translator: Hydonsingore Cia <hydonsingore@educities.edu.tw>\n"
+"Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/websearch.c:312
+msgid "Properties"
+msgstr "屬性"
+
+#: ../src/websearch.c:321
+msgid "Browser command: "
+msgstr "瀏覽器指令："
+
+#: ../src/websearch.c:328
+msgid "Search engine: "
+msgstr "搜尋引擎："
+
+#: ../src/websearch.c:345 ../src/websearch.desktop.in.in.h:2
+msgid "WebSearch"
+msgstr "WebSearch"
+
+#: ../src/websearch.desktop.in.in.h:1
+msgid "Search the Web directly from the Panel"
+msgstr "直接由面板中搜尋 Web"

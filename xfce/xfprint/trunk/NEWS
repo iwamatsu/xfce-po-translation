@@ -1,0 +1,83 @@
+NEWS for xfprint
+================
+
+4.5.90
+======
+- Make settings-dialogs use xfconf instead of mcs-manager
+- Make settings-dialogs independent apps instead of mcs-plugins
+- Fix segfault when there is no default printer selected in backend
+  (bug #3816)
+- Update Arabic, Greek, Galician, Brazilian Portuguese, Latvian and 
+  Sinhala translations
+
+
+4.4.0
+=====
+- Prevent xfprint4 from removing the printed file when the filters aren't
+  applied
+- Fix incompatibility with CUPS 1.2 (bug #2107)
+- Remove pointless warning messages
+- Use themable 'printer' icon
+- Add shortcuts in printer queue dialog
+
+4.3.90.2
+========
+- Use GtkIconTheme instead of deprecated XfceIconTheme
+
+4.3.90.1
+========
+- Remove the a2ps dependency now it looks for it at runtime
+- New printing backend framework using GtkUIManager in order to simplify GUI modifications
+- Show the printer state in the printer list dialog (only supported by CUPS backend)
+
+4.2.3
+=====
+- Get the cups server address from CUPS config (fix #918)
+- Add support for CUPS instances (fix #1096)
+- Update some copyright notices
+- Updated af, ca, fi, he, ja, ko, lt translations
+- Added el, ku translations
+
+4.2.2
+=====
+- FILE plugin removal from 4.2.1 doesn't make xfprint crash anymore
+- French docs added
+- Add 'None' as a choice in the printing system selection dialog (fix #879)
+- Add support for printcap aliases in BSD-LPR backend (fix #821)
+- Fix LDFLAGS to avoid problem when loading backend plugin (fix #871)
+
+4.2.1
+=====
+- Remove FILE backend and add a print-to-file entry in the printing dialog
+- Multiple fixes in the BSD-LPR backend (thanks to Jason Keltz for pointing them out)
+
+4.2.0
+=====
+- Fix problem with locating printing-system modules when installing in a different prefix (Jasper)
+
+4.1.99.3 (4.2 RC3)
+==================
+- Fix display of jobs for CUPS backend (Jean-François)
+
+- Add queueing support for bsd-lpr backend (Jean-François)
+
+- Several translation updates (Jean-François)
+
+4.1.99.2 (4.2 RC2)
+==================
+
+4.1.99.1 (4.2 RC1)
+==================
+
+4.1.91 (4.2 BETA2)
+==================
+- Several translation updates (Jean-François)
+
+- Fix empty printer list freeze with CUPS (Jean-François)
+
+- Fix MCS-plugin window closing (Edscott)
+
+
+4.1.90 (4.2 BETA1)
+==================
+- Use gmodule as printing back-end (File, CUPS and BDR-LPR available so far) (Jean-François)

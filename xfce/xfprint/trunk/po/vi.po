@@ -1,0 +1,503 @@
+# Vietnamese translations for xfprint package.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfprint package.
+# Lâm Vĩnh Niên <nienvl@yahoo.ca>, 2004.
+# Phan Vĩnh Thịnh <teppi@vnlinux.org>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-14 15:26+0200\n"
+"PO-Revision-Date: 2006-03-30 03:07+0300\n"
+"Last-Translator: Phan Vinh Thinh <teppi@vnlinux.org>\n"
+"Language-Team: Vietnamese <none@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "Máy in"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "Thoát"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "Thoát xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "Về"
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "Về xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "Hiển thị thông tin về xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:140
+msgid "Printer manager"
+msgstr "Trình quản lí máy in"
+
+#: ../libxfprint/printer-list-window.c:206
+msgid "Alias name"
+msgstr "Tên khác"
+
+#: ../libxfprint/printer-list-window.c:210
+#: ../libxfprint/printer-queue-window.c:217
+msgid "State"
+msgstr "Trạng thái"
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Xfprint printers manager"
+msgstr "Trình quản lí máy in Xfprint"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:269
+msgid "Former maintainer"
+msgstr "Nhà duy trì trước"
+
+#: ../libxfprint/printer-list-window.c:270
+msgid "Maintainer"
+msgstr "Nhà duy trì"
+
+#: ../libxfprint/printer-list-window.c:271
+msgid "Artist"
+msgstr "Họa sĩ"
+
+#: ../libxfprint/printer-list-window.c:334
+msgid "Unknown"
+msgstr "Không rõ"
+
+#: ../libxfprint/printer-list-window.c:337
+msgid "Idle"
+msgstr "Tạm ngưng"
+
+#: ../libxfprint/printer-list-window.c:340
+msgid "Processing"
+msgstr "Đang thực hiện"
+
+#: ../libxfprint/printer-list-window.c:343
+msgid "Stopped"
+msgstr "Đã dừng"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "Đóng"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "Đóng cửa sổ hàng đợi"
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr "Công việc"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:385
+#: ../libxfprint/printer-queue-window.c:389
+msgid "Remove job"
+msgstr "Bỏ công việc"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "Xóa công việc đã chọn khỏi hàng đợi"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "Cập nhật"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "Cập nhật hàng đợi"
+
+#: ../libxfprint/printer-queue-window.c:122
+#: ../libxfprint/printer-queue-window.c:538
+msgid "Queue Manager"
+msgstr "Trình quản lí xếp hàng"
+
+#: ../libxfprint/printer-queue-window.c:207
+msgid "Name"
+msgstr "Tên"
+
+#: ../libxfprint/printer-queue-window.c:211
+msgid "ID"
+msgstr "ID"
+
+#: ../libxfprint/printer-queue-window.c:214
+msgid "User"
+msgstr "Người dùng"
+
+#: ../libxfprint/printer-queue-window.c:220
+msgid "Size"
+msgstr "Kích thước"
+
+#: ../libxfprint/printer-queue-window.c:223
+msgid "Priority"
+msgstr "Ưu tiên"
+
+#: ../libxfprint/printer-queue-window.c:226
+msgid "Creation time"
+msgstr "Thời gian tạo"
+
+#: ../libxfprint/printer-queue-window.c:229
+msgid "Processing time"
+msgstr "Thời gian thực hiện"
+
+#: ../libxfprint/printer-queue-window.c:382
+msgid "Are you sure you want to remove the job "
+msgstr "Bạn có chắc chắn muốn xóa công việc in "
+
+#: ../libxfprint/printer-queue-window.c:388
+msgid "Don't remove job"
+msgstr "Đừng bỏ công việc"
+
+#: ../libxfprint/printer-queue-window.c:395
+msgid "An error occurred while removing job !"
+msgstr "Lỗi khi bỏ công việc"
+
+#: ../libxfprint/printer-queue-window.c:446
+msgid "pending"
+msgstr "đang chờ"
+
+#: ../libxfprint/printer-queue-window.c:449
+msgid "printing"
+msgstr "đang in"
+
+#: ../libxfprint/printer-queue-window.c:452
+msgid "Kb"
+msgstr "Kb"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "Hệ thống in"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "Chọn hệ thống in"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "Thông tin"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "Mô tả"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "Phiên bản"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "Tác giả"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "Trang chủ"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "Không"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr "Sử dụng giao diện này nếu chỉ muốn in thành tập tin."
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "Hỗ trợ hệ thống in BSD-LPR cho Xfprint"
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr "Hỗ trợ hệ thống CUPS cho Xfprint"
+
+#: ../printing-systems/cups/cups.c:48
+msgid "Set as default printer"
+msgstr "Chọn làm máy in mặc định"
+
+#: ../printing-systems/cups/cups.c:49
+msgid "Set as default CUPS printer"
+msgstr "Chọn làm máy in CUPS mặc định"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "Thuộc tính"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "Hiển thuộc tính máy in"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "Người dùng:"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "Mật khẩu :"
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr "Cần cho tên một người dùng !"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "Các đầu đề in"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "Đầu đề:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "Lớp lót:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "Tựa giữa"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "Tựa trái:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "Tựa phải:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "Chân đề giữa:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "Chân đề trái:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "Chân đề phải:"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "Mã hoá:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "In tất cả các trang"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "In các trang trong khoảng từ"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "Cắt hàng dài"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "Phiên dịch các kí tự TAB, BS và FF"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "Ép in nhị phân"
+
+#: ../xfprint/main.c:116
+msgid "Select file to print"
+msgstr "Chọn tập tin in"
+
+#: ../xfprint/main.c:128
+msgid "The specified file does not exist"
+msgstr "Tập tin chỉ định không tồn tại"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "Ngôn ngữ:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "Mức tô sáng:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "Mức strip:"
+
+#: ../xfprint/print_dialog.c:204
+msgid "Save settings"
+msgstr "Lưu các thiết lập"
+
+#: ../xfprint/print_dialog.c:212
+msgid "Xfprint"
+msgstr "Xfprint"
+
+#: ../xfprint/print_dialog.c:220
+msgid "Print to:"
+msgstr "In thành:"
+
+#: ../xfprint/print_dialog.c:250
+msgid "Print to file:"
+msgstr "In thành tập tin:"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Sheets"
+msgstr "Giấy"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Virtual pages"
+msgstr "Trang ảo"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Pretty-printing"
+msgstr "In đẹp"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Input"
+msgstr "Nhập"
+
+#: ../xfprint/print_dialog.c:300
+msgid "Headings"
+msgstr "Đầu đề"
+
+#: ../xfprint/print_dialog.c:309
+msgid "Copies:"
+msgstr "Bản sao:"
+
+#: ../xfprint/print_dialog.c:316
+msgid "Apply filters"
+msgstr "Áp dụng đầu lọc"
+
+#: ../xfprint/print_dialog.c:371
+msgid ""
+"Neither the printing system backend or a2ps could be found on your system, "
+"you won't be able to print a file with xfprint !"
+msgstr ""
+"Không tìm thấy hệ thống in cũng như a2ps trên hệ thống này, vì thế người "
+"dùng không thể in một tập tin bằng xfprint !"
+
+#: ../xfprint/print_dialog.c:486
+msgid "An error occurred while trying to print the file"
+msgstr "Có lỗi khi in tập tin"
+
+#: ../xfprint/print_dialog.c:523
+msgid "Select file where to print"
+msgstr "Chọn tập tin in"
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "Kích cỡ giấy"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "Thẳng đứng"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "Nằm ngang"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "Cột:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "Làm đầy cột trước"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "Làm đầy hàng trước"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "Hàng"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "In bờ xung quanh cột"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "In trang theo thứ tự ngược"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "Số dòng:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "Số dòng cho mỗi trang:"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "Số kí tự cho mỗi dòng:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "Kích thước lập bảng:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "Định dạng không in được:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr "Cho phép chọn hệ thống in mà xfprint sẽ sử dụng"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+msgid "Printing System Settings"
+msgstr "Thiết lập hệ thống in"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+msgid "Xfce 4 Printing System Settings"
+msgstr "Thiết lập hệ thống in của Xfce 4"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+msgid "Print Manager"
+msgstr "Trình quản lí in"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr "Hiển thị danh sách máy in và cho phép quản lý công việc của chúng"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+msgid "Xfce 4 Print Manager"
+msgstr "Trình quản lí in của Xfce 4"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "Hộp thoại in"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr "In một tập tin và cho phép người dùng xác lập vẻ ngoài của nó"
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "Hộp thoại in của Xfce 4"

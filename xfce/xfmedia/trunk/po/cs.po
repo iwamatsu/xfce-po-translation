@@ -1,0 +1,1579 @@
+# Czech translations for xfmedia package.
+# Copyright (C) 2004-2006 Brian J. Tarricone.
+# This file is distributed under the same license as the xfmedia package.
+# Michal Várady <miko.vaji@gmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfmedia 0.10.0svn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-06-16 22:22+0900\n"
+"PO-Revision-Date: 2006-08-29 22:50+0100\n"
+"Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
+"Language-Team: Czech <translation-team-cs@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:102
+#, c-format
+msgid "Status:                  %s\n"
+msgstr "Stav:                    %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:106
+#, c-format
+msgid "Now Playing:             %s\n"
+msgstr "Nyní se přehrává:         %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:111
+#, c-format
+msgid "Filename:                %s\n"
+msgstr "Název souboru:            %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:112
+#: ../plugins/infopipe/xfmedia-infopipe.c:127
+#: ../plugins/infopipe/xfmedia-infopipe.c:138
+msgid "(none)"
+msgstr "(žádný)"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:115
+#, c-format
+msgid "Track Position:          %d\n"
+msgstr "Pozice ve stopě:         %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:119
+#, c-format
+msgid "Track Length:            %d\n"
+msgstr "Délka stopy:             %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:126
+#, c-format
+msgid ""
+"Audio Codec:             %s\n"
+"Audio Bitrate:           %d\n"
+"Audio Sample Rate:       %d\n"
+"Audio Channels:          %d\n"
+"Audio Bits Per Sample:   %d\n"
+msgstr ""
+"Zvukový kodek:           %s\n"
+"Šířka pásma:             %d\n"
+"Vzorkovací frekvence:    %d\n"
+"Zvukové kanály:          %d\n"
+"Bitů na vzorek:          %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:137
+#, c-format
+msgid ""
+"Video Codec:            %s\n"
+"Video Bitrate:          %d\n"
+"Video Frames Per Second: %.02f\n"
+"Video Frame Size:        %dx%d\n"
+"Video Aspect Ratio:      %.02f\n"
+msgstr ""
+"Videokodek:             %s\n"
+"Šířka pásma:            %d\n"
+"Snímků za vteřinu:       %.02f\n"
+"Velikost snímku:         %dx%d\n"
+"Poměr stran obrazu:      %.02f\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:144
+#, c-format
+msgid "Playlist Length:         %d\n"
+msgstr "Délka seznamu médií:     %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:148
+#, c-format
+msgid "Current Playlist Index:  %d\n"
+msgstr "Pozice v seznamu médií:  %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:234
+#, c-format
+msgid "Xfmedia-Infopipe: Unable to delete file '%s'."
+msgstr "Xfmedia-Infopipe: Nelze smazat soubor '%s'."
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:245
+#, c-format
+msgid "Xfmedia-Infopipe: Unable to create pipe '%s'."
+msgstr "Xfmedia-Infopipe: Nelze vytvořit rouru '%s'."
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:262
+msgid "Xfmedia Infopipe"
+msgstr "Xfmedia Infopipe"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:264
+msgid "The Infopipe plugin creates a pipe in /tmp that you can use to retrieve information about the currently playing track."
+msgstr "Zásuvný modul infopipe vytváří rouru v adresáři /tmp, kterou můžete použít pro získání informací o právě přehrávaném souboru."
+
+#: ../src/equaliser.c:132
+msgid "Equalizer"
+msgstr "Ekvalizér"
+
+#: ../src/equaliser.c:175
+msgid "Preamp"
+msgstr "Předzesilovač"
+
+#: ../src/http.c:95
+#, c-format
+msgid "http: failed to open socket: %s\n"
+msgstr "http: otevření socketu se nezdařilo: %s\n"
+
+#: ../src/http.c:105
+#, c-format
+msgid "http: cannot connect to host\n"
+msgstr "http: nelze se připojit k hostiteli\n"
+
+#: ../src/http.c:121
+#, c-format
+msgid "http: unable to resolve '%s'\n"
+msgstr "http: nelze přeložit adresu '%s'\n"
+
+#: ../src/http.c:133
+#, c-format
+msgid "http: unable to connect to '%s'\n"
+msgstr "http: nelze se připojit k '%s'\n"
+
+#: ../src/http.c:311
+#: ../src/http.c:330
+msgid "URL parse error"
+msgstr "chyba při načítání adresy URL"
+
+#: ../src/http.c:322
+#: ../src/http.c:340
+msgid "proxy authentication error"
+msgstr "chyba při autentizaci na serveru proxy"
+
+#: ../src/http.c:360
+msgid "host connect error"
+msgstr "chyba při připojení k hostiteli"
+
+#: ../src/http.c:399
+msgid "couldn't send request"
+msgstr "nelze odeslat požadavek"
+
+#: ../src/http.c:420
+msgid "read error"
+msgstr "chyba při čtení"
+
+#: ../src/http.c:446
+msgid "invalid HTTP response"
+msgstr "neplatná odpověď protokolu HTTP"
+
+#: ../src/http.c:454
+msgid "HTTP 3xx redirection not implemented"
+msgstr "Přesměrování protokolu HTTP 3xx není implementováno"
+
+#: ../src/http.c:461
+msgid "HTTP status is not 2xx"
+msgstr "Stav protokolu HTTP není 2xx"
+
+#: ../src/http.c:480
+msgid "HTTP 'Location:' redirection not implemented"
+msgstr "Přesměrování funkcí protokolu HTTP 'Umístění:'  není implementováno"
+
+#. FIXME: report errno, and possibly in a window
+#: ../src/http.c:534
+#, c-format
+msgid "http: read error\n"
+msgstr "http: chyba při čtení\n"
+
+#: ../src/main.c:227
+#: ../src/xfmedia-remote.c:102
+#, c-format
+msgid ""
+"Xfmedia %s.  Released under the terms of the GNU GPL.  See the COPYING\n"
+"file for details.\n"
+"\n"
+msgstr "Xfmedia %s.  Vydáno pod licencí GNU GPL. Více podrobností naleznete v souboru COPYING.\n"
+
+#: ../src/main.c:228
+#, c-format
+msgid ""
+"Usage: %s [options] [files]\n"
+"\n"
+msgstr ""
+"Použití: %s [volby] [soubory]\n"
+"\n"
+
+#: ../src/main.c:229
+#: ../src/xfmedia-remote.c:104
+msgid "    -h, --help           Print this help message and exit.\n"
+msgstr "    -h, --help           Zobrazí tuto nápovědu a ukončí se.\n"
+
+#: ../src/main.c:230
+#: ../src/xfmedia-remote.c:105
+msgid "    -V, --version        Print version information and exit.\n"
+msgstr "    -V, --version        Zobrazí informace o verzi a ukončí se.\n"
+
+#: ../src/main.c:231
+msgid "    -v, --verbose        Instruct xine to print useful status information.\n"
+msgstr "    -v, --verbose        Zobrazí více informací o stavu při běhu.\n"
+
+#: ../src/main.c:232
+msgid "    --debug              Instruct xine to print detailed debug information.\n"
+msgstr "    --debug              Zobrazí ladicí informace při běhu.\n"
+
+#: ../src/main.c:233
+msgid "    -f, --fullscreen     Start xfmedia's video window in fullscreen mode.\n"
+msgstr ""
+"    -f, --fullscreen     Spustí okno xfmedia pro přehrávání videa\n"
+"                         v celoobrazovkovém režimu.\n"
+
+#: ../src/main.c:234
+msgid ""
+"    -p, --autoplay       Start playing when Xfmedia starts.  (This is the\n"
+"                         default if xfmedia is given filenames on the command\n"
+"                         line.)\n"
+msgstr ""
+"    -p, --autoplay       Spustí přehrávání ihned po spuštění Xfmedia (tato\n"
+"                         vlastnost je výchozí, pokud jsou přes příkazovou\n"
+"                         řádku zadány názvy souborů.)\n"
+
+#: ../src/main.c:237
+msgid "    -c, --clear-playlist Start xfmedia with an empty playlist.\n"
+msgstr "    -c, --clear-playlist Spustí xfmedia s prázdným seznamem médií.\n"
+
+#: ../src/main.c:238
+msgid "    --audio-out=DRIVER   Specify the audio output driver to use.\n"
+msgstr "    --audio-out=OVLADAČ  Zvolí zvukový ovladač pro výstup.\n"
+
+#: ../src/main.c:239
+msgid "    --video-out=DRIVER   Specify the video output driver to use.\n"
+msgstr "    --video-out=OVLADAČ  Zvolí grafický ovladač pro výstup.\n"
+
+#: ../src/main.c:240
+msgid ""
+"    --vwin-geometry=WxH[+X+Y]\n"
+"                         Specify a fixed size and/or position for xfmedia's\n"
+"                         video window.\n"
+msgstr ""
+"    --vwin-geometry=WxH[+X+Y]\n"
+"                         Zvolí pevnou velikost a/nebo umístění okna xfmedia\n"
+"                         pro přehrávání videa.\n"
+
+#: ../src/main.c:315
+#: ../src/xfmedia-remote.c:167
+#, c-format
+msgid "Xfmedia version %s, Copyright (c) Brian Tarricone, <bjt23@cornell.edu>\n"
+msgstr "Xfmedia verze %s, Copyright (c) Brian Tarricone, <bjt23@cornell.edu>\n"
+
+#: ../src/main.c:316
+#: ../src/xfmedia-remote.c:168
+msgid "Released under the terms of the GNU General Public License.\n"
+msgstr "Vydáno pod licencí GNU General Public License.\n"
+
+#: ../src/main.c:317
+#, c-format
+msgid "Compiled against xine-lib %s, using xine-lib %s.\n"
+msgstr "Sestaveno proti xine-lib %s, používá xine-lib %s.\n"
+
+#: ../src/main.c:319
+#, c-format
+msgid "Compiled against Xfce %d.%d.%d, using Xfce %s.\n"
+msgstr "Sestaveno proti Xfce %d.%d.%d, používá Xfce %s.\n"
+
+#: ../src/main.c:354
+msgid "The option --audio-out requires an argument.\n"
+msgstr "Volba --audio-out vyžaduje parametr.\n"
+
+#: ../src/main.c:363
+msgid "The option --video-out requires an argument.\n"
+msgstr "Volba --video-out vyžaduje parametr.\n"
+
+#: ../src/mainwin-callbacks.c:130
+msgid "Unable to play file."
+msgstr "Nelze přehrát soubor."
+
+#: ../src/mainwin-callbacks.c:131
+msgid "Xfmedia was unable to play the selected file.  Be sure that the file exists and that you have permission to access it."
+msgstr "Xfmedia nemohl přehrát vybraný soubor. Ujistěte se, že soubor existuje a máte patřičná oprávnění."
+
+#: ../src/mainwin-callbacks.c:222
+msgid "Metadata Changed"
+msgstr "Metadata změněna"
+
+#: ../src/mainwin-callbacks.c:224
+msgid "You have edited this file's metadata."
+msgstr "Změnili jste metadata tohoto souboru,"
+
+#: ../src/mainwin-callbacks.c:225
+msgid "Changes will be lost unless they are saved.  Do you wish to save changes?"
+msgstr "Změny budou ztraceny, pokud je neuložíte. Chcete uložit změny?"
+
+#: ../src/mainwin-callbacks.c:226
+msgid "_Discard Changes"
+msgstr "Za_hodit změny"
+
+#: ../src/mainwin-callbacks.c:227
+msgid "_Save Changes"
+msgstr "_Uložit změny"
+
+#: ../src/mainwin-callbacks.c:285
+#, c-format
+msgid "Xfmedia was unable to open '%s'.  Be sure that the file exists and that you have permission to access it."
+msgstr "Xfmedia nemohl otevřít '%s'. Ujistěte se, že soubor existuje a že máte patřičná oprávnění."
+
+#: ../src/mainwin-callbacks.c:287
+msgid "Unable to open file."
+msgstr "Nelze otevřít soubor."
+
+#: ../src/mainwin-callbacks.c:308
+msgid "File Info"
+msgstr "Informace o souboru"
+
+#: ../src/mainwin-callbacks.c:323
+msgid "Filename"
+msgstr "Název souboru"
+
+#: ../src/mainwin-callbacks.c:336
+msgid "Media Info"
+msgstr "Informace o médiu"
+
+#: ../src/mainwin-callbacks.c:348
+msgid "Title:"
+msgstr "Název:"
+
+#: ../src/mainwin-callbacks.c:375
+msgid "Artist:"
+msgstr "Autor:"
+
+#: ../src/mainwin-callbacks.c:402
+msgid "Album:"
+msgstr "Album:"
+
+#: ../src/mainwin-callbacks.c:429
+msgid "Genre:"
+msgstr "Žánr:"
+
+#: ../src/mainwin-callbacks.c:452
+msgid "Track:"
+msgstr "Stopa:"
+
+#: ../src/mainwin-callbacks.c:477
+msgid "Year:"
+msgstr "Rok:"
+
+#: ../src/mainwin-callbacks.c:504
+msgid "Comment:"
+msgstr "Poznámka:"
+
+#: ../src/mainwin-callbacks.c:535
+msgid "Length:"
+msgstr "Délka:"
+
+#: ../src/mainwin-callbacks.c:552
+msgid "File size (b):"
+msgstr "Velikost souboru (b):"
+
+#: ../src/mainwin-callbacks.c:569
+msgid "Audio Info"
+msgstr "Informace o zvukovém souboru"
+
+#: ../src/mainwin-callbacks.c:581
+#: ../src/mainwin-callbacks.c:675
+msgid "Codec:"
+msgstr "Kodek:"
+
+#: ../src/mainwin-callbacks.c:596
+msgid "Samples/sec:"
+msgstr "Vzorků za vteřinu"
+
+#: ../src/mainwin-callbacks.c:615
+msgid "Bits/sample:"
+msgstr "Bitů na vzorek:"
+
+#: ../src/mainwin-callbacks.c:631
+#: ../src/mainwin-callbacks.c:732
+msgid "Channels:"
+msgstr "Kanály:"
+
+#: ../src/mainwin-callbacks.c:646
+#: ../src/mainwin-callbacks.c:746
+msgid "Bitrate (kbit):"
+msgstr "Datový tok (kbit):"
+
+#: ../src/mainwin-callbacks.c:663
+msgid "Video Info"
+msgstr "Informace o videosekvenci"
+
+#: ../src/mainwin-callbacks.c:690
+msgid "FourCC:"
+msgstr "FourCC:"
+
+#: ../src/mainwin-callbacks.c:714
+msgid "Frame size:"
+msgstr "Velikost rámce:"
+
+#: ../src/mainwin-callbacks.c:895
+msgid "Add URL"
+msgstr "Přidat adresu URL"
+
+#: ../src/mainwin-callbacks.c:912
+msgid "_URL:"
+msgstr "_URL:"
+
+#: ../src/mainwin-callbacks.c:937
+msgid "Sort by filename"
+msgstr "Řadit podle názvu souboru"
+
+#: ../src/mainwin-callbacks.c:938
+msgid "Sort by title"
+msgstr "Řadit podle názvu"
+
+#: ../src/mainwin-callbacks.c:939
+msgid "Sort by artist, title"
+msgstr "Řadit podle autora, názvu"
+
+#: ../src/mainwin-callbacks.c:940
+msgid "Sort by artist, album, track number"
+msgstr "Řadit podle autora, alba, čísla stopy"
+
+#: ../src/mainwin-callbacks.c:1241
+msgid "Add Directory"
+msgstr "Přidat adresář"
+
+#: ../src/mainwin-callbacks.c:1329
+msgid "Add Media File"
+msgstr "Přidat multimediální soubor"
+
+#: ../src/mainwin-callbacks.c:1331
+msgid "Add _Selected"
+msgstr "Přida_t vybrané"
+
+#: ../src/mainwin-callbacks.c:1335
+msgid "A_dd and Close"
+msgstr "Při_dat a zavřít"
+
+#: ../src/mainwin-callbacks.c:1349
+#: ../src/playlist.c:686
+msgid "All Files"
+msgstr "Všechny soubory"
+
+#: ../src/mainwin-callbacks.c:1353
+msgid "Music Files"
+msgstr "Hudební soubory"
+
+#: ../src/mainwin-callbacks.c:1367
+#: ../src/playlist.c:690
+msgid "Playlists"
+msgstr "Seznamy médií"
+
+#: ../src/mainwin-callbacks.c:1373
+msgid "Video Files"
+msgstr "Videa"
+
+#: ../src/mainwin-callbacks.c:1949
+msgid "Translator"
+msgstr "Překladatel"
+
+#: ../src/mainwin-callbacks.c:1962
+msgid ""
+"Xfmedia is a lightweight media player,\n"
+"based on the xine engine"
+msgstr ""
+"Xfmedia je odlehčený multimediální přehrávač\n"
+"založený na xine"
+
+#: ../src/mainwin-callbacks.c:1967
+msgid "Original Author/Maintainer"
+msgstr "Původní autor/správce"
+
+#: ../src/mainwin-callbacks.c:2080
+#: ../src/mainwin.c:1843
+msgid "Stopped"
+msgstr "Zastaveno"
+
+#: ../src/mainwin.c:383
+msgid "_Other"
+msgstr "_Ostatní"
+
+#: ../src/mainwin.c:429
+msgid "_URL..."
+msgstr "Adresa _URL..."
+
+#: ../src/mainwin.c:438
+msgid "_Directory..."
+msgstr "A_dresář..."
+
+#: ../src/mainwin.c:447
+msgid "_File..."
+msgstr "_Soubor"
+
+#: ../src/mainwin.c:633
+msgid "Volume"
+msgstr "Hlasitost"
+
+#: ../src/mainwin.c:658
+#: ../src/xfmedia-keybindings.c:513
+msgid "Previous Track"
+msgstr "Předchozí stopa"
+
+#: ../src/mainwin.c:670
+msgid "Play/Pause Track"
+msgstr "Přehrát/pozastavit přehrávání"
+
+#: ../src/mainwin.c:686
+msgid "Stop Playback"
+msgstr "Zastavit přehrávání"
+
+#: ../src/mainwin.c:697
+#: ../src/xfmedia-keybindings.c:514
+msgid "Next Track"
+msgstr "Následující stopa"
+
+#: ../src/mainwin.c:705
+msgid "_Playlist"
+msgstr "_Seznam médií"
+
+#: ../src/mainwin.c:759
+msgid "_Enqueue"
+msgstr "_Zařadit do fronty"
+
+#: ../src/mainwin.c:768
+msgid "Add _Mediamark..."
+msgstr "Přidat _záložku"
+
+#: ../src/mainwin.c:781
+msgid "_File Info"
+msgstr "In_formace o souboru"
+
+#: ../src/mainwin.c:798
+msgid "About _Xfmedia"
+msgstr "O _Xfmedia"
+
+#: ../src/mainwin.c:811
+msgid "_Preferences"
+msgstr "_Nastavení"
+
+#: ../src/mainwin.c:821
+msgid "_Equalizer..."
+msgstr "_Ekvalizér..."
+
+#: ../src/mainwin.c:832
+msgid "_Jump to File..."
+msgstr "_Přejít na soubor..."
+
+#: ../src/mainwin.c:841
+msgid "Play_list Queue..."
+msgstr "Fronta seznamu médií..."
+
+#: ../src/mainwin.c:848
+msgid "_Mediamarks"
+msgstr "_Záložky médií"
+
+#: ../src/mainwin.c:858
+msgid "Re_order"
+msgstr "S_eřadit"
+
+#: ../src/mainwin.c:869
+msgid "Sort by _Title"
+msgstr "Seřadit podle názvů"
+
+#: ../src/mainwin.c:875
+msgid "Sort by _Filename"
+msgstr "Seřadit podle názvů souborů"
+
+#: ../src/mainwin.c:881
+msgid "_Randomize List"
+msgstr "Za_míchat seznam"
+
+#: ../src/mainwin.c:893
+msgid "_Shuffle"
+msgstr "Náhodné pořadí _médií"
+
+#: ../src/mainwin.c:901
+msgid "_Repeat"
+msgstr "Op_akovat"
+
+#: ../src/mainwin.c:909
+msgid "Repeat Single _Track"
+msgstr "Opakova_t jednu položku"
+
+#: ../src/mainwin.c:917
+msgid "Show Audio _Visualization"
+msgstr "Zobrazit vizualizaci zvuku"
+
+#: ../src/mainwin.c:1124
+#: ../src/mainwin.c:1733
+msgid "Playing"
+msgstr "Přehrává se"
+
+#: ../src/mainwin.c:1141
+msgid "P_revious Track"
+msgstr "_Předchozí stopa"
+
+#: ../src/mainwin.c:1150
+#: ../src/mainwin.c:1262
+msgid "_Play"
+msgstr "Přehrát"
+
+#: ../src/mainwin.c:1167
+#: ../src/mainwin.c:1283
+msgid "_Pause"
+msgstr "_Pozastavit"
+
+#: ../src/mainwin.c:1178
+msgid "_Stop"
+msgstr "Za_stavit"
+
+#: ../src/mainwin.c:1186
+msgid "_Next Track"
+msgstr "_Další stopa"
+
+#: ../src/mainwin.c:1754
+msgid "Paused"
+msgstr "Pozastaveno"
+
+#: ../src/mediamarks.c:125
+msgid "Mediamarks Save Error"
+msgstr "Chyba při ukládání záložek médií"
+
+#: ../src/mediamarks.c:127
+msgid "The mediamarks file failed to save."
+msgstr "Uložení souboru se záložkami médií se nezdařilo."
+
+#: ../src/mediamarks.c:128
+#: ../src/xfmedia-keybindings.c:683
+#: ../src/xfmedia-keybindings.c:696
+msgid "This could be because your disk is full, or you don't have permission to write to the configuration directory.  Any changes will be lost when you quit Xfmedia."
+msgstr "Toto může být způsobeno plně obsazeným diskem nebo nemáte oprávnění pro zápis do adresáře s nastavením. Všechny změny budou po ukončení Xfmedia ztraceny."
+
+#: ../src/mediamarks.c:625
+#: ../src/mediamarks.c:889
+msgid "Mediamarks"
+msgstr "Záložky médií"
+
+#: ../src/mediamarks.c:721
+msgid "Add Mediamark"
+msgstr "Přidat záložku"
+
+#: ../src/mediamarks.c:726
+msgid "_Add Mediamark"
+msgstr "Přid_at záložku"
+
+#: ../src/mediamarks.c:745
+#: ../src/mediamarks.c:1191
+msgid "_Name:"
+msgstr "_Název:"
+
+#: ../src/mediamarks.c:766
+#: ../src/mediamarks.c:1213
+msgid "_Location:"
+msgstr "_Umístění:"
+
+#: ../src/mediamarks.c:781
+#: ../src/mediamarks.c:987
+msgid "File _in:"
+msgstr "Soubor _v:"
+
+#: ../src/mediamarks.c:803
+msgid "New Folder"
+msgstr "Nová složka"
+
+#: ../src/mediamarks.c:808
+msgid "Add _Folder"
+msgstr "Při_dat složku"
+
+#: ../src/mediamarks.c:956
+msgid "Add Mediamark Folder"
+msgstr "Přidat složku záložek"
+
+#: ../src/mediamarks.c:962
+msgid "_Add Folder"
+msgstr "Přid_at složku"
+
+#: ../src/mediamarks.c:978
+msgid "_Folder Name:"
+msgstr "Název _složky:"
+
+#: ../src/mediamarks.c:1047
+msgid "Remove Mediamark"
+msgstr "Odebrat záložku"
+
+#: ../src/mediamarks.c:1048
+#: ../src/mediamarks.c:1053
+msgid "Are you sure?"
+msgstr "Jste si jisti?"
+
+#: ../src/mediamarks.c:1048
+msgid "You're about to remove a Mediamark, which can't be undone."
+msgstr "Chcete odebrat záložku médií, která nemůže být odstraněna."
+
+#: ../src/mediamarks.c:1052
+msgid "Remove Folder"
+msgstr "Odebrat složku"
+
+#: ../src/mediamarks.c:1054
+msgid "Removing a folder also removes all items and subfolders contained in it, and can't be undone."
+msgstr "Odebráním složky také odeberete všechny položky a podsložky v ní obsažené. Tuto akci nelze vrátit."
+
+#: ../src/mediamarks.c:1174
+msgid "Mediamark Properties"
+msgstr "Vlastnosti záložek médií"
+
+#: ../src/mediamarks.c:1174
+msgid "Folder Properties"
+msgstr "Vlastnosti složky"
+
+#: ../src/mediamarks.c:1593
+msgid "Manage Mediamarks"
+msgstr "Spravovat záložky médií"
+
+#: ../src/mediamarks.c:1615
+msgid "New Mediamark..."
+msgstr "Nová záložka..."
+
+#: ../src/mediamarks.c:1616
+msgid "Add a new mediamark"
+msgstr "Přidat novou záložku"
+
+#: ../src/mediamarks.c:1621
+msgid "Add Folder..."
+msgstr "Přidat složku..."
+
+#: ../src/mediamarks.c:1622
+msgid "Add a new folder"
+msgstr "Přidat složku"
+
+#: ../src/mediamarks.c:1627
+msgid "Remove Item"
+msgstr "Odebrat položku"
+
+#: ../src/mediamarks.c:1628
+msgid "Remove the selected item"
+msgstr "Odebrat vybranou položku"
+
+#: ../src/mediamarks.c:1635
+msgid "Move Item Up"
+msgstr "Přesunout položku výše"
+
+#: ../src/mediamarks.c:1636
+msgid "Move the selected item up"
+msgstr "Přesunout vybranou položku výše"
+
+#: ../src/mediamarks.c:1641
+msgid "Move Item Down"
+msgstr "Přesunout položku níže"
+
+#: ../src/mediamarks.c:1642
+msgid "Move the selected item down"
+msgstr "Přesunout vybranou položku níže"
+
+#: ../src/mediamarks.c:1649
+msgid "Refresh"
+msgstr "Aktualizovat"
+
+#: ../src/mediamarks.c:1650
+msgid "Refresh the list"
+msgstr "Aktualizovat seznam souborů"
+
+#: ../src/mediamarks.c:1655
+msgid "Properties..."
+msgstr "Vlastnosti..."
+
+#: ../src/mediamarks.c:1656
+msgid "Edit the selected item's properties"
+msgstr "Upravit vlastnosti vybrané položky"
+
+#: ../src/mediamarks.c:1686
+msgid "Name"
+msgstr "Název"
+
+#: ../src/mediamarks.c:1713
+msgid "Location"
+msgstr "Umístění"
+
+#: ../src/mediamarks.c:1806
+msgid "_Add Current Stream..."
+msgstr "Přid_at aktuální stream..."
+
+#: ../src/mediamarks.c:1815
+msgid "_Manage Mediamarks..."
+msgstr "Spravovat záložky _médií"
+
+#: ../src/playlist.c:536
+msgid "Save changes to this playlist before closing?"
+msgstr "Uložit změny v tomto seznamu médií před zavřením?"
+
+#: ../src/playlist.c:537
+msgid "You've changed this playlist since it was last saved."
+msgstr "Změnili jste seznam médií od posledního uložení."
+
+#: ../src/playlist.c:541
+msgid "Do_n't save"
+msgstr "_Neukládat"
+
+#: ../src/playlist.c:590
+#: ../src/xfmedia-keybindings.c:534
+msgid "Save Playlist"
+msgstr "Uložit seznam médií"
+
+#: ../src/playlist.c:600
+msgid "Autodetect type by extension"
+msgstr "Automaticky rozeznat typ souboru podle přípony"
+
+#: ../src/playlist.c:604
+msgid "Flat file"
+msgstr "Běžný soubor"
+
+#: ../src/playlist.c:676
+msgid "Open Playlist"
+msgstr "Otevřít seznam médií"
+
+#: ../src/playlist.c:1359
+msgid "#"
+msgstr "#"
+
+#: ../src/playlist.c:1373
+msgid "Title"
+msgstr "Titulek"
+
+#: ../src/playlist.c:1381
+msgid "Length"
+msgstr "Délka"
+
+#: ../src/playlist.c:1431
+msgid "Add entry to playlist"
+msgstr "Přidat položku do seznamu médií"
+
+#: ../src/playlist.c:1441
+msgid "Remove entry from playlist"
+msgstr "Odstranit položku ze seznamu médií"
+
+#: ../src/playlist.c:1451
+msgid "Move selected playlist entry up"
+msgstr "Posunou vybranou položku v seznamu médií nahoru"
+
+#: ../src/playlist.c:1461
+msgid "Move selected playlist entry down"
+msgstr "Posunou vybranou položku v seznamu médií dolů"
+
+#: ../src/playlist.c:1486
+msgid "Randomize play order"
+msgstr "Hrát v náhodném pořadí"
+
+#: ../src/playlist.c:1505
+msgid "Repeat after playlist finishes"
+msgstr "Opakovat po přehrání poslední položky v seznamu médií."
+
+#: ../src/playlist.c:1520
+msgid "Save current playlist"
+msgstr "Uložit současný seznam stop"
+
+#: ../src/playlist.c:1530
+msgid "Open a saved playlist"
+msgstr "Otevřít uložený seznam médií"
+
+#: ../src/playlist.c:1540
+msgid "Start a new playlist"
+msgstr "Otevřít nový seznam médií"
+
+#: ../src/playlist.c:1548
+msgid "_Remove Entry"
+msgstr "Odeb_rat položku"
+
+#: ../src/playlist.c:1557
+msgid "Move _Up"
+msgstr "Nahoru"
+
+#: ../src/playlist.c:1566
+msgid "Move _Down"
+msgstr "Dolů"
+
+#: ../src/remote.c:223
+#: ../src/remote.c:466
+msgid "(no title)"
+msgstr "(žádný titulek)"
+
+#: ../src/settings-dialog.c:145
+msgid "Optical Devices"
+msgstr "Optické mechaniky"
+
+#: ../src/settings-dialog.c:159
+msgid "CD A_udio Device:"
+msgstr "Zařízení pro přehrávání hudebních disků CD:"
+
+#: ../src/settings-dialog.c:181
+msgid "DVD Vide_o Device:"
+msgstr "Zařízení pro přehrávání filmových disků DVD:"
+
+#: ../src/settings-dialog.c:203
+msgid "Vid_eo CD Device:"
+msgstr "Zařízení pro přehrávání filmových disků CD:"
+
+#: ../src/settings-dialog.c:221
+msgid "Audio"
+msgstr "Zvuk"
+
+#: ../src/settings-dialog.c:233
+msgid "Dr_iver:"
+msgstr "Ovla_dač:"
+
+#: ../src/settings-dialog.c:243
+#: ../src/settings-dialog.c:312
+msgid "(no drivers)"
+msgstr "(žádné ovladače)"
+
+#: ../src/settings-dialog.c:267
+msgid "_Speaker Layout:"
+msgstr "_Rozmístění reproduktorů"
+
+#: ../src/settings-dialog.c:275
+msgid "(option unavailable)"
+msgstr "(volba není dostupná)"
+
+#: ../src/settings-dialog.c:290
+msgid "Video"
+msgstr "Video"
+
+#: ../src/settings-dialog.c:302
+msgid "D_river:"
+msgstr "_Ovladač:"
+
+#: ../src/settings-dialog.c:608
+msgid "Xfmedia Preferences"
+msgstr "Vlastnosti aplikace Xfmedia"
+
+#: ../src/settings-dialog.c:630
+msgid "Playlist"
+msgstr "Seznam médií"
+
+#: ../src/settings-dialog.c:643
+msgid "_Title Display:"
+msgstr "_Zobrazit titulek:"
+
+#: ../src/settings-dialog.c:653
+msgid ""
+"This is a printf-like format string controlling the display of the playlist.  Xfmedia will replace the following symbols:\n"
+"\t%p: Artist/Performer\n"
+"\t%t: Track Title\n"
+"\t%a: Album Name\n"
+"\t%T: Track Number\n"
+"\t%g: Genre\n"
+"\t%y: Year\n"
+"\t%f: Filename\n"
+"\t%%: a percent sign"
+msgstr ""
+"Toto je řetězec formátovaný podobně jako funkcí printf, který upravuje zobrazení v seznamu médií. Xfmedia nahradí následující řetězce znaků:\n"
+"\t%p: Autor/Interpret\n"
+"\t%t: Název stopy\n"
+"\t%a: Název alba\n"
+"\t%T: Číslo stopy\n"
+"\t%g: Žánr\n"
+"\t%y: Rok\n"
+"\t%f: Název souboru\n"
+"\t%%: znak procento"
+
+#: ../src/settings-dialog.c:667
+msgid "_Advance playlist when track ends"
+msgstr "_Pokračovat v seznamu médií po přehrání položky"
+
+#: ../src/settings-dialog.c:675
+msgid "When a track ends, Xfmedia can automatically advance to the next track in the playlist and continue playback."
+msgstr "Skončí-li přehrávání méda, Xfmedia automaticky začne přehrávat další položku ze seznamu médií."
+
+#: ../src/settings-dialog.c:677
+msgid "_Don't save playlist on exit for one-shot invocations"
+msgstr "_Neukládat seznam médií při ukončení po jednorázovém vyvolání"
+
+#: ../src/settings-dialog.c:685
+msgid "Only automatically save the playlist during interactive use; i.e., don't save the playlist when Xfmedia was invoked from the commandline with a short list of definite arguments.  This option needs to be named better."
+msgstr "Ukládat seznam médiíí automaticky pouze při interaktivním použití. Seznam nebude uložen například pokud je aplikace Xfmedia spuštěná z příkazového řádku s krátkým seznamem parametrů. Tato volba by měla být pojmenována vhodněji v dalších verzích."
+
+#: ../src/settings-dialog.c:691
+msgid "Load metadata:"
+msgstr "Načíst metadata"
+
+#: ../src/settings-dialog.c:695
+msgid "On _scroll"
+msgstr "Při po_sunu"
+
+#: ../src/settings-dialog.c:703
+msgid "Load file metadata for entries in the playlist when they are visible."
+msgstr "Načte metadata souborů v seznamu médií jen pokud jsou viditelné."
+
+#: ../src/settings-dialog.c:706
+msgid "On pla_y"
+msgstr "Při _přehrávání"
+
+#: ../src/settings-dialog.c:714
+msgid "Load file metadata for entries in the playlist only when playing them."
+msgstr "Načte metadata souboru v seznamu médií jen pokud jej přehrává."
+
+#: ../src/settings-dialog.c:717
+msgid "_Never"
+msgstr "_Nikdy"
+
+#: ../src/settings-dialog.c:725
+msgid "Never load file metadata for entries in the playlist."
+msgstr "Nikdy nenačítat metadata pro položky v seznamu médií."
+
+#: ../src/settings-dialog.c:727
+msgid "Window"
+msgstr "Okno"
+
+#: ../src/settings-dialog.c:736
+msgid "Show Xfmedia on all _workspaces"
+msgstr "_Zobrazit Xfmedia na všech plochách"
+
+#: ../src/settings-dialog.c:742
+msgid "Sets Xfmedia \"sticky\" such that it appears on all workspaces (virtual desktops)."
+msgstr "Nastaví oknu aplikace Xfmedia vlastnost \"Přilepit\", takže se objeví na všech plochách."
+
+#: ../src/settings-dialog.c:744
+msgid "Keep X_fmedia above other windows"
+msgstr "Přenést okno aplikace X_fmedia nad jiná okna"
+
+#: ../src/settings-dialog.c:751
+msgid "Sets the Xfmedia window to \"Always-on-Top\" status."
+msgstr "Nastaví oknu aplikace Xfmedia stav \"Vždy nahoře\"."
+
+#: ../src/settings-dialog.c:753
+msgid "Dock and auto-_hide Xfmedia at screen edges"
+msgstr "Automaticky skrývat okno aplikace Xfmedia na okrajích obrazovky"
+
+#: ../src/settings-dialog.c:760
+msgid "When the Xfmedia window is dragged to a screen edge, it will auto-hide itself and reappear when you move the mouse to the edge of the screen."
+msgstr "Přemístíte-li okno aplikace Xfmedia k okraji obrazovky, automaticky se skryje a znovu se zobrazí při přesunutí myši na okraj obrazovky."
+
+#: ../src/settings-dialog.c:762
+msgid "Tray Icon"
+msgstr "Ikona v systémové oblasti"
+
+#: ../src/settings-dialog.c:771
+msgid "Show _tray icon"
+msgstr "Zobrazi_t ikonu v systémové oblasti"
+
+#: ../src/settings-dialog.c:777
+msgid "Displays an Xfmedia icon in the system notification area."
+msgstr "Zobrazí ikonu Xfmedia v systémové neboli oznamovací oblasti."
+
+#: ../src/settings-dialog.c:779
+msgid "_Minimize Xfmedia to tray icon"
+msgstr "_Minimalizovat aplikaci Xfmedia do systémové oblasti"
+
+#: ../src/settings-dialog.c:787
+msgid "Minimizes Xfmedia to the tray icon rather than to the taskbar or iconbox."
+msgstr "Minimalizuje aplikaci Xfmedia jako ikonu do systémové oblasti namísto minimalizace do panelu úloh nebo ikon."
+
+#: ../src/settings-dialog.c:793
+msgid "On middle _click:"
+msgstr "Při _kliknutí prostředním tlačítkem"
+
+#: ../src/settings-dialog.c:796
+#: ../src/settings-dialog.c:810
+msgid "The tray icon can perform an action when middle-clicked.  Select the action in the dropdown box."
+msgstr "Ikona v systémové oblasti může provést vybranou činnost po kliknutí prostředním tlačítkem. Vyberte si ji z rolovací nabídky."
+
+#: ../src/settings-dialog.c:799
+msgid "Do nothing"
+msgstr "Nedělat nic"
+
+#: ../src/settings-dialog.c:800
+msgid "Toggle play/pause"
+msgstr "Přehrávat/pozastavit"
+
+#: ../src/settings-dialog.c:801
+msgid "Next track"
+msgstr "Přejít na následující stopu"
+
+#: ../src/settings-dialog.c:802
+msgid "Previous track"
+msgstr "Přejít na předchozí stopu"
+
+#: ../src/settings-dialog.c:815
+msgid "O_ptions"
+msgstr "_Možnosti"
+
+#: ../src/settings-dialog.c:826
+msgid "Selected Visualization"
+msgstr "Zvolená vizualizace"
+
+#: ../src/settings-dialog.c:854
+msgid "(none available)"
+msgstr "(žádný dostupný)"
+
+#: ../src/settings-dialog.c:865
+msgid "Visualization Options"
+msgstr "Možnosti vizualizace"
+
+#: ../src/settings-dialog.c:880
+msgid "_Audio Visualization"
+msgstr "_Vizualizace zvuku"
+
+#: ../src/settings-dialog.c:886
+msgid "_Devices"
+msgstr "_Zařízení"
+
+#: ../src/settings-dialog.c:892
+msgid "_Keybindings"
+msgstr "_Asociované klávesy"
+
+#: ../src/settings-dialog.c:900
+msgid "_Plugins"
+msgstr "_Zásuvné moduly"
+
+#: ../src/settings.c:242
+msgid "Settings Save Error"
+msgstr "Chyba při ukládání nastavení"
+
+#: ../src/settings.c:243
+msgid "The settings file failed to save."
+msgstr "Uložení souboru nastavení se nezdařilo."
+
+#: ../src/settings.c:244
+msgid "This could be because your disk is full, or you don't have permission to write to the configuration directory.  Any changes will be lost when you exit Xfmedia."
+msgstr "Toto může být způsobeno plně obsazeným diskem nebo nemáte oprávnění k zápisu do adresáře s nastavením. Všechny změny budou po ukončení programu Xfmedia ztraceny."
+
+#: ../src/xfmedia-common.c:422
+msgid "(UTF-8 conversion failed)"
+msgstr "(Konverze do znakové sady UTF-8 se nezdařila)"
+
+#: ../src/xfmedia-handle.c:141
+msgid "Handle Style"
+msgstr "Styl ovládacího prvku"
+
+#: ../src/xfmedia-handle.c:142
+msgid "This property defines the handle style of the XfmediaHandle widget."
+msgstr "Tato vlastnost určuje styl ovládacího prvku XfmediaHandle"
+
+#: ../src/xfmedia-handle.c:150
+msgid "Orientation"
+msgstr "Orientace"
+
+#: ../src/xfmedia-handle.c:151
+msgid "This property defines whether this is a horizontal or vertical handle."
+msgstr "Tato vlastnost určuje, zda bude ovládací prvek umístěn vodorovně nebo svisle."
+
+#: ../src/xfmedia-keybindings.c:510
+msgid "Play"
+msgstr "Přehrát"
+
+#: ../src/xfmedia-keybindings.c:511
+msgid "Pause"
+msgstr "Pozastavit"
+
+#: ../src/xfmedia-keybindings.c:512
+msgid "Stop"
+msgstr "Zastavit"
+
+#: ../src/xfmedia-keybindings.c:515
+msgid "Quit"
+msgstr "Ukončit"
+
+#: ../src/xfmedia-keybindings.c:516
+msgid "Toggle Fullscreen"
+msgstr "Zapnout/vypnout přehrávání přes celou obrazovku"
+
+#: ../src/xfmedia-keybindings.c:517
+msgid "Toggle Shuffle Play"
+msgstr "Zapnout/vypnout náhodné přehrávání"
+
+#: ../src/xfmedia-keybindings.c:518
+msgid "Toggle Repeat Play"
+msgstr "Zapnout/vypnout opakované přehrávání"
+
+#: ../src/xfmedia-keybindings.c:519
+msgid "Toggle Audio Visualization"
+msgstr "Zapnout/vypnout vizualizaci zvuku"
+
+#: ../src/xfmedia-keybindings.c:520
+msgid "Set Speed Faster"
+msgstr "Nastavit vyšší rychlost"
+
+#: ../src/xfmedia-keybindings.c:521
+msgid "Set Speed Slower"
+msgstr "Nastavit nižší rychlost"
+
+#: ../src/xfmedia-keybindings.c:522
+msgid "Forward 10 Seconds"
+msgstr "Vpřed o 10 vteřin"
+
+#: ../src/xfmedia-keybindings.c:523
+msgid "Forward 30 Seconds"
+msgstr "Vpřed o 30 vteřin"
+
+#: ../src/xfmedia-keybindings.c:524
+msgid "Forward 60 Seconds"
+msgstr "Vpřed o 60 vteřin"
+
+#: ../src/xfmedia-keybindings.c:525
+msgid "Backward 10 Seconds"
+msgstr "Zpět o 10 vteřin"
+
+#: ../src/xfmedia-keybindings.c:526
+msgid "Backward 30 Seconds"
+msgstr "Zpět o 30 vteřin"
+
+#: ../src/xfmedia-keybindings.c:527
+msgid "Backward 60 Seconds"
+msgstr "Zpět o 60 vteřin"
+
+#: ../src/xfmedia-keybindings.c:528
+msgid "Enqueue Track"
+msgstr "Zařadit stopu do fronty"
+
+#: ../src/xfmedia-keybindings.c:529
+msgid "Show Queued Tracks"
+msgstr "Zobrazit stopy ve frontě"
+
+#: ../src/xfmedia-keybindings.c:530
+msgid "Toggle Audio Mute"
+msgstr "Zapnout/vypnout zvuk"
+
+#: ../src/xfmedia-keybindings.c:531
+msgid "Add File to Playlist"
+msgstr "Přidat soubor do seznamu médií"
+
+#: ../src/xfmedia-keybindings.c:532
+msgid "Add URL to Playlist"
+msgstr "Přidat adresu URL do seznamu médií"
+
+#: ../src/xfmedia-keybindings.c:533
+msgid "Open Saved Playlist"
+msgstr "Otevřít uložený seznam médií"
+
+#: ../src/xfmedia-keybindings.c:535
+msgid "Clear Playlist"
+msgstr "Vyprázdnit seznam médií"
+
+#: ../src/xfmedia-keybindings.c:536
+msgid "A/V Sync Plus"
+msgstr "A/V synchronizace - přidat"
+
+#: ../src/xfmedia-keybindings.c:537
+msgid "A/V Sync Minus"
+msgstr "A/V synchronizace - ubrat"
+
+#: ../src/xfmedia-keybindings.c:538
+msgid "Select Aspect Ratio"
+msgstr "Zvolit poměr stran"
+
+#: ../src/xfmedia-keybindings.c:539
+msgid "Jump to File"
+msgstr "Přejít na soubor"
+
+#: ../src/xfmedia-keybindings.c:540
+msgid "Video Zoom In"
+msgstr "Přiblížit video"
+
+#: ../src/xfmedia-keybindings.c:541
+msgid "Video Zoom Out"
+msgstr "Oddálit video"
+
+#: ../src/xfmedia-keybindings.c:542
+msgid "Video Window Larger"
+msgstr "Zvětšit velikost okna pro přehrávání videa"
+
+#: ../src/xfmedia-keybindings.c:543
+msgid "Video Window Smaller"
+msgstr "Zmenšit velikost okna pro přehrávání videa"
+
+#: ../src/xfmedia-keybindings.c:544
+msgid "Volume Up"
+msgstr "Zvýšení hlasitosti"
+
+#: ../src/xfmedia-keybindings.c:545
+msgid "Volume Down"
+msgstr "Snížení hlasitosti"
+
+#: ../src/xfmedia-keybindings.c:546
+msgid "Audio Track Next"
+msgstr "Následující zvuková stopa"
+
+#: ../src/xfmedia-keybindings.c:547
+msgid "Audio Track Previous"
+msgstr "Předchozí zvuková stopa"
+
+#: ../src/xfmedia-keybindings.c:548
+msgid "Subtitle Track Next"
+msgstr "Následující stopa s titulky"
+
+#: ../src/xfmedia-keybindings.c:549
+msgid "Subtitle Track Previous"
+msgstr "Předchozí stopa s titulky"
+
+#: ../src/xfmedia-keybindings.c:635
+msgid "Set Keybinding"
+msgstr "Nastavit klávesové zkratky"
+
+#: ../src/xfmedia-keybindings.c:638
+msgid "_Clear"
+msgstr "_Vyčistit"
+
+#: ../src/xfmedia-keybindings.c:647
+msgid "Set shortcut for:"
+msgstr "Nastavit klávesovou zkratku pro:"
+
+#: ../src/xfmedia-keybindings.c:665
+msgid "Keybinding Error"
+msgstr "Chyba při nastavování klávesové zkratky"
+
+#: ../src/xfmedia-keybindings.c:666
+msgid "Keybinding already in use."
+msgstr "Klávesová zkratka klávesa je již použitá."
+
+#: ../src/xfmedia-keybindings.c:667
+msgid "The key sequence you selected is already in use by another function.  Please set the other function to something else."
+msgstr "Tuto klávesovou zkratku již využívá některá jiná funkce. Změňte nastavení této funkce na jinou klávesovou zkratku."
+
+#: ../src/xfmedia-keybindings.c:680
+#: ../src/xfmedia-keybindings.c:693
+msgid "Keybindings Save Error"
+msgstr "Chyba při ukládání definic klávesových zkratek."
+
+#: ../src/xfmedia-keybindings.c:682
+#: ../src/xfmedia-keybindings.c:695
+msgid "The keybindings file failed to save."
+msgstr "Nepodařilo se uložit soubor s definicí klávesových zkratek."
+
+#: ../src/xfmedia-keybindings.c:691
+msgid "None"
+msgstr "Žádné"
+
+#: ../src/xfmedia-keybindings.c:808
+msgid "Function"
+msgstr "Funkce"
+
+#: ../src/xfmedia-keybindings.c:813
+msgid "Keys"
+msgstr "Klávesy"
+
+#: ../src/xfmedia-remote.c:103
+#, c-format
+msgid ""
+"Usage: %s [options]\n"
+"\n"
+msgstr ""
+"Použití: %s [volby]\n"
+"\n"
+
+#: ../src/xfmedia-remote.c:106
+msgid ""
+"    --session=N          Specify the number of the already-running instance of\n"
+"                         Xfmedia.  (Defaults to 0, or the first instance found.)\n"
+msgstr ""
+"    --session=N          Zadává číslo již běžící instance Xfmedia.\n"
+"                         (Výchozí je 0 nebo první nalezená instance.)\n"
+
+#: ../src/xfmedia-remote.c:108
+msgid "    --ping               Checks to see if an instance of Xfmedia is running.\n"
+msgstr "    --ping               Ověří, zda běží instance aplikace Xfmedia.\n"
+
+#: ../src/xfmedia-remote.c:109
+msgid ""
+"    -p, --play[=N]       Causes Xfmedia to play the file at playlist idx N.\n"
+"                         If N is not specified, Xfmedia will play the currently-\n"
+"                         selected entry, or, if no item is selected, the first\n"
+"                         entry.  If used in conjunction with --playlist-add,\n"
+"                         will cause Xfmedia to play the newly-added entry.\n"
+msgstr ""
+"    -p, --play[=N]       Xfmedia začne přehrávat soubor ze seznamu médií\n"
+"                         na pozici N. Pokud N není zadáno, Xfmedia přehraje aktuálně\n"
+"                         vybranou položku nebo první položku, pokud není žádná\n"
+"                         položka vybrána. Použije-li se ve spojení s volbou\n"
+"                         --playlist-add, začne Xfmedia přehrávat nejnovější\n"
+"                         položku\n"
+
+#: ../src/xfmedia-remote.c:114
+msgid ""
+"    --toggle             Causes Xfmedia to pause if playing, or play if paused\n"
+"                         or stopped.\n"
+msgstr ""
+"    --toggle             Pokud Xfmedia přehrává, stopa bude pozastavena. Pokud\n"
+"                         je pozastavena nebo zastavena, spustí přehrávání\n"
+
+#: ../src/xfmedia-remote.c:116
+msgid "    --pause              Causes Xfmedia to pause/unpause.\n"
+msgstr "    --pause              Pozastavení/pokračování přehrávání.\n"
+
+#: ../src/xfmedia-remote.c:117
+msgid "    --stop               Causes Xfmedia to stop playback.\n"
+msgstr "    --stop               Zastavení přehrávání.\n"
+
+#: ../src/xfmedia-remote.c:118
+msgid ""
+"    --previous           Causes Xfmedia to play the entry played before the\n"
+"                         currently-selected (or -playing) entry.\n"
+msgstr ""
+"    --previous           Přejde na soubor, nacházející se před právě\n"
+"                         zvolenou nebo přehrávanou položkou.\n"
+
+#: ../src/xfmedia-remote.c:120
+msgid ""
+"    --next               Causes Xfmedia to play the next entry in the playlist.\n"
+"                         If Xfmedia is in shuffle mode, a new entry will be\n"
+"                         selected randomly.\n"
+msgstr ""
+"    --next               Přejde na další soubor v seznamu médií.\n"
+"                         Pokud je zapnut mód náhodného pořadí médií, zvolí\n"
+"                         Xfmedia náhodnou položku.\n"
+
+#: ../src/xfmedia-remote.c:123
+msgid ""
+"    -a, --playlist-add=FILE\n"
+"                         Adds FILE to the end of the playlist.\n"
+msgstr ""
+"    -a, --playlist-add=SOUBOR\n"
+"                         Přidá SOUBOR na konec seznamu médií.\n"
+
+#: ../src/xfmedia-remote.c:125
+msgid ""
+"    -r, --playlist-remove=N\n"
+"                         Removes the specified playlist entry from the playlist.\n"
+msgstr ""
+"    -r, --playlist-remove=N\n"
+"                         Odebere vybranou položku ze seznamu médií.\n"
+
+#: ../src/xfmedia-remote.c:127
+msgid ""
+"    -c, --playlist-clear\n"
+"                         Removes all entries from the playlist.\n"
+msgstr ""
+"    -c, --playlist-clear\n"
+"                         Odebere ze seznamu médií všechny položky.\n"
+
+#: ../src/xfmedia-remote.c:129
+msgid ""
+"    -l, --playlist-load=FILE\n"
+"                         Loads the specified playlist.  Note that this does NOT\n"
+"                         first clear the playlist.\n"
+msgstr ""
+"    -l, --playlist-load=FILE\n"
+"                         Načte zadaný seznam médií. Tato volba nesmaže původní\n"
+"                         seznam médií.\n"
+
+#: ../src/xfmedia-remote.c:132
+msgid ""
+"    -s, --playlist-save=FILE\n"
+"                         Saves the current playlist to the specified FILE.\n"
+msgstr ""
+"    -s, --playlist-save=SOUBOR\n"
+"                         Uloží aktuální seznam médií do zadaného SOUBORu.\n"
+
+#: ../src/xfmedia-remote.c:134
+msgid "    -Q, --quit           Instructs Xfmedia to quit.\n"
+msgstr "    -Q, --quit           Ukončí aplikaci Xfmedia.\n"
+
+#: ../src/xfmedia-remote.c:135
+msgid ""
+"    -j, --jump-to-file   Causes Xfmedia to show the main window (if not visible)\n"
+"                         and show the jump-to-file entry box.\n"
+msgstr ""
+"    -j, --jump-to-file   Zobrazí hlavní okno aplikace Xfmedia a zobrazí okno přejít\n"
+"                         na soubor.\n"
+
+#: ../src/xfmedia-remote.c:180
+msgid "Argument to --session must be greater than or equal to 0.\n"
+msgstr "Parametr přepínače --session musí být větší nebo roven nule.\n"
+
+#: ../src/xfmedia-remote.c:195
+msgid "Argument to --play must be greater than or equal to 0.\n"
+msgstr "Parametr přepínače --play musí být větší nebo roven nule.\n"
+
+#: ../src/xfmedia-remote.c:239
+msgid "Argument to --playlist-remove must be greater than or equal to 0.\n"
+msgstr "Parametr přepínače --playlist-remove musí být větší nebo roven nule.\n"
+
+#: ../src/xfmedia-remote.c:276
+#, c-format
+msgid "Unrecognized option: %s\n"
+msgstr "Neznámá volba: %s\n"
+
+#: ../src/xfmedia-remote.c:289
+msgid "Unable to initialize the Xfmedia remote client service.  The most likely cause is that a DBUS session bus is not running"
+msgstr "Nelze inicializovat službu vzdáleného klienta Xfmedia. Tento problém je obvykle způsobem nespuštěnou službou DBUS."
+
+#: ../src/xfmedia-remote.c:301
+msgid "Unable to find a running Xfmedia instance."
+msgstr "Nelze najít běžící instanci Xfmedia."
+
+#: ../src/xfmedia-video-window.c:188
+msgid "Xfmedia Video"
+msgstr "Video Xfmedia"
+
+#: ../xfmedia/getopt.c:686
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: volba `%s' není jednoznačná\n"
+
+#: ../xfmedia/getopt.c:711
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: volba `--%s' musí být zadána bez argumentů\n"
+
+#: ../xfmedia/getopt.c:716
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: volba `%c%s' musí být zadána bez argumentů\n"
+
+#: ../xfmedia/getopt.c:734
+#: ../xfmedia/getopt.c:907
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: volba `%s' vyžaduje parametr\n"
+
+#. --option
+#: ../xfmedia/getopt.c:763
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: neznámá volba `--%s'\n"
+
+#. +option or -option
+#: ../xfmedia/getopt.c:767
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: neznámá volba `%c%s'\n"
+
+#. 1003.2 specifies the format of this message.
+#: ../xfmedia/getopt.c:793
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: nedovolená volba -- %c\n"
+
+#: ../xfmedia/getopt.c:796
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: neplatná volba -- %c\n"
+
+#. 1003.2 specifies the format of this message.
+#: ../xfmedia/getopt.c:826
+#: ../xfmedia/getopt.c:956
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: volba vyžaduje argument -- %c\n"
+
+#: ../xfmedia/getopt.c:873
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: volba `-W %s' není jednoznačná\n"
+
+#: ../xfmedia/getopt.c:891
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: volba `-W %s' musí být zadána bez parametrů\n"
+
+#: ../xfmedia/remote-client.c:607
+#: ../xfmedia/remote-client.c:614
+#: ../xfmedia/remote-client.c:621
+msgid "Xfmedia was not compiled with D-BUS support.  Remote control interface is not available."
+msgstr "Aplikace Xfmedia nebyla zkompilována s podporou D-BUS. Rozhraní pro dálkové ovládání je nedostupné."
+
+#: ../xfmedia.desktop.in.h:1
+msgid "Enqueue and play with Xfmedia"
+msgstr "Zařadit a přehrát pomocí Xfmedia"
+
+#: ../xfmedia.desktop.in.h:2
+msgid "Enqueue in Xfmedia"
+msgstr "Zařadit do Xfmedia"
+
+#: ../xfmedia.desktop.in.h:3
+msgid "Lightweight Media Player"
+msgstr "Odlehčený přehrávač médií"
+
+#: ../xfmedia.desktop.in.h:4
+msgid "Xfmedia"
+msgstr "Xfmedia"
+

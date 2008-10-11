@@ -1,0 +1,1581 @@
+# French translation of the xfmedia package.
+# Copyright (C) 2004-2007 Brian J. Tarricone.
+# This file is distributed under the same license as the xfmedia package.
+# Collet Etienne <xanax@no-log.org>, 2005.
+# Stephane Roy <sroy@j2n.net>, 2005.
+# lerouge <lerouge@gmail.com>, 2005.
+# Gérald Barré <g.barre@free.fr>, 2006.
+# Maximilian Schleiss <maximilian@xfce.org>, 2006-2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfmedia 0.10.0svn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-06-16 22:22+0900\n"
+"PO-Revision-Date: 2007-02-07 16:15+0100\n"
+"Last-Translator: Maximilian Schleiss <maximilian@xfce.org>\n"
+"Language-Team: French <xfce-i18n@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:102
+#, c-format
+msgid "Status:                  %s\n"
+msgstr "Statut :                          %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:106
+#, c-format
+msgid "Now Playing:             %s\n"
+msgstr "Actuellement joué :               %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:111
+#, c-format
+msgid "Filename:                %s\n"
+msgstr "Nom du fichier :                  %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:112
+#: ../plugins/infopipe/xfmedia-infopipe.c:127
+#: ../plugins/infopipe/xfmedia-infopipe.c:138
+msgid "(none)"
+msgstr "(vide)"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:115
+#, c-format
+msgid "Track Position:          %d\n"
+msgstr "Durée lue :                       %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:119
+#, c-format
+msgid "Track Length:            %d\n"
+msgstr "Durée de la piste :               %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:126
+#, c-format
+msgid ""
+"Audio Codec:             %s\n"
+"Audio Bitrate:           %d\n"
+"Audio Sample Rate:       %d\n"
+"Audio Channels:          %d\n"
+"Audio Bits Per Sample:   %d\n"
+msgstr ""
+"Codec audio :                     %s\n"
+"Débit audio :                   %d\n"
+"Taux d'échantillonage audio :  %d\n"
+"Canaux audio :                   %d\n"
+"Résolution  d'échantillonage audio : %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:137
+#, c-format
+msgid ""
+"Video Codec:            %s\n"
+"Video Bitrate:          %d\n"
+"Video Frames Per Second: %.02f\n"
+"Video Frame Size:        %dx%d\n"
+"Video Aspect Ratio:      %.02f\n"
+msgstr ""
+"Codec vidéo :                     %s\n"
+"Débit vidéo :                   %d\n"
+"Images par seconde :           %.02f\n"
+"Résolution vidéo :                %dx%d\n"
+"Ratio vidéo :                     %.02f\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:144
+#, c-format
+msgid "Playlist Length:         %d\n"
+msgstr "Nombre d'entrées dans la liste :  %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:148
+#, c-format
+msgid "Current Playlist Index:  %d\n"
+msgstr "Position actuelle dans la liste : %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:234
+#, c-format
+msgid "Xfmedia-Infopipe: Unable to delete file '%s'."
+msgstr "Xfmedia-Infopipe : impossible d'effacer le fichier '%s'."
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:245
+#, c-format
+msgid "Xfmedia-Infopipe: Unable to create pipe '%s'."
+msgstr "Xfmedia-Infopipe : impossible de créer le tube '%s'."
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:262
+msgid "Xfmedia Infopipe"
+msgstr "Xfmedia Infopipe"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:264
+msgid "The Infopipe plugin creates a pipe in /tmp that you can use to retrieve information about the currently playing track."
+msgstr "Le greffon Infopipe crée un tube dans /tmp qui peut être utilisé pour récupérer des informations sur la piste jouée."
+
+#: ../src/equaliser.c:132
+msgid "Equalizer"
+msgstr "Égaliseur"
+
+#: ../src/equaliser.c:175
+msgid "Preamp"
+msgstr "Preampli"
+
+#: ../src/http.c:95
+#, c-format
+msgid "http: failed to open socket: %s\n"
+msgstr "http: échec à l'ouverture du socket:%s\n"
+
+#: ../src/http.c:105
+#, c-format
+msgid "http: cannot connect to host\n"
+msgstr "http: ne peut se connecter à l'hôte\n"
+
+#: ../src/http.c:121
+#, c-format
+msgid "http: unable to resolve '%s'\n"
+msgstr "http: ne peut pas résoudre '%s'\n"
+
+#: ../src/http.c:133
+#, c-format
+msgid "http: unable to connect to '%s'\n"
+msgstr "http: ne peut pas se connecter à '%s'\n"
+
+#: ../src/http.c:311
+#: ../src/http.c:330
+msgid "URL parse error"
+msgstr "Erreur d'analyse de l'URL"
+
+#: ../src/http.c:322
+#: ../src/http.c:340
+msgid "proxy authentication error"
+msgstr "Erreur d'authentification au proxy"
+
+#: ../src/http.c:360
+msgid "host connect error"
+msgstr "Erreur de connection à l'hôte"
+
+#: ../src/http.c:399
+msgid "couldn't send request"
+msgstr "N'a pu envoyer une requête"
+
+#: ../src/http.c:420
+msgid "read error"
+msgstr "Erreur de lecture"
+
+#: ../src/http.c:446
+msgid "invalid HTTP response"
+msgstr "Réponse HTTP invalide"
+
+#: ../src/http.c:454
+msgid "HTTP 3xx redirection not implemented"
+msgstr "Redirection HTTP 3xx non implémentée"
+
+#: ../src/http.c:461
+msgid "HTTP status is not 2xx"
+msgstr "Le statut HTTP n'est pas 2xx"
+
+#: ../src/http.c:480
+msgid "HTTP 'Location:' redirection not implemented"
+msgstr "HTTP 'Location:' redirection non implémentée"
+
+#. FIXME: report errno, and possibly in a window
+#: ../src/http.c:534
+#, c-format
+msgid "http: read error\n"
+msgstr "http: erreur de lecture\n"
+
+#: ../src/main.c:227
+#: ../src/xfmedia-remote.c:102
+#, c-format
+msgid ""
+"Xfmedia %s.  Released under the terms of the GNU GPL.  See the COPYING\n"
+"file for details.\n"
+"\n"
+msgstr ""
+"Xfmedia %s.  Diffusé sous les termes de la GNU GPL.  Voir le fichier\n"
+"COPYING pour les détails.\n"
+"\n"
+
+#: ../src/main.c:228
+#, c-format
+msgid ""
+"Usage: %s [options] [files]\n"
+"\n"
+msgstr ""
+"Usage : %s [options] [fichiers]\n"
+"\n"
+
+#: ../src/main.c:229
+#: ../src/xfmedia-remote.c:104
+msgid "    -h, --help           Print this help message and exit.\n"
+msgstr "    -h, --help           Affiche ce message d'aide et quitte.\n"
+
+#: ../src/main.c:230
+#: ../src/xfmedia-remote.c:105
+msgid "    -V, --version        Print version information and exit.\n"
+msgstr "    -V, --version        Affiche les informations de version et quitte.\n"
+
+#: ../src/main.c:231
+msgid "    -v, --verbose        Instruct xine to print useful status information.\n"
+msgstr "    -v, --verbose        Indique à xine d'afficher des informations de statut pertinentes.\n"
+
+#: ../src/main.c:232
+msgid "    --debug              Instruct xine to print detailed debug information.\n"
+msgstr "    --debug              Indique à xine d'afficher des informations détaillées de débugage.\n"
+
+#: ../src/main.c:233
+msgid "    -f, --fullscreen     Start xfmedia's video window in fullscreen mode.\n"
+msgstr "    -f, --fullscreen     Démarre la fenêtre vidéo de Xfmedia en mode plein écran.\n"
+
+#: ../src/main.c:234
+msgid ""
+"    -p, --autoplay       Start playing when Xfmedia starts.  (This is the\n"
+"                         default if xfmedia is given filenames on the command\n"
+"                         line.)\n"
+msgstr ""
+"    -p, --autoplay       Lance la lecture au démarrage de Xfmedia.  (C'est\n"
+"                         le comportement par défaut si un nom de fichier est\n"
+"                         passé sur la ligne de commande.)\n"
+
+#: ../src/main.c:237
+msgid "    -c, --clear-playlist Start xfmedia with an empty playlist.\n"
+msgstr "    -c, --clear-playlist Lance Xfmedia avec une liste de lecture vide.\n"
+
+#: ../src/main.c:238
+msgid "    --audio-out=DRIVER   Specify the audio output driver to use.\n"
+msgstr "    --audio-out=PILOTE   Spécifie le pilote de sortie audio à utiliser.\n"
+
+#: ../src/main.c:239
+msgid "    --video-out=DRIVER   Specify the video output driver to use.\n"
+msgstr "    --video-out=PILOTE   Spécifie le pilote de sortie vidéo à utiliser.\n"
+
+#: ../src/main.c:240
+msgid ""
+"    --vwin-geometry=WxH[+X+Y]\n"
+"                         Specify a fixed size and/or position for xfmedia's\n"
+"                         video window.\n"
+msgstr ""
+"    --vwin-geometry=WxH[+X+Y]\n"
+"                         Spécifie une taille et/ou position fixe pour la fenêtre                         vidéo de xfmedia.\n"
+
+#: ../src/main.c:315
+#: ../src/xfmedia-remote.c:167
+#, c-format
+msgid "Xfmedia version %s, Copyright (c) Brian Tarricone, <bjt23@cornell.edu>\n"
+msgstr "Xfmedia version %s, Copyright (c) Brian Tarricone, <bjt23@cornell.edu>\n"
+
+#: ../src/main.c:316
+#: ../src/xfmedia-remote.c:168
+msgid "Released under the terms of the GNU General Public License.\n"
+msgstr "Distribué sous les termes de la Licence Publique Générale GNU.\n"
+
+#: ../src/main.c:317
+#, c-format
+msgid "Compiled against xine-lib %s, using xine-lib %s.\n"
+msgstr "Compilé avec xine-lib %s, utilise xine-lib %s.\n"
+
+#: ../src/main.c:319
+#, c-format
+msgid "Compiled against Xfce %d.%d.%d, using Xfce %s.\n"
+msgstr "Compilé avec Xfce %d.%d.%d, utilise Xfce %s.\n"
+
+#: ../src/main.c:354
+msgid "The option --audio-out requires an argument.\n"
+msgstr "L'options --audio-out demande un argument.\n"
+
+#: ../src/main.c:363
+msgid "The option --video-out requires an argument.\n"
+msgstr "L'option --video-out demande un argument.\n"
+
+#: ../src/mainwin-callbacks.c:130
+msgid "Unable to play file."
+msgstr "Impossible de lire le fichier."
+
+#: ../src/mainwin-callbacks.c:131
+msgid "Xfmedia was unable to play the selected file.  Be sure that the file exists and that you have permission to access it."
+msgstr "Xfmedia n'a pas pu lire le fichier sélectionné. Assurez vous que ce fichier existe et que vous avez les droits nécessaires pour y accéder."
+
+#: ../src/mainwin-callbacks.c:222
+msgid "Metadata Changed"
+msgstr "Métadonnées changées"
+
+#: ../src/mainwin-callbacks.c:224
+msgid "You have edited this file's metadata."
+msgstr "Vous avez édité les métadonnées de ce fichier"
+
+#: ../src/mainwin-callbacks.c:225
+msgid "Changes will be lost unless they are saved.  Do you wish to save changes?"
+msgstr "Les changements seront perdus sauf s'ils sont sauvegardés.  Désirez-vous les sauvegarder ?"
+
+#: ../src/mainwin-callbacks.c:226
+msgid "_Discard Changes"
+msgstr "_Annuler les changements"
+
+#: ../src/mainwin-callbacks.c:227
+msgid "_Save Changes"
+msgstr "_Sauver les changements"
+
+#: ../src/mainwin-callbacks.c:285
+#, c-format
+msgid "Xfmedia was unable to open '%s'.  Be sure that the file exists and that you have permission to access it."
+msgstr "Xfmedia n'a pu ouvrir '%s'. Assurez vous que ce fichier existe et que vous avez les droits nécessaire pour y accéder."
+
+#: ../src/mainwin-callbacks.c:287
+msgid "Unable to open file."
+msgstr "Impossible d'ouvrir le fichier."
+
+#: ../src/mainwin-callbacks.c:308
+msgid "File Info"
+msgstr "Informations sur le fichier"
+
+#: ../src/mainwin-callbacks.c:323
+msgid "Filename"
+msgstr "Nom du fichier"
+
+#: ../src/mainwin-callbacks.c:336
+msgid "Media Info"
+msgstr "Informations média"
+
+#: ../src/mainwin-callbacks.c:348
+msgid "Title:"
+msgstr "Titre :"
+
+#: ../src/mainwin-callbacks.c:375
+msgid "Artist:"
+msgstr "Artiste :"
+
+#: ../src/mainwin-callbacks.c:402
+msgid "Album:"
+msgstr "Album :"
+
+#: ../src/mainwin-callbacks.c:429
+msgid "Genre:"
+msgstr "Genre :"
+
+#: ../src/mainwin-callbacks.c:452
+msgid "Track:"
+msgstr "Piste :"
+
+#: ../src/mainwin-callbacks.c:477
+msgid "Year:"
+msgstr "Année :"
+
+#: ../src/mainwin-callbacks.c:504
+msgid "Comment:"
+msgstr "Commentaire :"
+
+#: ../src/mainwin-callbacks.c:535
+msgid "Length:"
+msgstr "Durée :"
+
+#: ../src/mainwin-callbacks.c:552
+msgid "File size (b):"
+msgstr "Taille du fichier (o) :"
+
+#: ../src/mainwin-callbacks.c:569
+msgid "Audio Info"
+msgstr "Informations audio"
+
+#: ../src/mainwin-callbacks.c:581
+#: ../src/mainwin-callbacks.c:675
+msgid "Codec:"
+msgstr "Codec :"
+
+#: ../src/mainwin-callbacks.c:596
+msgid "Samples/sec:"
+msgstr "Taux d'échantillonnage"
+
+#: ../src/mainwin-callbacks.c:615
+msgid "Bits/sample:"
+msgstr "Résolution échantillon.(Bits) :"
+
+#: ../src/mainwin-callbacks.c:631
+#: ../src/mainwin-callbacks.c:732
+msgid "Channels:"
+msgstr "Canaux :"
+
+#: ../src/mainwin-callbacks.c:646
+#: ../src/mainwin-callbacks.c:746
+msgid "Bitrate (kbit):"
+msgstr "Débit (kbit) :"
+
+#: ../src/mainwin-callbacks.c:663
+msgid "Video Info"
+msgstr "Informations vidéo"
+
+#: ../src/mainwin-callbacks.c:690
+msgid "FourCC:"
+msgstr "FourCC :"
+
+#: ../src/mainwin-callbacks.c:714
+msgid "Frame size:"
+msgstr "Résolution :"
+
+#: ../src/mainwin-callbacks.c:895
+msgid "Add URL"
+msgstr "Ajouter une URL"
+
+#: ../src/mainwin-callbacks.c:912
+msgid "_URL:"
+msgstr "_URL :"
+
+#: ../src/mainwin-callbacks.c:937
+msgid "Sort by filename"
+msgstr "Trier par nom de fichier"
+
+#: ../src/mainwin-callbacks.c:938
+msgid "Sort by title"
+msgstr "Trier par titre"
+
+#: ../src/mainwin-callbacks.c:939
+msgid "Sort by artist, title"
+msgstr "Trier par artiste, titre"
+
+#: ../src/mainwin-callbacks.c:940
+msgid "Sort by artist, album, track number"
+msgstr "Trier par artiste, album, numéro de piste"
+
+#: ../src/mainwin-callbacks.c:1241
+msgid "Add Directory"
+msgstr "Ajouter un répertoire"
+
+#: ../src/mainwin-callbacks.c:1329
+msgid "Add Media File"
+msgstr "Ajouter un fichier"
+
+#: ../src/mainwin-callbacks.c:1331
+msgid "Add _Selected"
+msgstr "Ajouter la _sélection"
+
+#: ../src/mainwin-callbacks.c:1335
+msgid "A_dd and Close"
+msgstr "A_jouter et fermer"
+
+#: ../src/mainwin-callbacks.c:1349
+#: ../src/playlist.c:686
+msgid "All Files"
+msgstr "Tous les fichiers"
+
+#: ../src/mainwin-callbacks.c:1353
+msgid "Music Files"
+msgstr "Fichiers musicaux"
+
+#: ../src/mainwin-callbacks.c:1367
+#: ../src/playlist.c:690
+msgid "Playlists"
+msgstr "Listes de lecture"
+
+#: ../src/mainwin-callbacks.c:1373
+msgid "Video Files"
+msgstr "Fichiers vidéos"
+
+#: ../src/mainwin-callbacks.c:1949
+msgid "Translator"
+msgstr "Traducteur"
+
+#: ../src/mainwin-callbacks.c:1962
+msgid ""
+"Xfmedia is a lightweight media player,\n"
+"based on the xine engine"
+msgstr ""
+"Xfmedia est un lecteur média léger,\n"
+"basé sur le moteur de Xine"
+
+#: ../src/mainwin-callbacks.c:1967
+msgid "Original Author/Maintainer"
+msgstr "Auteur / Mainteneur originel"
+
+#: ../src/mainwin-callbacks.c:2080
+#: ../src/mainwin.c:1843
+msgid "Stopped"
+msgstr "Arrêté"
+
+#: ../src/mainwin.c:383
+msgid "_Other"
+msgstr "_Autre"
+
+#: ../src/mainwin.c:429
+msgid "_URL..."
+msgstr "_URL..."
+
+#: ../src/mainwin.c:438
+msgid "_Directory..."
+msgstr "_Répertoire..."
+
+#: ../src/mainwin.c:447
+msgid "_File..."
+msgstr "_Fichier..."
+
+#: ../src/mainwin.c:633
+msgid "Volume"
+msgstr "Volume"
+
+#: ../src/mainwin.c:658
+#: ../src/xfmedia-keybindings.c:513
+msgid "Previous Track"
+msgstr "Piste précédente"
+
+#: ../src/mainwin.c:670
+msgid "Play/Pause Track"
+msgstr "Lire / Mettre en pause"
+
+#: ../src/mainwin.c:686
+msgid "Stop Playback"
+msgstr "Stopper la lecture"
+
+#: ../src/mainwin.c:697
+#: ../src/xfmedia-keybindings.c:514
+msgid "Next Track"
+msgstr "Piste suivante"
+
+#: ../src/mainwin.c:705
+msgid "_Playlist"
+msgstr "_Liste de lecture"
+
+#: ../src/mainwin.c:759
+msgid "_Enqueue"
+msgstr "Mettre la piste _en queue"
+
+#: ../src/mainwin.c:768
+msgid "Add _Mediamark..."
+msgstr "Marquer ce média en _favori..."
+
+#: ../src/mainwin.c:781
+msgid "_File Info"
+msgstr "Infos du _fichier"
+
+#: ../src/mainwin.c:798
+msgid "About _Xfmedia"
+msgstr "À propos de _Xfmedia"
+
+#: ../src/mainwin.c:811
+msgid "_Preferences"
+msgstr "_Préférences"
+
+#: ../src/mainwin.c:821
+msgid "_Equalizer..."
+msgstr "_Égaliseur..."
+
+#: ../src/mainwin.c:832
+msgid "_Jump to File..."
+msgstr "_Sauter au fichier..."
+
+#: ../src/mainwin.c:841
+msgid "Play_list Queue..."
+msgstr "Queue de _liste de lecture..."
+
+#: ../src/mainwin.c:848
+msgid "_Mediamarks"
+msgstr "_Favori média"
+
+#: ../src/mainwin.c:858
+msgid "Re_order"
+msgstr "Ré_ordonner"
+
+#: ../src/mainwin.c:869
+msgid "Sort by _Title"
+msgstr "Trier par _Titre"
+
+#: ../src/mainwin.c:875
+msgid "Sort by _Filename"
+msgstr "Trier par nom de _Fichier"
+
+#: ../src/mainwin.c:881
+msgid "_Randomize List"
+msgstr "_Liste aléatoire"
+
+#: ../src/mainwin.c:893
+msgid "_Shuffle"
+msgstr "_Mélanger"
+
+#: ../src/mainwin.c:901
+msgid "_Repeat"
+msgstr "_Répéter"
+
+#: ../src/mainwin.c:909
+msgid "Repeat Single _Track"
+msgstr "Répéter la pis_te"
+
+#: ../src/mainwin.c:917
+msgid "Show Audio _Visualization"
+msgstr "Montrer la _visualisation audio"
+
+#: ../src/mainwin.c:1124
+#: ../src/mainwin.c:1733
+msgid "Playing"
+msgstr "En lecture"
+
+#: ../src/mainwin.c:1141
+msgid "P_revious Track"
+msgstr "P_récédent"
+
+#: ../src/mainwin.c:1150
+#: ../src/mainwin.c:1262
+msgid "_Play"
+msgstr "_Lire"
+
+#: ../src/mainwin.c:1167
+#: ../src/mainwin.c:1283
+msgid "_Pause"
+msgstr "_Pause"
+
+#: ../src/mainwin.c:1178
+msgid "_Stop"
+msgstr "_Stop"
+
+#: ../src/mainwin.c:1186
+msgid "_Next Track"
+msgstr "Suiva_nt"
+
+#: ../src/mainwin.c:1754
+msgid "Paused"
+msgstr "_Mis en pause"
+
+#: ../src/mediamarks.c:125
+msgid "Mediamarks Save Error"
+msgstr "Erreur de sauvegarde de favoris média"
+
+#: ../src/mediamarks.c:127
+msgid "The mediamarks file failed to save."
+msgstr "La sauvegarde du fichier de favoris média a échoué."
+
+#: ../src/mediamarks.c:128
+#: ../src/xfmedia-keybindings.c:683
+#: ../src/xfmedia-keybindings.c:696
+msgid "This could be because your disk is full, or you don't have permission to write to the configuration directory.  Any changes will be lost when you quit Xfmedia."
+msgstr "Ceci peut être causé par une partition pleine, ou par l'absence de droits d'écriture dans le répertoire de configuration.  Tous les changements seront perdus si vous quittez Xfmedia."
+
+#: ../src/mediamarks.c:625
+#: ../src/mediamarks.c:889
+msgid "Mediamarks"
+msgstr "Favoris média"
+
+#: ../src/mediamarks.c:721
+msgid "Add Mediamark"
+msgstr "Ajouter un favori média"
+
+#: ../src/mediamarks.c:726
+msgid "_Add Mediamark"
+msgstr "_Ajouter un favori média"
+
+#: ../src/mediamarks.c:745
+#: ../src/mediamarks.c:1191
+msgid "_Name:"
+msgstr "_Nom :"
+
+#: ../src/mediamarks.c:766
+#: ../src/mediamarks.c:1213
+msgid "_Location:"
+msgstr "_Adresse :"
+
+#: ../src/mediamarks.c:781
+#: ../src/mediamarks.c:987
+msgid "File _in:"
+msgstr "Da_ns :"
+
+#: ../src/mediamarks.c:803
+msgid "New Folder"
+msgstr "Nouveau dossier"
+
+#: ../src/mediamarks.c:808
+msgid "Add _Folder"
+msgstr "Ajouter un _dossier"
+
+#: ../src/mediamarks.c:956
+msgid "Add Mediamark Folder"
+msgstr "Ajouter un dossier favori média"
+
+#: ../src/mediamarks.c:962
+msgid "_Add Folder"
+msgstr "_Ajouter un dossier"
+
+#: ../src/mediamarks.c:978
+msgid "_Folder Name:"
+msgstr "Nom du _dossier :"
+
+#: ../src/mediamarks.c:1047
+msgid "Remove Mediamark"
+msgstr "Supprimer le favori média"
+
+#: ../src/mediamarks.c:1048
+#: ../src/mediamarks.c:1053
+msgid "Are you sure?"
+msgstr "Êtes-vous certain ?"
+
+#: ../src/mediamarks.c:1048
+msgid "You're about to remove a Mediamark, which can't be undone."
+msgstr "Vous allez supprimer un favori média, ce qui ne peut être annulé."
+
+#: ../src/mediamarks.c:1052
+msgid "Remove Folder"
+msgstr "Supprimer un dossier"
+
+#: ../src/mediamarks.c:1054
+msgid "Removing a folder also removes all items and subfolders contained in it, and can't be undone."
+msgstr "En supprimant un dossier, vous supprimez aussi tous les éléments et les sous-dossiers qu'il contient, et cela ne peut être annulé."
+
+#: ../src/mediamarks.c:1174
+msgid "Mediamark Properties"
+msgstr "Propriétés favori média"
+
+#: ../src/mediamarks.c:1174
+msgid "Folder Properties"
+msgstr "Propriétés du dossier"
+
+#: ../src/mediamarks.c:1593
+msgid "Manage Mediamarks"
+msgstr "Gérer les favoris média"
+
+#: ../src/mediamarks.c:1615
+msgid "New Mediamark..."
+msgstr "Nouveau favori média..."
+
+#: ../src/mediamarks.c:1616
+msgid "Add a new mediamark"
+msgstr "Ajouter un nouveau favori média"
+
+#: ../src/mediamarks.c:1621
+msgid "Add Folder..."
+msgstr "Ajouter un dossier..."
+
+#: ../src/mediamarks.c:1622
+msgid "Add a new folder"
+msgstr "Ajouter un nouveau dossier"
+
+#: ../src/mediamarks.c:1627
+msgid "Remove Item"
+msgstr "Supprimer l'élément"
+
+#: ../src/mediamarks.c:1628
+msgid "Remove the selected item"
+msgstr "Supprimer l'élément sélectionné"
+
+#: ../src/mediamarks.c:1635
+msgid "Move Item Up"
+msgstr "Faire monter"
+
+#: ../src/mediamarks.c:1636
+msgid "Move the selected item up"
+msgstr "Faire monter l'élément sélectionné"
+
+#: ../src/mediamarks.c:1641
+msgid "Move Item Down"
+msgstr "Faire descendre"
+
+#: ../src/mediamarks.c:1642
+msgid "Move the selected item down"
+msgstr "Faire descendre l'élément sélectionné"
+
+#: ../src/mediamarks.c:1649
+msgid "Refresh"
+msgstr "Rafraîchir"
+
+#: ../src/mediamarks.c:1650
+msgid "Refresh the list"
+msgstr "Rafraîchir la liste"
+
+#: ../src/mediamarks.c:1655
+msgid "Properties..."
+msgstr "Propriétés..."
+
+#: ../src/mediamarks.c:1656
+msgid "Edit the selected item's properties"
+msgstr "Éditer les propriétés de l'élément sélectionné"
+
+#: ../src/mediamarks.c:1686
+msgid "Name"
+msgstr "Nom"
+
+#: ../src/mediamarks.c:1713
+msgid "Location"
+msgstr "Adresse"
+
+#: ../src/mediamarks.c:1806
+msgid "_Add Current Stream..."
+msgstr "_Ajouter le flux courant..."
+
+#: ../src/mediamarks.c:1815
+msgid "_Manage Mediamarks..."
+msgstr "_Gérer les favoris média..."
+
+#: ../src/playlist.c:536
+msgid "Save changes to this playlist before closing?"
+msgstr "Enregistrer les changements sur la liste de lecture avant de fermer ?"
+
+#: ../src/playlist.c:537
+msgid "You've changed this playlist since it was last saved."
+msgstr "Vous avez modifié cette liste de lecture après son dernier enregistrement."
+
+#: ../src/playlist.c:541
+msgid "Do_n't save"
+msgstr "_Ne pas enregistrer"
+
+#: ../src/playlist.c:590
+#: ../src/xfmedia-keybindings.c:534
+msgid "Save Playlist"
+msgstr "Enregistrer une liste de lecture"
+
+#: ../src/playlist.c:600
+msgid "Autodetect type by extension"
+msgstr "Auto-détection du type par l'extension"
+
+#: ../src/playlist.c:604
+msgid "Flat file"
+msgstr "Fichier plat"
+
+#: ../src/playlist.c:676
+msgid "Open Playlist"
+msgstr "Ouvrir une liste de lecture"
+
+#: ../src/playlist.c:1359
+msgid "#"
+msgstr "#"
+
+#: ../src/playlist.c:1373
+msgid "Title"
+msgstr "Titre"
+
+#: ../src/playlist.c:1381
+msgid "Length"
+msgstr "Durée"
+
+#: ../src/playlist.c:1431
+msgid "Add entry to playlist"
+msgstr "Ajouter une entrée à la liste de lecture"
+
+#: ../src/playlist.c:1441
+msgid "Remove entry from playlist"
+msgstr "Supprimer une entrée de la liste de lecture"
+
+#: ../src/playlist.c:1451
+msgid "Move selected playlist entry up"
+msgstr "Monter l'élément sélectionné dans la liste de lecture"
+
+#: ../src/playlist.c:1461
+msgid "Move selected playlist entry down"
+msgstr "Descendre l'élément sélectionné dans la liste de lecture"
+
+#: ../src/playlist.c:1486
+msgid "Randomize play order"
+msgstr "Lire aléatoirement"
+
+#: ../src/playlist.c:1505
+msgid "Repeat after playlist finishes"
+msgstr "Lire en boucle"
+
+#: ../src/playlist.c:1520
+msgid "Save current playlist"
+msgstr "Enregistrer la liste de lecture courante"
+
+#: ../src/playlist.c:1530
+msgid "Open a saved playlist"
+msgstr "Ouvrir une liste de lecture"
+
+#: ../src/playlist.c:1540
+msgid "Start a new playlist"
+msgstr "Commencer une nouvelle liste de lecture"
+
+#: ../src/playlist.c:1548
+msgid "_Remove Entry"
+msgstr "Supp_rimer l'élément"
+
+#: ../src/playlist.c:1557
+msgid "Move _Up"
+msgstr "Déplacer en _haut"
+
+#: ../src/playlist.c:1566
+msgid "Move _Down"
+msgstr "Déplacer en _bas"
+
+#: ../src/remote.c:223
+#: ../src/remote.c:466
+msgid "(no title)"
+msgstr "(pas de titre)"
+
+#: ../src/settings-dialog.c:145
+msgid "Optical Devices"
+msgstr "Périphériques optiques"
+
+#: ../src/settings-dialog.c:159
+msgid "CD A_udio Device:"
+msgstr "Lecteur CD A_udio :"
+
+#: ../src/settings-dialog.c:181
+msgid "DVD Vide_o Device:"
+msgstr "Lecteur DVD Vide_o :"
+
+#: ../src/settings-dialog.c:203
+msgid "Vid_eo CD Device:"
+msgstr "Lecteur Vid_eo CD :"
+
+#: ../src/settings-dialog.c:221
+msgid "Audio"
+msgstr "Audio"
+
+#: ../src/settings-dialog.c:233
+msgid "Dr_iver:"
+msgstr "P_ilote :"
+
+#: ../src/settings-dialog.c:243
+#: ../src/settings-dialog.c:312
+msgid "(no drivers)"
+msgstr "(aucun pilote)"
+
+#: ../src/settings-dialog.c:267
+msgid "_Speaker Layout:"
+msgstr "_Disposition des enceintes :"
+
+#: ../src/settings-dialog.c:275
+msgid "(option unavailable)"
+msgstr "(option non disponible)"
+
+#: ../src/settings-dialog.c:290
+msgid "Video"
+msgstr "Vidéo"
+
+#: ../src/settings-dialog.c:302
+msgid "D_river:"
+msgstr "P_ilote :"
+
+#: ../src/settings-dialog.c:608
+msgid "Xfmedia Preferences"
+msgstr "Préférences Xfmedia"
+
+#: ../src/settings-dialog.c:630
+msgid "Playlist"
+msgstr "Liste de lecture"
+
+#: ../src/settings-dialog.c:643
+msgid "_Title Display:"
+msgstr "_Titre à afficher :"
+
+#: ../src/settings-dialog.c:653
+msgid ""
+"This is a printf-like format string controlling the display of the playlist.  Xfmedia will replace the following symbols:\n"
+"\t%p: Artist/Performer\n"
+"\t%t: Track Title\n"
+"\t%a: Album Name\n"
+"\t%T: Track Number\n"
+"\t%g: Genre\n"
+"\t%y: Year\n"
+"\t%f: Filename\n"
+"\t%%: a percent sign"
+msgstr ""
+"L'affichage de la liste de lecture est contrôlée par un format de chaîne du genre printf. Xfmedia remplacera les symboles suivants :\n"
+"\t%p: artiste\n"
+"\t%t: titre de la piste\n"
+"\t%a: nom de l'album\n"
+"\t%T: numéro de la piste\n"
+"\t%g: genre\n"
+"\t%y: année\n"
+"\t%f: nom du fichier\n"
+"\t%%: symbole pourcent"
+
+#: ../src/settings-dialog.c:667
+msgid "_Advance playlist when track ends"
+msgstr "_Avancer dans la liste de lecture quand une piste se termine"
+
+#: ../src/settings-dialog.c:675
+msgid "When a track ends, Xfmedia can automatically advance to the next track in the playlist and continue playback."
+msgstr "Lorsqu'une piste se termine, Xfmedia peut automatiquement passer à la piste suivante dans la liste de lecture et continuer la lecture."
+
+#: ../src/settings-dialog.c:677
+msgid "_Don't save playlist on exit for one-shot invocations"
+msgstr "_Ne pas enregistrer la liste de lecture en sortant d'une invocation unique"
+
+#: ../src/settings-dialog.c:685
+msgid "Only automatically save the playlist during interactive use; i.e., don't save the playlist when Xfmedia was invoked from the commandline with a short list of definite arguments.  This option needs to be named better."
+msgstr "Enregistre automatiquement la liste de lecture seulement durant une utilisation interactive ; c'est-à-dire, ne sauve pas la liste de lecture lorsque Xfmedia a été appelé depuis la ligne de commande avec une liste courte d'arguments. Cette options doit être mieux nommée."
+
+#: ../src/settings-dialog.c:691
+msgid "Load metadata:"
+msgstr "Charger les méta-données :"
+
+#: ../src/settings-dialog.c:695
+msgid "On _scroll"
+msgstr "Au _défilement"
+
+#: ../src/settings-dialog.c:703
+msgid "Load file metadata for entries in the playlist when they are visible."
+msgstr "Charger les méta-données des fichiers dans la liste de lecture lorsqu'ils sont visibles."
+
+#: ../src/settings-dialog.c:706
+msgid "On pla_y"
+msgstr "À la _lecture"
+
+#: ../src/settings-dialog.c:714
+msgid "Load file metadata for entries in the playlist only when playing them."
+msgstr "Charger les méta-données des fichiers dans la liste de lecture lorsqu'ils sont joués."
+
+#: ../src/settings-dialog.c:717
+msgid "_Never"
+msgstr "_Jamais"
+
+#: ../src/settings-dialog.c:725
+msgid "Never load file metadata for entries in the playlist."
+msgstr "Ne jamais charger les méta-données dans la liste de lecture."
+
+#: ../src/settings-dialog.c:727
+msgid "Window"
+msgstr "Fenêtre"
+
+#: ../src/settings-dialog.c:736
+msgid "Show Xfmedia on all _workspaces"
+msgstr "Montrer Xfmedia sur tous les _espaces de travail"
+
+#: ../src/settings-dialog.c:742
+msgid "Sets Xfmedia \"sticky\" such that it appears on all workspaces (virtual desktops)."
+msgstr "Xfmedia se \"colle\" pour apparaître dans tous les espaces de travail (bureaux virtuels)."
+
+#: ../src/settings-dialog.c:744
+msgid "Keep X_fmedia above other windows"
+msgstr "Garder X_fmedia au dessus des autres fenêtres"
+
+#: ../src/settings-dialog.c:751
+msgid "Sets the Xfmedia window to \"Always-on-Top\" status."
+msgstr "Attribue le statut \"Toujours visible\" à la fenêtre Xfmedia."
+
+#: ../src/settings-dialog.c:753
+msgid "Dock and auto-_hide Xfmedia at screen edges"
+msgstr "Masquer _automatiquement Xfmedia aux bords de l'écran"
+
+#: ../src/settings-dialog.c:760
+msgid "When the Xfmedia window is dragged to a screen edge, it will auto-hide itself and reappear when you move the mouse to the edge of the screen."
+msgstr "Quand la fenêtre Xfmedia est amenée jusqu'à un bord de l'écran, elle se masquera automatiquement et réapparaîtra lorsque vous placerez la souris sur le bord de l'écran."
+
+#: ../src/settings-dialog.c:762
+msgid "Tray Icon"
+msgstr "Icône de notification"
+
+#: ../src/settings-dialog.c:771
+msgid "Show _tray icon"
+msgstr "Montrer l'icône de no_tification"
+
+#: ../src/settings-dialog.c:777
+msgid "Displays an Xfmedia icon in the system notification area."
+msgstr "Affiche une icône Xfmedia dans l'aire de notification système."
+
+#: ../src/settings-dialog.c:779
+msgid "_Minimize Xfmedia to tray icon"
+msgstr "_Minimise Xfmedia en icône de notification"
+
+#: ../src/settings-dialog.c:787
+msgid "Minimizes Xfmedia to the tray icon rather than to the taskbar or iconbox."
+msgstr "Réduit Xfmedia en icône de notification plutôt que dans la barre des tâche ou l'iconbox."
+
+#: ../src/settings-dialog.c:793
+msgid "On middle _click:"
+msgstr "_Clic du milieu :"
+
+#: ../src/settings-dialog.c:796
+#: ../src/settings-dialog.c:810
+msgid "The tray icon can perform an action when middle-clicked.  Select the action in the dropdown box."
+msgstr "L'icône de notification peut exécuter une action avec un clic sur le bouton du milieu.  Choisissez l'action dans la boîte."
+
+#: ../src/settings-dialog.c:799
+msgid "Do nothing"
+msgstr "Ne rien faire"
+
+#: ../src/settings-dialog.c:800
+msgid "Toggle play/pause"
+msgstr "Mettre en lecture/pause"
+
+#: ../src/settings-dialog.c:801
+msgid "Next track"
+msgstr "Piste suivante"
+
+#: ../src/settings-dialog.c:802
+msgid "Previous track"
+msgstr "Piste précédente"
+
+#: ../src/settings-dialog.c:815
+msgid "O_ptions"
+msgstr "O_ptions"
+
+#: ../src/settings-dialog.c:826
+msgid "Selected Visualization"
+msgstr "Visualisation sélectionnée"
+
+#: ../src/settings-dialog.c:854
+msgid "(none available)"
+msgstr "(non disponible)"
+
+#: ../src/settings-dialog.c:865
+msgid "Visualization Options"
+msgstr "Options de visualisation"
+
+#: ../src/settings-dialog.c:880
+msgid "_Audio Visualization"
+msgstr "Visualisation _audio"
+
+#: ../src/settings-dialog.c:886
+msgid "_Devices"
+msgstr "_Périphériques"
+
+#: ../src/settings-dialog.c:892
+msgid "_Keybindings"
+msgstr "_Raccourcis clavier"
+
+#: ../src/settings-dialog.c:900
+msgid "_Plugins"
+msgstr "_Greffons"
+
+#: ../src/settings.c:242
+msgid "Settings Save Error"
+msgstr "Erreur de sauvegarde des paramètres"
+
+#: ../src/settings.c:243
+msgid "The settings file failed to save."
+msgstr "La sauvegarde des paramètres a échoué."
+
+#: ../src/settings.c:244
+msgid "This could be because your disk is full, or you don't have permission to write to the configuration directory.  Any changes will be lost when you exit Xfmedia."
+msgstr "Ceci peut être causé par une partition pleine, ou par l'absence de droits d'écriture dans le répertoire de configuration.  Tous les changements seront perdus si vous quittez Xfmedia."
+
+#: ../src/xfmedia-common.c:422
+msgid "(UTF-8 conversion failed)"
+msgstr "(La conversion en UTF-8 a échoué)"
+
+#: ../src/xfmedia-handle.c:141
+msgid "Handle Style"
+msgstr "Style de Poignée"
+
+#: ../src/xfmedia-handle.c:142
+msgid "This property defines the handle style of the XfmediaHandle widget."
+msgstr "Cette propriété définit le style de poignée du widget XfmediaHandle."
+
+#: ../src/xfmedia-handle.c:150
+msgid "Orientation"
+msgstr "Orientation"
+
+#: ../src/xfmedia-handle.c:151
+msgid "This property defines whether this is a horizontal or vertical handle."
+msgstr "Cette propriété définit si c'est une poignée horizontale ou verticale."
+
+#: ../src/xfmedia-keybindings.c:510
+msgid "Play"
+msgstr "Lire"
+
+#: ../src/xfmedia-keybindings.c:511
+msgid "Pause"
+msgstr "Pause"
+
+#: ../src/xfmedia-keybindings.c:512
+msgid "Stop"
+msgstr "Stop"
+
+#: ../src/xfmedia-keybindings.c:515
+msgid "Quit"
+msgstr "Quitter"
+
+#: ../src/xfmedia-keybindings.c:516
+msgid "Toggle Fullscreen"
+msgstr "Basculer en plein écran"
+
+#: ../src/xfmedia-keybindings.c:517
+msgid "Toggle Shuffle Play"
+msgstr "Basculer en lecture aléatoire"
+
+#: ../src/xfmedia-keybindings.c:518
+msgid "Toggle Repeat Play"
+msgstr "Basculer en lecture répétée"
+
+#: ../src/xfmedia-keybindings.c:519
+msgid "Toggle Audio Visualization"
+msgstr "Basculer en visualisation audio"
+
+#: ../src/xfmedia-keybindings.c:520
+msgid "Set Speed Faster"
+msgstr "Augmenter la vitesse"
+
+#: ../src/xfmedia-keybindings.c:521
+msgid "Set Speed Slower"
+msgstr "Diminuer la vitesse"
+
+#: ../src/xfmedia-keybindings.c:522
+msgid "Forward 10 Seconds"
+msgstr "Avancer de 10 secondes"
+
+#: ../src/xfmedia-keybindings.c:523
+msgid "Forward 30 Seconds"
+msgstr "Avancer de 30 secondes"
+
+#: ../src/xfmedia-keybindings.c:524
+msgid "Forward 60 Seconds"
+msgstr "Avancer de 60 secondes"
+
+#: ../src/xfmedia-keybindings.c:525
+msgid "Backward 10 Seconds"
+msgstr "Reculer de 10 secondes"
+
+#: ../src/xfmedia-keybindings.c:526
+msgid "Backward 30 Seconds"
+msgstr "Reculer de 30 secondes"
+
+#: ../src/xfmedia-keybindings.c:527
+msgid "Backward 60 Seconds"
+msgstr "Reculer de 60 secondes"
+
+#: ../src/xfmedia-keybindings.c:528
+msgid "Enqueue Track"
+msgstr "Mettre la piste en queue"
+
+#: ../src/xfmedia-keybindings.c:529
+msgid "Show Queued Tracks"
+msgstr "Montrer les pistes en file"
+
+#: ../src/xfmedia-keybindings.c:530
+msgid "Toggle Audio Mute"
+msgstr "Basculer sans sortie audio"
+
+#: ../src/xfmedia-keybindings.c:531
+msgid "Add File to Playlist"
+msgstr "Ajouter un fichier à la liste de lecture"
+
+#: ../src/xfmedia-keybindings.c:532
+msgid "Add URL to Playlist"
+msgstr "Ajouter une URL à la liste de lecture"
+
+#: ../src/xfmedia-keybindings.c:533
+msgid "Open Saved Playlist"
+msgstr "Ouvrir une liste de lecture"
+
+#: ../src/xfmedia-keybindings.c:535
+msgid "Clear Playlist"
+msgstr "Vider la liste de lecture"
+
+#: ../src/xfmedia-keybindings.c:536
+msgid "A/V Sync Plus"
+msgstr "Augmenter la Synchro A/V"
+
+#: ../src/xfmedia-keybindings.c:537
+msgid "A/V Sync Minus"
+msgstr "Diminuer la Synchro A/V"
+
+#: ../src/xfmedia-keybindings.c:538
+msgid "Select Aspect Ratio"
+msgstr "Sélectionner le ratio d'aspect"
+
+#: ../src/xfmedia-keybindings.c:539
+msgid "Jump to File"
+msgstr "Sauter au fichier"
+
+#: ../src/xfmedia-keybindings.c:540
+msgid "Video Zoom In"
+msgstr "Zoom vidéo avant"
+
+#: ../src/xfmedia-keybindings.c:541
+msgid "Video Zoom Out"
+msgstr "Zoom vidéo arrière"
+
+#: ../src/xfmedia-keybindings.c:542
+msgid "Video Window Larger"
+msgstr "Fenêtre vidéo plus grande"
+
+#: ../src/xfmedia-keybindings.c:543
+msgid "Video Window Smaller"
+msgstr "Fenêtre vidéo plus petite"
+
+#: ../src/xfmedia-keybindings.c:544
+msgid "Volume Up"
+msgstr "Augmenter le volume"
+
+#: ../src/xfmedia-keybindings.c:545
+msgid "Volume Down"
+msgstr "Baisser le volume"
+
+#: ../src/xfmedia-keybindings.c:546
+msgid "Audio Track Next"
+msgstr "Piste Audio Suivante"
+
+#: ../src/xfmedia-keybindings.c:547
+msgid "Audio Track Previous"
+msgstr "Piste Audio Précédente"
+
+#: ../src/xfmedia-keybindings.c:548
+msgid "Subtitle Track Next"
+msgstr "Piste Sous-titres Suivante"
+
+#: ../src/xfmedia-keybindings.c:549
+msgid "Subtitle Track Previous"
+msgstr "Piste Sous-titres Précédente"
+
+#: ../src/xfmedia-keybindings.c:635
+msgid "Set Keybinding"
+msgstr "Affecte le raccourcis clavier"
+
+#: ../src/xfmedia-keybindings.c:638
+msgid "_Clear"
+msgstr "_Pas de raccourcis"
+
+#: ../src/xfmedia-keybindings.c:647
+msgid "Set shortcut for:"
+msgstr "Affecte le raccourcis à :"
+
+#: ../src/xfmedia-keybindings.c:665
+msgid "Keybinding Error"
+msgstr "Erreur de raccourcis clavier"
+
+#: ../src/xfmedia-keybindings.c:666
+msgid "Keybinding already in use."
+msgstr "Raccourcis clavier déjà utilisé"
+
+#: ../src/xfmedia-keybindings.c:667
+msgid "The key sequence you selected is already in use by another function.  Please set the other function to something else."
+msgstr "La séquence de touches sélectionnée est déjà utilisée par une autre fonction. Veuillez affecter cette autre fonction à une autre séquence."
+
+#: ../src/xfmedia-keybindings.c:680
+#: ../src/xfmedia-keybindings.c:693
+msgid "Keybindings Save Error"
+msgstr "Erreur de sauvegarde de raccourcis clavier"
+
+#: ../src/xfmedia-keybindings.c:682
+#: ../src/xfmedia-keybindings.c:695
+msgid "The keybindings file failed to save."
+msgstr "La sauvegarde des raccourcis clavier à échoué."
+
+#: ../src/xfmedia-keybindings.c:691
+msgid "None"
+msgstr "Aucun"
+
+#: ../src/xfmedia-keybindings.c:808
+msgid "Function"
+msgstr "Fonction"
+
+#: ../src/xfmedia-keybindings.c:813
+msgid "Keys"
+msgstr "Touches"
+
+#: ../src/xfmedia-remote.c:103
+#, c-format
+msgid ""
+"Usage: %s [options]\n"
+"\n"
+msgstr ""
+"Usage : %s [options]\n"
+"\n"
+
+#: ../src/xfmedia-remote.c:106
+msgid ""
+"    --session=N          Specify the number of the already-running instance of\n"
+"                         Xfmedia.  (Defaults to 0, or the first instance found.)\n"
+msgstr ""
+"    --session=N          Spécifie le numéro d'une instance existante de\n"
+"                         Xfmedia. (Par défaut à 0, ou la première instance trouvée.)\n"
+
+#: ../src/xfmedia-remote.c:108
+msgid "    --ping               Checks to see if an instance of Xfmedia is running.\n"
+msgstr "    --ping               Vérifie si une instance de Xfmedia est en cours d'exécution.\n"
+
+#: ../src/xfmedia-remote.c:109
+msgid ""
+"    -p, --play[=N]       Causes Xfmedia to play the file at playlist idx N.\n"
+"                         If N is not specified, Xfmedia will play the currently-\n"
+"                         selected entry, or, if no item is selected, the first\n"
+"                         entry.  If used in conjunction with --playlist-add,\n"
+"                         will cause Xfmedia to play the newly-added entry.\n"
+msgstr ""
+"    -p, --play[=N]       Demande à Xfmedia de jouer le fichier de la liste de\n"
+"                         lecture à la position N. Si N est pas spécifié, Xfmedia\n"
+"                         jouera l'entrée actuellement sélectionnée, ou, si aucune\n"
+"                         entrée n'est sélectionnée, la première entrée.  Utilisé avec\n"
+"                         --playlist-add demandera à Xfmedia de jouer l'entrée\n"
+"                         nouvellement ajoutée.\n"
+
+#: ../src/xfmedia-remote.c:114
+msgid ""
+"    --toggle             Causes Xfmedia to pause if playing, or play if paused\n"
+"                         or stopped.\n"
+msgstr ""
+"    --toggle             Xfmedia se met en pause s'il est en lecture, ou se met en\n"
+"                         lecture s'il est en pause ou arrêté.\n"
+
+#: ../src/xfmedia-remote.c:116
+msgid "    --pause              Causes Xfmedia to pause/unpause.\n"
+msgstr "    --pause              Demande à Xfmedia de se mettre en/quitter la pause.\n"
+
+#: ../src/xfmedia-remote.c:117
+msgid "    --stop               Causes Xfmedia to stop playback.\n"
+msgstr "    --stop               Demande à Xfmedia d'arrêter la lecture.\n"
+
+#: ../src/xfmedia-remote.c:118
+msgid ""
+"    --previous           Causes Xfmedia to play the entry played before the\n"
+"                         currently-selected (or -playing) entry.\n"
+msgstr ""
+"    --previous           Demande à Xfmedia de jouer l'entrée précédente à\n"
+"                         l'entrée actuellement sélectionné (ou jouée).\n"
+
+#: ../src/xfmedia-remote.c:120
+msgid ""
+"    --next               Causes Xfmedia to play the next entry in the playlist.\n"
+"                         If Xfmedia is in shuffle mode, a new entry will be\n"
+"                         selected randomly.\n"
+msgstr ""
+"    --next               Demande à Xfmedia de jouer l'entrée suivante dans la\n"
+"                         liste de lecture. Si Xfmedia est en mode aléatoire, une\n"
+"                         nouvelle entrée sera sélectionnée aléatoirement.\n"
+
+#: ../src/xfmedia-remote.c:123
+msgid ""
+"    -a, --playlist-add=FILE\n"
+"                         Adds FILE to the end of the playlist.\n"
+msgstr ""
+"    -a, --playlist-add=FICHIER\n"
+"                         Ajoute le FICHIER à la fin de la liste de lecture.\n"
+
+#: ../src/xfmedia-remote.c:125
+msgid ""
+"    -r, --playlist-remove=N\n"
+"                         Removes the specified playlist entry from the playlist.\n"
+msgstr ""
+"    -r, --playlist-remove=N\n"
+"                         Supprime l'entrée passée en paramètre de la liste de\n"
+"                         lecture.\n"
+
+#: ../src/xfmedia-remote.c:127
+msgid ""
+"    -c, --playlist-clear\n"
+"                         Removes all entries from the playlist.\n"
+msgstr ""
+"    -c, --playlist-clear\n"
+"                         Supprime toutes les entrées de la liste de lecture.\n"
+
+#: ../src/xfmedia-remote.c:129
+msgid ""
+"    -l, --playlist-load=FILE\n"
+"                         Loads the specified playlist.  Note that this does NOT\n"
+"                         first clear the playlist.\n"
+msgstr ""
+"    -l, --playlist-load=FICHIER\n"
+"                         Charge la liste de lecture passée en paramètre.  Notez\n"
+"                          que cela NE vide PAS la liste de lecture avant.\n"
+
+#: ../src/xfmedia-remote.c:132
+msgid ""
+"    -s, --playlist-save=FILE\n"
+"                         Saves the current playlist to the specified FILE.\n"
+msgstr ""
+"    -s, --playlist-save=FICHIER\n"
+"                         Sauve la liste de lecture courante dans le FICHIER passé en paramètre..\n"
+
+#: ../src/xfmedia-remote.c:134
+msgid "    -Q, --quit           Instructs Xfmedia to quit.\n"
+msgstr "    -Q, --quit           indique à Xfmedia de quitter.\n"
+
+#: ../src/xfmedia-remote.c:135
+msgid ""
+"    -j, --jump-to-file   Causes Xfmedia to show the main window (if not visible)\n"
+"                         and show the jump-to-file entry box.\n"
+msgstr ""
+"    -j, --jump-to-file   Demande à Xfmedia de montrer la fenêtre principale (si elle n'est\n"
+"                         pas visible) et de montrer la fenêtre de saut-au-fichier.\n"
+
+#: ../src/xfmedia-remote.c:180
+msgid "Argument to --session must be greater than or equal to 0.\n"
+msgstr "L'argument de --session doit être supérieur ou égal à 0.\n"
+
+#: ../src/xfmedia-remote.c:195
+msgid "Argument to --play must be greater than or equal to 0.\n"
+msgstr "L'argument de --play doit être supérieur ou égal à 0.\n"
+
+#: ../src/xfmedia-remote.c:239
+msgid "Argument to --playlist-remove must be greater than or equal to 0.\n"
+msgstr "L'argument de --playlist-remove doit être supérieur ou égal à 0.\n"
+
+#: ../src/xfmedia-remote.c:276
+#, c-format
+msgid "Unrecognized option: %s\n"
+msgstr "Option non reconnue : %s\n"
+
+#: ../src/xfmedia-remote.c:289
+msgid "Unable to initialize the Xfmedia remote client service.  The most likely cause is that a DBUS session bus is not running"
+msgstr "Ne peut initialiser le service client à distance. La cause la plus probable est que le bus de la session D-BUS n'est pas en marche"
+
+#: ../src/xfmedia-remote.c:301
+msgid "Unable to find a running Xfmedia instance."
+msgstr "Incapable de trouver une instance existante de Xfmedia."
+
+#: ../src/xfmedia-video-window.c:188
+msgid "Xfmedia Video"
+msgstr "Vidéo Xfmedia"
+
+#: ../xfmedia/getopt.c:686
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: l'option `%s' est équivoque\n"
+
+#: ../xfmedia/getopt.c:711
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: l'option `--%s' n'a pas besoin d'argument\n"
+
+#: ../xfmedia/getopt.c:716
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: l'option `%c%s' n'a pas besoin d'un argument\n"
+
+#: ../xfmedia/getopt.c:734
+#: ../xfmedia/getopt.c:907
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: option `%s' demande un argument.\n"
+
+#. --option
+#: ../xfmedia/getopt.c:763
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: option non reconnue : `--%s'\n"
+
+#. +option or -option
+#: ../xfmedia/getopt.c:767
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: option non reconnue `%c%s'\n"
+
+#. 1003.2 specifies the format of this message.
+#: ../xfmedia/getopt.c:793
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: option interdite -- %c\n"
+
+#: ../xfmedia/getopt.c:796
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: option invalide -- %c\n"
+
+#. 1003.2 specifies the format of this message.
+#: ../xfmedia/getopt.c:826
+#: ../xfmedia/getopt.c:956
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: l'option demande un argument -- %c\n"
+
+#: ../xfmedia/getopt.c:873
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: option `-W %s' est équivoque\n"
+
+#: ../xfmedia/getopt.c:891
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: option `-W %s' n'a pas besoin d'un argument\n"
+
+#: ../xfmedia/remote-client.c:607
+#: ../xfmedia/remote-client.c:614
+#: ../xfmedia/remote-client.c:621
+msgid "Xfmedia was not compiled with D-BUS support.  Remote control interface is not available."
+msgstr "Xfmedia n'a pas été compilé avec le support D-BUS. L'interface pour télécommande est indisponible."
+
+#: ../xfmedia.desktop.in.h:1
+msgid "Enqueue and play with Xfmedia"
+msgstr "Mettre en fin de liste et jouer avec Xfmedia"
+
+#: ../xfmedia.desktop.in.h:2
+msgid "Enqueue in Xfmedia"
+msgstr "Mettre en fin de liste dans Xfmedia"
+
+#: ../xfmedia.desktop.in.h:3
+msgid "Lightweight Media Player"
+msgstr "Lecteur Média Léger"
+
+#: ../xfmedia.desktop.in.h:4
+msgid "Xfmedia"
+msgstr "Xfmedia"
+

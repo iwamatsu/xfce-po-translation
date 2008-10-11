@@ -1,0 +1,85 @@
+# Japanese translations for xfce4-quicklauncher-plugin package.
+# Copyright (C) 2005-2006 Masse Nicolas.
+# This file is distributed under the same license as
+#   the xfce4-quicklauncher-plugin package.
+# Daichi Kawahata <daichi@xfce.org>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-quicklauncher-plugin 1.9.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-05-17 21:37+0200\n"
+"PO-Revision-Date: 2006-02-12 16:07+0900\n"
+"Last-Translator: Daichi Kawahata <daichi@xfce.org>\n"
+"Language-Team: Japanese <xfce-users-jp@ml.fdiary.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../panel-plugin/callbacks.c:79
+msgid "Configure Quicklauncher"
+msgstr "クイックランチャーの設定"
+
+#: ../panel-plugin/callbacks.c:93
+msgid "Lines: "
+msgstr "行数: "
+
+#: ../panel-plugin/callbacks.c:123
+msgid "Espace entre les lanceurs :"
+msgstr ""
+
+#: ../panel-plugin/callbacks.c:131
+msgid "afficher les tooltips"
+msgstr ""
+
+#: ../panel-plugin/callbacks.c:135
+msgid "afficher les labels"
+msgstr ""
+
+#: ../panel-plugin/callbacks.c:216
+msgid "icone"
+msgstr "アイコン"
+
+#: ../panel-plugin/callbacks.c:222
+msgid "commande"
+msgstr "コマンド"
+
+#: ../panel-plugin/callbacks.c:228
+msgid "nom"
+msgstr ""
+
+#: ../panel-plugin/callbacks.c:327
+msgid "Open icon"
+msgstr "アイコンを選択して下さい"
+
+#: ../panel-plugin/main.c:163 ../panel-plugin/quicklauncher.desktop.in.in.h:2
+msgid "Quicklauncher"
+msgstr "クイックランチャー"
+
+#: ../panel-plugin/main.c:166
+msgid "Allows you to add launchers easily and display them on many lines."
+msgstr "ランチャーを追加して複数行に表示します。"
+
+#: ../panel-plugin/main.c:168
+msgid "Other plugins available here"
+msgstr "ここに他のプラグインがあります"
+
+#: ../panel-plugin/main.c:320
+msgid "Lock"
+msgstr ""
+
+#: ../panel-plugin/main.c:323
+msgid "Parameters"
+msgstr ""
+
+#: ../panel-plugin/main.c:326
+msgid "Applications"
+msgstr ""
+
+#: ../panel-plugin/main.c:329
+msgid "Help"
+msgstr ""
+
+#: ../panel-plugin/quicklauncher.desktop.in.in.h:1
+msgid "Program with several launchers"
+msgstr "複数のランチャーを一まとめに表示します。"

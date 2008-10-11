@@ -1,0 +1,262 @@
+# Portuguese translations for xfce package.
+# Copyright (C) 2007 THE xfce'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfce package.
+# Fábio Nogueira <deb-user-ba@ubuntu.com>, 2007, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce 4-volstatus-icon\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-05-27 20:15-0700\n"
+"PO-Revision-Date: 2007-11-06 11:01-0300\n"
+"Last-Translator: Fábio Nogueira <deb-user-ba@ubuntu.com>\n"
+"Language-Team: Brazilian Portuguese <ldp-br@bazar2.conectiva.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: xfce4-volstatus-icon/main.c:102 xfce4-volstatus-icon/main.c:115
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:733
+msgid "Removable Volumes"
+msgstr "Volumes Removíveis"
+
+#: xfce4-volstatus-icon/main.c:104
+msgid "This is the first time you've run the Xfce Volstatus Icon application"
+msgstr "Esta é a primeira vez que você executa a aplicação Xfce Volstatus Icon"
+
+#: xfce4-volstatus-icon/main.c:105
+msgid ""
+"Would you like Xfce Volstatus to run automatically each time your session "
+"begins?  You can disable this behavior later by using the \"Autostarted "
+"Applications\" settings panel."
+msgstr ""
+"Você deseja que o Xfce Volstatus execute automaticamente cada vez que se "
+"inicie a sessão? Você pode desabilitar este comportamento mais tarde usando "
+"o painel de difinições \"Autostarted Applications\""
+
+#: xfce4-volstatus-icon/main.c:117
+msgid "Failed to write autostart file"
+msgstr "Falhou ao escrever para o arquivo autostart"
+
+#: xfce4-volstatus-icon/main.c:118
+msgid ""
+"For some reason, the autostart location could not be found or written to.  "
+"This location is usually in your home directory, in ~/.config/autostart/."
+msgstr ""
+"Por alguma razão, a localização de iniciação automática não pode ser encontrada ou gravada. "
+"Esta localização está habitualmente no seu diretório home, em ~/.config/autostart/."
+
+#: xfce4-volstatus-icon/main.c:125
+msgid "Xfce Volstatus Icon"
+msgstr "Ícone Xfce Volstatus"
+
+#: xfce4-volstatus-icon/main.c:127
+msgid "Safe removal of removable volumes"
+msgstr "Remoção segura de volumes removíveis"
+
+#: xfce4-volstatus-icon/main.c:213
+msgid "An unknown error occurred."
+msgstr "Ocorreu um erro desconhecido."
+
+#: xfce4-volstatus-icon/main.c:215 xfce4-volstatus-icon/main.c:226
+#: xfce4-volstatus-icon/main.c:241
+msgid "Xfce Volstatus"
+msgstr "Xfce Volstatus"
+
+#: xfce4-volstatus-icon/main.c:216
+msgid "Unable to connect to D-Bus system bus daemon"
+msgstr "Não foi possível conectar ao sistema daemon D-Bus"
+
+#: xfce4-volstatus-icon/main.c:227
+msgid "Unable to connect to HAL"
+msgstr "Não foi possível conectar ao HAL"
+
+#: xfce4-volstatus-icon/main.c:242
+msgid "Unable to get device list from HAL"
+msgstr "Não foi possível obter a lista de dispositivos do HAL"
+
+#: xfce4-volstatus-icon/xfce-volstatus-common.c:76
+#, c-format
+msgid "Unable to remove \"%s\""
+msgstr "Não foi possível remover \"%s\""
+
+#: xfce4-volstatus-icon/xfce-volstatus-common.c:77
+msgid "Removal Failure"
+msgstr "Falha de Remoção"
+
+#: xfce4-volstatus-icon/xfce-volstatus-common.c:79
+msgid "Unknown error"
+msgstr "Erro desconhecido"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:171
+msgid "Audio CD"
+msgstr "CD de Áudio"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:178
+msgid "Recordable CD"
+msgstr "CD Gravável"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:181
+msgid "Rewritable CD"
+msgstr "CD Regravável"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:184
+msgid "DVD"
+msgstr "DVD"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:187
+msgid "Rewritable DVD (DVD-RAM)"
+msgstr "DVD Regravável (DVD-RAM)"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:192
+msgid "Recordable DVD"
+msgstr "DVD de Gravação"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:196
+msgid "Rewritable DVD"
+msgstr "DVD Regravável"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:199
+msgid "Blu-ray Disc"
+msgstr "Disco Blu-ray"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:202
+msgid "Recordable Blu-ray Disc"
+msgstr "Disco Blu-ray Gravável"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:205
+msgid "Rewritable Blu-ray Disc"
+msgstr "Disco Blu-ray Regravável"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:208
+msgid "HD-DVD"
+msgstr "HD-DVD"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:211
+msgid "Recordable HD-DVD"
+msgstr "HD-DVD Gravável"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:214
+msgid "Rewritable HD-DVD"
+msgstr "HD-DVD Regravável"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:217
+msgid "Data CD"
+msgstr "CD de Dados"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:227
+msgid "Optical Drive"
+msgstr "Unidade Ótica"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:233
+msgid "Floppy Disk"
+msgstr "Disquete"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:235
+msgid "Removable Disk"
+msgstr "Disco Removível"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:237
+msgid "Hard Disk"
+msgstr "Disco Rígido"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:240
+msgid "Flash Disk"
+msgstr "Disco Flash"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:242
+msgid "Audio Player"
+msgstr "Reprodutor de Áudio"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:244
+msgid "Memory Stick"
+msgstr "Cartão de Memória"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:246
+msgid "Smart Media Disk"
+msgstr "Disco Smart Media"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:248
+msgid "SD/MMC Disk"
+msgstr "Disco SD/MMC"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:250
+msgid "Camera"
+msgstr "Câmera"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:252
+msgid "Zip Disk"
+msgstr "Disco Zip"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:254
+msgid "Jaz Disk"
+msgstr "Disco Jaz"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:256
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:602
+msgid "Unknown"
+msgstr "Desconhecido"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:549
+msgid "n/a"
+msgstr "n/a"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:560
+#, c-format
+msgid "Filesystem (%s)"
+msgstr "Sistema de arquivo (%s)"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:565
+msgid "Filesystem"
+msgstr "Sistema de arquivo"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:571
+msgid "(unknown)"
+msgstr "(desconhecido)"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:573
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:582
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:589
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:597
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:604
+msgid "(n/a)"
+msgstr "(n/a)"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:580
+msgid "Partition Table"
+msgstr "Tabela de Partição"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:587
+msgid "RAID Array Member"
+msgstr "Membro RAID Matriz"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:595
+msgid "Encrypted Filesystem"
+msgstr "Sistema de arquivo Criptografado"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:677
+msgid "Name:"
+msgstr "Nome:"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:682
+msgid "Kind:"
+msgstr "Tipo:"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:687
+msgid "Mount Point:"
+msgstr "Ponto de Montagem:"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:734
+msgid "Use the list below to safely remove removable volumes."
+msgstr "Utilizar a lista abaixo para remover volumes removíveis com segurança."
+
+#: xfce4-volstatus-icon/xfce-volstatus-icon.c:227
+#, c-format
+msgid "Safely remove \"%s\""
+msgstr "Removo de forma segura \"%s\""
+
+#. this shouldn't happen, but just to be safe...
+#: xfce4-volstatus-icon/xfce-volstatus-icon.c:243
+msgid "(no removable drives)"
+msgstr "(nenhum drive removível)"

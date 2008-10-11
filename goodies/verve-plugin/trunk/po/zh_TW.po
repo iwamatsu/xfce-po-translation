@@ -1,0 +1,67 @@
+# Traditional Chinese translation of the verve-plugin package.
+# Copyright (C) 2006-2007 Jannis Pohlmann.
+# This file is distributed under the same license as the verve-plugin package.
+# Hydonsingore Cia <hydonsingore@educities.edu.tw>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: verve-plugin 0.3.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:29+0200\n"
+"PO-Revision-Date: 2006-08-12 11:41+0800\n"
+"Last-Translator: Hydonsingore Cia <hydonsingore@educities.edu.tw>\n"
+"Language-Team: Chinese (traditional) <xfce-i18n@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Generate error message
+#: ../panel-plugin/verve-plugin.c:407
+msgid "Could not execute command:"
+msgstr "無法執行指令:"
+
+#. Create properties dialog
+#: ../panel-plugin/verve-plugin.c:781
+msgid "Verve"
+msgstr "Verve"
+
+#. Frame for appearance settings
+#: ../panel-plugin/verve-plugin.c:799
+msgid "Appearance"
+msgstr "外觀"
+
+#. Plugin size label
+#: ../panel-plugin/verve-plugin.c:810
+msgid "Width (in chars):"
+msgstr "寬度 (多少字元):"
+
+#. Frame for behaviour settings
+#: ../panel-plugin/verve-plugin.c:830
+msgid "Behaviour"
+msgstr "行為"
+
+#. History length label
+#: ../panel-plugin/verve-plugin.c:841
+msgid "Number of saved history items:"
+msgstr "歷史條目的儲存數量:"
+
+#. vim:set expandtab sts=2 ts=2 sw=2:
+#: ../panel-plugin/verve.desktop.in.in.h:1
+msgid "Command line interface with auto-completion and command history"
+msgstr "具有自動補齊和指令歷史紀錄的指令列介面"
+
+#: ../panel-plugin/verve.desktop.in.in.h:2
+msgid "Verve Command Line"
+msgstr "Verve 指令列"
+
+#. Print error message
+#: ../scripts/verve-focus.c:61
+msgid "Failed to connect to the D-BUS session bus."
+msgstr "無法連結至 D-BUS session 匯流排。"
+
+#. Print error message
+#: ../scripts/verve-focus.c:84
+msgid ""
+"There seems to be no Verve D-BUS provider (e.g. the Verve panel plugin) "
+"running."
+msgstr "似乎沒有 Verve D-BUS 提供者 (如 Verve 面板外掛程式) 執行中。"

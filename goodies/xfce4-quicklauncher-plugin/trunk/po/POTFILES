@@ -1,0 +1,3 @@
+	../panel-plugin/callbacks.c \
+	../panel-plugin/main.c \
+	../panel-plugin/quicklauncher.desktop.in.in

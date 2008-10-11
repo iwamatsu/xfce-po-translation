@@ -1,0 +1,8 @@
+src/about_dialog.c
+src/entry_edit_dialog.c
+src/menubar.c
+src/open.c
+src/open_dialog.c
+src/save_dialog.c
+src/string_edit_dialog.c
+src/treeview.c

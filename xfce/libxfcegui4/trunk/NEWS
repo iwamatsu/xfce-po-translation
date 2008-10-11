@@ -1,0 +1,69 @@
+4.5.91 (Xfce 4.6beta1)
+======================
+- Fix compile failure on Darwin due to the 'environ' variable not
+  being available (bug 4432).
+
+
+4.5.90 (Xfce 4.6alpha)
+======================
+- Fix XfceAppMenuItem's lazy icon loading so menus don't overlap after
+  the icons load (bug 3081).
+- Add gladeui and libglade support so Xfce widgets can be added to an
+  interface using the Glade Interface Designer, and can be accessed using
+  libglade.
+- Fix menu crash if NULL icon file name.
+- Deprecate XfceClock and XfceSystemTray.
+- Deprecate all libnetk objects and functionality (library users should
+  migrate to libwnck).
+
+
+4.4.2
+=====
+- Free list returned by gtk_container_get_children().
+- Remove trailing parens on AC_INIT version info to work around bug
+  in intltool 0.35.x and 0.36.x.
+- Allocate a copy of passed cliend id, program name and working directory
+  in session management, in case the application frees the data.
+- Properly deal with %-starting 'field codes' in commands from .desktop files
+- Change the DISPLAY env var when launching applications on another screen
+  to ensure the app doesn't get an incorrect DISPLAY.
+- Updated translations: Maximilian Schleiss (nl), Dimitri Gogelia (ka),
+  Pablo Vieira and Jose Vitor Lopes e Silva (pt_BR), Mişu Moldovan (ro.
+- New translations: Terje Uriansrud (nb_NO), Nuno Miguel (pt_PT),
+  Tegegne Tefera (am), Manatsawin (th), RPrieditis (lv).
+
+
+4.4.1
+=====
+- Change 2 GPL headers to LGPL.
+- Test for support of -Wall, -Werror and -errwarn=%all. (Bug #2918).
+
+
+4.4.0
+=====
+- Fix file conflict in xfce4-panel and xfce-mcs-plugins by moving the common
+  icon xfce-filemanager to libxfcegui4 (Bug #2033).
+
+
+20040304
+========
+- Bumped version to 4.1.7.
+- Added gettext framework.
+
+
+20040301
+========
+- Bumped version to 4.1.6.
+- Replaced doxygen by gtk-doc, more documentation to come soon.
+- Started to rename some functions, adding xfce_ prefix (ok'd with
+  Jasper), leaving stubs for binary compatibility and declarations
+  in #ifndef XFCE_DISABLE_DEPRECATED.
+
+
+20040203
+========
+- Bumped version to 4.1.4.
+- Added XfceAboutDialog class to libxfcegui4. It provides a simple
+  implementation of an about dialog.
+- Put in place initial doxygen framework. Now, lets start to
+  document the stuff.

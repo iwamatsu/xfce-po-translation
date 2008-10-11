@@ -1,0 +1,500 @@
+# Indonesian translation of the xfprint package.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfprint package.
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-20 18:56+0100\n"
+"PO-Revision-Date: 2008-05-31 20:26+0700\n"
+"Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
+"Language-Team: Indonesian <id@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "Pencetak"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "Keluar"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "Keluar xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "Tentang"
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "Tentang xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "Tampilkan informasi tentang xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:134
+msgid "Printer manager"
+msgstr "Manajer Pencetak"
+
+#: ../libxfprint/printer-list-window.c:200
+msgid "Alias name"
+msgstr "Nama alias"
+
+#: ../libxfprint/printer-list-window.c:204
+#: ../libxfprint/printer-queue-window.c:212
+msgid "State"
+msgstr "Kondisi"
+
+#: ../libxfprint/printer-list-window.c:258
+msgid "Xfprint printers manager"
+msgstr "Manajer pencetak Xfprint"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:263
+msgid "Former maintainer"
+msgstr "Pengelola sebelumnya"
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Maintainer"
+msgstr "Pengelola"
+
+#: ../libxfprint/printer-list-window.c:327
+msgid "Unknown"
+msgstr "Tak diketahui"
+
+#: ../libxfprint/printer-list-window.c:330
+msgid "Idle"
+msgstr "Tak aktif"
+
+#: ../libxfprint/printer-list-window.c:333
+msgid "Processing"
+msgstr "Memproses"
+
+#: ../libxfprint/printer-list-window.c:336
+msgid "Stopped"
+msgstr "Berhenti"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "Tutup"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "Tutup jendela antrean"
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr "Tugas"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:380
+#: ../libxfprint/printer-queue-window.c:384
+msgid "Remove job"
+msgstr "Hapus tugas"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "Hapus tugas terpilih dari antrean"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "Segar"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "Segarkan antrean"
+
+#: ../libxfprint/printer-queue-window.c:121
+#: ../libxfprint/printer-queue-window.c:533
+msgid "Queue Manager"
+msgstr "Manajer Antrean"
+
+#: ../libxfprint/printer-queue-window.c:202
+msgid "Name"
+msgstr "Nama"
+
+#: ../libxfprint/printer-queue-window.c:206
+msgid "ID"
+msgstr "ID"
+
+#: ../libxfprint/printer-queue-window.c:209
+msgid "User"
+msgstr "Pengguna"
+
+#: ../libxfprint/printer-queue-window.c:215
+msgid "Size"
+msgstr "Ukuran"
+
+#: ../libxfprint/printer-queue-window.c:218
+msgid "Priority"
+msgstr "Prioritas"
+
+#: ../libxfprint/printer-queue-window.c:221
+msgid "Creation time"
+msgstr "Tanggal pembuatan"
+
+#: ../libxfprint/printer-queue-window.c:224
+msgid "Processing time"
+msgstr "Waktu pemrosesan"
+
+#: ../libxfprint/printer-queue-window.c:377
+msgid "Are you sure you want to remove the job "
+msgstr "Anda yakin ingin menghapus tugas"
+
+#: ../libxfprint/printer-queue-window.c:383
+msgid "Don't remove job"
+msgstr "Jangan hapus tugas"
+
+#: ../libxfprint/printer-queue-window.c:390
+msgid "An error occurred while removing job !"
+msgstr "Galat terjadi ketika menghapus tugas !"
+
+#: ../libxfprint/printer-queue-window.c:441
+msgid "pending"
+msgstr "menunggu"
+
+#: ../libxfprint/printer-queue-window.c:444
+msgid "printing"
+msgstr "mencetak"
+
+#: ../libxfprint/printer-queue-window.c:447
+msgid "Kb"
+msgstr "Kb"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "Sistem pencetakan"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "Seleksi Sistem Pencetakan"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "Informasi"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "Deskripsi"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "Versi"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "Penulis"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "Laman"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "Tak ada"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr "Gunakan sistem ini jika anda hanya ingin mencetak berkas."
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "Dukungan sistem pencetakan BSD-LPR untuk Xfprint"
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr "Dukungan sistem pencetakan CUPS untuk Xfprint"
+
+#: ../printing-systems/cups/cups.c:48
+msgid "Set as default printer"
+msgstr "Atur sebagai pencetak standar"
+
+#: ../printing-systems/cups/cups.c:49
+msgid "Set as default CUPS printer"
+msgstr "Atur sebagai pencetak CUPS standar"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "Properti"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "Tampilkan properti pencetak"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "Sandi lewat"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "Pengguna"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "Sandi lewat :"
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr "Anda harus memberikan nama pengguna !"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "Cetak tajuk"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "Tajuk:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "Dasar:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "Judul tengah:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "Judul kiri:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "Judul kanan:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "Kaki halaman tengah:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "Kaki halaman kiri:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "Kaki halaman kanan:"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "Penyandian:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "Cetak semua halaman"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "Cetak halaman dalam batasan dari"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "Potong garis panjang"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "Terjemahkan karakter TAB, BS dan FF"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "Paksa mencetak biner"
+
+#: ../xfprint/main.c:113
+msgid "Select file to print"
+msgstr "Pilih berkas untuk dicetak"
+
+#: ../xfprint/main.c:125
+msgid "The specified file does not exist"
+msgstr "Berkas yang ditentukan tak ada"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "Bahasa:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "Level sorot:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "Level pemotong:"
+
+#: ../xfprint/print_dialog.c:199
+msgid "Save settings"
+msgstr "Simpan pengaturan"
+
+#: ../xfprint/print_dialog.c:207
+msgid "Xfprint"
+msgstr "Xfprint"
+
+#: ../xfprint/print_dialog.c:215
+msgid "Print to:"
+msgstr "Cetak ke:"
+
+#: ../xfprint/print_dialog.c:245
+msgid "Print to file:"
+msgstr "Cetak ke berkas:"
+
+#: ../xfprint/print_dialog.c:275
+msgid "Sheets"
+msgstr "Lembar"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Virtual pages"
+msgstr "Halaman virtual"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Pretty-printing"
+msgstr "Cetak indah"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Input"
+msgstr "Masukan"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Headings"
+msgstr "Tajuk"
+
+#: ../xfprint/print_dialog.c:304
+msgid "Copies:"
+msgstr "Salinan:"
+
+#: ../xfprint/print_dialog.c:311
+msgid "Apply filters"
+msgstr "Terapkan filter"
+
+#: ../xfprint/print_dialog.c:366
+msgid ""
+"Neither the printing system backend or a2ps could be found on your system, "
+"you won't be able to print a file with xfprint !"
+msgstr ""
+"Baik penyokong sistem pencetakan atau a2ps tak dapat ditemukan di sistem "
+"anda, anda tak akan dapat mencetak berkas dengan xfprint !"
+
+#: ../xfprint/print_dialog.c:484
+msgid "An error occurred while trying to print the file"
+msgstr "Galat terjadi ketika mencoba mencetak berkas"
+
+#: ../xfprint/print_dialog.c:521
+msgid "Select file where to print"
+msgstr "Pilih berkas dimana akan dicetak"
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "Ukuran kertas:"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "Potret"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "Pemandangan"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "Kolom:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "Isi kolom dahulu"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "Isi baris dahulu"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "Baris:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "Cetak batas di sekitar kolom"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "Cetak halaman dalam urutan terbalik"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "Nomor garis:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "Garis per halaman:"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "Karakter per garis:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "Ukuran tabulasi:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "Format tak dapat dicetak:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr ""
+"Memungkinkan anda untuk memilih penyokong sistem pencetakan yang akan "
+"digunakan oleh xfprint"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+msgid "Printing System Settings"
+msgstr "Pengaturan Sistem Pencetakan"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+msgid "Xfce 4 Printing System Settings"
+msgstr "Pengaturan Sistem Pencetakan Xfce 4"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+msgid "Print Manager"
+msgstr "Manajer Cetak"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr ""
+"Tampilkan senarai pencetak dan memungkinkan anda untuk mengatur tugas mereka"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+msgid "Xfce 4 Print Manager"
+msgstr "Manajer Cetak Xfce 4"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "Dialog Cetak"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr "Cetak berkas dan memungkinkan anda untuk menata tata letaknya"
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "Dialog Cetak Xfce 4"

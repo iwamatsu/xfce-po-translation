@@ -1,0 +1,173 @@
+dnl $Id: configure.in.in 5349 2008-09-04 07:55:11Z afb $
+dnl
+dnl xfce4-smartpm-plugin - Smart PM plugin for the Xfce panel
+dnl
+dnl (C) 2007 Anders F Bjorklund <afb@users.sourceforge.net>
+dnl
+
+dnl ***************************
+dnl *** Version information ***
+dnl ***************************
+m4_define([smart_version_major], [0])
+m4_define([smart_version_minor], [3])
+m4_define([smart_version_micro], [3])
+m4_define([smart_version_build], [r@REVISION@])
+m4_define([smart_version_tag], [])
+m4_define([smart_vers], [smart_version_major().smart_version_minor().smart_version_micro()])
+m4_define([smart_version], [smart_version_major().smart_version_minor().smart_version_micro()ifelse(smart_version_tag(), [svn], [smart_version_tag()-smart_version_build()], [smart_version_tag()])])
+
+dnl ***************************
+dnl *** Initialize autoconf ***
+dnl ***************************
+AC_COPYRIGHT([Copyright (C) 2007 Anders F Bjorklund])
+AC_INIT([xfce4-smartpm-plugin], [smart_version], [http://bugzilla.xfce.org/], [xfce4-smartpm-plugin])
+AC_PREREQ([2.50])
+AC_CANONICAL_TARGET()
+AC_REVISION([$Id: configure.in.in 5349 2008-09-04 07:55:11Z afb $])
+
+dnl ***************************
+dnl *** Initialize automake ***
+dnl ***************************
+AM_INIT_AUTOMAKE([1.8 dist-bzip2 tar-ustar])
+AM_CONFIG_HEADER([config.h])
+AM_MAINTAINER_MODE()
+
+dnl ********************************
+dnl *** Check for basic programs ***
+dnl ********************************
+AC_PROG_CC()
+AC_PROG_LD()
+AC_PROG_INSTALL()
+AC_PROG_INTLTOOL()
+
+dnl **********************************
+dnl *** Check for standard headers ***
+dnl **********************************
+AC_CHECK_HEADERS([math.h memory.h stdlib.h string.h sys/stat.h \
+                  sys/time.h time.h sys/wait.h])
+
+dnl ************************************
+dnl *** Check for standard functions ***
+dnl ************************************
+AC_CHECK_FUNCS([])
+
+dnl ******************************
+dnl *** Check for i18n support ***
+dnl ******************************
+XDT_I18N([@LINGUAS@])
+
+dnl *******************************
+dnl *** Check for X11 installed ***
+dnl *******************************
+XDT_CHECK_LIBX11_REQUIRE()
+
+dnl ********************************
+dnl *** Check for Smart programs ***
+dnl ********************************
+AC_CHECK_PROG(SMART, smart, smart)
+AC_CHECK_PROG(SMART_UPDATE, smart-update, smart-update)
+AC_CHECK_PROG(SMART_ROOT, smart-root, smart-root)
+
+AC_MSG_CHECKING([Smart version])
+SMART_VERSION="`$ac_cv_prog_SMART --version | sed -e 's/smart //'`"
+AC_MSG_RESULT([$SMART_VERSION])
+AC_SUBST([SMART_VERSION])
+
+dnl *******************************
+dnl *** Check for Sudo programs ***
+dnl *******************************
+AC_CHECK_PROG(SU, su, /bin/su)
+AC_CHECK_PROG(SUDO, sudo, /usr/bin/sudo)
+AC_ARG_VAR(SU, [path to su command])
+AC_ARG_VAR(SUDO, [path to sudo command])
+AC_DEFINE_UNQUOTED(PATH_SU, ["$SU"], [path to su])
+AC_DEFINE_UNQUOTED(PATH_SUDO, ["$SUDO"], [path to sudo])
+
+AC_PATH_PROGS(GKSU, [gksu ktsuss], /usr/bin/gksu)
+AC_PATH_PROGS(GKSUDO, [gksudo], /usr/bin/gksudo)
+AC_ARG_VAR(GKSU, [path to gksu command])
+AC_ARG_VAR(GKSUDO, [path to gksudo command])
+AC_DEFINE_UNQUOTED(PATH_GKSU, ["$GKSU"], [path to gksu])
+AC_DEFINE_UNQUOTED(PATH_GKSUDO, ["$GKSUDO"], [path to gksudo])
+
+dnl ******************************
+dnl *** Check for RPM programs ***
+dnl ******************************
+AC_CHECK_PROG(RPM, rpm, rpm)
+AC_CHECK_PROG(YUM, yum, yum)
+AC_CHECK_PROG(YUMEX, yumex, yumex)
+
+dnl ******************************
+dnl *** Check for DEB programs ***
+dnl ******************************
+AC_CHECK_PROG(DPKG, dpkg, dpkg)
+AC_CHECK_PROG(APT_GET, apt-get, apt-get)
+AC_CHECK_PROG(SYNAPTIC, synaptic, synaptic)
+
+dnl ********************************
+dnl *** Check for Slapt programs ***
+dnl ********************************
+AC_PATH_PROG(SLAPT_GET, slapt-get, slapt-get)
+AC_PATH_PROG(GSLAPT, gslapt, gslapt)
+AC_DEFINE_UNQUOTED(PATH_SLAPT_GET, ["$SLAPT_GET"], [path to slapt-get])
+AC_DEFINE_UNQUOTED(PATH_GSLAPT, ["$GSLAPT"], [path to gslapt])
+
+dnl ***********************************
+dnl *** Check for required packages ***
+dnl ***********************************
+XDT_CHECK_PACKAGE([GTK], [gtk+-2.0], [2.4.0])
+XDT_CHECK_PACKAGE([LIBXFCEGUI4], [libxfcegui4-1.0], [4.3.99.2])
+XDT_CHECK_PACKAGE([LIBXFCE4UTIL], [libxfce4util-1.0], [4.3.99.2])
+XDT_CHECK_PACKAGE([LIBXFCE4PANEL], [libxfce4panel-1.0], [4.3.99.2])
+
+dnl ***********************************
+dnl *** Check for optional packages ***
+dnl ***********************************
+XDT_CHECK_OPTIONAL_PACKAGE([LIBNOTIFY], [libnotify], [0.4.0], [libnotify], [libnotify], "no")
+
+dnl ***********************************
+dnl *** Check for debugging support ***
+dnl ***********************************
+XDT_FEATURE_DEBUG()
+
+dnl *********************************
+dnl *** Substitute platform flags ***
+dnl *********************************
+AC_MSG_CHECKING([PLATFORM_CPPFLAGS])
+AC_MSG_RESULT([$PLATFORM_CPPFLAGS])
+AC_SUBST([PLATFORM_CPPFLAGS])
+AC_MSG_CHECKING([PLATFORM_CFLAGS])
+AC_MSG_RESULT([$PLATFORM_CFLAGS])
+AC_SUBST([PLATFORM_CFLAGS])
+AC_MSG_CHECKING([PLATFORM_LDFLAGS])
+AC_MSG_RESULT([$PLATFORM_LDFLAGS])
+AC_SUBST([PLATFORM_LDFLAGS])
+
+dnl indented to fool intltool-update
+	VER=smart_vers
+	REV=smart_version_build
+
+AC_SUBST([VER])
+AC_SUBST([REV])
+
+AC_OUTPUT([
+Makefile
+redhat/Makefile
+redhat/xfce4-smartpm-plugin.spec
+icons/Makefile
+icons/16x16/Makefile
+icons/48x48/Makefile
+icons/scalable/Makefile
+src/Makefile
+po/Makefile.in
+])
+
+dnl ***************************
+dnl *** Print configuration ***
+dnl ***************************
+echo
+echo "Build Configuration:"
+echo
+echo "* Notify Support:   $xdt_cv_LIBNOTIFY_check"
+echo "* Debug Support:    $enable_debug"
+echo

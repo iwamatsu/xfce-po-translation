@@ -1,0 +1,502 @@
+# Slovak translations for xfprint package.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfprint package.
+# Juraj Brosz <juro@jurajbrosz.info>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-14 15:26+0200\n"
+"PO-Revision-Date: 2008-07-06 16:19+0200\n"
+"Last-Translator: Juraj Brosz <juro@jurajbrosz.info>\n"
+"Language-Team: Slovak <sk-i18n@lists.linux.sk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "Tlačiareň"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "Koniec"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "Ukončiť aplikáciu xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "O aplikácii"
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "O aplikácii xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "Zobraziť informácie o aplikácii xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:140
+msgid "Printer manager"
+msgstr "Správca tlačiarne"
+
+#: ../libxfprint/printer-list-window.c:206
+msgid "Alias name"
+msgstr "Alias"
+
+#: ../libxfprint/printer-list-window.c:210
+#: ../libxfprint/printer-queue-window.c:217
+msgid "State"
+msgstr "Stav"
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Xfprint printers manager"
+msgstr "Správca tlačiarní xfprint"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:269
+msgid "Former maintainer"
+msgstr "Predchádzajúci správca"
+
+#: ../libxfprint/printer-list-window.c:270
+msgid "Maintainer"
+msgstr "Správca"
+
+#: ../libxfprint/printer-list-window.c:271
+msgid "Artist"
+msgstr "Umelec"
+
+#: ../libxfprint/printer-list-window.c:334
+msgid "Unknown"
+msgstr "Neznámy"
+
+#: ../libxfprint/printer-list-window.c:337
+msgid "Idle"
+msgstr "Nečinný"
+
+#: ../libxfprint/printer-list-window.c:340
+msgid "Processing"
+msgstr "Prebieha spracovanie"
+
+#: ../libxfprint/printer-list-window.c:343
+msgid "Stopped"
+msgstr "Zastavené"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "Zavrieť"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "Zavrieť okno fronty"
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr "Úlohy"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:385
+#: ../libxfprint/printer-queue-window.c:389
+msgid "Remove job"
+msgstr "Odstrániť úlohu"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "Odobrať vybranú úlohu z fronty"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "Aktualizovať"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "Aktualizovať frontu"
+
+#: ../libxfprint/printer-queue-window.c:122
+#: ../libxfprint/printer-queue-window.c:538
+msgid "Queue Manager"
+msgstr "Správca fronty"
+
+#: ../libxfprint/printer-queue-window.c:207
+msgid "Name"
+msgstr "Meno"
+
+#: ../libxfprint/printer-queue-window.c:211
+msgid "ID"
+msgstr "ID"
+
+#: ../libxfprint/printer-queue-window.c:214
+msgid "User"
+msgstr "Používateľ"
+
+#: ../libxfprint/printer-queue-window.c:220
+msgid "Size"
+msgstr "Veľkosť"
+
+#: ../libxfprint/printer-queue-window.c:223
+msgid "Priority"
+msgstr "Priorita"
+
+#: ../libxfprint/printer-queue-window.c:226
+msgid "Creation time"
+msgstr "Čas vytvorenia"
+
+#: ../libxfprint/printer-queue-window.c:229
+msgid "Processing time"
+msgstr "Čas vykonania"
+
+#: ../libxfprint/printer-queue-window.c:382
+msgid "Are you sure you want to remove the job "
+msgstr "Ste si istý, že chcete odstrániť úlohu "
+
+#: ../libxfprint/printer-queue-window.c:388
+msgid "Don't remove job"
+msgstr "Neodstrániť úlohu"
+
+#: ../libxfprint/printer-queue-window.c:395
+msgid "An error occurred while removing job !"
+msgstr "Počas odstráňovania úlohy nastala chyba !"
+
+#: ../libxfprint/printer-queue-window.c:446
+msgid "pending"
+msgstr "čakám"
+
+#: ../libxfprint/printer-queue-window.c:449
+msgid "printing"
+msgstr "tlač"
+
+#: ../libxfprint/printer-queue-window.c:452
+msgid "Kb"
+msgstr "Kb"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "Tlačový systém"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "Výber tlačového systému"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "Informácia"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "Popis"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "Verzia"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "Autor"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "Domovská stránka"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "Žiadne"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr "Použite túto tlačovú službu pre tlač do súboru."
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "Podpora tlačového systému BSD-LPR pre Xfprint"
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr "Podpora tlačového systému CUPS pre Xfprint"
+
+#: ../printing-systems/cups/cups.c:48
+msgid "Set as default printer"
+msgstr "Nastaviť ako východziu tlačiareň"
+
+#: ../printing-systems/cups/cups.c:49
+msgid "Set as default CUPS printer"
+msgstr "Nastaviť ako východziu tlačiareň tlačového systému CUPS"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "Vlastnosti"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "Zobraziť vlastnosti tlačiarne"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "Heslo"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "Používateľ :"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "Heslo :"
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr "Musíte zadať užívateľské meno !"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "Hlavičky tlače"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "Hlavička:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "Podklad:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "Záhlavie v strede:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "Záhlavie vľavo:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "Záhlavie vpravo:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "Zápätie v strede:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "Zápätie vľavo:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "Zápätie vpravo:"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "Kódovanie:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "Tlačiť všetky stránky"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "Tlačiť stránky v rozsahu od"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "Vystrihnúť dlhé riadky"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "Interpretovať znaky TAB, BS a FF"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "Vynútiť tlač v binárnej forme"
+
+#: ../xfprint/main.c:116
+msgid "Select file to print"
+msgstr "Vybrať súbor pre tlač"
+
+#: ../xfprint/main.c:128
+msgid "The specified file does not exist"
+msgstr "Špecifikovaný súbor neexistuje"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "Jazyk:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "Úroveň zvýraznenia:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "Úroveň orezania:"
+
+#: ../xfprint/print_dialog.c:204
+msgid "Save settings"
+msgstr "Uložiť nastavenia"
+
+#: ../xfprint/print_dialog.c:212
+msgid "Xfprint"
+msgstr "Xfprint"
+
+#: ../xfprint/print_dialog.c:220
+msgid "Print to:"
+msgstr "Tlačiť do:"
+
+#: ../xfprint/print_dialog.c:250
+msgid "Print to file:"
+msgstr "Tlačiť do súboru:"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Sheets"
+msgstr "Listy"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Virtual pages"
+msgstr "Virtuálne stránky"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Pretty-printing"
+msgstr "Pekná tlač"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Input"
+msgstr "Vstup"
+
+#: ../xfprint/print_dialog.c:300
+msgid "Headings"
+msgstr "Hlavičky"
+
+#: ../xfprint/print_dialog.c:309
+msgid "Copies:"
+msgstr "Kópie:"
+
+#: ../xfprint/print_dialog.c:316
+msgid "Apply filters"
+msgstr "Použiť filtre"
+
+#: ../xfprint/print_dialog.c:371
+msgid ""
+"Neither the printing system backend or a2ps could be found on your system, "
+"you won't be able to print a file with xfprint !"
+msgstr ""
+"V systéme nie je možné nájsť tlačovú službu alebo aplikáciu a2ps."
+"Nebude preto možné vytlačiť súbor pomocou aplikácie xfprint !"
+
+#: ../xfprint/print_dialog.c:486
+msgid "An error occurred while trying to print the file"
+msgstr "Nastala chyba pri tlači do súboru"
+
+#: ../xfprint/print_dialog.c:523
+msgid "Select file where to print"
+msgstr "Vybrať súbor, do ktorého sa bude tlačiť"
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "Veľkosť papiera:"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "Na výšku"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "Na šírku"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "Stĺpce:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "Najskôr vyplniť stĺpce"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "Najskôr vyplniť riadky"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "Riadky:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "Tlačiť okraje okolo stĺpcov"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "Tlačiť stránky v opačnom poradí"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "Čísla riadkov:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "Počet riadkov na stránku:"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "Počet znakov na riadok:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "Veľkosť tabulátora:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "Netlačiteľný formát:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr "Umožní Vám vybrať tlačovú službu systému, ktorú bude používať xfprint"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+msgid "Printing System Settings"
+msgstr "Nastavenie tlačového systému"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+msgid "Xfce 4 Printing System Settings"
+msgstr "Nastavenie tlačového systému Xfce 4"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+msgid "Print Manager"
+msgstr "Správca tlačiarne"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr "Zobrazí zoznam tlačiarní a umožní spracovať ich úlohy"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+msgid "Xfce 4 Print Manager"
+msgstr "Správca tlačiarne v Xfce 4"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "Dialóg tlače"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr "Vytlačí súbor a umožní Vám nastaviť jeho rozloženie"
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "Tlačový dialóg Xfce 4"
+

@@ -1,0 +1,678 @@
+2008-08-25	Mike Massonnet <mmassonnet@gmail.com>
+
+=== Release 0.0.7 ===
+
+2008-08-25	Mike Massonnet <mmassonnet@gmail.com>
+
+Add a right click menu in the Playlist to remove the selected song(s)
+	* src/playlist.c:
+	  - 3 new functions: cb_button_pressed (catches right click),
+	  cb_popup_menu (catches the menu key from the keyboard), and
+	  popup_menu to popup the gtk menu
+	  - (xfmpc_playlist_init): Build a menu with a first item "Remove"
+
+2008-08-25	Mike Massonnet <mmassonnet@gmail.com>
+
+Add a right click menu in the Database Browser to add the selected song(s)
+	* src/dbbrowser.c:
+	  - 3 new functions: cb_button_pressed (catches right click),
+	  cb_popup_menu (catches the menu key from the keyboard), and
+	  popup_menu to popup the gtk menu
+	  - (xfmpc_dbbrowser_init): Build a menu with a first item "Add"
+
+2008-08-24	Mike Massonnet <mmassonnet@gmail.com>
+
+Make the context button behave as the combo box
+	* src/extended-interface.c:
+	  - Rework how the context button behaves against mouse clicks and
+	    keyboard presses, so that it mimics the combo box
+
+2008-08-24	Mike Massonnet <mmassonnet@gmail.com>
+
+Add funky colors on a failed search in the database
+	* configure.in.in:
+	  - Add configure flag --enable-funky-colors
+	* src/dbbrowser.c:
+	  - Highlight the search entry if the query failed
+	  - Highlight also the background if build with --enable-funky-colors
+
+2008-06-01	Mike Massonnet <mmassonnet@gmail.com>
+
+Misc fixes
+	* autogen.sh:
+	  - s,remotes/trunk,git-svn, to fetch the svn revision with git-svn
+	* src/extended-interface.c:
+	  - Forgot to include xfce-arrow-button.h
+	* src/extended-interface.c(position_context_menu):
+	  - Remove ythickness from *y (need to find the good way)
+	  - Check if the menu pops out over the top of screen
+
+2008-06-01	Mike Massonnet <mmassonnet@gmail.com>
+
+Make search feature work with timeout
+	* src/dbbrowser.c(cb_search_entry_changed):
+	  - Initiate a timeout on entry changes to automatically process a search
+
+2008-06-01	Mike Massonnet <mmassonnet@gmail.com>
+
+Add search functions inside XfmpcMpdclient and extend XfmpcDbbrowser
+	* src/mpdclient.c:
+	  - Return the name of the song with new private function _get_formatted_name
+	    (remove duplicates of code)
+	  - New function xfmpc_mpdclient_database_search
+	* src/dbbrowser.c:
+	  - New private boolean is_searching to lock the tree view from updating
+	  - New function xfmpc_dbbrowser_search, makes use of xfmpc_mdclient_search and
+	    populates the tree view
+
+2008-06-01	Mike Massonnet <mmassonnet@gmail.com>
+
+Add search entry
+	* src/dbbrowser.c(xfmpc_dbbrowser_init):
+	  - Add a gtk entry and connect it to new callbacks for signals "activate",
+	    "key-release-event", and "changed"
+	* src/dbbrowser.c(xfmpc_dbbrowser_reload):
+	  - Check if the client is connected before going further in the reload process
+
+2008-05-11	Mike Massonnet <mmassonnet@gmail.com>
+
+Replace the context button image against an arrow
+	* src/Makefile.am,
+	  src/xfce-arrow-button.c,
+	  src/xfce-arrow-button.h:
+	  - Import XfceArrowButton from xfce4-panel with quick modifications
+	* src/extended-interface.c(xfmpc_extended_interface_init):
+	  - Replace gtk_toggle_button_new against xfce_arrow_button_new
+
+2008-04-20	Mike Massonnet <mmassonnet@gmail.com>
+
+=== Release 0.0.6 ===
+
+2008-04-20	Mike Massonnet <mmassonnet@gmail.com>
+
+Fix database refresh
+	* src/mpdclient.c(xfmpc_mpdclient_database_refresh):
+	  - Pass "/" to the refresh function
+
+2008-04-20	Mike Massonnet <mmassonnet@gmail.com>
+
+Fix database refresh
+	* src/mpdclient.c(xfmpc_mpdclient_database_refresh):
+	  - Pass "/" to the refresh function
+
+2008-04-20	Mike Massonnet <mmassonnet@gmail.com>
+
+Detach the context menu in a cleaner way
+	* src/extended-interface.c(xfmpc_extended_interface_dispose),
+	  src/extended-interface.c(xfmpc_extended_interface_finalize):
+	  - Detach the menu (destroys also its childrens)
+	  - Don't destroy the menu on finalize (it prints bad stuff on stderr)
+
+2008-04-20	Mike Massonnet <mmassonnet@gmail.com>
+
+Reload XfmpcDbbrowser on database changes
+	* src/mpdclient.c:
+	  - New signal "database-changed"
+	* src/dbbrowser.c(xfmpc_dbbrowser_init):
+	  - Connect signal "database-changed"
+
+2008-04-19	Mike Massonnet <mmassonnet@gmail.com>
+
+Make Random and Repeat check menu items work
+	* src/mpdclient.c,
+	  src/mpdclient.h:
+	  - Add new signals "repeat" and "random" on changes
+	* src/extended-interface.c,
+	  src/extended-interface.h:
+	  - Add two callbacks on check menu items "activate"
+
+2008-04-06	Mike Massonnet <mmassonnet@gmail.com>
+
+Add context button with an experimental menu
+	* src/extended-interface.c(xfmpc_extended_interface_init):
+	  - Rework the box spacing for the inner children
+	  - Add a GtkToggleButton with a callback cb_context_menu
+	* src/extended-interface.c:
+	  - New callbacks cb_combobox_changed, cb_context_menu, cb_context_menu_detach
+	  - New position function position_menu
+
+2008-04-05	Mike Massonnet <mmassonnet@gmail.com>
+
+Distribute the IDEAS file with the tarballs
+	* Makefile.am:
+	  - Forget to add the new IDEAS file to be distributed
+
+2008-04-05	Mike Massonnet <mmassonnet@gmail.com>
+
+=== Release 0.0.5 ===
+
+2008-04-05	Mike Massonnet <mmassonnet@gmail.com>
+
+Fix src/Makefile.am to compile the -ui.xml files
+	* src/Makefile.am:
+	  - Rules to compile -ui.xml as maintainer mode
+	  - Distribute the .xml files
+
+2008-04-05	Mike Massonnet <mmassonnet@gmail.com>
+
+Rename xfmpc_mpdclient_new to xfmpc_mpdclient_get
+	* src/mpdclient.c,
+	  src/mpdclient.h:
+	  - Rename xfmpc_mpdclient_new to _get as it actually doesn't return new
+	  objects, but increments the ref count
+	* src/dbbrowser.c,
+	  src/extended-interface.c,
+	  src/interface.c,
+	  src/playlist.c:
+	  - Update files to use new name function
+
+2008-04-05	Mike Massonnet <mmassonnet@gmail.com>
+
+Code moving, throw GtkWindow inside main.c and keep XfmpcInterface simpler
+	* src/main.c, src/interface.c:
+	  - Move accelerators to main.c
+	  - Move GtkWindow creation to main.c
+	* src/main.c(main):
+	  - Call gtk_widget_show_all just after a new XfmpcInterface, and later again
+	  for the rest of the ui
+	  - Add a GtkHSeparator between XfmpcInterface and XfmpcExtendedInterface
+
+2008-03-30	Mike Massonnet <mmassonnet@gmail.com>
+
+Forget to unref XfmpcMpdclient on XfmpcExtendedInterface finalize
+	* src/extended-interface.c(xfmpc_extended_interface_finalize):
+	  - Unref XfmpcMpdclient
+
+2008-03-30	Mike Massonnet <mmassonnet@gmail.com>
+
+Fix GTK-Criticals on empty playlist
+	* src/playlist.c(xfmpc_playlist_refresh_current_song):
+	  - Check validity of GtkIter before setting the GtkListStore
+
+2008-03-30	Mike Massonnet <mmassonnet@gmail.com>
+
+Add "Clear Playlist" and "Refresh Database" buttons beneath the combo box
+	* src/interface.c(xfmpc_interface_init):
+	  - Add a GtkHSeparator between XfmpcInterface and XfmpcExtendedInterface
+	* src/mpdclient.c,
+	  src/mpdclient.h:
+	  - Two new functions _playlist_clear and _database_refresh
+	* src/extended-interface.c:
+	  - Add two GtkButton to clear to clear the playlist and refresh the database
+
+2008-03-30	Mike Massonnet <mmassonnet@gmail.com>
+
+Add IDEAS file
+
+2008-03-28	Mike Massonnet <mmassonnet@gmail.com>
+
+=== Release 0.0.4 ===
+
+2008-03-28	Mike Massonnet <mmassonnet@gmail.com>
+
+Add multiple selection to the XfmpcDbbrowser tree view, and go to parent directory with backspace
+	* src/dbbrowser.c(xfmpc_dbbrowser_init):
+	  - Enable rubber banding
+	* src/dbbrowser.c,
+	  src/dbbrowser.h:
+	  - Add new callback cb_key_pressed to add the selected rows on key Return
+	  - New function xfmpc_dbbrowser_add_selected_rows
+	* src/dbbrowser.c(cb_key_pressed):
+	  - Go to parent directory when key GDK_BackSpace is pressed
+
+2008-03-27	Mike Massonnet <mmassonnet@gmail.com>
+
+Fix bug in playlist when there is no current song
+	* src/mpdclient.c(xfmpc_mpdclient_get_pos):
+	  - Return 0 if pos is < 0
+
+2008-03-26	Mike Massonnet <mmassonnet@gmail.com>
+
+Select the row when going to the parent directory
+	* src/dbbrowser.c:
+	  - New property last_wdir to select the right row in the treeview
+
+2008-03-21	Mike Massonnet <mmassonnet@gmail.com>
+
+Add a database browser
+	* src/dbbrowser.c, src/dbbrowser.h,
+	  src/Makefile.am:
+	  - Import initial source files, and add them to Makefile.am
+	  - Current features: browsing, activate row to open a directory or add a song
+	* src/extended-interface.c:
+	  - Remove the "Hello World" widgets from the extended interface and add the
+	  new XfmpcDbbrowser
+	* src/mpdclient.c, src/mpdclient.h:
+	  - New functions _queue_add to add songs to the playlist
+	  - New functions _database_read that returns all the files from a directory
+	* src/preferences.c:
+	  - New preference for XfmpcDbbrowser to remember the last working directory
+
+2008-03-02	Mike Massonnet <mmassonnet@gmail.com>
+
+Fiddle the behavior of key presses on the filter entry.
+	* src/playlist.c(cb_filter_entry_activated):
+	  - Focus the treeview on activate
+	* src/playlist.c(cb_filter_entry_key_released):
+	  - Focus the treeview on escape
+	  - Select the current song if the filter is empty
+
+2008-02-25	Mike Massonnet <mmassonnet@gmail.com>
+
+Correct COPYING licence
+	* COPYING:
+	  - I dunno where I copied COPYING but it sure isn't the right file, here an
+	  updated file with the GNU GPL 2 licence
+
+2008-02-25	Mike Massonnet <mmassonnet@gmail.com>
+
+Fix Ctrl+Q to save the window state
+	* src/interface.c:
+	  - Add a new action function for Ctrl+Q that calls xfmpc_interface_closed
+
+2008-02-25	Mike Massonnet <mmassonnet@gmail.com>
+
+Add a new public function to refresh the current song in the playlist (with bold)
+	* src/playlist.c,
+	  src/playlist.h:
+	  - New public function xfmpc_playlist_refresh_current_song
+	  - Drop code from cb_song_changed and cb_playlist_changed
+	  - Remove the argument gboolean is_current from xfmpc_playlist_append
+
+2008-02-24	Mike Massonnet <mmassonnet@gmail.com>
+
+Add a new callback in XfmpcPlaylist on song changes where the entire playlist doesn't need to be refreshed
+	* src/mpdclient.c,
+	  src/mpdclient.h:
+	  - New public function xfmpc_mpdclient_get_pos to return the position of the
+	  song in the playlist
+	* src/playlist.c:
+	  - (cb_song_changed): New callback connected to the signal "song-changed" of
+	  XfmpcMpdclient
+	  - (cb_playlist_changed): Update callback with xfmpc_mpdclient_get_pos
+
+2008-02-24	Mike Massonnet <mmassonnet@xfce.org>
+
+Fix misc bugs (volume adjustement and fraction of progress bar)
+	[Peter de Ridder]
+	* src/interface.c(xfmpc_interface_init):
+	  - Set adjustement from 0 to 100
+	* src/interface.c(xfmpc_interface_volume_changed),
+	  src/interface.c(xfmpc_interface_set_volume):
+	  - Remove the /100 and *100
+	[Mike Massonnet]
+	* src/interface.c(xfmpc_interface_set_time):
+	  - Don't pass a fraction >1.0
+
+2008-02-23	Mike Massonnet <mmassonnet@xfce.org>
+
+Fix version to 0.0.3 in NEWS file
+
+2008-02-23	Mike Massonnet <mmassonnet@xfce.org>
+
+	* === Release 0.0.3 ===
+
+2008-02-23	Mike Massonnet <mmassonnet@xfce.org>
+
+Activate item within filter entry with enter
+	* src/playlist.c:
+	  - Add a private data "current" to represent the current id in the treeview
+	  - Add gtk entry signal "activate" on filter entry to start the selected song
+	  - Add gtk entry signal "changed" to filter the model
+	* src/mpdclient.c(xfmpc_playlist_select_row):
+	  - Verify that the model isn't empty
+	* src/playlist.c(cb_filter_entry_key_released):
+	  - Move refilter call outside in new callback cb_filter_entry_changed
+	  - Re-select current song on Escape key event
+
+2008-02-20	Mike Massonnet <mmassonnet@xfce.org>
+
+New entry to filter the treeview
+	* src/playlist.c(xfmpc_playlist_init):
+	  - Add a GtkTreeModelFilter between the model and the treeview
+	  - Add a GtkEntry
+	* src/playlist.c(cb_filter_entry_key_released),
+	  src/playlist.c(visible_func_filter_tree):
+	  - New functions
+	  - (cb_filter_entry_key_released): Callback for the new GtkEntry on changes
+	  - (visible_func_filter_tree): Visible function for the filter
+	* src/playlist.c(cb_playlist_changed):
+	  - Check if the new GtkEntry is empty to enable the autocenter
+	* src/playlist.c(cb_row_activated):
+	  - Activate items from the new filter model
+
+2008-02-18	Mike Massonnet <mmassonnet@xfce.org>
+
+Add key event to remove songs in the playlist (GDK_Delete)
+	* src/mpdclient.c,
+	  src/mpdclient.h:
+	  - New functions xfmpc_mpdclient_queue_commit and
+	  xfmpc_mpdclient_queue_remove_id
+	* src/playlist.c(xfmpc_playlist_init):
+	  - Connect signal key-release-event to new callback cb_key_released
+	* src/playlist.c(xfmpc_playlist_delete_selection),
+	  src/playlist.h:
+	  - New function to delete all selected songs in the playlist
+
+2008-02-17	Mike Massonnet <mmassonnet@xfce.org>
+
+New public function xfmpc_playlist_select_row
+	* src/playlist.c,
+	  src/playlist.h:
+	  - Replace COLUMN_IS_CURRENT with COLUMN_WEIGHT
+	  - Move code from cb_playlist_changed to new function xfmpc_playlist_select_row
+
+2008-02-15	Mike Massonnet <mmassonnet@xfce.org>
+
+Remember window size
+	* preferences.c:
+	  - New user preferences LastWindowWidth and LastWindowHeight
+	* interface.c(xfmpc_interface_init):
+	  - Restore last window size
+	* interface.c(xfmpc_interface_state_event):
+	  - Save window size
+
+2008-02-15	Mike Massonnet <mmassonnet@xfce.org>
+
+Add autocenter in playlist (optional)
+	* preferences.c:
+	  - New user preference PlaylistAutocenter
+	* playlist.c:
+	  - Include preferences interface
+	  - (cb_playlist_changed) If preference autocenter is set, scroll to the
+	  current song + select it
+
+2008-02-12	Mike Massonnet <mmassonnet@xfce.org>
+
+Use row-activated signal to change the song in the playlist
+	* src/mpdclient.c,
+	  src/mpdclient.h:
+	  - New function xfmpc_mpdclient_set_id to set the current song
+	* src/playlist.c:
+	  - Connect signal row-activated to new callback cb_row_activated
+
+2008-02-12	Mike Massonnet <mmassonnet@xfce.org>
+
+Display the current song in bold in the playlist
+	* src/mpdclient.c,
+	  src/mpdclient.h:
+	  - New function xfmpc_mpdclient_get_id that returns the current id
+	* src/playlist.c(xfmpc_playlist_init):
+	  - Allow multiple selection in the treeview
+	  - Add new column (IS_CURRENT) and bind it to the attribute weight of both
+	  song and length cell renderers
+	  - Connect to signal song-changed in addition to playlist-changed
+	* src/playlist.c(xfmpc_playlist_append),
+	  src/playlist.h:
+	  - New argument gboolean is_current to use within gtk_list_store_set
+	* src/playlist.c(cb_playlist_changed):
+	  - Get the id of the current song
+	  - Return a gboolean result to xfmpc_playlist_append
+
+2008-02-08	Mike Massonnet <mmassonnet@xfce.org>
+
+	* src/mpdclient.c,
+	  src/mpdclient.h:
+	  - New signal playlist-changed
+	  - New function xfmpc_mpdclient_playlist_read, which returns every entry in
+	  the current playlist once at a time, should be used inside a loop
+	* src/playlist.c:
+	  - Insert a column "position of the song" in the tree model
+	  - Connect to signal playlist-changed to update the tree view
+	  - xfmpc_playlist_init(): Ellipsize + expand "artist - title"
+
+2008-02-07	Mike Massonnet <mmassonnet@xfce.org>
+
+	* src/mpdclient.c(cb_xfmpc_mpdclient_status_changed):
+	  - Move signal song-changed above stopped
+
+2008-02-07	Mike Massonnet <mmassonnet@xfce.org>
+
+	* src/mpdclient.c,
+	  src/mpdclient.h:
+	  - Replace code with StatusField against signals
+	* src/interface.c:
+	  - Connect to XfmpcClient signals
+
+2008-02-06	Mike Massonnet <mmassonnet@xfce.org>
+
+	* xfmpc.desktop.in: Fix desktop entry file (missing semi-colon)
+
+2008-02-06	Mike Massonnet <mmassonnet@xfce.org>
+
+	* src/Makefile.am:
+	  - Add compilation for playlist.{c,h}
+	* src/extended-interface.c:
+	  - Include libxfce4util for the gettext function _()
+	  - (xfmpc_extended_interface_init): Insert an XfmpcPlaylist in the notebook
+	* src/interface.c:
+	  - Fix segfault, forget to use the correct priv pointer
+	* src/playlist.c,
+	  src/playlist.h:
+	  - New XfmpcPlaylist widget (has no interaction with mpd for the moment)
+
+2008-02-01	Mike Massonnet <mmassonnet@xfce.org>
+
+	* src/extended-interface.c, src/extended-interface.h,
+	  src/interface.c, src/interface.h,
+	  src/mpdclient.c, src/mpdclient.h:
+	  - Create the private data structure with g_type_class_add_private instead of
+	    allocating the private structure with g_slice_new
+
+2008-02-01	Mike Massonnet <mmassonnet@xfce.org>
+
+	* src/Makefile.am:
+	  - Add compilation for new files
+	* src/extended-interface.c,
+	  src/extended-interface.h:
+	  - New files
+	* src/interface.c:
+	  - Add a new XfmpcExtendedInterface
+
+2008-01-31	Mike Massonnet <mmassonnet@xfce.org>
+
+	* xfmpc.desktop.in:
+	  - Clean up the desktop entry file
+
+2008-01-30	Mike Massonnet <mmassonnet@xfce.org>
+
+	* src/main.c:
+	  - Fix warnings for missing includes
+
+2008-01-30	Mike Massonnet <mmassonnet@xfce.org>
+
+	* autogen.sh:
+	  - Use remotes/trunk instead of HEAD for the git-svn find-rev command
+
+2008-01-28	Mike Massonnet <mmassonnet@xfce.org>
+
+	* src/interface.c(xfmpc_interface_set_time):
+	  - Use modulo operator to calculate the seconds
+
+2008-01-27	Mike Massonnet <mmassonnet@xfce.org>
+
+	* src/src/preferences.c:
+	  - Add LastWindowStateSticky preference
+	* src/interface.c(xfmpc_interface_init):
+	  - Connect signal "window-state-event" to xfmpc_interface_state_event
+	  - Restore the preference LastWindowStateSticky
+	* src/interface.c(xfmpc_interface_state_event):
+	  - Save the changes of the sticky window state
+	* src/main.c:
+	  - Register transform function from G_TYPE_STRING to G_TYPE_BOOLEAN
+
+2008-01-27	Mike Massonnet <mmassonnet@xfce.org>
+
+	* Makefile.am, xfmpc.desktop.in:
+	  - Add desktop file entry
+
+2008-01-27 Mike Massonnet <mmassonnet@xfce.org>
+
+	* === Release 0.0.2 ===
+	* NEWS, src/Makefile.am:
+	  - Random fixes
+
+2008-01-26 Mike Massonnet <mmassonnet@xfce.org>
+
+	* src/mpdclient.c, src/mpdclient.h, src/interface.c, src/interface.h:
+	  - XfmpcMpdclient is GObjectified
+	  - Each new instance increments the ref count
+
+2008-01-26 Mike Massonnet <mmassonnet@xfce.org>
+
+	* src/mpdclient.c, src/mpdclient.h:
+	  - Remove all the useless reconnections
+	  - Add status functions xfmpc_mpdclient_update_status,
+	    cb_xfmpc_mpdclient_status_changed, and xfmpc_mpdclient_update_status to:
+	    update the current status of mpd, a callback to mark the different status
+	    bits, and a function that returns a boolean to know if a bit was changed
+	    and reset it to 0 as it were read
+	* src/mpdclient.c(xfmpc_mpdclient_connect):
+	  - Send password
+	* src/interface.c:
+	  - Remove _refresh_volume and the delay to update the volume;  instead update
+	    the volume in mpd on value-changed signals from GtkVolumeButton
+	  - Make use of the changes in XfmpcMpdclient inside xfmpc_interface_refresh
+	* src/interface.c(xfmpc_interface_finalize):
+	  - Free XfmpcMpdclient
+
+2008-01-22 Mike Massonnet <mmassonnet@xfce.org>
+
+	* src/Makefile.am, src/preferences.c, src/preferences.h:
+	  - New GObject preferences interface
+	* src/interface.c(xfmpc_interface_class_init),
+	  src/interface.c(xfmpc_interface_finalize):
+	  - New finalize function
+	  - Unref XfmpcPreferences
+	* src/interface.c(xfmpc_interface_init):
+	  - Get a XfmpcPreferences
+	  - Read the position of the window
+	* src/interface.c(xfmpc_interface_closed):
+	  - Save the position of the window
+	* src/main.c:
+	  - Add transformation function G_TYPE_STRING to G_TYPE_INT
+
+2008-01-21 Mike Massonnet <mmassonnet@xfce.org>
+
+	* src/interface-ui.h, src/interface-ui.xml,
+	  src/interface.c:
+	  - Add keybinding Ctrl+V for volume
+
+2008-01-21 Mike Massonnet <mmassonnet@xfce.org>
+
+	* configure.in.in: Bump post-release
+
+2008-01-21 Mike Massonnet <mmassonnet@xfce.org>
+
+	* src/interface-ui.h, src/interface-ui.xml:
+	  - New files, XML reprensents the GtkUIManager, .h is auto-generated with
+	  exo-csource
+	* src/interface.c:
+	  - Add accelerators: Ctrl+B/P/S/F to respectively go backwards, play/pause,
+	  stop, and go forward
+
+2008-01-20 Mike Massonnet <mmassonnet@xfce.org>
+
+	* NEWS: A word about the first release
+
+2008-01-20 Mike Massonnet <mmassonnet@xfce.org>
+
+	* Makefile.am:
+	  - Add bzip support to distcheck
+	* po/POTFILES.skip:
+	  - New file, distcheck failed about translation and src/mpdclient.c
+
+2008-01-19	Mike Massonnet <mmassonnet@xfce.org>
+
+	* === Release 0.0.1 ===
+	* autogen.sh: Use .git/svn revision number if there
+	* configure.in.in: Remove svn version tag
+
+2008-01-19	Mike Massonnet <mmassonnet@xfce.org>
+
+	* AUTHORS, ChangeLog, README, po/ChangeLog:
+	  - Update text files
+
+2008-01-19	Mike Massonnet <mmassonnet@xfce.org>
+
+	* src/interface.c, src/interface.h:
+	  - Set xfmpc_interface_refresh static
+	  - Add static xfmpc_interface_reconnect
+	* src/interface.c(xfmpc_interface_init),
+	  src/interface.c(xfmpc_interface_refresh),
+	  src/mpdclient.c(xfmpc_mpdclient_is_stopped):
+	  - Add messages for stopped and disconnected state
+
+2008-01-18	Mike Massonnet <mmassonnet@xfce.org>
+
+	* src/interface.c:
+	  - Merge xfmpc_interface_set_fraction inside xfmpc_interface_set_time
+
+2008-01-18	Mike Massonnet <mmassonnet@xfce.org>
+
+	* configure.in.in: Bump GTK+ version to 2.12
+	* src/interface.h, src/interface.c:
+	  - Remove xfmpc_interface_volume_scroll_event
+	  - Add xfmpc_interface_volume_changed
+	* src/interface.c(interface_init):
+	  - Insert a GtkVolumeButton as a replacement for the volume button and connect
+	  signal "value-changed" to xfmpc_interface_volume_changed
+	* src/interface.c(xfmpc_interface_set_volume),
+	  src/interface.c(xfmpc_interface_refresh_volume):
+	  - Update code to fit with the GtkVolumeButton
+	* src/interface.c(xfmpc_interface_set_fraction):
+	  - Check value to be between 0 and 1
+
+2008-01-17	Mike Massonnet <mmassonnet@xfce.org>
+
+	* src/interface.c(xfmpc_interface_init):
+	  - Connect signal on progress bar (inside event box) to seek in the track
+	* src/interface.h, src/interface.c:
+	  - New callback xfmpc_interface_progress_box_press_event
+	* src/mpdclient.h, src/mpdclient.c:
+	  - Rename xfmpc_mpdclient_set_track_position to xfmpc_mpdclient_set_song_time
+	  and complete the function
+
+2008-01-17	Mike Massonnet <mmassonnet@xfce.org>
+
+	* THANKS:
+	  - Update stuff
+	* src/Makefile.am:
+	  - Move lines out from foobar_CFLAGS inside INCLUDES
+	  - Add libxfce4util for debug macros
+	* configure.in.in, src/Makefile.am:
+	  - Add libmpd
+	* src/mpdclient.c, src/mpdclient.h:
+	  - New files
+	  - Interface with libmpd
+	* interface.c, interface.h:
+	  - Add an XfmpcMpdclient inside private structure
+	  - Connect signals + write callbacks for control buttons
+	  - Add timeout to refresh the info on the interface
+
+2008-01-16	Mike Massonnet <mmassonnet@xfce.org>
+
+	* src/interface.c, src/interface.h:
+	  - Refine the interface and add several _set methods.
+
+2008-01-15	Mike Massonnet <mmassonnet@xfce.org>
+
+	* src/Makefile.am, src/interface.c, src/main.c:
+	  - Code is runnable and compilable.
+	  - The first interface is done.
+
+2008-01-15	Mike Massonnet <mmassonnet@xfce.org>
+
+	* Makefile.am, configure.in.in, po/POTFILES.in, po/fr.po, po/xfmpc.pot:
+	  - Fix compilation for po files
+	  - Add initial pot template
+	  - Add french translation
+
+2008-01-15	Mike Massonnet <mmassonnet@xfce.org>
+
+	* src/*: Initial code
+
+2008-01-14	Mike Massonnet <mmassonnet@xfce.org>
+
+	* */*: Initial source directory
+

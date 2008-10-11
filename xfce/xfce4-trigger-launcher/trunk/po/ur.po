@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-trigger-launcher\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-18 00:44+0900\n"
+"PO-Revision-Date: 2007-10-28 19:50+0200\n"
+"Last-Translator: Muhammad Ali Makki <makki.ma@gmai.com>\n"
+"Language-Team: Urdu <makki.ma@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Urdu\n"
+"X-Poedit-Country: PAKISTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../panel-plugin/triggerlauncher-old2.c:287
+msgid "Check status every"
+msgstr "حالت چیک کریں ہر"
+
+#: ../panel-plugin/triggerlauncher-old2.c:296
+#: ../panel-plugin/xfce-trigger-launcher-options.c:132
+msgid "seconds"
+msgstr "سیکنڈ"
+
+#: ../panel-plugin/triggerlauncher-old2.c:1005
+msgid "Icon (off)"
+msgstr "آئکن (آف)"
+
+#: ../panel-plugin/triggerlauncher-old2.c:1006
+msgid "Icon (on)"
+msgstr "آئکن (آن)"
+
+#: ../panel-plugin/triggerlauncher-old2.c:1143
+msgid "Two-state Launcher"
+msgstr "دو-حالتی لاؤنچر"
+
+#: ../panel-plugin/xfce-file-chooser-button.c:141
+msgid "Select Icon"
+msgstr "آئکن منتخب کریں"
+
+#: ../panel-plugin/xfce-file-chooser-button.c:146
+msgid "_Select"
+msgstr "_منتخب کریں"
+
+#: ../panel-plugin/xfce-file-chooser-button.c:157
+msgid "(None Selected)"
+msgstr "(کچھ منتخب نہیں)"
+
+#: ../panel-plugin/xfce-launcher-command-entry.c:118
+#, c-format
+msgid "Could not run \"%s\""
+msgstr "\"%s\" کو نہیں چلایا جاسکتا"
+
+#: ../panel-plugin/xfce-launcher-command-entry.c:120
+msgid "Xfce Panel"
+msgstr "ایکسفس پینل"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:127
+msgid "Command To Check Status:"
+msgstr "حالت چیک کرنے کی کمانڈ:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:128
+msgid "Command To Enable:"
+msgstr "فعال کرنے کی کمانڈ:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:129
+msgid "Command To Disable:"
+msgstr "معطل کرنے کی کمانڈ:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:130
+msgid "Command to Poke:"
+msgstr "کمانڈ برائے Poke:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:131
+msgid "Check Interval:"
+msgstr "مدت چیک کریں:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:134
+#: ../panel-plugin/xfce-trigger-launcher-options.c:135
+#: ../panel-plugin/xfce-trigger-launcher-options.c:136
+#: ../panel-plugin/xfce-trigger-launcher-options.c:137
+msgid "Icon:"
+msgstr "آئکن:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:236
+msgid "To Check Status"
+msgstr "حالت چیک کرنے کے لیے"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:237
+msgid "When Disabled"
+msgstr "جب معطل ہو"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:238
+msgid "When Enabled"
+msgstr "جب فعال ہو"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:239
+msgid "When Undefined"
+msgstr "جب غیر معین ہو"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:240
+msgid "When Dodgy"
+msgstr "جب Dodgy ہو"
+
+#: ../panel-plugin/xfce4-trigger-launcher.desktop.in.in.h:1
+msgid "Keeps track of the state of something and can control it"
+msgstr "کسی چیز کی حالت کی خبر اور اسے کنٹرول کرتا ہے"
+
+#: ../panel-plugin/xfce4-trigger-launcher.desktop.in.in.h:2
+msgid "Trigger Launcher Plugin"
+msgstr "ٹریگر لاؤنچر پلگ ان"
+

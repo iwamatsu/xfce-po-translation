@@ -1,0 +1,4 @@
+xfce4-volstatus-icon/main.c
+xfce4-volstatus-icon/xfce-volstatus-common.c
+xfce4-volstatus-icon/xfce-volstatus-dialog.c
+xfce4-volstatus-icon/xfce-volstatus-icon.c

@@ -1,0 +1,8 @@
+xfce4-smartpm-plugin (Smart Package Manager plugin for the Xfce panel)
+
+Plugin for the Xfce 4 panel that checks for package upgrades using the 
+Smart Package Manager, or optionally using some other package manager.
+
+Website: http://goodies.xfce.org/projects/panel-plugins/xfce4-smartpm-plugin
+License: GNU GPL
+Author: Anders F Bjorklund <afb@users.sourceforge.net>

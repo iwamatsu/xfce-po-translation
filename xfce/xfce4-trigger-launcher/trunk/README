@@ -1,0 +1,40 @@
+
+This is a launcher with two states. Like a trigger.
+
+
+You need to set a few commands in the options:
+- a command used to check status
+
+  This command is executed periodically.
+  It's exit code is taken to mean:
+    =0         enabled
+    =255       unknown/broken
+    otherwise  disabled
+
+- a command used to enable
+
+  This command is executed when you click on the launcher 
+  and state was "disabled".
+
+- a command used to disable
+
+  This command is executed when you click on the launcher 
+  and state was "enabled".
+
+- a command used to "wake up"/poke
+
+  This command is executed when you click on the launcher 
+  and state was "dodgy". Dodgy is when the "check status" 
+  command returned "unknown" for too long/didn't return at all.
+
+- check interval
+- icon for state "enabled"
+- icon for state "disabled"
+- icon for state "unknown"
+- icon for state "dodgy"
+
+  Overtime is when the "check status" command returned "unknown" 
+  for too long or didn't return at all.
+
+cheers,
+  Danny <dannym@xfce.org>

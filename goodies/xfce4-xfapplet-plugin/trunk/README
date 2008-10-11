@@ -1,0 +1,101 @@
+XfApplet Plugin
+
+o WHAT IS IT?
+
+XfApplet is a plugin for the Xfce 4 panel. The plugin itself has no special
+functionallity, its only purpose is to enable one to use Gnome applets inside
+the Xfce 4 panel just as they are used inside the Gnome panel.
+
+XfApplet was written for the new version about to be released of the Xfce 4
+panel (4.4), although it should work perfectly with the development version of
+the panel (4.3) from SVN provided that you use a revision >= r19874 (Xfce 4.4
+beta releases are OK). XfApplet DOES NOT WORK with Xfce 4.2 or 4.0, and it won't
+likely be backported to these older versions of Xfce.
+
+o HOW IS IT USED?
+
+After compiling and installing XfApplet (please see INSTALL file for details),
+you should restart Xfce 4 panel in order to reread the available plugins. Then
+you must right click any panel and select "Add New Item": XfApplet should be
+available on the plugin list by now.
+
+After adding XfApplet to the panel, you will get an "empty" XfApplet (displaying
+just an image) because no applet has been selected yet. Right click XfApplet and
+choose "Properties". You should get a dialog displaying all available applets in
+your machine. As you select one by either double-clicking it or clicking the OK
+button in the dialog, XfApplet will start displaying it just like the Gnome
+panel would do it.
+
+At any time you can change the applet being displayed by accessing the
+properties dialog again. You can add as many XfApplets to the panel as you want;
+each one of them is capable of displaying a single Gnome applet.
+
+Notice that by right-clicking XfApplet after any applet has been loaded, you get
+not only Xfce 4 panel's pop menu items but also the items expected from the
+applet itself.
+
+o KNOWN ISSUES
+
+  -> GConf Keys
+  
+Due to some limitations in the Xfce 4 panel plugin API, there is no way for a
+plugin to know when it is definitelly being removed from the panel. As a
+consequence, XfApplet cannot remove the GConf keys created for the applets just
+like the Gnome panel does. After a long time adding and removing several
+XfApplets to the panel, you may get a lot of unused GConf entries. XfApplet can
+give you some help removing them provided that you help it too ;)
+
+All GConf keys created for the applets have the following form:
+
+	/apps/xfapplet/applet_%d
+
+where '%d' is an integer (0, 1, 2, 3, etc.). Inside this directory, there can be
+up to 3 other entries:
+
+	in_use: boolean, indicates that it is being used. After you remove
+	  XfApplet from the Xfce 4 panel, you can uncheck this and XfApplet will
+	  automatically remove the entire directory.
+	name: string, the name of the applet loaded. This is not used at all; it
+	  is just a hint to let you know which XfApplet this entry corresponds
+	  to.
+	prefs: directory, this is optional and created by the applet to store
+	  its preferences.
+
+So, as stated above, to have any XfApplet GConf key erased is just a matter of
+unchecking /apps/xfapplet/applet_%d/in_use. Of course you are free to use any
+other appropriate methods you prefer to remove the keys (like manually editing
+your GConf xml file).
+
+  -> Tasklist applet and Systray applet (and maybe others)
+
+XfApplet is currently not able to display correctly applets that require to be
+expanded on the panel. This is the particular case of the Tasklist applet (there
+may be others too). XfApplet also does not draw a handle for the applets that
+request it; the only ones I know that request them are the Tasklist and Systray
+applets.
+
+By know, you will have to cope with this limitations, next version of XfApplet
+should fix this. Anyway, the only applets that seem to be affected by these are
+the Tasklist and Systray applets, but Xfce 4 panel has native plugins for these
+so you you'd better use them instead of the applets.
+
+o FEEDBACK
+
+I would really like any feedback on XfApplet use: features request, bug reports,
+etc.. You can either mail me directly (please see AUTHORS file) or use one of
+the following mailing lists:
+
+	Xfce 4 users list:		xfce@xfce.org
+	Xfce 4 development list:	xfce4-dev@xfce.org
+	Xfce 4 Goodies development:	xfce-goodies-dev@berlios.de
+
+You'll need to be subscribed to the lists, please visit http://www.xfce.org or
+http://xfce-goodies.berlios.de to do it.
+
+To report XfApplet bugs, you can use the bug tracker at
+http://xfce-goodies.berlios.de. Just file a bug under the xfce4-xfapplet-plugin
+category.
+
+Thanks for your interest in XfApplet. I hope you like it ;)
+
+

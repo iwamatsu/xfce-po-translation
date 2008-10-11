@@ -1,0 +1,7 @@
+# List of source files containing translatable strings.
+
+xfce4-about/info.c
+xfrun/xfrun.c
+xfrun/xfrun-dbus.c
+xfrun/xfrun-dialog.c
+xfce.desktop.in

@@ -1,0 +1,101 @@
+# Polish translations for teatime-plugin package.
+# Copyright (C) 2006 THE teatime-plugin'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the teatime-plugin package.
+# Piotr Maliński <admin@rk.edu.pl>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: teatime-plugin 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:29+0200\n"
+"PO-Revision-Date: 2006-04-08 12:19+0900\n"
+"Last-Translator: Piotr Maliński <admin@rk.edu.pl>\n"
+"Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/interface.c:69
+msgid "Edit properties"
+msgstr "Edytuj ustawienia"
+
+#: ../src/interface.c:75
+msgid "<b>Xfteatime</b>"
+msgstr "<b>Xfteatime</b>"
+
+#: ../src/interface.c:103
+msgid "Tea can"
+msgstr "Puszka Herbary"
+
+#: ../src/interface.c:109
+msgid "Coffee can"
+msgstr "Puszka Kawy"
+
+#: ../src/interface.c:115
+msgid "Stove"
+msgstr ""
+
+#: ../src/interface.c:128
+msgid "/usr/share/icons/image.png"
+msgstr "/usr/share/icons/image.png"
+
+#: ../src/interface.c:142
+msgid "<b>Icon image</b>"
+msgstr "<b>Ikona</b>"
+
+#: ../src/interface.c:168
+msgid "Just a minute, please (1 minute)"
+msgstr "Za minutkę... (1 minuta)"
+
+#: ../src/interface.c:169
+msgid "Assam tea (2 minutes)"
+msgstr "Herbata Assam (2 minuty)"
+
+#: ../src/interface.c:170
+msgid "Coffee (5 minutes)"
+msgstr "Kawa (5 minut)"
+
+#: ../src/interface.c:171
+msgid "Italian noodles (10 minutes)"
+msgstr "Spagetti (10 minut)"
+
+#: ../src/interface.c:172
+msgid "Pizza (12 minutes)"
+msgstr "Pizza (12 minut)"
+
+#: ../src/interface.c:173
+msgid "Turkey (2 hours)"
+msgstr "Kurczak (2 godziny)"
+
+#: ../src/interface.c:175
+msgid "after"
+msgstr "po"
+
+#: ../src/interface.c:184
+msgid "seconds"
+msgstr "sekund"
+
+#: ../src/interface.c:192
+msgid "per"
+msgstr "na"
+
+#: ../src/interface.c:196
+msgid "System bell"
+msgstr "Dzwonek systemowy"
+
+#: ../src/interface.c:200
+msgid "Popup window"
+msgstr "Okienko popup"
+
+#: ../src/interface.c:204
+msgid "Blinking image"
+msgstr "Migający obrazek"
+
+#: ../src/interface.c:208
+msgid "<b>Notification</b>"
+msgstr "<b>Powiadomienie</b>"
+
+#: ../src/support.c:90 ../src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Nie mogę otworzyć pliku: %s"

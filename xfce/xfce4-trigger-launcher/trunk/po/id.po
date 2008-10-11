@@ -1,0 +1,114 @@
+# Indonesian translation of the xfce4-trigger-launcher package.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfce4-trigger-launcher package.
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-trigger-launcher 4.3.90.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-18 00:44+0900\n"
+"PO-Revision-Date: 2008-05-25 20:19+0700\n"
+"Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
+"Language-Team: Indonesian <id@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../panel-plugin/triggerlauncher-old2.c:287
+msgid "Check status every"
+msgstr "Cek status setiap"
+
+#: ../panel-plugin/triggerlauncher-old2.c:296
+#: ../panel-plugin/xfce-trigger-launcher-options.c:132
+msgid "seconds"
+msgstr "detik"
+
+#: ../panel-plugin/triggerlauncher-old2.c:1005
+msgid "Icon (off)"
+msgstr "Ikon (padam)"
+
+#: ../panel-plugin/triggerlauncher-old2.c:1006
+msgid "Icon (on)"
+msgstr "Ikon (hidup)"
+
+#: ../panel-plugin/triggerlauncher-old2.c:1143
+msgid "Two-state Launcher"
+msgstr "Peluncur dua-tingkat"
+
+#: ../panel-plugin/xfce-file-chooser-button.c:141
+msgid "Select Icon"
+msgstr "Pilih Ikon"
+
+#: ../panel-plugin/xfce-file-chooser-button.c:146
+msgid "_Select"
+msgstr "Pilih (_S)"
+
+#: ../panel-plugin/xfce-file-chooser-button.c:157
+msgid "(None Selected)"
+msgstr "(Tak Ada Terpilih)"
+
+#: ../panel-plugin/xfce-launcher-command-entry.c:118
+#, c-format
+msgid "Could not run \"%s\""
+msgstr "Tak dapat menjalankan \"%s\""
+
+#: ../panel-plugin/xfce-launcher-command-entry.c:120
+msgid "Xfce Panel"
+msgstr "Panel Xfce"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:127
+msgid "Command To Check Status:"
+msgstr "Perintah Untuk Cek Status:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:128
+msgid "Command To Enable:"
+msgstr "Perintah Untuk Aktifkan:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:129
+msgid "Command To Disable:"
+msgstr "Perintah Untuk Non Aktifkan:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:130
+msgid "Command to Poke:"
+msgstr "Perintah untuk Sentuh:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:131
+msgid "Check Interval:"
+msgstr "Cek Interval:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:134
+#: ../panel-plugin/xfce-trigger-launcher-options.c:135
+#: ../panel-plugin/xfce-trigger-launcher-options.c:136
+#: ../panel-plugin/xfce-trigger-launcher-options.c:137
+msgid "Icon:"
+msgstr "Ikon"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:236
+msgid "To Check Status"
+msgstr "Untuk Cek Status"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:237
+msgid "When Disabled"
+msgstr "Ketika Dinonaktifkan"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:238
+msgid "When Enabled"
+msgstr "Ketika Diaktifkan"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:239
+msgid "When Undefined"
+msgstr "Ketika Tak Didefinisikan"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:240
+msgid "When Dodgy"
+msgstr "Ketika Macet"
+
+#: ../panel-plugin/xfce4-trigger-launcher.desktop.in.in.h:1
+msgid "Keeps track of the state of something and can control it"
+msgstr "Memantau kondisi sesuatu dan yang dapat mengendalikannya"
+
+#: ../panel-plugin/xfce4-trigger-launcher.desktop.in.in.h:2
+msgid "Trigger Launcher Plugin"
+msgstr "Plugin Peluncur Pemicu"
+

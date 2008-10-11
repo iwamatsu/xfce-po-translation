@@ -1,0 +1,502 @@
+# Ukrainian translation of xfprint.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfprint package.
+# Maxim Dziumanenko <mvd@mylinux.ua>, 2003-2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-14 15:26+0200\n"
+"PO-Revision-Date: 2004-01-06 01:40+0200\n"
+"Last-Translator: Maxim Dziumanenko <mvd@mylinux.ua>\n"
+"Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "Принтер"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "Вийти"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "Вийти з xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "Про програму"
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "Про xfprint-manager"
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "Відобразити інформацію про xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:140
+msgid "Printer manager"
+msgstr "Менеджер друку"
+
+#: ../libxfprint/printer-list-window.c:206
+msgid "Alias name"
+msgstr "Псевдонім"
+
+#: ../libxfprint/printer-list-window.c:210
+#: ../libxfprint/printer-queue-window.c:217
+msgid "State"
+msgstr "Стан"
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Xfprint printers manager"
+msgstr "Менеджер принтерів Xfprint"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:269
+msgid "Former maintainer"
+msgstr "Колишній супроводжуючий"
+
+#: ../libxfprint/printer-list-window.c:270
+msgid "Maintainer"
+msgstr "Супроводжуючий"
+
+#: ../libxfprint/printer-list-window.c:271
+msgid "Artist"
+msgstr "Художник"
+
+#: ../libxfprint/printer-list-window.c:334
+msgid "Unknown"
+msgstr "Невідомо"
+
+#: ../libxfprint/printer-list-window.c:337
+msgid "Idle"
+msgstr "Простій"
+
+#: ../libxfprint/printer-list-window.c:340
+msgid "Processing"
+msgstr "Обробка"
+
+#: ../libxfprint/printer-list-window.c:343
+msgid "Stopped"
+msgstr "Зупинено"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "Закрити"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "Закрити вікно черги"
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr "Завдання"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:385
+#: ../libxfprint/printer-queue-window.c:389
+msgid "Remove job"
+msgstr "Видалити завдання"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "Видалити виділені завдання з черги"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "Оновити"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "Оновити чергу"
+
+#: ../libxfprint/printer-queue-window.c:122
+#: ../libxfprint/printer-queue-window.c:538
+msgid "Queue Manager"
+msgstr "Черга друку"
+
+#: ../libxfprint/printer-queue-window.c:207
+msgid "Name"
+msgstr "Назва"
+
+#: ../libxfprint/printer-queue-window.c:211
+msgid "ID"
+msgstr "ID"
+
+#: ../libxfprint/printer-queue-window.c:214
+msgid "User"
+msgstr "Користувач"
+
+#: ../libxfprint/printer-queue-window.c:220
+msgid "Size"
+msgstr "Розмір"
+
+#: ../libxfprint/printer-queue-window.c:223
+msgid "Priority"
+msgstr "Пріоритет"
+
+#: ../libxfprint/printer-queue-window.c:226
+msgid "Creation time"
+msgstr "Час створення"
+
+#: ../libxfprint/printer-queue-window.c:229
+msgid "Processing time"
+msgstr "Час обробки"
+
+#: ../libxfprint/printer-queue-window.c:382
+msgid "Are you sure you want to remove the job "
+msgstr "Ви дійсно бажаєте видалити завдання з черги друку?"
+
+#: ../libxfprint/printer-queue-window.c:388
+msgid "Don't remove job"
+msgstr "Не видаляти"
+
+#: ../libxfprint/printer-queue-window.c:395
+msgid "An error occurred while removing job !"
+msgstr "Помилка видалення завдання друку!"
+
+#: ../libxfprint/printer-queue-window.c:446
+msgid "pending"
+msgstr "у черзі"
+
+#: ../libxfprint/printer-queue-window.c:449
+msgid "printing"
+msgstr "друк"
+
+#: ../libxfprint/printer-queue-window.c:452
+msgid "Kb"
+msgstr "кБ"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "Система друку"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "Вибір системи друку"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "Інформація"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "Опис"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "Версія"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "Автор"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "Домашня сторінка"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "Немає"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr "Використовувати цей драйвер, якщо ви бажаєте надрукувати файл."
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "Підтримка системи друку BSD-LPR для Xfprint"
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr "Підтримка системи друку CUPS для Xfprint"
+
+#: ../printing-systems/cups/cups.c:48
+msgid "Set as default printer"
+msgstr "Встановити як типовий принтер"
+
+#: ../printing-systems/cups/cups.c:49
+msgid "Set as default CUPS printer"
+msgstr "Встановити як типовий принтер CUPS"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "Властивості"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "Показати властивості принтера"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "Пароль"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "Користувач:"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "Пароль:"
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr "Необхідно вказати ім'я користувача !"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "Друкувати заголовки"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "Заголовок:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "Нижній колонтитул:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "Центральний заголовок:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "Лівий заголовок:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "Правий заголовок:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "Центральний нижній колонтитул:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "Лівий нижній колонтитул:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "Правий нижній колонтитул:"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "Кодування:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "Друкувати всі сторінки"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "Друкувати діапазон сторінок з"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "Обрізати довгі рядки"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "Інтерпретувати символи табуляції, забою, переводу каретки"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "Друкувати у двійковому форматі"
+
+#: ../xfprint/main.c:116
+msgid "Select file to print"
+msgstr "Виберіть файл для друку"
+
+#: ../xfprint/main.c:128
+msgid "The specified file does not exist"
+msgstr "Вказаний файл не існує"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "Мова:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "Рівень підсвічення:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "Рівень відсікання:"
+
+#: ../xfprint/print_dialog.c:204
+msgid "Save settings"
+msgstr "Зберегти параметри"
+
+#: ../xfprint/print_dialog.c:212
+msgid "Xfprint"
+msgstr "Xfprint"
+
+#: ../xfprint/print_dialog.c:220
+msgid "Print to:"
+msgstr "Друкувати у:"
+
+#: ../xfprint/print_dialog.c:250
+msgid "Print to file:"
+msgstr "Друк у файл:"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Sheets"
+msgstr "Аркуші"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Virtual pages"
+msgstr "Віртуальні сторінки"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Pretty-printing"
+msgstr "Гарний друк"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Input"
+msgstr "Вхід"
+
+#: ../xfprint/print_dialog.c:300
+msgid "Headings"
+msgstr "Заголовки"
+
+#: ../xfprint/print_dialog.c:309
+msgid "Copies:"
+msgstr "Кількість копій:"
+
+#: ../xfprint/print_dialog.c:316
+msgid "Apply filters"
+msgstr "Застосувати фільтри"
+
+#: ../xfprint/print_dialog.c:371
+msgid ""
+"Neither the printing system backend or a2ps could be found on your system, "
+"you won't be able to print a file with xfprint !"
+msgstr ""
+"Ані система друку, ані a2ps не знайдені у вашій системі, ви не зможете "
+"друкувати файл через xfprint !"
+
+#: ../xfprint/print_dialog.c:486
+msgid "An error occurred while trying to print the file"
+msgstr "Помилка при спробі друку файлу"
+
+#: ../xfprint/print_dialog.c:523
+msgid "Select file where to print"
+msgstr "Виберіть файл у який друкувати"
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "Розмір паперу:"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "Книжна"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "Альбомна"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "Стовпчиків:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "Першими заповнювати стовпчики"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "Першими заповнювати рядки"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "Рядків:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "Виводити рамки навколо стовпчиків"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "Виводити сторінки у зворотному порядку"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "Кількість рядків:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "Рядків на сторінку:"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "Символів на рядок:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "Розмір табуляції:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "Формат не друкованих символів:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr ""
+"Дозволяє вибрати драйвер системи друку, який буде використовувати xfprint"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+msgid "Printing System Settings"
+msgstr "Параметри системи друку"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+msgid "Xfce 4 Printing System Settings"
+msgstr "Параметри системи друку Xfce 4"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+msgid "Print Manager"
+msgstr "Менеджер друку"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr "Показа списку принтерів та керування завданнями друку"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+msgid "Xfce 4 Print Manager"
+msgstr "Менеджер друку для Xfce 4"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "Діалогове вікно друку"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr "Друк файлів та встановлення їх розташування"
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "Діалогове вікно друку для Xfce 4"

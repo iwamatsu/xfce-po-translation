@@ -1,0 +1,104 @@
+# .pot file for the xfce-radio-plugin
+# Copyright (C) 2006 Stefan Ott
+# This file is distributed under the same license as the xfce4-radio-plugin
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce-radio-plugin 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:29+0200\n"
+"PO-Revision-Date: 2006-07-28 23:44+0800\n"
+"Last-Translator: Cosmo Chene <cosmolax@gmail.com>\n"
+"Language-Team: Tradictional Chinese <zh-l10n@linux.org.tw>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../panel-plugin/radio.c:78
+msgid "Not tuned"
+msgstr "尚未開頻"
+
+#: ../panel-plugin/radio.c:100
+msgid "- off -"
+msgstr "- off -"
+
+#: ../panel-plugin/radio.c:118
+msgid "Error opening radio device"
+msgstr "開啟聽廣播裝置時發生錯誤"
+
+#: ../panel-plugin/radio.c:236 ../panel-plugin/radio.c:267
+#: ../panel-plugin/radio.c:467
+msgid "Add preset"
+msgstr "加入頻道"
+
+#: ../panel-plugin/radio.c:242 ../panel-plugin/radio.c:273
+msgid "Station name:"
+msgstr "電台名稱:"
+
+#: ../panel-plugin/radio.c:294
+msgid "There is already a preset with this frequency."
+msgstr "這個調頻已經設好頻道了。"
+
+#: ../panel-plugin/radio.c:332
+msgid "Tune radio"
+msgstr "調頻廣播"
+
+#: ../panel-plugin/radio.c:338
+msgid "Frequency [MHz]:"
+msgstr "調頻 [MHz]:"
+
+#: ../panel-plugin/radio.c:361
+msgid "Illegal frequency."
+msgstr "不合法的調頻"
+
+#: ../panel-plugin/radio.c:438
+msgid "Presets"
+msgstr "頻道"
+
+#: ../panel-plugin/radio.c:474
+msgid "Delete active preset"
+msgstr "刪除已有的頻道"
+
+#: ../panel-plugin/radio.c:481
+msgid "Rename active preset"
+msgstr "重新命名已有的頻道"
+
+#: ../panel-plugin/radio.c:493
+msgid "Tune to frequency"
+msgstr "切換調頻功率"
+
+#: ../panel-plugin/radio.c:720
+msgid "Properties"
+msgstr "功能選項"
+
+#: ../panel-plugin/radio.c:739
+msgid "V4L device"
+msgstr "V4L 裝置"
+
+#: ../panel-plugin/radio.c:745
+msgid "Display signal strength"
+msgstr "顯示訊號強度"
+
+#: ../panel-plugin/radio.c:756
+msgid "yes"
+msgstr "是"
+
+#: ../panel-plugin/radio.c:765
+msgid "no"
+msgstr "否"
+
+#: ../panel-plugin/radio.c:775
+msgid "Execute command after shutdown"
+msgstr "關閉時執行指令"
+
+#: ../panel-plugin/radio.c:787
+msgid "Mouse scrolling changes"
+msgstr "滑鼠滾動時切換"
+
+#: ../panel-plugin/radio.c:799
+msgid "frequency"
+msgstr "頻率"
+
+#: ../panel-plugin/radio.c:807
+msgid "preset"
+msgstr "頻道"

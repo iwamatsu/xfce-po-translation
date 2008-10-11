@@ -1,0 +1,105 @@
+# German translations for xfvnc package.
+# Copyright (C) 2008 THE Xfvnc'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfvnc package.
+# Enrico Tröger <enrico.troeger@uvena.de>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfvnc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-12 08:46+0100\n"
+"PO-Revision-Date: 2008-03-12 08:03+0100\n"
+"Last-Translator: Enrico Tröger <enrico.troeger@uvena.de>\n"
+"Language-Team: German <de@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../xfvnc/main.c:81
+msgid "Connected.  Starting session..."
+msgstr "Verbunden. Starte Sitzung..."
+
+#: ../xfvnc/main.c:105
+#, c-format
+msgid "XfVNC .:. %s"
+msgstr "XfVNC .:. %s"
+
+#: ../xfvnc/main.c:144
+msgid "Disconnected"
+msgstr "Nicht verbunden"
+
+#: ../xfvnc/main.c:146
+msgid "The remote VNC session was disconnected"
+msgstr "Die entfernte VNC-Verbindung wurde getrennt"
+
+#: ../xfvnc/main.c:147
+msgid ""
+"The connection with the VNC server was lost.  This could be due to a network "
+"problem, or a problem with the server."
+msgstr ""
+"Die Verbindung zum VNC-Server wurde unterbrochen. Das kann durch ein "
+"Netzwerkproblem oder ein Problem mit dem Server passiert sein."
+
+#: ../xfvnc/main.c:166
+msgid "Connection Error"
+msgstr "Verbindungsfehler"
+
+#: ../xfvnc/main.c:168
+msgid "There was an error connecting to the VNC server"
+msgstr "Beim Verbinden zum VNC-Server ist ein Fehler aufgetreten"
+
+#: ../xfvnc/main.c:169
+msgid "Unfortunately, the type of error is unknown."
+msgstr "Leider ist die Art des Fehlers nicht bekannt."
+
+#: ../xfvnc/xfvnc.desktop.in.h:1
+msgid "VNC Viewer"
+msgstr "VNC Betrachter"
+
+#: ../xfvnc/xfvnc.desktop.in.h:2 ../xfvnc/xfvnc.glade.h:4
+msgid "XfVNC"
+msgstr "XfVNC"
+
+#: ../xfvnc/xfvnc.desktop.in.h:3
+msgid "Xfce VNC Viewer Application"
+msgstr "Xfce VNC Betrachteranwendung"
+
+#: ../xfvnc/xfvnc.glade.h:1
+msgid "Connecting..."
+msgstr "Verbinde..."
+
+#: ../xfvnc/xfvnc.glade.h:2
+msgid "Display _number:"
+msgstr "_Display-Nummer:"
+
+#: ../xfvnc/xfvnc.glade.h:3
+msgid "Show _fullscreen"
+msgstr "Vollbild_modus"
+
+#: ../xfvnc/xfvnc.glade.h:5
+msgid "XfVNC Status"
+msgstr "XfVNC Status"
+
+#: ../xfvnc/xfvnc.glade.h:6
+msgid "Xfce VNC Viewer"
+msgstr "Xfce VNC Betrachter"
+
+#: ../xfvnc/xfvnc.glade.h:7
+msgid "_Allow other clients to connect"
+msgstr "_Anderen Clients erlauben sich zu verbinden"
+
+#: ../xfvnc/xfvnc.glade.h:8
+msgid "_Computer name:"
+msgstr "_Computer-Name:"
+
+#: ../xfvnc/xfvnc.glade.h:9
+msgid "_Password:"
+msgstr "_Passwort:"
+
+#: ../xfvnc/xfvnc.glade.h:10
+msgid "_Recent computers:"
+msgstr "_Zuletzt benutzte Computer:"
+
+#: ../xfvnc/xfvnc.glade.h:11
+msgid "_View only"
+msgstr "_Nur Ansicht (nicht-interaktiv)"

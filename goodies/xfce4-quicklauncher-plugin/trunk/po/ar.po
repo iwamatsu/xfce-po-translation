@@ -1,0 +1,80 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-05-17 21:37+0200\n"
+"PO-Revision-Date: 2008-07-15 22:30+0200\n"
+"Last-Translator: Mohamed Magdy <mohamedmk@gmail.com>\n"
+"Language-Team: Arabeyes <doc@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Arabic\n"
+
+#: ../panel-plugin/callbacks.c:79
+msgid "Configure Quicklauncher"
+msgstr ""
+
+#: ../panel-plugin/callbacks.c:93
+msgid "Lines: "
+msgstr ""
+
+#: ../panel-plugin/callbacks.c:123
+msgid "Espace entre les lanceurs :"
+msgstr ""
+
+#: ../panel-plugin/callbacks.c:131
+msgid "afficher les tooltips"
+msgstr ""
+
+#: ../panel-plugin/callbacks.c:135
+msgid "afficher les labels"
+msgstr ""
+
+#: ../panel-plugin/callbacks.c:216
+msgid "icone"
+msgstr ""
+
+#: ../panel-plugin/callbacks.c:222
+msgid "commande"
+msgstr ""
+
+#: ../panel-plugin/callbacks.c:228
+msgid "nom"
+msgstr ""
+
+#: ../panel-plugin/callbacks.c:327
+msgid "Open icon"
+msgstr ""
+
+#: ../panel-plugin/main.c:163 ../panel-plugin/quicklauncher.desktop.in.in.h:2
+msgid "Quicklauncher"
+msgstr ""
+
+#: ../panel-plugin/main.c:166
+msgid "Allows you to add launchers easily and display them on many lines."
+msgstr ""
+
+#: ../panel-plugin/main.c:168
+msgid "Other plugins available here"
+msgstr ""
+
+#: ../panel-plugin/main.c:320
+msgid "Lock"
+msgstr ""
+
+#: ../panel-plugin/main.c:323
+msgid "Parameters"
+msgstr ""
+
+#: ../panel-plugin/main.c:326
+msgid "Applications"
+msgstr ""
+
+#: ../panel-plugin/main.c:329
+msgid "Help"
+msgstr ""
+
+#: ../panel-plugin/quicklauncher.desktop.in.in.h:1
+msgid "Program with several launchers"
+msgstr ""

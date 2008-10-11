@@ -1,0 +1,90 @@
+# German translations for xfce4-xfapplet-plugin package
+# German messages for xfce.
+# Copyright (C) 2007 Adriano Winter Bess
+# This file is distributed under the same license as the xfce4-xfapplet-plugin
+# package.
+# Fabian Nowak <timystery@arcor.de>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce 4-xfapplet-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:12+0200\n"
+"PO-Revision-Date: 2007-12-18 23:40+0100\n"
+"Last-Translator: Fabian Nowak <timystery@arcor.de>\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. creation of the dialog
+#: ../panel-plugin/chooser.c:444 ../panel-plugin/xfapplet.desktop.in.in.h:2
+msgid "XfApplet"
+msgstr "XfApplet"
+
+#: ../panel-plugin/chooser.c:465
+msgid "Choose an applet"
+msgstr "Wählen Sie ein Applet"
+
+#: ../panel-plugin/chooser.c:474
+msgid ""
+"Choose an applet from the list. If you have already chosen an applet "
+"previously, it will be substituted by the one you choose."
+msgstr ""
+"Wählen Sie ein Applet (kleine Anwendung) aus der Liste. Falls Sie bereits "
+"ein Applet ausgewählt haben, wird es automatisch durch das neugewählte "
+"ersetzt."
+
+#: ../panel-plugin/chooser.c:486
+msgid "Available applets"
+msgstr "Verfügbare Applets"
+
+#: ../panel-plugin/xfapplet.c:148
+#, c-format
+msgid "'%s' has quit unexpectedly."
+msgstr "»%s« wurde unerwartet beendet."
+
+#: ../panel-plugin/xfapplet.c:151
+msgid ""
+"If you don't reload the applet, XfApplet plugin will go back to its initial "
+"empty state."
+msgstr ""
+"Falls Sie das Applet nicht neuladen, kehrt XfApplet zu seinem urspünglichen, "
+"leeren Zustand zurück."
+
+#: ../panel-plugin/xfapplet.c:153
+msgid "Don't Reload"
+msgstr "Nicht neuladen"
+
+#: ../panel-plugin/xfapplet.c:154
+msgid "Reload"
+msgstr "Neuladen"
+
+#: ../panel-plugin/xfapplet.c:477
+msgid "Display Gnome applets on the Xfce4 Panel"
+msgstr "Zeigt Applets der Gnome-Leiste in der Xfce4-Leiste an"
+
+#: ../panel-plugin/xfapplet.c:480
+msgid "Author/Maintainer"
+msgstr "Autor/Maintainer"
+
+#: ../panel-plugin/xfapplet.c:484
+#, c-format
+msgid "Translator (%s)"
+msgstr "Übersetzer (%s)"
+
+#: ../panel-plugin/xfapplet.c:574
+#, c-format
+msgid "'%s' could not be loaded."
+msgstr "»%s« konnte nicht geladen werden."
+
+#: ../panel-plugin/xfapplet.c:577
+msgid "An internal error occurred and the applet could not be loaded."
+msgstr ""
+"Ein interner Fehler hat sich ereignet und das Applet konnte nicht geladen "
+"werden."
+
+#: ../panel-plugin/xfapplet.desktop.in.in.h:1
+msgid "Display Gnome applets in the panel"
+msgstr "Zeigt Gnome-Applets in der Leiste an"

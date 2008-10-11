@@ -1,0 +1,123 @@
+# German translations for xfce4-xkb-plugin package.
+# Copyright (C) 2004-2007 Benedikt Meurer, Alexander Iliev.
+# This file is distributed under the same license as the
+# xfce4-xkb-plugin package.
+# Frank Lanitz <frank@frank.uvena.de>, 2006.
+# Fabian Nowak <timystery@arcor.de>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-xkb-plugin 0.4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-09-24 16:14+0300\n"
+"PO-Revision-Date: 2007-12-18 23:38+0000\n"
+"Last-Translator: Fabian Nowak <timystery@arcor.de>\n"
+"Language-Team:  <frank@frank.uvena.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+
+#: ../panel-plugin/xkb-settings-dialog.c:361
+msgid ""
+"XKB configuration modifications are\n"
+"disabled from the config file.\n"
+"\n"
+"See the README file for more information."
+msgstr ""
+
+#: ../panel-plugin/xkb-settings-dialog.c:387
+#: ../panel-plugin/xkb-plugin.desktop.in.in.h:1
+#, fuzzy
+msgid "Keyboard Layouts"
+msgstr "Tastaturlayoutumschalter"
+
+#: ../panel-plugin/xkb-settings-dialog.c:408
+msgid "Keyboard model:"
+msgstr ""
+
+#: ../panel-plugin/xkb-settings-dialog.c:432
+msgid "Change layout option:"
+msgstr ""
+
+#: ../panel-plugin/xkb-settings-dialog.c:456
+#, fuzzy
+msgid "Keyboard layouts:"
+msgstr "Tastaturlayoutumschalter"
+
+#. ***
+#: ../panel-plugin/xkb-settings-dialog.c:528
+#, fuzzy
+msgid "Show layout as:"
+msgstr "Zeige Layout an als"
+
+#: ../panel-plugin/xkb-settings-dialog.c:533
+msgid "image"
+msgstr "Bild"
+
+#: ../panel-plugin/xkb-settings-dialog.c:534
+msgid "text"
+msgstr "Text"
+
+#: ../panel-plugin/xkb-settings-dialog.c:538
+#, fuzzy
+msgid "Manage layout:"
+msgstr "Standardanordnung: "
+
+#: ../panel-plugin/xkb-settings-dialog.c:543
+msgid "globally"
+msgstr ""
+
+#: ../panel-plugin/xkb-settings-dialog.c:544
+msgid "per window"
+msgstr ""
+
+#: ../panel-plugin/xkb-settings-dialog.c:545
+#, fuzzy
+msgid "per application"
+msgstr "Weitere Optionen"
+
+#: ../panel-plugin/xkb-settings-dialog.c:584
+#, fuzzy
+msgid "Keyboard Layouts Plugin"
+msgstr "Tastaturlayoutumschalter"
+
+#: ../panel-plugin/xkb-settings-dialog.c:590
+msgid "Allows you to configure and use multiple keyboard layouts."
+msgstr ""
+
+#: ../panel-plugin/xkb-settings-dialog.c:594
+msgid "Other plugins available here"
+msgstr "Weitere Plugins kann man hier finden"
+
+#: ../panel-plugin/xkb-settings-dialog.c:643
+msgid "Add layout"
+msgstr ""
+
+#: ../panel-plugin/xkb-plugin.desktop.in.in.h:2
+#, fuzzy
+msgid "Keyboard layouts setup and switch plugin"
+msgstr "Tastaturlayoutumschalter"
+
+#~ msgid ""
+#~ "Allows you to switch the keyboard layout and\n"
+#~ "displays the currently selected layout."
+#~ msgstr ""
+#~ "Bietet die Möglichkeit, das Tastaturlayout zu wechseln, und zeigt das im "
+#~ "Moment aktive Layout an. "
+
+#~ msgid "Configure Keyboard Layout Switcher"
+#~ msgstr "Einstellungen für das Tastaturlayout-Plugin"
+
+#~ msgid "_Remember layout for each application"
+#~ msgstr "_Benutze Anordnung für alle Anwendungen"
+
+#~ msgid "Button to switch the X keyboard layout"
+#~ msgstr "Knopf, um die Anordnung der X-Tastatur zu ändern"
+
+#~ msgid ""
+#~ "Displays the current keyboard layout and switches the layout when clicked"
+#~ msgstr ""
+#~ "Zeigt das aktuelle Tastaturlayout an und erlaubt es, durch einen Klick "
+#~ "das Layout zu wechseln. "

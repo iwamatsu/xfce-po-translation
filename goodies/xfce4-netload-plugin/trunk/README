@@ -1,0 +1,40 @@
+XFce4 Netload plugin
+--------------------
+
+ - A netload plugin for the Xfce4 desktop environment -- http://www.xfce4.org -
+
+Following operating systems are supported:
+ 
+ * Linux
+ * FreeBSD, NetBSD, OpenBSD
+ * Sun Solaris
+ * HP_UX
+ * MacOS X
+
+I have only Linux installed so I can test only on Linux. If you encounter any
+problems on other operating systems (or on Linux, of course) feel free to send
+me an e-mail. If you have a patch to fix it it would be better.
+
+The code for the plugin is based on the sample-plugin from Benedikt Meurer and
+on the xfce4-systemload-plugin from Riccardo Persichetti. The layout is the same
+as the systemload-plugin. This made programming very easy and looks good, too.
+
+The netload code is based on wormulon (a command-line util) from Hendrik Scholz.
+You find this program at http://www.raisdorf.net/wormulon/.
+
+I'm not planning making much improvements in the future so if you want to take
+over developement, just drop me a note. I just programmed it because I needed it
+but I plan to maintain it so that it's running with the most current stable
+release of Xfce.
+
+If you have translations for your language, please mail me. I'll include it in
+the distribution!
+
+And remember:
+
+    Interoperability is the keyword, uniformity is a dead end. 
+        --  Olivier Fourdan <fourdan@xfce.org> (founder of Xfce project)
+
+Have a lot of fun ...
+    Bernhard <bernhard.walle@gmx.de>
+

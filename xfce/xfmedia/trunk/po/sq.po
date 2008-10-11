@@ -1,0 +1,1565 @@
+# Albanian translation of the xfmedia package.
+# Copyright (C) 2004-2005 Brian J. Tarricone.
+# This file is distributed under the same license as the xfmedia package.# Besnik Bleta <besnik@programeshqip.org>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfmedia 0.10.0svn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-06-16 22:22+0900\n"
+"PO-Revision-Date: 2007-01-24 12:22+0200\n"
+"Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
+"Language-Team: Albanian <translation-team-sq@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:102
+#, c-format
+msgid "Status:                  %s\n"
+msgstr "Gjendje:                  %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:106
+#, c-format
+msgid "Now Playing:             %s\n"
+msgstr "Luhet Tani:             %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:111
+#, c-format
+msgid "Filename:                %s\n"
+msgstr "Emër kartele:                %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:112
+#: ../plugins/infopipe/xfmedia-infopipe.c:127
+#: ../plugins/infopipe/xfmedia-infopipe.c:138
+msgid "(none)"
+msgstr "(asnjë)"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:115
+#, c-format
+msgid "Track Position:          %d\n"
+msgstr "Pozicion GJurme:          %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:119
+#, c-format
+msgid "Track Length:            %d\n"
+msgstr "Gjatësi Gjurme:            %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:126
+#, c-format
+msgid ""
+"Audio Codec:             %s\n"
+"Audio Bitrate:           %d\n"
+"Audio Sample Rate:       %d\n"
+"Audio Channels:          %d\n"
+"Audio Bits Per Sample:   %d\n"
+msgstr ""
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:137
+#, c-format
+msgid ""
+"Video Codec:            %s\n"
+"Video Bitrate:          %d\n"
+"Video Frames Per Second: %.02f\n"
+"Video Frame Size:        %dx%d\n"
+"Video Aspect Ratio:      %.02f\n"
+msgstr ""
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:144
+#, c-format
+msgid "Playlist Length:         %d\n"
+msgstr "Gjatësi Luajliste:         %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:148
+#, c-format
+msgid "Current Playlist Index:  %d\n"
+msgstr ""
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:234
+#, c-format
+msgid "Xfmedia-Infopipe: Unable to delete file '%s'."
+msgstr "Xfmedia-Infopipe: I pazoti të fshij kartelën '%s'."
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:245
+#, c-format
+msgid "Xfmedia-Infopipe: Unable to create pipe '%s'."
+msgstr "Xfmedia-Infopipe: I pazoti të krijoj pipë '%s'."
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:262
+msgid "Xfmedia Infopipe"
+msgstr "Xfmedia Infopipe"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:264
+msgid "The Infopipe plugin creates a pipe in /tmp that you can use to retrieve information about the currently playing track."
+msgstr "Shtojca Infopipe krijon një pipë në /tmp të cilën mund ta përdorni për të marrë prej andej të dhëna rreth gjurmës që luhet në një çast të dhënë."
+
+#: ../src/equaliser.c:132
+msgid "Equalizer"
+msgstr ""
+
+#: ../src/equaliser.c:175
+msgid "Preamp"
+msgstr ""
+
+#: ../src/http.c:95
+#, c-format
+msgid "http: failed to open socket: %s\n"
+msgstr "http: dështova në hapjen e \"socket\"-it: %s\n"
+
+#: ../src/http.c:105
+#, c-format
+msgid "http: cannot connect to host\n"
+msgstr "http: s'lidhem dot te streha\n"
+
+#: ../src/http.c:121
+#, c-format
+msgid "http: unable to resolve '%s'\n"
+msgstr "http: i pazoti të ftilloj '%s'\n"
+
+#: ../src/http.c:133
+#, c-format
+msgid "http: unable to connect to '%s'\n"
+msgstr "http: i pazoti të lidhem me '%s'\n"
+
+#: ../src/http.c:311
+#: ../src/http.c:330
+msgid "URL parse error"
+msgstr "gabim përtypjeje URL-je"
+
+#: ../src/http.c:322
+#: ../src/http.c:340
+msgid "proxy authentication error"
+msgstr "gabim mirëfilltësimi ndërmjetësi"
+
+#: ../src/http.c:360
+msgid "host connect error"
+msgstr "gabim lidhjeje me strehën"
+
+#: ../src/http.c:399
+msgid "couldn't send request"
+msgstr "s'dërgova dot kërkesën"
+
+#: ../src/http.c:420
+msgid "read error"
+msgstr "gabim leximi"
+
+#: ../src/http.c:446
+msgid "invalid HTTP response"
+msgstr "përgjigje HTTP e pavlefshme"
+
+#: ../src/http.c:454
+msgid "HTTP 3xx redirection not implemented"
+msgstr "Ridrejtimi HTTP 3xx nuk është vënë ende në jetë"
+
+#: ../src/http.c:461
+msgid "HTTP status is not 2xx"
+msgstr "gjendja e HTTP-së nuk është 2xx"
+
+#: ../src/http.c:480
+msgid "HTTP 'Location:' redirection not implemented"
+msgstr "'Vendndodhje' HTTP: ridrejtimi nuk është vënë ende në jetë"
+
+#. FIXME: report errno, and possibly in a window
+#: ../src/http.c:534
+#, c-format
+msgid "http: read error\n"
+msgstr "http: gabim leximi\n"
+
+#: ../src/main.c:227
+#: ../src/xfmedia-remote.c:102
+#, c-format
+msgid ""
+"Xfmedia %s.  Released under the terms of the GNU GPL.  See the COPYING\n"
+"file for details.\n"
+"\n"
+msgstr ""
+"Xfmedia %s.  Qarkulluar sipas kushteve të GNU GPL-së.  Për hollësi\n"
+"shihni kartelën COPYING.\n"
+"\n"
+
+#: ../src/main.c:228
+#, c-format
+msgid ""
+"Usage: %s [options] [files]\n"
+"\n"
+msgstr ""
+"Përdorim: %s [mundësi] [kartela]\n"
+"\n"
+
+#: ../src/main.c:229
+#: ../src/xfmedia-remote.c:104
+msgid "    -h, --help           Print this help message and exit.\n"
+msgstr "    -h, --help           Shtyp këtë mesazh ndihme dhe dil.\n"
+
+#: ../src/main.c:230
+#: ../src/xfmedia-remote.c:105
+msgid "    -V, --version        Print version information and exit.\n"
+msgstr "    -V, --version        Shtyp të dhëna versioni dhe dil.\n"
+
+#: ../src/main.c:231
+msgid "    -v, --verbose        Instruct xine to print useful status information.\n"
+msgstr "    -v, --verbose        Udhëzo xine-n të shtypë të dhëna të dobishme gjendjeje.\n"
+
+#: ../src/main.c:232
+msgid "    --debug              Instruct xine to print detailed debug information.\n"
+msgstr "    --debug              Udhëzo xine-n të shtypë të dhëna të hollësishme debug-u.\n"
+
+#: ../src/main.c:233
+msgid "    -f, --fullscreen     Start xfmedia's video window in fullscreen mode.\n"
+msgstr "    -f, --fullscreen     Nise të plotë sa ekrani dritaren e videos te xfmedia.\n"
+
+#: ../src/main.c:234
+msgid ""
+"    -p, --autoplay       Start playing when Xfmedia starts.  (This is the\n"
+"                         default if xfmedia is given filenames on the command\n"
+"                         line.)\n"
+msgstr ""
+"    -p, --autoplay       Fillo luajtjen kur niset Xfmedia.  (Kjo është\n"
+"                         parazgjedhja nëse xfmedia-s i jepen emra kartelash\n"
+"                         në rresht urdhrash.)\n"
+
+#: ../src/main.c:237
+msgid "    -c, --clear-playlist Start xfmedia with an empty playlist.\n"
+msgstr "    -c, --clear-playlist Nise xfmedia-n me një luajlistë bosh.\n"
+
+#: ../src/main.c:238
+msgid "    --audio-out=DRIVER   Specify the audio output driver to use.\n"
+msgstr "    --audio-out=PËRUDHËS   Caktoni për përdorim një përudhës përfundimi audio.\n"
+
+#: ../src/main.c:239
+msgid "    --video-out=DRIVER   Specify the video output driver to use.\n"
+msgstr "    --video-out=PËRUDHËS   Caktoni për përdorim një përudhës përfundimi video.\n"
+
+#: ../src/main.c:240
+msgid ""
+"    --vwin-geometry=WxH[+X+Y]\n"
+"                         Specify a fixed size and/or position for xfmedia's\n"
+"                         video window.\n"
+msgstr ""
+"    --vwin-geometry=WxH[+X+Y]\n"
+"                         Caktoni një madhësi të fiksuar dhe/ose vend për dritaren\n"
+"                         e videos në xfmedia.\n"
+
+#: ../src/main.c:315
+#: ../src/xfmedia-remote.c:167
+#, c-format
+msgid "Xfmedia version %s, Copyright (c) Brian Tarricone, <bjt23@cornell.edu>\n"
+msgstr "Verion Xfmedia %s, Të Drejta Kopjimi (c) Brian Tarricone, <bjt23@cornell.edu>\n"
+
+#: ../src/main.c:316
+#: ../src/xfmedia-remote.c:168
+msgid "Released under the terms of the GNU General Public License.\n"
+msgstr "Qarkulluar sipas kushteve të Licensës së Përgjithshme Publike GNU.\n"
+
+#: ../src/main.c:317
+#, c-format
+msgid "Compiled against xine-lib %s, using xine-lib %s.\n"
+msgstr "Përpiluar përkundër xine-lib %s, përdor xine-lib %s.\n"
+
+#: ../src/main.c:319
+#, c-format
+msgid "Compiled against Xfce %d.%d.%d, using Xfce %s.\n"
+msgstr "Përpiluar përkundër Xfce %d.%d.%d, përdor Xfce %s.\n"
+
+#: ../src/main.c:354
+msgid "The option --audio-out requires an argument.\n"
+msgstr "Mundësia --audio-out lyp argument.\n"
+
+#: ../src/main.c:363
+msgid "The option --video-out requires an argument.\n"
+msgstr "Mundësia --video-out lyp argument.\n"
+
+#: ../src/mainwin-callbacks.c:130
+msgid "Unable to play file."
+msgstr "I pazoti të luaj kartelë."
+
+#: ../src/mainwin-callbacks.c:131
+msgid "Xfmedia was unable to play the selected file.  Be sure that the file exists and that you have permission to access it."
+msgstr "Xfmedia nuk qe në gjendje të luante kartelën e përzgjedhur.  Sigurohuni që kartela ekziston dhe që keni leje të mjaftueshme për të hyrë në të."
+
+#: ../src/mainwin-callbacks.c:222
+msgid "Metadata Changed"
+msgstr "Tejtëdhëna të Ndryshuara"
+
+#: ../src/mainwin-callbacks.c:224
+msgid "You have edited this file's metadata."
+msgstr "Përpunuat tejtëdhënat e kësaj kartele."
+
+#: ../src/mainwin-callbacks.c:225
+msgid "Changes will be lost unless they are saved.  Do you wish to save changes?"
+msgstr "Ndryshimet do të humbin po nuk u ruajtën.  Doni të ruhen ndryshimet?"
+
+#: ../src/mainwin-callbacks.c:226
+msgid "_Discard Changes"
+msgstr "_Hidhi Tej Ndryshimet"
+
+#: ../src/mainwin-callbacks.c:227
+msgid "_Save Changes"
+msgstr "_Ruaj Ndryshimet"
+
+#: ../src/mainwin-callbacks.c:285
+#, c-format
+msgid "Xfmedia was unable to open '%s'.  Be sure that the file exists and that you have permission to access it."
+msgstr "Xfmedia nuk qe në gjendje të hapë '%s'.  Sigurohuni që kartela ekziston dhe që keni leje për hapje të saj."
+
+#: ../src/mainwin-callbacks.c:287
+msgid "Unable to open file."
+msgstr "I pazoti të hap kartelë."
+
+#: ../src/mainwin-callbacks.c:308
+msgid "File Info"
+msgstr "Të dhëna Kartele"
+
+#: ../src/mainwin-callbacks.c:323
+msgid "Filename"
+msgstr "Emër kartele"
+
+#: ../src/mainwin-callbacks.c:336
+msgid "Media Info"
+msgstr "Të dhëna për Median"
+
+#: ../src/mainwin-callbacks.c:348
+msgid "Title:"
+msgstr "Titull:"
+
+#: ../src/mainwin-callbacks.c:375
+msgid "Artist:"
+msgstr "Artist:"
+
+#: ../src/mainwin-callbacks.c:402
+msgid "Album:"
+msgstr "Album:"
+
+#: ../src/mainwin-callbacks.c:429
+msgid "Genre:"
+msgstr "Lloj:"
+
+#: ../src/mainwin-callbacks.c:452
+msgid "Track:"
+msgstr "Gjurmë:"
+
+#: ../src/mainwin-callbacks.c:477
+msgid "Year:"
+msgstr "Vit:"
+
+#: ../src/mainwin-callbacks.c:504
+msgid "Comment:"
+msgstr "Koment:"
+
+#: ../src/mainwin-callbacks.c:535
+msgid "Length:"
+msgstr "Gjatësi:"
+
+#: ../src/mainwin-callbacks.c:552
+msgid "File size (b):"
+msgstr "Madhësi kartele (b):"
+
+#: ../src/mainwin-callbacks.c:569
+msgid "Audio Info"
+msgstr "Të dhëna për Audion "
+
+#: ../src/mainwin-callbacks.c:581
+#: ../src/mainwin-callbacks.c:675
+msgid "Codec:"
+msgstr ""
+
+#: ../src/mainwin-callbacks.c:596
+msgid "Samples/sec:"
+msgstr ""
+
+#: ../src/mainwin-callbacks.c:615
+msgid "Bits/sample:"
+msgstr ""
+
+#: ../src/mainwin-callbacks.c:631
+#: ../src/mainwin-callbacks.c:732
+msgid "Channels:"
+msgstr "Kanale:"
+
+#: ../src/mainwin-callbacks.c:646
+#: ../src/mainwin-callbacks.c:746
+msgid "Bitrate (kbit):"
+msgstr ""
+
+#: ../src/mainwin-callbacks.c:663
+msgid "Video Info"
+msgstr "Të dhëna për Videon "
+
+#: ../src/mainwin-callbacks.c:690
+msgid "FourCC:"
+msgstr ""
+
+#: ../src/mainwin-callbacks.c:714
+msgid "Frame size:"
+msgstr "Madhësi kornize:"
+
+#: ../src/mainwin-callbacks.c:895
+msgid "Add URL"
+msgstr "Shto URL"
+
+#: ../src/mainwin-callbacks.c:912
+msgid "_URL:"
+msgstr "_URL:"
+
+#: ../src/mainwin-callbacks.c:937
+msgid "Sort by filename"
+msgstr "Rendit sipas emra kartelash"
+
+#: ../src/mainwin-callbacks.c:938
+msgid "Sort by title"
+msgstr "Rendit sipas titullit"
+
+#: ../src/mainwin-callbacks.c:939
+msgid "Sort by artist, title"
+msgstr "Rendit sipas artistësh, titujsh"
+
+#: ../src/mainwin-callbacks.c:940
+msgid "Sort by artist, album, track number"
+msgstr "Rendit sipas artisti, albumi, numër gjurme"
+
+#: ../src/mainwin-callbacks.c:1241
+msgid "Add Directory"
+msgstr "Shto Drejtori"
+
+#: ../src/mainwin-callbacks.c:1329
+msgid "Add Media File"
+msgstr "Shto Kartelë Media"
+
+#: ../src/mainwin-callbacks.c:1331
+msgid "Add _Selected"
+msgstr "Shto _Përzgjedhjen"
+
+#: ../src/mainwin-callbacks.c:1335
+msgid "A_dd and Close"
+msgstr "Sh_to dhe Mbyll"
+
+#: ../src/mainwin-callbacks.c:1349
+#: ../src/playlist.c:686
+msgid "All Files"
+msgstr "Tërë Kartelat"
+
+#: ../src/mainwin-callbacks.c:1353
+msgid "Music Files"
+msgstr "Kartela Muzike"
+
+#: ../src/mainwin-callbacks.c:1367
+#: ../src/playlist.c:690
+msgid "Playlists"
+msgstr "Luajlista "
+
+#: ../src/mainwin-callbacks.c:1373
+msgid "Video Files"
+msgstr "Kartela Video"
+
+#: ../src/mainwin-callbacks.c:1949
+msgid "Translator"
+msgstr "Përkthyes"
+
+#: ../src/mainwin-callbacks.c:1962
+msgid ""
+"Xfmedia is a lightweight media player,\n"
+"based on the xine engine"
+msgstr ""
+"Xfmedia është një luajtës mediash i peshës së lehtë,\n"
+"i bazuar në mekanizmin xine"
+
+#: ../src/mainwin-callbacks.c:1967
+msgid "Original Author/Maintainer"
+msgstr "Autori Origjinal/Mirëmbajtësi"
+
+#: ../src/mainwin-callbacks.c:2080
+#: ../src/mainwin.c:1843
+msgid "Stopped"
+msgstr "Ndalur"
+
+#: ../src/mainwin.c:383
+msgid "_Other"
+msgstr "_Tjetër"
+
+#: ../src/mainwin.c:429
+msgid "_URL..."
+msgstr "_URL..."
+
+#: ../src/mainwin.c:438
+msgid "_Directory..."
+msgstr "_Drejtori..."
+
+#: ../src/mainwin.c:447
+msgid "_File..."
+msgstr "_Kartelë..."
+
+#: ../src/mainwin.c:633
+msgid "Volume"
+msgstr "Volum"
+
+#: ../src/mainwin.c:658
+#: ../src/xfmedia-keybindings.c:513
+msgid "Previous Track"
+msgstr "Gjurma e Mëparshme"
+
+#: ../src/mainwin.c:670
+msgid "Play/Pause Track"
+msgstr "Luaj/Pusho Gjurmën"
+
+#: ../src/mainwin.c:686
+msgid "Stop Playback"
+msgstr "Ndal Luajtjen"
+
+#: ../src/mainwin.c:697
+#: ../src/xfmedia-keybindings.c:514
+msgid "Next Track"
+msgstr "Gjurma Pasuese"
+
+#: ../src/mainwin.c:705
+msgid "_Playlist"
+msgstr "Luajlistë"
+
+#: ../src/mainwin.c:759
+msgid "_Enqueue"
+msgstr "Vër në _radhë"
+
+#: ../src/mainwin.c:768
+msgid "Add _Mediamark..."
+msgstr ""
+
+#: ../src/mainwin.c:781
+msgid "_File Info"
+msgstr "Të dhëna _Kartele"
+
+#: ../src/mainwin.c:798
+msgid "About _Xfmedia"
+msgstr "Rreth _Xfmedia-s"
+
+#: ../src/mainwin.c:811
+msgid "_Preferences"
+msgstr "_Parapëlqime"
+
+#: ../src/mainwin.c:821
+msgid "_Equalizer..."
+msgstr ""
+
+#: ../src/mainwin.c:832
+msgid "_Jump to File..."
+msgstr "_Hidhu te Kartelë..."
+
+#: ../src/mainwin.c:841
+msgid "Play_list Queue..."
+msgstr "Radha e Luajlistës..."
+
+#: ../src/mainwin.c:848
+msgid "_Mediamarks"
+msgstr ""
+
+#: ../src/mainwin.c:858
+msgid "Re_order"
+msgstr "Ri_rendit"
+
+#: ../src/mainwin.c:869
+msgid "Sort by _Title"
+msgstr "Rendit sipas Titujsh"
+
+#: ../src/mainwin.c:875
+msgid "Sort by _Filename"
+msgstr "Rendit sipas Emrash kartele"
+
+#: ../src/mainwin.c:881
+msgid "_Randomize List"
+msgstr "Për_zieje Listën"
+
+#: ../src/mainwin.c:893
+msgid "_Shuffle"
+msgstr "_Përziej"
+
+#: ../src/mainwin.c:901
+msgid "_Repeat"
+msgstr "_Përsërit"
+
+#: ../src/mainwin.c:909
+msgid "Repeat Single _Track"
+msgstr "Përsërit një _Gjurmë të Vetme"
+
+#: ../src/mainwin.c:917
+msgid "Show Audio _Visualization"
+msgstr "Shfaq _Vizualizim Audio"
+
+#: ../src/mainwin.c:1124
+#: ../src/mainwin.c:1733
+msgid "Playing"
+msgstr "Po luaj"
+
+#: ../src/mainwin.c:1141
+msgid "P_revious Track"
+msgstr "Gjurma e Më_parshme"
+
+#: ../src/mainwin.c:1150
+#: ../src/mainwin.c:1262
+msgid "_Play"
+msgstr "_Luaj"
+
+#: ../src/mainwin.c:1167
+#: ../src/mainwin.c:1283
+msgid "_Pause"
+msgstr "_Pushim"
+
+#: ../src/mainwin.c:1178
+msgid "_Stop"
+msgstr "_Ndal"
+
+#: ../src/mainwin.c:1186
+msgid "_Next Track"
+msgstr "Gjurma _Pasuese"
+
+#: ../src/mainwin.c:1754
+msgid "Paused"
+msgstr "Pushuar"
+
+#: ../src/mediamarks.c:125
+msgid "Mediamarks Save Error"
+msgstr ""
+
+#: ../src/mediamarks.c:127
+msgid "The mediamarks file failed to save."
+msgstr ""
+
+#: ../src/mediamarks.c:128
+#: ../src/xfmedia-keybindings.c:683
+#: ../src/xfmedia-keybindings.c:696
+msgid "This could be because your disk is full, or you don't have permission to write to the configuration directory.  Any changes will be lost when you quit Xfmedia."
+msgstr "Kjo mund të vijë ngaqë hard disku juaj është plot, ose mund të mos keni leje të shkruani te drejtoria e formësimeve.  Çfarëdo ndryshimi do të humbasë kur lini Xfmedia-n."
+
+#: ../src/mediamarks.c:625
+#: ../src/mediamarks.c:889
+msgid "Mediamarks"
+msgstr ""
+
+#: ../src/mediamarks.c:721
+msgid "Add Mediamark"
+msgstr ""
+
+#: ../src/mediamarks.c:726
+msgid "_Add Mediamark"
+msgstr ""
+
+#: ../src/mediamarks.c:745
+#: ../src/mediamarks.c:1191
+msgid "_Name:"
+msgstr "_Emër:"
+
+#: ../src/mediamarks.c:766
+#: ../src/mediamarks.c:1213
+msgid "_Location:"
+msgstr "_Vendndodhje:"
+
+#: ../src/mediamarks.c:781
+#: ../src/mediamarks.c:987
+msgid "File _in:"
+msgstr "Kartelë në:"
+
+#: ../src/mediamarks.c:803
+msgid "New Folder"
+msgstr "Dosje e Re"
+
+#: ../src/mediamarks.c:808
+msgid "Add _Folder"
+msgstr "Shto _Dosje"
+
+#: ../src/mediamarks.c:956
+msgid "Add Mediamark Folder"
+msgstr ""
+
+#: ../src/mediamarks.c:962
+msgid "_Add Folder"
+msgstr "_Shto Dosje"
+
+#: ../src/mediamarks.c:978
+msgid "_Folder Name:"
+msgstr "Emër _Dosjeje:"
+
+#: ../src/mediamarks.c:1047
+msgid "Remove Mediamark"
+msgstr ""
+
+#: ../src/mediamarks.c:1048
+#: ../src/mediamarks.c:1053
+msgid "Are you sure?"
+msgstr "Jeni i sigurt?"
+
+#: ../src/mediamarks.c:1048
+msgid "You're about to remove a Mediamark, which can't be undone."
+msgstr ""
+
+#: ../src/mediamarks.c:1052
+msgid "Remove Folder"
+msgstr "Hiq Dosje"
+
+#: ../src/mediamarks.c:1054
+msgid "Removing a folder also removes all items and subfolders contained in it, and can't be undone."
+msgstr "Heqja e një dosje heq gjithashtu edhe tërë elementët dhe nëndosjet që përmbahen në të, dhe kjo nuk mund të zhbëhet."
+
+#: ../src/mediamarks.c:1174
+msgid "Mediamark Properties"
+msgstr ""
+
+#: ../src/mediamarks.c:1174
+msgid "Folder Properties"
+msgstr "Veti Dosjeje"
+
+#: ../src/mediamarks.c:1593
+msgid "Manage Mediamarks"
+msgstr ""
+
+#: ../src/mediamarks.c:1615
+msgid "New Mediamark..."
+msgstr ""
+
+#: ../src/mediamarks.c:1616
+msgid "Add a new mediamark"
+msgstr ""
+
+#: ../src/mediamarks.c:1621
+msgid "Add Folder..."
+msgstr "Shto Dosje..."
+
+#: ../src/mediamarks.c:1622
+msgid "Add a new folder"
+msgstr "Shto dosje të re"
+
+#: ../src/mediamarks.c:1627
+msgid "Remove Item"
+msgstr "Hiq Objekt"
+
+#: ../src/mediamarks.c:1628
+msgid "Remove the selected item"
+msgstr "Hiq objektin e përzgjedhur"
+
+#: ../src/mediamarks.c:1635
+msgid "Move Item Up"
+msgstr "Ngjite Objekt Sipër"
+
+#: ../src/mediamarks.c:1636
+msgid "Move the selected item up"
+msgstr "Ngjite objektin e përzgjedhur sipër"
+
+#: ../src/mediamarks.c:1641
+msgid "Move Item Down"
+msgstr "Ule Objektin Poshtë"
+
+#: ../src/mediamarks.c:1642
+msgid "Move the selected item down"
+msgstr "Zbrite objektin e përzgjedhur poshtë"
+
+#: ../src/mediamarks.c:1649
+msgid "Refresh"
+msgstr "Rifresko"
+
+#: ../src/mediamarks.c:1650
+msgid "Refresh the list"
+msgstr "Rifresko listën"
+
+#: ../src/mediamarks.c:1655
+msgid "Properties..."
+msgstr "Veti..."
+
+#: ../src/mediamarks.c:1656
+msgid "Edit the selected item's properties"
+msgstr "Përpunoni vetitë e objektit të përzgjedhur"
+
+#: ../src/mediamarks.c:1686
+msgid "Name"
+msgstr "Emër"
+
+#: ../src/mediamarks.c:1713
+msgid "Location"
+msgstr "Vendndodhje"
+
+#: ../src/mediamarks.c:1806
+msgid "_Add Current Stream..."
+msgstr ""
+
+#: ../src/mediamarks.c:1815
+msgid "_Manage Mediamarks..."
+msgstr ""
+
+#: ../src/playlist.c:536
+msgid "Save changes to this playlist before closing?"
+msgstr "Të ruaj ndryshimet e kësaj luajliste para mbylljes?"
+
+#: ../src/playlist.c:537
+msgid "You've changed this playlist since it was last saved."
+msgstr "E keni ndryshuar këtë listë që kur u ruajt për herë të fundit."
+
+#: ../src/playlist.c:541
+msgid "Do_n't save"
+msgstr "_Mos ruaj"
+
+#: ../src/playlist.c:590
+#: ../src/xfmedia-keybindings.c:534
+msgid "Save Playlist"
+msgstr "Ruaj Luajlistë"
+
+#: ../src/playlist.c:600
+msgid "Autodetect type by extension"
+msgstr "Vetëzbulo tip nga zgjatimi"
+
+#: ../src/playlist.c:604
+msgid "Flat file"
+msgstr ""
+
+#: ../src/playlist.c:676
+msgid "Open Playlist"
+msgstr "Hap Luajlistë"
+
+#: ../src/playlist.c:1359
+msgid "#"
+msgstr "#"
+
+#: ../src/playlist.c:1373
+msgid "Title"
+msgstr "Titull"
+
+#: ../src/playlist.c:1381
+msgid "Length"
+msgstr "Gjatësi"
+
+#: ../src/playlist.c:1431
+msgid "Add entry to playlist"
+msgstr "Shto zë te luajlista"
+
+#: ../src/playlist.c:1441
+msgid "Remove entry from playlist"
+msgstr "Hiq zë prej luajlistës"
+
+#: ../src/playlist.c:1451
+msgid "Move selected playlist entry up"
+msgstr "Ngjite sipër zërin e përzgjedhur të luajlistës"
+
+#: ../src/playlist.c:1461
+msgid "Move selected playlist entry down"
+msgstr "Ule poshtë zërin e përzgjedhur të luajlistës"
+
+#: ../src/playlist.c:1486
+msgid "Randomize play order"
+msgstr "Përziej kuturu radhën e luajtjes"
+
+#: ../src/playlist.c:1505
+msgid "Repeat after playlist finishes"
+msgstr "Përsërit pasi të mbërrihet në fund të luajlistës"
+
+#: ../src/playlist.c:1520
+msgid "Save current playlist"
+msgstr "Ruaj luajlistën e çastit"
+
+#: ../src/playlist.c:1530
+msgid "Open a saved playlist"
+msgstr "Hap një luajlistë të ruajtur"
+
+#: ../src/playlist.c:1540
+msgid "Start a new playlist"
+msgstr "Filloni një luajlistë të re"
+
+#: ../src/playlist.c:1548
+msgid "_Remove Entry"
+msgstr "_Hiq Zë"
+
+#: ../src/playlist.c:1557
+msgid "Move _Up"
+msgstr "Ngjite _Sipër"
+
+#: ../src/playlist.c:1566
+msgid "Move _Down"
+msgstr "Ule Poshtë"
+
+#: ../src/remote.c:223
+#: ../src/remote.c:466
+msgid "(no title)"
+msgstr "(pa tiutll)"
+
+#: ../src/settings-dialog.c:145
+msgid "Optical Devices"
+msgstr "Pajisje Optike"
+
+#: ../src/settings-dialog.c:159
+msgid "CD A_udio Device:"
+msgstr "Pajisje CD A_udio:"
+
+#: ../src/settings-dialog.c:181
+msgid "DVD Vide_o Device:"
+msgstr "Pajisje DVD Vide_o:"
+
+#: ../src/settings-dialog.c:203
+msgid "Vid_eo CD Device:"
+msgstr "Pajisje CD Vid_eo:"
+
+#: ../src/settings-dialog.c:221
+msgid "Audio"
+msgstr "Audio"
+
+#: ../src/settings-dialog.c:233
+msgid "Dr_iver:"
+msgstr "Për_udhës:"
+
+#: ../src/settings-dialog.c:243
+#: ../src/settings-dialog.c:312
+msgid "(no drivers)"
+msgstr "(pa përudhësa)"
+
+#: ../src/settings-dialog.c:267
+msgid "_Speaker Layout:"
+msgstr "Planimetri _Altoparlantësh:"
+
+#: ../src/settings-dialog.c:275
+msgid "(option unavailable)"
+msgstr "(pa mundësi të tillë )"
+
+#: ../src/settings-dialog.c:290
+msgid "Video"
+msgstr "Video"
+
+#: ../src/settings-dialog.c:302
+msgid "D_river:"
+msgstr "Pë_rudhës:"
+
+#: ../src/settings-dialog.c:608
+msgid "Xfmedia Preferences"
+msgstr "Parapëlqime për Xfmedia-n"
+
+#: ../src/settings-dialog.c:630
+msgid "Playlist"
+msgstr "Luajlistë"
+
+#: ../src/settings-dialog.c:643
+msgid "_Title Display:"
+msgstr "Shfaqje Titulli:"
+
+#: ../src/settings-dialog.c:653
+msgid ""
+"This is a printf-like format string controlling the display of the playlist.  Xfmedia will replace the following symbols:\n"
+"\t%p: Artist/Performer\n"
+"\t%t: Track Title\n"
+"\t%a: Album Name\n"
+"\t%T: Track Number\n"
+"\t%g: Genre\n"
+"\t%y: Year\n"
+"\t%f: Filename\n"
+"\t%%: a percent sign"
+msgstr ""
+"This is a printf-like format string controlling the display of the playlist.  Xfmedia will replace the following symbols:\n"
+"\t%p: Artist/Luajtës\n"
+"\t%t: Track Titull\n"
+"\t%a: Emër Albumi\n"
+"\t%T: Numër Pjese\n"
+"\t%g: Lloj\n"
+"       \t%y: Vit\n"
+"\t%f: Emër kartele\n"
+"\t%%: shenja e përqindjes"
+
+#: ../src/settings-dialog.c:667
+msgid "_Advance playlist when track ends"
+msgstr "E_c përpara në luajlistë kur përfund gjurma"
+
+#: ../src/settings-dialog.c:675
+msgid "When a track ends, Xfmedia can automatically advance to the next track in the playlist and continue playback."
+msgstr "Kur përfundon një gjurmë, Xfmedia mund të përparojë vetvetiu te pjesa pasuese te luajlista dhe të vazhdojë luajtjen."
+
+#: ../src/settings-dialog.c:677
+msgid "_Don't save playlist on exit for one-shot invocations"
+msgstr ""
+
+#: ../src/settings-dialog.c:685
+msgid "Only automatically save the playlist during interactive use; i.e., don't save the playlist when Xfmedia was invoked from the commandline with a short list of definite arguments.  This option needs to be named better."
+msgstr "Ruaj luajlistën vetvetiu vetëm gjatë përdorimi ndërveprues; d.m.th., mos ruaj luajlistën kur Xfmedia qe thirrur prej rreshti urdhrash me një listë të shkurtër argumentesh të dhënë.  Kjo mundësi ka nevojë për një emërtim më të mirë."
+
+#: ../src/settings-dialog.c:691
+msgid "Load metadata:"
+msgstr "Ngarko tejtëdhëna :"
+
+#: ../src/settings-dialog.c:695
+msgid "On _scroll"
+msgstr "Nën _rrëshqitje"
+
+#: ../src/settings-dialog.c:703
+msgid "Load file metadata for entries in the playlist when they are visible."
+msgstr "Ngarko tejtëdhëna kartele për zëra te luajlista kur janë të dukshëm."
+
+#: ../src/settings-dialog.c:706
+msgid "On pla_y"
+msgstr "Gjatë _loje"
+
+#: ../src/settings-dialog.c:714
+msgid "Load file metadata for entries in the playlist only when playing them."
+msgstr "Ngarko tejtëdhëna kartele për zëra te luajlista vetëm kur këta luhen."
+
+#: ../src/settings-dialog.c:717
+msgid "_Never"
+msgstr "_Kurrë"
+
+#: ../src/settings-dialog.c:725
+msgid "Never load file metadata for entries in the playlist."
+msgstr "Mos ngarko kurrë tejtëdhëna për zëra te luajlista."
+
+#: ../src/settings-dialog.c:727
+msgid "Window"
+msgstr "Dritare"
+
+#: ../src/settings-dialog.c:736
+msgid "Show Xfmedia on all _workspaces"
+msgstr "Shfaq Xfmedia në tërë _hapësirat e punës"
+
+#: ../src/settings-dialog.c:742
+msgid "Sets Xfmedia \"sticky\" such that it appears on all workspaces (virtual desktops)."
+msgstr "E bën Xfmedia-n  \"të ngjitur\", të tillë që duket në tërë hapësirat e punës (desktopët virtualë)."
+
+#: ../src/settings-dialog.c:744
+msgid "Keep X_fmedia above other windows"
+msgstr "Mbaj X_fmedia-n sipër dritareve të tjera"
+
+#: ../src/settings-dialog.c:751
+msgid "Sets the Xfmedia window to \"Always-on-Top\" status."
+msgstr "Cakton për dritaren Xfmedia gjendjen \"Përherë Sipër\"."
+
+#: ../src/settings-dialog.c:753
+msgid "Dock and auto-_hide Xfmedia at screen edges"
+msgstr "Ankoroje dhe vetëfshihe Xfmedia-n në skajet e ekranit"
+
+#: ../src/settings-dialog.c:760
+msgid "When the Xfmedia window is dragged to a screen edge, it will auto-hide itself and reappear when you move the mouse to the edge of the screen."
+msgstr "Kur dritarja Xfmedia hiqet osh në anë të ekranit, do të vetëfshihet dhe riduket kur të lëvizni miun përmbi skajin e ekranit."
+
+#: ../src/settings-dialog.c:762
+msgid "Tray Icon"
+msgstr "Ikonë Shtylle"
+
+#: ../src/settings-dialog.c:771
+msgid "Show _tray icon"
+msgstr "Shfaq ikonë _shtylle"
+
+#: ../src/settings-dialog.c:777
+msgid "Displays an Xfmedia icon in the system notification area."
+msgstr "Shfaq një ikonë Xfmedia në zonën e njoftimeve të sistemit."
+
+#: ../src/settings-dialog.c:779
+msgid "_Minimize Xfmedia to tray icon"
+msgstr "_Minimizo Xfmedia-n sa një ikonë shtylle"
+
+#: ../src/settings-dialog.c:787
+msgid "Minimizes Xfmedia to the tray icon rather than to the taskbar or iconbox."
+msgstr "Zvogëlon Xfmedia-n si një ikonë shtyllle  në vend që ta vendosë te shtyllë aktesh apo kuti ikonash."
+
+#: ../src/settings-dialog.c:793
+msgid "On middle _click:"
+msgstr "Nën klikim me të mesit:"
+
+#: ../src/settings-dialog.c:796
+#: ../src/settings-dialog.c:810
+msgid "The tray icon can perform an action when middle-clicked.  Select the action in the dropdown box."
+msgstr "Ikona e shtyllës mund të kryejë veprime kur klikohet me të mesit.  Përzgjidhni veprimin prej kutisë hapmbyll."
+
+#: ../src/settings-dialog.c:799
+msgid "Do nothing"
+msgstr "Mos bëj gjë"
+
+#: ../src/settings-dialog.c:800
+msgid "Toggle play/pause"
+msgstr "Këmbe luaj/pusho"
+
+#: ../src/settings-dialog.c:801
+msgid "Next track"
+msgstr "Gjurmë pasuese"
+
+#: ../src/settings-dialog.c:802
+msgid "Previous track"
+msgstr "Gjurmë e mëparshme"
+
+#: ../src/settings-dialog.c:815
+msgid "O_ptions"
+msgstr "Mu_ndësi"
+
+#: ../src/settings-dialog.c:826
+msgid "Selected Visualization"
+msgstr "Vizualizim i Përzgjedhur"
+
+#: ../src/settings-dialog.c:854
+msgid "(none available)"
+msgstr "(asnjë i passhëm)"
+
+#: ../src/settings-dialog.c:865
+msgid "Visualization Options"
+msgstr "Mundësi Vizualizimi"
+
+#: ../src/settings-dialog.c:880
+msgid "_Audio Visualization"
+msgstr "Vizualizim i _Audios "
+
+#: ../src/settings-dialog.c:886
+msgid "_Devices"
+msgstr "_Pajisje"
+
+#: ../src/settings-dialog.c:892
+msgid "_Keybindings"
+msgstr ""
+
+#: ../src/settings-dialog.c:900
+msgid "_Plugins"
+msgstr "_Shtojca"
+
+#: ../src/settings.c:242
+msgid "Settings Save Error"
+msgstr "Gabim në Ruajtje Rregullimesh"
+
+#: ../src/settings.c:243
+msgid "The settings file failed to save."
+msgstr "Ruajtja e kartelës së rregullimeve dështoi."
+
+#: ../src/settings.c:244
+msgid "This could be because your disk is full, or you don't have permission to write to the configuration directory.  Any changes will be lost when you exit Xfmedia."
+msgstr "Kjo mund të vijë ngaqë hard disku është plot, ose nuk keni leje shkrimi te drejtoria e formësimeve.  Pasi të dilni nga Xfmedia, çfarëdo ndryshimi do të humbë."
+
+#: ../src/xfmedia-common.c:422
+msgid "(UTF-8 conversion failed)"
+msgstr "(Shndërrimi në UTF-8 dështoi)"
+
+#: ../src/xfmedia-handle.c:141
+msgid "Handle Style"
+msgstr "Stil Doreze"
+
+#: ../src/xfmedia-handle.c:142
+msgid "This property defines the handle style of the XfmediaHandle widget."
+msgstr "Kjo veti përcakton stil dorëze për \"widget\"-in XfmediaHandle ."
+
+#: ../src/xfmedia-handle.c:150
+msgid "Orientation"
+msgstr "Orientim"
+
+#: ../src/xfmedia-handle.c:151
+msgid "This property defines whether this is a horizontal or vertical handle."
+msgstr "Kjo veti përcakton në është dorëz horizontale apo vertikale."
+
+#: ../src/xfmedia-keybindings.c:510
+msgid "Play"
+msgstr "Luaj"
+
+#: ../src/xfmedia-keybindings.c:511
+msgid "Pause"
+msgstr "Pushim"
+
+#: ../src/xfmedia-keybindings.c:512
+msgid "Stop"
+msgstr "Ndal"
+
+#: ../src/xfmedia-keybindings.c:515
+msgid "Quit"
+msgstr "Lër"
+
+#: ../src/xfmedia-keybindings.c:516
+msgid "Toggle Fullscreen"
+msgstr "Vër/Hiq Tërë Ekrani"
+
+#: ../src/xfmedia-keybindings.c:517
+msgid "Toggle Shuffle Play"
+msgstr "Vër/Hiq Luajtje Kuturu"
+
+#: ../src/xfmedia-keybindings.c:518
+msgid "Toggle Repeat Play"
+msgstr "Vër/Hiq Përsërit Luajtjen"
+
+#: ../src/xfmedia-keybindings.c:519
+msgid "Toggle Audio Visualization"
+msgstr "Vër/Hiq Vizualizim Audioje"
+
+#: ../src/xfmedia-keybindings.c:520
+msgid "Set Speed Faster"
+msgstr "Cakto Shpejtësi më të Madhe"
+
+#: ../src/xfmedia-keybindings.c:521
+msgid "Set Speed Slower"
+msgstr "Cakto Shpejtësi më të Vogël"
+
+#: ../src/xfmedia-keybindings.c:522
+msgid "Forward 10 Seconds"
+msgstr "Përpara 10 Sekonda"
+
+#: ../src/xfmedia-keybindings.c:523
+msgid "Forward 30 Seconds"
+msgstr "Përpara 30 Sekonda"
+
+#: ../src/xfmedia-keybindings.c:524
+msgid "Forward 60 Seconds"
+msgstr "Përpara 60 Sekonda"
+
+#: ../src/xfmedia-keybindings.c:525
+msgid "Backward 10 Seconds"
+msgstr "Prapa 10 Sekonda"
+
+#: ../src/xfmedia-keybindings.c:526
+msgid "Backward 30 Seconds"
+msgstr "Prapa 30 Sekonda"
+
+#: ../src/xfmedia-keybindings.c:527
+msgid "Backward 60 Seconds"
+msgstr "Prapa 60 Sekonda"
+
+#: ../src/xfmedia-keybindings.c:528
+msgid "Enqueue Track"
+msgstr "Vëre Gjurmën në Radhë"
+
+#: ../src/xfmedia-keybindings.c:529
+msgid "Show Queued Tracks"
+msgstr "Shfaq Gjurmë në Radhë"
+
+#: ../src/xfmedia-keybindings.c:530
+msgid "Toggle Audio Mute"
+msgstr "Vër/Hiq Heshtje Audioje"
+
+#: ../src/xfmedia-keybindings.c:531
+msgid "Add File to Playlist"
+msgstr "Shto Kartelë te Luajlista"
+
+#: ../src/xfmedia-keybindings.c:532
+msgid "Add URL to Playlist"
+msgstr "Shto URL te Luajlista"
+
+#: ../src/xfmedia-keybindings.c:533
+msgid "Open Saved Playlist"
+msgstr "Hap Luajlistë të Ruajtur"
+
+#: ../src/xfmedia-keybindings.c:535
+msgid "Clear Playlist"
+msgstr "Pastro Luajlistë"
+
+#: ../src/xfmedia-keybindings.c:536
+msgid "A/V Sync Plus"
+msgstr ""
+
+#: ../src/xfmedia-keybindings.c:537
+msgid "A/V Sync Minus"
+msgstr ""
+
+#: ../src/xfmedia-keybindings.c:538
+msgid "Select Aspect Ratio"
+msgstr "Përzgjidhni Përpjestim"
+
+#: ../src/xfmedia-keybindings.c:539
+msgid "Jump to File"
+msgstr "Hidhu te Kartelë"
+
+#: ../src/xfmedia-keybindings.c:540
+msgid "Video Zoom In"
+msgstr "Zmadhim Video"
+
+#: ../src/xfmedia-keybindings.c:541
+msgid "Video Zoom Out"
+msgstr "Zvogëlim Video"
+
+#: ../src/xfmedia-keybindings.c:542
+msgid "Video Window Larger"
+msgstr "Dritare Video Më të Madhe"
+
+#: ../src/xfmedia-keybindings.c:543
+msgid "Video Window Smaller"
+msgstr "Dritare Video Më të Vogël"
+
+#: ../src/xfmedia-keybindings.c:544
+msgid "Volume Up"
+msgstr "Ngri Volumin"
+
+#: ../src/xfmedia-keybindings.c:545
+msgid "Volume Down"
+msgstr "Ul Volumin"
+
+#: ../src/xfmedia-keybindings.c:546
+msgid "Audio Track Next"
+msgstr "Gjurmën Audio Pasuese"
+
+#: ../src/xfmedia-keybindings.c:547
+msgid "Audio Track Previous"
+msgstr "Gjurmën Audio të Mëparshme"
+
+#: ../src/xfmedia-keybindings.c:548
+msgid "Subtitle Track Next"
+msgstr ""
+
+#: ../src/xfmedia-keybindings.c:549
+msgid "Subtitle Track Previous"
+msgstr ""
+
+#: ../src/xfmedia-keybindings.c:635
+msgid "Set Keybinding"
+msgstr ""
+
+#: ../src/xfmedia-keybindings.c:638
+msgid "_Clear"
+msgstr "_Pastro"
+
+#: ../src/xfmedia-keybindings.c:647
+msgid "Set shortcut for:"
+msgstr "Cakto shkurtore për:"
+
+#: ../src/xfmedia-keybindings.c:665
+msgid "Keybinding Error"
+msgstr ""
+
+#: ../src/xfmedia-keybindings.c:666
+msgid "Keybinding already in use."
+msgstr ""
+
+#: ../src/xfmedia-keybindings.c:667
+msgid "The key sequence you selected is already in use by another function.  Please set the other function to something else."
+msgstr "Vargu i tasteve që përzgjodhët është tashmë në përdorim nga një tjetër funksion.  Ju lutem caktoni diçka të ndryshme për funksionin tjetër."
+
+#: ../src/xfmedia-keybindings.c:680
+#: ../src/xfmedia-keybindings.c:693
+msgid "Keybindings Save Error"
+msgstr ""
+
+#: ../src/xfmedia-keybindings.c:682
+#: ../src/xfmedia-keybindings.c:695
+msgid "The keybindings file failed to save."
+msgstr ""
+
+#: ../src/xfmedia-keybindings.c:691
+msgid "None"
+msgstr "Asnjë"
+
+#: ../src/xfmedia-keybindings.c:808
+msgid "Function"
+msgstr "Funksion"
+
+#: ../src/xfmedia-keybindings.c:813
+msgid "Keys"
+msgstr "Taste"
+
+#: ../src/xfmedia-remote.c:103
+#, c-format
+msgid ""
+"Usage: %s [options]\n"
+"\n"
+msgstr ""
+"Përdorimi: %s [mundësi]\n"
+"\n"
+
+#: ../src/xfmedia-remote.c:106
+msgid ""
+"    --session=N          Specify the number of the already-running instance of\n"
+"                         Xfmedia.  (Defaults to 0, or the first instance found.)\n"
+msgstr ""
+"    --session=N          Tregon numrin e Xfmediave që janë duke xhiruar.\n"
+"                         (0 si parazgjedhje, ose rasti e parë që gjehet.)\n"
+
+#: ../src/xfmedia-remote.c:108
+msgid "    --ping               Checks to see if an instance of Xfmedia is running.\n"
+msgstr "    --ping               Kontrollon për të parë nëse ka një tjetër Xfmedia në xhirim e sipër.\n"
+
+#: ../src/xfmedia-remote.c:109
+msgid ""
+"    -p, --play[=N]       Causes Xfmedia to play the file at playlist idx N.\n"
+"                         If N is not specified, Xfmedia will play the currently-\n"
+"                         selected entry, or, if no item is selected, the first\n"
+"                         entry.  If used in conjunction with --playlist-add,\n"
+"                         will cause Xfmedia to play the newly-added entry.\n"
+msgstr ""
+"    -p, --play[=N]       E bën Xfmedia-n të luajë kartelën e luajlistës idx N.\n"
+"                         Po qe se nuk jepet N-ja, Xfmedia do të luajë zërin e \n"
+"                         përzgjedhur për çastin, ose, nëse nuk ka objekt të përzgjedhur,\n"
+"                         zërin e parë.  Nëse përdoret bashkë me --playlist-add,\n"
+"                         do ta bëjë Xfmedia-n të luajë zërin e shtuar rishtas.\n"
+
+#: ../src/xfmedia-remote.c:114
+msgid ""
+"    --toggle             Causes Xfmedia to pause if playing, or play if paused\n"
+"                         or stopped.\n"
+msgstr ""
+"    --toggle             E bën Xfmedia-n të pushojë nëse është duke luajtur, ose të luajë nëse ishte pushuar\n"
+"                         apo ndalur.\n"
+
+#: ../src/xfmedia-remote.c:116
+msgid "    --pause              Causes Xfmedia to pause/unpause.\n"
+msgstr "    --pause              E bën Xfmedia-n të pushojë/të rifillojë.\n"
+
+#: ../src/xfmedia-remote.c:117
+msgid "    --stop               Causes Xfmedia to stop playback.\n"
+msgstr "    --stop               E bën Xfmedia të ndalojë lojën.\n"
+
+#: ../src/xfmedia-remote.c:118
+msgid ""
+"    --previous           Causes Xfmedia to play the entry played before the\n"
+"                         currently-selected (or -playing) entry.\n"
+msgstr ""
+"    --previous           E bën Xfmedia-n të luajë zërin e luajtur përpara\n"
+"                         atij të parazgjedhurit (ose që po luhet) së fundmi.\n"
+
+#: ../src/xfmedia-remote.c:120
+msgid ""
+"    --next               Causes Xfmedia to play the next entry in the playlist.\n"
+"                         If Xfmedia is in shuffle mode, a new entry will be\n"
+"                         selected randomly.\n"
+msgstr ""
+"    --next               E bën Xfmedia të luajë gjurmën pasuese te luajlista.\n"
+"                         Nëse Xfmedia është nën mënyrën kuturu, do të përzgjidhet\n"
+"                         kuturu një zë i ri.\n"
+
+#: ../src/xfmedia-remote.c:123
+msgid ""
+"    -a, --playlist-add=FILE\n"
+"                         Adds FILE to the end of the playlist.\n"
+msgstr ""
+"    -a, --playlist-add=KARTELË\n"
+"                         Shton KARTELË te fundi i luajlistës.\n"
+
+#: ../src/xfmedia-remote.c:125
+msgid ""
+"    -r, --playlist-remove=N\n"
+"                         Removes the specified playlist entry from the playlist.\n"
+msgstr ""
+"    -r, --playlist-remove=N\n"
+"                         Heq prej luajlistës zërin e treguar.\n"
+
+#: ../src/xfmedia-remote.c:127
+msgid ""
+"    -c, --playlist-clear\n"
+"                         Removes all entries from the playlist.\n"
+msgstr ""
+"    -c, --playlist-clear\n"
+"                         Heq prej luajlistës tërë zërat.\n"
+
+#: ../src/xfmedia-remote.c:129
+msgid ""
+"    -l, --playlist-load=FILE\n"
+"                         Loads the specified playlist.  Note that this does NOT\n"
+"                         first clear the playlist.\n"
+msgstr ""
+"    -l, --playlist-load=KARTELË\n"
+"                         Ngarkon luajlistën e treguar.  Mbani parasysh që NUK\n"
+"                         pastron fillimisht luajlistën.\n"
+
+#: ../src/xfmedia-remote.c:132
+msgid ""
+"    -s, --playlist-save=FILE\n"
+"                         Saves the current playlist to the specified FILE.\n"
+msgstr ""
+"    -s, --playlist-save=KARTELË\n"
+"                         Ruan luajlistën e çastit si KARTELËN e treguar.\n"
+
+#: ../src/xfmedia-remote.c:134
+msgid "    -Q, --quit           Instructs Xfmedia to quit.\n"
+msgstr "    -Q, --quit           E udhëzon Xfmedia-n të dalë.\n"
+
+#: ../src/xfmedia-remote.c:135
+msgid ""
+"    -j, --jump-to-file   Causes Xfmedia to show the main window (if not visible)\n"
+"                         and show the jump-to-file entry box.\n"
+msgstr ""
+"    -j, --jump-to-file   E bën Xfmedian të shfaqë dritaren kryesore (nëse nuk është e dukshme)\n"
+"                         dhe shfaq kutinë hidhu-te-kartela.\n"
+
+#: ../src/xfmedia-remote.c:180
+msgid "Argument to --session must be greater than or equal to 0.\n"
+msgstr "Argumenti për --session duhet të jetë më i madh ose i barabartë me 0.\n"
+
+#: ../src/xfmedia-remote.c:195
+msgid "Argument to --play must be greater than or equal to 0.\n"
+msgstr "Argumenti për --play duhet të jetë më i madh ose i barabartë me 0.\n"
+
+#: ../src/xfmedia-remote.c:239
+msgid "Argument to --playlist-remove must be greater than or equal to 0.\n"
+msgstr "Argumenti për --playlist-remove duhet të jetë më i madh ose i barabartë me 0.\n"
+
+#: ../src/xfmedia-remote.c:276
+#, c-format
+msgid "Unrecognized option: %s\n"
+msgstr "Mundësi jo e pranuar: %s\n"
+
+#: ../src/xfmedia-remote.c:289
+msgid "Unable to initialize the Xfmedia remote client service.  The most likely cause is that a DBUS session bus is not running"
+msgstr "I pazoti të gatis shërbimin Xfmedia për klient të largët.  Shkaku më i mundshëm është që nuk ka një sesion DBUS duke xhiruar"
+
+#: ../src/xfmedia-remote.c:301
+msgid "Unable to find a running Xfmedia instance."
+msgstr "I pazoti të gjej një instancë Xfmedia në xhirim e sipër."
+
+#: ../src/xfmedia-video-window.c:188
+msgid "Xfmedia Video"
+msgstr "Video Xfmedia"
+
+#: ../xfmedia/getopt.c:686
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: mundësia `%s' është e dykuptimtë\n"
+
+#: ../xfmedia/getopt.c:711
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: mundësia `--%s' s'lejon argument\n"
+
+#: ../xfmedia/getopt.c:716
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: mundësia `%c%s' s'lejon argument\n"
+
+#: ../xfmedia/getopt.c:734
+#: ../xfmedia/getopt.c:907
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: mundësia `%s' lyp argument\n"
+
+#. --option
+#: ../xfmedia/getopt.c:763
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: mundësia jo e pranuar `--%s'\n"
+
+#. +option or -option
+#: ../xfmedia/getopt.c:767
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: mundësië jo e pranuar `%c%s'\n"
+
+#. 1003.2 specifies the format of this message.
+#: ../xfmedia/getopt.c:793
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: mundësi e paligjshme -- %c\n"
+
+#: ../xfmedia/getopt.c:796
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: mundësi e pavlefshme -- %c\n"
+
+#. 1003.2 specifies the format of this message.
+#: ../xfmedia/getopt.c:826
+#: ../xfmedia/getopt.c:956
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: mundësia lyp argument -- %c\n"
+
+#: ../xfmedia/getopt.c:873
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: mundësia `-W %s' është e dykuptimtë\n"
+
+#: ../xfmedia/getopt.c:891
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: mundësia `-W %s' s'lejon argument\n"
+
+#: ../xfmedia/remote-client.c:607
+#: ../xfmedia/remote-client.c:614
+#: ../xfmedia/remote-client.c:621
+msgid "Xfmedia was not compiled with D-BUS support.  Remote control interface is not available."
+msgstr "Xfmedia nuk qe montuar me mbulim për D-BUS-in.  Nuk ka të passhme ndërfaqe kontrolli të largët."
+
+#: ../xfmedia.desktop.in.h:1
+msgid "Enqueue and play with Xfmedia"
+msgstr "Vër në radhë dhe luaje me Xfmedia"
+
+#: ../xfmedia.desktop.in.h:2
+msgid "Enqueue in Xfmedia"
+msgstr "Vëre në radhë te Xfmedia"
+
+#: ../xfmedia.desktop.in.h:3
+msgid "Lightweight Media Player"
+msgstr "Luajtës Media i Peshës së Lehtë"
+
+#: ../xfmedia.desktop.in.h:4
+msgid "Xfmedia"
+msgstr "Xfmedia"
+

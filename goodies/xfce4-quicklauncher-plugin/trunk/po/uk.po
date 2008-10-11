@@ -1,0 +1,86 @@
+# Ukrainian translation of xfce4-quicklauncher-plugin.
+# Copyright (C) 2005-2006 Masse Nicolas.
+# This file is distributed under the same license as the xfce4-quicklauncher-plugin package.
+#
+# Dmitry Nikitin <luckas_fb@mail.ru>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-quicklauncher-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-14 09:34+0000\n"
+"PO-Revision-Date: 2008-07-09 11:09+0300\n"
+"Last-Translator: Dmitry Nikitin <luckas_fb@mail.ru>\n"
+"Language-Team: Ukrainian <xfce4-dev@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../panel-plugin/callbacks.c:79
+msgid "Configure Quicklauncher"
+msgstr "Налаштувати швидкий запуск"
+
+#: ../panel-plugin/callbacks.c:111
+msgid "Lines: "
+msgstr "Рядки: "
+
+#: ../panel-plugin/callbacks.c:124
+msgid "Espace entre les lanceurs :"
+msgstr "Проміжок між рядками :"
+
+#: ../panel-plugin/callbacks.c:132
+msgid "afficher les tooltips"
+msgstr "відображати спливаючі"
+
+#: ../panel-plugin/callbacks.c:136
+msgid "afficher les labels"
+msgstr "відображати мітки"
+
+#: ../panel-plugin/callbacks.c:220
+msgid "icone"
+msgstr "значок"
+
+#: ../panel-plugin/callbacks.c:226
+msgid "commande"
+msgstr "команда"
+
+#: ../panel-plugin/callbacks.c:232
+msgid "nom"
+msgstr "нічого"
+
+#: ../panel-plugin/callbacks.c:331
+msgid "Open icon"
+msgstr "Відкрити файл значка"
+
+#: ../panel-plugin/main.c:164 ../panel-plugin/quicklauncher.desktop.in.in.h:2
+msgid "Quicklauncher"
+msgstr "Швидкий запуск"
+
+#: ../panel-plugin/main.c:167
+msgid "Allows you to add launchers easily and display them on many lines."
+msgstr ""
+"Дозволяє Вам легко додавати швидкі запуски і відображати їх в кількох рядках."
+
+#: ../panel-plugin/main.c:169
+msgid "Other plugins available here"
+msgstr "Інші плагіни доступні тут"
+
+#: ../panel-plugin/main.c:321
+msgid "Lock"
+msgstr "Замкнути"
+
+#: ../panel-plugin/main.c:324
+msgid "Parameters"
+msgstr "Параметри"
+
+#: ../panel-plugin/main.c:327
+msgid "Applications"
+msgstr "Програми"
+
+#: ../panel-plugin/main.c:330
+msgid "Help"
+msgstr "Довідка"
+
+#: ../panel-plugin/quicklauncher.desktop.in.in.h:1
+msgid "Program with several launchers"
+msgstr "Програма з кількома кнопками запуску"

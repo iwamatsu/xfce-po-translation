@@ -1,0 +1,53 @@
+# Norwegian Bokmal translations for xfce4-wavelan-plugin package.
+# Copyright (C) 2007 THE xfce4-wavelan-plugin'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfce4-wavelan-plugin package.
+# Terje Uriansrud <ter@operamail.com>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-wavelan-plugin 0.5.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 22:55+0200\n"
+"PO-Revision-Date: 2007-07-02 00:46+0200\n"
+"Last-Translator: Terje Uriansrud <ter@operamail.com>\n"
+"Language-Team: Norwegian Bokmal\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../panel-plugin/wavelan.c:187
+msgid "No carrier signal"
+msgstr "Ingen bærersignal"
+
+#: ../panel-plugin/wavelan.c:217
+msgid "No device configured"
+msgstr "Ingen enhet konfigurert"
+
+#: ../panel-plugin/wavelan.c:499
+msgid "Properties"
+msgstr "Egenskaper"
+
+#: ../panel-plugin/wavelan.c:515
+msgid "Wavelan Plugin Options"
+msgstr "Wavelan innstillinger"
+
+#: ../panel-plugin/wavelan.c:531
+msgid "Interface"
+msgstr "Grensesnitt"
+
+#: ../panel-plugin/wavelan.c:553
+msgid "_Autohide when offline"
+msgstr "_Skjul automatisk hvis frakoblet"
+
+#: ../panel-plugin/wavelan.c:563
+msgid "Autohide when no hardware present"
+msgstr "Skjul automatisk hvis maskinvare er utilgjengelig"
+
+#: ../panel-plugin/wavelan.c:574
+msgid ""
+"Note: This will make it difficult to remove or configure the plugin if there "
+"is no device detected."
+msgstr ""
+"Merk: Dette vil gjøre det vanskelig å fjerne eller konfigurere modulen hvis "
+"ingen enheter er funnet."

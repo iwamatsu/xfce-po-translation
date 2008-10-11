@@ -1,0 +1,95 @@
+dnl $Id: configure.in.in 2290 2007-01-01 16:41:23Z pollux $
+dnl
+dnl Copyright (c) 2006 Jean-François Wauthy <pollux@xfce.org>
+dnl
+
+dnl ***************************
+dnl *** Version information ***
+dnl ***************************
+m4_define([gsynaptics_mcs_plugin_version_major], [1])
+m4_define([gsynaptics_mcs_plugin_version_minor], [0])
+m4_define([gsynaptics_mcs_plugin_version_micro], [0])
+m4_define([gsynaptics_mcs_plugin_version_nano], [])
+m4_define([gsynaptics_mcs_plugin_version_build], [@REVISION@])
+m4_define([gsynaptics_mcs_plugin_version_tag], [svn])
+m4_define([gsynaptics_mcs_plugin_version], [gsynaptics_mcs_plugin_version_major().gsynaptics_mcs_plugin_version_minor().gsynaptics_mcs_plugin_version_micro()ifelse(gsynaptics_mcs_plugin_version_nano(), [], [], [.gsynaptics_mcs_plugin_version_nano()])ifelse(gsynaptics_mcs_plugin_version_tag(), [svn], [gsynaptics_mcs_plugin_version_tag()-gsynaptics_mcs_plugin_version_build()], [gsynaptics_mcs_plugin_version_tag()])])
+
+
+dnl # DO NOT MODIFY ANYTHING BELOW THIS LINE, UNLESS YOU KNOW WHAT
+dnl # YOU ARE DOING.
+
+
+dnl *******************************************
+dnl *** Debugging support for SVN snapshots ***
+dnl *******************************************
+m4_define([gsynaptics_mcs_plugin_debug_default], [ifelse(gsynaptics_mcs_plugin_version_tag(), [svn], [yes], [minimum])])
+
+dnl ***************************
+dnl *** Initialize autoconf ***
+dnl ***************************
+AC_COPYRIGHT([Copyright (c) 2006 Jean-François Wauthy <pollux@xfce.org>])
+AC_INIT([gsynaptics-mcs-plugin], [gsynaptics_mcs_plugin_version], [pollux@xfce.org])
+AC_PREREQ([2.50])
+AC_REVISION([$Id: configure.in.in 2290 2007-01-01 16:41:23Z pollux $])
+AC_PROG_MAKE_SET()
+
+dnl ***************************
+dnl *** Initialize automake ***
+dnl ***************************
+AM_INIT_AUTOMAKE([AC_PACKAGE_TARNAME()], [AC_PACKAGE_VERSION()])
+AM_CONFIG_HEADER([config.h])
+AM_MAINTAINER_MODE()
+
+dnl ********************************
+dnl *** Check for basic programs ***
+dnl ********************************
+AC_PROG_CC()
+AC_PROG_INSTALL()
+AC_PROG_INTLTOOL([0.31], [no-xml])
+AC_PROG_LIBTOOL()
+
+dnl ***************************************
+dnl *** Check for standard header files ***
+dnl ***************************************
+AC_HEADER_STDC()
+
+dnl ******************************
+dnl *** Check for i18n support ***
+dnl ******************************
+XDT_I18N([@LINGUAS@])
+
+dnl **********************************
+dnl *** Check for gsynaptics execs ***
+dnl **********************************
+AC_CHECK_PROG([gsynaptics_found], [gsynaptics], [yes], [no])
+if test x"$gsynaptics_found" = x"no"; then
+  AC_MSG_ERROR([gsynaptics has not been found on your system])
+fi
+
+AC_CHECK_PROG([gsynaptics_init_found], [gsynaptics-init], [yes], [no])
+if test x"$gsynaptics_init_found" = x"no"; then
+  AC_MSG_ERROR([gsynaptics-init has not been found on your system])
+fi
+
+dnl ***********************************
+dnl *** Check for required packages ***
+dnl ***********************************
+XDT_CHECK_PACKAGE([GTK], [gtk+-2.0], [2.6.0])
+XDT_CHECK_PACKAGE([LIBXFCEGUI4], [libxfcegui4-1.0], [4.3.99.2])
+
+dnl **********************************
+dnl *** Check for xfce-mcs-manager ***
+dnl **********************************
+XDT_XFCE_MCS_PLUGIN([XFCE_MCS_MANAGER], [4.3.99.2])
+
+XDT_FEATURE_DEBUG
+
+AC_OUTPUT([
+Makefile
+icons/Makefile
+icons/24x24/Makefile
+icons/48x48/Makefile
+icons/scalable/Makefile
+po/Makefile.in
+src/Makefile
+])

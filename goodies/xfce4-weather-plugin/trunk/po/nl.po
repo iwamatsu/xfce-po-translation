@@ -1,0 +1,1109 @@
+# Dutch translation of the xfce-weather-plugin package.
+# Copyright (C) 2006-2007 The Xfce development team.
+# This file is distributed under the same license as the xfce-weather-plugin package.
+# Jasper Huijsmans <jasper@xfce.org>, 2005.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-weather-plugin 0.6.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-09-12 22:07+0200\n"
+"PO-Revision-Date: 2005-10-10 11:07+0200\n"
+"Last-Translator: Jasper Huijsmans <jasper@xfce.org>\n"
+"Language-Team: Dutch <xfce-i18n@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../panel-plugin/weather.c:103
+msgid "V"
+msgstr "Z"
+
+#: ../panel-plugin/weather.c:106
+msgid "U"
+msgstr "U"
+
+#: ../panel-plugin/weather.c:109
+msgid "WD"
+msgstr "WR"
+
+#: ../panel-plugin/weather.c:112 ../panel-plugin/weather.c:115
+msgid "P"
+msgstr "D"
+
+#: ../panel-plugin/weather.c:118
+msgid "F"
+msgstr "G"
+
+#: ../panel-plugin/weather.c:121
+msgid "T"
+msgstr "T"
+
+#: ../panel-plugin/weather.c:124
+msgid "D"
+msgstr "D"
+
+#: ../panel-plugin/weather.c:127
+msgid "H"
+msgstr "V"
+
+#: ../panel-plugin/weather.c:130
+msgid "WS"
+msgstr "WS"
+
+#: ../panel-plugin/weather.c:133
+msgid "WG"
+msgstr "WT"
+
+#: ../panel-plugin/weather.c:231
+msgid "Cannot update weather data"
+msgstr "Kan weerinformatie niet verversen"
+
+#: ../panel-plugin/weather.c:629
+#, c-format
+msgid "Unable to open the following url: %s"
+msgstr ""
+
+#: ../panel-plugin/weather.c:657 ../panel-plugin/weather-summary.c:374
+#: ../panel-plugin/weather.desktop.in.in.h:2
+msgid "Weather Update"
+msgstr "Weerbericht"
+
+#: ../panel-plugin/weather-config.c:38
+msgid "Windchill (F)"
+msgstr "Gevoelstemperatuur (G)"
+
+#: ../panel-plugin/weather-config.c:39
+msgid "Temperature (T)"
+msgstr "Temperatuur (T)"
+
+#: ../panel-plugin/weather-config.c:40
+msgid "Atmosphere pressure (P)"
+msgstr "Luchtdruk (D)"
+
+#: ../panel-plugin/weather-config.c:41
+msgid "Atmosphere state (P)"
+msgstr "Luchtdruk tendens (D)"
+
+#: ../panel-plugin/weather-config.c:42
+msgid "Wind speed (WS)"
+msgstr "Windsnelheid (WS)"
+
+#: ../panel-plugin/weather-config.c:43
+msgid "Wind gust (WG)"
+msgstr "Windstoten (WT)"
+
+#: ../panel-plugin/weather-config.c:44
+msgid "Wind direction (WD)"
+msgstr "Windrichting (WR)"
+
+#: ../panel-plugin/weather-config.c:45
+msgid "Humidity (H)"
+msgstr "Luchtvochtigheid (V)"
+
+#: ../panel-plugin/weather-config.c:46
+msgid "Visibility (V)"
+msgstr "Zicht (Z)"
+
+#: ../panel-plugin/weather-config.c:47
+msgid "UV Index (UV)"
+msgstr "UV Index (UV)"
+
+#: ../panel-plugin/weather-config.c:48
+msgid "Dewpoint (DP)"
+msgstr "Dauwpunt (DP)"
+
+#: ../panel-plugin/weather-config.c:226
+msgid "Please enter proxy settings"
+msgstr "Proxy-gegevens invoeren"
+
+#: ../panel-plugin/weather-config.c:309
+msgid "Measurement unit:"
+msgstr "Eenheid:"
+
+#: ../panel-plugin/weather-config.c:315
+msgid "Imperial"
+msgstr "Imperial"
+
+#: ../panel-plugin/weather-config.c:317
+msgid "Metric"
+msgstr "Metrisch"
+
+#: ../panel-plugin/weather-config.c:332
+msgid "Location code:"
+msgstr "Locatiecode:"
+
+#. proxy
+#: ../panel-plugin/weather-config.c:355
+msgid "Proxy server:"
+msgstr "Proxy server:"
+
+#: ../panel-plugin/weather-config.c:358
+msgid "Use proxy server"
+msgstr "Proxy server gebruiken"
+
+#: ../panel-plugin/weather-config.c:360
+msgid "Auto-detect from environment"
+msgstr "Automatisch detecteren"
+
+#: ../panel-plugin/weather-config.c:432
+msgid "Labels to display"
+msgstr "Te tonen labels"
+
+#: ../panel-plugin/weather-data.c:404
+msgid "km/h"
+msgstr "km/u"
+
+#: ../panel-plugin/weather-data.c:404
+msgid "mph"
+msgstr "mph"
+
+#: ../panel-plugin/weather-data.c:407
+msgid "hPa"
+msgstr "hPa"
+
+#: ../panel-plugin/weather-data.c:407
+msgid "in"
+msgstr "in"
+
+#: ../panel-plugin/weather-data.c:410
+msgid "km"
+msgstr "km"
+
+#: ../panel-plugin/weather-data.c:410
+msgid "mi"
+msgstr "mi"
+
+#. display error
+#: ../panel-plugin/weather-http.c:145
+#, c-format
+msgid "Failed to get the hostname \"%s\". Retry in %d seconds."
+msgstr ""
+
+#. display error
+#: ../panel-plugin/weather-http.c:162
+#, c-format
+msgid "Failed to open the socket (%s)."
+msgstr ""
+
+#. display error
+#: ../panel-plugin/weather-http.c:184
+#, c-format
+msgid "Failed to create a connection with the host (%s)."
+msgstr ""
+
+#. display error
+#: ../panel-plugin/weather-http.c:217
+#, c-format
+msgid "Failed to send the request (%s)."
+msgstr ""
+
+#. display error
+#: ../panel-plugin/weather-http.c:254
+#, c-format
+msgid "Failed to receive data (%s)"
+msgstr ""
+
+#. display error
+#: ../panel-plugin/weather-http.c:295
+msgid "Unable to detect the content length."
+msgstr ""
+
+#: ../panel-plugin/weather-http.c:303
+msgid "No content received."
+msgstr ""
+
+#: ../panel-plugin/weather-search.c:194
+msgid "Search weather location code"
+msgstr "Zoek locatie code"
+
+#: ../panel-plugin/weather-search.c:208
+#, fuzzy
+msgid "Enter a city name or zip code"
+msgstr "Voer een plaatsnaam of zip code in"
+
+#: ../panel-plugin/weather-search.c:234
+msgid "Results"
+msgstr "Resultaten"
+
+#. head
+#: ../panel-plugin/weather-summary.c:84
+#, c-format
+msgid ""
+"Weather report for: %s.\n"
+"\n"
+msgstr ""
+"Weersituatie voor: %s.\n"
+"\n"
+
+#: ../panel-plugin/weather-summary.c:89
+#, fuzzy, c-format
+msgid ""
+"Observation station located in %s\n"
+"Last update: %s.\n"
+msgstr ""
+"Meetstation in %s\n"
+"laatst gewijzigd: %s.\n"
+
+#. Temperature
+#: ../panel-plugin/weather-summary.c:95
+msgid ""
+"\n"
+"Temperature\n"
+msgstr ""
+"\n"
+"Temperatuur\n"
+
+#: ../panel-plugin/weather-summary.c:96
+msgid "Temperature"
+msgstr "Temperatuur"
+
+#: ../panel-plugin/weather-summary.c:97
+msgid "Windchill"
+msgstr "Gevoelstemperatuur"
+
+#. special case for TRANS because of translate_desc
+#: ../panel-plugin/weather-summary.c:100
+msgid "Description"
+msgstr "Omschrijving"
+
+#: ../panel-plugin/weather-summary.c:103
+msgid "Dew point"
+msgstr "Dauwpunt"
+
+#. Wind
+#: ../panel-plugin/weather-summary.c:106
+msgid ""
+"\n"
+"Wind\n"
+msgstr ""
+"\n"
+"Wind\n"
+
+#: ../panel-plugin/weather-summary.c:108
+msgid "Speed"
+msgstr "Snelheid"
+
+#: ../panel-plugin/weather-summary.c:113
+msgid "Direction"
+msgstr "Richting"
+
+#: ../panel-plugin/weather-summary.c:119
+msgid "Gusts"
+msgstr "Windstoten"
+
+#. UV
+#: ../panel-plugin/weather-summary.c:124
+msgid ""
+"\n"
+"UV\n"
+msgstr ""
+"\n"
+"UV\n"
+
+#: ../panel-plugin/weather-summary.c:125
+msgid "Index"
+msgstr "Index"
+
+#: ../panel-plugin/weather-summary.c:126
+msgid "Risk"
+msgstr "Risico"
+
+#. Atmospheric pressure
+#: ../panel-plugin/weather-summary.c:131
+msgid ""
+"\n"
+"Atmospheric pressure\n"
+msgstr ""
+"\n"
+"Luchtdruk\n"
+
+#: ../panel-plugin/weather-summary.c:132
+msgid "Pressure"
+msgstr "Luchtdruk"
+
+#: ../panel-plugin/weather-summary.c:134
+msgid "State"
+msgstr "Tendens"
+
+#. Sun
+#: ../panel-plugin/weather-summary.c:139
+msgid ""
+"\n"
+"Sun\n"
+msgstr ""
+"\n"
+"Zon\n"
+
+#: ../panel-plugin/weather-summary.c:142
+msgid "Rise"
+msgstr "Op"
+
+#: ../panel-plugin/weather-summary.c:148
+msgid "Set"
+msgstr "Onder"
+
+#. Other
+#: ../panel-plugin/weather-summary.c:153
+msgid ""
+"\n"
+"Other\n"
+msgstr ""
+"\n"
+"Overige\n"
+
+#: ../panel-plugin/weather-summary.c:154
+msgid "Humidity"
+msgstr "Luchtvochtigheid"
+
+#: ../panel-plugin/weather-summary.c:156
+msgid "Visibility"
+msgstr "Zicht"
+
+#: ../panel-plugin/weather-summary.c:215
+#, c-format
+msgid "Day: %s"
+msgstr "Overdag: %s"
+
+#: ../panel-plugin/weather-summary.c:220
+#, c-format
+msgid "Night: %s"
+msgstr "Nacht: %s"
+
+#: ../panel-plugin/weather-summary.c:231
+msgid "<b>Precipitation</b>"
+msgstr "<b>Kans op neerslag</b>"
+
+#: ../panel-plugin/weather-summary.c:253
+msgid "<b>Temperature</b>"
+msgstr "<b>Temperatuur</b>"
+
+#: ../panel-plugin/weather-summary.c:277
+msgid "<b>Wind</b>"
+msgstr "<b>Wind</b>"
+
+#: ../panel-plugin/weather-summary.c:380
+#, fuzzy, c-format
+msgid "Weather report for: %s"
+msgstr ""
+"Weersituatie voor: %s.\n"
+"\n"
+
+#: ../panel-plugin/weather-summary.c:403
+msgid "Summary"
+msgstr "Samenvatting"
+
+#: ../panel-plugin/weather-summary.c:406
+msgid "Forecast"
+msgstr "Verwachting"
+
+#: ../panel-plugin/weather-translate.c:41
+msgid "AM Clouds / PM Sun"
+msgstr ""
+
+#: ../panel-plugin/weather-translate.c:42
+msgid "AM Light Rain"
+msgstr "Ochtend Lichte Regen"
+
+#: ../panel-plugin/weather-translate.c:43
+#, fuzzy
+msgid "AM Light Snow"
+msgstr "Lichte Sneeuwbuien"
+
+#: ../panel-plugin/weather-translate.c:44
+#, fuzzy
+msgid "AM Rain / Snow Showers"
+msgstr "Regen/Sneeuwbuien"
+
+#: ../panel-plugin/weather-translate.c:45
+#, fuzzy
+msgid "AM Rain / Wind"
+msgstr "Lichte Regen / Wind"
+
+#: ../panel-plugin/weather-translate.c:46
+msgid "AM Showers"
+msgstr "Ochtend Buien"
+
+#: ../panel-plugin/weather-translate.c:47
+#, fuzzy
+msgid "AM Showers / Wind"
+msgstr "Ochtend Buien"
+
+#: ../panel-plugin/weather-translate.c:48
+#, fuzzy
+msgid "AM Snow Showers"
+msgstr "Sneeuwbuien"
+
+#: ../panel-plugin/weather-translate.c:49
+#, fuzzy
+msgid "AM Snow Showers / Wind"
+msgstr "Sneeuwbuien"
+
+#: ../panel-plugin/weather-translate.c:50
+#, fuzzy
+msgid "AM T-Storms"
+msgstr "Ochtend Buien"
+
+#: ../panel-plugin/weather-translate.c:51
+msgid "Becoming Cloudy"
+msgstr "Opkomende Bewolking"
+
+#: ../panel-plugin/weather-translate.c:52
+msgid "Blizzard"
+msgstr "Sneeuwstorm"
+
+#: ../panel-plugin/weather-translate.c:53
+msgid "Blizzard Conditions"
+msgstr "Sneeuwstorm Omstandigheden"
+
+#: ../panel-plugin/weather-translate.c:54
+msgid "Blowing Snow"
+msgstr "Wervelende Sneeuw"
+
+#: ../panel-plugin/weather-translate.c:55
+msgid "Chance of Rain"
+msgstr "Kans op Regen"
+
+#: ../panel-plugin/weather-translate.c:56
+msgid "Chance of Rain/Snow"
+msgstr "Kans op Regen/Sneeuw"
+
+#: ../panel-plugin/weather-translate.c:57
+msgid "Chance of Showers"
+msgstr "Kans op Buien"
+
+#: ../panel-plugin/weather-translate.c:58
+msgid "Chance of Snow"
+msgstr "Kans op Sneeuw"
+
+#: ../panel-plugin/weather-translate.c:59
+msgid "Chance of Snow/Rain"
+msgstr "Kans op Sneeuw/Regen"
+
+#: ../panel-plugin/weather-translate.c:60
+msgid "Chance of T-Storm"
+msgstr "Kans op Onweer"
+
+#: ../panel-plugin/weather-translate.c:61
+msgid "Clear"
+msgstr "Helder"
+
+#: ../panel-plugin/weather-translate.c:62
+msgid "Clearing"
+msgstr "Opklaringen"
+
+#: ../panel-plugin/weather-translate.c:63
+msgid "Clouds"
+msgstr "Wolken"
+
+#: ../panel-plugin/weather-translate.c:64
+msgid "Clouds Early / Clearing Late"
+msgstr "Eerst Bewolkt / Later Opklaringen"
+
+#: ../panel-plugin/weather-translate.c:65
+msgid "Cloudy"
+msgstr "Zwaar Bewolkt"
+
+#: ../panel-plugin/weather-translate.c:66
+#, fuzzy
+msgid "Cloudy / Wind"
+msgstr "Wisselend Bewolkt"
+
+#: ../panel-plugin/weather-translate.c:67
+msgid "Cloudy Periods"
+msgstr "Wisselend Bewolkt"
+
+#: ../panel-plugin/weather-translate.c:68
+msgid "Continued Hot"
+msgstr "Blijvend Heet"
+
+#: ../panel-plugin/weather-translate.c:69
+msgid "Cumulonimbus Clouds Observed"
+msgstr "Stapelwolken Geobserveerd"
+
+#: ../panel-plugin/weather-translate.c:70
+msgid "Drifting Snow"
+msgstr "Drijvende Sneeuw"
+
+#: ../panel-plugin/weather-translate.c:71
+#, fuzzy
+msgid "Drifting Snow and Windy"
+msgstr "Drijvende Sneeuw"
+
+#: ../panel-plugin/weather-translate.c:72
+msgid "Drizzle"
+msgstr "Motregen"
+
+#: ../panel-plugin/weather-translate.c:73
+msgid "Dry"
+msgstr "Droog"
+
+#: ../panel-plugin/weather-translate.c:74
+#, fuzzy
+msgid "Dust"
+msgstr "Windstoten"
+
+#: ../panel-plugin/weather-translate.c:75
+msgid "Fair"
+msgstr "Onbewolkt"
+
+#: ../panel-plugin/weather-translate.c:76
+msgid "Few Showers"
+msgstr "Mogelijk Buien"
+
+#: ../panel-plugin/weather-translate.c:77
+msgid "Few Snow Showers"
+msgstr "Mogelijk Sneeuwbuien"
+
+#: ../panel-plugin/weather-translate.c:78
+msgid "Fog"
+msgstr "Mist"
+
+#: ../panel-plugin/weather-translate.c:79
+msgid "Freezing Drizzle"
+msgstr "Aanvriezende Motregen"
+
+#: ../panel-plugin/weather-translate.c:80
+msgid "Freezing Rain"
+msgstr "Aanvriezende Regen"
+
+#: ../panel-plugin/weather-translate.c:81
+msgid "Freezing Rain/Snow"
+msgstr "Aanvriezende Regen/Sneeuw"
+
+#: ../panel-plugin/weather-translate.c:82
+msgid "Frigid"
+msgstr ""
+
+#: ../panel-plugin/weather-translate.c:83
+msgid "Frozen Precip"
+msgstr "Bevroren Neerslag"
+
+#: ../panel-plugin/weather-translate.c:84
+msgid "Hail"
+msgstr ""
+
+#: ../panel-plugin/weather-translate.c:85
+#, fuzzy
+msgid "Haze"
+msgstr "Nevelig"
+
+#: ../panel-plugin/weather-translate.c:86
+msgid "Hazy"
+msgstr "Nevelig"
+
+#: ../panel-plugin/weather-translate.c:87
+msgid "Heavy Rain"
+msgstr "Stevige Buien"
+
+#: ../panel-plugin/weather-translate.c:88
+msgid "Heavy Snow"
+msgstr "Stevige Sneeuwbuien"
+
+#: ../panel-plugin/weather-translate.c:89
+msgid "Hot And Humid"
+msgstr "Heet en Klam"
+
+#: ../panel-plugin/weather-translate.c:90
+msgid "Hot!"
+msgstr ""
+
+#: ../panel-plugin/weather-translate.c:91
+msgid "Ice Crystals"
+msgstr "Ijskristallen"
+
+#: ../panel-plugin/weather-translate.c:92
+msgid "Ice/Snow Mixture"
+msgstr "Ijs/Sneeuw Combinatie"
+
+#: ../panel-plugin/weather-translate.c:93
+msgid "Increasing Clouds"
+msgstr "Opkomende Bewolking"
+
+#: ../panel-plugin/weather-translate.c:94
+msgid "Isolated Showers"
+msgstr "Plaatselijke Buien"
+
+#: ../panel-plugin/weather-translate.c:95
+#, fuzzy
+msgid "Isolated T-Storms"
+msgstr "Plaatselijke Buien"
+
+#: ../panel-plugin/weather-translate.c:96
+msgid "Light Drizzle"
+msgstr "Lichte Motregen"
+
+#: ../panel-plugin/weather-translate.c:97
+msgid "Light Drizzle and Windy"
+msgstr "Lichte Motregen en Winderig"
+
+#: ../panel-plugin/weather-translate.c:98
+msgid "Light Rain"
+msgstr "Lichte Regenbuien"
+
+#: ../panel-plugin/weather-translate.c:99
+msgid "Light Rain / Wind"
+msgstr "Lichte Regen / Wind"
+
+#: ../panel-plugin/weather-translate.c:100
+#, fuzzy
+msgid "Light rain late"
+msgstr "Lichte Regenbuien"
+
+#: ../panel-plugin/weather-translate.c:101
+msgid "Light Rain Shower"
+msgstr "Lichte Regenbui"
+
+#: ../panel-plugin/weather-translate.c:102
+msgid "Light Snow"
+msgstr "Lichte Sneeuwbuien"
+
+#: ../panel-plugin/weather-translate.c:103
+msgid "Lightning Observed"
+msgstr "Onweer geobserveerd"
+
+#: ../panel-plugin/weather-translate.c:104
+#, fuzzy
+msgid "Mild and Breezy"
+msgstr "mild met een zacht briesje"
+
+#: ../panel-plugin/weather-translate.c:105
+msgid "Mist"
+msgstr "Mist"
+
+#: ../panel-plugin/weather-translate.c:106
+msgid "Mostly Clear"
+msgstr "Voornamelijk Onbewolkt"
+
+#: ../panel-plugin/weather-translate.c:107
+msgid "Mostly Cloudy"
+msgstr "Voornamelijk Bewolkt"
+
+#: ../panel-plugin/weather-translate.c:108
+#, fuzzy
+msgid "Mostly Cloudy / Wind"
+msgstr "Voornamelijk Bewolkt en Winderig"
+
+#: ../panel-plugin/weather-translate.c:109
+msgid "Mostly Cloudy and Windy"
+msgstr "Voornamelijk Bewolkt en Winderig"
+
+#: ../panel-plugin/weather-translate.c:110
+msgid "Mostly Sunny"
+msgstr "Voornamelijk Zonnig"
+
+#: ../panel-plugin/weather-translate.c:111
+#, fuzzy
+msgid "Mostly Sunny / Wind"
+msgstr "Voornamelijk Zonnig"
+
+#: ../panel-plugin/weather-translate.c:112
+msgid "N/A Not Available"
+msgstr ""
+
+#: ../panel-plugin/weather-translate.c:113
+msgid "Occasional Sunshine"
+msgstr "Af en toe zon"
+
+#: ../panel-plugin/weather-translate.c:114
+msgid "Overcast"
+msgstr "Bewolkt"
+
+#: ../panel-plugin/weather-translate.c:115
+msgid "Partial Clearing"
+msgstr "Gedeeltelijke Opklaring"
+
+#: ../panel-plugin/weather-translate.c:116
+#, fuzzy
+msgid "Partial Fog"
+msgstr "Gedeeltelijke Opklaring"
+
+#: ../panel-plugin/weather-translate.c:117
+msgid "Partial Sunshine"
+msgstr "Half-bewolkt"
+
+#: ../panel-plugin/weather-translate.c:118
+msgid "Partly Cloudy"
+msgstr "Half Bewolkt"
+
+#: ../panel-plugin/weather-translate.c:119
+#, fuzzy
+msgid "Partly Cloudy / Wind"
+msgstr "Half Bewolkt en Winderig"
+
+#: ../panel-plugin/weather-translate.c:120
+msgid "Partly Cloudy and Windy"
+msgstr "Half Bewolkt en Winderig"
+
+#: ../panel-plugin/weather-translate.c:121
+msgid "Partly Sunny"
+msgstr "Gedeeltelijk Zonnig"
+
+#: ../panel-plugin/weather-translate.c:122
+msgid "PM Light Rain"
+msgstr "Middag Lichte Regen"
+
+#: ../panel-plugin/weather-translate.c:123
+#, fuzzy
+msgid "PM Light Snow"
+msgstr "Lichte Sneeuwbuien"
+
+#: ../panel-plugin/weather-translate.c:124
+#, fuzzy
+msgid "PM Rain / Wind"
+msgstr "Lichte Regen / Wind"
+
+#: ../panel-plugin/weather-translate.c:125
+msgid "PM Showers"
+msgstr "Middag Buien"
+
+#: ../panel-plugin/weather-translate.c:126
+#, fuzzy
+msgid "PM Snow Showers"
+msgstr "Sneeuwbuien"
+
+#: ../panel-plugin/weather-translate.c:127
+#, fuzzy
+msgid "PM T-Storms"
+msgstr "Middag Buien"
+
+#: ../panel-plugin/weather-translate.c:128
+msgid "Rain"
+msgstr "Regen"
+
+#: ../panel-plugin/weather-translate.c:129
+msgid "Rain / Snow"
+msgstr "Regen / Sneeuw"
+
+#: ../panel-plugin/weather-translate.c:130
+#, fuzzy
+msgid "Rain / Snow / Wind"
+msgstr "Regen / Sneeuw"
+
+#: ../panel-plugin/weather-translate.c:131
+#, fuzzy
+msgid "Rain / Snow Late"
+msgstr "Regen / Sneeuw"
+
+#: ../panel-plugin/weather-translate.c:132
+msgid "Rain / Snow Showers"
+msgstr "Regen/Sneeuwbuien"
+
+#: ../panel-plugin/weather-translate.c:133
+#, fuzzy
+msgid "Rain / Thunder"
+msgstr "Onweer"
+
+#: ../panel-plugin/weather-translate.c:134
+#, fuzzy
+msgid "Rain / Wind"
+msgstr "Lichte Regen / Wind"
+
+#: ../panel-plugin/weather-translate.c:135
+msgid "Rain and Sleet"
+msgstr "Regen en Natte Sneeuw"
+
+#: ../panel-plugin/weather-translate.c:136
+msgid "Rain and Snow"
+msgstr "Regen en Sneeuw"
+
+#: ../panel-plugin/weather-translate.c:137
+msgid "Rain or Snow"
+msgstr "Regen of Sneeuw"
+
+#: ../panel-plugin/weather-translate.c:138
+#, fuzzy
+msgid "Rain Shower"
+msgstr "Regenbuien"
+
+#: ../panel-plugin/weather-translate.c:139
+#, fuzzy
+msgid "Rain Shower and Windy"
+msgstr "Regenbuien"
+
+#: ../panel-plugin/weather-translate.c:140
+#, fuzzy
+msgid "Rain to snow"
+msgstr "Regen tot Sneeuw"
+
+#: ../panel-plugin/weather-translate.c:141
+msgid "Rain/Lightning"
+msgstr ""
+
+#: ../panel-plugin/weather-translate.c:142
+msgid "Scattered Showers"
+msgstr "Plaatselijke Buien"
+
+#: ../panel-plugin/weather-translate.c:143
+#, fuzzy
+msgid "Scattered Snow Showers"
+msgstr "Plaatselijke Buien"
+
+#: ../panel-plugin/weather-translate.c:144
+#, fuzzy
+msgid "Scattered Snow Showers / Wind"
+msgstr "Plaatselijke Buien"
+
+#: ../panel-plugin/weather-translate.c:145
+#, fuzzy
+msgid "Scattered T-Storms"
+msgstr "Plaatselijke Buien"
+
+#: ../panel-plugin/weather-translate.c:146
+msgid "Showers"
+msgstr "Buien"
+
+#: ../panel-plugin/weather-translate.c:147
+#, fuzzy
+msgid "Showers / Wind"
+msgstr "Buien"
+
+#: ../panel-plugin/weather-translate.c:148
+#, fuzzy
+msgid "Showers Early"
+msgstr "Sneeuwbuien Vroeg"
+
+#: ../panel-plugin/weather-translate.c:149
+msgid "Showers in the Vicinity"
+msgstr "Buien in de Omgeving"
+
+#: ../panel-plugin/weather-translate.c:150
+msgid "Showers Late"
+msgstr "Buien Laat"
+
+#: ../panel-plugin/weather-translate.c:151
+msgid "Sleet and Snow"
+msgstr "Natte sneeuw en sneeuw"
+
+#: ../panel-plugin/weather-translate.c:152
+msgid "Smoke"
+msgstr "Rook"
+
+#: ../panel-plugin/weather-translate.c:153
+msgid "Snow"
+msgstr "Sneeuw"
+
+#: ../panel-plugin/weather-translate.c:154
+msgid "Snow and Rain"
+msgstr "Sneeuw en Regen"
+
+#: ../panel-plugin/weather-translate.c:155
+msgid "Snow or Rain"
+msgstr "Sneeuw of Regen"
+
+#: ../panel-plugin/weather-translate.c:156
+msgid "Snow Shower"
+msgstr "Sneeuwbui"
+
+#: ../panel-plugin/weather-translate.c:157
+#, fuzzy
+msgid "Snow Shower / Wind"
+msgstr "Sneeuwbui"
+
+#: ../panel-plugin/weather-translate.c:158
+msgid "Snow Showers Early"
+msgstr "Sneeuwbuien Vroeg"
+
+#: ../panel-plugin/weather-translate.c:159
+#, fuzzy
+msgid "Snow Showers early"
+msgstr "Sneeuwbuien Vroeg"
+
+#: ../panel-plugin/weather-translate.c:160
+msgid "Snow Showers Late"
+msgstr "Sneeuwbuien Laat"
+
+#: ../panel-plugin/weather-translate.c:161
+msgid "Snow to Rain"
+msgstr "Sneeuw tot Regen"
+
+#: ../panel-plugin/weather-translate.c:162
+msgid "Sunny"
+msgstr "Zonnig"
+
+#: ../panel-plugin/weather-translate.c:163
+msgid "Sunny / Wind"
+msgstr ""
+
+#: ../panel-plugin/weather-translate.c:164
+#, fuzzy
+msgid "T-Showers"
+msgstr "Buien"
+
+#: ../panel-plugin/weather-translate.c:165
+msgid "T-Storm"
+msgstr ""
+
+#: ../panel-plugin/weather-translate.c:166
+msgid "T-Storms / Wind"
+msgstr ""
+
+#: ../panel-plugin/weather-translate.c:167
+#, fuzzy
+msgid "T-Storms Early"
+msgstr "Sneeuwbuien Vroeg"
+
+#: ../panel-plugin/weather-translate.c:168
+msgid "Thunder"
+msgstr "Onweer"
+
+#: ../panel-plugin/weather-translate.c:169
+#, fuzzy
+msgid "Thunder in the Vincinity"
+msgstr "Buien in de Omgeving"
+
+#: ../panel-plugin/weather-translate.c:170
+msgid "Variable Cloudiness"
+msgstr "Wisselvallige Bewolking"
+
+#: ../panel-plugin/weather-translate.c:171
+msgid "Variable Clouds"
+msgstr "Wisselvallige Wolken"
+
+#: ../panel-plugin/weather-translate.c:172
+#, fuzzy
+msgid "Windy/Rain"
+msgstr "Winderig"
+
+#: ../panel-plugin/weather-translate.c:173
+#, fuzzy
+msgid "Windy/Snow"
+msgstr "Winderig"
+
+#: ../panel-plugin/weather-translate.c:174
+msgid "Wintry Mix"
+msgstr "Winterse buien"
+
+#: ../panel-plugin/weather-translate.c:181
+msgid "rising"
+msgstr "stijgende"
+
+#: ../panel-plugin/weather-translate.c:182
+msgid "steady"
+msgstr "stabiel"
+
+#: ../panel-plugin/weather-translate.c:183
+msgid "falling"
+msgstr "dalende"
+
+#: ../panel-plugin/weather-translate.c:190
+msgid "Low"
+msgstr "Laag"
+
+#: ../panel-plugin/weather-translate.c:191
+msgid "Moderate"
+msgstr "Middelmatig"
+
+#: ../panel-plugin/weather-translate.c:192
+msgid "High"
+msgstr "Hoog"
+
+#: ../panel-plugin/weather-translate.c:193
+msgid "Very High"
+msgstr "Zeer Hoog"
+
+#: ../panel-plugin/weather-translate.c:194
+msgid "Extreme"
+msgstr "Extreem"
+
+#: ../panel-plugin/weather-translate.c:201
+msgid "S"
+msgstr "Z"
+
+#: ../panel-plugin/weather-translate.c:202
+msgid "SSW"
+msgstr "ZZW"
+
+#: ../panel-plugin/weather-translate.c:203
+msgid "SW"
+msgstr "ZW"
+
+#: ../panel-plugin/weather-translate.c:204
+msgid "WSW"
+msgstr "WZW"
+
+#: ../panel-plugin/weather-translate.c:205
+msgid "W"
+msgstr "W"
+
+#: ../panel-plugin/weather-translate.c:206
+msgid "WNW"
+msgstr "WNW"
+
+#: ../panel-plugin/weather-translate.c:207
+msgid "NW"
+msgstr "NW"
+
+#: ../panel-plugin/weather-translate.c:208
+msgid "NNW"
+msgstr "NNW"
+
+#: ../panel-plugin/weather-translate.c:209
+msgid "N"
+msgstr "N"
+
+#: ../panel-plugin/weather-translate.c:210
+msgid "NNE"
+msgstr "NNO"
+
+#: ../panel-plugin/weather-translate.c:211
+msgid "NE"
+msgstr "NO"
+
+#: ../panel-plugin/weather-translate.c:212
+msgid "ENE"
+msgstr "ONO"
+
+#: ../panel-plugin/weather-translate.c:213
+msgid "E"
+msgstr "O"
+
+#: ../panel-plugin/weather-translate.c:214
+msgid "ESE"
+msgstr "OZO"
+
+#: ../panel-plugin/weather-translate.c:215
+msgid "SE"
+msgstr "ZO"
+
+#: ../panel-plugin/weather-translate.c:216
+msgid "SSE"
+msgstr "ZZO"
+
+#: ../panel-plugin/weather-translate.c:335
+#, c-format
+msgid "%x at %X Local Time"
+msgstr "%x om %X Lokale Tijd"
+
+#: ../panel-plugin/weather-translate.c:429
+msgid "calm"
+msgstr "Rustig"
+
+#: ../panel-plugin/weather-translate.c:431
+msgid "N/A"
+msgstr "N/B"
+
+#: ../panel-plugin/weather-translate.c:479
+msgid "Unlimited"
+msgstr "Oneindig"
+
+#: ../panel-plugin/weather.desktop.in.in.h:1
+#, fuzzy
+msgid "Show current weather conditions"
+msgstr "Wat voor weer is het?"
+
+#, fuzzy
+#~ msgid "Showers in the Vincinity"
+#~ msgstr "Buien in de Omgeving"
+
+#~ msgid "Flurries"
+#~ msgstr "Plaatselijk buien"
+
+#~ msgid "Sleet"
+#~ msgstr "Natte sneeuw"
+
+#~ msgid "Thunder storms"
+#~ msgstr "Onweersbuien"
+
+#~ msgid "Properties"
+#~ msgstr "Eigenschappen"

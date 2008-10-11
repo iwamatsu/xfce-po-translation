@@ -1,0 +1,84 @@
+# Brazilian Portuguese translations for xfce4-xmms-plugin package.
+# Copyright (C) 2007 Patrick van Staveren <pvanstav@cs.wmich.edu>
+# This file is distributed under the same license as the xfce4-xmms-plugin package.
+# Automatically generated, 2007.
+# Andrius da Costa Ribas <andriusmao@gmail.com>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-xmms-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:12+0200\n"
+"PO-Revision-Date: 2006-09-10 21:12+0200\n"
+"Last-Translator: Andrius da Costa Ribas <andriusmao@gmail.com>\n"
+"Language-Team: Brazilian Portuguese <ldp-br@bazar2.conectiva.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../panel-plugin/xmms_plugin.c:756
+msgid "Properties"
+msgstr "Propriedades"
+
+#: ../panel-plugin/xmms_plugin.c:768
+msgid "Xfce4 XMMS Plugin Options"
+msgstr "Opções Plug-in XMMS do Xfce4"
+
+#. put labels into the left column of our table
+#: ../panel-plugin/xmms_plugin.c:787
+msgid "Font Size"
+msgstr "Tamanho da Fonte"
+
+#: ../panel-plugin/xmms_plugin.c:788
+msgid "Scroll Speed"
+msgstr "Velocidade de Rolagem"
+
+#: ../panel-plugin/xmms_plugin.c:789
+msgid "Scroll Stepwidth"
+msgstr "Largura do Passo de Rolagem"
+
+#: ../panel-plugin/xmms_plugin.c:790
+msgid "Scroll Delay"
+msgstr "Atraso da Rolagem"
+
+#. add check buttons for the scrolled title, progressbar and volume bar
+#: ../panel-plugin/xmms_plugin.c:802
+msgid "Show scrolled song title"
+msgstr "Mostrar título da música rolado"
+
+#: ../panel-plugin/xmms_plugin.c:803
+msgid "Show track position"
+msgstr "Mostrar posição da faixa"
+
+#: ../panel-plugin/xmms_plugin.c:804
+msgid "Show volume level"
+msgstr "Mostrar intensidade do volume"
+
+#. add check button for simple title option
+#: ../panel-plugin/xmms_plugin.c:806
+msgid "Simple song title format"
+msgstr "Formato de título de música simples"
+
+#. add check button for hor_vol_if_vertical option
+#: ../panel-plugin/xmms_plugin.c:808
+msgid "Horizontal volume bar on vertical panels"
+msgstr "Barra horizontal de volume nos painéis verticais"
+
+#. add check button for "Use BMP" option
+#: ../panel-plugin/xmms_plugin.c:811
+msgid "Use BMP (Beep Media Player)"
+msgstr "Usar BMP (Beep Media Player)"
+
+#. add check button for quit xmms option
+#: ../panel-plugin/xmms_plugin.c:813
+msgid "Quit XMMS/BMP when plugin terminates"
+msgstr "Sair do XMMS/BMP ao término do plug-in"
+
+#: ../panel-plugin/xfce4-xmms-plugin.desktop.in.in.h:1
+msgid "XMMS plugin for Xfce 4.4 panel"
+msgstr "Plug-in XMMS para o painel Xfce 4.4"
+
+#: ../panel-plugin/xfce4-xmms-plugin.desktop.in.in.h:2
+msgid "Xfce4 XMMS Plugin"
+msgstr "Plug-in XMMS do Xfce4"

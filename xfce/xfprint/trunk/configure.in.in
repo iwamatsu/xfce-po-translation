@@ -1,0 +1,197 @@
+dnl $Id: configure.in.in 27688 2008-09-06 12:51:24Z stephan $
+dnl
+dnl xfprint - Print system support for the Xfce4 desktop environment
+dnl
+dnl Copyright (c) 2003-2007
+dnl         The Xfce development team. All rights reserved.
+dnl
+dnl Written for Xfce by Benedikt Meurer <benny@xfce.org> and Jean-François
+dnl Wauthy <pollux@xfce.org>.
+dnl
+
+dnl library version info
+m4_define([libxfprint_verinfo], [0:1:0])
+
+dnl version info
+m4_define([xfprint_version_major], [4])
+m4_define([xfprint_version_minor], [5])
+m4_define([xfprint_version_micro], [90])
+m4_define([xfprint_version_nano], [])
+m4_define([xfprint_version_build], [@REVISION@])
+m4_define([xfprint_version_tag], [])
+m4_define([xfprint_version], [xfprint_version_major().xfprint_version_minor().xfprint_version_micro()ifelse(xfprint_version_nano(), [], [], [.xfprint_version_nano()])ifelse(xfprint_version_tag(), [svn], [xfprint_version_tag()-xfprint_version_build()], [xfprint_version_tag()])])
+
+dnl minimum required versions
+m4_define([gtk_minimum_version], [2.6.0])
+m4_define([xfce_minimum_version], [4.5.90])
+
+dnl # DO NOT MODIFY ANYTHING BELOW THIS LINE, UNLESS YOU KNOW WHAT
+dnl # YOU ARE DOING.
+
+dnl Initialize autoconf
+AC_COPYRIGHT([Copyright (c) 2003-2007
+        The Xfce development team. All rights reserved.
+
+Written for Xfce by Benedikt Meurer <benny@xfce.org> and Jean-François
+Wauthy <pollux@xfce.org>.])
+AC_INIT([xfprint], [xfprint_version], [xfce4-dev@xfce.org])
+AC_PREREQ([2.50])
+AC_REVISION([$Id: configure.in.in 27688 2008-09-06 12:51:24Z stephan $])
+AC_PROG_MAKE_SET()
+
+dnl Initialize automake
+AM_INIT_AUTOMAKE([AC_PACKAGE_TARNAME()], [AC_PACKAGE_VERSION()])
+AM_CONFIG_HEADER([config.h])
+AM_MAINTAINER_MODE
+
+dnl check for UNIX variants
+AC_AIX()
+AC_ISC_POSIX()
+AC_MINIX()
+AM_CONDITIONAL([HAVE_CYGWIN], [test "`uname | grep \"CYGWIN\"`" != ""])
+
+dnl check for basic programs
+AC_PROG_CC()
+AC_PROG_INSTALL()
+AC_PROG_INTLTOOL([0.31], [no-xml])
+AC_PROG_LIBTOOL()
+
+dnl check for standard header files
+AC_HEADER_STDC()
+AC_CHECK_HEADERS([sys/wait.h])
+AC_CHECK_FUNCS([strlcpy])
+AC_FUNC_MMAP()
+
+LIBXFPRINT_VERINFO=libxfprint_verinfo()
+AC_SUBST([LIBXFPRINT_VERINFO])
+
+dnl Support for --with-printcap
+PRINTCAP_PATH="$sysconfdir/printcap"
+AC_ARG_WITH(printcap,
+AC_HELP_STRING([--with-printcap=PATH],
+               [Specify a the location of the printcap file.]),
+[
+    if test x"$withval" = "x" ; then
+      AC_MSG_ERROR([--with-printcap requires an argument.])
+    else
+      PRINTCAP_PATH=$withval
+    fi
+])
+AC_SUBST([PRINTCAP_PATH])
+
+dnl Check for i18n support
+XDT_I18N([@LINGUAS@])
+
+dnl Check for gmodule
+XDT_CHECK_PACKAGE([GMODULE], [gmodule-2.0], [gtk_minimum_version])
+
+dnl check for glib
+XDT_CHECK_PACKAGE([GLIB], [glib-2.0], [gtk_minimum_version])
+
+dnl Check for gtk
+XDT_CHECK_PACKAGE([GTK], [gtk+-2.0], [gtk_minimum_version])
+
+dnl Check for libxfcegui4
+XDT_CHECK_PACKAGE([LIBXFCEGUI4], [libxfcegui4-1.0], [xfce_minimum_version])
+
+dnl Check for libxfce4uti
+XDT_CHECK_PACKAGE([LIBXFCE4UTIL], [libxfce4util-1.0], [xfce_minimum_version])
+
+dnl Check for xfconf 
+XDT_CHECK_PACKAGE([XFCONF], [libxfconf-0], [xfce_minimum_version])
+
+dnl Check for CUPS
+AC_ARG_ENABLE([cups],
+AC_HELP_STRING([--disable-cups], [Disable CUPS support in xfprint])
+AC_HELP_STRING([--enable-cups], [Enable CUPS support in xfprint]),
+[], [enable_cups=yes])
+cups_found="no"
+CUPS_LIBS=""
+CUPS_DATA=""
+if test x"$enable_cups" = x"yes"; then
+  AC_PATH_PROG(cups_config,cups-config)
+  if test -n "$cups_config"; then
+    CUPS_LIBS=`$cups_config --libs`
+    CUPS_CFLAGS=`$cups_config --cflags`
+    CUPS_LDFLAGS=`$cups_config --ldflags`
+    CUPS_DATA=`$cups_config --datadir`
+    cups_found="yes"	    
+  else
+    AC_MSG_RESULT([cups-config not found, CUPS support disabled. Either you don't have CUPS-dev installed or you should consider upgrading CUPS])
+  fi 
+fi
+AM_CONDITIONAL([BUILD_CUPS_SUPPORT], [test "x$cups_found" = "xyes"])
+AC_SUBST([CUPS_LIBS])
+AC_SUBST([CUPS_CFLAGS])
+AC_SUBST([CUPS_LDFLAGS])
+AC_SUBST([CUPS_DATA])
+if test x"$cups_found" = x"yes"; then
+  AC_DEFINE(HAVE_CUPS, 1, Define if CUPS support is available)
+fi
+
+dnl Check for BSD-LPR
+AC_ARG_ENABLE([bsdlpr],
+AC_HELP_STRING([--disable-bsdlpr], [Disable BSD-LPR support in xfprint])
+AC_HELP_STRING([--enable-bsdlpr], [Enable BSD-LPR support in xfprint]),
+[], [enable_bsdlpr=yes])
+if test x"$enable_bsdlpr" = x"yes"; then
+  AC_CHECK_PROG([bsdlpr_found], [lpr], [yes], [no])
+else
+  bsdlpr_found="no"
+fi
+AM_CONDITIONAL([BUILD_BSDLPR_SUPPORT], [test "x$bsdlpr_found" = "xyes"])
+if test x"$bdslpr_found" = x"yes"; then
+  AC_DEFINE(HAVE_BSDLPR, 1, Define if BSD-LPR support is available)
+fi
+
+if test x"$enable_bsdlpr" = x"no" && test x"$cups_found" = x"no"; then
+  AC_MSG_ERROR(You need to have at least CUPS or BSDLPR in order to use Xfprint)
+fi
+
+AC_ARG_ENABLE([letter],
+AC_HELP_STRING([--disable-letter], [Papersize DIN A4 Deskjet (default)])
+AC_HELP_STRING([--enable-letter], [Papersize US letter]),
+    [], [enable_letter=no])
+  AC_MSG_CHECKING([whether to use US letter as default paper size])
+  if test x"$enable_letter" = x"yes"; then
+    AC_DEFINE(DEFAULT_LETTER, 1, Define to use US letter as default paper size)
+    AC_MSG_RESULT([yes])
+  else
+    AC_MSG_RESULT([no])
+  fi
+
+dnl Check whether to build with debugging support
+XDT_FEATURE_DEBUG
+
+GTK_DOC_CHECK(1.0)
+
+AC_OUTPUT([
+xfprint.spec
+Makefile
+libxfprint/Makefile
+libxfprint/xfprint-1.0.pc
+doc/Makefile
+doc/API/Makefile
+doc/C/Makefile
+doc/C/images/Makefile
+doc/fr/Makefile
+doc/fr/images/Makefile
+icons/Makefile
+icons/24x24/Makefile
+icons/48x48/Makefile
+icons/scalable/Makefile
+po/Makefile.in
+xfprint/Makefile
+xfprint-manager/Makefile
+xfprint-settings/Makefile
+printing-systems/Makefile
+printing-systems/cups/Makefile
+printing-systems/bsd-lpr/Makefile
+])
+
+echo
+echo "Build Configuration:"
+echo "  Build CUPS support:       $cups_found"
+echo "  Build BSD-LPR support :   $bsdlpr_found"
+dnl echo "  Build LPRng support :     $bsdlpr_found"
+echo

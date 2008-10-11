@@ -1,0 +1,507 @@
+# German translations for xfprint package.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfprint package.
+# Bernhard Walle <bernhard.walle@gmx.de>, 2003.
+# Moritz Heiber <moe@xfce.org>, 2004.
+# Fabian Nowak <timystery@arcor.de>, 2006-2007.
+# Nico Schümann <nico@prog.nico22.de>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-12-17 23:24+0100\n"
+"PO-Revision-Date: 2007-12-17 23:02+0000\n"
+"Last-Translator: Fabian Nowak <timystery@arcor.de>\n"
+"Language-Team: German <de@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "Drucker"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "Beenden"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "Beendet xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "Info"
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "Über xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "Informationen über xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:134
+msgid "Printer manager"
+msgstr "Druckerverwaltung"
+
+#: ../libxfprint/printer-list-window.c:200
+msgid "Alias name"
+msgstr "Aliasname"
+
+#: ../libxfprint/printer-list-window.c:204
+#: ../libxfprint/printer-queue-window.c:212
+msgid "State"
+msgstr "Status"
+
+#: ../libxfprint/printer-list-window.c:258
+msgid "Xfprint printers manager"
+msgstr "Druckerverwaltung von Xfprint"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:263
+msgid "Former maintainer"
+msgstr "Mitwirkender"
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Maintainer"
+msgstr "Hauptentwickler"
+
+#: ../libxfprint/printer-list-window.c:327
+msgid "Unknown"
+msgstr "Unbekannt"
+
+#: ../libxfprint/printer-list-window.c:330
+msgid "Idle"
+msgstr "Leerlauf"
+
+#: ../libxfprint/printer-list-window.c:333
+msgid "Processing"
+msgstr "Verarbeiten"
+
+#: ../libxfprint/printer-list-window.c:336
+msgid "Stopped"
+msgstr "Angehalten"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "Schließen"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "Warteschlangenfenster schließen"
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr "Druckaufträge"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:380
+#: ../libxfprint/printer-queue-window.c:384
+msgid "Remove job"
+msgstr "Auftrag entfernen"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "Ausgewählten Druckauftrag aus der Warteschlange entfernen"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "Warteschlange aktualisieren"
+
+#: ../libxfprint/printer-queue-window.c:121
+#: ../libxfprint/printer-queue-window.c:533
+msgid "Queue Manager"
+msgstr "Warteschlangenmanager"
+
+#: ../libxfprint/printer-queue-window.c:202
+msgid "Name"
+msgstr "Name"
+
+#: ../libxfprint/printer-queue-window.c:206
+msgid "ID"
+msgstr "ID"
+
+#: ../libxfprint/printer-queue-window.c:209
+msgid "User"
+msgstr "Benutzer"
+
+#: ../libxfprint/printer-queue-window.c:215
+msgid "Size"
+msgstr "Größe"
+
+#: ../libxfprint/printer-queue-window.c:218
+msgid "Priority"
+msgstr "Priorität"
+
+#: ../libxfprint/printer-queue-window.c:221
+msgid "Creation time"
+msgstr "Erstellungszeit"
+
+#: ../libxfprint/printer-queue-window.c:224
+msgid "Processing time"
+msgstr "Verarbeitungszeit"
+
+#: ../libxfprint/printer-queue-window.c:377
+msgid "Are you sure you want to remove the job "
+msgstr "Sind Sie sicher, dass Sie diesen Auftrag entfernen wollen: "
+
+#: ../libxfprint/printer-queue-window.c:383
+msgid "Don't remove job"
+msgstr "Auftrag behalten"
+
+#: ../libxfprint/printer-queue-window.c:390
+msgid "An error occurred while removing job !"
+msgstr "Ein Fehler ist beim entfernen des Auftrags aufgetreten!"
+
+#: ../libxfprint/printer-queue-window.c:441
+msgid "pending"
+msgstr "warten"
+
+#: ../libxfprint/printer-queue-window.c:444
+msgid "printing"
+msgstr "drucken"
+
+#: ../libxfprint/printer-queue-window.c:447
+msgid "Kb"
+msgstr "kB"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "Drucksystem"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "Drucksystemauswahl"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "Informationen"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "Beschreibung"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "Version"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "Autor"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "Homepage"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "Nichts"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr ""
+"Wählen Sie diese Einstellung, wenn Sie nur eine Druckdatei erzeugen wollen."
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "BSD-LPR-Drucksystemunterstützung für Xfprint"
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr "CUPS-Drucksystemunterstützung für Xfprint"
+
+#: ../printing-systems/cups/cups.c:48
+msgid "Set as default printer"
+msgstr "Als Standarddrucker definieren"
+
+#: ../printing-systems/cups/cups.c:49
+msgid "Set as default CUPS printer"
+msgstr "Als CUPS-Standarddrucker definieren"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "Eigenschaften"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "Druckereigenschaften anzeigen"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "Passwort"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "Benutzername:"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "Passwort:"
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr "Sie müssen einen Benutzername angeben!"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "Kopf- und Fußzeilen drucken"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "Titel:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "Wasserzeichen:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "Kopfzeile Mitte:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "Kopfzeile links:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "Kopfzeile rechts:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "Fußzeile Mitte:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "Fußzeile links:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "Fußzeile rechts:"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "Zeichensatz:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "Alle Seiten drucken"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "Nur Seiten in angegebenem Bereich drucken"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "Lange Zeilen abschneiden"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "Tabulator, Rückschritt und Seitenvorschub interpretieren"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "Druck von Binärzeichen erzwingen"
+
+#: ../xfprint/main.c:113
+msgid "Select file to print"
+msgstr "Datei zum Drucken auswählen"
+
+#: ../xfprint/main.c:125
+msgid "The specified file does not exist"
+msgstr "Die angegebene Datei existiert nicht"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "Sprache:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "Hervorhebungsgrad:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "Verkürzungsgrad:"
+
+#: ../xfprint/print_dialog.c:199
+msgid "Save settings"
+msgstr "Einstellungen _sichern"
+
+#: ../xfprint/print_dialog.c:207
+msgid "Xfprint"
+msgstr "Xfprint"
+
+#: ../xfprint/print_dialog.c:215
+msgid "Print to:"
+msgstr "Drucken nach:"
+
+#: ../xfprint/print_dialog.c:245
+msgid "Print to file:"
+msgstr "In Datei drucken:"
+
+#: ../xfprint/print_dialog.c:275
+msgid "Sheets"
+msgstr "Blätter"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Virtual pages"
+msgstr "Virtuelle Seiten"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Pretty-printing"
+msgstr "Syntax-Highlighting"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Input"
+msgstr "Eingabe"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Headings"
+msgstr "Kopf-/Fußzeilen"
+
+#: ../xfprint/print_dialog.c:304
+msgid "Copies:"
+msgstr "Kopien:"
+
+#: ../xfprint/print_dialog.c:311
+msgid "Apply filters"
+msgstr "Eigenschaften ändern"
+
+#: ../xfprint/print_dialog.c:366
+msgid ""
+"Neither the printing system backend or a2ps could be found on your system, "
+"you won't be able to print a file with xfprint !"
+msgstr ""
+"Weder das Drucksystem noch a2ps wurde auf Ihrem System gefunden, Sie können "
+"keine Datei mit Xfprint drucken!"
+
+#: ../xfprint/print_dialog.c:484
+msgid "An error occurred while trying to print the file"
+msgstr "Ein Fehler ist beim Versuch, die Datei zu drucken, aufgetreten!"
+
+#: ../xfprint/print_dialog.c:521
+msgid "Select file where to print"
+msgstr "Datei zum Drucken auswählen"
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "Papiergröße:"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "Hochformat"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "Querformat"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "Spalten:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "Zuerst Spalten auffüllen"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "Zuerst Zeilen auffüllen"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "Zeilen:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "Rahmen um Spalten drucken"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "Seiten in umgekehrter Reihenfolge drucken"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "Zeilennummern:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "Zeilen pro Seite:"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "Zeichen pro Zeile:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "Tabulatorgröße:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "Nichtdruckbare Zeichen:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr ""
+"Hier können Sie das Drucksystem auswählen, welches Xfprint benutzen soll."
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+msgid "Printing System Settings"
+msgstr "Drucksystem-Einstellungen"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+msgid "Xfce 4 Printing System Settings"
+msgstr "Xfce4-Drucksystem-Einstellungen"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+msgid "Print Manager"
+msgstr "Druckerverwaltung"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr ""
+"Hier wird Ihnen die Druckerliste angezeigt, und Sie können die Druckaufträge "
+"bearbeiten."
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+msgid "Xfce 4 Print Manager"
+msgstr "Xfce4-Druckerverwaltung"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "Druckdialog"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr "Hiermit können Sie eine Datei drucken und das Layout bestimmen."
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "Xfce4-Druckdialog"
+
+#~ msgid "Artist"
+#~ msgstr "Gestaltung"

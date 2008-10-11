@@ -1,0 +1,38 @@
+# Latvian translation of xfce4-websearch-plugin.
+# Coopyright (C) 2005 Piotr Wolny.
+# This file is distributed under the same license as the fce4-websearch-plugin package package.
+# Rihards Prieditis <rprieditis@inbox.lv>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fce4-websearch-plugin package 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:29+0200\n"
+"PO-Revision-Date: 2007-11-16 23:41+0300\n"
+"Last-Translator: Rihards Priedītis <rprieditis@inbox.lv>\n"
+"Language-Team: Latvian <rprieditis@inbox.lv>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/websearch.c:312
+msgid "Properties"
+msgstr "Rekvizīti"
+
+#: ../src/websearch.c:321
+msgid "Browser command: "
+msgstr "Pārlūka komanda:"
+
+#: ../src/websearch.c:328
+msgid "Search engine: "
+msgstr "Meklēšanas dzinējs:"
+
+#: ../src/websearch.c:345
+#: ../src/websearch.desktop.in.in.h:2
+msgid "WebSearch"
+msgstr "TīmekļaMeklēšana"
+
+#: ../src/websearch.desktop.in.in.h:1
+msgid "Search the Web directly from the Panel"
+msgstr "Meklē tīmeklī pa tiešo no Paneļa."
+

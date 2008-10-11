@@ -1,0 +1,196 @@
+# Swedish translations for xfce4-smartpm-plugin.
+# Copyright (C) 2007 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfce4-smartpm-plugin package.
+# Anders F Björklund <afb@users.sourceforge.net>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-smartpm-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-22 08:54+0200\n"
+"PO-Revision-Date: 2007-08-22 20:58+0200\n"
+"Last-Translator: Anders F Bjorklund <afb@users.sourceforge.net>\n"
+"Language-Team: Swedish <sv@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/xfcesmart.c:149
+msgid "No upgrades"
+msgstr "Inga uppgraderingar"
+
+#: ../src/xfcesmart.c:158
+#, c-format
+msgid "%d upgrade available"
+msgstr "%d uppgradering tillgänglig"
+
+#: ../src/xfcesmart.c:159
+#, c-format
+msgid "%d upgrades available"
+msgstr "%d uppgraderingar tillgängliga"
+
+#: ../src/xfcesmart.c:162
+msgid "Package Upgrades"
+msgstr "Paketuppgraderingar"
+
+#: ../src/xfcesmart.c:248
+msgid "No new packages"
+msgstr "Inga nya paket"
+
+#: ../src/xfcesmart.c:250
+#, c-format
+msgid "Channels have %d new packages"
+msgstr "Kanalerna innehåller %d nya paket"
+
+#. unknown
+#: ../src/xfcesmart.c:252
+msgid "Channels updated"
+msgstr "Kanalerna uppdaterade"
+
+#: ../src/xfcesmart.c:256
+msgid "Package Updates"
+msgstr "Paketuppdateringar"
+
+#: ../src/xfcesmart.c:261 ../src/xfcesmart.c:367
+#, c-format
+msgid "Error updating%s%s"
+msgstr "Fel vid uppdatering%s%s"
+
+#: ../src/xfcesmart.c:274
+msgid "Smart Read-Only"
+msgstr "Smart Skrivskyddad"
+
+#: ../src/xfcesmart.c:275
+msgid "Another process seems to be using Smart ?"
+msgstr "En annan process verkar använda Smart ?"
+
+#: ../src/xfcesmart.c:306
+msgid "Updating channels..."
+msgstr "Uppdaterar kanaler..."
+
+#: ../src/xfcesmart.c:359 ../src/xfcesmart.c:1118
+msgid "Update Channels"
+msgstr "Uppdatera kanaler"
+
+#: ../src/xfcesmart.c:364 ../src/xfcesmart.c:405
+msgid "Failed to run update"
+msgstr "Misslyckades med uppdateringen"
+
+#: ../src/xfcesmart.c:379 ../src/xfcesmart.c:400
+msgid "Channels updated."
+msgstr "Kanalerna uppdaterade."
+
+#: ../src/xfcesmart.c:404 ../src/xfcesmart.c:645
+msgid "Smart Unavailable"
+msgstr "Smart Otillgänglig"
+
+#: ../src/xfcesmart.c:555
+#, c-format
+msgid "Error checking%s%s"
+msgstr "Fel vid kontroll%s%s"
+
+#: ../src/xfcesmart.c:595
+msgid "Checking for upgrades..."
+msgstr "Kontrollerar uppgraderingar..."
+
+#: ../src/xfcesmart.c:646
+msgid "Failed to run upgrade"
+msgstr "Fel vid uppgradering"
+
+#: ../src/xfcesmart.c:729
+msgid "Smart Failed"
+msgstr "Smart Misslyckades"
+
+#: ../src/xfcesmart.c:730
+msgid "Failed to run smart program"
+msgstr "Kunde inte köra programmet smart"
+
+#: ../src/xfcesmart.c:801
+msgid "Upgrade Now"
+msgstr "Uppgradera"
+
+#: ../src/xfcesmart.c:948
+msgid "Upgrade In Progress"
+msgstr "Uppgradering Pågår"
+
+#: ../src/xfcesmart.c:949
+msgid "An upgrade is already in progress, please wait."
+msgstr "En uppgradering pågår redan, var god försök senare."
+
+#: ../src/xfcesmart.c:1331
+#, c-format
+msgid "Unable to open the following url: %s"
+msgstr "Kunde inte öppna följande url: %s"
+
+#: ../src/xfcesmart.c:1337
+msgid "Update In Progress"
+msgstr "Uppdatering Pågår"
+
+#: ../src/xfcesmart.c:1338
+msgid "An update is already in progress, please wait."
+msgstr "En uppdatering pågår redan, var god försök senare."
+
+#. create the dialog
+#: ../src/xfcesmart.c:1423 ../src/xfce4-smart.desktop.in.in.h:2
+msgid "Smart Package Manager"
+msgstr "Smart Package Manager"
+
+#: ../src/xfcesmart.c:1434
+msgid "_Update..."
+msgstr "_Uppdatera..."
+
+#: ../src/xfcesmart.c:1448
+msgid "Package Manager: "
+msgstr "Pakethanterare: "
+
+#: ../src/xfcesmart.c:1452
+msgid "Smart"
+msgstr "Smart"
+
+#: ../src/xfcesmart.c:1453
+msgid "Yum+Extender"
+msgstr "Yum+Extender"
+
+#: ../src/xfcesmart.c:1454
+msgid "APT+Synaptic"
+msgstr "APT+Synaptic"
+
+#: ../src/xfcesmart.c:1455
+msgid "slapt+gslapt"
+msgstr "slapt+gslapt"
+
+#: ../src/xfcesmart.c:1462
+msgid "Show application icon for package manager"
+msgstr "Visa programikonen för pakethanteraren"
+
+#: ../src/xfcesmart.c:1470
+msgid "Check for upgrades every "
+msgstr "Kontrollera uppgraderingar varje "
+
+#: ../src/xfcesmart.c:1478
+msgid " minutes"
+msgstr "minuter"
+
+#: ../src/xfcesmart.c:1483
+msgid "Show notifications for updates and upgrades"
+msgstr "Visa notifieringar för uppdateringar och upppgraderingar"
+
+#: ../src/xfcesmart.c:1492
+msgid "Use su for authentication (instead of sudo)"
+msgstr "Använd su för autentisering (istället för sudo)"
+
+#: ../src/xfcesmart.c:1498
+msgid "Upgrade on launch (if upgrades available)"
+msgstr "Uppgradera vid start (om uppgraderingar tillgängliga)"
+
+#: ../src/xfcesmart.c:1504
+msgid "Smart upgrade to newer release (dist-upgrade)"
+msgstr "Smart uppgradering till nyare utgåva (dist-upgrade)"
+
+#: ../src/xfcesmart.c:1541
+msgid "Smart Package Manager - panel plugin"
+msgstr "Smart Package Manager - panelinsticksmodul"
+
+#: ../src/xfcesmart.c:1543 ../src/xfce4-smart.desktop.in.in.h:1
+msgid "Check for updates using the Smart Package Manager"
+msgstr "Kontrollera uppdateringar med pakethanteraren Smart"

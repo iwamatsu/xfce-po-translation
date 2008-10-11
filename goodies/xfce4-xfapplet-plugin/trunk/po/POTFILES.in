@@ -1,0 +1,6 @@
+# List of source files containing translatable strings.
+panel-plugin/chooser.c
+panel-plugin/xfapplet.c
+
+# files added by intltool-prepare.
+panel-plugin/xfapplet.desktop.in.in

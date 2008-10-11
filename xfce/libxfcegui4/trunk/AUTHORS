@@ -1,0 +1,8 @@
+Olivier Fourdan <fourdan@xfce.org>
+Jasper Huijsmans <huysmans@users.sourceforge.net>
+Benedikt Meurer <benny@xfce.org>
+Brian Tarricone <bjt23@cornell.edu>
+libxfcegui4 includes libwnck by Havoc Pennington <hp@redhat.com>
+libxfcegui4 includes preview_file_selector widget from gnome by Rachel Hestilow <hestilow@ximian.com>
+libxfcegui4 includes urgency notification based on Matthew Eaton's patch for libwnck
+default icon from FreeIcons theme set by tmielnik75

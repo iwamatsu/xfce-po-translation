@@ -1,0 +1,204 @@
+# Indonesian translations for xfce4-mixer package
+# Copyright (C) 2008 THE xfce4-mixer'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfce package.
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-mixer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-10-06 15:29+0200\n"
+"PO-Revision-Date: 2008-09-10 22:38+0700\n"
+"Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
+"Language-Team: Indonesian <id@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Set tooltip (e.g. 'Master: 50%')
+#: ../panel-plugin/xfce-mixer-plugin.c:276
+#: ../panel-plugin/xfce-mixer-plugin.c:550
+#, c-format
+msgid "%s: %i%%"
+msgstr "%s: %i%%"
+
+#: ../panel-plugin/xfce-mixer-plugin.c:351
+msgid "No left-click command defined"
+msgstr "Tak ada perintah klik-kiri yang ditentukan"
+
+#: ../panel-plugin/xfce-mixer-plugin.c:354
+msgid ""
+"No left-click command defined yet. You can change this in the plugin "
+"properties."
+msgstr ""
+"Tak ada perintah klik-kiri yang ditentukan. Anda dapat mengubah ini di "
+"properti plugin."
+
+#: ../panel-plugin/xfce-mixer-plugin.c:355
+msgid "Properties"
+msgstr "Properti"
+
+#. Generate error message and insert the current command
+#: ../panel-plugin/xfce-mixer-plugin.c:370
+#, c-format
+msgid ""
+"Could not execute the command %s. Perhaps you need to adjust the PATH "
+"variable."
+msgstr ""
+"Tak dapat mengeksekusi perintah %s. Mungkin anda perlu menyesuaikan variabel "
+"PATH."
+
+#: ../panel-plugin/xfce-mixer-plugin.c:400 ../xfce4-mixer/main.c:118
+msgid ""
+"GStreamer was unable to detect any sound cards on your system. You might be "
+"missing sound system specific GStreamer packages. It might as well be a "
+"permission problem."
+msgstr ""
+"GStreamer tak dapat mendeteksi kartu suara apapun di sistem anda. Anda "
+"mungkin kehilangan paket sistem suara spesifik GStreamer. Mungkin juga "
+"masalah hak akses."
+
+#: ../panel-plugin/xfce-plugin-dialog.c:237
+msgid "Mixer Plugin"
+msgstr "Plugin Mixer"
+
+#: ../panel-plugin/xfce-plugin-dialog.c:239
+msgid "Please select which mixer track should be used by the plugin"
+msgstr "Silakan pilih jalur mixer mana yang harus digunakan oleh plugin"
+
+#: ../panel-plugin/xfce-plugin-dialog.c:251
+msgid "Sound card"
+msgstr "Kartu suara"
+
+#: ../panel-plugin/xfce-plugin-dialog.c:269
+msgid "Mixer track"
+msgstr "Jalur mixer"
+
+#: ../panel-plugin/xfce-plugin-dialog.c:287
+msgid "Left-click command"
+msgstr "Perintah klik-kiri"
+
+#: ../panel-plugin/xfce-plugin-dialog.c:325
+msgid "Select command"
+msgstr "Pilih perintah"
+
+#: ../panel-plugin/xfce-plugin-dialog.c:333
+msgid "All Files"
+msgstr "Semua Berkas"
+
+#: ../panel-plugin/xfce-plugin-dialog.c:338
+msgid "Executable Files"
+msgstr "Berkas Dapat Dieksekusi"
+
+#: ../panel-plugin/xfce-plugin-dialog.c:353
+msgid "Perl Scripts"
+msgstr "Skrip Perl"
+
+#: ../panel-plugin/xfce-plugin-dialog.c:359
+msgid "Python Scripts"
+msgstr "Skrip Python"
+
+#: ../panel-plugin/xfce-plugin-dialog.c:365
+msgid "Ruby Scripts"
+msgstr "Skrip Ruby"
+
+#: ../panel-plugin/xfce-plugin-dialog.c:371
+msgid "Shell Scripts"
+msgstr "Skrip Shell"
+
+#. Set application name
+#: ../panel-plugin/xfce4-mixer-plugin.desktop.in.in.h:1
+#: ../xfce4-mixer/main.c:82 ../xfce4-mixer/xfce-mixer-window.c:168
+#: ../xfce4-mixer/xfce-mixer-window.c:186
+#: ../xfce4-mixer/xfce-mixer-window.c:287
+#: ../xfce4-mixer/xfce4-mixer.desktop.in.in.h:2
+msgid "Mixer"
+msgstr "Mixer"
+
+#: ../panel-plugin/xfce4-mixer-plugin.desktop.in.in.h:2
+msgid "Volume control for your sound card"
+msgstr "Kendali volume untuk kartu suara anda"
+
+#: ../libxfce4mixer/libxfce4mixer.c:237
+#, c-format
+msgid "Unknown Volume Control %d"
+msgstr "Kontrol Volume %d Tak Dikenal"
+
+#: ../xfce4-mixer/main.c:92
+#, c-format
+msgid "Failed to initialize xfconf: %s"
+msgstr ""
+
+#: ../xfce4-mixer/xfce-mixer.c:163
+msgid "Playback"
+msgstr "Putar kembali"
+
+#: ../xfce4-mixer/xfce-mixer.c:163
+msgid "Capture"
+msgstr "Tangkap"
+
+#: ../xfce4-mixer/xfce-mixer.c:163
+msgid "Switches"
+msgstr "Tukar"
+
+#: ../xfce4-mixer/xfce-mixer.c:163
+msgid "Options"
+msgstr "Opsi"
+
+#: ../xfce4-mixer/xfce-mixer.c:298
+msgid "No Controls Visible"
+msgstr "Tak Ada Kontrol Terlihat"
+
+#: ../xfce4-mixer/xfce-mixer.c:302
+msgid ""
+"No controls are marked as visible. Please open the <span "
+"size='large'><b>Select Controls</b></span> dialog to select some."
+msgstr ""
+"Tak ada kontrol yang ditandai sebagai terlihat. Silakan buka dialog <span "
+"size='large'><b>Pilih Kontrol</b></span> untuk memilih."
+
+#: ../xfce4-mixer/xfce-mixer-controls-dialog.c:135
+msgid "Select Controls"
+msgstr "Pilih Kontrol"
+
+#: ../xfce4-mixer/xfce-mixer-controls-dialog.c:137
+msgid "Please select which controls you want to be visible"
+msgstr "Silakan pilih kontrol mana yang anda inginkan untuk terlihat"
+
+#: ../xfce4-mixer/xfce-mixer-window.c:87
+msgid "_Quit"
+msgstr "Keluar (_Q)"
+
+#: ../xfce4-mixer/xfce-mixer-window.c:87
+#, fuzzy
+msgid "Exit the mixer"
+msgstr "Keluar Mixer Xfce"
+
+#: ../xfce4-mixer/xfce-mixer-window.c:89
+msgid "_Select Controls..."
+msgstr "Pilih Kontrol... (_S)"
+
+#: ../xfce4-mixer/xfce-mixer-window.c:89
+msgid "Select which controls are displayed"
+msgstr "Pilih kontrol mana yang ditampilkan"
+
+#: ../xfce4-mixer/xfce-mixer-window.c:187
+msgid "Configure your sound card(s) and control the volume of selected tracks"
+msgstr ""
+
+#: ../xfce4-mixer/xfce-mixer-window.c:202
+msgid "Sound card:"
+msgstr "Kartu suara:"
+
+#: ../xfce4-mixer/xfce4-mixer.desktop.in.in.h:1
+msgid "Audio mixer for the Xfce Desktop Environment"
+msgstr "Mixer audio untuk Lingkungan Destop Xfce"
+
+#~ msgid "A comfortable audio mixer for your sound card."
+#~ msgstr "Mixer audio yang nyaman untuk kartu suara anda."
+
+#~ msgid "Xfce Mixer"
+#~ msgstr "Mixer Xfce"
+
+#~ msgid "Could not find xfce4-mixer in PATH."
+#~ msgstr "Tak dapat menemukan xfce4-mixer dalam ALAMAT"

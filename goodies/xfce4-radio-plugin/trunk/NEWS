@@ -1,0 +1,41 @@
+Get the latest version of this plugin at http://goodies.xfce.org/
+===============================================================================
+
+v0.4.0 (xx xxx 2008):
+=====================
+ * The "thanks for all the patches"-release
+ * We now use a clearly-defined name for the config file (xfce4/panel/radio.rc)
+
+v0.3.1 (18 Jun 2008):
+=====================
+ * The "segfault yourself"-release
+ * Fixed a bug where the plugin would segfault when it was removed from the
+   panel (thanks again to Lex Neva for pointing that out)
+
+v0.3.0 (14 Jun 2008):
+=====================
+ * The "let's apply her patch and call it a new version"-release
+ * Thanks to Lex Neva for her patch which does all of the following
+ * Properly initialize the shutdown command
+ * Added an option to run a command at startup
+ * The plugin now realizes when a third party changes the tuner
+ * Changed one occurrence of VIDIOCSAUDIO to VIDIOCGAUDIO
+ * Increased MAX_COMMAND_LENGTH to 512
+ * Added a lot of translations (thanks to the translators!)
+
+v0.2.1 (15 Jun 2007):
+=====================
+ * Can now be compiled against latest 4.5-svn versions of Xfce
+ * Fixed some compile-time warnings
+ * Added a lot of translations (thanks to the translators!)
+
+v0.2.0 (09 May 2006):
+=====================
+ * Ported to Xfce 4.4
+ * Added German translation
+ * Added Hungarian translation (thanks to SZERVÁC Attila)
+ * Changed license to GPL
+
+v0.1.0 (25 Feb 2006):
+=====================
+ * Initial release

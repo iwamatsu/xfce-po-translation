@@ -1,0 +1,58 @@
+Summary: 	various gtk widgets for xfce
+Name: 		libxfcegui4
+Version: 	@VERSION@
+Release: 	1
+License:	LGPL
+URL: 		http://www.xfce.org/
+Source0: 	%{name}-%{version}.tar.gz
+Group: 		Development/Libraries
+BuildRoot: 	%{_tmppath}/%{name}-root
+Requires:	gtk2 >= @GTK_REQUIRED_VERSION@
+Requires:	libxfce4util >= @LIBXFCE4UTIL_REQUIRED_VERSION@
+BuildRequires: 	gtk2-devel >= @GTK_REQUIRED_VERSION@
+BuildRequires:	libxfce4util-devel >= @LIBXFCE4UTIL_REQUIRED_VERSION@
+BuildRequires:	gtk-doc
+
+%description
+Various gtk widgets for the Xfce desktop environment.
+
+%package devel
+Summary:	developpment tools for libxfcegui4 library
+Group:		Development/Libraries
+Requires:	libxfcegui4
+
+%description devel
+Static libraries and header files for the libxfcegui4 library.
+
+%prep
+%setup -q
+
+%build
+%configure --enable-final --enable-gtk-doc
+make
+
+%install
+rm -rf $RPM_BUILD_ROOT
+make install DESTDIR=$RPM_BUILD_ROOT mandir=%{_mandir}
+
+%clean
+rm -rf $RPM_BUILD_ROOT
+
+%post -p /sbin/ldconfig
+
+%postun -p /sbin/ldconfig
+
+%files
+%defattr(-,root,root)
+%{_libdir}/lib*.so.*
+%{_datadir}/locale
+%{_datadir}/xfce4
+
+%files devel
+%defattr(-, root, root)
+%{_libdir}/lib*.so
+%{_libdir}/*a
+%{_libdir}/pkgconfig/*.pc
+%{_includedir}/xfce4/libxfcegui4
+%{_datadir}/gtk-doc
+

@@ -1,0 +1,197 @@
+# German translations for xfce4-mixer.
+# Copyright (C) 2008 Jannis Pohlmann <jannis@xfce.org>.
+# This file is distributed under the same license as the xfce4-mixer package.
+# Jannis Pohlmann <jannis@xfce.org>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-mixer SVN\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-10-06 15:29+0200\n"
+"PO-Revision-Date: 2008-09-20 17:02+0200\n"
+"Last-Translator: Jannis Pohlmann <jannis@xfce.org>\n"
+"Language-Team: German <de@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Set tooltip (e.g. 'Master: 50%')
+#: ../panel-plugin/xfce-mixer-plugin.c:276
+#: ../panel-plugin/xfce-mixer-plugin.c:550
+#, c-format
+msgid "%s: %i%%"
+msgstr "%s: %i%%"
+
+#: ../panel-plugin/xfce-mixer-plugin.c:351
+msgid "No left-click command defined"
+msgstr "Kein Befehl definiert"
+
+#: ../panel-plugin/xfce-mixer-plugin.c:354
+msgid ""
+"No left-click command defined yet. You can change this in the plugin "
+"properties."
+msgstr ""
+"Es wurde noch kein Befehl für den Button definiert. Dieser kann in den "
+"Eigenschaften des Plugins ausgewählt werden."
+
+#: ../panel-plugin/xfce-mixer-plugin.c:355
+msgid "Properties"
+msgstr "Eigenschaften"
+
+#. Generate error message and insert the current command
+#: ../panel-plugin/xfce-mixer-plugin.c:370
+#, c-format
+msgid ""
+"Could not execute the command %s. Perhaps you need to adjust the PATH "
+"variable."
+msgstr ""
+"Konnte den Befehl %s nicht ausführen. Vielleicht muss die PATH-"
+"Variableangepasst werden."
+
+#: ../panel-plugin/xfce-mixer-plugin.c:400 ../xfce4-mixer/main.c:118
+msgid ""
+"GStreamer was unable to detect any sound cards on your system. You might be "
+"missing sound system specific GStreamer packages. It might as well be a "
+"permission problem."
+msgstr ""
+"GStreamer konnte keine Soundkarten finden. Möglicherweise sind Pakete für "
+"das verwendete Soundsystem noch nicht installiert. Ebenso könnte es ein "
+"Problem mit den Benutzerrechten sein."
+
+#: ../panel-plugin/xfce-plugin-dialog.c:237
+msgid "Mixer Plugin"
+msgstr "Lautstärkeregelung"
+
+#: ../panel-plugin/xfce-plugin-dialog.c:239
+msgid "Please select which mixer track should be used by the plugin"
+msgstr "Bitte wähle aus, welches Element das Plugin steuern soll"
+
+#: ../panel-plugin/xfce-plugin-dialog.c:251
+msgid "Sound card"
+msgstr "Soundkarte"
+
+#: ../panel-plugin/xfce-plugin-dialog.c:269
+msgid "Mixer track"
+msgstr "Element"
+
+#: ../panel-plugin/xfce-plugin-dialog.c:287
+msgid "Left-click command"
+msgstr "Befehl für Linksklick"
+
+#: ../panel-plugin/xfce-plugin-dialog.c:325
+msgid "Select command"
+msgstr "Befehl auswählen"
+
+#: ../panel-plugin/xfce-plugin-dialog.c:333
+msgid "All Files"
+msgstr "Alle Dateien"
+
+#: ../panel-plugin/xfce-plugin-dialog.c:338
+msgid "Executable Files"
+msgstr "Ausführbare Dateien"
+
+#: ../panel-plugin/xfce-plugin-dialog.c:353
+msgid "Perl Scripts"
+msgstr "Perl-Skripte"
+
+#: ../panel-plugin/xfce-plugin-dialog.c:359
+msgid "Python Scripts"
+msgstr "Python-Skripte"
+
+#: ../panel-plugin/xfce-plugin-dialog.c:365
+msgid "Ruby Scripts"
+msgstr "Ruby-Skripte"
+
+#: ../panel-plugin/xfce-plugin-dialog.c:371
+msgid "Shell Scripts"
+msgstr "Shell-Skripte"
+
+#. Set application name
+#: ../panel-plugin/xfce4-mixer-plugin.desktop.in.in.h:1
+#: ../xfce4-mixer/main.c:82 ../xfce4-mixer/xfce-mixer-window.c:168
+#: ../xfce4-mixer/xfce-mixer-window.c:186
+#: ../xfce4-mixer/xfce-mixer-window.c:287
+#: ../xfce4-mixer/xfce4-mixer.desktop.in.in.h:2
+msgid "Mixer"
+msgstr "Lautstärkeregelung"
+
+#: ../panel-plugin/xfce4-mixer-plugin.desktop.in.in.h:2
+msgid "Volume control for your sound card"
+msgstr "Lautstärkeregelung für deine Soundkarte"
+
+#: ../libxfce4mixer/libxfce4mixer.c:237
+#, c-format
+msgid "Unknown Volume Control %d"
+msgstr "Unbekannter Lautstärkeregler %d"
+
+#: ../xfce4-mixer/main.c:92
+#, c-format
+msgid "Failed to initialize xfconf: %s"
+msgstr "Konnte xfconf nicht initialisieren. Grund: %s"
+
+#: ../xfce4-mixer/xfce-mixer.c:163
+msgid "Playback"
+msgstr "Wiedergabe"
+
+#: ../xfce4-mixer/xfce-mixer.c:163
+msgid "Capture"
+msgstr "Aufnahme"
+
+#: ../xfce4-mixer/xfce-mixer.c:163
+msgid "Switches"
+msgstr "Schalter"
+
+#: ../xfce4-mixer/xfce-mixer.c:163
+msgid "Options"
+msgstr "Optionen"
+
+#: ../xfce4-mixer/xfce-mixer.c:298
+msgid "No Controls Visible"
+msgstr "Keine Bedienelemente sichtbar"
+
+#: ../xfce4-mixer/xfce-mixer.c:302
+msgid ""
+"No controls are marked as visible. Please open the <span "
+"size='large'><b>Select Controls</b></span> dialog to select some."
+msgstr ""
+"Es sind keine Bedienelemente als sichtbar vermerkt. Bitte benutze den Dialog "
+"<span size='large'><b>Elemente auswählen</b></span>, damit etwas angezeigt "
+"wird."
+
+#: ../xfce4-mixer/xfce-mixer-controls-dialog.c:135
+msgid "Select Controls"
+msgstr "Elemente auswählen"
+
+#: ../xfce4-mixer/xfce-mixer-controls-dialog.c:137
+msgid "Please select which controls you want to be visible"
+msgstr "Auswählen, welche Bedienelemente angezeigt werden sollen"
+
+#: ../xfce4-mixer/xfce-mixer-window.c:87
+msgid "_Quit"
+msgstr "B_eenden"
+
+#: ../xfce4-mixer/xfce-mixer-window.c:87
+msgid "Exit the mixer"
+msgstr "Beende die Lautstärkeregelung"
+
+#: ../xfce4-mixer/xfce-mixer-window.c:89
+msgid "_Select Controls..."
+msgstr "Elemente au_swählen..."
+
+#: ../xfce4-mixer/xfce-mixer-window.c:89
+msgid "Select which controls are displayed"
+msgstr "Auswählen, welche Bedienelemente angezeigt werden"
+
+#: ../xfce4-mixer/xfce-mixer-window.c:187
+msgid "Configure your sound card(s) and control the volume of selected tracks"
+msgstr ""
+"Konfiguriere deine Soundkarte(n) und regele die Lautstärke ausgewählter "
+"Spuren"
+
+#: ../xfce4-mixer/xfce-mixer-window.c:202
+msgid "Sound card:"
+msgstr "Soundkarte:"
+
+#: ../xfce4-mixer/xfce4-mixer.desktop.in.in.h:1
+msgid "Audio mixer for the Xfce Desktop Environment"
+msgstr "Lautstärkeregelung für Xfce"

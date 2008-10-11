@@ -1,0 +1,1635 @@
+# Indonesian translation of the xfmedia package.
+# Copyright (C) 2004-2007 Brian J. Tarricone.
+# This file is distributed under the same license as the xfmedia package.
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2008.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: xfmedia 0.10.0svn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-06-16 22:22+0900\n"
+"PO-Revision-Date: 2008-06-04 00:12+0700\n"
+"Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
+"Language-Team: Indonesian <id@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:102
+#, c-format
+msgid "Status:                  %s\n"
+msgstr "Status:                  %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:106
+#, c-format
+msgid "Now Playing:             %s\n"
+msgstr "Diputar saat ini:             %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:111
+#, c-format
+msgid "Filename:                %s\n"
+msgstr "Nama Berkas:                %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:112
+#: ../plugins/infopipe/xfmedia-infopipe.c:127
+#: ../plugins/infopipe/xfmedia-infopipe.c:138
+msgid "(none)"
+msgstr "(tak ada)"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:115
+#, c-format
+msgid "Track Position:          %d\n"
+msgstr "Posisi Lagu:          %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:119
+#, c-format
+msgid "Track Length:            %d\n"
+msgstr "Panjang Lagu:            %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:126
+#, c-format
+msgid ""
+"Audio Codec:             %s\n"
+"Audio Bitrate:           %d\n"
+"Audio Sample Rate:       %d\n"
+"Audio Channels:          %d\n"
+"Audio Bits Per Sample:   %d\n"
+msgstr ""
+"Codec Audio:             %s\n"
+"Bitrasi Audio:           %d\n"
+"Tingkat Contoh Audio:       %d\n"
+"Saluran Audio:          %d\n"
+"Bit Per Contoh Audio:   %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:137
+#, c-format
+msgid ""
+"Video Codec:            %s\n"
+"Video Bitrate:          %d\n"
+"Video Frames Per Second: %.02f\n"
+"Video Frame Size:        %dx%d\n"
+"Video Aspect Ratio:      %.02f\n"
+msgstr ""
+"Codec Video:            %s\n"
+"Bitrasi Video:          %d\n"
+"Bingkai Video Per Detik: %.02f\n"
+"Ukuran Bingkai Video:        %dx%d\n"
+"Rasio Aspek Video:      %.02f\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:144
+#, c-format
+msgid "Playlist Length:         %d\n"
+msgstr "Panjang Senarai Putar:         %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:148
+#, c-format
+msgid "Current Playlist Index:  %d\n"
+msgstr "Indeks Senarai Putar Saat Ini:  %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:234
+#, c-format
+msgid "Xfmedia-Infopipe: Unable to delete file '%s'."
+msgstr "Xfmedia-Infopipe: Tak dapat menghapus berkas '%s'."
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:245
+#, c-format
+msgid "Xfmedia-Infopipe: Unable to create pipe '%s'."
+msgstr "Xfmedia-Infopipe: Tak dapat membuat pipa '%s'."
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:262
+msgid "Xfmedia Infopipe"
+msgstr "Xfmedia Infopipe"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:264
+msgid ""
+"The Infopipe plugin creates a pipe in /tmp that you can use to retrieve "
+"information about the currently playing track."
+msgstr ""
+"Plugin Infopipe membuat pipa di /tmp yang dapat anda gunakan untuk "
+"mengambiil informasi tentang lagu yang saat ini dimainkan."
+
+#: ../src/equaliser.c:132
+msgid "Equalizer"
+msgstr "Equalizer"
+
+#: ../src/equaliser.c:175
+msgid "Preamp"
+msgstr "Pra amp"
+
+#: ../src/http.c:95
+#, c-format
+msgid "http: failed to open socket: %s\n"
+msgstr "http: gagal membuka soket: %s\n"
+
+#: ../src/http.c:105
+#, c-format
+msgid "http: cannot connect to host\n"
+msgstr "http: tak dapat menyambung ke host\n"
+
+#: ../src/http.c:121
+#, c-format
+msgid "http: unable to resolve '%s'\n"
+msgstr "http: tak dapat membuka '%s'\n"
+
+#: ../src/http.c:133
+#, c-format
+msgid "http: unable to connect to '%s'\n"
+msgstr "http: tak dapat menyambung ke '%s'\n"
+
+#: ../src/http.c:311 ../src/http.c:330
+msgid "URL parse error"
+msgstr "Galat parse URL"
+
+#: ../src/http.c:322 ../src/http.c:340
+msgid "proxy authentication error"
+msgstr "galat otentikasi proxy"
+
+#: ../src/http.c:360
+msgid "host connect error"
+msgstr "galat menyambung host"
+
+#: ../src/http.c:399
+msgid "couldn't send request"
+msgstr "tak dapat mengirim pesanan"
+
+#: ../src/http.c:420
+msgid "read error"
+msgstr "galat baca"
+
+#: ../src/http.c:446
+msgid "invalid HTTP response"
+msgstr "balasan HTTP tak sah"
+
+#: ../src/http.c:454
+msgid "HTTP 3xx redirection not implemented"
+msgstr "pengalihan HTTP 3xx tak diimplementasikan"
+
+#: ../src/http.c:461
+msgid "HTTP status is not 2xx"
+msgstr "status HTTP bukan 2xx"
+
+#: ../src/http.c:480
+msgid "HTTP 'Location:' redirection not implemented"
+msgstr "'Lokasi' HTTP: pengalihan tak diimplementasikan"
+
+#. FIXME: report errno, and possibly in a window
+#: ../src/http.c:534
+#, c-format
+msgid "http: read error\n"
+msgstr "http: galat baca\n"
+
+#: ../src/main.c:227 ../src/xfmedia-remote.c:102
+#, c-format
+msgid ""
+"Xfmedia %s.  Released under the terms of the GNU GPL.  See the COPYING\n"
+"file for details.\n"
+"\n"
+msgstr ""
+"Xfmedia %s.  Dirilis di bawah perjanjian GNU GPL. Lihat berkas COPYING\n"
+"untuk detail.\n"
+"\n"
+
+#: ../src/main.c:228
+#, c-format
+msgid ""
+"Usage: %s [options] [files]\n"
+"\n"
+msgstr ""
+"Penggunaan: %s [opsi] [berkas]\n"
+"\n"
+
+#: ../src/main.c:229 ../src/xfmedia-remote.c:104
+msgid "    -h, --help           Print this help message and exit.\n"
+msgstr "    -h, --help           Tampilkan pesan bantuan ini lalu keluar.\n"
+
+#: ../src/main.c:230 ../src/xfmedia-remote.c:105
+msgid "    -V, --version        Print version information and exit.\n"
+msgstr "    -V, --version        Tampilkan versi informasi lalu keluar.\n"
+
+#: ../src/main.c:231
+msgid "    -v, --verbose        Instruct xine to print useful status information.\n"
+msgstr "    -v, --verbose        Perintahkan xine untuk menampilkan informasi status yang berguna.\n"
+
+#: ../src/main.c:232
+msgid "    --debug              Instruct xine to print detailed debug information.\n"
+msgstr "    --debug              Perintahkan xine untuk menampilkan informasi awakutu secara detail.\n"
+
+#: ../src/main.c:233
+msgid "    -f, --fullscreen     Start xfmedia's video window in fullscreen mode.\n"
+msgstr "    -f, --fullscreen     Jalankan jendela video xfmedia dalam mode layar penuh.\n"
+
+#: ../src/main.c:234
+msgid ""
+"    -p, --autoplay       Start playing when Xfmedia starts.  (This is the\n"
+"                         default if xfmedia is given filenames on the "
+"command\n"
+"                         line.)\n"
+msgstr ""
+"    -p, --autoplay       Mulai memutar ketika Xfmedia dijalankan.  (Ini adalah\n"
+"                         standarnya jika xfmedia diberikan nama berkas di "
+"baris\n"
+"                         perintah.)\n"
+
+#: ../src/main.c:237
+msgid "    -c, --clear-playlist Start xfmedia with an empty playlist.\n"
+msgstr "    -c, --clear-playlist Jalankan xfmedia dengan senarai putar kosong.\n"
+
+#: ../src/main.c:238
+msgid "    --audio-out=DRIVER   Specify the audio output driver to use.\n"
+msgstr "    --audio-out=DRIVER   Tentukan driver keluaran audio yang ingin digunakan.\n"
+
+#: ../src/main.c:239
+msgid "    --video-out=DRIVER   Specify the video output driver to use.\n"
+msgstr "    --video-out=DRIVER   Tentukan driver keluaran video yang ingin digunakan.\n"
+
+#: ../src/main.c:240
+msgid ""
+"    --vwin-geometry=WxH[+X+Y]\n"
+"                         Specify a fixed size and/or position for xfmedia's\n"
+"                         video window.\n"
+msgstr ""
+"    --vwin-geometry=WxH[+X+Y]\n"
+"                         Tentukan ukuran tetap dan/atau posisi untuk jendela\n"
+"                         video xfmedia.\n"
+
+#: ../src/main.c:315 ../src/xfmedia-remote.c:167
+#, c-format
+msgid "Xfmedia version %s, Copyright (c) Brian Tarricone, <bjt23@cornell.edu>\n"
+msgstr "Xfmedia versi %s, Hak Cipta (c) Brian Tarricone, <bjt23@cornell.edu>\n"
+
+#: ../src/main.c:316 ../src/xfmedia-remote.c:168
+msgid "Released under the terms of the GNU General Public License.\n"
+msgstr "Dirilis di bawah perjanjian Lisensi Publik Umum GNU.\n"
+
+#: ../src/main.c:317
+#, c-format
+msgid "Compiled against xine-lib %s, using xine-lib %s.\n"
+msgstr "Dikompilasi kontra xine-lib %s, menggunakan xine-lib %s.\n"
+
+#: ../src/main.c:319
+#, c-format
+msgid "Compiled against Xfce %d.%d.%d, using Xfce %s.\n"
+msgstr "Dikompilasi kontra Xfce %d.%d.%d, menggunakan Xfce %s.\n"
+
+#: ../src/main.c:354
+msgid "The option --audio-out requires an argument.\n"
+msgstr "Opsi --audio-out memerlukan argumen.\n"
+
+#: ../src/main.c:363
+msgid "The option --video-out requires an argument.\n"
+msgstr "Opsi --video-out memerlukan argumen.\n"
+
+#: ../src/mainwin-callbacks.c:130
+msgid "Unable to play file."
+msgstr "Tak dapat memutar berkas."
+
+#: ../src/mainwin-callbacks.c:131
+msgid ""
+"Xfmedia was unable to play the selected file.  Be sure that the file exists "
+"and that you have permission to access it."
+msgstr ""
+"Xfmedia tak dapat memutar berkas terpilih.  Pastikan bahwa berkas ada "
+"dan anda memiliki hak akses untuk mengaksesnya."
+
+#: ../src/mainwin-callbacks.c:222
+msgid "Metadata Changed"
+msgstr "Metadata Diubah"
+
+#: ../src/mainwin-callbacks.c:224
+msgid "You have edited this file's metadata."
+msgstr "Anda telah menyunting metadata berkas ini."
+
+#: ../src/mainwin-callbacks.c:225
+msgid "Changes will be lost unless they are saved.  Do you wish to save changes?"
+msgstr "Perubahan akan hilang kecuali terlebih dahulu disimpan.  Anda ingin menyimpan perubahan?"
+
+#: ../src/mainwin-callbacks.c:226
+msgid "_Discard Changes"
+msgstr "Abaikan Perubahan (_D)"
+
+#: ../src/mainwin-callbacks.c:227
+msgid "_Save Changes"
+msgstr "_Simpan Perubahan"
+
+#: ../src/mainwin-callbacks.c:285
+#, c-format
+msgid ""
+"Xfmedia was unable to open '%s'.  Be sure that the file exists and that you "
+"have permission to access it."
+msgstr ""
+"Xfmedia tak dapat membuka '%s'.  Pastikan bahwa berkas ada dan anda "
+"memiliki hak akses untuk mengaksesnya."
+
+#: ../src/mainwin-callbacks.c:287
+msgid "Unable to open file."
+msgstr "Tak dapat membuka berkas."
+
+#: ../src/mainwin-callbacks.c:308
+msgid "File Info"
+msgstr "Info Berkas"
+
+#: ../src/mainwin-callbacks.c:323
+msgid "Filename"
+msgstr "Nama Berkas"
+
+#: ../src/mainwin-callbacks.c:336
+msgid "Media Info"
+msgstr "Info Media"
+
+#: ../src/mainwin-callbacks.c:348
+msgid "Title:"
+msgstr "Judul:"
+
+#: ../src/mainwin-callbacks.c:375
+msgid "Artist:"
+msgstr "Artis:"
+
+#: ../src/mainwin-callbacks.c:402
+msgid "Album:"
+msgstr "Album:"
+
+#: ../src/mainwin-callbacks.c:429
+msgid "Genre:"
+msgstr "Genre:"
+
+#: ../src/mainwin-callbacks.c:452
+msgid "Track:"
+msgstr "Lagu:"
+
+#: ../src/mainwin-callbacks.c:477
+msgid "Year:"
+msgstr "Tahun:"
+
+#: ../src/mainwin-callbacks.c:504
+msgid "Comment:"
+msgstr "Komentar:"
+
+#: ../src/mainwin-callbacks.c:535
+msgid "Length:"
+msgstr "Panjang:"
+
+#: ../src/mainwin-callbacks.c:552
+msgid "File size (b):"
+msgstr "Ukuran berkas (b):"
+
+#: ../src/mainwin-callbacks.c:569
+msgid "Audio Info"
+msgstr "Info Audio"
+
+#: ../src/mainwin-callbacks.c:581 ../src/mainwin-callbacks.c:675
+msgid "Codec:"
+msgstr "Codec:"
+
+#: ../src/mainwin-callbacks.c:596
+msgid "Samples/sec:"
+msgstr "Contoh/detik:"
+
+#: ../src/mainwin-callbacks.c:615
+msgid "Bits/sample:"
+msgstr "Bit/contoh:"
+
+#: ../src/mainwin-callbacks.c:631 ../src/mainwin-callbacks.c:732
+msgid "Channels:"
+msgstr "Saluran:"
+
+#: ../src/mainwin-callbacks.c:646 ../src/mainwin-callbacks.c:746
+msgid "Bitrate (kbit):"
+msgstr "Bitrasi (kbit):"
+
+#: ../src/mainwin-callbacks.c:663
+msgid "Video Info"
+msgstr "Info Video"
+
+#: ../src/mainwin-callbacks.c:690
+msgid "FourCC:"
+msgstr "FourCC:"
+
+#: ../src/mainwin-callbacks.c:714
+msgid "Frame size:"
+msgstr "Ukuran bingkai:"
+
+#: ../src/mainwin-callbacks.c:895
+msgid "Add URL"
+msgstr "Tambah URL"
+
+#: ../src/mainwin-callbacks.c:912
+msgid "_URL:"
+msgstr "_URL:"
+
+#: ../src/mainwin-callbacks.c:937
+msgid "Sort by filename"
+msgstr "Urutkan berdasarkan nama berkas"
+
+#: ../src/mainwin-callbacks.c:938
+msgid "Sort by title"
+msgstr "Urutkan berdasarkan judul"
+
+#: ../src/mainwin-callbacks.c:939
+msgid "Sort by artist, title"
+msgstr "Urutkan berdasarkan artis, judul"
+
+#: ../src/mainwin-callbacks.c:940
+msgid "Sort by artist, album, track number"
+msgstr "Urutkan berdasarkan artis, album, nomor lagu"
+
+#: ../src/mainwin-callbacks.c:1241
+msgid "Add Directory"
+msgstr "Tambah Direktori"
+
+#: ../src/mainwin-callbacks.c:1329
+msgid "Add Media File"
+msgstr "Tambah Berkas Media"
+
+#: ../src/mainwin-callbacks.c:1331
+msgid "Add _Selected"
+msgstr "Tambah Terpilih (_S)"
+
+#: ../src/mainwin-callbacks.c:1335
+msgid "A_dd and Close"
+msgstr "Tambah lalu Tutup (_d)"
+
+#: ../src/mainwin-callbacks.c:1349 ../src/playlist.c:686
+msgid "All Files"
+msgstr "Semua Berkas"
+
+#: ../src/mainwin-callbacks.c:1353
+msgid "Music Files"
+msgstr "Berkas Musik"
+
+#: ../src/mainwin-callbacks.c:1367 ../src/playlist.c:690
+msgid "Playlists"
+msgstr "Senarai Putar"
+
+#: ../src/mainwin-callbacks.c:1373
+msgid "Video Files"
+msgstr "Berkas Video"
+
+#: ../src/mainwin-callbacks.c:1949
+msgid "Translator"
+msgstr "Penerjemah"
+
+#: ../src/mainwin-callbacks.c:1962
+msgid ""
+"Xfmedia is a lightweight media player,\n"
+"based on the xine engine"
+msgstr ""
+"Xfmedia adalah penggelar media ringan,\n"
+"berbasiskan mesin xine"
+
+#: ../src/mainwin-callbacks.c:1967
+msgid "Original Author/Maintainer"
+msgstr "Penulis/Pengelola Asli"
+
+#: ../src/mainwin-callbacks.c:2080 ../src/mainwin.c:1843
+msgid "Stopped"
+msgstr "Hentikan"
+
+#: ../src/mainwin.c:383
+msgid "_Other"
+msgstr "Lainnya (_O)"
+
+#: ../src/mainwin.c:429
+msgid "_URL..."
+msgstr "_URL..."
+
+#: ../src/mainwin.c:438
+msgid "_Directory..."
+msgstr "_Direktori..."
+
+#: ../src/mainwin.c:447
+msgid "_File..."
+msgstr "Berkas... (_F)"
+
+#: ../src/mainwin.c:633
+msgid "Volume"
+msgstr "Volume"
+
+#: ../src/mainwin.c:658 ../src/xfmedia-keybindings.c:513
+msgid "Previous Track"
+msgstr "Lagu Sebelumnya"
+
+#: ../src/mainwin.c:670
+msgid "Play/Pause Track"
+msgstr "Putar/Jeda Lagu"
+
+#: ../src/mainwin.c:686
+msgid "Stop Playback"
+msgstr "Stop Putar Balik"
+
+#: ../src/mainwin.c:697 ../src/xfmedia-keybindings.c:514
+msgid "Next Track"
+msgstr "Lagu Selanjutnya"
+
+#: ../src/mainwin.c:705
+msgid "_Playlist"
+msgstr "Senarai _Putar "
+
+#: ../src/mainwin.c:759
+msgid "_Enqueue"
+msgstr "Antrean (_E)"
+
+#: ../src/mainwin.c:768
+msgid "Add _Mediamark..."
+msgstr "Tambah Tanda _Media..."
+
+#: ../src/mainwin.c:781
+msgid "_File Info"
+msgstr "Info Berkas (_F)"
+
+#: ../src/mainwin.c:798
+msgid "About _Xfmedia"
+msgstr "Tentang _Xfmedia"
+
+#: ../src/mainwin.c:811
+msgid "_Preferences"
+msgstr "_Pengaturan"
+
+#: ../src/mainwin.c:821
+msgid "_Equalizer..."
+msgstr "_Equalizer..."
+
+#: ../src/mainwin.c:832
+msgid "_Jump to File..."
+msgstr "Lompat ke Berkas... (_J)"
+
+#: ../src/mainwin.c:841
+msgid "Play_list Queue..."
+msgstr "Antrean Senarai Putar... (_l)"
+
+#: ../src/mainwin.c:848
+msgid "_Mediamarks"
+msgstr "Tanda _Media"
+
+#: ../src/mainwin.c:858
+msgid "Re_order"
+msgstr "Atur ulang (_o)"
+
+#: ../src/mainwin.c:869
+msgid "Sort by _Title"
+msgstr "Urut Judul (_T)"
+
+#: ../src/mainwin.c:875
+msgid "Sort by _Filename"
+msgstr "Urut Nama Berkas (_F)"
+
+#: ../src/mainwin.c:881
+msgid "_Randomize List"
+msgstr "Acak Senarai (_R)"
+
+#: ../src/mainwin.c:893
+msgid "_Shuffle"
+msgstr "Putar Acak (_S)"
+
+#: ../src/mainwin.c:901
+msgid "_Repeat"
+msgstr "Putar Ulang (_R)"
+
+#: ../src/mainwin.c:909
+msgid "Repeat Single _Track"
+msgstr "Putar Ulang Satu Lagu (_T)"
+
+#: ../src/mainwin.c:917
+msgid "Show Audio _Visualization"
+msgstr "Tampilkan _Visualisasi Audio"
+
+#: ../src/mainwin.c:1124 ../src/mainwin.c:1733
+msgid "Playing"
+msgstr "Memutar"
+
+#: ../src/mainwin.c:1141
+msgid "P_revious Track"
+msgstr "Jalu_r Sebelumnya"
+
+#: ../src/mainwin.c:1150 ../src/mainwin.c:1262
+msgid "_Play"
+msgstr "_Putar"
+
+#: ../src/mainwin.c:1167 ../src/mainwin.c:1283
+msgid "_Pause"
+msgstr "Jeda (_J)"
+
+#: ../src/mainwin.c:1178
+msgid "_Stop"
+msgstr "_Stop"
+
+#: ../src/mainwin.c:1186
+msgid "_Next Track"
+msgstr "Lagu Selanjutnya (_N)"
+
+#: ../src/mainwin.c:1754
+msgid "Paused"
+msgstr "Jeda"
+
+#: ../src/mediamarks.c:125
+msgid "Mediamarks Save Error"
+msgstr "Galat Menyimpan Tanda Media"
+
+#: ../src/mediamarks.c:127
+msgid "The mediamarks file failed to save."
+msgstr "Berkas tanda media gagal disimpan."
+
+#: ../src/mediamarks.c:128 ../src/xfmedia-keybindings.c:683
+#: ../src/xfmedia-keybindings.c:696
+msgid ""
+"This could be because your disk is full, or you don't have permission to "
+"write to the configuration directory.  Any changes will be lost when you "
+"quit Xfmedia."
+msgstr ""
+"Ini dapat karena cakram anda penuh, atau anda tak punya hak akses "
+"untuk menulis ke direktori konfigurasi.  Perubahan apapun akan hilang "
+"ketika anda keluar Xfmedia."
+
+#: ../src/mediamarks.c:625 ../src/mediamarks.c:889
+msgid "Mediamarks"
+msgstr "Tanda Media"
+
+#: ../src/mediamarks.c:721
+msgid "Add Mediamark"
+msgstr "Tambah Tanda Media"
+
+#: ../src/mediamarks.c:726
+msgid "_Add Mediamark"
+msgstr "Tambah Tanda Media (_A)"
+
+#: ../src/mediamarks.c:745 ../src/mediamarks.c:1191
+msgid "_Name:"
+msgstr "_Nama:"
+
+#: ../src/mediamarks.c:766 ../src/mediamarks.c:1213
+msgid "_Location:"
+msgstr "_Lokasi:"
+
+#: ../src/mediamarks.c:781 ../src/mediamarks.c:987
+msgid "File _in:"
+msgstr "Berkas d_i:"
+
+#: ../src/mediamarks.c:803
+msgid "New Folder"
+msgstr "Folder Baru"
+
+#: ../src/mediamarks.c:808
+msgid "Add _Folder"
+msgstr "Tambah _Folder"
+
+#: ../src/mediamarks.c:956
+msgid "Add Mediamark Folder"
+msgstr "Tambah Folder Tanda Media"
+
+#: ../src/mediamarks.c:962
+msgid "_Add Folder"
+msgstr "Tambah Folder (_A)"
+
+#: ../src/mediamarks.c:978
+msgid "_Folder Name:"
+msgstr "Nama _Folder:"
+
+#: ../src/mediamarks.c:1047
+msgid "Remove Mediamark"
+msgstr "Hapus Tanda Media"
+
+#: ../src/mediamarks.c:1048 ../src/mediamarks.c:1053
+msgid "Are you sure?"
+msgstr "Anda yakin?"
+
+#: ../src/mediamarks.c:1048
+msgid "You're about to remove a Mediamark, which can't be undone."
+msgstr "Anda akan menghapus Tanda Media, yang tak dapat dikembalikan."
+
+#: ../src/mediamarks.c:1052
+msgid "Remove Folder"
+msgstr "Hapus Folder"
+
+#: ../src/mediamarks.c:1054
+msgid ""
+"Removing a folder also removes all items and subfolders contained in it, and "
+"can't be undone."
+msgstr ""
+"Menghapus folder juga menghapus semua item dan subfolder di dalamnya, dan "
+"tak dapat dikembalikan."
+
+#: ../src/mediamarks.c:1174
+msgid "Mediamark Properties"
+msgstr "Properti Tanda Media"
+
+#: ../src/mediamarks.c:1174
+msgid "Folder Properties"
+msgstr "Properti Folder"
+
+#: ../src/mediamarks.c:1593
+msgid "Manage Mediamarks"
+msgstr "Atur Tanda Media"
+
+#: ../src/mediamarks.c:1615
+msgid "New Mediamark..."
+msgstr "Tanda Media Baru..."
+
+#: ../src/mediamarks.c:1616
+msgid "Add a new mediamark"
+msgstr "Tambah tanda media baru"
+
+#: ../src/mediamarks.c:1621
+msgid "Add Folder..."
+msgstr "Tambah Folder..."
+
+#: ../src/mediamarks.c:1622
+msgid "Add a new folder"
+msgstr "Tambah folder baru"
+
+#: ../src/mediamarks.c:1627
+msgid "Remove Item"
+msgstr "Hapus Item"
+
+#: ../src/mediamarks.c:1628
+msgid "Remove the selected item"
+msgstr "Hapus item terpilih"
+
+#: ../src/mediamarks.c:1635
+msgid "Move Item Up"
+msgstr "Pindah Item ke Atas"
+
+#: ../src/mediamarks.c:1636
+msgid "Move the selected item up"
+msgstr "Pindah item terpilih ke atas"
+
+#: ../src/mediamarks.c:1641
+msgid "Move Item Down"
+msgstr "Pindah Item ke Bawah"
+
+#: ../src/mediamarks.c:1642
+msgid "Move the selected item down"
+msgstr "Pindah item terpilih ke bawah"
+
+#: ../src/mediamarks.c:1649
+msgid "Refresh"
+msgstr "Segarkan"
+
+#: ../src/mediamarks.c:1650
+msgid "Refresh the list"
+msgstr "Segarkan senarai"
+
+#: ../src/mediamarks.c:1655
+msgid "Properties..."
+msgstr "Properti..."
+
+#: ../src/mediamarks.c:1656
+msgid "Edit the selected item's properties"
+msgstr "Sunting properti item terpilih"
+
+#: ../src/mediamarks.c:1686
+msgid "Name"
+msgstr "Nama"
+
+#: ../src/mediamarks.c:1713
+msgid "Location"
+msgstr "Lokasi"
+
+#: ../src/mediamarks.c:1806
+msgid "_Add Current Stream..."
+msgstr "Tambah _Arus Saat Ini..."
+
+#: ../src/mediamarks.c:1815
+msgid "_Manage Mediamarks..."
+msgstr "Atur Tanda _Media..."
+
+#: ../src/playlist.c:536
+msgid "Save changes to this playlist before closing?"
+msgstr "Simpan perubahan ke senarai putar ini sebelum menutup?"
+
+#: ../src/playlist.c:537
+msgid "You've changed this playlist since it was last saved."
+msgstr "Anda telah mengubah senarai putar ini sejak terakhir kali disimpan."
+
+#: ../src/playlist.c:541
+msgid "Do_n't save"
+msgstr "Ja_ngan simpan"
+
+#: ../src/playlist.c:590 ../src/xfmedia-keybindings.c:534
+msgid "Save Playlist"
+msgstr "Simpa Senarai Putar"
+
+#: ../src/playlist.c:600
+msgid "Autodetect type by extension"
+msgstr "Deteksi otomatis tipe dari ekstensi"
+
+#: ../src/playlist.c:604
+msgid "Flat file"
+msgstr "Berkas rata"
+
+#: ../src/playlist.c:676
+msgid "Open Playlist"
+msgstr "Buka Senarai Putar"
+
+#: ../src/playlist.c:1359
+msgid "#"
+msgstr "#"
+
+#: ../src/playlist.c:1373
+msgid "Title"
+msgstr "Judul"
+
+#: ../src/playlist.c:1381
+msgid "Length"
+msgstr "Panjang"
+
+#: ../src/playlist.c:1431
+msgid "Add entry to playlist"
+msgstr "Tambah entri ke senarai putar"
+
+#: ../src/playlist.c:1441
+msgid "Remove entry from playlist"
+msgstr "Hapus entri dari senarai putar"
+
+#: ../src/playlist.c:1451
+msgid "Move selected playlist entry up"
+msgstr "Pindah entri senarai putar terpilih ke atas"
+
+#: ../src/playlist.c:1461
+msgid "Move selected playlist entry down"
+msgstr "Pindah entri senarai putar terpilih ke bawah"
+
+#: ../src/playlist.c:1486
+msgid "Randomize play order"
+msgstr "Acak urutan putar"
+
+#: ../src/playlist.c:1505
+msgid "Repeat after playlist finishes"
+msgstr "Ulang setelah senarai putar selesai"
+
+#: ../src/playlist.c:1520
+msgid "Save current playlist"
+msgstr "Simpan senarai putar saat ini"
+
+#: ../src/playlist.c:1530
+msgid "Open a saved playlist"
+msgstr "Buka senarai putar tersimpan"
+
+#: ../src/playlist.c:1540
+msgid "Start a new playlist"
+msgstr "Mulai senarai putar baru"
+
+#: ../src/playlist.c:1548
+msgid "_Remove Entry"
+msgstr "Hapus Entri (_R)"
+
+#: ../src/playlist.c:1557
+msgid "Move _Up"
+msgstr "Pindah ke Atas (_U)"
+
+#: ../src/playlist.c:1566
+msgid "Move _Down"
+msgstr "Pindah ke Bawah (_D)"
+
+#: ../src/remote.c:223 ../src/remote.c:466
+msgid "(no title)"
+msgstr "(tak ada judul)"
+
+#: ../src/settings-dialog.c:145
+msgid "Optical Devices"
+msgstr "Divais Optik"
+
+#: ../src/settings-dialog.c:159
+msgid "CD A_udio Device:"
+msgstr "Divais CD A_udio:"
+
+#: ../src/settings-dialog.c:181
+msgid "DVD Vide_o Device:"
+msgstr "Divais DVD Vide_o:"
+
+#: ../src/settings-dialog.c:203
+msgid "Vid_eo CD Device:"
+msgstr "Divais Vid_eo CD:"
+
+#: ../src/settings-dialog.c:221
+msgid "Audio"
+msgstr "Audio"
+
+#: ../src/settings-dialog.c:233
+msgid "Dr_iver:"
+msgstr "Dr_iver:"
+
+#: ../src/settings-dialog.c:243 ../src/settings-dialog.c:312
+msgid "(no drivers)"
+msgstr "(tak ada driver)"
+
+#: ../src/settings-dialog.c:267
+msgid "_Speaker Layout:"
+msgstr "Tata Letak Pengeras _Suara:"
+
+#: ../src/settings-dialog.c:275
+msgid "(option unavailable)"
+msgstr "(opsi tak tersedia)"
+
+#: ../src/settings-dialog.c:290
+msgid "Video"
+msgstr "Video"
+
+#: ../src/settings-dialog.c:302
+msgid "D_river:"
+msgstr "D_river:"
+
+#: ../src/settings-dialog.c:608
+msgid "Xfmedia Preferences"
+msgstr "Pengaturan Xfmedia"
+
+#: ../src/settings-dialog.c:630
+msgid "Playlist"
+msgstr "Senarai Putar"
+
+#: ../src/settings-dialog.c:643
+msgid "_Title Display:"
+msgstr "_Tampilan Judul:"
+
+#: ../src/settings-dialog.c:653
+msgid ""
+"This is a printf-like format string controlling the display of the "
+"playlist.  Xfmedia will replace the following symbols:\n"
+"\t%p: Artist/Performer\n"
+"\t%t: Track Title\n"
+"\t%a: Album Name\n"
+"\t%T: Track Number\n"
+"\t%g: Genre\n"
+"\t%y: Year\n"
+"\t%f: Filename\n"
+"\t%%: a percent sign"
+msgstr ""
+"Ini adalah format tali seperti printf yang mengendalikan tampilan"
+"senarai putar.  Xfmedia akan mengganti simbol berikut:\n"
+"\t%p: Artis/Penampil\n"
+"\t%t: Judul Lagu\n"
+"\t%a: Nama Album\n"
+"\t%T: Nomor Track\n"
+"\t%g: Genre\n"
+"\t%y: Tahun\n"
+"\t%f: Nama Berkas\n"
+"\t%%: tanda persen"
+
+#: ../src/settings-dialog.c:667
+msgid "_Advance playlist when track ends"
+msgstr "Pindah senarai putar ketika lagu berakhir (_A)"
+
+#: ../src/settings-dialog.c:675
+msgid ""
+"When a track ends, Xfmedia can automatically advance to the next track in "
+"the playlist and continue playback."
+msgstr ""
+"Ketika lagu berakhir, Xfmedia dapat secara otomatis pindah ke lagu selanjutnya "
+"di senarai putar dan melanjutkan putar ulang."
+
+#: ../src/settings-dialog.c:677
+msgid "_Don't save playlist on exit for one-shot invocations"
+msgstr "Jangan simpan senarai putar saat keluar untuk pertolongan satu kali (_D)"
+
+#: ../src/settings-dialog.c:685
+msgid ""
+"Only automatically save the playlist during interactive use; i.e., don't "
+"save the playlist when Xfmedia was invoked from the commandline with a short "
+"list of definite arguments.  This option needs to be named better."
+msgstr ""
+"Hanya otomatis menyimpan senarai putar selama penggunaan interaktif, "
+"misalnya jangan simpan senarai putar ketika Xfmedia dijalankan dari baris "
+"perintah dengan senarai pendek argumen definitif. Opsi ini perlu diberi "
+"nama lebih baik."
+
+#: ../src/settings-dialog.c:691
+msgid "Load metadata:"
+msgstr "Muat metadata:"
+
+#: ../src/settings-dialog.c:695
+msgid "On _scroll"
+msgstr "Di gulung (_s)"
+
+#: ../src/settings-dialog.c:703
+msgid "Load file metadata for entries in the playlist when they are visible."
+msgstr "Muat berkas metadata untuk entri di senarai putar ketika entri tampak."
+
+#: ../src/settings-dialog.c:706
+msgid "On pla_y"
+msgstr "Di putar (_y)"
+
+#: ../src/settings-dialog.c:714
+msgid "Load file metadata for entries in the playlist only when playing them."
+msgstr "Muat berkas metadata untuk entri di senarai putar hanya ketika memutar entri."
+
+#: ../src/settings-dialog.c:717
+msgid "_Never"
+msgstr "Tak Pernah (_N)"
+
+#: ../src/settings-dialog.c:725
+msgid "Never load file metadata for entries in the playlist."
+msgstr "Jangan pernah memuat berkas metadata untuk entri di senarai putar."
+
+#: ../src/settings-dialog.c:727
+msgid "Window"
+msgstr "Jendela"
+
+#: ../src/settings-dialog.c:736
+msgid "Show Xfmedia on all _workspaces"
+msgstr "Tampilkan Xfmedia di semua ruang kerja (_w)"
+
+#: ../src/settings-dialog.c:742
+msgid ""
+"Sets Xfmedia \"sticky\" such that it appears on all workspaces (virtual "
+"desktops)."
+msgstr ""
+"Atur Xfmedia agar \"lekat\" sehingga tampak di semua ruang kerja (destop "
+"virtual)."
+
+#: ../src/settings-dialog.c:744
+msgid "Keep X_fmedia above other windows"
+msgstr "Jaga X_fmedia di atas jendela lain"
+
+#: ../src/settings-dialog.c:751
+msgid "Sets the Xfmedia window to \"Always-on-Top\" status."
+msgstr "Atur jendela Xfmedia ke status \"Selalu di Atas\"."
+
+#: ../src/settings-dialog.c:753
+msgid "Dock and auto-_hide Xfmedia at screen edges"
+msgstr "Dok dan otomatis sembunyikan Xfmedia di tepi layar (_h)"
+
+#: ../src/settings-dialog.c:760
+msgid ""
+"When the Xfmedia window is dragged to a screen edge, it will auto-hide "
+"itself and reappear when you move the mouse to the edge of the screen."
+msgstr ""
+"Jika jendela Xfmedia ditarik ke tepi layar, maka jendela akan otomatis "
+"menyembunyikan diri dan akan muncul jika anda menggerakkan tetikus "
+"ke tepi layar."
+
+#: ../src/settings-dialog.c:762
+msgid "Tray Icon"
+msgstr "Ikon Baki"
+
+#: ../src/settings-dialog.c:771
+msgid "Show _tray icon"
+msgstr "Tampilkan ikon baki (_t)"
+
+#: ../src/settings-dialog.c:777
+msgid "Displays an Xfmedia icon in the system notification area."
+msgstr "Tampilkan ikon Xfmedia di area pemberitahuan sistem."
+
+#: ../src/settings-dialog.c:779
+msgid "_Minimize Xfmedia to tray icon"
+msgstr "_Minimalkan Xfce ke ikon baki"
+
+#: ../src/settings-dialog.c:787
+msgid "Minimizes Xfmedia to the tray icon rather than to the taskbar or iconbox."
+msgstr "Minimalkan Xfmedia ke ikon baki ketimbang ke batang tugas atau kotak ikon."
+
+#: ../src/settings-dialog.c:793
+msgid "On middle _click:"
+msgstr "Di klik tengah: (_c)"
+
+#: ../src/settings-dialog.c:796 ../src/settings-dialog.c:810
+msgid ""
+"The tray icon can perform an action when middle-clicked.  Select the action "
+"in the dropdown box."
+msgstr ""
+"Ikon baki dapat melakukan aksi ketika di klik tengah.  Pilih aksi di kotak "
+"taruh bawah."
+
+#: ../src/settings-dialog.c:799
+msgid "Do nothing"
+msgstr "Tak lakukan apa-apa"
+
+#: ../src/settings-dialog.c:800
+msgid "Toggle play/pause"
+msgstr "Ubah putar/jeda"
+
+#: ../src/settings-dialog.c:801
+msgid "Next track"
+msgstr "Lagu selanjutnya"
+
+#: ../src/settings-dialog.c:802
+msgid "Previous track"
+msgstr "Lagu sebelumnya"
+
+#: ../src/settings-dialog.c:815
+msgid "O_ptions"
+msgstr "O_psi"
+
+#: ../src/settings-dialog.c:826
+msgid "Selected Visualization"
+msgstr "Visualisasi Terpilih"
+
+#: ../src/settings-dialog.c:854
+msgid "(none available)"
+msgstr "(tak ada yang tersedia)"
+
+#: ../src/settings-dialog.c:865
+msgid "Visualization Options"
+msgstr "Opsi Visualisasi"
+
+#: ../src/settings-dialog.c:880
+msgid "_Audio Visualization"
+msgstr "Visualisasi _Audio"
+
+#: ../src/settings-dialog.c:886
+msgid "_Devices"
+msgstr "_Divais"
+
+#: ../src/settings-dialog.c:892
+msgid "_Keybindings"
+msgstr "_Kunci Ikat"
+
+#: ../src/settings-dialog.c:900
+msgid "_Plugins"
+msgstr "_Plugin"
+
+#: ../src/settings.c:242
+msgid "Settings Save Error"
+msgstr "Galat Simpan Pengaturan"
+
+#: ../src/settings.c:243
+msgid "The settings file failed to save."
+msgstr "Berkas pengaturan gagal disimpan."
+
+#: ../src/settings.c:244
+msgid ""
+"This could be because your disk is full, or you don't have permission to "
+"write to the configuration directory.  Any changes will be lost when you "
+"exit Xfmedia."
+msgstr ""
+"Ini dapat karena cakram anda penuh, atau anda tak memiliki hak akses "
+"untuk menulis ke direktori konfigurasi.  Perubahan apapaun akan hilang "
+"ketika anda keluar Xfmedia."
+
+#: ../src/xfmedia-common.c:422
+msgid "(UTF-8 conversion failed)"
+msgstr "(konversi UTF-8 gagal)"
+
+#: ../src/xfmedia-handle.c:141
+msgid "Handle Style"
+msgstr "Gaya Penanganan"
+
+#: ../src/xfmedia-handle.c:142
+msgid "This property defines the handle style of the XfmediaHandle widget."
+msgstr "Properti ini menjelaskan gaya penanganan dari widget XfmediaHandle."
+
+#: ../src/xfmedia-handle.c:150
+msgid "Orientation"
+msgstr "Orientasi"
+
+#: ../src/xfmedia-handle.c:151
+msgid "This property defines whether this is a horizontal or vertical handle."
+msgstr "Properti ini menjelaskan apakah ini penanganan horizontal atau vertikal."
+
+#: ../src/xfmedia-keybindings.c:510
+msgid "Play"
+msgstr "Putar"
+
+#: ../src/xfmedia-keybindings.c:511
+msgid "Pause"
+msgstr "Jeda"
+
+#: ../src/xfmedia-keybindings.c:512
+msgid "Stop"
+msgstr "Stop"
+
+#: ../src/xfmedia-keybindings.c:515
+msgid "Quit"
+msgstr "Keluar"
+
+#: ../src/xfmedia-keybindings.c:516
+msgid "Toggle Fullscreen"
+msgstr "Ubah Layar Penuh"
+
+#: ../src/xfmedia-keybindings.c:517
+msgid "Toggle Shuffle Play"
+msgstr "Ubah Putar Acak"
+
+#: ../src/xfmedia-keybindings.c:518
+msgid "Toggle Repeat Play"
+msgstr "Ubah Putar Ulang"
+
+#: ../src/xfmedia-keybindings.c:519
+msgid "Toggle Audio Visualization"
+msgstr "Ubah Visualisasi Audio"
+
+#: ../src/xfmedia-keybindings.c:520
+msgid "Set Speed Faster"
+msgstr "Atur Kecepatan Lebih Cepat"
+
+#: ../src/xfmedia-keybindings.c:521
+msgid "Set Speed Slower"
+msgstr "Atur Kecepatan Lebih Lambat"
+
+#: ../src/xfmedia-keybindings.c:522
+msgid "Forward 10 Seconds"
+msgstr "Maju 10 Detik"
+
+#: ../src/xfmedia-keybindings.c:523
+msgid "Forward 30 Seconds"
+msgstr "Maju 30 Detik"
+
+#: ../src/xfmedia-keybindings.c:524
+msgid "Forward 60 Seconds"
+msgstr "Maju 60 Detik"
+
+#: ../src/xfmedia-keybindings.c:525
+msgid "Backward 10 Seconds"
+msgstr "Mundur 10 Detik"
+
+#: ../src/xfmedia-keybindings.c:526
+msgid "Backward 30 Seconds"
+msgstr "Mundur 30 Detik"
+
+#: ../src/xfmedia-keybindings.c:527
+msgid "Backward 60 Seconds"
+msgstr "Mundur 60 Detik"
+
+#: ../src/xfmedia-keybindings.c:528
+msgid "Enqueue Track"
+msgstr "Antrean Lagu"
+
+#: ../src/xfmedia-keybindings.c:529
+msgid "Show Queued Tracks"
+msgstr "Tampilkan Antrean Lagu"
+
+#: ../src/xfmedia-keybindings.c:530
+msgid "Toggle Audio Mute"
+msgstr "Ubah Diam Audio"
+
+#: ../src/xfmedia-keybindings.c:531
+msgid "Add File to Playlist"
+msgstr "Tambah Berkas ke Senarai Putar"
+
+#: ../src/xfmedia-keybindings.c:532
+msgid "Add URL to Playlist"
+msgstr "Tambah URL ke Senarai Putar"
+
+#: ../src/xfmedia-keybindings.c:533
+msgid "Open Saved Playlist"
+msgstr "Buka Senarai Putar Tersimpan"
+
+#: ../src/xfmedia-keybindings.c:535
+msgid "Clear Playlist"
+msgstr "Bersihkan Senarai Putar"
+
+#: ../src/xfmedia-keybindings.c:536
+msgid "A/V Sync Plus"
+msgstr "Tambah Sinkronisasi A/V"
+
+#: ../src/xfmedia-keybindings.c:537
+msgid "A/V Sync Minus"
+msgstr "Kurangi Sinkronisasi A/V"
+
+#: ../src/xfmedia-keybindings.c:538
+msgid "Select Aspect Ratio"
+msgstr "Pilih Rasio Aspek"
+
+#: ../src/xfmedia-keybindings.c:539
+msgid "Jump to File"
+msgstr "Lompat ke Berkas"
+
+#: ../src/xfmedia-keybindings.c:540
+msgid "Video Zoom In"
+msgstr "Perbesar Video"
+
+#: ../src/xfmedia-keybindings.c:541
+msgid "Video Zoom Out"
+msgstr "Perkecil Video"
+
+#: ../src/xfmedia-keybindings.c:542
+msgid "Video Window Larger"
+msgstr "Jendela Video Lebih Besar"
+
+#: ../src/xfmedia-keybindings.c:543
+msgid "Video Window Smaller"
+msgstr "Jendela Video Lebih Kecil"
+
+#: ../src/xfmedia-keybindings.c:544
+msgid "Volume Up"
+msgstr "Naikkan Volume"
+
+#: ../src/xfmedia-keybindings.c:545
+msgid "Volume Down"
+msgstr "Turunkan Volume"
+
+#: ../src/xfmedia-keybindings.c:546
+msgid "Audio Track Next"
+msgstr "Lagu Audio Selanjutnya"
+
+#: ../src/xfmedia-keybindings.c:547
+msgid "Audio Track Previous"
+msgstr "Lagu Audio Sebelumnya"
+
+#: ../src/xfmedia-keybindings.c:548
+msgid "Subtitle Track Next"
+msgstr "Subjudul Lagu Selanjutnya"
+
+#: ../src/xfmedia-keybindings.c:549
+msgid "Subtitle Track Previous"
+msgstr "Subjudul Lagu Sebelumnya"
+
+#: ../src/xfmedia-keybindings.c:635
+msgid "Set Keybinding"
+msgstr "Atur Kunci Ikat"
+
+#: ../src/xfmedia-keybindings.c:638
+msgid "_Clear"
+msgstr "Bersihkan (_C)"
+
+#: ../src/xfmedia-keybindings.c:647
+msgid "Set shortcut for:"
+msgstr "Atur jalan pintas untuk:"
+
+#: ../src/xfmedia-keybindings.c:665
+msgid "Keybinding Error"
+msgstr "Galat Kunci Ikat"
+
+#: ../src/xfmedia-keybindings.c:666
+msgid "Keybinding already in use."
+msgstr "Kunci ikat telah digunakan."
+
+#: ../src/xfmedia-keybindings.c:667
+msgid ""
+"The key sequence you selected is already in use by another function.  Please "
+"set the other function to something else."
+msgstr ""
+"Kunci yang anda pilih telah digunakan oleh fungsi lain.  Silakan atur fungsi lain "
+"ke kunci yang lain."
+
+#: ../src/xfmedia-keybindings.c:680 ../src/xfmedia-keybindings.c:693
+msgid "Keybindings Save Error"
+msgstr "Galat Simpan Kunci Ikat"
+
+#: ../src/xfmedia-keybindings.c:682 ../src/xfmedia-keybindings.c:695
+msgid "The keybindings file failed to save."
+msgstr "Berkas kunci ikat gagal disimpan."
+
+#: ../src/xfmedia-keybindings.c:691
+msgid "None"
+msgstr "Tak Ada"
+
+#: ../src/xfmedia-keybindings.c:808
+msgid "Function"
+msgstr "Fungsi"
+
+#: ../src/xfmedia-keybindings.c:813
+msgid "Keys"
+msgstr "Kunci"
+
+#: ../src/xfmedia-remote.c:103
+#, c-format
+msgid ""
+"Usage: %s [options]\n"
+"\n"
+msgstr ""
+"Penggunaan: %s [opsi]\n"
+"\n"
+
+#: ../src/xfmedia-remote.c:106
+msgid ""
+"    --session=N          Specify the number of the already-running instance "
+"of\n"
+"                         Xfmedia.  (Defaults to 0, or the first instance "
+"found.)\n"
+msgstr ""
+"    --session=N          Tentukan nomor instansi yang telah berjalan"
+"dari\n"
+"                         Xfmedia.  (Standar adalah 0, atau instansi pertama yang "
+"ditemukan.)\n"
+
+#: ../src/xfmedia-remote.c:108
+msgid ""
+"    --ping               Checks to see if an instance of Xfmedia is "
+"running.\n"
+msgstr ""
+"    --ping               Cek untuk melihat jika ada instansi Xfmedia yang"
+"berjalan.\n"
+
+#: ../src/xfmedia-remote.c:109
+msgid ""
+"    -p, --play[=N]       Causes Xfmedia to play the file at playlist idx N.\n"
+"                         If N is not specified, Xfmedia will play the "
+"currently-\n"
+"                         selected entry, or, if no item is selected, the "
+"first\n"
+"                         entry.  If used in conjunction with --playlist-"
+"add,\n"
+"                         will cause Xfmedia to play the newly-added entry.\n"
+msgstr ""
+"    -p, --play[=N]       Menyebabkan Xfmedia untuk memutar indeks berkas N di senarai putar.\n"
+"                         Jika N tak ditentukan, Xfmedia akan memutar "
+"entri\n"
+"                         yang saat ini terpilih, atau, jika tak ada item terpilih, "
+"entri\n"
+"                         pertama.  Jika digunakan secara bersamaan dengan --playlist-"
+"add,\n"
+"                         akan menyebabkan Xfmedia memutar entri yang baru ditambah.\n"
+
+#: ../src/xfmedia-remote.c:114
+msgid ""
+"    --toggle             Causes Xfmedia to pause if playing, or play if "
+"paused\n"
+"                         or stopped.\n"
+msgstr ""
+"    --toggle             Menyebabkan Xfmedia untuk jeda jika sedang memutar, atau memutar jika"
+"jeda\n"
+"                         atau berhenti.\n"
+
+#: ../src/xfmedia-remote.c:116
+msgid "    --pause              Causes Xfmedia to pause/unpause.\n"
+msgstr "    --pause              Menyebabkan Xfmedia untuk jeda/tak jeda.\n"
+
+#: ../src/xfmedia-remote.c:117
+msgid "    --stop               Causes Xfmedia to stop playback.\n"
+msgstr "    --stop               Menyebabkan Xfmedia untuk berhenti putar ulang.\n"
+
+#: ../src/xfmedia-remote.c:118
+msgid ""
+"    --previous           Causes Xfmedia to play the entry played before the\n"
+"                         currently-selected (or -playing) entry.\n"
+msgstr ""
+"    --previous           Menyebabkan Xfmedia untuk memutar entri yang diputar\n"
+"                         sebelum entri yang saat ini terpilih (atau putar).\n"
+
+#: ../src/xfmedia-remote.c:120
+msgid ""
+"    --next               Causes Xfmedia to play the next entry in the "
+"playlist.\n"
+"                         If Xfmedia is in shuffle mode, a new entry will be\n"
+"                         selected randomly.\n"
+msgstr ""
+"    --next               Menyebabkan Xfmedia untuk memutar entri berikutnya di"
+"senarai putar.\n"
+"                         Jika Xfmedia dalam mode acak, entri baru akan dipilih\n"
+"                         secara acak.\n"
+
+#: ../src/xfmedia-remote.c:123
+msgid ""
+"    -a, --playlist-add=FILE\n"
+"                         Adds FILE to the end of the playlist.\n"
+msgstr ""
+"    -a, --playlist-add=BERKAS\n"
+"                         Tambah BERKAS ke akhir senarai putar.\n"
+
+#: ../src/xfmedia-remote.c:125
+msgid ""
+"    -r, --playlist-remove=N\n"
+"                         Removes the specified playlist entry from the "
+"playlist.\n"
+msgstr ""
+"    -r, --playlist-remove=N\n"
+"                         Hapus entri senarai putar yang ditentukan dari"
+"senarai putar.\n"
+
+#: ../src/xfmedia-remote.c:127
+msgid ""
+"    -c, --playlist-clear\n"
+"                         Removes all entries from the playlist.\n"
+msgstr ""
+"    -c, --playlist-clear\n"
+"                         Hapus semua entri dari senarai putar.\n"
+
+#: ../src/xfmedia-remote.c:129
+msgid ""
+"    -l, --playlist-load=FILE\n"
+"                         Loads the specified playlist.  Note that this does "
+"NOT\n"
+"                         first clear the playlist.\n"
+msgstr ""
+"    -l, --playlist-load=BERKAS\n"
+"                         Muat senarai putar yang ditentukan. Perlu dicatat bahwa ini "
+"TIDAK\n"
+"                         membersihkan senarai putar terlebih dahulu.\n"
+
+#: ../src/xfmedia-remote.c:132
+msgid ""
+"    -s, --playlist-save=FILE\n"
+"                         Saves the current playlist to the specified FILE.\n"
+msgstr ""
+"    -s, --playlist-save=BERKAS\n"
+"                         Simpan senarai putar saat ini ke BERKAS yang ditentukan.\n"
+
+#: ../src/xfmedia-remote.c:134
+msgid "    -Q, --quit           Instructs Xfmedia to quit.\n"
+msgstr "    -Q, --quit           Perintahkan Xfmedia untuk keluar.\n"
+
+#: ../src/xfmedia-remote.c:135
+msgid ""
+"    -j, --jump-to-file   Causes Xfmedia to show the main window (if not "
+"visible)\n"
+"                         and show the jump-to-file entry box.\n"
+msgstr ""
+"    -j, --jump-to-file   Menyebabkan Xfmedia untuk menampilkan jendela utama (jika tak "
+"tampak)\n"
+"                         dan menampilkan kotak entri lompat ke berkas.\n"
+
+#: ../src/xfmedia-remote.c:180
+msgid "Argument to --session must be greater than or equal to 0.\n"
+msgstr "Argumen untuk --session harus lebih besar atau sama dengan 0.\n"
+
+#: ../src/xfmedia-remote.c:195
+msgid "Argument to --play must be greater than or equal to 0.\n"
+msgstr "Argumen untuk --play harus lebih besar atau sama dengan 0.\n"
+
+#: ../src/xfmedia-remote.c:239
+msgid "Argument to --playlist-remove must be greater than or equal to 0.\n"
+msgstr "Argumen untuk --playlist-remove harus lebih besar atau sama dengan 0.\n"
+
+#: ../src/xfmedia-remote.c:276
+#, c-format
+msgid "Unrecognized option: %s\n"
+msgstr "Opsi tak dikenal: %s\n"
+
+#: ../src/xfmedia-remote.c:289
+msgid ""
+"Unable to initialize the Xfmedia remote client service.  The most likely "
+"cause is that a DBUS session bus is not running"
+msgstr ""
+"Tak dapat menginisialisasi layanan klien jarak jauh Xfmedia.  Kemungkinan "
+"penyebab utamanya adalah bus sesi DBUS yang tak berjalan"
+
+#: ../src/xfmedia-remote.c:301
+msgid "Unable to find a running Xfmedia instance."
+msgstr "Tak dapat menemukan instansi Xfmedia yang berjalan."
+
+#: ../src/xfmedia-video-window.c:188
+msgid "Xfmedia Video"
+msgstr "Video Xfmedia"
+
+#: ../xfmedia/getopt.c:686
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: opsi `%s' ambigu\n"
+
+#: ../xfmedia/getopt.c:711
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: opsi `--%s' tak mengizinkan adanya argumen\n"
+
+#: ../xfmedia/getopt.c:716
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: opsi `%c%s' tak mengizinkan adanya argumen\n"
+
+#: ../xfmedia/getopt.c:734 ../xfmedia/getopt.c:907
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: opsi `%s' memerlukan argumen\n"
+
+#. --option
+#: ../xfmedia/getopt.c:763
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: opsi `--%s' tak dikenal\n"
+
+#. +option or -option
+#: ../xfmedia/getopt.c:767
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: opsi `%c%s' tak dikenal\n"
+
+#. 1003.2 specifies the format of this message.
+#: ../xfmedia/getopt.c:793
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: opsi -- %c ilegal\n"
+
+#: ../xfmedia/getopt.c:796
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: opsi -- %c tidak sah\n"
+
+#. 1003.2 specifies the format of this message.
+#: ../xfmedia/getopt.c:826 ../xfmedia/getopt.c:956
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: opsi membutuhkan argumen -- %c\n"
+
+#: ../xfmedia/getopt.c:873
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: opsi ` -W %s' ambigu\n"
+
+#: ../xfmedia/getopt.c:891
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: opsi `-W %s' tak mengizinkan adanya argumen\n"
+
+#: ../xfmedia/remote-client.c:607 ../xfmedia/remote-client.c:614
+#: ../xfmedia/remote-client.c:621
+msgid ""
+"Xfmedia was not compiled with D-BUS support.  Remote control interface is "
+"not available."
+msgstr ""
+"Xfmedia tak dikompilasi dengan dukungan D-BUS.  Antar muka kendali jarak "
+"jauh tak tersedia."
+
+#: ../xfmedia.desktop.in.h:1
+msgid "Enqueue and play with Xfmedia"
+msgstr "Antre dan putar dengan Xfmedia"
+
+#: ../xfmedia.desktop.in.h:2
+msgid "Enqueue in Xfmedia"
+msgstr "Antre di Xfmedia"
+
+#: ../xfmedia.desktop.in.h:3
+msgid "Lightweight Media Player"
+msgstr "Penggelar Media Kelas Ringan"
+
+#: ../xfmedia.desktop.in.h:4
+msgid "Xfmedia"
+msgstr "Xfmedia"
+

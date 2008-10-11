@@ -1,0 +1,98 @@
+# xfce4-systemload for the XFce desktop environment.
+# Copyright (C) 2003 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfce4-systemload package.
+# Carles Muñoz Gorriz <carlesmu@internautas.org>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: XFce 4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-17 11:09+0100\n"
+"PO-Revision-Date: 2006-09-20 13:39+0200\n"
+"Last-Translator: Carles Mu-oz Gorriz <carlesmu@internautas.org>\n"
+"Language-Team: ca <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../panel-plugin/cpu.c:58
+msgid "File /proc/stat not found!"
+msgstr "No s'ha trobat el fitxer «/proc/stat»"
+
+#: ../panel-plugin/systemload.c:159
+#, c-format
+msgid "System Load: %ld%%"
+msgstr "Càrrega del sistema: %ld%%"
+
+#: ../panel-plugin/systemload.c:167
+#, c-format
+msgid "Memory: %ldMB of %ldMB used"
+msgstr "Memòria: %ldMB de %ldMB fets servir"
+
+#: ../panel-plugin/systemload.c:176
+#, c-format
+msgid "Swap: %ldMB of %ldMB used"
+msgstr "Memòria d’intercanvi: %ldMB de %ldMB fets servir"
+
+#: ../panel-plugin/systemload.c:179
+msgid "No swap"
+msgstr "Sense memòria d'intercanvi"
+
+#: ../panel-plugin/systemload.c:190
+#, c-format
+msgid "%d days"
+msgstr "%d dies"
+
+#: ../panel-plugin/systemload.c:197
+msgid "Uptime:"
+msgstr "Temps en fucionament"
+
+#: ../panel-plugin/systemload.c:683
+msgid "Select color"
+msgstr "Seleccioneu el color"
+
+#: ../panel-plugin/systemload.c:747
+msgid "CPU monitor"
+msgstr "Monitor de CPU"
+
+#: ../panel-plugin/systemload.c:748
+msgid "Memory monitor"
+msgstr "Monitor de memòria"
+
+#: ../panel-plugin/systemload.c:749
+msgid "Swap monitor"
+msgstr "Monitor de la memòria d'intercanvi"
+
+#: ../panel-plugin/systemload.c:750
+msgid "Uptime monitor"
+msgstr "Monitor de temps en funcionament"
+
+#: ../panel-plugin/systemload.c:755
+#: ../panel-plugin/systemload.desktop.in.in.h:2
+msgid "System Load Monitor"
+msgstr "Càrrega del sistema"
+
+#: ../panel-plugin/systemload.c:782 ../panel-plugin/systemload.c:863
+msgid "Show monitor"
+msgstr "Mostra el monitor"
+
+#: ../panel-plugin/systemload.c:792
+msgid "Text to display:"
+msgstr "Text a mostrar:"
+
+#: ../panel-plugin/systemload.c:824
+msgid "Bar color:"
+msgstr "Color de la barra:"
+
+#: ../panel-plugin/uptime.c:52
+msgid "File /proc/uptime not found!"
+msgstr "No s'ha trobat el fitxer «/proc/uptime»"
+
+#: ../panel-plugin/systemload.desktop.in.in.h:1
+msgid "Monitor CPU load, swap usage and memory footprint"
+msgstr ""
+"Monitoritza la càrrega de CPU, l’ús de la memòria d’intercanvi i la emprenta "
+"de memòria"
+
+#~ msgid "Properties"
+#~ msgstr "Propietats"

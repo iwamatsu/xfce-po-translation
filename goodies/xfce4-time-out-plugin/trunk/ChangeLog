@@ -1,0 +1,135 @@
+2007-07-16	Jannis Pohlmann <jannis@xfce.org>
+
+	* panel-plugin/time-out-countdown.{c,h}: Fix LGPL header. Must
+	  have missed these files last time.
+
+2007-07-08	Jannis Pohlmann <jannis@xfce.org>
+
+	* panel-plugin/time-out.c: Change the way labels and spin 
+	  buttons are attached to the properties dialog table. This
+	  fixes bug #3310.
+
+2007-07-08	Jannis Pohlmann <jannis@xfce.org>
+
+	* configure.in.in: Post-release version bump.
+
+2007-07-08	Jannis Pohlmann <jannis@xfce.org>
+
+	* === Released 0.1.1 ===
+	* NEWS, configure.in.in: Bump version. Update news.
+	* po/*.po: Update Project-Id-Version.
+
+2007-07-08	Jannis Pohlmann <jannis@xfce.org>
+
+	* panel-plugin/time-out-countdown.c: Properly display remaining
+	  minutes when seconds are not displayed. Fixes bug #3221.
+
+2007-07-08	Jannis Pohlmann <jannis@xfce.org>
+
+	* panel-plugin/*.{c,h}: Fix license headers. The source is 
+	  under GPL, not LGPL. Fixes bug #3366.
+
+2007-07-06	Nick Schermer <nick@xfce.org>
+
+	* panel-plugin/Makefile.am: Change LDFLAGS to LDADD to fix
+	  compilation with as-needed.
+
+2007-05-29	Jannis Pohlmann <jannis@xfce.org>
+
+	* panel-plugin/time-out.c: Save settings when the 'Enabled'
+	  checkbox in the panel menu has been toggled.
+
+2007-05-06	Jannis Pohlmann <jannis@xfce.org>
+
+	* panel-plugin/time-out.c: Fix XfceRc being opened read-only
+	  in time_out_save_settings() as reported by Nick. Don't 
+	  restart the timer after closing the config dialog when
+	  the plugin is not active.
+
+2007-05-06	Jannis Pohlmann <jannis@xfce.org>
+
+	* panel-plugin/time-out-countdown.c: Make seconds to string
+	  conversion even better. Introduce new strings. Maybe I should
+	  switch to using ngettext ...
+	* panel-plugin/time-out.c, 
+	  panel-plugin/time-out-lock-screen.{c,h}: Make it possible to
+	  hide hours, seconds in the lock screen.
+	* 
+2007-05-06	Jannis Pohlmann <jannis@xfce.org>
+
+	* configure.in.in: Check for --as-needed support for the 
+	  linker.
+	* panel-plugin/time-out.c: Only restart the break countdown
+	  timer when the break countdown seconds have changed. 
+
+2007-05-06	Jannis Pohlmann <jannis@xfce.org>
+
+	* configure.in.in: Post-release version bump.
+
+2007-05-06	Jannis Pohlmann <jannis@xfce.org>
+
+	* === Released 0.1.0 ===
+	* NEWS, configure.in.in: Bump version.
+	* po/*.po: Update Project-Id-Version.
+
+2007-05-06	Jannis Pohlmann <jannis@xfce.org>
+
+	* panel-plugin/time-out-countdown.{c,h}: Enhance seconds to 
+	  string conversion. It's now able to not include hours.
+	* panel-plugin/time-out.c: Add options to show/hide hours and
+	  the time in general. Tooltip added to the event box. Small
+	  icon is now visible in the panel. Time can be hidden now.
+	  Properly handle size and orientation changes.
+	* panel-plugin/time-out-lock-screen.c: Update to new seconds
+	  to string conversion.
+
+2007-05-06	Jannis Pohlmann <jannis@xfce.org>
+
+	* panel-plugin/time-out-lock-screen.c: Remove invalid cast from
+	  GtkButton to GtkMisc.
+
+2007-05-06	Jannis Pohlmann <jannis@xfce.org>
+
+	* panel-plugin/Makefile.am: Update Makefile to fix make 
+	  distcheck.
+	* panel-plugin/time-out.h: Fix copyright year.
+
+2007-05-06	Jannis Pohlmann <jannis@xfce.org>
+
+	* panel-plugin/time-out-lock-screen.c: Remove debug statement
+	  and add a new translatable string.
+
+2007-05-06	Jannis Pohlmann <jannis@xfce.org>
+
+	* Initial import of a complete rewrite of the plugin. This one
+	  is much cleaner and more reliable (no timer race conditions
+	  anymore).
+
+2007-02-18	Jannis Pohlmann <jannis@xfce.org>
+
+	* README: Prevent geeks all over the world from trying to drink
+	  cigarettes. This is not good for you! Neither is smoking them,
+	  anyway ...
+
+2007-02-18	Jannis Pohlmann <jannis@xfce.org>
+
+	* icons/48x48/xfce4-time-out-plugin.png, 
+	  icons/scalable/xfce4-time-out-plugin.svg: Replace dummy icon 
+	  with a modified version of the Tango "appointment-new" icon.
+	* TODO: Add tasks to be done before the first release.
+
+2007-02-18	Jannis Pohlmann <jannis@xfce.org>
+
+	* panel-plugin/time-out-dialogs.c,
+	  panel-plugin/xfce4-time-out-plugin.desktop: Update strings.
+
+2007-02-18	Jannis Pohlmann <jannis@xfce.org>
+
+	* icons/scalable/xfce4-time-out-plugin.svg: Add missing dummy 
+	  icon from the sample plugin.
+	* panel-plugin/xfce4-time-out-plugin.desktop.in.in: Add missing 
+	  desktop entry template.
+
+2007-02-18	Jannis Pohlmann <jannis@xfce.org>
+
+	* Initial import.

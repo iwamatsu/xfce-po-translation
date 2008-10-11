@@ -1,0 +1,502 @@
+# Korean translations for xfprint package.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfprint package.
+# ByungHyun Choi <byunghyun.choi@gmail.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-14 15:26+0200\n"
+"PO-Revision-Date: 2006-10-09 20:38+0900\n"
+"Last-Translator: ByungHyun Choi <byunghyun.choi@gmail.com>\n"
+"Language-Team: xfce4-users-kr-i18n <xfce4-users-kr-i18n@lists.sourceforge."
+"net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "프린터"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "종료"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "xfprint 관리자종료"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "xfprint에 대하여..."
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "xfprint4 관리자에 대하여..."
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "xfprint4 관리자에 대한 정보 표시"
+
+#: ../libxfprint/printer-list-window.c:140
+msgid "Printer manager"
+msgstr "프린터 관리자"
+
+#: ../libxfprint/printer-list-window.c:206
+msgid "Alias name"
+msgstr "별명"
+
+#: ../libxfprint/printer-list-window.c:210
+#: ../libxfprint/printer-queue-window.c:217
+msgid "State"
+msgstr "상태"
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Xfprint printers manager"
+msgstr "Xfprint 프린터 관리자"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:269
+msgid "Former maintainer"
+msgstr "이전 관리자"
+
+#: ../libxfprint/printer-list-window.c:270
+msgid "Maintainer"
+msgstr "관리자"
+
+#: ../libxfprint/printer-list-window.c:271
+msgid "Artist"
+msgstr "예술하신분"
+
+#: ../libxfprint/printer-list-window.c:334
+msgid "Unknown"
+msgstr "모름"
+
+#: ../libxfprint/printer-list-window.c:337
+msgid "Idle"
+msgstr "놀고 있습니다."
+
+#: ../libxfprint/printer-list-window.c:340
+msgid "Processing"
+msgstr "작업 중입니다."
+
+#: ../libxfprint/printer-list-window.c:343
+msgid "Stopped"
+msgstr "중지됨"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "닫기"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "큐 창 닫기"
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr "작업"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:385
+#: ../libxfprint/printer-queue-window.c:389
+msgid "Remove job"
+msgstr "작업 삭제"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "선택한 작업을 대기열에서 삭제합니다."
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "다시 읽기"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "대기열 다시 읽기"
+
+#: ../libxfprint/printer-queue-window.c:122
+#: ../libxfprint/printer-queue-window.c:538
+msgid "Queue Manager"
+msgstr "대기열 관리자"
+
+#: ../libxfprint/printer-queue-window.c:207
+msgid "Name"
+msgstr "이름"
+
+#: ../libxfprint/printer-queue-window.c:211
+msgid "ID"
+msgstr "아이디"
+
+#: ../libxfprint/printer-queue-window.c:214
+msgid "User"
+msgstr "사용자"
+
+#: ../libxfprint/printer-queue-window.c:220
+msgid "Size"
+msgstr "크기"
+
+#: ../libxfprint/printer-queue-window.c:223
+msgid "Priority"
+msgstr "우선 순위"
+
+#: ../libxfprint/printer-queue-window.c:226
+msgid "Creation time"
+msgstr "생성 시간"
+
+#: ../libxfprint/printer-queue-window.c:229
+msgid "Processing time"
+msgstr "작업 시간"
+
+#: ../libxfprint/printer-queue-window.c:382
+msgid "Are you sure you want to remove the job "
+msgstr "출력 작업을 삭제하시렵니까? "
+
+#: ../libxfprint/printer-queue-window.c:388
+msgid "Don't remove job"
+msgstr "삭제하지 않음"
+
+#: ../libxfprint/printer-queue-window.c:395
+msgid "An error occurred while removing job !"
+msgstr "출력 작업을 삭제하던 중 오류 발생 !"
+
+#: ../libxfprint/printer-queue-window.c:446
+msgid "pending"
+msgstr "대기 중입니다."
+
+#: ../libxfprint/printer-queue-window.c:449
+msgid "printing"
+msgstr "출력하고 있습니다."
+
+#: ../libxfprint/printer-queue-window.c:452
+msgid "Kb"
+msgstr "Kb"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "출력 시스템"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "출력 시스템 선택"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "정보"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "설명"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "버전"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "만든 이"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "홈페이지"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "없음"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr "화일을 출력할 때 xfprint를 사용"
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "BSD-LPR 프린팅 시스템"
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr "CUPS 프린팅 시스템"
+
+#: ../printing-systems/cups/cups.c:48
+msgid "Set as default printer"
+msgstr "기본 프린터로 설정할 수 없습니다."
+
+#: ../printing-systems/cups/cups.c:49
+msgid "Set as default CUPS printer"
+msgstr "기본 CPUS 프린터로 설정"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "속성"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "프린터 속성 보이기"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "비밀번호"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "사용자 :"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "비밀번호 :"
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr "사용자 이름을 대십시오!"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "머리글 출력"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "머리글:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "Underlay:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "가운데 제목:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "왼쪽 제목:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "오른쪽 제목:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "가운데 꼬리말:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "왼쪽 꼬리말:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "오른쪽 꼬리말"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "인코딩:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "모든 쪽 출력"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "일부 출력"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "긴 줄 자르기"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "TAB, BS 및 FF 변환"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "이진 출력(강제)"
+
+#: ../xfprint/main.c:116
+msgid "Select file to print"
+msgstr "출력할 화일을 선택하십시오."
+
+#: ../xfprint/main.c:128
+msgid "The specified file does not exist"
+msgstr "지정한 화일이 없습니다."
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "언어:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "강조 수준:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "Strip leve:"
+
+#: ../xfprint/print_dialog.c:204
+msgid "Save settings"
+msgstr "설정 저장"
+
+#: ../xfprint/print_dialog.c:212
+msgid "Xfprint"
+msgstr "Xf프린트."
+
+#: ../xfprint/print_dialog.c:220
+msgid "Print to:"
+msgstr "출력 대상:"
+
+#: ../xfprint/print_dialog.c:250
+msgid "Print to file:"
+msgstr "화일로 출력:"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Sheets"
+msgstr "용지"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Virtual pages"
+msgstr "가상 페이지"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Pretty-printing"
+msgstr "출력물 꾸미기"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Input"
+msgstr "입력"
+
+#: ../xfprint/print_dialog.c:300
+msgid "Headings"
+msgstr "머리말"
+
+#: ../xfprint/print_dialog.c:309
+msgid "Copies:"
+msgstr "출력 매수:"
+
+#: ../xfprint/print_dialog.c:316
+msgid "Apply filters"
+msgstr "필터 적용"
+
+#: ../xfprint/print_dialog.c:371
+msgid ""
+"Neither the printing system backend or a2ps could be found on your system, "
+"you won't be able to print a file with xfprint !"
+msgstr ""
+"현재 시스템에서 a2ps나 출력관련 시스템을 찾지 못했기 때문에, xfprint로 화일"
+"을 출력할 수 없습니다."
+
+#: ../xfprint/print_dialog.c:486
+msgid "An error occurred while trying to print the file"
+msgstr "화일을 출력하던 중 오류 발생 !"
+
+#: ../xfprint/print_dialog.c:523
+msgid "Select file where to print"
+msgstr "출력할 화일을 선택하십시오."
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "용지 크기:"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "세로"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "가로"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "열:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "열부터 채우기"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "행부터 채우기"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "행"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "열 마다 테두리 출력"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "역순으로 출력"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "행 번호:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "페이지 당 행의 수"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "행 당 문자수:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "가상 페이지 크기:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "출력 불가능한 양식:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr "xfprint에서 사용할 출력시스템을 선택할 수 있도록 함"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+msgid "Printing System Settings"
+msgstr "출력 시스템 설정"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+msgid "Xfce 4 Printing System Settings"
+msgstr "xfce 4 출력 시스템 설정"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+msgid "Print Manager"
+msgstr "출력 관리자"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr "프린터 목록을 보여주고 각 출력작업을 조정"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+msgid "Xfce 4 Print Manager"
+msgstr "Xfce 4 출력 관리자"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "출력 대화상자"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr "화일을 출력하고 출력모양을 설정할 수 있게 함"
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "Xfce 4 출력 대화상자"

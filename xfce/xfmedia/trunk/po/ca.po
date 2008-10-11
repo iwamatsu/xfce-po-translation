@@ -1,0 +1,1661 @@
+# translation of ca.po to Catalan
+# Catalan translation for xfmedia package
+# Copyright (C) 2004-2006 Brian J. Tarricone.
+# This file is distributed under the same license as the xfmedia package
+# Pau Rul·lan Ferragut <paurullan@bulma.net>, 2006.
+# Carles Muñoz Gorriz <carlesmu@internautas.org>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfmedia 0.10.0svn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-06-16 22:22+0900\n"
+"PO-Revision-Date: 2007-04-05 15:10+0200\n"
+"Last-Translator: Carles Muñoz Gorriz <carlesmu@internautas.org>\n"
+"Language-Team: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: KBabel 1.11.2\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:102
+#, c-format
+msgid "Status:                  %s\n"
+msgstr "Estat:                   %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:106
+#, c-format
+msgid "Now Playing:             %s\n"
+msgstr "S'està reproduint:       %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:111
+#, c-format
+msgid "Filename:                %s\n"
+msgstr "Nom del fitxer:          %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:112
+#: ../plugins/infopipe/xfmedia-infopipe.c:127
+#: ../plugins/infopipe/xfmedia-infopipe.c:138
+msgid "(none)"
+msgstr "(cap)"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:115
+#, c-format
+msgid "Track Position:          %d\n"
+msgstr "Posició de la pista:     %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:119
+#, c-format
+msgid "Track Length:            %d\n"
+msgstr "Durada de la pista:      %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:126
+#, c-format
+msgid ""
+"Audio Codec:             %s\n"
+"Audio Bitrate:           %d\n"
+"Audio Sample Rate:       %d\n"
+"Audio Channels:          %d\n"
+"Audio Bits Per Sample:   %d\n"
+msgstr ""
+"Còdec d'àudio:           %s\n"
+"Rati de bits d'àudio:    %d\n"
+"Rati de mostra d'àudio:  %d\n"
+"Canals d'àudio:          %d\n"
+"Bits per mostra d'àudio: %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:137
+#, c-format
+msgid ""
+"Video Codec:            %s\n"
+"Video Bitrate:          %d\n"
+"Video Frames Per Second: %.02f\n"
+"Video Frame Size:        %dx%d\n"
+"Video Aspect Ratio:      %.02f\n"
+msgstr ""
+"Còdec de vídeo:        %s\n"
+"Rati de bits de vídeo: %d\n"
+"Fotogrames per segon:   %.02f\n"
+"Mida dels fotogrames:   %dx%d\n"
+"Proporció d'aspecte:    %.02f\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:144
+#, c-format
+msgid "Playlist Length:         %d\n"
+msgstr "Durada de la llista:     %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:148
+#, c-format
+msgid "Current Playlist Index:  %d\n"
+msgstr "Índex de la llista:      %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:234
+#, c-format
+msgid "Xfmedia-Infopipe: Unable to delete file '%s'."
+msgstr "Xfmedia-Infopipe: No es pot borrar el fitxer «%s»."
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:245
+#, c-format
+msgid "Xfmedia-Infopipe: Unable to create pipe '%s'."
+msgstr "Xfmedia-Infopipe: No es pot crear el conducte «%s»."
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:262
+msgid "Xfmedia Infopipe"
+msgstr "Xfmedia Infopipe"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:264
+msgid ""
+"The Infopipe plugin creates a pipe in /tmp that you can use to retrieve "
+"information about the currently playing track."
+msgstr ""
+"El connector Infopipe crea un conducte a /tmp que es pot fer servir per "
+"obtenir informació sobre la pista en execució."
+
+#: ../src/equaliser.c:132
+msgid "Equalizer"
+msgstr "Equalitzador"
+
+#: ../src/equaliser.c:175
+msgid "Preamp"
+msgstr "Preamp"
+
+#: ../src/http.c:95
+#, c-format
+msgid "http: failed to open socket: %s\n"
+msgstr "http: No s'ha pogut obrir el socket: %s\n"
+
+#: ../src/http.c:105
+#, c-format
+msgid "http: cannot connect to host\n"
+msgstr "http: No es pot connectar a la màquina\n"
+
+#: ../src/http.c:121
+#, c-format
+msgid "http: unable to resolve '%s'\n"
+msgstr "http: Impossible resoldre «%s»\n"
+
+#: ../src/http.c:133
+#, c-format
+msgid "http: unable to connect to '%s'\n"
+msgstr "http: Impossible connectar-se a «%s»\n"
+
+#: ../src/http.c:311 ../src/http.c:330
+msgid "URL parse error"
+msgstr "Error al analitzar l'URL"
+
+#: ../src/http.c:322 ../src/http.c:340
+msgid "proxy authentication error"
+msgstr "Error d'autenticació al servidor intermediari"
+
+#: ../src/http.c:360
+msgid "host connect error"
+msgstr "Error al connectar-se a la màquina"
+
+#: ../src/http.c:399
+msgid "couldn't send request"
+msgstr "No s'ha pogut enviar la petició"
+
+#: ../src/http.c:420
+msgid "read error"
+msgstr "error de lectura"
+
+#: ../src/http.c:446
+msgid "invalid HTTP response"
+msgstr "La resposta HTTP no és vàlida"
+
+#: ../src/http.c:454
+msgid "HTTP 3xx redirection not implemented"
+msgstr "La redirecció HTTP 3xx no està impementada"
+
+#: ../src/http.c:461
+msgid "HTTP status is not 2xx"
+msgstr "L'estat de l'HTTP no és 2xx"
+
+#: ../src/http.c:480
+msgid "HTTP 'Location:' redirection not implemented"
+msgstr "HTTP «Ubicació:» Redireccionament no implementat"
+
+#. FIXME: report errno, and possibly in a window
+#: ../src/http.c:534
+#, c-format
+msgid "http: read error\n"
+msgstr "http: error de lectura\n"
+
+#: ../src/main.c:227 ../src/xfmedia-remote.c:102
+#, c-format
+msgid ""
+"Xfmedia %s.  Released under the terms of the GNU GPL.  See the COPYING\n"
+"file for details.\n"
+"\n"
+msgstr ""
+"Xfmedia %s. Distribuït sota els termes de la GNU GPL. Veieu el fitxer "
+"COPYING\n"
+"pels detalls.\n"
+"\n"
+
+#: ../src/main.c:228
+#, c-format
+msgid ""
+"Usage: %s [options] [files]\n"
+"\n"
+msgstr ""
+"Forma d'ús: %s [opcions] [fitxers]\n"
+"\n"
+
+#: ../src/main.c:229 ../src/xfmedia-remote.c:104
+msgid "    -h, --help           Print this help message and exit.\n"
+msgstr "    -h, --help           Mostra aquest missatge d'ajuda i surt.\n"
+
+#: ../src/main.c:230 ../src/xfmedia-remote.c:105
+msgid "    -V, --version        Print version information and exit.\n"
+msgstr "    -V, --version        Mostra informació de la versió i surt.\n"
+
+#: ../src/main.c:231
+msgid ""
+"    -v, --verbose        Instruct xine to print useful status information.\n"
+msgstr ""
+"    -v, --verbose        Fes que el xine mostri informació útil de l'estat.\n"
+
+#: ../src/main.c:232
+msgid ""
+"    --debug              Instruct xine to print detailed debug information.\n"
+msgstr ""
+"    --debug              Fes que el xine mostri informació de depuració\n"
+"                         detallada.\n"
+
+#: ../src/main.c:233
+msgid ""
+"    -f, --fullscreen     Start xfmedia's video window in fullscreen mode.\n"
+msgstr ""
+"    -f, --fullscreen     Inicia la finestra de vídeo d'xfmedia a pantalla\n"
+"                         sencera.\n"
+
+#: ../src/main.c:234
+msgid ""
+"    -p, --autoplay       Start playing when Xfmedia starts.  (This is the\n"
+"                         default if xfmedia is given filenames on the "
+"command\n"
+"                         line.)\n"
+msgstr ""
+"    -p, --autoplay       Comença a reproduir al iniciar xfmedia. (Això és "
+"el\n"
+"                         comportament per defecte d'xfmedia quan hi han "
+"noms\n"
+"                         de fitxer a la línia d'ordres).\n"
+
+#: ../src/main.c:237
+msgid "    -c, --clear-playlist Start xfmedia with an empty playlist.\n"
+msgstr ""
+"    -c, --clear-playlist Inicia xfmedia amb una llista de reproducció "
+"buida.\n"
+
+#: ../src/main.c:238
+msgid "    --audio-out=DRIVER   Specify the audio output driver to use.\n"
+msgstr ""
+"    --audio-out=DISPOSITIU\n"
+"                        Especifiqueu el dispositiu de sortida d'àudio.\n"
+
+#: ../src/main.c:239
+msgid "    --video-out=DRIVER   Specify the video output driver to use.\n"
+msgstr ""
+"    --video-out=DISPOSITIU\n"
+"                        Especifiqueu el dispositiu de sortida de vídeo.\n"
+
+#: ../src/main.c:240
+msgid ""
+"    --vwin-geometry=WxH[+X+Y]\n"
+"                         Specify a fixed size and/or position for xfmedia's\n"
+"                         video window.\n"
+msgstr ""
+"    --vwin-geometry=WxH[+X+Y]\n"
+"                         Especifiqueu una mida fixe i/o una posició per la\n"
+"                         finestra de vídeo d'xfmedia.\n"
+
+#: ../src/main.c:315 ../src/xfmedia-remote.c:167
+#, c-format
+msgid ""
+"Xfmedia version %s, Copyright (c) Brian Tarricone, <bjt23@cornell.edu>\n"
+msgstr "xfmedia versió %s, (c) Brian Tarricote, <bjt23@cornell.edu>\n"
+
+#: ../src/main.c:316 ../src/xfmedia-remote.c:168
+msgid "Released under the terms of the GNU General Public License.\n"
+msgstr "Distribuït sota la llicència «GNU General Public License».\n"
+
+#: ../src/main.c:317
+#, c-format
+msgid "Compiled against xine-lib %s, using xine-lib %s.\n"
+msgstr "Compilat amb xine-lib %s, emprant xine-lib %s.\n"
+
+#: ../src/main.c:319
+#, c-format
+msgid "Compiled against Xfce %d.%d.%d, using Xfce %s.\n"
+msgstr "Compilat amb Xfce %d.%d.%d, emprant Xfce %s.\n"
+
+#: ../src/main.c:354
+msgid "The option --audio-out requires an argument.\n"
+msgstr "A l'opció «--audio-out» li cal un argument.\n"
+
+#: ../src/main.c:363
+msgid "The option --video-out requires an argument.\n"
+msgstr "A l'opció «--video-out» li cal un argument.\n"
+
+#: ../src/mainwin-callbacks.c:130
+msgid "Unable to play file."
+msgstr "No es por reproduir el fitxer."
+
+#: ../src/mainwin-callbacks.c:131
+msgid ""
+"Xfmedia was unable to play the selected file.  Be sure that the file exists "
+"and that you have permission to access it."
+msgstr ""
+"L'xfmedia no ha pogut reproduir el fitxer seleccionat. Comproveu que "
+"existeixi i que tingueu permisos d'accés."
+
+#: ../src/mainwin-callbacks.c:222
+msgid "Metadata Changed"
+msgstr "La metadata ha canviar"
+
+#: ../src/mainwin-callbacks.c:224
+msgid "You have edited this file's metadata."
+msgstr "Heu editat la metadata del fitxer."
+
+#: ../src/mainwin-callbacks.c:225
+msgid ""
+"Changes will be lost unless they are saved.  Do you wish to save changes?"
+msgstr "Els canvis es perdran a no ser que es desin. Voleu desar els canvis?"
+
+#: ../src/mainwin-callbacks.c:226
+msgid "_Discard Changes"
+msgstr "_Descarta els canvis"
+
+#: ../src/mainwin-callbacks.c:227
+msgid "_Save Changes"
+msgstr "De_sa els canvis"
+
+#: ../src/mainwin-callbacks.c:285
+#, c-format
+msgid ""
+"Xfmedia was unable to open '%s'.  Be sure that the file exists and that you "
+"have permission to access it."
+msgstr ""
+"L'xfmedia no ha pogut obrir «%s». Comproveu que existeixi el fitxers i que "
+"tingueu permisos per accedir-hi."
+
+#: ../src/mainwin-callbacks.c:287
+msgid "Unable to open file."
+msgstr "No s'ha pogut obrir el fitxer."
+
+#: ../src/mainwin-callbacks.c:308
+msgid "File Info"
+msgstr "Informació"
+
+#: ../src/mainwin-callbacks.c:323
+msgid "Filename"
+msgstr "Nom del fitxer"
+
+#: ../src/mainwin-callbacks.c:336
+msgid "Media Info"
+msgstr "Informació del mitjà"
+
+#: ../src/mainwin-callbacks.c:348
+msgid "Title:"
+msgstr "Títol:"
+
+#: ../src/mainwin-callbacks.c:375
+msgid "Artist:"
+msgstr "Artista:"
+
+#: ../src/mainwin-callbacks.c:402
+msgid "Album:"
+msgstr "Àlbum:"
+
+#: ../src/mainwin-callbacks.c:429
+msgid "Genre:"
+msgstr "Gènere:"
+
+#: ../src/mainwin-callbacks.c:452
+msgid "Track:"
+msgstr "Pista:"
+
+#: ../src/mainwin-callbacks.c:477
+msgid "Year:"
+msgstr "Any:"
+
+#: ../src/mainwin-callbacks.c:504
+msgid "Comment:"
+msgstr "Comentari:"
+
+#: ../src/mainwin-callbacks.c:535
+msgid "Length:"
+msgstr "Durada:"
+
+#: ../src/mainwin-callbacks.c:552
+msgid "File size (b):"
+msgstr "Mida del fitxer (b):"
+
+#: ../src/mainwin-callbacks.c:569
+msgid "Audio Info"
+msgstr "Informació d'àudio"
+
+#: ../src/mainwin-callbacks.c:581 ../src/mainwin-callbacks.c:675
+msgid "Codec:"
+msgstr "Còdec:"
+
+#: ../src/mainwin-callbacks.c:596
+msgid "Samples/sec:"
+msgstr "Mostres/seg.:"
+
+#: ../src/mainwin-callbacks.c:615
+msgid "Bits/sample:"
+msgstr "Bits/Mostra:"
+
+#: ../src/mainwin-callbacks.c:631 ../src/mainwin-callbacks.c:732
+msgid "Channels:"
+msgstr "Canals:"
+
+#: ../src/mainwin-callbacks.c:646 ../src/mainwin-callbacks.c:746
+msgid "Bitrate (kbit):"
+msgstr "Rati de bits (kbit):"
+
+#: ../src/mainwin-callbacks.c:663
+msgid "Video Info"
+msgstr "Informació de vídeo"
+
+#: ../src/mainwin-callbacks.c:690
+msgid "FourCC:"
+msgstr "FourCC:"
+
+#: ../src/mainwin-callbacks.c:714
+msgid "Frame size:"
+msgstr "Mida dels fotogrames:"
+
+#: ../src/mainwin-callbacks.c:895
+msgid "Add URL"
+msgstr "Afegeix URL"
+
+#: ../src/mainwin-callbacks.c:912
+msgid "_URL:"
+msgstr "_URL:"
+
+#: ../src/mainwin-callbacks.c:937
+msgid "Sort by filename"
+msgstr "Ordena pel nom del fitxer"
+
+#: ../src/mainwin-callbacks.c:938
+msgid "Sort by title"
+msgstr "Ordena per &títol"
+
+#: ../src/mainwin-callbacks.c:939
+msgid "Sort by artist, title"
+msgstr "Ordena per artista i àlbum"
+
+#: ../src/mainwin-callbacks.c:940
+msgid "Sort by artist, album, track number"
+msgstr "Ordena per artista, àlbum i número de pista"
+
+#: ../src/mainwin-callbacks.c:1241
+msgid "Add Directory"
+msgstr "Afegeix un directori"
+
+#: ../src/mainwin-callbacks.c:1329
+msgid "Add Media File"
+msgstr "Afegeix fitxer de mitjans"
+
+#: ../src/mainwin-callbacks.c:1331
+msgid "Add _Selected"
+msgstr "Afegeix _seleccionat"
+
+#: ../src/mainwin-callbacks.c:1335
+msgid "A_dd and Close"
+msgstr "_Afegeix i tanca"
+
+#: ../src/mainwin-callbacks.c:1349 ../src/playlist.c:686
+msgid "All Files"
+msgstr "Tots els fitxers"
+
+#: ../src/mainwin-callbacks.c:1353
+msgid "Music Files"
+msgstr "Fitxers de música"
+
+#: ../src/mainwin-callbacks.c:1367 ../src/playlist.c:690
+msgid "Playlists"
+msgstr "Llistes de reproducció"
+
+#: ../src/mainwin-callbacks.c:1373
+msgid "Video Files"
+msgstr "Fitxers de vídeo"
+
+#: ../src/mainwin-callbacks.c:1949
+msgid "Translator"
+msgstr "Traductor"
+
+#: ../src/mainwin-callbacks.c:1962
+msgid ""
+"Xfmedia is a lightweight media player,\n"
+"based on the xine engine"
+msgstr ""
+"Xfmedia és un reproductor multimèdia lleuger,\n"
+"basat en l'enginy xine"
+
+#: ../src/mainwin-callbacks.c:1967
+msgid "Original Author/Maintainer"
+msgstr "Autor/Mantenidor original"
+
+#: ../src/mainwin-callbacks.c:2080 ../src/mainwin.c:1843
+msgid "Stopped"
+msgstr "Aturat"
+
+#: ../src/mainwin.c:383
+msgid "_Other"
+msgstr "_Altres"
+
+#: ../src/mainwin.c:429
+msgid "_URL..."
+msgstr "_URL…"
+
+#: ../src/mainwin.c:438
+msgid "_Directory..."
+msgstr "_Directori…"
+
+#: ../src/mainwin.c:447
+msgid "_File..."
+msgstr "_Fitxer…"
+
+#: ../src/mainwin.c:633
+msgid "Volume"
+msgstr "Volum"
+
+#: ../src/mainwin.c:658 ../src/xfmedia-keybindings.c:513
+msgid "Previous Track"
+msgstr "Pista anterior"
+
+#: ../src/mainwin.c:670
+msgid "Play/Pause Track"
+msgstr "Reprodueix/Pausa la pista"
+
+#: ../src/mainwin.c:686
+msgid "Stop Playback"
+msgstr "Atura la reproducció"
+
+#: ../src/mainwin.c:697 ../src/xfmedia-keybindings.c:514
+msgid "Next Track"
+msgstr "Pista següent"
+
+#: ../src/mainwin.c:705
+msgid "_Playlist"
+msgstr "_Llista de reproducció"
+
+#: ../src/mainwin.c:759
+msgid "_Enqueue"
+msgstr "_Posa a la cua"
+
+#: ../src/mainwin.c:768
+msgid "Add _Mediamark..."
+msgstr "_Afegeix preferit…"
+
+#: ../src/mainwin.c:781
+msgid "_File Info"
+msgstr "In_formació del fitxer"
+
+#: ../src/mainwin.c:798
+msgid "About _Xfmedia"
+msgstr "Quant a _xfmedia"
+
+#: ../src/mainwin.c:811
+msgid "_Preferences"
+msgstr "_Preferències"
+
+#: ../src/mainwin.c:821
+msgid "_Equalizer..."
+msgstr "Ord_ena"
+
+#: ../src/mainwin.c:832
+msgid "_Jump to File..."
+msgstr "S_alta al fitxer…"
+
+#: ../src/mainwin.c:841
+msgid "Play_list Queue..."
+msgstr "Cua de la _llista de reproducció…"
+
+#: ../src/mainwin.c:848
+msgid "_Mediamarks"
+msgstr "Pr_eferits"
+
+#: ../src/mainwin.c:858
+msgid "Re_order"
+msgstr "_Ordenació"
+
+#: ../src/mainwin.c:869
+msgid "Sort by _Title"
+msgstr "Ordena per _títol"
+
+#: ../src/mainwin.c:875
+msgid "Sort by _Filename"
+msgstr "Ordena per nom de _fitxer"
+
+#: ../src/mainwin.c:881
+msgid "_Randomize List"
+msgstr "O_rdena la llista aleatòriament"
+
+#: ../src/mainwin.c:893
+msgid "_Shuffle"
+msgstr "_Ordre aleatori"
+
+#: ../src/mainwin.c:901
+msgid "_Repeat"
+msgstr "_Repeteix"
+
+#: ../src/mainwin.c:909
+msgid "Repeat Single _Track"
+msgstr "Repeteix una única _pista"
+
+#: ../src/mainwin.c:917
+msgid "Show Audio _Visualization"
+msgstr "Mostra _visualització d'àudio"
+
+#: ../src/mainwin.c:1124 ../src/mainwin.c:1733
+msgid "Playing"
+msgstr "Reproduint"
+
+#: ../src/mainwin.c:1141
+msgid "P_revious Track"
+msgstr "Pista _anterior"
+
+#: ../src/mainwin.c:1150 ../src/mainwin.c:1262
+msgid "_Play"
+msgstr "Re_produeix"
+
+#: ../src/mainwin.c:1167 ../src/mainwin.c:1283
+msgid "_Pause"
+msgstr "_Pausa"
+
+#: ../src/mainwin.c:1178
+msgid "_Stop"
+msgstr "_Atura"
+
+#: ../src/mainwin.c:1186
+msgid "_Next Track"
+msgstr "Pista _següent"
+
+#: ../src/mainwin.c:1754
+msgid "Paused"
+msgstr "En pausa"
+
+#: ../src/mediamarks.c:125
+msgid "Mediamarks Save Error"
+msgstr "Error al desar els preferits"
+
+#: ../src/mediamarks.c:127
+msgid "The mediamarks file failed to save."
+msgstr "No s'ha pogut desar el fitxer de preferits."
+
+#: ../src/mediamarks.c:128 ../src/xfmedia-keybindings.c:683
+#: ../src/xfmedia-keybindings.c:696
+msgid ""
+"This could be because your disk is full, or you don't have permission to "
+"write to the configuration directory.  Any changes will be lost when you "
+"quit Xfmedia."
+msgstr ""
+"Això pot ser degut a que el disc està ple o a que no teniu permisos per "
+"escriurela configuració en el directori. Qualsevol canvi es perdrà quan "
+"sortiu d'xfmedia."
+
+#: ../src/mediamarks.c:625 ../src/mediamarks.c:889
+msgid "Mediamarks"
+msgstr "Preferits"
+
+#: ../src/mediamarks.c:721
+msgid "Add Mediamark"
+msgstr "Afegeix preferit"
+
+#: ../src/mediamarks.c:726
+msgid "_Add Mediamark"
+msgstr "_Afegeix preferit"
+
+#: ../src/mediamarks.c:745 ../src/mediamarks.c:1191
+msgid "_Name:"
+msgstr "_Nom:"
+
+#: ../src/mediamarks.c:766 ../src/mediamarks.c:1213
+msgid "_Location:"
+msgstr "_Ubicació:"
+
+#: ../src/mediamarks.c:781 ../src/mediamarks.c:987
+msgid "File _in:"
+msgstr "Fitxer d'_entrada:"
+
+#: ../src/mediamarks.c:803
+msgid "New Folder"
+msgstr "Nova carpeta"
+
+#: ../src/mediamarks.c:808
+msgid "Add _Folder"
+msgstr "Afegeix _carpeta"
+
+#: ../src/mediamarks.c:956
+msgid "Add Mediamark Folder"
+msgstr "Afegeix carpeta als preferits"
+
+#: ../src/mediamarks.c:962
+msgid "_Add Folder"
+msgstr "_Afegeix carpeta"
+
+#: ../src/mediamarks.c:978
+msgid "_Folder Name:"
+msgstr "Nom de la _carpeta:"
+
+#: ../src/mediamarks.c:1047
+msgid "Remove Mediamark"
+msgstr "Suprimeix preferit"
+
+#: ../src/mediamarks.c:1048 ../src/mediamarks.c:1053
+msgid "Are you sure?"
+msgstr "Esteu segurs?"
+
+#: ../src/mediamarks.c:1048
+msgid "You're about to remove a Mediamark, which can't be undone."
+msgstr "Voleu eliminar un preferit, això no es pot desfer després."
+
+#: ../src/mediamarks.c:1052
+msgid "Remove Folder"
+msgstr "Suprimeix carpeta"
+
+#: ../src/mediamarks.c:1054
+msgid ""
+"Removing a folder also removes all items and subfolders contained in it, and "
+"can't be undone."
+msgstr ""
+"Suprimir una carpeta també fa que es treguin tots els seus elements i "
+"subcarpetes, això no es pot desfer."
+
+#: ../src/mediamarks.c:1174
+msgid "Mediamark Properties"
+msgstr "Propietats del preferit"
+
+#: ../src/mediamarks.c:1174
+msgid "Folder Properties"
+msgstr "Propietats de la carpeta"
+
+#: ../src/mediamarks.c:1593
+msgid "Manage Mediamarks"
+msgstr "Gestiona els preferits"
+
+#: ../src/mediamarks.c:1615
+msgid "New Mediamark..."
+msgstr "Nou preferit…"
+
+#: ../src/mediamarks.c:1616
+msgid "Add a new mediamark"
+msgstr "Afegeix un nou preferit"
+
+#: ../src/mediamarks.c:1621
+msgid "Add Folder..."
+msgstr "Afegeix una carpeta…"
+
+#: ../src/mediamarks.c:1622
+msgid "Add a new folder"
+msgstr "Afegeix una carpeta nova"
+
+#: ../src/mediamarks.c:1627
+msgid "Remove Item"
+msgstr "Suprimeix l'element"
+
+#: ../src/mediamarks.c:1628
+msgid "Remove the selected item"
+msgstr "Suprimeix l'element seleccionat"
+
+#: ../src/mediamarks.c:1635
+msgid "Move Item Up"
+msgstr "Mou l'element cap amunt"
+
+#: ../src/mediamarks.c:1636
+msgid "Move the selected item up"
+msgstr "Mou l'element seleccionat cap amunt"
+
+#: ../src/mediamarks.c:1641
+msgid "Move Item Down"
+msgstr "Mou l'element cap avall"
+
+#: ../src/mediamarks.c:1642
+msgid "Move the selected item down"
+msgstr "Mou l'element seleccionat cap avall"
+
+#: ../src/mediamarks.c:1649
+msgid "Refresh"
+msgstr "Actualitza"
+
+#: ../src/mediamarks.c:1650
+msgid "Refresh the list"
+msgstr "Actualitza la llista"
+
+#: ../src/mediamarks.c:1655
+msgid "Properties..."
+msgstr "Propietats…"
+
+#: ../src/mediamarks.c:1656
+msgid "Edit the selected item's properties"
+msgstr "Edita les propietats del elements seleccionats"
+
+#: ../src/mediamarks.c:1686
+msgid "Name"
+msgstr "Nom"
+
+#: ../src/mediamarks.c:1713
+msgid "Location"
+msgstr "Ubicació"
+
+#: ../src/mediamarks.c:1806
+msgid "_Add Current Stream..."
+msgstr "_Afegeix el corrent de dades actual…"
+
+#: ../src/mediamarks.c:1815
+msgid "_Manage Mediamarks..."
+msgstr "_Gestiona els preferits…"
+
+#: ../src/playlist.c:536
+msgid "Save changes to this playlist before closing?"
+msgstr "Desa els canvis de la llista de reproducció al tancar?"
+
+#: ../src/playlist.c:537
+msgid "You've changed this playlist since it was last saved."
+msgstr "Heu modificat la llista de reproducció des de que la veu desar."
+
+#: ../src/playlist.c:541
+msgid "Do_n't save"
+msgstr "_No ho desis"
+
+#: ../src/playlist.c:590 ../src/xfmedia-keybindings.c:534
+msgid "Save Playlist"
+msgstr "Desa la llista de reproducció"
+
+#: ../src/playlist.c:600
+msgid "Autodetect type by extension"
+msgstr "Detecció automàtica del tipus emprant l'extensió"
+
+#: ../src/playlist.c:604
+msgid "Flat file"
+msgstr "Fitxer pla"
+
+#: ../src/playlist.c:676
+msgid "Open Playlist"
+msgstr "Obre la llista de reproducció"
+
+#: ../src/playlist.c:1359
+msgid "#"
+msgstr "#"
+
+#: ../src/playlist.c:1373
+msgid "Title"
+msgstr "Títol"
+
+#: ../src/playlist.c:1381
+msgid "Length"
+msgstr "Durada"
+
+#: ../src/playlist.c:1431
+msgid "Add entry to playlist"
+msgstr "Afegeix una entrada a la llista de reproducció"
+
+#: ../src/playlist.c:1441
+msgid "Remove entry from playlist"
+msgstr "Suprimeix una entrada de llista de reproducció"
+
+#: ../src/playlist.c:1451
+msgid "Move selected playlist entry up"
+msgstr "Mou l'entrada seleccionada de la llista de reproducció cap a dalt"
+
+#: ../src/playlist.c:1461
+msgid "Move selected playlist entry down"
+msgstr "Mou l'entrada seleccionada de la llista de reproducció cap a avall"
+
+#: ../src/playlist.c:1486
+msgid "Randomize play order"
+msgstr "Reprodueix aleatòriament"
+
+#: ../src/playlist.c:1505
+msgid "Repeat after playlist finishes"
+msgstr "Repeteix en acabar la llista de reproducció"
+
+#: ../src/playlist.c:1520
+msgid "Save current playlist"
+msgstr "Desa la llista de reproducció actual"
+
+#: ../src/playlist.c:1530
+msgid "Open a saved playlist"
+msgstr "Obre i desa una llista de reproducció"
+
+#: ../src/playlist.c:1540
+msgid "Start a new playlist"
+msgstr "Comença una nova llista de reproducció"
+
+#: ../src/playlist.c:1548
+msgid "_Remove Entry"
+msgstr "Sup_rimeix l'entrada"
+
+#: ../src/playlist.c:1557
+msgid "Move _Up"
+msgstr "Mo_u cap a dalt"
+
+#: ../src/playlist.c:1566
+msgid "Move _Down"
+msgstr "Mou cap a_vall"
+
+#: ../src/remote.c:223 ../src/remote.c:466
+msgid "(no title)"
+msgstr "(sense títol)"
+
+#: ../src/settings-dialog.c:145
+msgid "Optical Devices"
+msgstr "Dispositius òptics"
+
+#: ../src/settings-dialog.c:159
+msgid "CD A_udio Device:"
+msgstr "Dispositiu de CD à_udio:"
+
+#: ../src/settings-dialog.c:181
+msgid "DVD Vide_o Device:"
+msgstr "Dispositiu de DVD víde_o:"
+
+#: ../src/settings-dialog.c:203
+msgid "Vid_eo CD Device:"
+msgstr "Dispositiu de víd_eo CD:"
+
+#: ../src/settings-dialog.c:221
+msgid "Audio"
+msgstr "Àudio"
+
+#: ../src/settings-dialog.c:233
+msgid "Dr_iver:"
+msgstr "_Controlador:"
+
+#: ../src/settings-dialog.c:243 ../src/settings-dialog.c:312
+msgid "(no drivers)"
+msgstr "(sense controladors)"
+
+#: ../src/settings-dialog.c:267
+msgid "_Speaker Layout:"
+msgstr "Format de l'_altaveu:"
+
+#: ../src/settings-dialog.c:275
+msgid "(option unavailable)"
+msgstr "(opció no disponible)"
+
+#: ../src/settings-dialog.c:290
+msgid "Video"
+msgstr "Vídeo"
+
+#: ../src/settings-dialog.c:302
+msgid "D_river:"
+msgstr "Cont_rolador:"
+
+#: ../src/settings-dialog.c:608
+msgid "Xfmedia Preferences"
+msgstr "Preferències d'xfmedia"
+
+#: ../src/settings-dialog.c:630
+msgid "Playlist"
+msgstr "Llista de reproducció"
+
+#: ../src/settings-dialog.c:643
+msgid "_Title Display:"
+msgstr "Mostra el _títol:"
+
+#: ../src/settings-dialog.c:653
+msgid ""
+"This is a printf-like format string controlling the display of the "
+"playlist.  Xfmedia will replace the following symbols:\n"
+"\t%p: Artist/Performer\n"
+"\t%t: Track Title\n"
+"\t%a: Album Name\n"
+"\t%T: Track Number\n"
+"\t%g: Genre\n"
+"\t%y: Year\n"
+"\t%f: Filename\n"
+"\t%%: a percent sign"
+msgstr ""
+"Això és un format similar al format de cadenes del «printf» per controlar la "
+"llista de reproducció. Xfmedia substituirà els següents símbols:\n"
+"\t%p: Artista/Execuntant.\n"
+"\t%t: Títol de la pista.\n"
+"\t%a: Nom de l'àlbum.\n"
+"\t%T: Número de pista.\n"
+"\t%g: Gènere.\n"
+"\t%y: Any.\n"
+"\t%f: Nom del fitxer.\n"
+"\t%%: Símbol de tant per cent."
+
+#: ../src/settings-dialog.c:667
+msgid "_Advance playlist when track ends"
+msgstr "_Avança en la llista de reproducció al finalitzar una pista"
+
+#: ../src/settings-dialog.c:675
+msgid ""
+"When a track ends, Xfmedia can automatically advance to the next track in "
+"the playlist and continue playback."
+msgstr ""
+"Quan acabi una pista, l'xfmedia pot avançar automàticament a la següent en "
+"la llista de reproducció."
+
+#: ../src/settings-dialog.c:677
+msgid "_Don't save playlist on exit for one-shot invocations"
+msgstr "_No desis la llista de reproducció en execucions ràpides"
+
+#: ../src/settings-dialog.c:685
+msgid ""
+"Only automatically save the playlist during interactive use; i.e., don't "
+"save the playlist when Xfmedia was invoked from the commandline with a short "
+"list of definite arguments.  This option needs to be named better."
+msgstr ""
+"Només desa automàticament la llista de reproducció quan s'executi de forma "
+"interactiva; és a dir, no desis la llista quan l'xfmedia es cridi des de la "
+"línia d'ordres amb una llista curta d'arguments."
+
+#: ../src/settings-dialog.c:691
+msgid "Load metadata:"
+msgstr "Carrega metadata:"
+
+#: ../src/settings-dialog.c:695
+msgid "On _scroll"
+msgstr "Al de_splaçar"
+
+#: ../src/settings-dialog.c:703
+msgid "Load file metadata for entries in the playlist when they are visible."
+msgstr ""
+"Carrega la metadata del fitxer per les entrades de la llista de reproducció "
+"quan aquestes siguin visibles."
+
+#: ../src/settings-dialog.c:706
+msgid "On pla_y"
+msgstr "Al re_produir"
+
+#: ../src/settings-dialog.c:714
+msgid "Load file metadata for entries in the playlist only when playing them."
+msgstr ""
+"Carrega la metadata del fitxer en les entrades de la llista de reproducció "
+"quan aquestes estiguin reproduint-se."
+
+#: ../src/settings-dialog.c:717
+msgid "_Never"
+msgstr "_Mai"
+
+#: ../src/settings-dialog.c:725
+msgid "Never load file metadata for entries in the playlist."
+msgstr ""
+"No carreguis mai la metadata de les entredes de la llista de reproducció."
+
+#: ../src/settings-dialog.c:727
+msgid "Window"
+msgstr "Finestra"
+
+#: ../src/settings-dialog.c:736
+msgid "Show Xfmedia on all _workspaces"
+msgstr "Mostra xfmedia a tots els _espais de treball"
+
+#: ../src/settings-dialog.c:742
+msgid ""
+"Sets Xfmedia \"sticky\" such that it appears on all workspaces (virtual "
+"desktops)."
+msgstr ""
+"Fa que l'xfmedia estigui «omnipresent» i aparegui a tots els espais de "
+"treball (escriptoris virtuals)."
+
+#: ../src/settings-dialog.c:744
+msgid "Keep X_fmedia above other windows"
+msgstr "Alça l'x_fmedia per damunt d'altres finestres"
+
+#: ../src/settings-dialog.c:751
+msgid "Sets the Xfmedia window to \"Always-on-Top\" status."
+msgstr "Fes que la finestra de l'xfmedia tingui l'estatus de sempre al damunt"
+
+#: ../src/settings-dialog.c:753
+msgid "Dock and auto-_hide Xfmedia at screen edges"
+msgstr "Enganxa i _oculta automàticament a les vores de la pantalla."
+
+#: ../src/settings-dialog.c:760
+msgid ""
+"When the Xfmedia window is dragged to a screen edge, it will auto-hide "
+"itself and reappear when you move the mouse to the edge of the screen."
+msgstr "Quan la finestra de l'xfmedia s'arrossegui a la vora de la pantalla s'amagarà automàticament i reapareixerà quan mogueu el ratolí a la vora de la pantalla."
+
+#: ../src/settings-dialog.c:762
+msgid "Tray Icon"
+msgstr "Icona de la safata"
+
+#: ../src/settings-dialog.c:771
+msgid "Show _tray icon"
+msgstr "Mostra la icona a la safa_ta"
+
+#: ../src/settings-dialog.c:777
+msgid "Displays an Xfmedia icon in the system notification area."
+msgstr "Mostra la icona d'xfmedia a l'espai notificacions del sistema."
+
+#: ../src/settings-dialog.c:779
+msgid "_Minimize Xfmedia to tray icon"
+msgstr "_Minimitza l'xfmedia a la safata d'icones"
+
+#: ../src/settings-dialog.c:787
+msgid ""
+"Minimizes Xfmedia to the tray icon rather than to the taskbar or iconbox."
+msgstr ""
+"Minimitza l'xfmedia a la safata d'icones en lloc de la barra de tasques o el "
+"plafó d'icones."
+
+#: ../src/settings-dialog.c:793
+msgid "On middle _click:"
+msgstr "_Clic amb el botó del mig:"
+
+#: ../src/settings-dialog.c:796 ../src/settings-dialog.c:810
+msgid ""
+"The tray icon can perform an action when middle-clicked.  Select the action "
+"in the dropdown box."
+msgstr ""
+"La safata d'icones por fer una acció quan es faci clic amb el botó del mig. "
+"Seleccioneu l'acció en el desplegable."
+
+#: ../src/settings-dialog.c:799
+msgid "Do nothing"
+msgstr "No facis res"
+
+#: ../src/settings-dialog.c:800
+msgid "Toggle play/pause"
+msgstr "Commuta el mode reproducció/pausa"
+
+#: ../src/settings-dialog.c:801
+msgid "Next track"
+msgstr "Pista següent"
+
+#: ../src/settings-dialog.c:802
+msgid "Previous track"
+msgstr "Pista anterior"
+
+#: ../src/settings-dialog.c:815
+msgid "O_ptions"
+msgstr "O_pcions"
+
+#: ../src/settings-dialog.c:826
+msgid "Selected Visualization"
+msgstr "Visualització seleccionada"
+
+#: ../src/settings-dialog.c:854
+msgid "(none available)"
+msgstr "(cap disponible)"
+
+#: ../src/settings-dialog.c:865
+msgid "Visualization Options"
+msgstr "Opcions de visualització"
+
+#: ../src/settings-dialog.c:880
+msgid "_Audio Visualization"
+msgstr "Visualització d'_àudio"
+
+#: ../src/settings-dialog.c:886
+msgid "_Devices"
+msgstr "_Dispositius"
+
+#: ../src/settings-dialog.c:892
+msgid "_Keybindings"
+msgstr "Assignacions de _tecles"
+
+#: ../src/settings-dialog.c:900
+msgid "_Plugins"
+msgstr "Co_nnectors"
+
+#: ../src/settings.c:242
+msgid "Settings Save Error"
+msgstr "Error al desar les preferències"
+
+#: ../src/settings.c:243
+msgid "The settings file failed to save."
+msgstr "El fitxer de paràmetres no s'ha pogut desar."
+
+#: ../src/settings.c:244
+msgid ""
+"This could be because your disk is full, or you don't have permission to "
+"write to the configuration directory.  Any changes will be lost when you "
+"exit Xfmedia."
+msgstr ""
+"Això podria ser degut a que el fitxer està ple, o que no teniu permisos per "
+"escriure al directori de configuració. Qualsevol canvi es perdrà quan sortiu "
+"d'xfmedia."
+
+#: ../src/xfmedia-common.c:422
+msgid "(UTF-8 conversion failed)"
+msgstr "(ha fallat la conversió UTF-8)"
+
+#: ../src/xfmedia-handle.c:141
+msgid "Handle Style"
+msgstr "Gestiona l'estil"
+
+#: ../src/xfmedia-handle.c:142
+msgid "This property defines the handle style of the XfmediaHandle widget."
+msgstr ""
+"Aquesta propietat defineix com gestionar l'estil del giny XfmediaHandle."
+
+#: ../src/xfmedia-handle.c:150
+msgid "Orientation"
+msgstr "Orientació"
+
+#: ../src/xfmedia-handle.c:151
+msgid "This property defines whether this is a horizontal or vertical handle."
+msgstr ""
+"Aquesta propietat defineix si es gestiona de forma horitzontal o vertical."
+
+#: ../src/xfmedia-keybindings.c:510
+msgid "Play"
+msgstr "Reprodueix"
+
+#: ../src/xfmedia-keybindings.c:511
+msgid "Pause"
+msgstr "Pausa"
+
+#: ../src/xfmedia-keybindings.c:512
+msgid "Stop"
+msgstr "Atura"
+
+#: ../src/xfmedia-keybindings.c:515
+msgid "Quit"
+msgstr "Surt"
+
+#: ../src/xfmedia-keybindings.c:516
+msgid "Toggle Fullscreen"
+msgstr "Commuta a pantalla sencera"
+
+#: ../src/xfmedia-keybindings.c:517
+msgid "Toggle Shuffle Play"
+msgstr "Commuta l'ordre aleatori de reproducció"
+
+#: ../src/xfmedia-keybindings.c:518
+msgid "Toggle Repeat Play"
+msgstr "Commuta la repetició de reproducció"
+
+#: ../src/xfmedia-keybindings.c:519
+msgid "Toggle Audio Visualization"
+msgstr "Commuta la visualització d'àudio"
+
+#: ../src/xfmedia-keybindings.c:520
+msgid "Set Speed Faster"
+msgstr "Fixa la velocitat a més ràpida"
+
+#: ../src/xfmedia-keybindings.c:521
+msgid "Set Speed Slower"
+msgstr "Fixa la velocitat a més lenta"
+
+#: ../src/xfmedia-keybindings.c:522
+msgid "Forward 10 Seconds"
+msgstr "Salta 10 segons endavant"
+
+#: ../src/xfmedia-keybindings.c:523
+msgid "Forward 30 Seconds"
+msgstr "Salta 30 segons endavant"
+
+#: ../src/xfmedia-keybindings.c:524
+msgid "Forward 60 Seconds"
+msgstr "Salta 60 segons endavant"
+
+#: ../src/xfmedia-keybindings.c:525
+msgid "Backward 10 Seconds"
+msgstr "Retrocedeix 10 segons"
+
+#: ../src/xfmedia-keybindings.c:526
+msgid "Backward 30 Seconds"
+msgstr "Retrocedeix 30 segons"
+
+#: ../src/xfmedia-keybindings.c:527
+msgid "Backward 60 Seconds"
+msgstr "Retrocedeix 60 segons"
+
+#: ../src/xfmedia-keybindings.c:528
+msgid "Enqueue Track"
+msgstr "Envia la pista a la cua"
+
+#: ../src/xfmedia-keybindings.c:529
+msgid "Show Queued Tracks"
+msgstr "Mostra la cua de pistes"
+
+#: ../src/xfmedia-keybindings.c:530
+msgid "Toggle Audio Mute"
+msgstr "Commuta sense àudio"
+
+#: ../src/xfmedia-keybindings.c:531
+msgid "Add File to Playlist"
+msgstr "Afegeix fitxer a la llista de reproducció"
+
+#: ../src/xfmedia-keybindings.c:532
+msgid "Add URL to Playlist"
+msgstr "Afegeix URL a la llista de reproducció"
+
+#: ../src/xfmedia-keybindings.c:533
+msgid "Open Saved Playlist"
+msgstr "Obre una llista de reproducció desada"
+
+#: ../src/xfmedia-keybindings.c:535
+msgid "Clear Playlist"
+msgstr "Neteixa la llista de reproducció"
+
+#: ../src/xfmedia-keybindings.c:536
+msgid "A/V Sync Plus"
+msgstr "Sincronia d'A/V: Més"
+
+#: ../src/xfmedia-keybindings.c:537
+msgid "A/V Sync Minus"
+msgstr "Sincronia d'A/V: Menys"
+
+#: ../src/xfmedia-keybindings.c:538
+msgid "Select Aspect Ratio"
+msgstr "Selecciona la proporció d'aspecte"
+
+#: ../src/xfmedia-keybindings.c:539
+msgid "Jump to File"
+msgstr "Salta al fitxer"
+
+#: ../src/xfmedia-keybindings.c:540
+msgid "Video Zoom In"
+msgstr "Amplia el zoom de vídeo"
+
+#: ../src/xfmedia-keybindings.c:541
+msgid "Video Zoom Out"
+msgstr "Redueix el zoom de vídeo"
+
+#: ../src/xfmedia-keybindings.c:542
+msgid "Video Window Larger"
+msgstr "Finestra de vídeo més gran"
+
+#: ../src/xfmedia-keybindings.c:543
+msgid "Video Window Smaller"
+msgstr "Finestra de vídeo més petita"
+
+#: ../src/xfmedia-keybindings.c:544
+msgid "Volume Up"
+msgstr "Més volum"
+
+#: ../src/xfmedia-keybindings.c:545
+msgid "Volume Down"
+msgstr "Menys volum"
+
+#: ../src/xfmedia-keybindings.c:546
+msgid "Audio Track Next"
+msgstr "Pista d'àudio següent"
+
+#: ../src/xfmedia-keybindings.c:547
+msgid "Audio Track Previous"
+msgstr "Pista d'àudio prèvia"
+
+#: ../src/xfmedia-keybindings.c:548
+msgid "Subtitle Track Next"
+msgstr "Pista de subtítols següent"
+
+#: ../src/xfmedia-keybindings.c:549
+msgid "Subtitle Track Previous"
+msgstr "Pista de subtítols prèvia"
+
+#: ../src/xfmedia-keybindings.c:635
+msgid "Set Keybinding"
+msgstr "Assigna una tecla:"
+
+#: ../src/xfmedia-keybindings.c:638
+msgid "_Clear"
+msgstr "_Neteja"
+
+#: ../src/xfmedia-keybindings.c:647
+msgid "Set shortcut for:"
+msgstr "Fixa drecera per a:"
+
+#: ../src/xfmedia-keybindings.c:665
+msgid "Keybinding Error"
+msgstr "Error d'assignació de tecla"
+
+#: ../src/xfmedia-keybindings.c:666
+msgid "Keybinding already in use."
+msgstr "L'assignació de tecla ja és en ús"
+
+#: ../src/xfmedia-keybindings.c:667
+msgid ""
+"The key sequence you selected is already in use by another function.  Please "
+"set the other function to something else."
+msgstr ""
+"La seqüència de tecles seleccionada ja la fa servir una altra funció. "
+"Assigneu a l'altre funció amb un altre seqüència."
+
+#: ../src/xfmedia-keybindings.c:680 ../src/xfmedia-keybindings.c:693
+msgid "Keybindings Save Error"
+msgstr "Error al desar l'assignació de tecles"
+
+#: ../src/xfmedia-keybindings.c:682 ../src/xfmedia-keybindings.c:695
+msgid "The keybindings file failed to save."
+msgstr "No s'ha pogut desar el fitxer d'assignació de tecles."
+
+#: ../src/xfmedia-keybindings.c:691
+msgid "None"
+msgstr "Cap"
+
+#: ../src/xfmedia-keybindings.c:808
+msgid "Function"
+msgstr "Funció"
+
+#: ../src/xfmedia-keybindings.c:813
+msgid "Keys"
+msgstr "Tecles"
+
+#: ../src/xfmedia-remote.c:103
+#, c-format
+msgid ""
+"Usage: %s [options]\n"
+"\n"
+msgstr "Forma d'ús: %s [OPCIONS]\n"
+
+#: ../src/xfmedia-remote.c:106
+msgid ""
+"    --session=N          Specify the number of the already-running instance "
+"of\n"
+"                         Xfmedia.  (Defaults to 0, or the first instance "
+"found.)\n"
+msgstr ""
+"    --session=N          Especifiqueu el número d'instància ja executant-se\n"
+"                         d'xfmedia. (Per defecte 0 o la primera trobada).\n"
+
+#: ../src/xfmedia-remote.c:108
+msgid ""
+"    --ping               Checks to see if an instance of Xfmedia is "
+"running.\n"
+msgstr ""
+"    --ping               Comprova si una instància d'xfmedia s'està "
+"executant.\n"
+
+#: ../src/xfmedia-remote.c:109
+msgid ""
+"    -p, --play[=N]       Causes Xfmedia to play the file at playlist idx N.\n"
+"                         If N is not specified, Xfmedia will play the "
+"currently-\n"
+"                         selected entry, or, if no item is selected, the "
+"first\n"
+"                         entry.  If used in conjunction with --playlist-"
+"add,\n"
+"                         will cause Xfmedia to play the newly-added entry.\n"
+msgstr ""
+"    -p, --play[=N]       Fa que xfmedia reprodueixi l'element N de la llista "
+"de\n"
+"                         reproducció. Si no s'especifica N, xfmedia "
+"reproduirà\n"
+"                         l'entrada seleccionada o, si no hi ha cap "
+"seleccionat,\n"
+"                         el primer de la llista. Si es fa servir junt amb\n"
+"                         «--playlist-add» s'executarà l'entrada afegida.\n"
+
+#: ../src/xfmedia-remote.c:114
+msgid ""
+"    --toggle             Causes Xfmedia to pause if playing, or play if "
+"paused\n"
+"                         or stopped.\n"
+msgstr ""
+"    --toggle             Si xfmedia està reproduint li farà fer una pausa, "
+"si\n"
+"                         està aturat o en pausa li farà reproduir.\n"
+
+#: ../src/xfmedia-remote.c:116
+msgid "    --pause              Causes Xfmedia to pause/unpause.\n"
+msgstr "    --pause              Fa que l'xfmedia entri o acabi la pausa.\n"
+
+#: ../src/xfmedia-remote.c:117
+msgid "    --stop               Causes Xfmedia to stop playback.\n"
+msgstr "    --stop               Fa que l'xfmedia aturi la reproducció.\n"
+
+#: ../src/xfmedia-remote.c:118
+msgid ""
+"    --previous           Causes Xfmedia to play the entry played before the\n"
+"                         currently-selected (or -playing) entry.\n"
+msgstr ""
+"    --previous           Fa que l'xfmedia reprodueixi l'entrada anterior a "
+"la\n"
+"                         seleccionada (o la «-playing»).\n"
+
+#: ../src/xfmedia-remote.c:120
+msgid ""
+"    --next               Causes Xfmedia to play the next entry in the "
+"playlist.\n"
+"                         If Xfmedia is in shuffle mode, a new entry will be\n"
+"                         selected randomly.\n"
+msgstr ""
+"    --next               Fa que l'xfmedia reprodueixi la següent entrada de "
+"la\n"
+"                         llista de reproducció. Si està en mode aleatori, "
+"es\n"
+"                         seleccionarà una entrada al atzar.\n"
+
+#: ../src/xfmedia-remote.c:123
+msgid ""
+"    -a, --playlist-add=FILE\n"
+"                         Adds FILE to the end of the playlist.\n"
+msgstr ""
+"    -a, --playlist-add=FITXER\n"
+"                         Afegeix el FITXER al final de la llista de "
+"reproducció.\n"
+
+#: ../src/xfmedia-remote.c:125
+msgid ""
+"    -r, --playlist-remove=N\n"
+"                         Removes the specified playlist entry from the "
+"playlist.\n"
+msgstr ""
+"    -r, --playlist-remove=N\n"
+"                         Treu l'entrada N de la llista de reproducció.\n"
+
+#: ../src/xfmedia-remote.c:127
+msgid ""
+"    -c, --playlist-clear\n"
+"                         Removes all entries from the playlist.\n"
+msgstr ""
+"    -c, --playlist-clear\n"
+"                         Treu totes les entrades de la llista de "
+"reproducció.\n"
+
+#: ../src/xfmedia-remote.c:129
+msgid ""
+"    -l, --playlist-load=FILE\n"
+"                         Loads the specified playlist.  Note that this does "
+"NOT\n"
+"                         first clear the playlist.\n"
+msgstr ""
+"    -l, --playlist-load=FITXER\n"
+"                         Carrega la llista de reproducció. Noteu que això "
+"no\n"
+"                         neteja abans la llista.\n"
+
+#: ../src/xfmedia-remote.c:132
+msgid ""
+"    -s, --playlist-save=FILE\n"
+"                         Saves the current playlist to the specified FILE.\n"
+msgstr ""
+"    -s, --playlist-save=FITXER\n"
+"                         Desa la llista de reproducció en el FITXER "
+"especificat.\n"
+
+#: ../src/xfmedia-remote.c:134
+msgid "    -Q, --quit           Instructs Xfmedia to quit.\n"
+msgstr "    -Q, --quit           Per fer acabar a l'xfmedia.\n"
+
+#: ../src/xfmedia-remote.c:135
+msgid ""
+"    -j, --jump-to-file   Causes Xfmedia to show the main window (if not "
+"visible)\n"
+"                         and show the jump-to-file entry box.\n"
+msgstr ""
+"    -j, --jump-to-file   Fa que l'xfmedia mostri la seva pantalla (si no és\n"
+"                         visible) i mostri el plafó per saltar a un fitxer.\n"
+
+#: ../src/xfmedia-remote.c:180
+msgid "Argument to --session must be greater than or equal to 0.\n"
+msgstr "L'argument de «--session» ha de ser 0  més gran.\n"
+
+#: ../src/xfmedia-remote.c:195
+msgid "Argument to --play must be greater than or equal to 0.\n"
+msgstr "L'argument de «--play» ha de ser 0 o més gran.\n"
+
+#: ../src/xfmedia-remote.c:239
+msgid "Argument to --playlist-remove must be greater than or equal to 0.\n"
+msgstr "L'argument de «--playlist-remove» ha de ser 0 o més gran.\n"
+
+#: ../src/xfmedia-remote.c:276
+#, c-format
+msgid "Unrecognized option: %s\n"
+msgstr "Opció no reconeguda: %s\n"
+
+#: ../src/xfmedia-remote.c:289
+msgid ""
+"Unable to initialize the Xfmedia remote client service.  The most likely "
+"cause is that a DBUS session bus is not running"
+msgstr ""
+"No s'ha pogut inicialitzar el servei de control remot de l'Xfmedia.  És "
+"possible que no hi hagi cap sessió DBUS executant-se."
+
+#: ../src/xfmedia-remote.c:301
+msgid "Unable to find a running Xfmedia instance."
+msgstr "No s'ha trobat cap instància d'Xfmedia executant-se."
+
+#: ../src/xfmedia-video-window.c:188
+msgid "Xfmedia Video"
+msgstr "Vídeo Xfmedia"
+
+#: ../xfmedia/getopt.c:686
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: l'opció «%s» és ambigua\n"
+
+#: ../xfmedia/getopt.c:711
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: l'opció «--%s» no permet cap argument\n"
+
+#: ../xfmedia/getopt.c:716
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: l'opció «%c%s» no permet cap argument\n"
+
+#: ../xfmedia/getopt.c:734 ../xfmedia/getopt.c:907
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: l'opció «%s» necessita un argument\n"
+
+#. --option
+#: ../xfmedia/getopt.c:763
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: opció no reconeguda «--%s»\n"
+
+#. +option or -option
+#: ../xfmedia/getopt.c:767
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: opció no reconeguda «%c%s»\n"
+
+#. 1003.2 specifies the format of this message.
+#: ../xfmedia/getopt.c:793
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: opció no permesa -- %c\n"
+
+#: ../xfmedia/getopt.c:796
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: opció no vàlida -- %c\n"
+
+#. 1003.2 specifies the format of this message.
+#: ../xfmedia/getopt.c:826 ../xfmedia/getopt.c:956
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: l'opció necessita un argument -- %c\n"
+
+#: ../xfmedia/getopt.c:873
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: l'opció «-W %s» és ambigua\n"
+
+#: ../xfmedia/getopt.c:891
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: l'opció «-W %s» no permet cap argument\n"
+
+#: ../xfmedia/remote-client.c:607 ../xfmedia/remote-client.c:614
+#: ../xfmedia/remote-client.c:621
+msgid ""
+"Xfmedia was not compiled with D-BUS support.  Remote control interface is "
+"not available."
+msgstr ""
+"Xfmedia no s'ha compilat amb l'opció per D-BUS.  La interfície de control "
+"remot no està disponible."
+
+#: ../xfmedia.desktop.in.h:1
+msgid "Enqueue and play with Xfmedia"
+msgstr "Posar a la cua i reprodueix amb Xfmedia"
+
+#: ../xfmedia.desktop.in.h:2
+msgid "Enqueue in Xfmedia"
+msgstr "Posar a la cua a Xfmedia"
+
+#: ../xfmedia.desktop.in.h:3
+msgid "Lightweight Media Player"
+msgstr "Lleuger reproductor multimèdia"
+
+#: ../xfmedia.desktop.in.h:4
+msgid "Xfmedia"
+msgstr "Xfmedia"

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Xfbib
+Comment=A BibTeX editor for Xfce
+GenericName=BibTeX editor
+Exec=xfbib
+Icon=xfbib
+Type=Application
+Terminal=false
+MimeType=text/x-bibtex;
+Categories=X-XFCE;Office;GTK;
+StartupNotify=false

@@ -1,0 +1,499 @@
+# translation of xfprint.po to Macedonian
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Dimitar Talevski <dimi.lugola@gmail.com>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-04 19:47+0100\n"
+"PO-Revision-Date: 2006-12-24 04:26-0500\n"
+"Last-Translator: Dimitar Talevski <dimi.lugola@gmail.com>\n"
+"Language-Team: Macedonian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.2\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "Печатач"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "Излези"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "Излези од xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "За"
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "За xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "Прикажи информации за xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:134
+msgid "Printer manager"
+msgstr "Менаџер за печатач"
+
+#: ../libxfprint/printer-list-window.c:200
+msgid "Alias name"
+msgstr "Алијас"
+
+#: ../libxfprint/printer-list-window.c:204
+#: ../libxfprint/printer-queue-window.c:212
+msgid "State"
+msgstr "Состојба"
+
+#: ../libxfprint/printer-list-window.c:258
+msgid "Xfprint printers manager"
+msgstr "Xfprint менаџер за печатачи"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:263
+msgid "Former maintainer"
+msgstr "Поранешен одржувач"
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Maintainer"
+msgstr "Одржувач"
+
+#: ../libxfprint/printer-list-window.c:327
+msgid "Unknown"
+msgstr "Непознато"
+
+#: ../libxfprint/printer-list-window.c:330
+msgid "Idle"
+msgstr "Неактивен"
+
+#: ../libxfprint/printer-list-window.c:333
+msgid "Processing"
+msgstr "Обработува"
+
+#: ../libxfprint/printer-list-window.c:336
+msgid "Stopped"
+msgstr "Прекинато"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "Затвори"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "Затвори го прозорецот за редот"
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr "Печатења"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:380
+#: ../libxfprint/printer-queue-window.c:384
+msgid "Remove job"
+msgstr "Отстрани печатење"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "Отстрани ги обележаните печатења од редот"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "Освежи"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "Освежи го редот"
+
+#: ../libxfprint/printer-queue-window.c:121
+#: ../libxfprint/printer-queue-window.c:533
+msgid "Queue Manager"
+msgstr "Менаџер на редот"
+
+#: ../libxfprint/printer-queue-window.c:202
+msgid "Name"
+msgstr "Име"
+
+#: ../libxfprint/printer-queue-window.c:206
+msgid "ID"
+msgstr "Ид."
+
+#: ../libxfprint/printer-queue-window.c:209
+msgid "User"
+msgstr "Корисник"
+
+#: ../libxfprint/printer-queue-window.c:215
+msgid "Size"
+msgstr "Големина"
+
+#: ../libxfprint/printer-queue-window.c:218
+msgid "Priority"
+msgstr "Приоритет"
+
+#: ../libxfprint/printer-queue-window.c:221
+msgid "Creation time"
+msgstr "Време на создавање"
+
+#: ../libxfprint/printer-queue-window.c:224
+msgid "Processing time"
+msgstr "Време на обработување"
+
+#: ../libxfprint/printer-queue-window.c:377
+msgid "Are you sure you want to remove the job "
+msgstr "Дали сте сигурни дека сакате да го отстраните ова печатење?"
+
+#: ../libxfprint/printer-queue-window.c:383
+msgid "Don't remove job"
+msgstr "Не го отстранувај печатењето"
+
+#: ../libxfprint/printer-queue-window.c:390
+msgid "An error occurred while removing job !"
+msgstr "Се појави грешка при отстранувањето на печатењето !"
+
+#: ../libxfprint/printer-queue-window.c:441
+msgid "pending"
+msgstr "чекам"
+
+#: ../libxfprint/printer-queue-window.c:444
+msgid "printing"
+msgstr "печатам"
+
+#: ../libxfprint/printer-queue-window.c:447
+msgid "Kb"
+msgstr "Кб"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "Систем за печатење"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "Избор на систем за печатење"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "Информации"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "Опис"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "Верзија"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "Автор"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "Веб страница"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "Ништо"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr "Користете го овај бекенд ако сакате само да испечатете во датотека."
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "Поддршка за BSD-LPR системот на печатење за Xfprint"
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr "Поддршка за CUPS системот на печатење за Xfprint"
+
+#: ../printing-systems/cups/cups.c:48
+msgid "Set as default printer"
+msgstr "Постави како стандарден печатач"
+
+#: ../printing-systems/cups/cups.c:49
+msgid "Set as default CUPS printer"
+msgstr "Постави како стандарден CUPS печатач"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "Својства"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "Прикажи ги својствата на печатачот"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "Лозинка"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "Корисник :"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "Лозинка :"
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr "Мора да внесете корисничко име !"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "Испечати заглавија"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "Заглавие:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "Андерлеј:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "Центриран наслов:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "Лев наслов:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "Десен наслов:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "Централно подножје:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "Лево подножје:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "Десно подножје:"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "Енкодирање:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "Испечати ги сите страници"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "Испечати ги страниците во опсег од"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "Исечи ги долгите линии"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "Интерпретирај ги TAB, BS и FF знаците"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "Принуди бинарно печатење"
+
+#: ../xfprint/main.c:113
+msgid "Select file to print"
+msgstr "Избери датотека за печатење"
+
+#: ../xfprint/main.c:125
+msgid "The specified file does not exist"
+msgstr "Наведената датотека не постои"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "Јазик:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "Ниво на обележување:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "Ниво на скратување:"
+
+#: ../xfprint/print_dialog.c:199
+msgid "Save settings"
+msgstr "Зачувај ги поставувањата"
+
+#: ../xfprint/print_dialog.c:207
+msgid "Xfprint"
+msgstr "Xfprint"
+
+#: ../xfprint/print_dialog.c:215
+msgid "Print to:"
+msgstr "Испечати во:"
+
+#: ../xfprint/print_dialog.c:245
+msgid "Print to file:"
+msgstr "Испечати во датотека:"
+
+#: ../xfprint/print_dialog.c:275
+msgid "Sheets"
+msgstr "Лисја"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Virtual pages"
+msgstr "Виртуелни страници"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Pretty-printing"
+msgstr "Секси-штампа"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Input"
+msgstr "Внес"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Headings"
+msgstr "Заглавија"
+
+#: ../xfprint/print_dialog.c:304
+msgid "Copies:"
+msgstr "Копии:"
+
+#: ../xfprint/print_dialog.c:311
+msgid "Apply filters"
+msgstr "Примени филтри"
+
+#: ../xfprint/print_dialog.c:366
+msgid ""
+"Neither the printing system backend or a2ps could be found on your system, "
+"you won't be able to print a file with xfprint !"
+msgstr ""
+"Ниту бекенд системот за печатење ниту a2ps може да биде пронајдено на твојот систем, "
+"нема да бидете во можност да испечатите датотека со xfprint !"
+
+#: ../xfprint/print_dialog.c:484
+msgid "An error occurred while trying to print the file"
+msgstr "Се појави грешка при обидот да се испечати датотеката"
+
+#: ../xfprint/print_dialog.c:521
+msgid "Select file where to print"
+msgstr "Избери датотека каде да печатам"
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "Големина на хартијата"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "Портрет"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "Пејсаж"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "Колони:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "Прво пополни ги колоните"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "Прво пополни ги редиците"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "Редици:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "Испечати граници околу колоните"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "Испечати ги страниците во обратен редослед"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "Број на редови:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "Редови по страна:"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "Знаци по страна:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "Големина на табулација:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "Нема формат кој може да се печати:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr "Ви дозволува да изберете бекенд на системот за печатење што ќе го користи xfprint"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+msgid "Printing System Settings"
+msgstr "Поставувања на системот за печатење"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+msgid "Xfce 4 Printing System Settings"
+msgstr "Поставувања на системот за печатење Xfce 4"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+msgid "Print Manager"
+msgstr "Менаџер за печатење"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr "Прикажи листа со печатачи и дозвола за уредување на нивните печатења"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+msgid "Xfce 4 Print Manager"
+msgstr "Xfce 4 Менаџер за печатење"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "Дијалог прозорец за печатење"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr "Испечати датотека и дозвола да подесите нивен распоред"
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "Xfce 4 Дијалог прозорец за печатење"
+

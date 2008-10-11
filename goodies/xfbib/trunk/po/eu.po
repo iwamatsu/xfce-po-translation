@@ -1,0 +1,260 @@
+# translation of xfbib.po to Euskara
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Piarres Beobide <pi@beobide.net>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfbib\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-30 19:16+0200\n"
+"PO-Revision-Date: 2008-09-12 13:24+0200\n"
+"Last-Translator: Piarres Beobide <pi@beobide.net>\n"
+"Language-Team: Euskara <debian-l10n-basque@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../src/about_dialog.c:28
+msgid "Developers:"
+msgstr "Garatzaileak:"
+
+#: ../src/about_dialog.c:38
+msgid "BibTeX editor for Xfce"
+msgstr "BibTeX Xfce editora"
+
+#: ../src/entry_edit_dialog.c:304
+msgid "Key used when citing the publication"
+msgstr "Argitalpen bat zitatzean erbialiko den gakoa"
+
+#: ../src/entry_edit_dialog.c:327
+msgid "Type: "
+msgstr "Mota: "
+
+#: ../src/entry_edit_dialog.c:330
+msgid "Key: "
+msgstr "Tekla: "
+
+#: ../src/entry_edit_dialog.c:449
+msgid "Address of publisher"
+msgstr "Argitalpenaren helbidea"
+
+#: ../src/entry_edit_dialog.c:450
+msgid "Annotation for annotated bibliography styles"
+msgstr "Anotaturiko bibliogafia estiloen anotazioak"
+
+#: ../src/entry_edit_dialog.c:451
+msgid "Name(s) of the author(s), separated by 'and' if more than one"
+msgstr "Egileen izena(k), 'and'-ez bereizirik bat baino gehiago badago"
+
+#: ../src/entry_edit_dialog.c:452
+msgid "Title of the book, if only part of it is being cited"
+msgstr "Liburuaren izenburua, zati bat bakarrik zitatzen denean"
+
+#: ../src/entry_edit_dialog.c:453
+msgid "Chapter number"
+msgstr "Kapitulu zenbakia"
+
+#: ../src/entry_edit_dialog.c:454
+msgid "Citation key of the cross-referenced entry"
+msgstr "Zehar-erreferentziatutako sarreraren zitazio gakoa"
+
+#: ../src/entry_edit_dialog.c:455
+msgid "Edition of the book (such as \"first\" or \"second\")"
+msgstr "Liburuaren edizioa (\"lehenengoa\" edo \"bigarrena\" bezalakoa)"
+
+#: ../src/entry_edit_dialog.c:456
+msgid "Name(s) of the editor(s), separated by 'and' if more than one"
+msgstr "Editoraren izena(k), 'and'-ez bereizirik bat baino gehiago badago"
+
+#: ../src/entry_edit_dialog.c:457
+msgid "Specification of electronic publication"
+msgstr "Argitaratze elektronikoaren espezifikazioa"
+
+#: ../src/entry_edit_dialog.c:458
+msgid "Publishing method if the method is nonstandard"
+msgstr "Argitaratze metodoa metodoa ez bada estandarra"
+
+#: ../src/entry_edit_dialog.c:459
+msgid "Institution that was involved in the publishing"
+msgstr "Argitaratzean parte hartu duten instituzioak"
+
+#: ../src/entry_edit_dialog.c:460
+msgid "Journal or magazine in which the work was published"
+msgstr "Lan hau argitaratu den aldizkariaren zenbakia"
+
+#: ../src/entry_edit_dialog.c:461
+msgid ""
+"Hidden field used for specifying or overriding the alphabetical order of "
+"entries"
+msgstr "Sarreren orden alfabetikoa gainidazten duen zehazturiko ezkutatutako fitxategiak"
+
+#: ../src/entry_edit_dialog.c:462
+msgid "Month of publication or creation if unpublished"
+msgstr "Argitaratze hilabetea edo sortze hilabetea argitaratua ez badago"
+
+#: ../src/entry_edit_dialog.c:463
+msgid "Miscellaneous extra information"
+msgstr "Bestelako informazio gehigarria"
+
+#: ../src/entry_edit_dialog.c:464
+msgid "Number of journal, magazine, or tech-report"
+msgstr "Errebista, txosten-tekniko edo aldizkari zenbakia"
+
+#: ../src/entry_edit_dialog.c:465
+msgid "Sponsor of the conference"
+msgstr "Konferentziaren laguntzailea"
+
+#: ../src/entry_edit_dialog.c:466
+msgid "Page numbers separated by commas or double-hyphens"
+msgstr "Orrialde zenbakiak gakoz edo bi-puntueza bereizirik"
+
+#: ../src/entry_edit_dialog.c:467
+msgid "Name of publisher"
+msgstr "Argitaratzailearen izena"
+
+#: ../src/entry_edit_dialog.c:468
+msgid "School where thesis was written"
+msgstr "Tesisa idatzi den eskola"
+
+#: ../src/entry_edit_dialog.c:469
+msgid "Series of books in which the book was published"
+msgstr "Liburu hau argitaratu den liburu multzoak"
+
+#: ../src/entry_edit_dialog.c:470
+msgid "Title of the work"
+msgstr "Lanaren izenburua"
+
+#: ../src/entry_edit_dialog.c:471
+msgid "Type of technical report"
+msgstr "Txosten tekniko mota"
+
+#: ../src/entry_edit_dialog.c:472
+msgid "Internet address"
+msgstr "Internet helbidea"
+
+#: ../src/entry_edit_dialog.c:473
+msgid "Number of the volume"
+msgstr "Bolumenaren zenbakia"
+
+#: ../src/entry_edit_dialog.c:474
+msgid "Year of publication or creation if unpublished"
+msgstr "Argitalpen edo sortze data"
+
+#: ../src/entry_edit_dialog.c:478
+msgid "Add entry"
+msgstr "Gehitu sarrera"
+
+#: ../src/entry_edit_dialog.c:478
+msgid "Edit entry"
+msgstr "Editatu sarrera"
+
+#: ../src/entry_edit_dialog.c:498
+msgid "Toggle case sensitivity."
+msgstr "Txandakatu maikuskula/minuskulak"
+
+#: ../src/entry_edit_dialog.c:544 ../src/treeview.c:144
+msgid "Title"
+msgstr "Izenburua"
+
+#: ../src/entry_edit_dialog.c:545
+msgid "Author/Editor"
+msgstr "Egilea/Editorea"
+
+#: ../src/entry_edit_dialog.c:546
+msgid "Publication"
+msgstr "Argitarapena"
+
+#: ../src/entry_edit_dialog.c:547
+msgid "Publisher"
+msgstr "Argitaratzailea"
+
+#: ../src/entry_edit_dialog.c:548
+msgid "Misc"
+msgstr "Hainbat"
+
+#: ../src/entry_edit_dialog.c:592
+msgid "No type was selected"
+msgstr "Ez da motarik hautatu"
+
+#: ../src/entry_edit_dialog.c:596
+msgid "No key was selected"
+msgstr "Ez da gakorik hautatu"
+
+#: ../src/menubar.c:159
+msgid "File"
+msgstr "Fitxategia"
+
+#: ../src/menubar.c:201
+msgid "E_ntry"
+msgstr "Sa_rrera"
+
+#: ../src/menubar.c:224 ../src/treeview.c:117
+msgid "Variable"
+msgstr "Aldakorra"
+
+#: ../src/menubar.c:247
+msgid "_View"
+msgstr "_Ikusi"
+
+#: ../src/menubar.c:249
+msgid "Show _Toolbar"
+msgstr "Ikusi _tresna-barra"
+
+#: ../src/menubar.c:253
+msgid "Show _Variable List"
+msgstr "Ikusi al_dagai zerrenda"
+
+#: ../src/menubar.c:274
+msgid "Help"
+msgstr "Laguntza"
+
+#: ../src/open.c:41
+msgid " loaded..."
+msgstr " kargaturik..."
+
+#: ../src/open_dialog.c:37
+msgid "Open"
+msgstr "Ireki"
+
+#: ../src/open_dialog.c:43 ../src/save_dialog.c:39
+msgid "BibTeX files"
+msgstr "BibTeX fitxategiak"
+
+#: ../src/open_dialog.c:49 ../src/save_dialog.c:43
+msgid "All files"
+msgstr "Fitxategi guztiak"
+
+#: ../src/save_dialog.c:33
+msgid "Save As"
+msgstr "Gorde honela"
+
+#: ../src/string_edit_dialog.c:42
+msgid "Variable name: "
+msgstr "Aldagai izena: "
+
+#: ../src/string_edit_dialog.c:42
+msgid "Value: "
+msgstr "Balioa: "
+
+#: ../src/string_edit_dialog.c:45
+msgid "Add variable"
+msgstr "Gehitu aldagaia"
+
+#: ../src/string_edit_dialog.c:45
+msgid "Edit variable"
+msgstr "Editatu aldagaia"
+
+#: ../src/treeview.c:144
+msgid "Key"
+msgstr "Gakoa"
+
+#: ../src/treeview.c:144
+msgid "Type"
+msgstr "Mota"
+
+#: ../src/treeview.c:144
+msgid "Author"
+msgstr "Egilea"
+

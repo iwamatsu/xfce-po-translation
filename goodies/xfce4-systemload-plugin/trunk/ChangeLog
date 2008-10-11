@@ -1,0 +1,283 @@
+2008-09-21 Mike Massonnet
+
+	* Fix build for libtool 2.2 (or at least for ArchLinux)
+
+2007-01-17 Nick Schermer
+
+	* Remove the xfce_framebox code and replace it with gtk_notebook.
+	* Bump version for release.
+
+2007-01-09 Nick Schermer
+
+	* Fix build problems with -as-needed (Bug 2461)
+
+2007-01-05 Mike Massonnet
+
+	* panel-plugin/systemload.c(monitor_create_options): use xfce titled
+	  dialog for the options.
+
+2005-01-15 11:53  ricpersi
+
+	* aclocal.m4, compile, config.guess, config.sub, configure.ac,
+	depcomp, install-sh, ltmain.sh, missing: Version bump.
+
+2005-01-15 11:37  ricpersi
+
+	* AUTHORS, README: Reverted AUTHORS and README.
+
+2005-01-13 22:06  bwalle
+
+	* po/de.po: New version (minor change)
+
+2005-01-13 21:51  bwalle
+
+	* po/de.po, po/hu.po, po/lt.po, po/uk.po, po/xfce4-systemload.pot,
+	aclocal.m4, compile, config.guess, config.sub, depcomp, install-sh,
+	ltmain.sh, missing, mkinstalldirs: New version
+
+2005-01-13 21:49  bwalle
+
+	* po/ca.gmo, po/de.gmo, po/hu.gmo, po/lt.gmo, po/uk.gmo,
+	panel-plugin/Makefile.in, Makefile.in, configure: Removed generated
+	files
+
+2005-01-13 21:47  bwalle
+
+	* ChangeLog, configure.ac, po/ca.po: New version
+
+2005-01-13 21:47  bwalle
+
+	* AUTHORS, README: Chaned maintainer name to me
+
+2005-01-13 21:47  bwalle
+
+	* panel-plugin/systemload.c: Decreased size for Xfce 4.2
+
+2004-07-28 23:49  benny
+
+	* m4/depends.m4: Fix BM_DEPEND_CHECK().
+
+2004-07-24 19:30  benny
+
+	* m4/depends.m4: Correct min. required panel version.
+
+2004-07-24 19:27  benny
+
+	* m4/depends.m4: Extended XFCE_PANEL_PLUGIN macro to honor the new
+	threaded panel.
+
+2004-07-21 11:00  benny
+
+	* m4/depends.m4: New panel plugin check
+
+2003-11-14 08:05  huysmans
+
+	* po/ca.gmo: missing gmo file
+
+2003-11-13 20:11  ricpersi
+
+	* ChangeLog, Makefile.in, aclocal.m4, config.guess, config.sub,
+	configure, configure.ac, depcomp, install-sh, ltmain.sh,
+	panel-plugin/Makefile.in, panel-plugin/uptime.c: Version bump, plus
+	one fix for FreeBSD spotted out by Michelle
+	<shadoe@shadoegrounds.com>.
+
+2003-11-11 10:47  benny
+
+	* panel-plugin/cpu.c: NetBSD/FreeBSD/OpenBSD 64bit fixes: int ->
+	size_t with sysctl(3) lengths, thanks to martti.
+
+2003-11-06 01:39  benny
+
+	* panel-plugin/memswap.c: NetBSD 2.0/-current fixes.
+
+2003-11-03 18:40  huysmans
+
+	* aclocal.m4, configure, configure.ac, po/de.gmo, po/uk.gmo,
+	po/uk.po: Add Ukranian translations
+
+2003-10-28 20:01  ricpersi
+
+	* ChangeLog: Update ChangeLog.
+
+2003-10-28 20:00  ricpersi
+
+	* panel-plugin/cpu.c: Some more OpenBSD changes from Jan Lindblom
+	<cl0wn@ludd.luth.se>.
+
+2003-10-27 19:21  ricpersi
+
+	* ChangeLog: Update ChangeLog.
+
+2003-10-27 19:15  ricpersi
+
+	* AUTHORS, README, panel-plugin/cpu.c, panel-plugin/cpu.h,
+	panel-plugin/memswap.c, panel-plugin/memswap.h,
+	panel-plugin/systemload.c, panel-plugin/uptime.c,
+	panel-plugin/uptime.h: Improved FreeBSD support, thanks to Thorsten
+	Greiner <thorsten.greiner@web.de>. Improved OpenBSD support, thanks
+	to Jan Lindblom <cl0wn@ludd.luth.se>. Some other cleanups.
+
+2003-08-16 13:37  benny
+
+	* Makefile.in, aclocal.m4, config.h.in, configure, ltmain.sh,
+	panel-plugin/Makefile.in: Ups, wrong libtool with last commit.
+
+2003-08-16 13:34  benny
+
+	* Makefile.in, aclocal.m4, config.h.in, configure, configure.ac,
+	ltmain.sh, panel-plugin/Makefile.in, po/lt.gmo, po/lt.po: Added
+	lithuanian translations.
+
+2003-08-15 16:07  bwalle
+
+	* po/ca.po, configure.ac: Added Catalan translation.  Translator
+	was Carles Muñoz Gorriz <carlesmu@ya.com>.
+
+2003-08-15 13:34  bwalle
+
+	* panel-plugin/Makefile.am: Added constant so that
+	xfce_textdomain() works in systemload.c
+
+2003-08-15 13:33  bwalle
+
+	* panel-plugin/systemload.c: Fixed i18n problems: - Added
+	xfce_textdomain call - Added one _() call where it was forgotten
+
+2003-08-15 13:32  bwalle
+
+	* po/de.po: Updated German translation
+
+2003-08-04 12:08  benny
+
+	* ChangeLog, Makefile.in, panel-plugin/memswap.c, po/de.gmo,
+	po/de.po, po/hu.gmo, po/hu.po, po/xfce4-systemload.pot: Make this
+	work on FreeBSD.
+
+2003-07-23 18:20  benny
+
+	* ChangeLog: Updated ChangeLog.
+
+2003-07-23 18:20  benny
+
+	* po/de.gmo: Updated.
+
+2003-07-23 18:19  benny
+
+	* NEWS, configure, configure.ac, po/POTFILES.in, po/de.po,
+	po/hu.gmo, po/hu.po, po/xfce4-systemload.pot: Added hungarian
+	translations.
+
+2003-07-21 23:39  benny
+
+	* configure, panel-plugin/Makefile.in, panel-plugin/uptime.c: Small
+	netbsd fix, autotools update.
+
+2003-07-21 23:29  ricpersi
+
+	* configure.ac, panel-plugin/Makefile.am,
+	panel-plugin/systemload.c, panel-plugin/uptime.c,
+	panel-plugin/uptime.h: Added uptime monitor.
+
+2003-07-21 18:24  benny
+
+	* ChangeLog: Updated ChangeLog.
+
+2003-07-21 18:23  benny
+
+	* ChangeLog, configure.ac, panel-plugin/cpu.c,
+	panel-plugin/memswap.c, panel-plugin/systemload.c, po/POTFILES.in,
+	po/de.gmo, po/de.po, po/xfce4-systemload.pot: Make this compile
+	with --enable-debug=full on NetBSD.  Fix untranslated strings. 
+	Updated german translation.
+
+2003-07-21 11:44  ricpersi
+
+	* ChangeLog, panel-plugin/systemload.c: Removed unused var.
+
+2003-07-20 12:15  ricpersi
+
+	* ChangeLog, panel-plugin/systemload.c: Corrected swap tooltip to
+	display size in Mb not in Kb.
+
+2003-07-20 11:38  ricpersi
+
+	* ChangeLog, panel-plugin/memswap.c, panel-plugin/memswap.h,
+	panel-plugin/systemload.c: Readded tooltips for each monitor.
+
+2003-07-20 01:52  ricpersi
+
+	* ChangeLog, panel-plugin/systemload.c: fixed a small but important
+	check.
+
+2003-07-20 01:28  benny
+
+	* panel-plugin/systemload.c: add_options -> create_options
+
+2003-07-19 19:11  benny
+
+	* configure, panel-plugin/Makefile.in: Generate new configure after
+	configure.ac was changed.
+
+2003-07-19 19:08  ricpersi
+
+	* ChangeLog, configure.ac, panel-plugin/Makefile.am,
+	panel-plugin/cpu.c, panel-plugin/cpu.h, panel-plugin/memswap.c,
+	panel-plugin/memswap.h, panel-plugin/systemload.c: Added ability to
+	hide monitor. Added memory and swap monitors. The plugin changes
+	layout depending on panel orientation. Removed HPUX and AIX
+	support.
+
+2003-07-19 08:51  benny
+
+	* Makefile.am, Makefile.in, configure, configure.ac, po/ChangeLog,
+	po/de.gmo, po/de.po, po/xfce4-systemload.pot: Fixed broken i18n
+	support.
+
+2003-07-18 20:17  benny
+
+	* ChangeLog, configure, configure.ac: Make this depend on the
+	latest panel.
+
+2003-07-18 17:59  huysmans
+
+	* panel-plugin/systemload.c: Change panel API again to prevent old
+	plugins to crash the panel
+
+2003-07-17 21:37  benny
+
+	* ChangeLog: Updated ChangeLog.
+
+2003-07-17 21:27  benny
+
+	* Makefile.in, aclocal.m4, config.guess, config.sub, configure,
+	depcomp, install-sh, ltcf-c.sh, ltconfig, ltmain.sh,
+	panel-plugin/Makefile.in: Remove autogenerated libtool files.
+
+2003-07-17 19:56  benny
+
+	* ChangeLog: Added ChangeLog.
+
+2003-07-17 19:06  benny
+
+	* AUTHORS, COPYING, INSTALL, Makefile.am, autogen.sh, configure.ac,
+	config.guess, config.sub, ltconfig, ltcf-c.sh, ltmain.sh,
+	aclocal.m4, config.h.in, install-sh, missing, mkinstalldirs,
+	Makefile.in, compile, depcomp, README, configure, m4/debug.m4,
+	m4/depends.m4, m4/i18n.m4, panel-plugin/Makefile.am,
+	panel-plugin/Makefile.in, panel-plugin/cpu.c, panel-plugin/cpu.h,
+	panel-plugin/systemload.c, po/Makefile.in.in, po/POTFILES.in,
+	po/xfce4-systemload.pot: Initial import of riccardos system load
+	panel plugin.
+
+2003-07-17 19:06  benny
+
+	* AUTHORS, COPYING, INSTALL, Makefile.am, autogen.sh, configure.ac,
+	config.guess, config.sub, ltconfig, ltcf-c.sh, ltmain.sh,
+	aclocal.m4, config.h.in, install-sh, missing, mkinstalldirs,
+	Makefile.in, compile, depcomp, README, configure, m4/debug.m4,
+	m4/depends.m4, m4/i18n.m4, panel-plugin/Makefile.am,
+	panel-plugin/Makefile.in, panel-plugin/cpu.c, panel-plugin/cpu.h,
+	panel-plugin/systemload.c, po/Makefile.in.in, po/POTFILES.in,
+	po/xfce4-systemload.pot: Initial revision
+

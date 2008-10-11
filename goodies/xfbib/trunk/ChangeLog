@@ -1,0 +1,21 @@
+2008-03-30: Release 0.0.2
+	* po/hu.po
+		- Initial hungarian translation.
+	* po/sv.po
+		- Initial swedish translation.
+	* src/parser.y
+		- Added support for parsing latex commands.
+		- The parser now checks if a entry should be case sensitive or not.
+	* src/*
+		- Added support for variables.
+		- Added ability to make entries case sensitive.
+	* src/statusbar.c
+		- The statusbar now shows when a file is opened and saved.
+	* src/entry_edit_dialog.c
+		- Changed the input of author and editor to lists instead of entry boxes.
+		- Initial BibTeX key generation.
+	* */*
+		- Some bug fixes.
+
+2008-02-18: Release 0.0.1
+	* */*: Initial release

@@ -1,0 +1,4 @@
+* Support for multiple channels (for instance only "security" upgrades)
+
+* Rewrite external Xfce plugin (program) as internal, to save memory
+

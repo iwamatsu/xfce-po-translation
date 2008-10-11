@@ -1,0 +1,82 @@
+xfburn 0.3.3 (2008-XX-XX)
+============-------------
+
+- Burn audio CDs from uncompressed CD audio .wav files
+- Allow drags and drop from file managers like Thunar (text/uri-list target)
+- Require HAL if compiled with HAL support
+- Try to unmount a drive if it is not accessible (requires thunar-vfs)
+- Build list of drives initially from HAL, then fill in details using libburn
+  once the burn dialog shows up
+
+xfburn 0.3.2 (2008-07-15)
+============-------------
+
+- Also set burn speed when burning an image
+- Fix bug which would complain about missing speed list when blanking
+  after the question from the burn composition dialog
+- Bugfix: wait in main() to let the dialogs run when there is no main 
+  window
+- Update many translations
+
+xfburn 0.3.1 (2008-07-10)
+============-------------
+
+- Implemented basic CLI options
+- Actually set speed in burn backend
+
+  WARNING: my dvd test burn failed if a speed was set!! CD was ok though.
+
+  Use "Max" as speed if that is the case for you to get the old behavior,
+  and _please_ report this as a bug! Please include the console output if
+  debug is enabled, or otherwise some info on the burner that was used.
+- Use fifo buffering, default is 4MB, adjustable in the preferences
+- Preserve file attributes
+- Now using threads for adding files, and the adding can get aborted
+- If the burning dialog comes up with a full but erasable disc in the drive,
+  prompt to show the blanking dialog
+
+xfburn 0.3.0
+============
+
+- Use new libisofs API
+- DVD burning
+- Formating and deformating of DVD-RW discs
+- Removed buttons for not yet working functionality
+- Use HAL to update disc status when a disc is inserted / removed
+- Disable "Burn composition" button where there is no files in composition
+
+- Use libburn (libburnia-project.org) instead of cdrecord tools
+- Avoid adding non regular files (bug #2179)
+- Directory are sort before files in data composition
+- Fix segfault when removing a file and one of its parent directory together
+- Try to use media-optical and media-cdrom as themable icon before gtk-cdrom in order to avoid crappy png icon being shown in Preferences dialog
+- Fix icon size in filesystem browser
+- Add icons for actions based on icons from the Tango icontheme
+- Detect and sort supported write speeds (#4012)
+- Add support for writing ISO from a composition using libburn
+- Add support for burning a composition using libburn
+- Use correct cdrom size (bug #2753)
+- Add new icons based on icons from the Tango icontheme
+- List columns are resizable now (bug #2930)
+
+xfburn 0.2.0beta
+================
+
+- Use g_type_class_add_private everywhere
+- Data composition and file browser use ExoTreeView instead of GtkTreeView
+- Add DnD inside data composition
+- Prevent having two 'New directory' entries in a data composition
+- Add support of SAO mode (bug #2121)
+- Add create directory action in data composition
+- Prevent usage of empty filename in data composition
+- Fix xfburn.desktop Categories entry as suggested by Charles A Edwards <eslrahc@bellsouth.net>
+- Implement the add button in the data composition toolbar (bug #2097)
+- Avoid segfault on exit when ~/.config/xfburn doesn't exist (bug #2095)
+- Prevent cdrecord failure if there is a space in the path to an iso (bug #1198)
+
+xfburn 0.1.0alpha
+=================
+
+- First public release
+- Supports cdrw blanking, cd copying, creating iso, composition of files
+

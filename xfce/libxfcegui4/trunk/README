@@ -1,0 +1,13 @@
+NOTES for XFree86 users:
+------------------------
+If you are running XFree86, it is most likely, that you have only a static
+variant of libXinerama installed. That might prevent you from using Xinerama
+with XFce4 at all. So, in order to create a shared variant of -lXinerama,
+become root and type the following commands:
+
+	cd /usr/X11R6/lib
+	ld --whole-archive -share -o libXinerama.so.1 libXinerama.a
+	ln -s libXinerama.so.1 libXinerama.so
+
+After that you need to rebuild and reinstall the whole XFce4 desktop.
+If you have any problems with the above, please mail to benny@xfce.org.

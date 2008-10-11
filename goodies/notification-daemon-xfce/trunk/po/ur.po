@@ -1,0 +1,77 @@
+# translation of notification-daemon-xfce.po to librezale
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: notification-daemon-xfce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-10-22 17:38+0200\n"
+"PO-Revision-Date: 2007-10-29 09:41+0500\n"
+"Last-Translator: Muhammad Ali Makki <makki.ma@gmail.com>\n"
+"Language-Team: Urdu <makki.ma@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Urdu\n"
+"X-Poedit-Country: PAKISTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../src/settings/main.c:64
+msgid "Top Left"
+msgstr "اوپر بائیں"
+
+#: ../src/settings/main.c:65
+msgid "Top Right"
+msgstr "اوپر دائیں"
+
+#: ../src/settings/main.c:66
+msgid "Bottom Left"
+msgstr "نیچے بائیں"
+
+#: ../src/settings/main.c:67
+msgid "Bottom Right"
+msgstr "نیچے دائیں"
+
+#. create new preview notification
+#: ../src/settings/main.c:188
+msgid "Preview notification"
+msgstr "اطلاعیہ معائنہ"
+
+#: ../src/settings/main.c:189
+msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr "Lorem Ipsum طباعت اور ٹائپ سیٹنگ انڈسٹری کا ڈمی متن ہے"
+
+#: ../src/settings/main.c:324
+#: ../src/settings/notification-settings.desktop.in.h:2
+msgid "Notification Settings"
+msgstr "اطلاعیہ ترتیبات"
+
+#: ../src/settings/main.c:330
+msgid "Configure the Xfce notification daemon"
+msgstr "ایکسفس اطلاعیہ daemon وضع کریں"
+
+#: ../src/settings/main.c:340
+msgid "Notification _position:"
+msgstr "اطلاعیہ _پوزیشن:"
+
+#: ../src/settings/main.c:370
+msgid "Pre_view"
+msgstr "م_عائنہ"
+
+#: ../src/settings/mcs_plugin.c:41
+msgid "Failed to launch notification-settings"
+msgstr "اطلاعیہ ترتیبات چلانے میں ناکامی"
+
+#: ../src/settings/mcs_plugin.c:61
+msgid "Button Label|Notification Settings"
+msgstr "اطلاعیہ ترتیبات"
+
+#: ../src/settings/notification-settings.desktop.in.h:1
+msgid "Customize the notification daemon settings"
+msgstr "اطلاعیہ daemon کی ترتیبات وضع کریں"
+
+#: ../src/settings/notification-settings.desktop.in.h:3
+msgid "Xfce 4 Notification Settings"
+msgstr "ایکسفس 4 اطلاعیہ ترتیبات"
+

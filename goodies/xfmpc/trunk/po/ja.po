@@ -1,0 +1,80 @@
+# Japanese translations for xfmpc package
+# Copyright (C) 2008 the xfmpc's copyright holder
+# This file is distributed under the same license as the xfmpc package.
+# Nobuhiro Iwamatsu <iwamatsu@nigauri.org>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfmpc 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-08-25 21:50+0200\n"
+"PO-Revision-Date: 2008-10-10 03:12+0900\n"
+"Last-Translator: Nobuhiro Iwamatsu <iwamatsu@nigauri.org>\n"
+"Language-Team: JAPANESE <xfce-i18n@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-Country: JAPAN\n"
+
+#: ../src/extended-interface.c:155
+msgid "Clear Playlist"
+msgstr "プレイリストのクリア"
+
+#: ../src/extended-interface.c:165
+msgid "Refresh Database"
+msgstr "データベースの更新"
+
+#: ../src/extended-interface.c:175
+msgid "Context Menu"
+msgstr "コンテキストメニュー"
+
+#: ../src/extended-interface.c:206
+msgid "Current Playlist"
+msgstr "現在のプレイリスト"
+
+#: ../src/extended-interface.c:209
+msgid "Browse database"
+msgstr "データベースを表示"
+
+#: ../src/extended-interface.c:285
+msgid "Repeat"
+msgstr "リピート"
+
+#: ../src/extended-interface.c:292
+msgid "Random"
+msgstr "ランダム"
+
+#: ../src/interface.c:169
+#: ../src/interface.c:375
+msgid "Not connected"
+msgstr "接続されません。"
+
+#. subtitle "by \"artist\" from \"album\" (year)"
+#: ../src/interface.c:406
+#, c-format
+msgid "by \"%s\" from \"%s\" (%s)"
+msgstr "\"%s\" の \"%s\" (%s)"
+
+#: ../src/interface.c:452
+msgid "Stopped"
+msgstr "停止"
+
+#: ../src/mpdclient.c:483
+#: ../src/mpdclient.c:513
+#: ../src/mpdclient.c:528
+msgid "n/a"
+msgstr "該当なし"
+
+#: ../xfmpc.desktop.in.h:1
+msgid "MPD client"
+msgstr "MPD クライアント"
+
+#: ../xfmpc.desktop.in.h:2
+msgid "MPD client written in GTK+ for Xfce"
+msgstr "Xfce のために GTK+ で書かれたMPDクライアント"
+
+#: ../xfmpc.desktop.in.h:3
+msgid "Xfmpc"
+msgstr "Xfmpc"
+

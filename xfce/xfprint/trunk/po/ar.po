@@ -1,0 +1,499 @@
+# Arabic translation of xfprint.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfprint package.
+# Saleh Alhathal <hathalsal@hotmail.com>, 2004.
+# Ahmad Farghal <ahmad.farghal@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-20 18:56+0100\n"
+"PO-Revision-Date: 2007-01-24 21:13+0200\n"
+"Last-Translator: Ahmad Farghal <ahmad.farghal@gmail.com>\n"
+"Language-Team: Arabeyes Translation & Documentation <admin@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Arabic\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "طابعة"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "إنهاء"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "إنهاء xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "حول"
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "حول xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "عرض معلومات حول xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:134
+msgid "Printer manager"
+msgstr "مدير الطابعات"
+
+#: ../libxfprint/printer-list-window.c:200
+msgid "Alias name"
+msgstr "إسم مستعار"
+
+#: ../libxfprint/printer-list-window.c:204
+#: ../libxfprint/printer-queue-window.c:212
+msgid "State"
+msgstr "الحالة"
+
+#: ../libxfprint/printer-list-window.c:258
+msgid "Xfprint printers manager"
+msgstr "مدير الطابعات Xfprint"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:263
+msgid "Former maintainer"
+msgstr "المشرف السابق"
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Maintainer"
+msgstr "المشرف"
+
+#: ../libxfprint/printer-list-window.c:327
+msgid "Unknown"
+msgstr "غير معروف"
+
+#: ../libxfprint/printer-list-window.c:330
+msgid "Idle"
+msgstr "عاطل"
+
+#: ../libxfprint/printer-list-window.c:333
+msgid "Processing"
+msgstr "جاري المعالجة"
+
+#: ../libxfprint/printer-list-window.c:336
+msgid "Stopped"
+msgstr "متوقف"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "أغلق"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "أغلق نافذة الاصطفاف"
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr "مهام"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:380
+#: ../libxfprint/printer-queue-window.c:384
+msgid "Remove job"
+msgstr "أزِل المهمة"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "أزل المهمة المنتقاه من الاصطفاف"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "أنعش"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "أنعش الاصطفاف"
+
+#: ../libxfprint/printer-queue-window.c:121
+#: ../libxfprint/printer-queue-window.c:533
+msgid "Queue Manager"
+msgstr "مدير الاصطفاف"
+
+#: ../libxfprint/printer-queue-window.c:202
+msgid "Name"
+msgstr "الاسم"
+
+#: ../libxfprint/printer-queue-window.c:206
+msgid "ID"
+msgstr "الهوية"
+
+#: ../libxfprint/printer-queue-window.c:209
+msgid "User"
+msgstr "المستخدم"
+
+#: ../libxfprint/printer-queue-window.c:215
+msgid "Size"
+msgstr "الحجم"
+
+#: ../libxfprint/printer-queue-window.c:218
+msgid "Priority"
+msgstr "الأهمية"
+
+#: ../libxfprint/printer-queue-window.c:221
+msgid "Creation time"
+msgstr "وقت الإنشاء"
+
+#: ../libxfprint/printer-queue-window.c:224
+msgid "Processing time"
+msgstr "وقت المعالجة"
+
+#: ../libxfprint/printer-queue-window.c:377
+msgid "Are you sure you want to remove the job "
+msgstr "هل أنت متأكد أنك تريد إزالة المهمة"
+
+#: ../libxfprint/printer-queue-window.c:383
+msgid "Don't remove job"
+msgstr "لا تزل المهمة"
+
+#: ../libxfprint/printer-queue-window.c:390
+msgid "An error occurred while removing job !"
+msgstr "حدث خطأ أثناء إزالة المهمة !"
+
+#: ../libxfprint/printer-queue-window.c:441
+msgid "pending"
+msgstr "مُعلَّق"
+
+#: ../libxfprint/printer-queue-window.c:444
+msgid "printing"
+msgstr "جاري الطباعة"
+
+#: ../libxfprint/printer-queue-window.c:447
+msgid "Kb"
+msgstr "كب"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "نظام الطباعة"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "طباعة انتقاء النظام"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "معلومات"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "الوصف"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "الإصدار"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "المؤلف"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "الصفحة الرئيسية"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "بدون"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr "استخدام هذا الطرف الخلفي ان كنت تريد طباعة ملف فقط."
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "دعم نظام طباعة BSD-LPR لـXfprint"
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr "دعم نظام طباعة CUPS لـXfprint"
+
+#: ../printing-systems/cups/cups.c:48
+msgid "Set as default printer"
+msgstr "تعيين كطابعة افتراضية"
+
+#: ../printing-systems/cups/cups.c:49
+msgid "Set as default CUPS printer"
+msgstr "تعيين كطابعة CUPS افتراضية"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "خصائص"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "أظهر خصائص الطابعة"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "المستخدم :"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "كلمة المرور :"
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr "يجب ان توفر اسم المستخدم !"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "اطبع الترويسات"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "ترويسة:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "طبقة تحتية:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "العنوان المتوسط:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "العنوان الأيسر:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "العنوان الأيمن:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "الترويسة المتوسطة:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "الترويسة اليسرى:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "الترويسة اليمنى:"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "ترميز:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "اطبع كل الصفحات"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "اطبع الصفحات من إلى"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "بتر السطور الطويلة"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "تفسير محارف TAB، و BS، و FF"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "فرض الطباعة الثنائية"
+
+#: ../xfprint/main.c:113
+msgid "Select file to print"
+msgstr "إختر ملفاً للطباعة"
+
+#: ../xfprint/main.c:125
+msgid "The specified file does not exist"
+msgstr "الملف المحدد غير موجود"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "اللغة:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "مستوى التمييز:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "مستوى التجريد:"
+
+#: ../xfprint/print_dialog.c:199
+msgid "Save settings"
+msgstr "حفظ اﻹعدادات"
+
+#: ../xfprint/print_dialog.c:207
+msgid "Xfprint"
+msgstr "Xfprint"
+
+#: ../xfprint/print_dialog.c:215
+msgid "Print to:"
+msgstr "طباعة إلى:"
+
+#: ../xfprint/print_dialog.c:245
+msgid "Print to file:"
+msgstr "طباعة إلى ملف:"
+
+#: ../xfprint/print_dialog.c:275
+msgid "Sheets"
+msgstr "ورق"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Virtual pages"
+msgstr "صفحات ظاهرية"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Pretty-printing"
+msgstr "طباعة جميلة"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Input"
+msgstr "دخل"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Headings"
+msgstr "ترويسات"
+
+#: ../xfprint/print_dialog.c:304
+msgid "Copies:"
+msgstr "نسخ:"
+
+#: ../xfprint/print_dialog.c:311
+msgid "Apply filters"
+msgstr "تطبيق المرشحات"
+
+#: ../xfprint/print_dialog.c:366
+msgid ""
+"Neither the printing system backend or a2ps could be found on your system, "
+"you won't be able to print a file with xfprint !"
+msgstr ""
+"غير قادر على إيجاد طرف نظام الطباعة الخلفي ولا على إيجاد a2ps في نظامك، لن "
+"تسطيع طباعة ملف باستخدام xfprint !"
+
+#: ../xfprint/print_dialog.c:484
+msgid "An error occurred while trying to print the file"
+msgstr "حدث خطأ أثناء محاولة طباعة الملف"
+
+#: ../xfprint/print_dialog.c:521
+msgid "Select file where to print"
+msgstr "إختر ملف للطباعة إليه"
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "حجم الورق:"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "طولي"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "عرضي"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "أعمدة:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "ملء اﻷعمدة أوﻻ"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "ملء الصفوف أولا"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "صفوف:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "طباعة حدود حول الأعمدة"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "طباعة الصفحات بترتيب عكسي"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "أرقام اﻷسطر:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "عدد اﻷسطر بالصفحة:"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "عدد المحارف في كل سطر:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "حجم الجدولة:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "هيئة غير قابلة للطباعة:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr "السماح لك بانتقاء طرف نظام الطباعة الخلفي الذي سيستخدمه xfprint"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+msgid "Printing System Settings"
+msgstr "إعدادات نظام الطباعة"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+msgid "Xfce 4 Printing System Settings"
+msgstr "إعدادات نظام طباعة Xfce 4"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+msgid "Print Manager"
+msgstr "مدير الطباعة"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr "إظهار قائمة الطابعات والسماح لك بإدارة مهماتها"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+msgid "Xfce 4 Print Manager"
+msgstr "مدير طباعة Xfce 4"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "مربع حوار الطباعة"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr "طباعة ملف والسماح لك بتعديل تخطيطه"
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "مربع حوار طباعة Xfce 4"

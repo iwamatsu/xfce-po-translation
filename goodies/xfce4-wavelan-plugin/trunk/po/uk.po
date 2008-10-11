@@ -1,0 +1,66 @@
+# Ukrainian translation of xfce4-wavelan-plugin.
+# Copyright (C) 2003-2005 Benedikt Meurer.
+# This file is distributed under the same license as the xfce4-wavelan-plugin package.
+#
+# Dmitry Nikitin <luckas_fb@mail.ru>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-wavelan-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-31 15:20+0000\n"
+"PO-Revision-Date: 2008-07-14 14:09+0300\n"
+"Last-Translator: Dmitry Nikitin <luckas_fb@mail.ru>\n"
+"Language-Team: Ukrainian <xfce4-dev@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../panel-plugin/wavelan.c:198
+#, c-format
+msgid "No carrier signal"
+msgstr "Немає сигналу з'єднання"
+
+#: ../panel-plugin/wavelan.c:228
+msgid "No device configured"
+msgstr "Пристрій не налаштовано"
+
+#: ../panel-plugin/wavelan.c:535
+msgid "Properties"
+msgstr "Параметри"
+
+#: ../panel-plugin/wavelan.c:551
+msgid "Wavelan Plugin Options"
+msgstr "Опції плагіна Wavelan"
+
+#: ../panel-plugin/wavelan.c:567
+msgid "Interface"
+msgstr "Інтерфейс"
+
+#: ../panel-plugin/wavelan.c:589
+msgid "_Autohide when offline"
+msgstr "_Ховати автоматично за відсутності з'єднання"
+
+#: ../panel-plugin/wavelan.c:599
+msgid "Autohide when no hardware present"
+msgstr "Приховувати автоматично за відсутності фізичних пристроїв"
+
+#: ../panel-plugin/wavelan.c:610
+msgid ""
+"Note: This will make it difficult to remove or configure the plugin if there "
+"is no device detected."
+msgstr ""
+"Примітка: Це викличе труднощі для видалення чи налаштування плагіна, якщо    "
+"зараз не знайдено пристроїв."
+
+#: ../panel-plugin/wavelan.c:618
+msgid "Use a square icon"
+msgstr "Використовувати квадратний значок"
+
+#: ../panel-plugin/wavelan.desktop.in.in.h:1
+msgid "View the status of a wireless network"
+msgstr "Переглянути статус бездротової мережі"
+
+#: ../panel-plugin/wavelan.desktop.in.in.h:2
+msgid "Wavelan"
+msgstr "Бездротова мережа"

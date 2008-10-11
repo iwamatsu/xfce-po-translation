@@ -1,0 +1,13 @@
+Printing system support for the Xfce4 desktop environment.
+
+In order to print PostScript, you need to have the following software installed:
+
+	* a2ps (http://www.infres.enst.fr/~demaille/a2ps/)
+	* psutils (http://www.go.dlr.de:8081/pdinfo_dv/psutils.html)
+
+Provides:
+
+    * mcs-plugin to select the backend
+    * xfprint4 to print a file
+    * xfprint4-manager to manage printers and queues
+

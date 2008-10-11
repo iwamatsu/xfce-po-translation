@@ -1,0 +1,331 @@
+# Traditional Chinese translations for xfce4-sensors-plugin package.
+# Copyright (C) 2004-2005 Fabian Nowak.
+# This file is distributed under the same license as the xfce4-sensors-plugin package.
+# Hydonsingore Cia <hydonsingore@educities.edu.tw>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-sensors-plugin 0.9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-06-26 23:45+0200\n"
+"PO-Revision-Date: 2006-06-26 22:37+0800\n"
+"Last-Translator: Hydonsingore Cia <hydonsingore@educities.edu.tw>\n"
+"Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../panel-plugin/sensors.c:204 ../panel-plugin/sensors.c:788
+#, fuzzy
+msgid "<span foreground=\"#000000\"><b>Sensors</b></span>"
+msgstr "<span foreground=\"#000000\" size=\"%s\"><b>感測器</b></span>\n"
+
+#: ../panel-plugin/sensors.c:559
+#, c-format
+msgid "%5.1f °F"
+msgstr ""
+
+#. Celsius
+#. if (scale == FAHRENHEIT) {
+#. cf->formatted_value = g_strdup_printf(_("%5.1f °F"), (float) (value * 9/5 + 32) );
+#. } else { // Celsius
+#: ../panel-plugin/sensors.c:562 ../panel-plugin/hddtemp.c:444
+#, c-format
+msgid "%5.1f °C"
+msgstr ""
+
+#: ../panel-plugin/sensors.c:567
+#, c-format
+msgid "%+5.2f V"
+msgstr ""
+
+#: ../panel-plugin/sensors.c:571
+#, fuzzy, c-format
+msgid "%.0f mWh"
+msgstr "%5.0f rpm"
+
+#: ../panel-plugin/sensors.c:576
+msgid "off"
+msgstr ""
+
+#: ../panel-plugin/sensors.c:578
+msgid "on"
+msgstr ""
+
+#: ../panel-plugin/sensors.c:582
+#, c-format
+msgid "%5.0f rpm"
+msgstr "%5.0f rpm"
+
+#: ../panel-plugin/sensors.c:614
+msgid "No sensors selected!"
+msgstr "沒有感測器被選用！"
+
+#. FIXME: either print nothing, or undertake appropriate action,
+#. * or pop up a message box.
+#: ../panel-plugin/sensors.c:651 ../panel-plugin/sensors.c:1162
+#, fuzzy, c-format
+msgid ""
+"Xfce Hardware Sensors Plugin:\n"
+"Seems like there was a problem reading a sensor feature value.\n"
+"Proper proceeding cannot be guaranteed.\n"
+msgstr ""
+" \n"
+"Xfce 硬體感測外掛程式：\n"
+"在讀取感測器數值時似乎有點問題。\n"
+"無法保證能夠正常運作。\n"
+
+#: ../panel-plugin/sensors.c:931
+msgid "No sensors found!"
+msgstr "找不到感測器！"
+
+#: ../panel-plugin/sensors.c:1632
+#, fuzzy
+msgid "UI style:"
+msgstr "使用介面風格"
+
+#: ../panel-plugin/sensors.c:1633
+#, fuzzy
+msgid "_text"
+msgstr "文字"
+
+#: ../panel-plugin/sensors.c:1635
+#, fuzzy
+msgid "g_raphical"
+msgstr "圖形"
+
+#: ../panel-plugin/sensors.c:1672
+#, fuzzy
+msgid "Show _labels in graphical UI"
+msgstr "在圖形介面中顯示標籤"
+
+#: ../panel-plugin/sensors.c:1702
+msgid "Show colored _bars"
+msgstr ""
+
+#: ../panel-plugin/sensors.c:1730
+#, fuzzy
+msgid "_Show title"
+msgstr "顯示標題"
+
+#: ../panel-plugin/sensors.c:1758
+#, fuzzy
+msgid "Sensors t_ype:"
+msgstr "感測器類型："
+
+#: ../panel-plugin/sensors.c:1783
+msgid "Description:"
+msgstr ""
+
+#: ../panel-plugin/sensors.c:1820
+msgid "Name"
+msgstr "名稱"
+
+#: ../panel-plugin/sensors.c:1829
+msgid "Value"
+msgstr "數值"
+
+#: ../panel-plugin/sensors.c:1835
+msgid "Show"
+msgstr "顯示"
+
+#: ../panel-plugin/sensors.c:1844
+msgid "Color"
+msgstr "顏色"
+
+#: ../panel-plugin/sensors.c:1854
+msgid "Min"
+msgstr "最小"
+
+#: ../panel-plugin/sensors.c:1863
+msgid "Max"
+msgstr "最大"
+
+#: ../panel-plugin/sensors.c:1896
+#, fuzzy
+msgid "F_ont size:"
+msgstr "字型大小："
+
+#. gtk_widget_set_sensitive(myFontBox, !sd->sensors->display_values_graphically);
+#: ../panel-plugin/sensors.c:1903
+msgid "x-small"
+msgstr "極小"
+
+#: ../panel-plugin/sensors.c:1904
+msgid "small"
+msgstr "小"
+
+#: ../panel-plugin/sensors.c:1905
+msgid "medium"
+msgstr "普通"
+
+#: ../panel-plugin/sensors.c:1906
+msgid "large"
+msgstr "大"
+
+#: ../panel-plugin/sensors.c:1907
+msgid "x-large"
+msgstr "巨大"
+
+#: ../panel-plugin/sensors.c:1939
+#, fuzzy
+msgid "Temperature scale:"
+msgstr "温標："
+
+#: ../panel-plugin/sensors.c:1941
+#, fuzzy
+msgid "_Celsius"
+msgstr "攝氏"
+
+#: ../panel-plugin/sensors.c:1943
+#, fuzzy
+msgid "_Fahrenheit"
+msgstr "華氏"
+
+#: ../panel-plugin/sensors.c:1972
+#, fuzzy
+msgid "Show _Units"
+msgstr "顯示標題"
+
+#: ../panel-plugin/sensors.c:1993
+msgid "Small horizontal s_pacing"
+msgstr ""
+
+#: ../panel-plugin/sensors.c:2015
+msgid "Suppress messages"
+msgstr ""
+
+#: ../panel-plugin/sensors.c:2044
+#, fuzzy
+msgid "U_pdate interval (seconds):"
+msgstr "更新間隔時間(秒)："
+
+#: ../panel-plugin/sensors.c:2074
+#, fuzzy
+msgid "E_xecute on double click:"
+msgstr "於雙擊時執行："
+
+#: ../panel-plugin/sensors.c:2117
+msgid "_View"
+msgstr ""
+
+#: ../panel-plugin/sensors.c:2148
+#, fuzzy
+msgid "_Sensors"
+msgstr "感測器類型："
+
+#: ../panel-plugin/sensors.c:2176
+#, fuzzy
+msgid "_Miscellaneous"
+msgstr "<b>雜項</b>"
+
+#: ../panel-plugin/sensors.c:2225
+msgid "Edit Properties"
+msgstr "編輯屬性"
+
+#: ../panel-plugin/sensors.c:2232 ../panel-plugin/sensors.h:41
+msgid "Sensors Plugin"
+msgstr "感測器外掛程式"
+
+#. only use this if no hddtemp sensor
+#. or do only use this , if it is an lmsensors device. whatever.
+#. FIXME: compare strings, or also have hddtmep and acpi store numeric values
+#. assert correctly saved file
+#: ../panel-plugin/configuration.c:140 ../panel-plugin/configuration.c:317
+#: ../panel-plugin/configuration.c:324 ../panel-plugin/hddtemp.c:229
+#: ../panel-plugin/hddtemp.c:270 ../panel-plugin/hddtemp.c:275
+msgid "Hard disks"
+msgstr ""
+
+#: ../panel-plugin/acpi.c:412 ../panel-plugin/acpi.c:420
+msgid "ACPI"
+msgstr ""
+
+#. to be displayed
+#. chip->description = _("Advanced Configuration and Power Interface");
+#: ../panel-plugin/acpi.c:414
+#, c-format
+msgid "ACPI v%s zones"
+msgstr ""
+
+#: ../panel-plugin/acpi.c:517
+msgid "<Unknown>"
+msgstr ""
+
+#: ../panel-plugin/hddtemp.c:94
+#, fuzzy
+msgid "Xfce 4 Sensors Plugin"
+msgstr "感測器外掛程式"
+
+#: ../panel-plugin/hddtemp.c:274
+msgid "S.M.A.R.T. harddisk temperatures"
+msgstr ""
+
+#: ../panel-plugin/hddtemp.c:354
+#, c-format
+msgid ""
+"\"hddtemp\" was not executed correctly, although it is executable. This is "
+"most probably due to the disks requiring root privileges to read their "
+"temperatures, and \"hddtemp\" not being setuid root.\n"
+"\n"
+"An easy but dirty solution is to run \"chmod u+s %s\" as root user and "
+"restart this plugin or its panel.\n"
+"\n"
+"Calling \"%s\" gave the following error:\n"
+"%s\n"
+"with a return value of %d.\n"
+msgstr ""
+
+#: ../panel-plugin/hddtemp.c:364 ../panel-plugin/hddtemp.c:390
+msgid "Suppress this message in future"
+msgstr ""
+
+#: ../panel-plugin/hddtemp.c:388
+#, c-format
+msgid ""
+"An error occurred when executing \"%s\":\n"
+"%s"
+msgstr ""
+
+#: ../panel-plugin/lmsensors.c:77
+#, fuzzy
+msgid "LM Sensors"
+msgstr "感測器類型："
+
+#: ../panel-plugin/lmsensors.c:335 ../panel-plugin/lmsensors.c:382
+#, c-format
+msgid "Error: Could not connect to sensors!"
+msgstr "錯誤：無法連線至感測器！"
+
+#: ../panel-plugin/xfce4-sensors-plugin.desktop.in.in.h:1
+#, fuzzy
+msgid "Sensor plugin "
+msgstr "感測器外掛程式"
+
+#: ../panel-plugin/xfce4-sensors-plugin.desktop.in.in.h:2
+#, fuzzy
+msgid "Show sensor values."
+msgstr "顯示感測器數值。"
+
+#, fuzzy
+#~ msgid ""
+#~ "Xfce Hardware Sensors Plugin: \n"
+#~ "Seems like there was a problem reading a sensor feature value. \n"
+#~ "Proper proceeding cannot be guaranteed.\n"
+#~ msgstr ""
+#~ " \n"
+#~ "Xfce 硬體感測外掛程式：\n"
+#~ "在讀取感測器數值時似乎有點問題。\n"
+#~ "無法保證能夠正常運作。\n"
+
+#~ msgid "<span foreground=\"#000000\" size=\"%s\"><b>Sensors</b></span>\n"
+#~ msgstr "<span foreground=\"#000000\" size=\"%s\"><b>感測器</b></span>\n"
+
+#~ msgid "<span foreground=\"#000000\" size=\"%s\"><b>Sensors</b></span>"
+#~ msgstr "<span foreground=\"#000000\" size=\"%s\"><b>感測器</b></span>"
+
+#~ msgid "<b>Sensors</b>"
+#~ msgstr "<b>感測器</b>"
+
+#~ msgid "<b>View</b>"
+#~ msgstr "<b>檢視</b>"

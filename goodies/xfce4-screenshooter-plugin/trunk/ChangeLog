@@ -1,0 +1,332 @@
+2008-10-05 jeromeg
+
+  * NEWS: updated.
+  * src/main.c: add a fullscreen CLI option, the goal is to provide an interface
+    to take a screenshot with chosen option when calling the executable without
+    any cli options.
+  * xfce4-screenshooter.1: add new CLI option.
+
+2008-10-05 jeromeg
+
+  * NEWS: updated and fixed identation.
+  * configure.ac.in: added the new translations.
+
+2008-10-05 jeromeg
+
+  * Plug some leaks detected by Gauvain Pocentek:
+    - src/main.c: in (main), free sd->screenshot_dir before setting the new 
+      value from command line.
+    - src/screenshooter-utils.c: in (save_screenshot), free filename before
+      getting the user set filename.
+
+2008-10-04 jeromeg
+
+  * Partially refactor the code:
+    - screenshooter-utils.{c,h}:
+      - simplify some variable names.
+      - use an enum for screenshot modes.
+      - (take_screenshot) and (save_screenshot) do not depend anymore on the
+      backend.
+    - main.c:
+      - updated to use the new functions and structs' variables.
+      - move some code from (main) to (screenshooter_preferences_dialog).
+    - screenshooter-plugin.c:
+      - updated to use the new functions and structs' variables.
+      - use cb_ callbacks names rather than funky ones.
+
+2008-10-02 jeromeg
+
+  * src/screenshooter-utils.c: in (take_screenshot), don't crash when taking a
+  screenshot of of the desktop when xfdesktop does not display desktop icons,
+  null pointer...
+  * NEWS: updated.
+
+2008-09-20 jeromeg
+
+  * src/main.c:
+    - (main) plug some leaks with the dir and screenshot_dir.
+    - (main) don't use screenshot_dir to store the dirname, it should be done
+      with sd->screenshot_dir.
+  * NEWS: updated.
+
+2008-09-19 jeromeg
+
+  * icons/*: add some default icons for the applet taken from the Rodent icon
+    theme.
+  * configure.ac.in: updated to generate makefiles for icons.
+  * AUTHORS: add credit to the Rodent icon theme, not sure it's the right place
+    to do so, but it's better than nothing.
+  * NEWS: updated.
+    
+
+2008-09-14 jeromeg
+
+  * src/{main.c, screenshooter-utils.c}: Use applets-screenshooter icon for 
+    preferences dialog and save dialog.
+  * NEWS : updated.
+
+2008-08-23 jeromeg
+
+  * configure.ac.in: post release bump.
+
+2008-08-23 jeromeg
+  
+  === 1.3.2 ===
+  
+  * src/screenshooter-utils.c:
+    - (cb_current_folder_changed): new function to update the filename.
+    - (save_screenshot): updated to use cb_current_folder_changed.
+  * NEWS: updated.
+  * configure.ac.in: get ready for new release.
+
+2008-08-19 jeromeg
+
+  * src/*: use a #define to set the default save directory.
+
+2008-08-19 jeromeg
+
+  * src/*:
+    - comment all code
+    - clean identation
+    - plug some leaks of GdkPixbuf.
+  * NEWS: updated.
+
+2008-08-16 jeromeg
+
+  * xfce4-screenshooter.1: bump version for future release.
+  * configure.ac.in: ditto.
+  * src/Makefile.am: build with -Werror
+  * NEWS: updated.
+
+2008-08-16 jeromeg
+
+  * src/screenshooter-utils.c:
+    - do not g_free screenshot_dir when reading conf file, as we need it after.
+    - improve identation.
+
+2008-08-16 jeromeg
+
+  * src/screenshooter-utils.c:
+    - ported to use mostly gdk functions.
+    - BUGFIX: when the active window is the desktop, instead of returning a
+      corrupted snapshot of the background image, return the whole desktop view.
+    - drop get_window_property and screenshot_find_active_window which are now 
+      useless.
+    - improve indentation of code.
+  * src/screenshooter-utils.h:
+    - remove some useless #includes.
+  * configure.ac.in: add svn tag that I had forgotten.
+  * NEWS: updated.
+
+2008-08-15 jeromeg
+
+  * src/screenshooter-plugin.c:
+    - improve indentation.
+    - use tooltips if gtk >= 2.12
+  * NEWS: updated.
+
+2008-08-15 jeromeg
+
+  * src/*: plug a LOT of stupid leaks !
+
+2008-07-17 jeromeg
+
+  === 1.3.1 ===
+  
+  * NEWS: updated.
+  * configure.ac.in: get ready for new realease.
+
+2008-07-16 jeromeg
+
+  * src/main.c: g_build_filename should be NULL terminated ! Fixes the warning.
+
+2008-07-16 jeromeg
+
+  * src/main.c: partially fix -s switch when using relative path. An obscure
+    warning "Error stating file..." is still shown but it should work fine.
+
+2008-07-15 jeromeg
+
+  * src/main.c: revert one of the last change which does not work.
+
+2008-07-15 jeromeg
+
+  === 1.3.0 ===
+  
+  * NEWS, README: updated.
+  * configure.ac.in: get ready for new release.
+  * xfce4-screenshooter.1: update version.  
+
+2008-07-11 jeromeg
+
+  * src/main.c: 
+    - add a CLI option to set the directory where screenshots are saved.
+    - add a CLI option and a rc file to save a default save folder using a dialog.
+  * src/screenshooter-utils.c: do not show full filename in save dialog.
+  * xfce4-screenshooter.1: update manpage for the new CLI options.  
+
+2008-07-09 jeromeg
+
+  * src/*: remove obsolete copyrights.
+  * src/screenshooter-utils.{c,h}:
+    - move the ScreenshotData structure here.
+    - port take_screenshot to use ScreenshotData.
+    - write a generic save_screenshot function using ScreenshotData.
+    - BUGFIX: generate_filename_for_uri now outputs the whole filename with
+    its base. Fixes saving of screenshots without showing the save dialog.
+  * src/screenshooter-plugin.c:
+    - ported to use the new code.
+    - remove some obsolete code.
+  * main.c:
+    - port code to use ScreenshotData.
+    - add a CLI option to save screenshots without showing a save dialog.
+  * autogen.sh, configure.ac.in: remove some useless things, update a few others.
+  * xfce4-screenshooter.1: update manpage for the new CLI option.
+  * screenshooter.desktop.in.in: remove deprecated encoding key.
+
+2008-07-08 jeromeg
+
+  * src/screenshooter-plugin.c:
+    - separate screenshot data and plugin data.
+    - port code to use the two different structures.
+    - fix some resulting crashes.
+
+2008-07-05 jeromeg
+
+	* src/*, po/POTFILES.in: bugfix, make filename translatable.
+
+2008-06-29 jeromeg
+
+	* src/screenshooter-plugin.c:
+	  - set better var names
+	  - fix indentation
+	  - partially comment the code
+
+2008-06-27 jeromeg
+
+ === 1.2.0 ===
+  
+  * NEWS, README: updated for new release.
+  * configure.ac: remove svn tag, fix the manpage stuff to have make distcheck
+    working.
+
+2008-06-27 jeromeg
+
+	* src/Makefile.am: enable -Wall
+	* src/{main.c, screenshooter-utils.{c,h}}: fix gcc warnings except one...
+	* BUGFIX: fix infinite loop in generate_filename_for_uri !
+
+2008-06-27 jeromeg
+
+	* src/screenshooter-utils.c: clean generate_filename_for_uri using g_access.
+
+2008-06-20 09:19 jeromeg
+
+	* NEWS: updated.
+
+2008-06-20 08:59 jeromeg
+
+	* src/screenshooter-plugin.c: make labels bold and 
+	  aligned to the left.
+	* po/:
+	  - make update-po.
+	  - update French translation.
+
+2008-06-19 19:30 jeromeg
+
+	* src/screenshooter-plugin.c:
+	  - add a default save location to the preferences dialog.
+	  - update the code to use this new default.
+	* src/main.c: save screenshots in home by default.
+	* po/: make update-po.
+	  
+2008-06-19 16:46 jeromeg
+
+	* po/: 
+	  - make update-po.
+	  - updated French translation. 
+
+2008-06-19 15:09 jeromeg
+
+	* src/screenshooter-plugin.c:
+	  - rewrite the preferences dialog
+	  - change default delay to 0.
+
+2008-06-18 18:12 jeromeg
+
+	* src/screenshooter-plugin.c: remove some code that seems to
+	  be useless.
+	* NEWS: updated.
+
+2008-06-18 17:08 jeromeg
+
+	* src/xfce4-screenshooter.1: add manpage (thanks to Debian).
+	* Makefile.am: install the manpage.
+
+2008-06-17 21:50 jeromeg
+
+	* src/screenshooter-utils.h: add unistd.h include to fix build
+	  with gcc-4.3 (thanks to Lionel Le Folgoc).
+
+2008-06-17 12:37 jeromeg
+
+	* NEWS: update for new release.
+	* configure.ac.in: remove svn tag.
+
+2008-06-17 11:52 jeromeg
+
+	* COPYING: added the GPL2 text.
+	* autogen.sh, configure.ac.in: 
+	  - added some magic of sarts to have the svn versions generated.
+	  - cleaned the versions stuff
+
+2008-06-10 09:17 jeromeg
+
+	* po/: update po files.
+	* src/screenshooter.c: improve a string.
+	
+2008-06-08 00:15 jeromeg
+
+	* src/main.c: Add an executable with cli options to take 
+	  screenshots, thanks to Ristretto for the nice example !  
+	* Modify autotools, makefiles and locale files to 
+	  build it, thanks to Gauvain Pocentek.
+	* src/screenshooter-utils.h: Add some headers to fix build warnings.
+	* README: update with executable cli options
+	* NEWS: update
+
+2008-06-06 19:19 jeromeg
+
+	* Move the code to a src/ folder and remove the panel-plugin one.
+	* src/screenshooter-utils.{c,h}: moved generic code here.
+	* src/screenshooter.c: updated to use the generic code.
+	* Update the makefiles and autotools to use new code structure.
+	
+2008-06-06 15:35 jeromeg
+
+	* panel-plugin/screenshooter.c:
+	  - remove deprecated function.
+	  - set button sensitive at the end of the screenshot procedure.
+
+2008-06-06 15:19 jeromeg
+
+	* panel-plugin/screenshooter.c:
+	  - new behaviour (fullscreen or active window screenshot).
+	  - fix delay
+	  - fix file saving (cancel now works, based on debian patch).
+	  - button made insensitive while screenshot is taken.
+	* configure.ac: added x11-proto-core to build deps.
+	* README: updated.
+	
+2008-05-18 18:25 mmassonnet
+
+	* Fix GCC warnings and bug with delay (Patch from Jérôme Guelfucci)
+	* Drop automated file INSTALL
+
+2007-06-06 23:00 dbl
+
+	* Fallback to Screenshot.png on "Cancel" (debbug#420242)
+
+2006-09-11 18:51 nick
+
+	* Apply Patch from Enrico Tröger to enable i18n.

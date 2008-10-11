@@ -1,0 +1,330 @@
+Xfce 4.6beta1 (Xfce 4.5.91):
+----------------------------
+
+  * Bring back the "show icons in menu" preferences for the desktop
+    menu and window list menu.
+  * Add support for XDG user dirs for the Desktop and Templates
+    directories.  Patch from Andrea Santilli <yawara@quipo.it> (bug 4365).
+  * Fix xfdesktop/xfce menu crashing when installing new applications that
+    install .desktop files and icons (bug 3615).
+  * Fix occasional "double menu" after menu/icon files change on disk
+    (bug 4342).
+  * Implement "rubber banding" for the desktop icon view (bug 3245).
+  * Honor the Hidden=, OnlyShowIn=, and NeverShowIn= keys in .desktop
+    files in the desktop folder (bug 4022).
+  * Fix window menu popping up even after last window icon was
+    de-selected when using minimized app icons.
+  * Display 'Eject' in the context menu for removable drives that
+    support eject, not just optical discs (bug 3738).
+  * Fix memory leak (not freeing result of gtk_container_get_children()
+    in the desktop menu code).
+  * Fix memory/X window leak (not destroying menu in panel plugin after
+    it's closed; old menu didn't require it, but new one does).
+  * Use GtkFileChooserButtons in the panel plugin config dialog instead
+    of entry box + button, and remove the 'Edit menu' button/menu item
+    since we don't have a menu editor anymore.
+  * Add cell-spacing, cell-padding, and cell-text-width-proportion
+    stlye properties to XfdesktopIconView to control spacing/sizing of
+    the icon grid (bug 2886).  Patch from Giacomo Lozito.
+  * Add the ellipsize-icon-labels style property  to control whether
+    or not unselected icons get their labels truncated (bug 2886).
+    Patch from Daniel Gibson.
+
+
+Xfce 4.6alpha (Xfce 4.5.90):
+----------------------------
+
+  * Redo how the menu system works so menus can be embedded in other
+    menus.  This makes it possible for the right-click context menu
+    to be the 'normal' applications menu when icons are disabled,
+    but set to the desktop's own context menu when file icons are
+    enabled.  In this latter case, the applications menu becomes a
+    submenu of the desktop context menu (bug 2531).
+  * Ditch my custom semi-fd.o-compliant menu system in favor of
+    XfceMenu, our new fd.o-compliant menu implementation written by
+    Jannis Pohlmann.
+  * Fix URI parsing in .desktop files when launching an application so
+    that the "field codes" (%-codes) are either properly ignored or
+    are substituted properly.  This should fix a lot of problems where
+    some apps were expecting some command-line arguments but the menu
+    was just throwing them all away (bug 2942).
+  * Add support for 'zoomed' backdrop mode: fill the screen with the
+    backdrop edge-to-edge by scaling and/or cropping as necessary.
+    This doesn't mess with the aspect ratio and is pretty nifty.  Patch
+    is from <trondsg@gmail.com> (bug 3138).
+  * Stop using our forked libnetk from libxfcegui4, and use the much
+    better supported original libwnck.  Patch is from Nick Schermer
+    (bug 3487).
+  * Support the GdkScreen::monitors-changed signal present in gtk+ 2.13
+    and above.  This allows xfdesktop to notice if the user plugs or
+    unplugs a monitor when using an xrandr1.2-capable X server and video
+    driver.
+  * Support the new tooltips framework present in gtk 2.12 for
+    XfdesktopIconView.  This is mostly user-invisible, but does decrease
+    code size and memory usage ever so slightly, and removes a possible
+    source of bugs.
+  * Remove all old MCS settings manager code and start using Xfconf,
+    Xfce's new configuration system.
+  * New redesigned settings dialog, with hopefully some better usability.
+  * Move hidden options for showing special icons on the desktop into
+    the settings dialog GUI.
+  * Add a color saturation adjustment to the backdrop image settings.
+  * Add "transparent" color style for the backdrop; if you already have
+    another application drawing the backdrop, you can disable xfdesktop's
+    image drawing and color drawing and "see through" to the window
+    beneath it while still having desktop icons and the desktop menu
+    available.  Requires ARGB windows (bug 4061).
+  * Fix font size used to draw desktop icons when the size isn't an
+    integer point size (bug 4295).
+
+
+4.4.2
+=====
+
+- Fix menu sometimes not popping up when using the keyboard shortcut,
+  again.  Timeout waiting for grab is now 0.25s (bug 441).
+- Fix desktop settings only getting applied to the first screen in
+  non-Xinerama dualhead setups (but 3467).
+- Fix spurious drag when double-clicking a volume icon that fails to
+  mount (bug 3426).
+- Clean out stale entries in file icon position file (bug 3267).
+- Some minor memory leak fixes (some still remain, likely).
+- Fix --disable-menu-editor configure option.
+- Always use button 0 in gtk_menu_popup() as GTK+ 2.11+ expects the 
+  same button to be pressed or it doesn't activate the entry (bug 3359).
+- Don't set workspace for sticky windows in windowlist (bug 3317).
+- Fix missing xfce_rc_close() causing memleak and too many open file
+  descriptors (bug 3065).
+- Fix the Italian xfdesktop menu causing a crash.
+
+
+4.4.1
+=====
+
+- Fix entries in the menu.xml files that should not have been translated.
+- Add support for menu file as argument (Bug #2876).
+- Remove use of __FUNCTION__ as it breaks sun's compiler (Bug #2924).
+- Blurry rendering of unscaled backgrounds (Bug #2939).
+- Fix uri parsing to unescape '%##' stuff in the uri (Bug #2942).
+- Many translation updates.
+
+
+20070121 (Xfce 4.4.0):
+----------------------
+
+    We're just about ready to release Xfce 4.4.0!  Hooray!  There have been
+    many changes since my last entry.
+    
+    Change since 4.4rc2:
+    
+      * Fix support for applications that do pseudo-transparency (bug 2508).
+      * Change how icon cell size is calculated to avoid weirdness at large
+        sizes (bug 1546).
+      * Fix icons disappearing when the icon/text size is set too large, and
+        then not reappearing when the size is lowered again (bug 1546).
+      * Add hidden options to disable showing any or all of the 'File System',
+        'Home', or 'Trash' icons.
+      * Partially fix backdrop setting problems when unsetting Xinerama
+        stretch mode (bug 2573).
+      * Fix some possible (but unliklely) NULL pointer dereferences.
+      * Update documentation.
+    
+    Changes since 4.4rc1:
+    
+      * Fix crash when non-file:// URIs are dropped on the desktop (bug 2229).
+      * Handle Xinerama-enabled setups correctly so icons aren't placed in
+        "dead areas" or on the boundary between monitors (bug 1538).
+      * Fix crash when reloading the desktop several times quickly (bug 2426).
+      * Trash files by default, add binding for shift+delete to force
+        deletion (bug 2185).
+      * Fix crash when screen size changes (bug 2457).
+      * Fix problems with activating icons (bug 2452, 2206).
+      * Allow the icons to provide better information about what drag/drop
+        actions are allowed, so user feedback about drags/drops is much
+        better.
+      * Fix broken drop of multiple files onto the desktop (bug 2437).
+      * Be sure to notice if a removable volume's mount point changes
+        (bug 2489).
+      * Fix 100% CPU problem when the desktop folder is deleted (bug 2160).
+
+    Changes since 4.4beta2:
+    
+      * Fix backdrop image tearing during expose (bug 1944).
+      * Show icon tooltips where appropriate (bug 1526).
+      * Use thunarx extensions for the icon context menus and properties
+        dialogs.
+      * Fix ugly gradients in the desktop wallpaper on 16-bit displays
+        (bug 1819).
+      * Don't show a folder for the desktop directory itself (bug 1916).
+      * Fix problems with markup in text labels (bug 2082).
+      * Add 'File System', 'Home', and 'Trash' icons.
+      * Fix compositing emblems on icons (1875).
+      * Use native Pango ellipsising support for the windowlist menu, which
+        looks way better (bug 2127).
+      * Allow panel plugin's menu to be opened at the pointer position
+        (bug 2103).
+      * Don't allow cut or delete if the file/dir isn't writeable (buf 2081).
+      * Memory leak fixes (bug 1910).
+      * Put the icon context menu on the proper screen (bug 2351).
+    
+    Changes since 4.4beta1:
+    
+      * Attempt to create ~/Desktop/ if it doesn't exist (bug 1691).
+      * Fix non-ejectable media showing as ejectable.
+      * Fix removable media not appearing when its mount point has not yet
+        been created.
+      * Don't have the desktop automatically take focus when it's mapped.
+      * Fix crash when removable volume has no mount point (bug 1763).
+      * Add support for creating launchers and URL launchers.
+      * Allow changing transparency of the icon label text background.
+      * Many icon drawing performance improvements, and fixes for some
+        drawing glitches.
+      * Fix menu positioning for floating panels in the Xfce Menu panel
+        plugin (bug 1660).
+      * Have the 'log out' dialog pop up if the user 'closes' the desktop
+        window (bug 1776).
+      * Handle more thunar-vfs errors and prompts.
+      * Add XDirectSave support for dropping data on the desktop.
+      * Add support for dropping URLs from a browser on the desktop.
+      * Fix crash when mounting some removable volumes (bug 1897).
+
+(Brian)
+
+20060418 (Xfce 4.4beta1):
+-------------------------
+
+    As usual, it's been a while since I've written anything.  The major new
+    accomplishment since my last entry is that all the desktop icon code
+    has been refactored, and now, in addition to CDEish minimised application
+    icons, xfdesktop supports traditional desktop file icons.  This
+    functionality requires very recent versions of libexo and thunar-vfs to
+    be present and installed before compiling xfdesktop.
+    
+    Olivier and Benny just put together the 4.4beta1 release over the weekend,
+    so we're (finally!) gearing up to release 4.4.0 final within the next 4-6
+    weeks (hopefully).
+
+(Brian)
+
+
+20051031:
+---------
+
+    Happy Halloween.  I haven't wrote anything here in quite a while.
+    Quite a bit has happened, including numerous bugfixes and enhancements.
+    I don't have the energy to list them all here, but the one thing that
+    really sticks out is that xfdesktop now supports icons on the desktop.
+    No, it's not what you think: you can't put launcher icons on it, and
+    you can't view lists of files either.  What you *can* do is see icons
+    representing all your minimized applications, a la CDE.  Other
+    projects (xffm, Thunar) will address the need for file and launcher
+    icons.
+    
+    The Xfce menu panel plugin has seen several improvements, including
+    some menu generation speed enhancements, and the ability to put a
+    text title in the button, as well as using non-square icons.
+    
+    On the bugfix front, notably, you can bind 'xfdesktop -menu' and
+    'xfdesktop -windowlist' to keys now, and it should work properly all
+    the time.
+    
+    There are a few small enhancements to the backdrop functionality,
+    such as the ability to stretch a single image across a Xinerama-
+    enabled desktop.
+    
+    I suppose that's all for now.  Development of Xfce as a whole has been
+    moving somewhat slowly lately, so 4.4.0 may not be coming as soon as
+    we'd like.
+
+(Brian)
+
+
+20041220 (Xfce 4.2rc3):
+-----------------------
+
+	Xfdesktop is shaping up quite well for the 4.2.0 release, but there
+	were a few necessary bugfixes:
+	  - Redo the backdrop setting method to fix redraw problems with
+	    Gtk 2.6, and to make it a bit nicer to maintain.
+	  - Fix a backdrop drawing problem that crops up if you're using
+	    multihead and a gtk2 theme with a background pixmap.
+	  - The desktop menu cache now tracks changes to the XDG_DATA_DIRS
+	    environment variable and invalidates the cache if it changes.
+	  - Jean-Francois did some stuff with menueditor, but I think it
+	    was just some code reorg and optimisation.
+	  - Added back the add/remove workspace items to the windowlist
+	    menu because Francois asked oh-so-nicely.
+
+	Hopefully this should be it, and xfdesktop won't need any more changes
+	for 4.2.0-final.  Of course, now that I said it, it's ruined.
+
+(Brian)
+
+
+20041205 (Xfce 4.2rc2):
+-----------------------
+
+	Not much has happened with xfdesktop in the last month, mainly some
+	minorish bugfixes:
+	  - Fix problem with panel plugin where the button can sometimes
+	    stay "pressed in" if the menu isn't available.
+	  - Documentation updates (Jasper, mostly)
+	  - Tweak menu directory searching.
+	  - Filter desktop files based on desktop-id to avoid duplicate
+	    menu entries.
+	  - Fix bug where sticky windows weren't shown in the window list
+	    at all.
+	  - Fix menu module not loading at all on some systems when the
+	    quit() symbol can't be resolved.
+	  - Fix problem where window titles with GMarkup in them weren't
+	    being escaped properly.
+	  - Remove an occurrence of xfce_get_userfile() (replace with
+	    xfce_resource_lookup()).
+	  - Remove workspace add/remove, as that doesn't work properly
+	    anymore, and it probably shouldn't be there anyway.
+
+(Brian)
+
+
+20041029 (Xfce 4.2beta2):
+-------------------------
+
+	* Wow, it's been a while since anyone's put anything in here.  We're
+	  gearing up for the release of 4.2beta2, the second beta release
+	  on the road to 4.2.0.  A lot has happened in the last year:
+	    - Partial rewrite and redesign to support multihead setups (with
+	      or without Xinerama).
+	    - Better support for handling screen size changes via the XRandR
+	      extension.
+	    - A new autogenerated menu that searches for .desktop files on
+	      your filesystem and organises them into hierarchical menus.
+	    - Icon support for the applications menu and window list menu
+	    - Backdrop color gradient support.
+	    - Ability to adjust the brightness of the backdrop image.
+	    - Jean-Francois Wauthy wrote a graphical menu editor, which is
+	      distributed with xfdesktop.
+	    - A panel plugin that can display the menu from xfce4-panel.
+	    - An enhanced and partially redesigned settings window, with
+	      some global menu settings added.
+
+(Brian)
+
+
+20031019:
+---------
+
+	* Add '-reload', '-menu' and '-windowlist' arguments to xfdesktop to 
+	  make it reaload/refresh the image, popup the menu or popup the
+	  windowlist repectively.
+
+(Jasper)
+
+
+20031016:
+---------
+
+	* Added support for the XRandR X extension available with XFree86
+	  4.3 and above. The XRandR support requires you to have Gtk+
+	  2.2 or better installed.
+
+(Benny)

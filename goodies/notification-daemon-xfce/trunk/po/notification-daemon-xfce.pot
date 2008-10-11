@@ -1,0 +1,75 @@
+# translation of notification-daemon-xfce.po to librezale
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-10-22 17:38+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/settings/main.c:64
+msgid "Top Left"
+msgstr ""
+
+#: ../src/settings/main.c:65
+msgid "Top Right"
+msgstr ""
+
+#: ../src/settings/main.c:66
+msgid "Bottom Left"
+msgstr ""
+
+#: ../src/settings/main.c:67
+msgid "Bottom Right"
+msgstr ""
+
+#. create new preview notification
+#: ../src/settings/main.c:188
+msgid "Preview notification"
+msgstr ""
+
+#: ../src/settings/main.c:189
+msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr ""
+
+#: ../src/settings/main.c:324
+#: ../src/settings/notification-settings.desktop.in.h:2
+msgid "Notification Settings"
+msgstr ""
+
+#: ../src/settings/main.c:330
+msgid "Configure the Xfce notification daemon"
+msgstr ""
+
+#: ../src/settings/main.c:340
+msgid "Notification _position:"
+msgstr ""
+
+#: ../src/settings/main.c:370
+msgid "Pre_view"
+msgstr ""
+
+#: ../src/settings/mcs_plugin.c:41
+msgid "Failed to launch notification-settings"
+msgstr ""
+
+#: ../src/settings/mcs_plugin.c:61
+msgid "Button Label|Notification Settings"
+msgstr ""
+
+#: ../src/settings/notification-settings.desktop.in.h:1
+msgid "Customize the notification daemon settings"
+msgstr ""
+
+#: ../src/settings/notification-settings.desktop.in.h:3
+msgid "Xfce 4 Notification Settings"
+msgstr ""
+

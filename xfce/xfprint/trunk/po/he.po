@@ -1,0 +1,504 @@
+# translation of he.po to Hebrew
+# Hebrew translations for xfprint package.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfprint package.
+# Dotan Kamber <kamberd@yahoo.com>, 2004.
+# Jonatan Perry <Jonatan443@walla.co.il>, 2004.
+# Yuval Tanny <tanai@int.gov.il>, 2004, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-14 15:26+0200\n"
+"PO-Revision-Date: 2006-04-22 01:43+0300\n"
+"Last-Translator: Yuval Tanny <tanai@int.gov.il>\n"
+"Language-Team: Hebrew\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.10.2\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "מדפסת"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "יציאה"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "צא ממנהל Xfprint"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "אודות"
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "אודות מנהל Xfprint..."
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "הצג מידע אודות מנהל Xfprint"
+
+#: ../libxfprint/printer-list-window.c:140
+msgid "Printer manager"
+msgstr "מנהל מדפסות"
+
+#: ../libxfprint/printer-list-window.c:206
+msgid "Alias name"
+msgstr "כינוי"
+
+#: ../libxfprint/printer-list-window.c:210
+#: ../libxfprint/printer-queue-window.c:217
+msgid "State"
+msgstr "מצב"
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Xfprint printers manager"
+msgstr "מנהל מדפסות Xfprint"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:269
+msgid "Former maintainer"
+msgstr "אחראי קודם"
+
+#: ../libxfprint/printer-list-window.c:270
+msgid "Maintainer"
+msgstr "אחראי"
+
+#: ../libxfprint/printer-list-window.c:271
+msgid "Artist"
+msgstr "יוצר"
+
+#: ../libxfprint/printer-list-window.c:334
+msgid "Unknown"
+msgstr "לא ידוע"
+
+#: ../libxfprint/printer-list-window.c:337
+msgid "Idle"
+msgstr "זמין"
+
+#: ../libxfprint/printer-list-window.c:340
+msgid "Processing"
+msgstr "בתהליך"
+
+#: ../libxfprint/printer-list-window.c:343
+msgid "Stopped"
+msgstr "נעצר"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "סגור"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "סגור את חלון התור"
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr "עבודות"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:385
+#: ../libxfprint/printer-queue-window.c:389
+msgid "Remove job"
+msgstr "להסיר עבודה"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "הסר את העבודות הנבחרות מהתור"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "רענן"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "רענן תור"
+
+#: ../libxfprint/printer-queue-window.c:122
+#: ../libxfprint/printer-queue-window.c:538
+msgid "Queue Manager"
+msgstr "מנהל המתנה"
+
+#: ../libxfprint/printer-queue-window.c:207
+msgid "Name"
+msgstr "שם"
+
+#: ../libxfprint/printer-queue-window.c:211
+msgid "ID"
+msgstr "זיהוי"
+
+#: ../libxfprint/printer-queue-window.c:214
+msgid "User"
+msgstr "משתמש"
+
+#: ../libxfprint/printer-queue-window.c:220
+msgid "Size"
+msgstr "גודל"
+
+#: ../libxfprint/printer-queue-window.c:223
+msgid "Priority"
+msgstr "עדיפות"
+
+#: ../libxfprint/printer-queue-window.c:226
+msgid "Creation time"
+msgstr "זמן יצירה"
+
+#: ../libxfprint/printer-queue-window.c:229
+msgid "Processing time"
+msgstr "זמן עיבוד"
+
+#: ../libxfprint/printer-queue-window.c:382
+msgid "Are you sure you want to remove the job "
+msgstr "האם אתה בטוח שברצונך להסיר את העבודה?"
+
+#: ../libxfprint/printer-queue-window.c:388
+msgid "Don't remove job"
+msgstr "לא להסיר עבודה"
+
+#: ../libxfprint/printer-queue-window.c:395
+msgid "An error occurred while removing job !"
+msgstr "התרחשה שגיאה בזמן הסרת העבודה."
+
+#: ../libxfprint/printer-queue-window.c:446
+msgid "pending"
+msgstr "ממתין"
+
+#: ../libxfprint/printer-queue-window.c:449
+msgid "printing"
+msgstr "מדפיס"
+
+#: ../libxfprint/printer-queue-window.c:452
+msgid "Kb"
+msgstr "Kb"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "מערכת הדפסה"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "בחירת מערכת הדפסה"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "מידע"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "פירוט"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "גרסה"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "מחבר"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "דף הבית"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "כלום"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr "בחר את זה אם ברצונך רק להדפיס לקובץ."
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "תמיכה במערכת הדפסה BSD-LPR עבור Xfprint"
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr "תמיכה במערכת הדפסה CUPS עבור Xfprint"
+
+#: ../printing-systems/cups/cups.c:48
+msgid "Set as default printer"
+msgstr "בחר כמדפסת ברירת מחדל"
+
+#: ../printing-systems/cups/cups.c:49
+msgid "Set as default CUPS printer"
+msgstr "בחר כמדפסת ברירת מחדל של CUPS"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "מאפיינים"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "הצג את מאפייני המדפסת"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "סיסמה"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "שם משתמש:"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "סיסמה:"
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr "יש צורך בשם משתמש."
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "הדפס כותרות"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "כותרת:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "כותרת אחורית:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "כותרת אמצע:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "כותרת שמאלית:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "כותרת ימנית:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "סיומת עמוד אמצעית:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "סיומת עמוד שמאלית:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "סיומת עמוד ימנית:"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "קידוד:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "הדפס את כל הדפים"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "הדפס דפים בתחום"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "קטע קווים ארוכים"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "פענח טאבים כרווחים"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "הכרח הדפסה בינארית"
+
+#: ../xfprint/main.c:116
+msgid "Select file to print"
+msgstr "בחר קובץ להדפסה"
+
+#: ../xfprint/main.c:128
+msgid "The specified file does not exist"
+msgstr "הקובץ שצויין אינו קיים"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "שפה:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "רמת הדגשה:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "רמת הפשטה:"
+
+#: ../xfprint/print_dialog.c:204
+msgid "Save settings"
+msgstr "שמור הגדרות"
+
+#: ../xfprint/print_dialog.c:212
+msgid "Xfprint"
+msgstr "Xfprint"
+
+#: ../xfprint/print_dialog.c:220
+msgid "Print to:"
+msgstr "הדפס אל:"
+
+#: ../xfprint/print_dialog.c:250
+msgid "Print to file:"
+msgstr "הדפס לקובץ:"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Sheets"
+msgstr "גליונות"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Virtual pages"
+msgstr "דפים וירטואלים"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Pretty-printing"
+msgstr "הדפסה יפה"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Input"
+msgstr "קלט"
+
+#: ../xfprint/print_dialog.c:300
+msgid "Headings"
+msgstr "כותרות"
+
+#: ../xfprint/print_dialog.c:309
+msgid "Copies:"
+msgstr "עותקים:"
+
+#: ../xfprint/print_dialog.c:316
+msgid "Apply filters"
+msgstr "החל מסננים"
+
+#: ../xfprint/print_dialog.c:371
+msgid ""
+"Neither the printing system backend or a2ps could be found on your system, "
+"you won't be able to print a file with xfprint !"
+msgstr ""
+"לא תוכל להדפיס קבצים עם xfprint משום שאל נמצאו מערכות הדפסה או a2ps במערכת."
+
+#: ../xfprint/print_dialog.c:486
+msgid "An error occurred while trying to print the file"
+msgstr "התרחשה שגיאה בזמן הדפסת הקובץ"
+
+#: ../xfprint/print_dialog.c:523
+msgid "Select file where to print"
+msgstr "בחר קובץ להדפיס אליו"
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "גודל הנייר:"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "לאורך"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "לרוחב"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "עמודות:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "מלא עמודות תחילה"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "מלא שורות תחילה"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "שורות:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "הדפס גבולות סביב עמודות"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "הדפס דפים בסדר הופכי"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "מספרי שורות:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "שורות בדף:"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "תווים בשורה:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "גודל טאב:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "פורמט לא בר הדפסה:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr "מאפשר לך לבחור את מערכת ההדפסה שתשמש את xfprint"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+msgid "Printing System Settings"
+msgstr "הגדרות מערכת הדפסה"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+msgid "Xfce 4 Printing System Settings"
+msgstr "הגדרות מערכת הדפסה של Xfce 4"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+msgid "Print Manager"
+msgstr "מנהל הדפסות"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr "מראה את רשימת המדפסות ומאפשר לך לנהל את עבודות ההדפסה"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+msgid "Xfce 4 Print Manager"
+msgstr "מנהל ההדפסות של Xfce 4"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "תיבת הדפסה"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr "מדפיס לקובץ ומאפשר לך לקבוע את העיצוב שלו"
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "תיבת הדפסה של Xfce 4"

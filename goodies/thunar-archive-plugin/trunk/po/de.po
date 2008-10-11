@@ -1,0 +1,91 @@
+# German translation of the thunar-archive-plugin package.
+# Copyright (C) 2006-2007 Benedikt Meurer <benny@xfce.org>
+# This file is distributed under the same license as the thunar-archive-plugin package.
+# Benedikt Meurer <benny@xfce.org>, 2006.
+# Fabian Nowak <timystery@arcor.de>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: thunar-archive-plugin 0.2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-12-01 18:33+0100\n"
+"PO-Revision-Date: 2007-12-01 18:38+0000\n"
+"Last-Translator: Fabian Nowak <timystery@arcor.de>\n"
+"Language-Team: German <xfce-i18n@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. prepare the dialog to query the preferred archiver for the user
+#: thunar-archive-plugin/tap-backend.c:84
+msgid "Select an archive manager"
+msgstr "Archivmanager auswählen"
+
+#. add the header label
+#: thunar-archive-plugin/tap-backend.c:108
+msgid ""
+"Please select your preferred archive manager\n"
+"from the list of available applications below:"
+msgstr ""
+"Wählen Sie Ihren bevorzugten Archivmanager\n"
+"aus der folgenden Liste von Anwendungen:"
+
+#. tell the user that we cannot handle the specified mime types
+#: thunar-archive-plugin/tap-backend.c:280
+#: thunar-archive-plugin/tap-backend.c:432
+#, c-format
+msgid "No suitable archive manager found"
+msgstr "Kein unterstützter Archivmanager gefunden"
+
+#. execute the action
+#: thunar-archive-plugin/tap-provider.c:333
+#: thunar-archive-plugin/tap-provider.c:372
+msgid "Failed to extract files"
+msgstr "Dateien konnten nicht entpackt werden"
+
+#. execute the action
+#: thunar-archive-plugin/tap-provider.c:410
+msgid "Failed to create archive"
+msgstr "Archiv konnte nicht erstellt werden"
+
+#: thunar-archive-plugin/tap-provider.c:464
+msgid "Extract _Here"
+msgstr "_Hier entpacken"
+
+#: thunar-archive-plugin/tap-provider.c:471
+msgid "Extract the selected archive in the current folder"
+msgid_plural "Extract the selected archives in the current folder"
+msgstr[0] "Das ausgewählte Archiv ins aktuelle Verzeichnis entpacken"
+msgstr[1] "Die ausgewählten Archive ins aktuelle Verzeichnis entpacken"
+
+#: thunar-archive-plugin/tap-provider.c:488
+msgid "_Extract To..."
+msgstr "Entpacken _nach..."
+
+#: thunar-archive-plugin/tap-provider.c:496
+msgid "Extract the selected archive"
+msgid_plural "Extract the selected archives"
+msgstr[0] "Das ausgewählte Archiv entpacken"
+msgstr[1] "Die ausgewählten Archive entpacken"
+
+#: thunar-archive-plugin/tap-provider.c:516
+msgid "Cr_eate Archive..."
+msgstr "A_rchiv erstellen"
+
+#: thunar-archive-plugin/tap-provider.c:524
+msgid "Create an archive with the selected object"
+msgid_plural "Create an archive with the selected objects"
+msgstr[0] "Ein Archiv mit der ausgewählte Datei erstellen"
+msgstr[1] "Ein Archiv mit den ausgewählten Dateien erstellen"
+
+#. TRANSLATORS: This is the label of the Drag'n'Drop "Extract here" action
+#: thunar-archive-plugin/tap-provider.c:589
+msgid "_Extract here"
+msgstr "Hierher _entpacken"
+
+#: thunar-archive-plugin/tap-provider.c:596
+msgid "Extract the selected archive here"
+msgid_plural "Extract the selected archives here"
+msgstr[0] "Das ausgewählte Archiv hierher entpacken"
+msgstr[1] "Die ausgewählten Archive hierher entpacken"

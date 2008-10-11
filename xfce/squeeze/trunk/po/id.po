@@ -1,0 +1,381 @@
+# Indonesian translation of the squeeze package.
+# Copyright (C) 2006-2007 Stephan Arts.
+# This file is distributed under the same license as the squeeze package.
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Squeeze 0.2.0\n"
+"Report-Msgid-Bugs-To: stephan@xfce.org\n"
+"POT-Creation-Date: 2007-08-21 00:30+0200\n"
+"PO-Revision-Date: 2008-04-26 15:32+0700\n"
+"Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
+"Language-Team: Indonesian <id@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../libsqueeze/archive.c:236
+msgid "Name"
+msgstr "Nama"
+
+#: ../libsqueeze/archive.c:238
+msgid "Mime type"
+msgstr "Tipe mime"
+
+#: ../squeeze.desktop.in.h:1
+msgid "Archive Manager"
+msgstr "Manajer Arsip"
+
+#: ../squeeze.desktop.in.h:2
+msgid "Create and manage archives with the archive manager"
+msgstr "Buat dan atur arsip dengan manajer arsip"
+
+#: ../squeeze.desktop.in.h:3
+msgid "Squeeze Archive Manager"
+msgstr "Manajer Arsip Squeeze"
+
+#.
+#. * Could not open archive (mime type not supported or file did not exist)
+#. * Should be a more specific error message.
+#.
+#: ../src/application.c:160
+#: ../src/application.c:250
+msgid "Could not open archive, MIME-type unsupported or file did not exist"
+msgstr "Tak dapat membuka arsip, tipe MIME tidak didukung atau berkas tidak ada"
+
+#: ../src/application.c:191
+#: ../src/main_window.c:826
+#: ../src/main_window.c:1260
+msgid ""
+"Squeeze cannot extract this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"Squeeze tak dapat mengekstrak tipe arsip\n"
+"ini, aplikasi untuk mendukung ini hilang."
+
+#.
+#. * Could not create archive (mime type unsupported)
+#.
+#: ../src/application.c:233
+msgid "Could not create archive, MIME-type unsupported"
+msgstr "Tak dapat membuat arsip, tipe MIME tidak didukung"
+
+#: ../src/application.c:268
+#: ../src/main_window.c:874
+msgid ""
+"Squeeze cannot add files to this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"Squeeze tak dapat menambah berkas ke tipe\n"
+"arsip ini, aplikasi untuk mendukung ini hilang."
+
+#: ../src/archive_store.c:249
+#: ../src/notebook.c:179
+msgid "Show full path"
+msgstr "Tampilkan alamat penuh"
+
+#: ../src/archive_store.c:250
+#: ../src/notebook.c:180
+msgid "Show the full path strings for each entry"
+msgstr "Tampilkan tali alamat penuh untuk tiap entri"
+
+#: ../src/archive_store.c:256
+#: ../src/notebook.c:186
+msgid "Show mime icons"
+msgstr "Tampilkan ikon mime"
+
+#: ../src/archive_store.c:257
+#: ../src/notebook.c:187
+msgid "Show the mime type icons for each entry"
+msgstr "Tampilkan ikon tipe mime untuk tiap entri"
+
+#: ../src/archive_store.c:263
+msgid "Show up dir entry"
+msgstr "Tampilkan entri dir"
+
+#: ../src/archive_store.c:264
+msgid "Show '..' to go to the parent directory"
+msgstr "Tampilkan '..' untuk pergi ke direktori induk"
+
+#: ../src/archive_store.c:270
+#: ../src/notebook.c:193
+msgid "Sort folders before files"
+msgstr "Urutkan folder sebelum berkas"
+
+#: ../src/archive_store.c:271
+#: ../src/notebook.c:194
+msgid "The folders will be put at the top of the list"
+msgstr "Folder akan ditaruh di bagian atas senarai"
+
+#: ../src/archive_store.c:277
+#: ../src/archive_store.c:278
+#: ../src/notebook.c:200
+#: ../src/notebook.c:201
+msgid "Sort text case sensitive"
+msgstr "Urutkan teks huruf sensitif"
+
+#: ../src/extract_dialog.c:76
+msgid "<b>Extract files:</b>"
+msgstr "<b>Ekstrak berkas:</b>"
+
+#: ../src/extract_dialog.c:77
+msgid "<b>Options:</b>"
+msgstr "<b>Opsi:</b>"
+
+#: ../src/extract_dialog.c:87
+msgid "All files"
+msgstr "Semua berkas"
+
+#: ../src/extract_dialog.c:88
+msgid "Selected files"
+msgstr "Berkas terpilih"
+
+#: ../src/extract_dialog.c:100
+#: ../src/main_window.c:451
+#: ../src/main_window.c:1219
+msgid "Extract"
+msgstr "Ekstrak"
+
+#: ../src/extract_dialog.c:110
+msgid "Extract archive"
+msgstr "Ekstrak arsip"
+
+#: ../src/main.c:51
+msgid "[destination path]"
+msgstr "[alamat tujuan]"
+
+#: ../src/main.c:59
+msgid "[archive path] [file1] [file2] ... [fileN]"
+msgstr "[alamat arsip] [berkas1] [berkas2] ... [berkasN]"
+
+#: ../src/main.c:63
+msgid "[file1] [file2] ... [fileN]"
+msgstr "[berkas1] [berkas2] ... [berkasN]"
+
+#: ../src/main.c:66
+msgid "Version information"
+msgstr "Informasi versi"
+
+#: ../src/main.c:92
+msgid "[archive name]"
+msgstr "[nama arsip]"
+
+#: ../src/main.c:96
+#, c-format
+msgid ""
+"%s: %s\n"
+"Try %s --help to see a full list of available command line options.\n"
+msgstr ""
+"%s: %s\n"
+"Coba %s --help untuk melihat senarai lengkap opsi baris perintah yang tersedia.\n"
+
+#: ../src/main_window.c:133
+msgid "Internal Style"
+msgstr "Gaya Internal"
+
+#: ../src/main_window.c:134
+msgid "Tool Bar Style"
+msgstr "Gaya Batang Alat"
+
+#: ../src/main_window.c:135
+msgid "Path Bar Style"
+msgstr "Gaya Batang Alamat"
+
+#: ../src/main_window.c:182
+msgid "Navigation Style"
+msgstr "Gaya Navigasi"
+
+#: ../src/main_window.c:183
+msgid ""
+"Style of navigation\n"
+"The style to navigate trough the archive"
+msgstr ""
+"Gaya navigasi\n"
+"Gaya untuk menavigasi ke seluruh arsip"
+
+#. File menu
+#: ../src/main_window.c:295
+msgid "_File"
+msgstr "Berkas (_F)"
+
+#. Action menu: ref all the childs
+#: ../src/main_window.c:323
+msgid "_Action"
+msgstr "_Aksi"
+
+#: ../src/main_window.c:328
+msgid "_Add files"
+msgstr "Tambah berkas (_A)"
+
+#: ../src/main_window.c:334
+msgid "_Add _folders"
+msgstr "Tambah _folder (_A)"
+
+#: ../src/main_window.c:340
+msgid "_Extract"
+msgstr "_Ekstrak"
+
+#. View menu
+#: ../src/main_window.c:373
+msgid "_View"
+msgstr "Tampilan (_V)"
+
+#. Help menu
+#: ../src/main_window.c:397
+msgid "_Help"
+msgstr "Bantuan (_H)"
+
+#: ../src/main_window.c:443
+#: ../src/main_window.c:852
+msgid "Add files"
+msgstr "Tambah berkas"
+
+#: ../src/main_window.c:447
+#: ../src/main_window.c:894
+msgid "Add folders"
+msgstr "Tambah folder"
+
+#: ../src/main_window.c:724
+msgid "Open archive in new window"
+msgstr "Buka arsip di jendela baru"
+
+#: ../src/main_window.c:730
+msgid "Open archive"
+msgstr "Buka arsip"
+
+#: ../src/main_window.c:916
+msgid ""
+"Squeeze cannot add folders to this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"Squeeze tak dapat menambah folder untuk tipe arsip\n"
+"ini, aplikasi untuk mendukung ini hilang."
+
+#: ../src/main_window.c:937
+msgid "Are you sure you want to remove the selected files?"
+msgstr "Anda yakin ingin menghapus berkas terpilih?"
+
+#: ../src/main_window.c:950
+msgid ""
+"Squeeze cannot remove files from this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"Squeeze tak dapat menghapus berkas dari tipe arsip\n"
+"ini, aplikasi untuk mendukung ini hilang."
+
+#: ../src/main_window.c:999
+msgid ""
+"Are you sure you want to cancel this operation?\n"
+"This could damage the archive."
+msgstr ""
+"Anda yakin ingin membatalkan operasi ini?\n"
+"Ini dapat merusak arsip."
+
+#: ../src/main_window.c:1081
+msgid "Lead developer:"
+msgstr "Pengembang utama:"
+
+#: ../src/main_window.c:1084
+msgid "Contributors:"
+msgstr "Kontributor:"
+
+#: ../src/main_window.c:1087
+msgid "Inspired by Xarchiver, written by Giuseppe Torelli"
+msgstr "Terinspirasi oleh Xarchiver, ditulis oleh Giuseppe Torelli"
+
+#: ../src/main_window.c:1089
+msgid "Application Icon:"
+msgstr "Ikon Aplikasi:"
+
+#: ../src/main_window.c:1092
+msgid "Add / Extract icons:"
+msgstr "Tambah / Ekstrak ikon:"
+
+#: ../src/main_window.c:1093
+msgid "Based on the original extract icon created by Andreas Nilsson"
+msgstr "Berdasarkan ikon ekstrak asli yang dibuat oleh Andreas Nilsson"
+
+#: ../src/main_window.c:1100
+msgid "Squeeze is a lightweight and flexible archive manager for the Xfce Desktop Environment"
+msgstr "Squeeze adalah manajer arsip yang ringan dan fleksibel untuk Lingkungan Destop Xfce"
+
+#. Translator credits as shown in the about dialog: NAME <E-MAIL> YEAR
+#: ../src/main_window.c:1108
+msgid "translator-credits"
+msgstr ""
+"Ahmad Riza H Nst <rizahnst@gnome.org>\n"
+"http://id.gnome.org/\n"
+"Andhika Padmawan <andhika.padmawan@gmail.com> 2008"
+
+#: ../src/main_window.c:1137
+#: ../src/main_window.c:1208
+#: ../src/main_window.c:1376
+msgid "Done"
+msgstr "Selesai"
+
+#: ../src/main_window.c:1218
+msgid "Which action do you want to perform on the selected file(s)?"
+msgstr "Aksi mana yang ingin anda lakukan untuk berkas terpilih?"
+
+#: ../src/main_window.c:1219
+msgid "Open"
+msgstr "Buka"
+
+#: ../src/main_window.c:1233
+msgid ""
+"Squeeze cannot view this file.\n"
+"the application to support this is missing."
+msgstr ""
+"Squeeze tak dapat menampilkan berkas ini.\n"
+"aplikasi untuk mendukung ini hilang."
+
+#: ../src/main_window.c:1301
+msgid "Failed to open file"
+msgstr "Gagal membuka berkas"
+
+#: ../src/main_window.c:1302
+#, c-format
+msgid ""
+"'%s'\n"
+"Could not be opened"
+msgstr ""
+"'%s'\n"
+"Tak dapat dibuka"
+
+#: ../src/new_dialog.c:69
+msgid "Archive type:"
+msgstr "Tipe arsip:"
+
+#: ../src/new_dialog.c:80
+msgid "Archives"
+msgstr "Arsip"
+
+#: ../src/new_dialog.c:108
+msgid "Create new archive"
+msgstr "Buat arsip baru"
+
+#: ../src/notebook.c:207
+msgid "Rules hint"
+msgstr "Petunjuk aturan"
+
+#: ../src/notebook.c:208
+msgid "Make the row background colors alternate"
+msgstr "Buat baris alternatif warna latar belakang"
+
+#: ../src/path_bar.c:141
+msgid "Spacing"
+msgstr "Spasi"
+
+#: ../src/path_bar.c:142
+msgid "The amount of space between the path buttons"
+msgstr "Besar ruangan antara tombol alamat"
+
+#: ../src/tool_bar.c:167
+msgid "Location:"
+msgstr "Lokasi:"
+
+#: ../src/message_dialog.c:158
+msgid "Archive manager"
+msgstr "Manajer arsip"
+

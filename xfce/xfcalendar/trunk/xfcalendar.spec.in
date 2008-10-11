@@ -1,0 +1,45 @@
+Summary: 	Time-managing application for xfce4.
+Name: 		@PACKAGE_TARNAME@
+Version: 	@PACKAGE_VERSION@
+Release: 	1
+License:	GPL
+URL: 		http://www.xfce.org/
+Source0: 	%{name}-%{version}.tar.gz
+Group: 		User Interface/Desktops
+BuildRoot: 	%{_tmppath}/%{name}-root
+
+%description
+Time-managing application for xfce4
+
+%prep
+%setup -q
+
+%build
+%configure --enable-final
+make
+
+%install
+rm -rf $RPM_BUILD_ROOT
+make install DESTDIR=$RPM_BUILD_ROOT mandir=%{_mandir}
+
+%clean
+rm -rf $RPM_BUILD_ROOT
+
+%post
+touch --no-create %{_datadir}/icons/hicolor || :
+if [ -x %{_bindir}/gtk-update-icon-cache ]; then
+   %{_bindir}/gtk-update-icon-cache --quiet %{_datadir}/icons/hicolor || :
+fi
+
+%postun
+touch --no-create %{_datadir}/icons/hicolor || :
+if [ -x %{_bindir}/gtk-update-icon-cache ]; then
+   %{_bindir}/gtk-update-icon-cache --quiet %{_datadir}/icons/hicolor || :
+fi
+
+%files
+%defattr(-,root,root)
+%doc README ChangeLog INSTALL COPYING AUTHORS
+%{_bindir}/
+%{_libdir}/
+%{_datadir}/

@@ -1,0 +1,56 @@
+dnl Version information
+m4_define([xfbib_version_major], [0])
+m4_define([xfbib_version_minor], [0])
+m4_define([xfbib_version_micro], [2])
+m4_define([xfbib_version], [xfbib_version_major().xfbib_version_minor().xfbib_version_micro()])
+
+dnl Initialize autoconf
+AC_COPYRIGHT([Copyright (c) 2008
+        Written by David Gustafsson <david.s.gustafsson@gmail.com> and Jesper Karlsson <zarper@gmail.com>])
+AC_INIT([Xfbib], [xfbib_version()], [bugs.xfbib@gmail.com])
+
+dnl Initialize automake
+AM_INIT_AUTOMAKE([AC_PACKAGE_TARNAME()], [AC_PACKAGE_VERSION()])
+AM_CONFIG_HEADER([config.h])
+AM_MAINTAINER_MODE()
+
+AC_ARG_ENABLE(debug,
+[  --enable-debug    Turn on debugging],
+[case "${enableval}" in
+  yes) debug=true ;;
+  no)  debug=false ;;
+  *) AC_MSG_ERROR(bad value ${enableval} for --enable-debug) ;;
+esac],[debug=false])
+AM_CONDITIONAL(DEBUG, test x$debug = xtrue)
+
+dnl check for basic programs
+AC_PROG_CC()
+AM_PROG_LEX()
+AC_PROG_YACC()
+AC_PROG_INSTALL()
+AC_PROG_LIBTOOL()
+
+dnl Check for i18n support
+XDT_I18N([@LINGUAS@])
+
+dnl Check for required packages
+XDT_CHECK_PACKAGE([GTK], [gtk+-2.0], [2.10.0])
+XDT_CHECK_PACKAGE([GLIB], [glib-2.0], [2.12.0])
+XDT_CHECK_PACKAGE([GOBJECT], [gobject-2.0], [2.12.0])
+XDT_CHECK_PACKAGE([LIBXFCEGUI4], [libxfcegui4-1.0], [4.2.0])
+XDT_CHECK_PACKAGE([LIBXFCE4UTIL], [libxfce4util-1.0], [4.4.0])
+
+dnl Check for debugging support
+BM_DEBUG_SUPPORT()
+dnl # XDT_FEATURE_DEBUG()
+
+AC_OUTPUT([
+Makefile
+po/Makefile.in
+src/Makefile
+icons/Makefile
+icons/16x16/Makefile
+icons/24x24/Makefile
+icons/48x48/Makefile
+icons/128x128/Makefile
+])

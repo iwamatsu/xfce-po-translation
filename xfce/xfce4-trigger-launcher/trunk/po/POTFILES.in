@@ -1,0 +1,9 @@
+# List of source files containing translatable strings.
+
+panel-plugin/triggerlauncher-old2.c
+panel-plugin/xfce-file-chooser-button.c
+panel-plugin/xfce-launcher-command-entry.c
+panel-plugin/xfce-trigger-launcher-options.c
+
+# files added by intltool-prepare.
+panel-plugin/xfce4-trigger-launcher.desktop.in.in

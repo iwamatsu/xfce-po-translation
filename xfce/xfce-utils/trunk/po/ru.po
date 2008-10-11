@@ -1,0 +1,187 @@
+# Russian translations for xfce-utils package.
+# Copyright (C) 2002-2007 The Xfce development team.
+# This file is distributed under the same license as the xfce-utils package.
+# Poul Ionkin <wizzard@nmg.lv>, 2003.
+# Anthony Ivanoff <a-i@bk.ru>, 2004, 2005.
+# Sergey Fedoseev <fedoseev.sergey@gmail.com>, 2006.
+# Andrey Fedoseev <andrey.fedoseev@gmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce-utils 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-09-06 22:45+0200\n"
+"PO-Revision-Date: 2006-08-13 17:39+0600\n"
+"Last-Translator: Andrey Fedoseev <andrey.fedoseev@gmail.com>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../xfce4-about/info.c:172
+msgid "Unable to load "
+msgstr "Невозможно загрузить"
+
+#. Project lead
+#: ../xfce4-about/info.c:201
+msgid "Project Lead"
+msgstr "Лидер проекта"
+
+#. Core developers
+#: ../xfce4-about/info.c:205
+msgid "Core developers"
+msgstr "Основные разработчики"
+
+#. Active contributors
+#: ../xfce4-about/info.c:209
+msgid "Active contributors"
+msgstr "Активные помощники"
+
+#. Previous contributors
+#: ../xfce4-about/info.c:213
+msgid "Previous contributors"
+msgstr "Ранее внесли свой вклад"
+
+#: ../xfce4-about/info.c:218
+msgid "Web Hosting and Mailing Lists provided by"
+msgstr "Веб-хостинг и списки рассылки предоставлены"
+
+#. Server admins
+#: ../xfce4-about/info.c:250
+msgid "Server maintained by"
+msgstr "Сервер поддерживается"
+
+#. Goodies supervision
+#: ../xfce4-about/info.c:254
+msgid "Goodies supervision"
+msgstr "Координация разработки дополнений"
+
+#. Translations supervision
+#: ../xfce4-about/info.c:258
+msgid "Translations supervision"
+msgstr "Координация переводов"
+
+#. Translators
+#: ../xfce4-about/info.c:262
+msgid "Translators"
+msgstr "Переводчики"
+
+#: ../xfce4-about/info.c:293
+msgid "If you know of anyone missing from this list, please let us know on <"
+msgstr ""
+"Если вы знаете кого-то ещё, кто должен присутствовать в этом списке, "
+"пожалуйста, дайте нам знать по адресу <"
+
+#: ../xfce4-about/info.c:297
+msgid "Thanks to all who helped making this software available."
+msgstr "Спасибо всем, кто помог нам сделать это программное обеспечение."
+
+#: ../xfce4-about/info.c:397
+msgid "About Xfce 4"
+msgstr "Об Xfce 4"
+
+#: ../xfce4-about/info.c:398
+#, fuzzy
+msgid "Copyright 2002-2007 by Olivier Fourdan"
+msgstr "Авторское право: Olivier Fourdan, 2002-2007"
+
+#: ../xfce4-about/info.c:421
+msgid "Info"
+msgstr "Информация"
+
+#. add_page (GTK_NOTEBOOK (notebook), _("Credits"), XFCE_AUTHORS, FALSE);
+#: ../xfce4-about/info.c:423
+msgid "Credits"
+msgstr "Авторы"
+
+#: ../xfce4-about/info.c:424
+msgid "Copyright"
+msgstr "Авторское право"
+
+#: ../xfce4-about/info.c:425
+msgid "BSDL"
+msgstr "BSDL"
+
+#: ../xfce4-about/info.c:426
+msgid "LGPL"
+msgstr "LGPL"
+
+#: ../xfce4-about/info.c:427
+msgid "GPL"
+msgstr "GPL"
+
+#. we don't support daemon mode
+#: ../xfrun/xfrun.c:50
+msgid "Daemon Mode"
+msgstr "Режим демона"
+
+#: ../xfrun/xfrun.c:52
+msgid "Daemon mode is not supported."
+msgstr "Режим демона не поддерживается"
+
+#: ../xfrun/xfrun.c:53
+msgid "Xfrun must be compiled with D-BUS support to enable daemon mode."
+msgstr ""
+"Xfrun должна быть собрана с поддержкой D-BUS для использования режима демона."
+
+#: ../xfrun/xfrun-dbus.c:141
+#, c-format
+msgid "Unable to open display \"%s\"."
+msgstr "Невозможно открыть экран \"%s\"."
+
+#: ../xfrun/xfrun-dbus.c:200
+#, c-format
+msgid "D-BUS message bus disconnected. Exiting ...\n"
+msgstr "Канал сообщений D-BUS разсоединён. Выход ...\n"
+
+#. failed
+#: ../xfrun/xfrun-dbus.c:340 ../xfrun/xfrun-dbus.c:351
+msgid "System Error"
+msgstr "Системная ошибка"
+
+#: ../xfrun/xfrun-dbus.c:342 ../xfrun/xfrun-dbus.c:353
+msgid "Unable to fork to background:"
+msgstr "Невозможно переместить процесс в фоновый режим:"
+
+#: ../xfrun/xfrun-dialog.c:188
+msgid "Run in _terminal"
+msgstr "Запустить в _терминале"
+
+#: ../xfrun/xfrun-dialog.c:209
+msgid "_Run"
+msgstr "_Выполнить"
+
+#: ../xfrun/xfrun-dialog.c:540
+#, c-format
+msgid "The command \"%s\" failed to run:"
+msgstr "Не удалось выполнить команду \"%s\":"
+
+#: ../xfrun/xfrun-dialog.c:542
+msgid "Run Error"
+msgstr "Ошибка при выполнении"
+
+#: ../xfrun/xfrun-dialog.c:544
+msgid "Unknown Error"
+msgstr "Неизвестная ошибка"
+
+#: ../xfrun/xfrun-dialog.c:631
+#, c-format
+msgid "Open %s with what program?"
+msgstr "Какой программой открыть %s?"
+
+#: ../xfrun/xfrun-dialog.c:636
+msgid "Run program"
+msgstr "Запуск программы"
+
+#: ../xfce.desktop.in.h:1
+msgid "Use this session to run Xfce as your desktop environment"
+msgstr ""
+
+#: ../xfce.desktop.in.h:2
+msgid "Xfce Session"
+msgstr ""
+
+#~ msgid "Xfce Desktop Environment"
+#~ msgstr "Рабочая среда Xfce"

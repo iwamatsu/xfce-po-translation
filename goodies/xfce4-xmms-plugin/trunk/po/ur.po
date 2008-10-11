@@ -1,0 +1,86 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-xmms-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:12+0200\n"
+"PO-Revision-Date: 2007-10-27 18:51+0500\n"
+"Last-Translator: Muhammad Ali Makki <makk.ma@gmail.com>\n"
+"Language-Team: Urdu <makki.ma@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Urdu\n"
+"X-Poedit-Country: PAKISTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../panel-plugin/xmms_plugin.c:756
+msgid "Properties"
+msgstr "خصوصیات"
+
+#: ../panel-plugin/xmms_plugin.c:768
+msgid "Xfce4 XMMS Plugin Options"
+msgstr "ایکسفس4 XMMS پلگ ان اختیارات"
+
+#. put labels into the left column of our table
+#: ../panel-plugin/xmms_plugin.c:787
+msgid "Font Size"
+msgstr "فونٹ حجم"
+
+#: ../panel-plugin/xmms_plugin.c:788
+msgid "Scroll Speed"
+msgstr "سکرول رفتار"
+
+#: ../panel-plugin/xmms_plugin.c:789
+msgid "Scroll Stepwidth"
+msgstr "Scroll Stepwidth"
+
+#: ../panel-plugin/xmms_plugin.c:790
+msgid "Scroll Delay"
+msgstr "سکرول وقفہ"
+
+#. add check buttons for the scrolled title, progressbar and volume bar
+#: ../panel-plugin/xmms_plugin.c:802
+msgid "Show scrolled song title"
+msgstr "سکرول کیے گئے گانوں کا عنوان ظاہر کریں"
+
+#: ../panel-plugin/xmms_plugin.c:803
+msgid "Show track position"
+msgstr "ٹریک کی جگہ ظاہر کریں"
+
+#: ../panel-plugin/xmms_plugin.c:804
+msgid "Show volume level"
+msgstr "والیم لیول ظاہر کریں"
+
+#. add check button for simple title option
+#: ../panel-plugin/xmms_plugin.c:806
+msgid "Simple song title format"
+msgstr "سادہ گانا عنوان فارمیٹ"
+
+#. add check button for hor_vol_if_vertical option
+#: ../panel-plugin/xmms_plugin.c:808
+msgid "Horizontal volume bar on vertical panels"
+msgstr "عمودی پینلز پر افقی والیم پٹی"
+
+#. add check button for "Use BMP" option
+#: ../panel-plugin/xmms_plugin.c:811
+msgid "Use BMP (Beep Media Player)"
+msgstr "بیپ میڈیا پلیئر استعمال کریں"
+
+#. add check button for quit xmms option
+#: ../panel-plugin/xmms_plugin.c:813
+msgid "Quit XMMS/BMP when plugin terminates"
+msgstr "جب پلگ ان بند کیے جائیں XMMS/BMP بند کریں"
+
+#: ../panel-plugin/xfce4-xmms-plugin.desktop.in.in.h:1
+msgid "XMMS plugin for Xfce 4.4 panel"
+msgstr "XMMS پلگ ان برائے ایکسفس 4.4 پینل"
+
+#: ../panel-plugin/xfce4-xmms-plugin.desktop.in.in.h:2
+msgid "Xfce4 XMMS Plugin"
+msgstr "ایکسفس4 XMMS پلگ ان"
+

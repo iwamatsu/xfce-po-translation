@@ -1,0 +1,8 @@
+4.3 branch
+==========
+- Possibly provide different size of PNG icons for the filesystem, 
+  devices and stock categories
+- Draw the 2 or 3 missing mimetypes icons like the "unknown" and 
+  "x-genesis-rom" (?) ones
+- Think about filename.icon files
+  http://standards.freedesktop.org/icon-theme-spec/icon-theme-spec-latest.html#file_formats

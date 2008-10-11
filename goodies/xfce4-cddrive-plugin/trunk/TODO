@@ -1,0 +1,7 @@
+- Update/rewrite cddrive-monitor to use libexo only
+  (and may be remove fallback commands config)
+
+- Support more OSes. As i have only Linux on my machine, this one won't be done
+  without help.
+
+- Use Thunar D-BUS interface to show some relevant operations in the menu.

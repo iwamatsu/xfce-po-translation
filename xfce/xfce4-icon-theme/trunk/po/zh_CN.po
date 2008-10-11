@@ -1,0 +1,24 @@
+# Chinese/Simplified translation of xfce4-icon-theme.
+# Copyright (C) 2006 The Xfce Development Team.
+# This file is distributed under the same license as the xfce4-icon-theme package.
+# Huang Huan <unicon221@gmail.com>, 2006.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-icon-theme 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-11-22 00:16+0900\n"
+"PO-Revision-Date: 2006-02-16 22:23+0800\n"
+"Last-Translator: Huang Huan <unicon221@gmail.com>\n"
+"Language-Team: Chinese/Simplified <i18n-translation@lists.linux.net.cn>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../Rodent/index.theme.in.h:1
+msgid "Default icon for the Xfce Desktop Environment"
+msgstr "Xfce桌面环境的默认图标"
+
+#: ../Rodent/index.theme.in.h:2
+msgid "Rodent"
+msgstr "Rodent"

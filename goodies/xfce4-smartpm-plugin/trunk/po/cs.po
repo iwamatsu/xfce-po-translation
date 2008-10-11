@@ -1,0 +1,201 @@
+# Czech translations for xfce4-smartpm-plugin.
+# Copyright (C) 2007 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfce4-smartpm-plugin package.
+# Michal Várady <miko.vaji@gmail.com>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-smartpm-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-12-16 16:10+0100\n"
+"PO-Revision-Date: 2007-12-17 02:30+0100\n"
+"Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
+"Language-Team: Czech\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: ../src/xfcesmart.c:149
+msgid "No upgrades"
+msgstr "Žádné aktualizace"
+
+#: ../src/xfcesmart.c:158
+#, c-format
+msgid "%d upgrade available"
+msgstr "%d aktualizace dostupná"
+
+#: ../src/xfcesmart.c:159
+#, c-format
+msgid "%d upgrades available"
+msgstr "%d aktualizace dostupné"
+
+#: ../src/xfcesmart.c:162
+msgid "Package Upgrades"
+msgstr "Aktualizace balíčků"
+
+#: ../src/xfcesmart.c:248
+msgid "No new packages"
+msgstr "Žádné nové balíčky"
+
+#: ../src/xfcesmart.c:250
+#, c-format
+msgid "Channels have %d new packages"
+msgstr "Kanály obsahují %d nových balíčků"
+
+#. unknown
+#: ../src/xfcesmart.c:252
+msgid "Channels updated"
+msgstr "Kanály aktualizovány"
+
+#: ../src/xfcesmart.c:256
+msgid "Package Updates"
+msgstr "Aktualizace balíčků"
+
+#: ../src/xfcesmart.c:261
+#: ../src/xfcesmart.c:367
+#, c-format
+msgid "Error updating%s%s"
+msgstr "Chyba při aktualizaci%s%s"
+
+#: ../src/xfcesmart.c:274
+msgid "Smart Read-Only"
+msgstr "Smart pouze pro čtení"
+
+#: ../src/xfcesmart.c:275
+msgid "Another process seems to be using Smart ?"
+msgstr "Smart pravděpodobně používá další proces."
+
+#: ../src/xfcesmart.c:306
+msgid "Updating channels..."
+msgstr "Aktualizace kanálů..."
+
+#: ../src/xfcesmart.c:359
+#: ../src/xfcesmart.c:1102
+msgid "Update Channels"
+msgstr "Aktualizovat kanály"
+
+#: ../src/xfcesmart.c:364
+#: ../src/xfcesmart.c:405
+msgid "Failed to run update"
+msgstr "Spuštění aktualizace se nezdařilo"
+
+#: ../src/xfcesmart.c:379
+#: ../src/xfcesmart.c:400
+msgid "Channels updated."
+msgstr "Kanály aktualizovány."
+
+#: ../src/xfcesmart.c:404
+#: ../src/xfcesmart.c:645
+msgid "Smart Unavailable"
+msgstr "Smart není dostupný"
+
+#: ../src/xfcesmart.c:555
+#, c-format
+msgid "Error checking%s%s"
+msgstr "Ověřování chyb%s%s"
+
+#: ../src/xfcesmart.c:595
+msgid "Checking for upgrades..."
+msgstr "Hledání aktualizací..."
+
+#: ../src/xfcesmart.c:646
+msgid "Failed to run upgrade"
+msgstr "Spuštění aktualizace se nezdařilo"
+
+#: ../src/xfcesmart.c:725
+msgid "Smart Failed"
+msgstr "Smart selhal"
+
+#: ../src/xfcesmart.c:726
+msgid "Failed to run smart program"
+msgstr "Spuštění programu se nezdařilo"
+
+#: ../src/xfcesmart.c:797
+msgid "Upgrade Now"
+msgstr "Aktualizovat nyní"
+
+#: ../src/xfcesmart.c:941
+msgid "Upgrade In Progress"
+msgstr "Aktualizace probíhá"
+
+#: ../src/xfcesmart.c:942
+msgid "An upgrade is already in progress, please wait."
+msgstr "Aktualizace již probíhá, prosím čekejte."
+
+#: ../src/xfcesmart.c:1315
+#, c-format
+msgid "Unable to open the following url: %s"
+msgstr "Adresu url nelze otevřít: %s"
+
+#: ../src/xfcesmart.c:1321
+msgid "Update In Progress"
+msgstr "Aktualizace probíhá"
+
+#: ../src/xfcesmart.c:1322
+msgid "An update is already in progress, please wait."
+msgstr "Aktualizace již probíhá, prosím čekejte."
+
+#. create the dialog
+#: ../src/xfcesmart.c:1407
+#: ../src/xfce4-smart.desktop.in.in.h:2
+msgid "Smart Package Manager"
+msgstr "Správce balíčků Smart"
+
+#: ../src/xfcesmart.c:1418
+msgid "_Update..."
+msgstr "_Aktualizace..."
+
+#: ../src/xfcesmart.c:1432
+msgid "Package Manager: "
+msgstr "Správce balíčků:"
+
+#: ../src/xfcesmart.c:1436
+msgid "Smart"
+msgstr "Smart"
+
+#: ../src/xfcesmart.c:1437
+msgid "Yum+Extender"
+msgstr "Yum+Extender"
+
+#: ../src/xfcesmart.c:1438
+msgid "APT+Synaptic"
+msgstr "APT+Synaptic"
+
+#: ../src/xfcesmart.c:1439
+msgid "slapt+gslapt"
+msgstr "slapt+gslapt"
+
+#: ../src/xfcesmart.c:1446
+msgid "Show application icon for package manager"
+msgstr "Zobrazit ikonu aplikace pro správce balíčků"
+
+#: ../src/xfcesmart.c:1454
+msgid "Check for upgrades every "
+msgstr "Zjišťovat dostupnost aktualizací každých"
+
+#: ../src/xfcesmart.c:1462
+msgid " minutes"
+msgstr "minut"
+
+#: ../src/xfcesmart.c:1467
+msgid "Show notifications for updates and upgrades"
+msgstr "Zobrazovat oznámení o aktualizacích"
+
+#: ../src/xfcesmart.c:1476
+msgid "Upgrade on launch (if upgrades available)"
+msgstr "Aktualizovat při spuštění (pokud jsou aktualizace dostupné)"
+
+#: ../src/xfcesmart.c:1482
+msgid "Smart upgrade to newer release (dist-upgrade)"
+msgstr "Aktualizace Smart na nové vydání (dist-upgrade)"
+
+#: ../src/xfcesmart.c:1519
+msgid "Smart Package Manager - panel plugin"
+msgstr "Správce balíčků Smart - zásuvný modul pro panel"
+
+#: ../src/xfcesmart.c:1521
+#: ../src/xfce4-smart.desktop.in.in.h:1
+msgid "Check for updates using the Smart Package Manager"
+msgstr "Zjišťovat dostupnost aktualizací pomocí správce balíčků Smart"
+

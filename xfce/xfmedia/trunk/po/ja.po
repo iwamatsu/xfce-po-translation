@@ -1,0 +1,1585 @@
+# $Id: ja.po 26985 2008-05-27 00:25:51Z mmassonnet $
+#
+# Japanese translations for xfmedia package.
+# Copyright (C) 2004-2006 Brian J. Tarricone.
+# This file is distributed under the same license as the xfmedia package.
+# Daichi Kawahata <daichi@xfce.org>, 2005-2006.
+# Nobuhiro Iwamatsu <iwamatsu@nigauri.org>, 2008
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfmedia 0.10.0svn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-06-16 22:22+0900\n"
+"PO-Revision-Date: 2008-05-17 18:39+0900\n"
+"Last-Translator: Nobuhiro Iwamatsu <iwamatsu@nigauri.org>\n"
+"Language-Team: Japanese <xfce-users-jp@ml.fdiary.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:102
+#, c-format
+msgid "Status:                  %s\n"
+msgstr "状態:                    %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:106
+#, c-format
+msgid "Now Playing:             %s\n"
+msgstr "現在演奏中:              %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:111
+#, c-format
+msgid "Filename:                %s\n"
+msgstr "ファイル名:              %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:112
+#: ../plugins/infopipe/xfmedia-infopipe.c:127
+#: ../plugins/infopipe/xfmedia-infopipe.c:138
+msgid "(none)"
+msgstr "(無し)"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:115
+#, c-format
+msgid "Track Position:          %d\n"
+msgstr "曲の順番:                %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:119
+#, c-format
+msgid "Track Length:            %d\n"
+msgstr "演奏時間:                %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:126
+#, c-format
+msgid ""
+"Audio Codec:             %s\n"
+"Audio Bitrate:           %d\n"
+"Audio Sample Rate:       %d\n"
+"Audio Channels:          %d\n"
+"Audio Bits Per Sample:   %d\n"
+msgstr ""
+"音声 コーデック:         %s\n"
+"音声 ビット速度:         %d\n"
+"音声 サンプル速度:       %d\n"
+"音声 チャンネル数:       %d\n"
+"音声 ビット数/サンプル:  %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:137
+#, c-format
+msgid ""
+"Video Codec:            %s\n"
+"Video Bitrate:          %d\n"
+"Video Frames Per Second: %.02f\n"
+"Video Frame Size:        %dx%d\n"
+"Video Aspect Ratio:      %.02f\n"
+msgstr ""
+"映像 コーデック:         %s\n"
+"映像 ビット速度:         %d\n"
+"映像 フレーム数/秒:      %.02f\n"
+"映像 フレームサイズ:     %dx%d\n"
+"映像 縦横比:             %.02f\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:144
+#, c-format
+msgid "Playlist Length:         %d\n"
+msgstr "リストの演奏時間:        %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:148
+#, c-format
+msgid "Current Playlist Index:  %d\n"
+msgstr "リストのインデックス:    %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:234
+#, c-format
+msgid "Xfmedia-Infopipe: Unable to delete file '%s'."
+msgstr "Xfmedia-Infopipe: ファイル '%s' を削除できません。"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:245
+#, c-format
+msgid "Xfmedia-Infopipe: Unable to create pipe '%s'."
+msgstr "Xfmedia-Infopipe: パイプ '%s' を作成できません。"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:262
+msgid "Xfmedia Infopipe"
+msgstr "Xfmedia Infopipe"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:264
+msgid "The Infopipe plugin creates a pipe in /tmp that you can use to retrieve information about the currently playing track."
+msgstr "Infopipe プラグインは、現在再生中の曲に関する情報を得られるように /tmp にパイプを作成します。"
+
+#: ../src/equaliser.c:132
+msgid "Equalizer"
+msgstr "イコライザー"
+
+#: ../src/equaliser.c:175
+msgid "Preamp"
+msgstr "プリアンプ"
+
+#: ../src/http.c:95
+#, c-format
+msgid "http: failed to open socket: %s\n"
+msgstr "HTTP: ソケットを開くのに失敗しました: %s\n"
+
+#: ../src/http.c:105
+#, c-format
+msgid "http: cannot connect to host\n"
+msgstr "HTTP: ホストに接続できません\n"
+
+#: ../src/http.c:121
+#, c-format
+msgid "http: unable to resolve '%s'\n"
+msgstr "HTTP: ホスト名 '%s' を解決できません\n"
+
+#: ../src/http.c:133
+#, c-format
+msgid "http: unable to connect to '%s'\n"
+msgstr "HTTP: '%s' に接続できません\n"
+
+#: ../src/http.c:311
+#: ../src/http.c:330
+msgid "URL parse error"
+msgstr "URL 解析エラー"
+
+#: ../src/http.c:322
+#: ../src/http.c:340
+msgid "proxy authentication error"
+msgstr "プロキシ認証エラー"
+
+#: ../src/http.c:360
+msgid "host connect error"
+msgstr "HTTP 接続エラー"
+
+#: ../src/http.c:399
+msgid "couldn't send request"
+msgstr "リクエストを送信できませんでした"
+
+#: ../src/http.c:420
+msgid "read error"
+msgstr "読み込みエラー"
+
+#: ../src/http.c:446
+msgid "invalid HTTP response"
+msgstr "HTTP の応答コードが無効です"
+
+#: ../src/http.c:454
+msgid "HTTP 3xx redirection not implemented"
+msgstr "HTTP 3xx リダイレクションは実装されていません"
+
+#: ../src/http.c:461
+msgid "HTTP status is not 2xx"
+msgstr "HTTP ステータスが 2xx ではありません"
+
+#: ../src/http.c:480
+msgid "HTTP 'Location:' redirection not implemented"
+msgstr "HTTP 'Location:' リダイレクションは実装されていません"
+
+#. FIXME: report errno, and possibly in a window
+#: ../src/http.c:534
+#, c-format
+msgid "http: read error\n"
+msgstr "HTTP: 読み込みエラー\n"
+
+#: ../src/main.c:227
+#: ../src/xfmedia-remote.c:102
+#, c-format
+msgid ""
+"Xfmedia %s.  Released under the terms of the GNU GPL.  See the COPYING\n"
+"file for details.\n"
+"\n"
+msgstr ""
+"Xfmedia %s。GNU GPL の条件下にリリースされています。\n"
+"詳細は COPYING ファイルを御覧下さい。\n"
+"\n"
+
+#: ../src/main.c:228
+#, c-format
+msgid ""
+"Usage: %s [options] [files]\n"
+"\n"
+msgstr ""
+"使用法: %s [オプション] [ファイル]\n"
+"\n"
+
+#: ../src/main.c:229
+#: ../src/xfmedia-remote.c:104
+msgid "    -h, --help           Print this help message and exit.\n"
+msgstr "    -h, --help           このヘルプメッセージを表示して終了します。\n"
+
+#: ../src/main.c:230
+#: ../src/xfmedia-remote.c:105
+msgid "    -V, --version        Print version information and exit.\n"
+msgstr "    -V, --version        バージョン情報を表示して終了します。\n"
+
+#: ../src/main.c:231
+msgid "    -v, --verbose        Instruct xine to print useful status information.\n"
+msgstr "    -v, --verbose        Xine に有益なステータス情報を表示させます。\n"
+
+#: ../src/main.c:232
+msgid "    --debug              Instruct xine to print detailed debug information.\n"
+msgstr "    --debug              Xine に詳細なデバッグ情報を表示させます。\n"
+
+#: ../src/main.c:233
+msgid "    -f, --fullscreen     Start xfmedia's video window in fullscreen mode.\n"
+msgstr ""
+"    -f, --fullscreen     全画面モードで Xfmedia のビデオ・ウィンドウを起動\n"
+"                         します。\n"
+
+#: ../src/main.c:234
+msgid ""
+"    -p, --autoplay       Start playing when Xfmedia starts.  (This is the\n"
+"                         default if xfmedia is given filenames on the command\n"
+"                         line.)\n"
+msgstr ""
+"    -p, --autoplay       Xfmedia の起動時に再生を開始します。(コマンド行で\n"
+"                         ファイル名が指定された場合の標準の動作です)\n"
+
+#: ../src/main.c:237
+msgid "    -c, --clear-playlist Start xfmedia with an empty playlist.\n"
+msgstr "    -c, --clear-playlist 空のプレイリストで Xfmedia を起動します。\n"
+
+#: ../src/main.c:238
+msgid "    --audio-out=DRIVER   Specify the audio output driver to use.\n"
+msgstr "    --audio-out=DRIVER   使用するオーディオ出力ドライバを指定します。\n"
+
+#: ../src/main.c:239
+msgid "    --video-out=DRIVER   Specify the video output driver to use.\n"
+msgstr "    --video-out=DRIVER   使用するビデオ出力ドライバを指定します。\n"
+
+#: ../src/main.c:240
+msgid ""
+"    --vwin-geometry=WxH[+X+Y]\n"
+"                         Specify a fixed size and/or position for xfmedia's\n"
+"                         video window.\n"
+msgstr ""
+"    --vwin-geometry=WxH[+X+Y]\n"
+"                         Xfmedia のビデオ・ウィンドウの固定サイズと/または\n"
+"                         位置を指定して下さい。\n"
+
+#: ../src/main.c:315
+#: ../src/xfmedia-remote.c:167
+#, c-format
+msgid "Xfmedia version %s, Copyright (c) Brian Tarricone, <bjt23@cornell.edu>\n"
+msgstr "Xfmedia バージョン %s, Copyright (c) Brian Tarricone, <bjt23@cornell.edu>\n"
+
+#: ../src/main.c:316
+#: ../src/xfmedia-remote.c:168
+msgid "Released under the terms of the GNU General Public License.\n"
+msgstr "GNU 一般公有使用許諾書の条件下にリリースされています。\n"
+
+#: ../src/main.c:317
+#, c-format
+msgid "Compiled against xine-lib %s, using xine-lib %s.\n"
+msgstr "xine-lib %s に対してコンパイルされました、xine-lib %s を使用しています。\n"
+
+#: ../src/main.c:319
+#, c-format
+msgid "Compiled against Xfce %d.%d.%d, using Xfce %s.\n"
+msgstr "Xfce %d.%d.%d に対してコンパイルされました、Xfce %s を使用しています。\n"
+
+#: ../src/main.c:354
+msgid "The option --audio-out requires an argument.\n"
+msgstr "オプション --audio-out には引数が必要です。\n"
+
+#: ../src/main.c:363
+msgid "The option --video-out requires an argument.\n"
+msgstr "オプション --video-out には引数が必要です。\n"
+
+#: ../src/mainwin-callbacks.c:130
+msgid "Unable to play file."
+msgstr "ファイルを再生できません。"
+
+#: ../src/mainwin-callbacks.c:131
+msgid "Xfmedia was unable to play the selected file.  Be sure that the file exists and that you have permission to access it."
+msgstr "選択したファイルを再生できません。ファイルが存在してアクセスする権限があるか確認して下さい。"
+
+#: ../src/mainwin-callbacks.c:222
+msgid "Metadata Changed"
+msgstr "メタデータ変更"
+
+#: ../src/mainwin-callbacks.c:224
+msgid "You have edited this file's metadata."
+msgstr "このファイルのメタデータは編集されています。"
+
+#: ../src/mainwin-callbacks.c:225
+msgid "Changes will be lost unless they are saved.  Do you wish to save changes?"
+msgstr "保存されない限り変更は失われてしまいます。変更を保存したいですか？"
+
+#: ../src/mainwin-callbacks.c:226
+msgid "_Discard Changes"
+msgstr "変更を破棄(_D)"
+
+#: ../src/mainwin-callbacks.c:227
+msgid "_Save Changes"
+msgstr "変更を保存(_S)"
+
+#: ../src/mainwin-callbacks.c:285
+#, c-format
+msgid "Xfmedia was unable to open '%s'.  Be sure that the file exists and that you have permission to access it."
+msgstr "Xfmedia が '%s' を開けません。ファイルが存在してアクセスする権限があるか確認して下さい。"
+
+#: ../src/mainwin-callbacks.c:287
+msgid "Unable to open file."
+msgstr "ファイルを開けません。"
+
+#: ../src/mainwin-callbacks.c:308
+msgid "File Info"
+msgstr "ファイル情報"
+
+#: ../src/mainwin-callbacks.c:323
+msgid "Filename"
+msgstr "ファイル名"
+
+#: ../src/mainwin-callbacks.c:336
+msgid "Media Info"
+msgstr "メディア情報"
+
+#: ../src/mainwin-callbacks.c:348
+msgid "Title:"
+msgstr "題名:"
+
+#: ../src/mainwin-callbacks.c:375
+msgid "Artist:"
+msgstr "アーティスト:"
+
+#: ../src/mainwin-callbacks.c:402
+msgid "Album:"
+msgstr "アルバム:"
+
+#: ../src/mainwin-callbacks.c:429
+msgid "Genre:"
+msgstr "ジャンル:"
+
+#: ../src/mainwin-callbacks.c:452
+msgid "Track:"
+msgstr "曲:"
+
+#: ../src/mainwin-callbacks.c:477
+msgid "Year:"
+msgstr "リリース年:"
+
+#: ../src/mainwin-callbacks.c:504
+msgid "Comment:"
+msgstr "コメント:"
+
+#: ../src/mainwin-callbacks.c:535
+msgid "Length:"
+msgstr "演奏時間:"
+
+#: ../src/mainwin-callbacks.c:552
+msgid "File size (b):"
+msgstr "ファイルサイズ (b):"
+
+#: ../src/mainwin-callbacks.c:569
+msgid "Audio Info"
+msgstr "オーディオ情報"
+
+#: ../src/mainwin-callbacks.c:581
+#: ../src/mainwin-callbacks.c:675
+msgid "Codec:"
+msgstr "コーデック:"
+
+#: ../src/mainwin-callbacks.c:596
+msgid "Samples/sec:"
+msgstr "サンプル数/秒:"
+
+#: ../src/mainwin-callbacks.c:615
+msgid "Bits/sample:"
+msgstr "ビット数/サンプル:"
+
+#: ../src/mainwin-callbacks.c:631
+#: ../src/mainwin-callbacks.c:732
+msgid "Channels:"
+msgstr "チャンネル:"
+
+#: ../src/mainwin-callbacks.c:646
+#: ../src/mainwin-callbacks.c:746
+msgid "Bitrate (kbit):"
+msgstr "ビット速度 (kb):"
+
+#: ../src/mainwin-callbacks.c:663
+msgid "Video Info"
+msgstr "ビデオ情報"
+
+#: ../src/mainwin-callbacks.c:690
+msgid "FourCC:"
+msgstr "FourCC:"
+
+#: ../src/mainwin-callbacks.c:714
+msgid "Frame size:"
+msgstr "フレームサイズ:"
+
+#: ../src/mainwin-callbacks.c:895
+msgid "Add URL"
+msgstr "URL を追加"
+
+#: ../src/mainwin-callbacks.c:912
+msgid "_URL:"
+msgstr "_URL:"
+
+#: ../src/mainwin-callbacks.c:937
+msgid "Sort by filename"
+msgstr "ファイル名で並べ替え"
+
+#: ../src/mainwin-callbacks.c:938
+msgid "Sort by title"
+msgstr "題名で並べ替え"
+
+#: ../src/mainwin-callbacks.c:939
+msgid "Sort by artist, title"
+msgstr "アーティスト・題名で並べ替え"
+
+#: ../src/mainwin-callbacks.c:940
+msgid "Sort by artist, album, track number"
+msgstr "アーティスト・アルバム・曲番号で並べ替え"
+
+#: ../src/mainwin-callbacks.c:1241
+msgid "Add Directory"
+msgstr "フォルダを追加"
+
+#: ../src/mainwin-callbacks.c:1329
+msgid "Add Media File"
+msgstr "メディア・ファイルを追加"
+
+#: ../src/mainwin-callbacks.c:1331
+msgid "Add _Selected"
+msgstr "選択したものを追加(_S)"
+
+#: ../src/mainwin-callbacks.c:1335
+msgid "A_dd and Close"
+msgstr "追加して閉じる(_D)"
+
+#: ../src/mainwin-callbacks.c:1349
+#: ../src/playlist.c:686
+msgid "All Files"
+msgstr "全てのファイル"
+
+#: ../src/mainwin-callbacks.c:1353
+msgid "Music Files"
+msgstr "音楽ファイル"
+
+#: ../src/mainwin-callbacks.c:1367
+#: ../src/playlist.c:690
+msgid "Playlists"
+msgstr "プレイリスト"
+
+#: ../src/mainwin-callbacks.c:1373
+msgid "Video Files"
+msgstr "ビデオファイル"
+
+#: ../src/mainwin-callbacks.c:1949
+msgid "Translator"
+msgstr "Daichi Kawahata <daichi@xfce.org>"
+
+#: ../src/mainwin-callbacks.c:1962
+msgid ""
+"Xfmedia is a lightweight media player,\n"
+"based on the xine engine"
+msgstr ""
+"Xfmedia は xine エンジンを基にした\n"
+"軽快なメディアプレイヤーです"
+
+#: ../src/mainwin-callbacks.c:1967
+msgid "Original Author/Maintainer"
+msgstr "原著作者/メインテナー"
+
+#: ../src/mainwin-callbacks.c:2080
+#: ../src/mainwin.c:1843
+msgid "Stopped"
+msgstr "中止"
+
+#: ../src/mainwin.c:383
+msgid "_Other"
+msgstr "その他(_O)"
+
+#: ../src/mainwin.c:429
+msgid "_URL..."
+msgstr "URL(_U)..."
+
+#: ../src/mainwin.c:438
+msgid "_Directory..."
+msgstr "フォルダ(_D)..."
+
+#: ../src/mainwin.c:447
+msgid "_File..."
+msgstr "ファイル(_F)..."
+
+#: ../src/mainwin.c:633
+msgid "Volume"
+msgstr "音量"
+
+#: ../src/mainwin.c:658
+#: ../src/xfmedia-keybindings.c:513
+msgid "Previous Track"
+msgstr "前の曲"
+
+#: ../src/mainwin.c:670
+msgid "Play/Pause Track"
+msgstr "曲の再生/停止"
+
+#: ../src/mainwin.c:686
+msgid "Stop Playback"
+msgstr "再生を中止"
+
+#: ../src/mainwin.c:697
+#: ../src/xfmedia-keybindings.c:514
+msgid "Next Track"
+msgstr "次の曲"
+
+#: ../src/mainwin.c:705
+msgid "_Playlist"
+msgstr "プレイリスト(_P)"
+
+#: ../src/mainwin.c:759
+msgid "_Enqueue"
+msgstr "待たせる(_E)"
+
+#: ../src/mainwin.c:768
+msgid "Add _Mediamark..."
+msgstr "メディアマークを追加(_M)..."
+
+#: ../src/mainwin.c:781
+msgid "_File Info"
+msgstr "ファイル情報(_F)"
+
+#: ../src/mainwin.c:798
+msgid "About _Xfmedia"
+msgstr "Xfmedia について(_X)"
+
+#: ../src/mainwin.c:811
+msgid "_Preferences"
+msgstr "環境設定(_P)"
+
+#: ../src/mainwin.c:821
+msgid "_Equalizer..."
+msgstr "イコライザー(_E)..."
+
+#: ../src/mainwin.c:832
+msgid "_Jump to File..."
+msgstr "ファイルに移動(_J)..."
+
+#: ../src/mainwin.c:841
+msgid "Play_list Queue..."
+msgstr "順番待ちのプレイリスト(_L)..."
+
+#: ../src/mainwin.c:848
+msgid "_Mediamarks"
+msgstr "メディアマーク(_M)"
+
+#: ../src/mainwin.c:858
+msgid "Re_order"
+msgstr "並べ替え(_O)"
+
+#: ../src/mainwin.c:869
+msgid "Sort by _Title"
+msgstr "題名で並べ替え(_T)"
+
+#: ../src/mainwin.c:875
+msgid "Sort by _Filename"
+msgstr "ファイル名で並べ替え(_F)"
+
+#: ../src/mainwin.c:881
+msgid "_Randomize List"
+msgstr "ランダム(_R)"
+
+#: ../src/mainwin.c:893
+msgid "_Shuffle"
+msgstr "シャッフル(_S)"
+
+#: ../src/mainwin.c:901
+msgid "_Repeat"
+msgstr "繰り返し(_R)"
+
+#: ../src/mainwin.c:909
+msgid "Repeat Single _Track"
+msgstr "一つの曲を繰り返す(_T)"
+
+#: ../src/mainwin.c:917
+msgid "Show Audio _Visualization"
+msgstr "オーディオを視覚化する(_V)"
+
+#: ../src/mainwin.c:1124
+#: ../src/mainwin.c:1733
+msgid "Playing"
+msgstr "再生中"
+
+#: ../src/mainwin.c:1141
+msgid "P_revious Track"
+msgstr "前の曲(_R)"
+
+#: ../src/mainwin.c:1150
+#: ../src/mainwin.c:1262
+msgid "_Play"
+msgstr "再生(_P)"
+
+#: ../src/mainwin.c:1167
+#: ../src/mainwin.c:1283
+msgid "_Pause"
+msgstr "停止(_P)"
+
+#: ../src/mainwin.c:1178
+msgid "_Stop"
+msgstr "中止(_S)"
+
+#: ../src/mainwin.c:1186
+msgid "_Next Track"
+msgstr "次の曲(_N)"
+
+#: ../src/mainwin.c:1754
+msgid "Paused"
+msgstr "停止中"
+
+#: ../src/mediamarks.c:125
+msgid "Mediamarks Save Error"
+msgstr "メディアマーク保存エラー"
+
+#: ../src/mediamarks.c:127
+msgid "The mediamarks file failed to save."
+msgstr "メディアマーク・ファイルの保存に失敗しました。"
+
+#: ../src/mediamarks.c:128
+#: ../src/xfmedia-keybindings.c:683
+#: ../src/xfmedia-keybindings.c:696
+msgid "This could be because your disk is full, or you don't have permission to write to the configuration directory.  Any changes will be lost when you quit Xfmedia."
+msgstr "あなたのディスクが一杯になっているか、設定フォルダに書き込む権限が無いからかもしれません。Xfmedia 終了の際にはいずれの変更も失われます。"
+
+#: ../src/mediamarks.c:625
+#: ../src/mediamarks.c:889
+msgid "Mediamarks"
+msgstr "メディアマーク"
+
+#: ../src/mediamarks.c:721
+msgid "Add Mediamark"
+msgstr "メディアマークを追加"
+
+#: ../src/mediamarks.c:726
+msgid "_Add Mediamark"
+msgstr "メディアマークを追加(_A)"
+
+#: ../src/mediamarks.c:745
+#: ../src/mediamarks.c:1191
+msgid "_Name:"
+msgstr "名前(_N):"
+
+#: ../src/mediamarks.c:766
+#: ../src/mediamarks.c:1213
+msgid "_Location:"
+msgstr "場所(_L):"
+
+#: ../src/mediamarks.c:781
+#: ../src/mediamarks.c:987
+msgid "File _in:"
+msgstr "ファイルの場所(_I):"
+
+#: ../src/mediamarks.c:803
+msgid "New Folder"
+msgstr "新しいフォルダ"
+
+#: ../src/mediamarks.c:808
+msgid "Add _Folder"
+msgstr "フォルダを追加(_F)"
+
+#: ../src/mediamarks.c:956
+msgid "Add Mediamark Folder"
+msgstr "メディアマーク・フォルダを追加します"
+
+#: ../src/mediamarks.c:962
+msgid "_Add Folder"
+msgstr "フォルダを追加(_A)"
+
+#: ../src/mediamarks.c:978
+msgid "_Folder Name:"
+msgstr "フォルダ名(_F):"
+
+#: ../src/mediamarks.c:1047
+msgid "Remove Mediamark"
+msgstr "メディアマークを削除"
+
+#: ../src/mediamarks.c:1048
+#: ../src/mediamarks.c:1053
+msgid "Are you sure?"
+msgstr "よろしいですか？"
+
+#: ../src/mediamarks.c:1048
+msgid "You're about to remove a Mediamark, which can't be undone."
+msgstr "メディアマークを削除しようとしています、これは元に戻せません。"
+
+#: ../src/mediamarks.c:1052
+msgid "Remove Folder"
+msgstr "フォルダを削除"
+
+#: ../src/mediamarks.c:1054
+msgid "Removing a folder also removes all items and subfolders contained in it, and can't be undone."
+msgstr "フォルダを削除するとその中に含まれる全てのアイテムおよびサブフォルダも削除されます、また元に戻せません。"
+
+#: ../src/mediamarks.c:1174
+msgid "Mediamark Properties"
+msgstr "メディアマークのプロパティ"
+
+#: ../src/mediamarks.c:1174
+msgid "Folder Properties"
+msgstr "フォルダのプロパティ"
+
+#: ../src/mediamarks.c:1593
+msgid "Manage Mediamarks"
+msgstr "メディアマークの管理"
+
+#: ../src/mediamarks.c:1615
+msgid "New Mediamark..."
+msgstr "新規メディアマーク..."
+
+#: ../src/mediamarks.c:1616
+msgid "Add a new mediamark"
+msgstr "新しいメディアマークを追加します"
+
+#: ../src/mediamarks.c:1621
+msgid "Add Folder..."
+msgstr "フォルダを追加..."
+
+#: ../src/mediamarks.c:1622
+msgid "Add a new folder"
+msgstr "新しいフォルダを追加します"
+
+#: ../src/mediamarks.c:1627
+msgid "Remove Item"
+msgstr "アイテムを削除"
+
+#: ../src/mediamarks.c:1628
+msgid "Remove the selected item"
+msgstr "選択したアイテムを削除します"
+
+#: ../src/mediamarks.c:1635
+msgid "Move Item Up"
+msgstr "アイテムを上に移動"
+
+#: ../src/mediamarks.c:1636
+msgid "Move the selected item up"
+msgstr "選択したアイテムを上に移動します"
+
+#: ../src/mediamarks.c:1641
+msgid "Move Item Down"
+msgstr "アイテムを下に移動"
+
+#: ../src/mediamarks.c:1642
+msgid "Move the selected item down"
+msgstr "選択したアイテムを下に移動します"
+
+#: ../src/mediamarks.c:1649
+msgid "Refresh"
+msgstr "更新"
+
+#: ../src/mediamarks.c:1650
+msgid "Refresh the list"
+msgstr "リストを更新します"
+
+#: ../src/mediamarks.c:1655
+msgid "Properties..."
+msgstr "プロパティ..."
+
+#: ../src/mediamarks.c:1656
+msgid "Edit the selected item's properties"
+msgstr "選択したアイテムのプロパティを編集します"
+
+#: ../src/mediamarks.c:1686
+msgid "Name"
+msgstr "名前"
+
+#: ../src/mediamarks.c:1713
+msgid "Location"
+msgstr "場所"
+
+#: ../src/mediamarks.c:1806
+msgid "_Add Current Stream..."
+msgstr "現在のストリームを追加(_A)..."
+
+#: ../src/mediamarks.c:1815
+msgid "_Manage Mediamarks..."
+msgstr "メディア・マークの管理(_M)..."
+
+#: ../src/playlist.c:536
+msgid "Save changes to this playlist before closing?"
+msgstr "このプレイリストを閉じる前に保存しますか？"
+
+#: ../src/playlist.c:537
+msgid "You've changed this playlist since it was last saved."
+msgstr "このプレイリストは最後に保存してから変更されています。"
+
+#: ../src/playlist.c:541
+msgid "Do_n't save"
+msgstr "保存しない(_N)"
+
+#: ../src/playlist.c:590
+#: ../src/xfmedia-keybindings.c:534
+msgid "Save Playlist"
+msgstr "プレイリストを保存する"
+
+#: ../src/playlist.c:600
+msgid "Autodetect type by extension"
+msgstr "拡張子で種類を自動検出する"
+
+# FIXME: wtf
+#: ../src/playlist.c:604
+msgid "Flat file"
+msgstr "フラットファイル"
+
+#: ../src/playlist.c:676
+msgid "Open Playlist"
+msgstr "プレイリストを開く"
+
+#: ../src/playlist.c:1359
+msgid "#"
+msgstr "順番"
+
+#: ../src/playlist.c:1373
+msgid "Title"
+msgstr "タイトル"
+
+#: ../src/playlist.c:1381
+msgid "Length"
+msgstr "演奏時間"
+
+#: ../src/playlist.c:1431
+msgid "Add entry to playlist"
+msgstr "エントリーをプレイリストに追加します"
+
+#: ../src/playlist.c:1441
+msgid "Remove entry from playlist"
+msgstr "エントリーをプレイリストから削除します"
+
+#: ../src/playlist.c:1451
+msgid "Move selected playlist entry up"
+msgstr "選択したプレイリストを上に移動します"
+
+#: ../src/playlist.c:1461
+msgid "Move selected playlist entry down"
+msgstr "選択したプレイリストを下に移動します"
+
+#: ../src/playlist.c:1486
+msgid "Randomize play order"
+msgstr "ランダムな順番で再生します"
+
+#: ../src/playlist.c:1505
+msgid "Repeat after playlist finishes"
+msgstr "プレイリストの終了後に繰り返します"
+
+#: ../src/playlist.c:1520
+msgid "Save current playlist"
+msgstr "現在のプレイリストを保存します"
+
+#: ../src/playlist.c:1530
+msgid "Open a saved playlist"
+msgstr "保存したプレイリストを開きます"
+
+#: ../src/playlist.c:1540
+msgid "Start a new playlist"
+msgstr "新しいプレイリストを開始します"
+
+#: ../src/playlist.c:1548
+msgid "_Remove Entry"
+msgstr "エントリーを削除(_R)"
+
+#: ../src/playlist.c:1557
+msgid "Move _Up"
+msgstr "上に移動(_U)"
+
+#: ../src/playlist.c:1566
+msgid "Move _Down"
+msgstr "下に移動(_D)"
+
+#: ../src/remote.c:223
+#: ../src/remote.c:466
+msgid "(no title)"
+msgstr "(無題)"
+
+#: ../src/settings-dialog.c:145
+msgid "Optical Devices"
+msgstr "光学デバイス"
+
+#: ../src/settings-dialog.c:159
+msgid "CD A_udio Device:"
+msgstr "CD オーディオデバイス(_U):"
+
+#: ../src/settings-dialog.c:181
+msgid "DVD Vide_o Device:"
+msgstr "DVD ビデオデバイス(_O):"
+
+#: ../src/settings-dialog.c:203
+msgid "Vid_eo CD Device:"
+msgstr "ビデオ CD デバイス(_E):"
+
+#: ../src/settings-dialog.c:221
+msgid "Audio"
+msgstr "オーディオ"
+
+#: ../src/settings-dialog.c:233
+msgid "Dr_iver:"
+msgstr "ドライバ(_I):"
+
+#: ../src/settings-dialog.c:243
+#: ../src/settings-dialog.c:312
+msgid "(no drivers)"
+msgstr "(ドライバなし)"
+
+#: ../src/settings-dialog.c:267
+msgid "_Speaker Layout:"
+msgstr "スピーカーの配置(_S):"
+
+#: ../src/settings-dialog.c:275
+msgid "(option unavailable)"
+msgstr "(オプションは利用できません)"
+
+#: ../src/settings-dialog.c:290
+msgid "Video"
+msgstr "ビデオ"
+
+#: ../src/settings-dialog.c:302
+msgid "D_river:"
+msgstr "ドライバ(_R):"
+
+#: ../src/settings-dialog.c:608
+msgid "Xfmedia Preferences"
+msgstr "Xfmedia 環境設定"
+
+#: ../src/settings-dialog.c:630
+msgid "Playlist"
+msgstr "プレイリスト"
+
+#: ../src/settings-dialog.c:643
+msgid "_Title Display:"
+msgstr "題名の表示(_T):"
+
+#: ../src/settings-dialog.c:653
+msgid ""
+"This is a printf-like format string controlling the display of the playlist.  Xfmedia will replace the following symbols:\n"
+"\t%p: Artist/Performer\n"
+"\t%t: Track Title\n"
+"\t%a: Album Name\n"
+"\t%T: Track Number\n"
+"\t%g: Genre\n"
+"\t%y: Year\n"
+"\t%f: Filename\n"
+"\t%%: a percent sign"
+msgstr ""
+"これはプレイリストの表示を管理している printf() のようなフォーマット文字列です。Xfmedia は以下の記号を置き換えます:\n"
+"\t%p: アーティスト/演奏者\n"
+"\t%t: 曲のタイトル\n"
+"\t%a: アルバム名\n"
+"\t%T: 曲の番号\n"
+"\t%g: ジャンル\n"
+"\t%y: リリース年\n"
+"\t%f: ファイル名\n"
+"\t%%: パーセント記号"
+
+#: ../src/settings-dialog.c:667
+msgid "_Advance playlist when track ends"
+msgstr "曲の終了で次のプレイリストに進む(_A)"
+
+#: ../src/settings-dialog.c:675
+msgid "When a track ends, Xfmedia can automatically advance to the next track in the playlist and continue playback."
+msgstr "曲が終わると、Xfmedia はプレイリストにある次の曲に自動的に進んで再生を続行することができます。"
+
+#: ../src/settings-dialog.c:677
+msgid "_Don't save playlist on exit for one-shot invocations"
+msgstr "一度きりの実行なので終了時にプレイリストを保存しない(_D)"
+
+#: ../src/settings-dialog.c:685
+msgid "Only automatically save the playlist during interactive use; i.e., don't save the playlist when Xfmedia was invoked from the commandline with a short list of definite arguments.  This option needs to be named better."
+msgstr "インタラクティブに使用している間にのみプレイリストを保存します; つまり、Xfmedia がコマンド行からある一定の短い引数リストと共に実行された場合はプレイリストを保存しません。このオプションにはもう少しよい名前をつける必要があります。"
+
+#: ../src/settings-dialog.c:691
+msgid "Load metadata:"
+msgstr "メタデータを読込む:"
+
+#: ../src/settings-dialog.c:695
+msgid "On _scroll"
+msgstr "スクロールで(_S)"
+
+#: ../src/settings-dialog.c:703
+msgid "Load file metadata for entries in the playlist when they are visible."
+msgstr "表示可能になっていれば、プレイリストにあるエントリーのメタデータを読み込みます。"
+
+#: ../src/settings-dialog.c:706
+msgid "On pla_y"
+msgstr "再生で(_Y)"
+
+#: ../src/settings-dialog.c:714
+msgid "Load file metadata for entries in the playlist only when playing them."
+msgstr "プレイリストにあるエントリーのメタデータを再生している間だけ読み込みます。"
+
+#: ../src/settings-dialog.c:717
+msgid "_Never"
+msgstr "読込まない(_N)"
+
+#: ../src/settings-dialog.c:725
+msgid "Never load file metadata for entries in the playlist."
+msgstr "プレイリストにあるエントリーのメタデータを読み込みません。"
+
+#: ../src/settings-dialog.c:727
+msgid "Window"
+msgstr "ウィンドウ"
+
+#: ../src/settings-dialog.c:736
+msgid "Show Xfmedia on all _workspaces"
+msgstr "全てのワークスペースに Xfmedia を表示(_W)"
+
+#: ../src/settings-dialog.c:742
+msgid "Sets Xfmedia \"sticky\" such that it appears on all workspaces (virtual desktops)."
+msgstr "Xfmedia を全てのワークスペース (仮想デスクトップ) に現れるよう \"スティッキー\" としてセットします。"
+
+#: ../src/settings-dialog.c:744
+msgid "Keep X_fmedia above other windows"
+msgstr "Xfmedia を他のウィンドウの前にする(_F)"
+
+#: ../src/settings-dialog.c:751
+msgid "Sets the Xfmedia window to \"Always-on-Top\" status."
+msgstr "Xfmwdia のウィンドウを \"常に上部へ\" 来るようにします。"
+
+#: ../src/settings-dialog.c:753
+msgid "Dock and auto-_hide Xfmedia at screen edges"
+msgstr "画面の端で Xfmedia をドックして自動的に隠す(_H)"
+
+#: ../src/settings-dialog.c:760
+msgid "When the Xfmedia window is dragged to a screen edge, it will auto-hide itself and reappear when you move the mouse to the edge of the screen."
+msgstr "Xfmedia のウィンドウが画面端にドラッグされる時にそのウィンドウを自動的に隠し、マウスをその画面の端に移動すると再び現れるようになります。"
+
+#: ../src/settings-dialog.c:762
+msgid "Tray Icon"
+msgstr "トレイ・アイコン"
+
+#: ../src/settings-dialog.c:771
+msgid "Show _tray icon"
+msgstr "トレイ・アイコンを表示(_T)"
+
+#: ../src/settings-dialog.c:777
+msgid "Displays an Xfmedia icon in the system notification area."
+msgstr "Xfmedia アイコンをシステム通知エリアに表示します。"
+
+#: ../src/settings-dialog.c:779
+msgid "_Minimize Xfmedia to tray icon"
+msgstr "Xfmedia をトレイ・アイコンに最小化(_M)"
+
+#: ../src/settings-dialog.c:787
+msgid "Minimizes Xfmedia to the tray icon rather than to the taskbar or iconbox."
+msgstr "Xfmedia をタスクバーやアイコン・ボックスではなくトレイ・アイコンに最小化します。"
+
+#: ../src/settings-dialog.c:793
+msgid "On middle _click:"
+msgstr "真ん中のクリックで(_C):"
+
+#: ../src/settings-dialog.c:796
+#: ../src/settings-dialog.c:810
+msgid "The tray icon can perform an action when middle-clicked.  Select the action in the dropdown box."
+msgstr "トレイ・アイコンは真ん中のボタンがクリックされた時に動作を実行できます。ドロップダウン・ボックスにある動作を選んで下さい。"
+
+#: ../src/settings-dialog.c:799
+msgid "Do nothing"
+msgstr "何もしない"
+
+#: ../src/settings-dialog.c:800
+msgid "Toggle play/pause"
+msgstr "再生/停止を切替え"
+
+#: ../src/settings-dialog.c:801
+msgid "Next track"
+msgstr "次の曲"
+
+#: ../src/settings-dialog.c:802
+msgid "Previous track"
+msgstr "前の曲"
+
+#: ../src/settings-dialog.c:815
+msgid "O_ptions"
+msgstr "オプション(_P)"
+
+#: ../src/settings-dialog.c:826
+msgid "Selected Visualization"
+msgstr "選択された視覚化方法"
+
+#: ../src/settings-dialog.c:854
+msgid "(none available)"
+msgstr "(利用できません)"
+
+#: ../src/settings-dialog.c:865
+msgid "Visualization Options"
+msgstr "視覚化オプション"
+
+#: ../src/settings-dialog.c:880
+msgid "_Audio Visualization"
+msgstr "音声を視覚化表示する(_A)"
+
+#: ../src/settings-dialog.c:886
+msgid "_Devices"
+msgstr "デバイス(_D)"
+
+#: ../src/settings-dialog.c:892
+msgid "_Keybindings"
+msgstr "キー・バインディング(_K)"
+
+#: ../src/settings-dialog.c:900
+msgid "_Plugins"
+msgstr "プラグイン(_P)"
+
+#: ../src/settings.c:242
+msgid "Settings Save Error"
+msgstr "設定の保存エラー"
+
+#: ../src/settings.c:243
+msgid "The settings file failed to save."
+msgstr "設定ファイルの保存に失敗しました。"
+
+#: ../src/settings.c:244
+msgid "This could be because your disk is full, or you don't have permission to write to the configuration directory.  Any changes will be lost when you exit Xfmedia."
+msgstr "あなたのディスクが一杯になっているか、設定フォルダに書き込む権限が無いことが考えられます。Xfmedia の終了時に、これまでの変更は保存されません。"
+
+#: ../src/xfmedia-common.c:422
+msgid "(UTF-8 conversion failed)"
+msgstr "(UTF-8 への変換に失敗しました)"
+
+#: ../src/xfmedia-handle.c:141
+msgid "Handle Style"
+msgstr "取手のスタイル"
+
+#: ../src/xfmedia-handle.c:142
+msgid "This property defines the handle style of the XfmediaHandle widget."
+msgstr "このプロパティは XfmediaHandle ウィジットの取手のスタイルを定義します。"
+
+#: ../src/xfmedia-handle.c:150
+msgid "Orientation"
+msgstr "向き"
+
+#: ../src/xfmedia-handle.c:151
+msgid "This property defines whether this is a horizontal or vertical handle."
+msgstr "このプロパティは取手が水平または垂直かどうかを定義します。"
+
+#: ../src/xfmedia-keybindings.c:510
+msgid "Play"
+msgstr "再生"
+
+#: ../src/xfmedia-keybindings.c:511
+msgid "Pause"
+msgstr "停止"
+
+#: ../src/xfmedia-keybindings.c:512
+msgid "Stop"
+msgstr "中止"
+
+#: ../src/xfmedia-keybindings.c:515
+msgid "Quit"
+msgstr "終了"
+
+#: ../src/xfmedia-keybindings.c:516
+msgid "Toggle Fullscreen"
+msgstr "全画面表示を切替え"
+
+#: ../src/xfmedia-keybindings.c:517
+msgid "Toggle Shuffle Play"
+msgstr "シャッフル再生を切替え"
+
+#: ../src/xfmedia-keybindings.c:518
+msgid "Toggle Repeat Play"
+msgstr "リピート再生を切替え"
+
+#: ../src/xfmedia-keybindings.c:519
+msgid "Toggle Audio Visualization"
+msgstr "音声の視覚化を切替え"
+
+#: ../src/xfmedia-keybindings.c:520
+msgid "Set Speed Faster"
+msgstr "速度を速くする"
+
+#: ../src/xfmedia-keybindings.c:521
+msgid "Set Speed Slower"
+msgstr "速度を遅くする"
+
+#: ../src/xfmedia-keybindings.c:522
+msgid "Forward 10 Seconds"
+msgstr "早送り (10 秒)"
+
+#: ../src/xfmedia-keybindings.c:523
+msgid "Forward 30 Seconds"
+msgstr "早送り (30 秒)"
+
+#: ../src/xfmedia-keybindings.c:524
+msgid "Forward 60 Seconds"
+msgstr "早送り (60 秒)"
+
+#: ../src/xfmedia-keybindings.c:525
+msgid "Backward 10 Seconds"
+msgstr "巻戻し (10 秒)"
+
+#: ../src/xfmedia-keybindings.c:526
+msgid "Backward 30 Seconds"
+msgstr "巻戻し (30 秒)"
+
+#: ../src/xfmedia-keybindings.c:527
+msgid "Backward 60 Seconds"
+msgstr "巻戻し (60 秒)"
+
+#: ../src/xfmedia-keybindings.c:528
+msgid "Enqueue Track"
+msgstr "曲を待機させる"
+
+#: ../src/xfmedia-keybindings.c:529
+msgid "Show Queued Tracks"
+msgstr "待機中の曲を表示"
+
+#: ../src/xfmedia-keybindings.c:530
+msgid "Toggle Audio Mute"
+msgstr "消音の切替え"
+
+#: ../src/xfmedia-keybindings.c:531
+msgid "Add File to Playlist"
+msgstr "ファイルをプレイリストに追加"
+
+#: ../src/xfmedia-keybindings.c:532
+msgid "Add URL to Playlist"
+msgstr "URL をプレイリストに追加"
+
+#: ../src/xfmedia-keybindings.c:533
+msgid "Open Saved Playlist"
+msgstr "保存したプレイリストを開く"
+
+#: ../src/xfmedia-keybindings.c:535
+msgid "Clear Playlist"
+msgstr "プレイリストをクリア"
+
+#: ../src/xfmedia-keybindings.c:536
+msgid "A/V Sync Plus"
+msgstr "A/V の同期 (＋)"
+
+#: ../src/xfmedia-keybindings.c:537
+msgid "A/V Sync Minus"
+msgstr "A/V の同期 (−)"
+
+#: ../src/xfmedia-keybindings.c:538
+msgid "Select Aspect Ratio"
+msgstr "縦横比を選択"
+
+#: ../src/xfmedia-keybindings.c:539
+msgid "Jump to File"
+msgstr "ファイルへ移動"
+
+#: ../src/xfmedia-keybindings.c:540
+msgid "Video Zoom In"
+msgstr "ビデオ 拡大"
+
+#: ../src/xfmedia-keybindings.c:541
+msgid "Video Zoom Out"
+msgstr "ビデオ 縮小"
+
+#: ../src/xfmedia-keybindings.c:542
+msgid "Video Window Larger"
+msgstr "ビデオ ウィンドウを大きく"
+
+#: ../src/xfmedia-keybindings.c:543
+msgid "Video Window Smaller"
+msgstr "ビデオ ウィンドウを小さく"
+
+#: ../src/xfmedia-keybindings.c:544
+msgid "Volume Up"
+msgstr "音量を上げる"
+
+#: ../src/xfmedia-keybindings.c:545
+msgid "Volume Down"
+msgstr "音量を下げる"
+
+#: ../src/xfmedia-keybindings.c:546
+msgid "Audio Track Next"
+msgstr "次のオーディオ・トラック"
+
+#: ../src/xfmedia-keybindings.c:547
+msgid "Audio Track Previous"
+msgstr "前のオーディオ・トラック"
+
+#: ../src/xfmedia-keybindings.c:548
+msgid "Subtitle Track Next"
+msgstr "次の字幕トラック"
+
+#: ../src/xfmedia-keybindings.c:549
+msgid "Subtitle Track Previous"
+msgstr "前の字幕トラック"
+
+#: ../src/xfmedia-keybindings.c:635
+msgid "Set Keybinding"
+msgstr "キーバインディングをセット"
+
+#: ../src/xfmedia-keybindings.c:638
+msgid "_Clear"
+msgstr "クリア(_C)"
+
+#: ../src/xfmedia-keybindings.c:647
+msgid "Set shortcut for:"
+msgstr "ショートカットをセット:"
+
+#: ../src/xfmedia-keybindings.c:665
+msgid "Keybinding Error"
+msgstr "キー・バインディングエラー"
+
+#: ../src/xfmedia-keybindings.c:666
+msgid "Keybinding already in use."
+msgstr "キー・バインディングは既に使用されています。"
+
+#: ../src/xfmedia-keybindings.c:667
+msgid "The key sequence you selected is already in use by another function.  Please set the other function to something else."
+msgstr "選択した一連のキーは既に別の機能に使用されています。その機能を何か他のものにセットして下さい。"
+
+#: ../src/xfmedia-keybindings.c:680
+#: ../src/xfmedia-keybindings.c:693
+msgid "Keybindings Save Error"
+msgstr "キー・バインディング保存エラー"
+
+#: ../src/xfmedia-keybindings.c:682
+#: ../src/xfmedia-keybindings.c:695
+msgid "The keybindings file failed to save."
+msgstr "キー・バインディング・ファイルの保存に失敗しました。"
+
+#: ../src/xfmedia-keybindings.c:691
+msgid "None"
+msgstr "無し"
+
+#: ../src/xfmedia-keybindings.c:808
+msgid "Function"
+msgstr "機能"
+
+#: ../src/xfmedia-keybindings.c:813
+msgid "Keys"
+msgstr "キー"
+
+#: ../src/xfmedia-remote.c:103
+#, c-format
+msgid ""
+"Usage: %s [options]\n"
+"\n"
+msgstr "使用法: %s [オプション]\n"
+
+#: ../src/xfmedia-remote.c:106
+msgid ""
+"    --session=N          Specify the number of the already-running instance of\n"
+"                         Xfmedia.  (Defaults to 0, or the first instance found.)\n"
+msgstr ""
+"    --session=N          既に実行している Xfmedia のインスタンスの数を\n"
+"                         指定して下さい。(標準は 0 または最初に見つかった\n"
+"                         インスタンスになります。)\n"
+
+#: ../src/xfmedia-remote.c:108
+msgid "    --ping               Checks to see if an instance of Xfmedia is running.\n"
+msgstr ""
+"    --ping               Xfmedia のインスタンスが実行中であるかを確認\n"
+"                         します。\n"
+
+#: ../src/xfmedia-remote.c:109
+msgid ""
+"    -p, --play[=N]       Causes Xfmedia to play the file at playlist idx N.\n"
+"                         If N is not specified, Xfmedia will play the currently-\n"
+"                         selected entry, or, if no item is selected, the first\n"
+"                         entry.  If used in conjunction with --playlist-add,\n"
+"                         will cause Xfmedia to play the newly-added entry.\n"
+msgstr ""
+"    -p, --play[=N]       プレイリストのインデックス番号 N のファイルを再生\n"
+"                         させます。N が指定されない場合は現在選択されて\n"
+"                         いるエントリーを再生します。あるいは、アイテム\n"
+"                         が選択されていない場合は最初のエントリーを再生\n"
+"                         します。--playlist-add と一緒に使われる場合は、\n"
+"                         新しく追加されたエントリーを再生させます。\n"
+
+#: ../src/xfmedia-remote.c:114
+msgid ""
+"    --toggle             Causes Xfmedia to pause if playing, or play if paused\n"
+"                         or stopped.\n"
+msgstr ""
+"    --toggle             もし再生中であれば停止させ、停止または中止されて\n"
+"                         いれば再生させます。\n"
+
+#: ../src/xfmedia-remote.c:116
+msgid "    --pause              Causes Xfmedia to pause/unpause.\n"
+msgstr "    --pause              Xfmedia に再生を停止/再開させます。\n"
+
+#: ../src/xfmedia-remote.c:117
+msgid "    --stop               Causes Xfmedia to stop playback.\n"
+msgstr "    --stop               Xfmedia に再生を中止させます。\n"
+
+#: ../src/xfmedia-remote.c:118
+msgid ""
+"    --previous           Causes Xfmedia to play the entry played before the\n"
+"                         currently-selected (or -playing) entry.\n"
+msgstr ""
+"    --previous           現在選択されている (または再生中の) エントリーの\n"
+"                         前のエントリーを再生させます。\n"
+
+#: ../src/xfmedia-remote.c:120
+msgid ""
+"    --next               Causes Xfmedia to play the next entry in the playlist.\n"
+"                         If Xfmedia is in shuffle mode, a new entry will be\n"
+"                         selected randomly.\n"
+msgstr ""
+"    --next               プレイリストにある次のエントリーを再生させます。\n"
+"                         Xfmedia がシャッフルモードの場合は新しいエントリー\n"
+"                         がランダムに選ばれます。\n"
+
+#: ../src/xfmedia-remote.c:123
+msgid ""
+"    -a, --playlist-add=FILE\n"
+"                         Adds FILE to the end of the playlist.\n"
+msgstr ""
+"    -a, --playlist-add=FILE\n"
+"                         FILE をプレイリストの終わりに追加します。\n"
+
+#: ../src/xfmedia-remote.c:125
+msgid ""
+"    -r, --playlist-remove=N\n"
+"                         Removes the specified playlist entry from the playlist.\n"
+msgstr ""
+"    -r, --playlist-remove=N\n"
+"                         指定したプレイリストのエントリーをリストから\n"
+"                         削除します。\n"
+
+#: ../src/xfmedia-remote.c:127
+msgid ""
+"    -c, --playlist-clear\n"
+"                         Removes all entries from the playlist.\n"
+msgstr ""
+"    -r, --playlist-clear\n"
+"                         全てのプレイリストエントリーをリストから削除します。\n"
+
+#: ../src/xfmedia-remote.c:129
+msgid ""
+"    -l, --playlist-load=FILE\n"
+"                         Loads the specified playlist.  Note that this does NOT\n"
+"                         first clear the playlist.\n"
+msgstr ""
+"    -r, --playlist-load=FILE\n"
+"                         指定したプレイリストエントリーを読込みます。最初に\n"
+"                         リストをクリアしないことに注意して下さい。\n"
+
+#: ../src/xfmedia-remote.c:132
+msgid ""
+"    -s, --playlist-save=FILE\n"
+"                         Saves the current playlist to the specified FILE.\n"
+msgstr ""
+"    -r, --playlist-save=FILE\n"
+"                         指定した FILE にプレイリストを保存します。\n"
+
+#: ../src/xfmedia-remote.c:134
+msgid "    -Q, --quit           Instructs Xfmedia to quit.\n"
+msgstr "    -Q, --quit           Xfmedia を終了させます。\n"
+
+#: ../src/xfmedia-remote.c:135
+msgid ""
+"    -j, --jump-to-file   Causes Xfmedia to show the main window (if not visible)\n"
+"                         and show the jump-to-file entry box.\n"
+msgstr ""
+"    -j, --jump-to-file   (表示不可になってる場合) メイン・ウィンドウを\n"
+"                         表示させて 'ファイルへ移動' エントリーボックス\n"
+"                         を表示させます。\n"
+
+#: ../src/xfmedia-remote.c:180
+msgid "Argument to --session must be greater than or equal to 0.\n"
+msgstr "--session への引数は 0 かそれより大きくする必要があります。\n"
+
+#: ../src/xfmedia-remote.c:195
+msgid "Argument to --play must be greater than or equal to 0.\n"
+msgstr "--play への引数は 0 かそれより大きくする必要があります。\n"
+
+#: ../src/xfmedia-remote.c:239
+msgid "Argument to --playlist-remove must be greater than or equal to 0.\n"
+msgstr "--playlist-remove への引数は 0 かそれより大きくする必要があります。\n"
+
+#: ../src/xfmedia-remote.c:276
+#, c-format
+msgid "Unrecognized option: %s\n"
+msgstr "認識不能なオプション: %s\n"
+
+#: ../src/xfmedia-remote.c:289
+msgid "Unable to initialize the Xfmedia remote client service.  The most likely cause is that a DBUS session bus is not running"
+msgstr "Xfmedia の遠隔クライアントサービスを初期化できません。DBUS セションバスを実行していない事が原因と思われます。"
+
+#: ../src/xfmedia-remote.c:301
+msgid "Unable to find a running Xfmedia instance."
+msgstr "実行中の Xfmedia インスタンスが見つかりません。"
+
+#: ../src/xfmedia-video-window.c:188
+msgid "Xfmedia Video"
+msgstr "Xfmedia ビデオ"
+
+#: ../xfmedia/getopt.c:686
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: オプション `%s' は不明瞭です。\n"
+
+#: ../xfmedia/getopt.c:711
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: オプション `--%s' は引数を取りません。\n"
+
+#: ../xfmedia/getopt.c:716
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: オプション `%c%s' は引数を取りません。\n"
+
+#: ../xfmedia/getopt.c:734
+#: ../xfmedia/getopt.c:907
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: オプション `%s' には引数が必要です。\n"
+
+#. --option
+#: ../xfmedia/getopt.c:763
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: `--%s' は認識不能なオプションです。\n"
+
+#. +option or -option
+#: ../xfmedia/getopt.c:767
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: `%c%s' は認識不能なオプションです。\n"
+
+#. 1003.2 specifies the format of this message.
+#: ../xfmedia/getopt.c:793
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: 不正なオプションです -- %c\n"
+
+#: ../xfmedia/getopt.c:796
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: 無効なオプションです -- %c\n"
+
+#. 1003.2 specifies the format of this message.
+#: ../xfmedia/getopt.c:826
+#: ../xfmedia/getopt.c:956
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: オプションには引数が必要です -- %c\n"
+
+#: ../xfmedia/getopt.c:873
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: オプション `-W %s' は不明瞭です\n"
+
+#: ../xfmedia/getopt.c:891
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: オプション `-W %s' は引数を取りません\n"
+
+#: ../xfmedia/remote-client.c:607
+#: ../xfmedia/remote-client.c:614
+#: ../xfmedia/remote-client.c:621
+msgid "Xfmedia was not compiled with D-BUS support.  Remote control interface is not available."
+msgstr "Xfmedia は D-BUS をサポートするようコンパイルされていません。リモコン・インターフェイスは利用できません。"
+
+#: ../xfmedia.desktop.in.h:1
+msgid "Enqueue and play with Xfmedia"
+msgstr "Xfmedia のキューに入れて再生する"
+
+#: ../xfmedia.desktop.in.h:2
+msgid "Enqueue in Xfmedia"
+msgstr "Xfmedia のキューに入れる"
+
+#: ../xfmedia.desktop.in.h:3
+msgid "Lightweight Media Player"
+msgstr "軽快なメディアプレイヤーです"
+
+#: ../xfmedia.desktop.in.h:4
+msgid "Xfmedia"
+msgstr "Xfmedia メディアプレイヤー"
+

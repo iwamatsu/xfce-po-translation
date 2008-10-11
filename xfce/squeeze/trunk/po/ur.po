@@ -1,0 +1,518 @@
+# Ukrainian translation of the squeeze package.
+# Copyright (C) 2006-2007 Stephan Arts.
+# This file is distributed under the same license as the squeeze package.
+#
+# Dmitry Nikitin <luckas_fb@mail.ru>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: squeeze 0.2.0\n"
+"Report-Msgid-Bugs-To: stephan@xfce.org\n"
+"POT-Creation-Date: 2007-04-26 09:23+0200\n"
+"PO-Revision-Date: 2007-10-28 19:42+0200\n"
+"Last-Translator: Muhammad Ali Makki <makki.ma@gmai.com>\n"
+"Language-Team: Urdu <makki.ma@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Language: Urdu\n"
+"X-Poedit-Country: PAKISTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../libsqueeze/archive.c:268
+msgid "Name"
+msgstr "نام"
+
+#: ../libsqueeze/archive.c:270
+msgid "Mime type"
+msgstr "Mime قسم"
+
+#: ../libsqueeze/command-builder-compr.c:198
+#: ../libsqueeze/command-builder-gnu-tar.c:236
+#: ../libsqueeze/command-builder-gnu-tar.c:356
+msgid "Compressing"
+msgstr "دبایا جا رہا ہے"
+
+#: ../libsqueeze/command-builder-compr.c:222
+#: ../libsqueeze/command-builder-gnu-tar.c:269
+#: ../libsqueeze/command-builder-gnu-tar.c:347
+msgid "Decompressing"
+msgstr "کھولا جارہا ہے"
+
+#: ../libsqueeze/command-builder-compr.c:253
+#: ../libsqueeze/command-builder-gnu-tar.c:428
+#: ../libsqueeze/command-builder-gnu-tar.c:430
+#: ../libsqueeze/command-builder-rar.c:226
+#: ../libsqueeze/command-builder-zip.c:214
+msgid "Refresh"
+msgstr "پھر تازہ"
+
+#: ../libsqueeze/command-builder-gnu-tar.c:145
+#: ../libsqueeze/command-builder-rar.c:137
+msgid "Rights"
+msgstr "حقوق"
+
+#: ../libsqueeze/command-builder-gnu-tar.c:147
+msgid "Owner/Group"
+msgstr "مالک/گروپ"
+
+#: ../libsqueeze/command-builder-gnu-tar.c:149
+#: ../libsqueeze/command-builder-rar.c:129
+#: ../libsqueeze/command-builder-zip.c:120
+msgid "Size"
+msgstr "حجم"
+
+#: ../libsqueeze/command-builder-gnu-tar.c:151
+#: ../libsqueeze/command-builder-rar.c:133
+#: ../libsqueeze/command-builder-zip.c:124
+msgid "Date"
+msgstr "تاریخ"
+
+#: ../libsqueeze/command-builder-gnu-tar.c:153
+#: ../libsqueeze/command-builder-rar.c:135
+#: ../libsqueeze/command-builder-zip.c:126
+msgid "Time"
+msgstr "تاریخ"
+
+#: ../libsqueeze/command-builder-gnu-tar.c:283
+msgid "Adding files"
+msgstr "فائلیں شامل کی جارہی ہیں"
+
+#: ../libsqueeze/command-builder-gnu-tar.c:303
+#: ../libsqueeze/command-builder-gnu-tar.c:374
+msgid "Cleanup"
+msgstr "صفائی"
+
+#: ../libsqueeze/command-builder-gnu-tar.c:334
+msgid "Removing files"
+msgstr "فائلیں صاف کی جارہی ہیں"
+
+#: ../libsqueeze/command-builder-gnu-tar.c:370
+#: ../libsqueeze/command-builder-gnu-tar.c:392
+#: ../libsqueeze/command-builder-rar.c:197
+#: ../libsqueeze/command-builder-rar.c:199
+#: ../libsqueeze/command-builder-zip.c:183
+#: ../libsqueeze/command-builder-zip.c:185
+#: ../libsqueeze/command-builder.c:147
+msgid "Removing"
+msgstr "صاف کی جارہی ہیں"
+
+#: ../libsqueeze/command-builder-gnu-tar.c:413
+#: ../libsqueeze/command-builder-gnu-tar.c:415
+#: ../libsqueeze/command-builder-rar.c:216
+#: ../libsqueeze/command-builder-zip.c:203
+msgid "Extracting"
+msgstr "کھولا جارہا ہے"
+
+#: ../libsqueeze/command-builder-rar.c:127
+#: ../libsqueeze/command-builder-zip.c:116
+msgid "Compressed"
+msgstr "دبی ہوئی"
+
+#: ../libsqueeze/command-builder-rar.c:131
+#: ../libsqueeze/command-builder-zip.c:122
+msgid "Ratio"
+msgstr "قدر"
+
+#: ../libsqueeze/command-builder-rar.c:141
+#: ../libsqueeze/command-builder-zip.c:118
+msgid "Method"
+msgstr "میتھڈ"
+
+#: ../libsqueeze/command-builder-rar.c:143
+msgid "Version"
+msgstr "ورژن"
+
+#: ../libsqueeze/command-builder-rar.c:181
+#: ../libsqueeze/command-builder-zip.c:166
+msgid "Adding"
+msgstr "شامل"
+
+#: ../libsqueeze/command-builder.c:125
+msgid "Execute"
+msgstr "چلانا"
+
+#: ../libsqueeze/spawn-command.c:273
+#, c-format
+msgid "Command exited with status %d."
+msgstr "حالت %d میں کمانڈ خارج ہوئی."
+
+#: ../libsqueeze/spawn-command.c:283
+msgid "Command interrupted by user"
+msgstr "کمانڈ میں صارف کی طرف سے دخل اندازی"
+
+#: ../libsqueeze/spawn-command.c:287
+msgid "Command received SIGSEGV"
+msgstr "کمانڈ کو SIGSEGV موصول ہوئی"
+
+#: ../libsqueeze/spawn-command.c:292
+msgid "Command Terminated"
+msgstr "کمانڈ موقوف کردی گئی"
+
+#: ../squeeze.desktop.in.h:1
+msgid "Archive Manager"
+msgstr "محفوظہ منیجر"
+
+#: ../squeeze.desktop.in.h:2
+msgid "Create and manage archives with the archive manager"
+msgstr "محفوظہ منیجر سے محفوظات بنائیں اور ان کی ادارت کریں"
+
+#: ../squeeze.desktop.in.h:3
+msgid "Squeeze Archive Manager"
+msgstr "Squeeze محفوظہ منیجر"
+
+#: ../src/add_dialog.c:73
+msgid "Files and directories to add"
+msgstr "شامل کرنے کے لیے فائلیں اور ڈائریکٹریاں"
+
+#: ../src/add_dialog.c:74
+msgid "Options:"
+msgstr "اختیارات:"
+
+#: ../src/add_dialog.c:107
+msgid "Files"
+msgstr "فائلیں"
+
+#: ../src/add_dialog.c:111
+msgid "Directories"
+msgstr "ڈائریکٹریاں"
+
+#: ../src/add_dialog.c:144
+msgid "Add file(s) to archive"
+msgstr "فائلیں محفوظہ میں شامل کریں"
+
+#. Select Files Dialog
+#: ../src/add_dialog.c:164
+msgid "Select files"
+msgstr "فائلیں منتخب کریں"
+
+#. Select Folder Dialog
+#: ../src/add_dialog.c:170
+msgid "Select folders"
+msgstr "فولڈر منتخب کریں"
+
+#.
+#. * Could not open archive (mime type not supported or file did not exist)
+#. * Should be a more specific error message.
+#.
+#: ../src/application.c:162
+#: ../src/application.c:252
+msgid "Could not open archive, MIME-type unsupported or file did not exist"
+msgstr "محفوظہ نہیں کھولی جاسکتی،  MIME قسم کی معاونت نہیں یار فائل موجود نہیں."
+
+#: ../src/application.c:193
+#: ../src/main_window.c:789
+#: ../src/main_window.c:1170
+msgid ""
+"Squeeze cannot extract this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"Squeeze اس قسم کی محفوظہ سے فائلیں نہیں نکال سکتا\n"
+"معاونت رکھنے والا اطلاقیہ موجود نہیں"
+
+#.
+#. * Could not create archive (mime type unsupported)
+#.
+#: ../src/application.c:235
+msgid "Could not create archive, MIME-type unsupported"
+msgstr "محفوظہ نہیں بنائی جاسکتی، MIME قسم کی معاونت نہیں"
+
+#: ../src/application.c:269
+#: ../src/main_window.c:830
+msgid ""
+"Squeeze cannot add files to this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"Squeeze اس قسم کی محفوظہ میں فائلیں شامل نہیں کرسکتا\n"
+"معاونت رکھنے والا اطلاقیہ موجود نہیں."
+
+#: ../src/archive_store.c:249
+#: ../src/notebook.c:179
+msgid "Show full path"
+msgstr "پورا پاتھ ظاہر کریں"
+
+#: ../src/archive_store.c:250
+#: ../src/notebook.c:180
+msgid "Show the full path strings for each entry"
+msgstr "ہر انٹری کا مکمل پاتھ سٹرنگ دکھائیں"
+
+#: ../src/archive_store.c:256
+#: ../src/notebook.c:186
+msgid "Show mime icons"
+msgstr "mime آئکن دکھائیں"
+
+#: ../src/archive_store.c:257
+#: ../src/notebook.c:187
+msgid "Show the mime type icons for each entry"
+msgstr "ہر انٹری کی mime قسم کی آئکن دکھائیں"
+
+#: ../src/archive_store.c:263
+msgid "Show up dir entry"
+msgstr "اوپر کی ڈائریکٹری دکھائیں"
+
+#: ../src/archive_store.c:264
+msgid "Show '..' to go to the parent directory"
+msgstr "اوپری ڈائریکٹری میں جانے کے لیے '..' ظاہر کریں"
+
+#: ../src/archive_store.c:270
+#: ../src/notebook.c:193
+msgid "Sort folders before files"
+msgstr "فولڈروں کو فائلوں سے پہلے مرتب کریں"
+
+#: ../src/archive_store.c:271
+#: ../src/notebook.c:194
+msgid "The folders will be put at the top of the list"
+msgstr "فولڈرز فہرست کے اوپر کردیے جائیں گے"
+
+#: ../src/archive_store.c:277
+#: ../src/archive_store.c:278
+#: ../src/notebook.c:200
+#: ../src/notebook.c:201
+msgid "Sort text case sensitive"
+msgstr "حساس متن ترتیب"
+
+#: ../src/extract_dialog.c:76
+msgid "<b>Extract files:</b>"
+msgstr "<b>فائلیں کھولی:</b>"
+
+#: ../src/extract_dialog.c:77
+msgid "<b>Options:</b>"
+msgstr "<b>اختیارات:</b>"
+
+#: ../src/extract_dialog.c:87
+msgid "All files"
+msgstr "تمام فائلیں"
+
+#: ../src/extract_dialog.c:88
+msgid "Selected files"
+msgstr "منتخب فائلیں"
+
+#: ../src/extract_dialog.c:100
+#: ../src/main_window.c:428
+#: ../src/main_window.c:1129
+msgid "Extract"
+msgstr "کھولیں"
+
+#: ../src/extract_dialog.c:110
+msgid "Extract archive"
+msgstr "محفوظہ کھولیں"
+
+#: ../src/main.c:51
+msgid "[destination path]"
+msgstr "[سمت پاتھ]"
+
+#: ../src/main.c:59
+msgid "[archive path] [file1] [file2] ... [fileN]"
+msgstr "[محفوظہ کا پاتھ] [فائل1] [فائل2] ... [فائلN]"
+
+#: ../src/main.c:63
+msgid "[file1] [file2] ... [fileN]"
+msgstr "[فائل1] [فائل2] ... [فائلN]"
+
+#: ../src/main.c:66
+msgid "Version information"
+msgstr "ورژن کی معلومات"
+
+#: ../src/main.c:92
+msgid "[archive name]"
+msgstr "[محفوظہ کا نام]"
+
+#: ../src/main.c:96
+#, c-format
+msgid ""
+"%s: %s\n"
+"Try %s --help to see a full list of available command line options.\n"
+msgstr ""
+"%s: %s\n"
+"دستیاب کمانڈ لائن اختیارا کی مکمل فہرست کے لیے لکھیں %s --help\n"
+
+#: ../src/main_window.c:133
+msgid "Internal Style"
+msgstr "داخلی انداز"
+
+#: ../src/main_window.c:134
+msgid "Tool Bar Style"
+msgstr "اوزار پٹی کا انداز"
+
+#: ../src/main_window.c:135
+msgid "Path Bar Style"
+msgstr "پاتھ پٹی کا انداز"
+
+#: ../src/main_window.c:182
+msgid "Navigation Style"
+msgstr "نیویگیشن کا انداز"
+
+#: ../src/main_window.c:183
+msgid ""
+"Style of navigation\n"
+"The style to navigate trough the archive"
+msgstr ""
+"نیویگیشن کا انداز\n"
+"محفوظہ میں نیویگیشن کا انداز"
+
+#. File menu
+#: ../src/main_window.c:283
+msgid "_File"
+msgstr "_فائل"
+
+#. Action menu: ref all the childs
+#: ../src/main_window.c:311
+msgid "_Action"
+msgstr "_حرکت"
+
+#: ../src/main_window.c:316
+msgid "_Add"
+msgstr "_شامل کریں"
+
+#: ../src/main_window.c:322
+msgid "_Extract"
+msgstr "_کھولیں"
+
+#. View menu
+#: ../src/main_window.c:354
+msgid "_View"
+msgstr "_منظر"
+
+#. Help menu
+#: ../src/main_window.c:378
+msgid "_Help"
+msgstr "_ہدایات"
+
+#: ../src/main_window.c:424
+msgid "Add"
+msgstr "شامل کریں"
+
+#: ../src/main_window.c:689
+msgid "Open archive in new window"
+msgstr "محفوظہ نئی ونڈو میں کھولیں"
+
+#: ../src/main_window.c:695
+msgid "Open archive"
+msgstr "محفوظ کھولیں"
+
+#: ../src/main_window.c:707
+#: ../src/new_dialog.c:80
+msgid "Archives"
+msgstr "محفوظات"
+
+#: ../src/main_window.c:850
+msgid "Are you sure you want to remove the selected files?"
+msgstr "کیا آپ واقعی منتخب کردہ فائلیں حذف کرنا چاہتے ہیں؟"
+
+#: ../src/main_window.c:863
+msgid ""
+"Squeeze cannot remove files from this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"Squeeze اس قسم کی محفوظہ سے فائلیں حذف نہیں کرسکتا\n"
+"معاونت رکھنے والا اطلاقیہ مفقود ہے."
+
+#: ../src/main_window.c:912
+msgid ""
+"Are you sure you want to cancel this operation?\n"
+"This could damage the archive."
+msgstr ""
+"کیا آپ واقعی یہ عمل منسوخ کرنا چاہتے ہیں؟\n"
+"اس سے محفوظہ خراب ہوسکتی ہے."
+
+#: ../src/main_window.c:994
+msgid "Lead developer:"
+msgstr "سربراہ ڈیولپر:"
+
+#: ../src/main_window.c:997
+msgid "Contributors:"
+msgstr "معاونین:"
+
+#: ../src/main_window.c:1000
+msgid "Inspired by Xarchiver, written by Giuseppe Torelli"
+msgstr "Xarchiver سے متاثر ہوکر Giuseppe Torelli نے لکھا"
+
+#: ../src/main_window.c:1002
+msgid "Application Icon:"
+msgstr "اطلاقیہ کی آئکن:"
+
+#: ../src/main_window.c:1005
+msgid "Add / Extract icons:"
+msgstr "آئکن شامل / کھولیں:"
+
+#: ../src/main_window.c:1006
+msgid "Based on the original extract icon created by Andreas Nilsson"
+msgstr "Andreas Nilsson کی بنائی ہوئی اصل ایکسٹریکٹ آئکن پر مبنی"
+
+#: ../src/main_window.c:1013
+msgid "Squeeze is a lightweight and flexible archive manager for the Xfce Desktop Environment"
+msgstr "ایکسفس ڈیسک ٹاپ ماحول کے لیے سکویز ایک ہلکا پھلکا اور لچکدار محفوظہ منیجر ہے"
+
+#. Translator credits as shown in the about dialog: NAME <E-MAIL> YEAR
+#: ../src/main_window.c:1021
+msgid "translator-credits"
+msgstr "محمد علی مکی <makki.ma@gmail.com> 2007"
+
+#: ../src/main_window.c:1050
+#: ../src/main_window.c:1118
+#: ../src/main_window.c:1285
+msgid "Done"
+msgstr "تمام"
+
+#: ../src/main_window.c:1128
+msgid "Which action do you want to perform on the selected file(s)?"
+msgstr "منتخب فائلوں پر کون سا عمل کرنا چاہتے ہیں؟"
+
+#: ../src/main_window.c:1129
+msgid "Open"
+msgstr "کھولیں"
+
+#: ../src/main_window.c:1143
+msgid ""
+"Squeeze cannot view this file.\n"
+"the application to support this is missing."
+msgstr ""
+"Squeeze اس فائل کو نہیں دیکھ سکتا.\n"
+"معاونت کا اطلاقیہ مفقود ہے."
+
+#: ../src/main_window.c:1211
+msgid "Failed to open file"
+msgstr "فائل کھولنے میں ناکامی"
+
+#: ../src/main_window.c:1212
+#, c-format
+msgid ""
+"'%s'\n"
+"Could not be opened"
+msgstr ""
+"'%s'\n"
+"نہیں کھولی جاسکتی"
+
+#: ../src/new_dialog.c:69
+msgid "Archive type:"
+msgstr "محفوظہ کی قسم:"
+
+#: ../src/new_dialog.c:107
+msgid "Create new archive"
+msgstr "نئی محفوظہ بنائیں"
+
+#: ../src/notebook.c:207
+msgid "Rules hint"
+msgstr "قاعدہ ہنٹ"
+
+#: ../src/notebook.c:208
+msgid "Make the row background colors alternate"
+msgstr "سطر کے پس منظر کا رنگ متبادل کریں"
+
+#: ../src/path_bar.c:141
+msgid "Spacing"
+msgstr "خلا"
+
+#: ../src/path_bar.c:142
+msgid "The amount of space between the path buttons"
+msgstr "پاتھ بٹن کے درمیان خلا کی نسبت"
+
+#: ../src/tool_bar.c:167
+msgid "Location:"
+msgstr "مقام:"
+
+#: ../src/message_dialog.c:158
+msgid "Archive manager"
+msgstr "محفوظہ منیجر"
+

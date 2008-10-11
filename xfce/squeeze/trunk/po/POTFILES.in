@@ -1,0 +1,13 @@
+libsqueeze/archive.c
+squeeze.desktop.in
+src/application.c
+src/archive_store.c
+src/extract_dialog.c
+src/main.c
+src/main_window.c
+src/new_dialog.c
+src/notebook.c
+src/path_bar.c
+src/tool_bar.c
+src/message_dialog.c
+src/throbber.c

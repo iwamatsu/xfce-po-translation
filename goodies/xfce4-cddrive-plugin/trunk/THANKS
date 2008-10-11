@@ -1,0 +1,19 @@
+What's this file about?
+-----------------------
+This file lists all external people that have contributed to xfce4-cddrive-plugin
+and thereby helped to make this project such a successful panel plugin.
+
+
+Translators (sorted by language):
+----------------------------------
+These people have translated xfce4-cddrive-plugin to foreign languages.
+
+ John Doo <john@foo.org>
+ * zz translations
+
+
+Other contributors (sorted by name):
+------------------------------------
+
+ Samuli Suominen <drac@gentoo.org>
+ * bug reports

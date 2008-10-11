@@ -1,0 +1,53 @@
+Summary: 	Print dialog and printer manager for Xfce
+Name: 		@PACKAGE_TARNAME@
+Version: 	@PACKAGE_VERSION@
+Release: 	1
+License:	BSD
+URL: 		http://www.xfce.org/
+Source0: 	%{name}-%{version}.tar.gz
+Group: 		User Interface/Desktops
+BuildRoot: 	%{_tmppath}/%{name}-root
+Requires:	glib2 >= @GLIB_REQUIRED_VERSION@
+Requires:	libxfcegui4 >= @LIBXFCEGUI4_REQUIRED_VERSION@
+Requires:	a2ps
+BuildRequires: 	glib2-devel >= @GLIB_REQUIRED_VERSION@
+BuildRequires: 	libxfcegui4-devel >= @LIBXFCEGUI4_REQUIRED_VERSION@
+BuildRequires:	a2ps
+
+%description
+xfprint contains a print dialog and a printer manager for the Xfce Desktop
+Environment, it supports CUPS, BSD-LPR and file as printing destination.
+
+%prep
+%setup -q
+
+%build
+%configure --enable-final
+make
+
+%install
+rm -rf $RPM_BUILD_ROOT
+make install DESTDIR=$RPM_BUILD_ROOT mandir=%{_mandir}
+
+%clean
+rm -rf $RPM_BUILD_ROOT
+
+%post
+touch --no-create %{_datadir}/icons/hicolor || :
+if [ -x %{_bindir}/gtk-update-icon-cache ]; then
+   %{_bindir}/gtk-update-icon-cache --quiet %{_datadir}/icons/hicolor || :
+fi
+
+%postun
+touch --no-create %{_datadir}/icons/hicolor || :
+if [ -x %{_bindir}/gtk-update-icon-cache ]; then
+   %{_bindir}/gtk-update-icon-cache --quiet %{_datadir}/icons/hicolor || :
+fi
+
+%files
+%defattr(-,root,root)
+%doc README ChangeLog NEWS INSTALL COPYING AUTHORS NOTES
+%{_bindir}/*
+%{_datadir}/*
+%{_libdir}/*
+

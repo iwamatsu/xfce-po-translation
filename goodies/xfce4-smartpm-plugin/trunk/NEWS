@@ -1,0 +1,39 @@
+0.1.0
+=====
+- Initial version, tested with Fedora Core 7 (Test 3)
+
+0.1.1
+=====
+- Updated version, tested with Xubuntu Feisty (Beta)
+
+0.1.2
+=====
+- Minor changes, to icon drawing and path settings
+
+0.2.0
+=====
+- Panel plugin renamed, to "xfce4-smartpm-plugin"
+- Support added for Yum+Extender and APT+Synaptic
+
+0.2.1
+=====
+- Minor packaging changes, tested with F-8 / Gutsy
+- Fixed some bugs with wrong icon and apt warnings
+
+0.2.2
+=====
+- Minor changes, added flag for upgrade/dist-upgrade
+
+0.3.0
+=====
+- Optionally showing notifications for new upgrades
+- Support added for slapt/gslapt (Slackware/Vector)
+
+0.3.1
+=====
+- Bugfix for Xubuntu package, was not finding gksudo
+
+0.3.2
+=====
+- Minor changes, added flag for "su" vs. "sudo" auth
+- Fixed bug looking in old path only for "smart-root"

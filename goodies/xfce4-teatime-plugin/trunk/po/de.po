@@ -1,0 +1,106 @@
+# German translations for the xfce4-teatime-plugin package.
+# Copyright (C)
+# This file is distributed under the same license as the xfce4-teatime-plugin
+# package.
+# Frank Lanitz <frank@frank.uvena.de>, 2006.
+# Fabian Nowak <timystery@arcor.de>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2007-12-19 00:08+0000\n"
+"Last-Translator: Fabian Nowak <timystery@arcor.de>\n"
+"Language-Team:  <frank@frank.uvena.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: Germany\n"
+
+#: ../src/interface.c:69
+msgid "Edit properties"
+msgstr "Eigenschaften bearbeiten"
+
+#: ../src/interface.c:75
+msgid "<b>Xfteatime</b>"
+msgstr "<b>Xfteatime</b>"
+
+#: ../src/interface.c:103
+msgid "Tea can"
+msgstr "Teekanne"
+
+#: ../src/interface.c:109
+msgid "Coffee can"
+msgstr "Kaffeekanne"
+
+#: ../src/interface.c:115
+msgid "Stove"
+msgstr "Ofen"
+
+#: ../src/interface.c:128
+msgid "/usr/share/icons/image.png"
+msgstr "/usr/share/icons/image.png"
+
+#: ../src/interface.c:142
+msgid "<b>Icon image</b>"
+msgstr "<b>Bildsymbol</b>"
+
+#: ../src/interface.c:168
+msgid "Just a minute, please (1 minute)"
+msgstr "Bitte nur eine Minute. (1 Minute)"
+
+#: ../src/interface.c:169
+msgid "Assam tea (2 minutes)"
+msgstr "Cylon-Assam-Tee (2 Minuten) "
+
+#: ../src/interface.c:170
+msgid "Coffee (5 minutes)"
+msgstr "Kaffee (5 Minuten) "
+
+#: ../src/interface.c:171
+msgid "Italian noodles (10 minutes)"
+msgstr "Italienische Nudeln (10 Minuten) "
+
+#: ../src/interface.c:172
+msgid "Pizza (12 minutes)"
+msgstr "Pizza (12 Minuten)"
+
+#: ../src/interface.c:173
+msgid "Turkey (2 hours)"
+msgstr "Truthahn (2 Stunden)"
+
+#: ../src/interface.c:175
+msgid "after"
+msgstr "nach"
+
+#: ../src/interface.c:184
+msgid "seconds"
+msgstr "Sekunden"
+
+#: ../src/interface.c:192
+msgid "per"
+msgstr "mittels"
+
+#: ../src/interface.c:196
+msgid "System bell"
+msgstr "Systemsignal"
+
+#: ../src/interface.c:200
+msgid "Popup window"
+msgstr "Popup-Fenster"
+
+#: ../src/interface.c:204
+msgid "Blinking image"
+msgstr "Blinkendes Bild"
+
+#: ../src/interface.c:208
+msgid "<b>Notification</b>"
+msgstr "<b>Benachrichtigung</b>"
+
+#: ../src/support.c:90
+#: ../src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Konnte Pixmap-Datei »%s« nicht finden "
+

@@ -1,0 +1,2547 @@
+2008-09-04  jannis
+
+	* autogen.sh: Add git svn revision versioning support.
+
+2008-07-15  maximilian
+
+	* po/ChangeLog, po/pt_PT.po:
+	  Xfburn European Portuguese translation update (pt_PT)
+
+2008-07-15  alnokta
+
+	* po/ar.po:
+	  Update Arabic translations
+
+2008-07-15  majkl
+
+	* po/cs.po:
+	  Updated Czech translations
+
+2008-07-15  maximilian
+
+	* po/ChangeLog:
+	  Translations updated for the xfburn package (fr;nb_NO)
+	* po/fr.po, po/nb_NO.po:
+	  Translations updated for the xfburn package (fr;nb_NO)
+
+2008-07-14  jari
+
+	* po/ChangeLog, po/fi.po:
+	  Updated Finnish translation.
+
+2008-07-14  stavrosg
+
+	* po/ChangeLog, po/el.po:
+	  xfburn translation update.
+
+2008-07-14  David Mohr <david@mcbf.net>
+
+	* po/ChangeLog, po/uk.po:
+	  Ukrainian translation update by Dmitry Nikitin
+
+2008-07-14  omaciel
+
+	* po/ChangeLog, po/pt_BR.po:
+	  Updated Brazilian Portuguese translation
+
+2008-07-14  David Mohr <david@mcbf.net>
+
+	* po/ChangeLog, po/ar.po, po/ca.po, po/cs.po, po/de.po, po/dz.po,
+	  po/el.po, po/en_GB.po, po/es.po, po/eu.po, po/fi.po, po/fr.po,
+	  po/gl.po, po/he.po, po/hu.po, po/it.po, po/ja.po, po/ko.po,
+	  po/lt.po, po/lv.po, po/nb_NO.po, po/nl.po, po/pa.po, po/pl.po,
+	  po/pt_BR.po, po/pt_PT.po, po/ru.po, po/sq.po, po/sv.po, po/uk.po,
+	  po/ur.po, po/xfburn.pot, po/zh_CN.po, po/zh_TW.po,
+	  xfburn/xfburn-blank-dialog.c:
+	  Updating some strings according to suggestion from Og Maciel
+	* NEWS:
+	  Updating NEWS
+	* po/ChangeLog, po/ar.po, po/ca.po, po/cs.po, po/de.po, po/dz.po,
+	  po/el.po, po/en_GB.po, po/es.po, po/eu.po, po/fi.po, po/fr.po,
+	  po/gl.po, po/he.po, po/hu.po, po/it.po, po/ja.po, po/ko.po,
+	  po/lt.po, po/lv.po, po/nb_NO.po, po/nl.po, po/pa.po, po/pl.po,
+	  po/pt_BR.po, po/pt_PT.po, po/ru.po, po/sq.po, po/sv.po, po/uk.po,
+	  po/ur.po, po/xfburn.pot, po/zh_CN.po, po/zh_TW.po,
+	  xfburn/xfburn-main-window.c:
+	  Updating all po/pot files, de translation update
+
+2008-07-14  maximilian
+
+	* po/ChangeLog, po/fr.po:
+	  Translation updated for the xfburn package (fr)
+
+2008-07-14  Mario Đanić <mario@libburnia-project.org>
+
+	* CONTRIBUTORS, xfburn/xfburn-blank-dialog.c:
+	  Made blanking modes translatable
+
+2008-07-14  jari
+
+	* po/ChangeLog, po/fi.po:
+	  Updated Finnish translation.
+
+2008-07-14  maximilian
+
+	* po/ChangeLog, po/pt_PT.po:
+	  Translations added and updated for most goodies (gl;pt_PT;zh_CN)
+
+2008-07-14  mvd
+
+	* po/uk.po:
+	  Maxim Dziumanenko <dziumanenko@gmail.com>
+	  
+	  * Update Ukrainian translatioon
+
+2008-07-13  David Mohr <david@mcbf.net>
+
+	* po/ChangeLog, xfburn/xfburn-main-window.c:
+	  Fixing spelling mistake in translator's name
+	* po/zh_CN.po, xfburn/xfburn-main-window.c:
+	  Adding simplified chinese translation update
+
+2008-07-13  stavrosg
+
+	* po/ChangeLog, po/el.po:
+	  xfburn Greek translation update
+
+2008-07-12  sas
+
+	* po/hu.po:
+	  [intl:hu] screenshooter updated
+
+2008-07-12  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-main-window.c:
+	  Fixing translator's email address
+
+2008-07-12  omaciel
+
+	* po/pt_BR.po:
+	  Minor tweaks to Brazilian Portuguese translation
+	* po/ChangeLog, po/pt_BR.po:
+	  Updated Brazilian Portuguese translation
+
+2008-07-12  majkl
+
+	* po/ar.po, po/ca.po, po/cs.po, po/de.po, po/dz.po, po/el.po,
+	  po/en_GB.po, po/es.po, po/eu.po, po/fi.po, po/fr.po, po/gl.po,
+	  po/he.po, po/hu.po, po/it.po, po/ja.po, po/ko.po, po/lt.po,
+	  po/lv.po, po/nb_NO.po, po/nl.po, po/pa.po, po/pl.po, po/pt_BR.po,
+	  po/pt_PT.po, po/ru.po, po/sq.po, po/sv.po, po/uk.po, po/ur.po,
+	  po/xfburn.pot, po/zh_CN.po, po/zh_TW.po:
+	  Updated POT and PO files: New string "Welcome to xfburn!" added.
+	  Czech translation file updated
+
+2008-07-12  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-main-window.c:
+	  Updating translators credit
+	* TODO, xfburn/Makefile.am, xfburn/xfburn-blank-dialog.c,
+	  xfburn/xfburn-burn-image-dialog.c, xfburn/xfburn-device-box.c,
+	  xfburn/xfburn-main-window.c, xfburn/xfburn-main.c,
+	  xfburn/xfburn-main.h, xfburn/xfburn-progress-dialog.c:
+	  Bugfixes: don't exit program if main window is not shown, don't
+	  check for disc validity before drive status has been refreshed
+
+2008-07-11  majkl
+
+	* po/cs.po:
+	  Updated and fixed Czech translations
+
+2008-07-11  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-welcome-tab.c:
+	  Adding missing translation
+	* NEWS, xfburn/xfburn-burn-image-dialog.c:
+	  Also set burn speed when burning an image
+	* NEWS, xfburn/xfburn-device-box.c:
+	  Fix bug which caused a wrong complaint about a missing speed list
+
+2008-07-11  sas
+
+	* po/hu.po:
+	  [intl:hu] little fixes2
+
+2008-07-11  majkl
+
+	* po/cs.po:
+	  Updated Czech translations
+
+2008-07-11  jari
+
+	* po/ChangeLog, po/fi.po:
+	  Updated Finnish translation.
+
+2008-07-11  omaciel
+
+	* po/ChangeLog, po/pt_BR.po:
+	  Updated Brazilian Portuguese translation
+
+2008-07-10  piarres
+
+	* po/ChangeLog, po/eu.po:
+	  Basque translation update (xfburn)
+
+2008-07-10  David Mohr <david@mcbf.net>
+
+	* ChangeLog:
+	  Updating changelog
+	* README, po/ChangeLog, po/ar.po, po/ca.po, po/cs.po, po/de.po,
+	  po/dz.po, po/el.po, po/en_GB.po, po/es.po, po/eu.po, po/fi.po,
+	  po/fr.po, po/gl.po, po/he.po, po/hu.po, po/it.po, po/ja.po,
+	  po/ko.po, po/lt.po, po/lv.po, po/nb_NO.po, po/nl.po, po/pa.po,
+	  po/pl.po, po/pt_BR.po, po/pt_PT.po, po/ru.po, po/sq.po, po/sv.po,
+	  po/uk.po, po/ur.po, po/xfburn.pot, po/zh_CN.po, po/zh_TW.po,
+	  xfburn/xfburn-device-box.c:
+	  Updating po files, german translation
+
+2008-07-09  David Mohr <david@mcbf.net>
+
+	* TODO, configure.in.in:
+	  Updating version number
+	* NEWS, xfburn/xfburn-data-composition.c:
+	  Bugfix: release memory for thread parameters, update README
+	* xfburn/xfburn-blank-dialog.c, xfburn/xfburn-blank-dialog.h,
+	  xfburn/xfburn-burn-data-composition-base-dialog.c,
+	  xfburn/xfburn-data-composition.c, xfburn/xfburn-device-box.c,
+	  xfburn/xfburn-hal-manager.c, xfburn/xfburn-hal-manager.h,
+	  xfburn/xfburn-utils.c, xfburn/xfburn-utils.h:
+	  Give option to blank disc if burn dialog comes up and a full but
+	  erasable disc is in the drive
+	* xfburn/xfburn-burn-data-composition-base-dialog.c,
+	  xfburn/xfburn-burn-data-composition-base-dialog.h,
+	  xfburn/xfburn-device-box.c, xfburn/xfburn-hal-manager.c,
+	  xfburn/xfburn-hal-manager.h, xfburn/xfburn-main.c:
+	  Creating global instance of hal manager, prepared code for a
+	  switching proceed button's funcitonality
+
+2008-07-09  mvd
+
+	* po/uk.po:
+	  Maxim Dziumanenko <dziumanenko@gmail.com>
+	  
+	  Updated Ukrainian translation
+
+2008-07-09  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-data-composition.c:
+	  Bugfix for bugfix of rev. 5033
+
+2008-07-08  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-data-composition.c:
+	  Small bugfix: correctly enter / exit gdk threads
+	* xfburn/xfburn-device-box.c:
+	  Making maximum speed the default
+
+2008-07-07  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-data-composition.c, xfburn/xfburn-main.c:
+	  Adding cli option to open the blank dialog
+	* NEWS, TODO, xfburn/xfburn-adding-progress.c,
+	  xfburn/xfburn-adding-progress.h,
+	  xfburn/xfburn-data-composition.c:
+	  Using threads for adding files, adding can now get aborted
+
+2008-07-05  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-burn-data-composition-base-dialog.c:
+	  Also allow deep paths
+	* NEWS, TODO, xfburn/xfburn-burn-data-composition-base-dialog.c:
+	  Changing iso_write_opts profile to preserve file attribute
+
+2008-06-28  David Mohr <david@mcbf.net>
+
+	* TODO:
+	  Updating TODO file
+
+2008-06-26  maximilian
+
+	* po/ChangeLog, po/gl.po:
+	  Translations added and updated for most goodies (gl)
+
+2008-06-25  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-hal-manager.c:
+	  Additional hal error check
+
+2008-06-22  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-burn-data-composition-base-dialog.c,
+	  xfburn/xfburn-progress-dialog.c:
+	  Small bugfixes: make sure min. buffer fill is within 0.0-1.0
+	  range; update burn button sensitivity when changing devices
+
+2008-06-21  David Mohr <david@mcbf.net>
+
+	* NEWS:
+	  Updating NEWS
+	* xfburn/xfburn-burn-data-composition-base-dialog.c,
+	  xfburn/xfburn-burn-image-dialog.c, xfburn/xfburn-global.h,
+	  xfburn/xfburn-perform-burn.c, xfburn/xfburn-perform-burn.h,
+	  xfburn/xfburn-preferences-dialog.c,
+	  xfburn/xfburn-progress-dialog.c, xfburn/xfburn-progress-dialog.h:
+	  Adding fifo buffering
+
+2008-06-20  David Mohr <david@mcbf.net>
+
+	* NEWS:
+	  Update NEWS
+	* xfburn/xfburn-burn-data-composition-base-dialog.c,
+	  xfburn/xfburn-device-box.c, xfburn/xfburn-device-list.c:
+	  Implementing setting of burn speed.
+	  
+	  WARNING: my dvd test burn failed if a speed was set!! CD was ok
+	  though.
+	  
+	  Use "Max" as speed if that is the case for you to get the old
+	  behavior, and _please_ report this as a bug! Please include the
+	  console output if debug is enabled, or otherwise some info on the
+	  burner that was used.
+
+2008-06-19  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-perform-burn.c, xfburn/xfburn-progress-dialog.c,
+	  xfburn/xfburn-progress-dialog.h:
+	  Adding min. buffer fill info after burn is done
+	* xfburn/xfburn-data-composition.c, xfburn/xfburn-main.c:
+	  Implementing adding of files to a data composition from the
+	  command line
+
+2008-06-18  Mario Đanić <mario@libburnia-project.org>
+
+	* NEWS:
+	  Updated NEWS file for 0.3.1
+
+2008-06-17  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-compositions-notebook.c,
+	  xfburn/xfburn-compositions-notebook.h,
+	  xfburn/xfburn-data-composition.c,
+	  xfburn/xfburn-data-composition.h, xfburn/xfburn-main-window.c,
+	  xfburn/xfburn-main-window.h, xfburn/xfburn-main.c:
+	  Adding cli option to start with data composition window, adding
+	  of files not implemented yet
+
+2008-06-13  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-device-box.c:
+	  Bugfix: only show busy cursor when the dialog is already realized
+
+2008-06-09  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-burn-image-dialog.c,
+	  xfburn/xfburn-burn-image-dialog.h, xfburn/xfburn-main.c:
+	  Adding infrastructure for command line options, implement burn
+	  image cli option
+
+2008-06-08  Mario Đanić <mario@libburnia-project.org>
+
+	* xfburn/xfburn-device-box.c:
+	  Fixed compilation warnings with regards to xfburn_*_cursor
+
+2008-06-05  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-data-composition.c:
+	  Make data composition columns resizeable, increase default sizes
+	  of columns (workaround for bug #2151)
+	* xfburn/xfburn-device-box.c:
+	  Busy cursor during device box refreshes
+	* xfburn/xfburn-device-box.c, xfburn/xfburn-device-list.h:
+	  Checking inserted disc type against capabilites of the drive
+	* TODO, xfburn/xfburn-data-composition.c:
+	  Adding busy cursors when adding files
+	* xfburn/xfburn-utils.c:
+	  Small bugfixes: make sure xfburn_humanreadable_filesize returns a
+	  sane string
+	* xfburn/xfburn-device-list.c:
+	  Adding additional output while scanning for drives
+
+2008-06-03  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-data-composition.c:
+	  Applying patch from jeromeg to have clear reset the title (fixes
+	  #4130)
+
+2008-06-02  Jean-François Wauthy <pollux@xfce.org>
+
+	* configure.in.in:
+	  post tag version bump
+	* README, configure.in.in:
+	  get ready for tagging
+
+2008-06-01  Jean-François Wauthy <pollux@xfce.org>
+
+	* po/pt_BR.po:
+	  run make update-po
+
+2008-06-01  David Mohr <david@mcbf.net>
+
+	* po/POTFILES.in:
+	  added another missing source file to POTFILES
+	* po/POTFILES.in, po/de.po:
+	  Updating i18n files
+	* ChangeLog, NEWS, README, TODO:
+	  Updating README and NEWS
+
+2008-05-30  omaciel
+
+	* po/ChangeLog, po/pt_BR.po:
+	  Updated Brazilian Portuguese translation
+
+2008-05-30  David Mohr <david@mcbf.net>
+
+	* TODO, po/ar.po, po/ca.po, po/cs.po, po/de.po, po/dz.po, po/el.po,
+	  po/en_GB.po, po/es.po, po/eu.po, po/fi.po, po/fr.po, po/gl.po,
+	  po/he.po, po/hu.po, po/it.po, po/ja.po, po/ko.po, po/lt.po,
+	  po/lv.po, po/nb_NO.po, po/nl.po, po/pa.po, po/pl.po, po/pt_BR.po,
+	  po/pt_PT.po, po/ru.po, po/sq.po, po/sv.po, po/uk.po, po/ur.po,
+	  po/xfburn.pot, po/zh_CN.po, po/zh_TW.po:
+	  Updating msgstrs and German translation
+
+2008-05-29  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-device-list.c:
+	  Invalidate stored disc data upon refresh
+	* xfburn/xfburn-data-composition.c:
+	  Adding warning when adding home directory to compilation
+	* xfburn/xfburn-blank-dialog.c:
+	  Connecting blank dialog to device box refresh signal
+
+2008-05-28  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-blank-dialog.c, xfburn/xfburn-progress-dialog.c:
+	  Fixing selection of blank mode by putting mode no into the combo
+	  box
+	* xfburn/xfburn-burn-data-composition-base-dialog.c,
+	  xfburn/xfburn-device-box.c, xfburn/xfburn-device-box.h:
+	  Cleaning up setting of status label, make label grayed out when
+	  insensitive
+	* xfburn/xfburn-blank-dialog.c:
+	  Removed gotos from blanking code
+	* xfburn/xfburn-blank-dialog.c:
+	  Adding format & deformat options to the blanking dialog
+
+2008-05-12  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-progress-dialog.c:
+	  Adding a simple animation option to the progress dialog
+
+2008-05-10  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-device-box.c, xfburn/xfburn-device-list.c,
+	  xfburn/xfburn-device-list.h:
+	  Showing inserted disc type in the device box
+	* xfburn/xfburn-blank-dialog.c, xfburn/xfburn-device-box.c,
+	  xfburn/xfburn-device-list.c, xfburn/xfburn-device-list.h:
+	  Retrieving profile no, and checking it for blanking
+	* xfburn/xfburn-device-list.c, xfburn/xfburn-device-list.h:
+	  Adding debugging output about disc format
+
+2008-05-06  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-perform-burn.c:
+	  Bugfix: first check message queue for fatal errors before
+	  retrieving other messages
+
+2008-05-05  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-device-box.c:
+	  Bugfix: correctly check for the presence of a device
+
+2008-05-04  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-device-box.c, xfburn/xfburn-device-list.c,
+	  xfburn/xfburn-device-list.h:
+	  Bugfixes: * Allow refresh of disc when blanking * Don't allow
+	  refresh when there is no detected drive Keep track of disc
+	  profile.
+	* xfburn/xfburn-device-box.c:
+	  Bugfix: don't complain about invalid disc if there is no
+	  available drive
+
+2008-05-03  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-blank-dialog.c, xfburn/xfburn-perform-burn.c:
+	  Adding error catching code to blanking
+	* xfburn/xfburn-perform-burn.c, xfburn/xfburn-progress-dialog.c:
+	  Implement error reporting
+	* xfburn/xfburn-hal-manager.c:
+	  Bugfix: corrected previous bugfix for hal, hal now correctly
+	  registered globally instead of not at all
+	* xfburn/xfburn-hal-manager.c:
+	  Bugfix: hal-manager allocation now done per object creation
+
+2008-05-02  David Mohr <david@mcbf.net>
+
+	* xfburn-toolbars.ui, xfburn.ui,
+	  xfburn/xfburn-compositions-notebook.c,
+	  xfburn/xfburn-compositions-notebook.h,
+	  xfburn/xfburn-main-window.c, xfburn/xfburn-welcome-tab.c:
+	  Have welcome screen buttons sensitivity set by the main action
+	  group -- better solution would be to overwrite GtkAction
+
+2008-05-01  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-hal-manager.c:
+	  Bugfix: proper shutwdown of HAL
+	* xfburn/Makefile.am, xfburn/xfburn-blank-dialog.c,
+	  xfburn/xfburn-blank-dialog.h, xfburn/xfburn-main-window.c,
+	  xfburn/xfburn-welcome-tab.c:
+	  Reflecting the blank-dialog rename in the code
+	* xfburn/xfburn-blank-cd-dialog.c, xfburn/xfburn-blank-cd-dialog.h,
+	  xfburn/xfburn-blank-dialog.c, xfburn/xfburn-blank-dialog.h:
+	  Renaming blank dialog
+	* TODO, xfburn/Makefile.am:
+	  Bugfix: corrected Makefile.am for HAL
+
+2008-04-29  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-device-box.c:
+	  Bugfix: deallocate HalManager, don't refresh speed list when the
+	  DeviceBox is empty
+	* xfburn/xfburn-burn-data-composition-base-dialog.c:
+	  Bugfix: Enable burn button when target is an iso file, not a
+	  burner
+	* xfburn/xfburn-burn-data-composition-base-dialog.c,
+	  xfburn/xfburn-data-composition.c, xfburn/xfburn-global.h:
+	  Ask for compilation name again in the burn dialog if it was left
+	  as the default
+	* xfburn/xfburn-welcome-tab.c:
+	  Adding icons and secondary text to the welcome screen
+
+2008-04-26  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-compositions-notebook.c,
+	  xfburn/xfburn-compositions-notebook.h,
+	  xfburn/xfburn-main-window.c, xfburn/xfburn-welcome-tab.c:
+	  Adding basic content to the welcome tab
+
+2008-04-25  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-device-list.c:
+	  Overlooked a g_error, now last commit works
+	* xfburn/xfburn-device-box.c, xfburn/xfburn-device-list.c,
+	  xfburn/xfburn-device-list.h:
+	  Adding error message when unable to grab drive (program aborted
+	  before)
+	* xfburn/xfburn-device-box.c:
+	  Adding default entry if no speed list is available
+	* TODO, xfburn/Makefile.am, xfburn/xfburn-compositions-notebook.c,
+	  xfburn/xfburn-compositions-notebook.h,
+	  xfburn/xfburn-hal-manager.c, xfburn/xfburn-hal-manager.h,
+	  xfburn/xfburn-main-window.c, xfburn/xfburn-welcome-tab.c,
+	  xfburn/xfburn-welcome-tab.h:
+	  Adding basic welcome tab support
+
+2008-04-24  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-device-box.c:
+	  Adding formating to the empty device list dialog text
+	* xfburn/xfburn-device-list.c:
+	  Forgot to delete debugging statement
+	* xfburn/xfburn-device-box.c, xfburn/xfburn-device-list.c,
+	  xfburn/xfburn-preferences-dialog.c:
+	  Adding setting and functionality to hide empty speed list dialog
+
+2008-04-23  David Mohr <david@mcbf.net>
+
+	* NEWS, TODO, configure.in.in, xfburn/Makefile.am,
+	  xfburn/xfburn-device-box.c, xfburn/xfburn-device-list.c,
+	  xfburn/xfburn-hal-manager.c, xfburn/xfburn-hal-manager.h:
+	  Finished XfburnHalManager, device box now gets updated by hal
+	  when the drive status changes
+	* xfburn/xfburn-hal-manager.c, xfburn/xfburn-hal-manager.h:
+	  Start of XfburnHalManager to handle volume changes
+	* xfburn/xfburn-device-box.c, xfburn/xfburn-device-list.c:
+	  Querying thunar for volume changes in device box
+
+2008-04-21  David Mohr <david@mcbf.net>
+
+	* configure.in.in:
+	  Adding HAL detection to configure.in.in
+
+2008-04-20  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-burn-image-dialog.c, xfburn/xfburn-device-list.c:
+	  Improving feedback when no speed list can be retrieved
+
+2008-04-19  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-device-box.c, xfburn/xfburn-device-list.c:
+	  Bugfix for blank mode, 2nd try
+	* xfburn/xfburn-device-box.c:
+	  Bugfix: actually parse BLANK_MODE flag in the device box
+	* xfburn/xfburn-blank-cd-dialog.c, xfburn/xfburn-device-box.c,
+	  xfburn/xfburn-device-box.h:
+	  Improving device box: - Adding blank mode for proper disc status
+	  messages - Refreshing speed list also on device change, to get
+	  always fresh info when the object is created
+
+2008-04-18  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-device-list.c:
+	  Trying to grab the drive a bit more often now
+	* TODO:
+	  Updating TODO
+	* xfburn-toolbars.ui, xfburn.ui:
+	  Disabling copy cd toolbar /menu items
+	* TODO:
+	  Updating TODO
+	* xfburn/xfburn-burn-data-composition-base-dialog.c,
+	  xfburn/xfburn-burn-image-dialog.c, xfburn/xfburn-device-box.c,
+	  xfburn/xfburn-device-list.c, xfburn/xfburn-device-list.h,
+	  xfburn/xfburn-utils.c:
+	  Cleaning up debugging statements. Make disc status messages more
+	  precise. Disable burn button in burn compilation dialog if the
+	  disc is not valid. Try one more time to grab drive in the device
+	  list.
+
+2008-04-17  Mario Đanić <mario@libburnia-project.org>
+
+	* xfburn/xfburn-burn-image-dialog.c:
+	  Now user knows he needs to choose image
+	* xfburn/xfburn-device-list.c:
+	  No p0llux anymore
+	* xfburn/xfburn-device-list.c:
+	  Will this debug p0llux?
+	* xfburn/xfburn-device-list.c:
+	  Done minor formatting changes
+
+2008-04-17  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-device-box.c:
+	  Only access combo box if it has entries
+
+2008-04-17  Mario Đanić <mario@libburnia-project.org>
+
+	* INSTALL, xfburn/xfburn-device-list.c:
+	  Implemented some checks for burning devices
+	* TODO:
+	  Disable isnt done at proper moment yet
+	* TODO:
+	  So again it is todo
+
+2008-04-17  David Mohr <david@mcbf.net>
+
+	* TODO:
+	  Updating TODO
+
+2008-04-17  Mario Đanić <mario@libburnia-project.org>
+
+	* TODO:
+	  Updated TODO for erasing magic
+	* TODO:
+	  Updated TODO again
+	* TODO:
+	  Migration to gvfs added to TODO
+	* TODO:
+	  Sorting available burn speeds works now
+	* TODO:
+	  Added more todo items
+
+2008-04-17  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-data-disc-usage.c:
+	  Adding automatic switching between data disc types / sizes
+
+2008-04-16  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-burn-data-cd-composition-dialog.h,
+	  xfburn/xfburn-burn-data-dvd-composition-dialog.c,
+	  xfburn/xfburn-burn-data-dvd-composition-dialog.h,
+	  xfburn/xfburn-data-composition.c:
+	  Creating burn data dvd subclass
+
+2008-04-16  Jean-François Wauthy <pollux@xfce.org>
+
+	* configure.in.in:
+	  bump required GTK+ version to 2.10 (fix bug #4024)
+
+2008-04-16  David Mohr <david@mcbf.net>
+
+	* xfburn/Makefile.am,
+	  xfburn/xfburn-burn-data-cd-composition-dialog.c,
+	  xfburn/xfburn-burn-data-composition-base-dialog.c,
+	  xfburn/xfburn-burn-data-composition-base-dialog.h,
+	  xfburn/xfburn-burn-image-dialog.c, xfburn/xfburn-perform-burn.c,
+	  xfburn/xfburn-perform-burn.h:
+	  Unifying the burn code: - Created base class
+	  XfburnBurnDataCompositionBaseDialog, which both the CD and DVD
+	  burning dialog can use - Factored actual burning and progress
+	  dialog update code out into xfburn_perform_burn_write()
+
+2008-04-14  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-compositions-notebook.c:
+	  Making compositions reorderable in the notebook (patch by
+	  jeromeg)
+	* xfburn/xfburn-burn-image-dialog.c, xfburn/xfburn-device-box.c,
+	  xfburn/xfburn-device-box.h:
+	  Adding new signal for a refresh to the device box class to be
+	  able to en/disable the burn botton
+
+2008-04-14  Mario Đanić <mario@libburnia-project.org>
+
+	* NEWS:
+	  Updated news with recent changes
+	* xfburn/xfburn-data-disc-usage.c:
+	  Disable burn composition button when there is nothing in
+	  composition
+	* xfburn/xfburn-device-box.c:
+	  Made message when there is no disk in drive more specific
+
+2008-04-13  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-device-box.c, xfburn/xfburn-device-list.c:
+	  Adding label to notify user that no disc is inserted in the drive
+
+2008-04-13  Mario Đanić <mario@libburnia-project.org>
+
+	* xfburn/xfburn-directory-browser.c:
+	  Hopefully fixed abort now ;))
+	* xfburn/xfburn-directory-browser.c:
+	  Done some resize columns magic
+	* xfburn/xfburn-directory-browser.c:
+	  Temporarily undone last patch
+	* xfburn/xfburn-directory-browser.c:
+	  Done more work on resizable columns magic! Thanks Jerome
+	* NEWS:
+	  Updated news to reflect that we fixed 4012
+
+2008-04-13  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-device-list.c:
+	  Sort speed list, added fallback value if no list is available
+	  (fixes bug #4012)
+
+2008-04-13  Mario Đanić <mario@libburnia-project.org>
+
+	* TODO:
+	  Updated TODO again
+
+2008-04-13  Jean-François Wauthy <pollux@xfce.org>
+
+	* CONTRIBUTORS:
+	  be more explicit about the contributions in order to keep track
+
+2008-04-13  Mario Đanić <mario@libburnia-project.org>
+
+	* CONTRIBUTORS:
+	  Added Jerome to contributors
+	* NEWS, xfburn/xfburn-directory-browser.c:
+	  Made list columns resizable
+	* TODO:
+	  Once again updated TODO
+	* TODO:
+	  Added popup in todo for proper speed detection
+	* NEWS:
+	  Correct url of libburnia project in news
+	* AUTHORS, xfburn/xfburn-main-window.c:
+	  Updated about dialog
+
+2008-04-13  David Mohr <david@mcbf.net>
+
+	* ChangeLog, TODO, committers.xml, update-changelog.sh:
+	  Updating ChangeLog and its support scripts, and TODO file
+
+2008-04-13  Mario Đanić <mario@libburnia-project.org>
+
+	* AUTHORS:
+	  Added David and myself to authors
+	* TODO:
+	  Updated TODO file with various new tasks
+
+2008-04-12  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn.desktop.in:
+	  remove deprecated Encoding key in .desktop file (fix bug #4006)
+
+2008-04-09  jari
+
+	* po/ChangeLog, po/fi.po:
+	  Updated Finnish translation.
+
+2008-04-05  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-copy-dvd-dialog.c,
+	  xfburn/xfburn-format-dvd-dialog.c, xfburn/xfburn-main-window.c,
+	  xfburn/xfburn-main.c:
+	  Fixing compiler warnings
+
+2008-04-03  Mario Đanić <mario@libburnia-project.org>
+
+	* xfburn/xfburn-global.h:
+	  Removed obsolete mkisofs defines
+	* xfburn/xfburn-global.h:
+	  Removed obsolete CDRECORD defines
+	* CONTRIBUTORS:
+	  Checked in contributors file
+
+2008-04-03  David Mohr <david@mcbf.net>
+
+	* xfburn/xfburn-burn-image-dialog.c, xfburn/xfburn-main.c:
+	  Fixed bug: translate newly added error message strings Added
+	  checks before burning an image: * Failed checks will not destroy
+	  the dialog (before checks were done in the burn thread, with
+	  progress dialog visible already) * Check for image existance &
+	  permissions * Moved media check out of burn thread * Check image
+	  size against media size
+	* xfburn-toolbars.ui, xfburn.ui, xfburn/xfburn-burn-image-dialog.c,
+	  xfburn/xfburn-device-box.c, xfburn/xfburn-device-list.c,
+	  xfburn/xfburn-global.h, xfburn/xfburn-main-window.c:
+	  Rewriting image burning functions to work for both CD and DVD: *
+	  Changed function names to be media agnostic * Calculate 'x' speed
+	  ratings on the fly, instead of list lookup * Fixed dynamic speed
+	  calculation in the progress dialog to work for the increased
+	  number of sectors that fit on a DVD
+	* xfburn/xfburn-device-list.c, xfburn/xfburn-device-list.h,
+	  xfburn/xfburn-main.c:
+	  Adding a check during startup if libburn was able to aquire the
+	  drive
+
+2008-03-14  Jean-François Wauthy <pollux@xfce.org>
+
+	* configure.in.in, xfburn/xfburn-burn-data-cd-composition-dialog.c,
+	  xfburn/xfburn-burn-data-cd-composition-dialog.h,
+	  xfburn/xfburn-burn-data-dvd-composition-dialog.c,
+	  xfburn/xfburn-burn-data-dvd-composition-dialog.h,
+	  xfburn/xfburn-data-composition.c:
+	  Updating libisofs support to 0.6.2 (patch by David Mohr)
+
+2007-12-09  Jean-François Wauthy <pollux@xfce.org>
+
+	* po/ChangeLog, po/LINGUAS, po/es.po:
+	  add Spanish translations by Diego Rodriguez <dieymir@yahoo.es>
+
+2007-12-02  maximilian
+
+	* po/ChangeLog, po/de.po:
+	  Spanish translations branch updates and German translations trunk
+	  updates
+
+2007-11-15  mmassonnet
+
+	* po/ChangeLog, po/LINGUAS, po/ur.po:
+	  Add Urdu translations to trunk (hope this is right *sigh*)
+
+2007-11-14  kelnos
+
+	* po/LINGUAS:
+	  s/PT_BR/pt_BR/
+
+2007-11-11  mmassonnet
+
+	* po/ChangeLog, po/LINGUAS, po/lv.po:
+	  Update/Add Latvian translations
+
+2007-11-08  omaciel
+
+	* po/ChangeLog, po/LINGUAS, po/pt_BR.po:
+	  Added Brazilian Portuguese translation by Fábio Nogueira
+	  <deb-user-ba@ubuntu.com>; Added pt_BR to LINGUAS
+
+2007-11-01  sas
+
+	* po/hu.po:
+	  Hungarian updates before 4.4.2
+
+2007-10-25  kelnos
+
+	* po/POTFILES.in:
+	  add missing file to POTFILES
+	* xfburn/Makefile.am:
+	  add some files that aren't in the build yet to EXTRA_DIST so make
+	  distcheck works
+	* po/POTFILES.in, po/xfburn.pot:
+	  fix incorrect filename in POTFILES
+
+2007-10-24  kelnos
+
+	* configure.in.in:
+	  remove trailing parens on AC_INIT version info to work around bug
+	  in intltool 0.35.x and 0.36.x
+
+2007-09-22  alnokta
+
+	* po/ar.po:
+	  Updating Arabic translations
+
+2007-09-16  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-main-window.c:
+	  Add Nuno Miguel to translator credits
+
+2007-08-21  Jean-François Wauthy <pollux@xfce.org>
+
+	* configure.in.in, xfburn/xfburn-burn-data-cd-composition-dialog.c,
+	  xfburn/xfburn-burn-data-dvd-composition-dialog.c,
+	  xfburn/xfburn-data-composition.c:
+	  build with libisofs 0.2.8
+
+2007-08-20  sas
+
+	* po/hu.po:
+	  hu trunk: burn & gui updates
+
+2007-07-08  maximilian
+
+	* po/ChangeLog, po/pt_PT.po:
+	  * Updated some Brazilian Portuguese translations for Xfce 4.4. *
+	  Updated some European Portuguese translations for trunk.
+
+2007-06-27  maximilian
+
+	* po/ChangeLog, po/LINGUAS, po/nb_NO.po:
+	  * no_NO.po: Norwegian Bokmal translation update for the xfburn
+	  package * pt_PT.po: European Portuguese translation update for
+	  some packages in trunk * ka.po: Georgian translation update for
+	  the xfce-mcs-manager package (4.4)
+
+2007-06-10  maximilian
+
+	* po/ChangeLog, po/LINGUAS, po/fr.po, po/pt_PT.po:
+	  * nb_NO: Updated some Norwegian translations and added one for
+	  Xfmedia * pt_PT: Added European Portuguese translations * Changed
+	  my email address
+
+2007-05-05  majkl
+
+	* po/cs.po:
+	  Updated Czech translations
+
+2007-05-01  Jean-François Wauthy <pollux@xfce.org>
+
+	* configure.in.in, xfburn/Makefile.am:
+	  explicitly check for gthread (fix bug #3196)
+
+2007-04-26  Jean-François Wauthy <pollux@xfce.org>
+
+	* po/ChangeLog, po/LINGUAS, po/zh_CN.po:
+	  add Chinese translations
+
+2007-04-15  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/Makefile.am, xfburn/xfburn-blank-cd-dialog.c,
+	  xfburn/xfburn-burn-data-cd-composition-dialog.c,
+	  xfburn/xfburn-burn-data-cd-composition-dialog.h,
+	  xfburn/xfburn-burn-data-composition-dialog.c,
+	  xfburn/xfburn-burn-data-composition-dialog.h,
+	  xfburn/xfburn-burn-data-dvd-composition-dialog.c,
+	  xfburn/xfburn-burn-data-dvd-composition-dialog.h,
+	  xfburn/xfburn-burn-image-dialog.c,
+	  xfburn/xfburn-copy-dvd-dialog.c,
+	  xfburn/xfburn-data-composition.c,
+	  xfburn/xfburn-data-disc-usage.c, xfburn/xfburn-data-disc-usage.h,
+	  xfburn/xfburn-device-box.c, xfburn/xfburn-device-box.h,
+	  xfburn/xfburn-format-dvd-dialog.c:
+	  add *basic* DVD support
+	* configure.in.in, xfburn/xfburn-burn-image-dialog.c:
+	  off_t *must* be 8 bytes long ! (fix bug #3140)
+
+2007-04-09  maximilian
+
+	* po/fr.po:
+	  * fr.po: Fixed headers in trunk * Updated AUTHORS file in
+	  xfce-utils trunk and branch 4.4
+	* po/fr.po:
+	  * fr.po: Fixed typos and style in the French translation of
+	  Terminal's manual * Changed my email address in all the fr.po
+	  files in trunk and 4.4
+
+2007-04-05  paurullan
+
+	* po/ChangeLog, po/ca.po:
+	  i18n catalan update
+
+2007-03-29  mvd
+
+	* po/ChangeLog, po/uk.po:
+	  Maxim Dziumanenko <dziumanenko@gmail.com>
+	  
+	  * Update Ukrainian translation by Dmitry Nikitin.
+
+2007-03-28  maximilian
+
+	* po/ChangeLog, po/LINGUAS, po/en_GB.po:
+	  * de.po: Nico Schümann minor fixes to the German translations *
+	  en_GB.po: Jeff Bailes updated the British English translations
+	  for trunk and branches
+
+2007-03-25  daichi
+
+	* po/ChangeLog, po/gl.po, po/lt.po:
+	  Fixed.
+
+2007-03-24  maximilian
+
+	* po/ChangeLog, po/de.po:
+	  * de.po: Nico Schümann updated the following German translations
+	  libexo; xfburn; xfce4-panel and xfdesktop * fr.po: Updated the
+	  following French translations squeeze; xfce4-panel and xfdesktop
+
+2007-03-16  Jean-François Wauthy <pollux@xfce.org>
+
+	* po/LINGUAS, po/it.po:
+	  add Italian translations from David Paleino <d.paleino@gmail.com>
+
+2007-03-14  mvd
+
+	* po/ChangeLog, po/uk.po:
+	  2007-03-13 Maxim Dziumanenko <dziumanenko@gmail.com>
+	  
+	  * Update Ukrainian translation by Dmitry Nikitin
+	  <luckas_fb@mail.ru>
+
+2007-03-08  sas
+
+	* po/hu.po:
+	  hu trunk: little updates
+
+2007-02-22  maximilian
+
+	* po/ChangeLog, po/de.po:
+	  * de.po: Updated the German translation of xfburn by Nico
+	  Schümann. * Updated the squeeze po files
+
+2007-02-20  maximilian
+
+	* po/ChangeLog, po/ko.po:
+	  * fr.po: Updated the French translations of libexo and squeeze *
+	  ko.po: Updated the Korean translations by ByungHyun Choi in
+	  xfce-utils, thunar, xfburn and mousepad
+
+2007-02-18  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-device-list.c:
+	  correctly free the 'drives' array
+
+2007-02-10  maximilian
+
+	* po/ChangeLog, po/LINGUAS:
+	  Verified all LINGUAS files and added Albanian language to it.
+
+2007-02-08  alnokta
+
+	* po/ChangeLog:
+	  Adding information to the ChangeLog
+	* po/ar.po:
+	  156 strings, 0 fuzzy, 66 not translated. initial commit.
+	* po/LINGUAS:
+	  Adding AR language code.
+
+2007-02-03  piarres
+
+	* po/ChangeLog, po/eu.po:
+	  Xfburn basque translation update
+
+2007-01-28  sas
+
+	* po/hu.po:
+	  hu trunk: little updates
+
+2007-01-26  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-composition.h, xfburn/xfburn-data-disc-usage.c,
+	  xfburn/xfburn-main-window.c, xfburn/xfburn-main-window.h:
+	  deactivate actions that devices do not support
+	* ChangeLog, class diagram.zuml, committers.xml,
+	  update-changelog.sh:
+	  * update ChangeLog * clean up class diagram * add script to
+	  update ChangeLog
+
+2007-01-25  maximilian
+
+	* po/ChangeLog, po/fr.po, po/sq.po:
+	  Added the Albanian translations by Besnik Bleta for the core
+	  packages. Updated some French translations
+
+2007-01-23  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-main-window.c:
+	  fix icon for Moe
+	* NEWS, TODO, configure.in.in, po/POTFILES.in, po/ca.po, po/cs.po,
+	  po/de.po, po/dz.po, po/el.po, po/eu.po, po/fi.po, po/fr.po,
+	  po/gl.po, po/he.po, po/hu.po, po/ja.po, po/ko.po, po/lt.po,
+	  po/nl.po, po/pa.po, po/pl.po, po/ru.po, po/sv.po, po/uk.po,
+	  po/xfburn.pot, po/zh_TW.po, xfburn-toolbars.ui, xfburn.ui,
+	  xfburn/Makefile.am, xfburn/xfburn-adding-progress.c,
+	  xfburn/xfburn-blank-cd-dialog.c,
+	  xfburn/xfburn-blank-cd-progress-dialog.c,
+	  xfburn/xfburn-blank-cd-progress-dialog.h,
+	  xfburn/xfburn-burn-data-composition-dialog.c,
+	  xfburn/xfburn-burn-data-composition-dialog.h,
+	  xfburn/xfburn-burn-data-composition-progress-dialog.c,
+	  xfburn/xfburn-burn-data-composition-progress-dialog.h,
+	  xfburn/xfburn-burn-image-dialog.c,
+	  xfburn/xfburn-burn-image-progress-dialog.c,
+	  xfburn/xfburn-burn-image-progress-dialog.h,
+	  xfburn/xfburn-copy-dvd-dialog.c,
+	  xfburn/xfburn-create-iso-from-composition-progress-dialog.c,
+	  xfburn/xfburn-create-iso-from-composition-progress-dialog.h,
+	  xfburn/xfburn-data-composition.c,
+	  xfburn/xfburn-data-composition.h,
+	  xfburn/xfburn-data-disc-usage.c, xfburn/xfburn-device-box.c,
+	  xfburn/xfburn-device-box.h, xfburn/xfburn-device-list.c,
+	  xfburn/xfburn-device-list.h, xfburn/xfburn-format-dvd-dialog.c,
+	  xfburn/xfburn-fs-browser.c, xfburn/xfburn-main-window.c,
+	  xfburn/xfburn-main.c, xfburn/xfburn-preferences-dialog.c,
+	  xfburn/xfburn-preferences-dialog.h,
+	  xfburn/xfburn-progress-dialog.c, xfburn/xfburn-progress-dialog.h,
+	  xfburn/xfburn-write-mode-combo-box.c,
+	  xfburn/xfburn-write-mode-combo-box.h:
+	  merge libburn branch into trunk
+
+2007-01-20  yuvaltanny
+
+	* po/he.po:
+	  Hebrew translation update
+
+2007-01-13  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-data-disc-usage.c:
+	  fix cd sizes using values from
+	  http://en.wikipedia.org/wiki/CD-ROM#Capacity (fix #2753)
+
+2007-01-09  Jean-François Wauthy <pollux@xfce.org>
+
+	* NEWS:
+	  update NEWS
+	* icons, icons/16x16, icons/22x22,
+	  icons/24x24/stock_xfburn-blank-cdrw.png,
+	  icons/24x24/stock_xfburn-burn-cd.png,
+	  icons/24x24/stock_xfburn-data-copy.png,
+	  icons/24x24/stock_xfburn-import-session.png,
+	  icons/32x32/Makefile.am, icons/32x32/stock_xfburn-blank-cdrw.png,
+	  icons/32x32/stock_xfburn-burn-cd.png,
+	  icons/32x32/stock_xfburn-data-copy.png,
+	  icons/32x32/stock_xfburn-import-session.png,
+	  icons/48x48/Makefile.am, icons/48x48/stock_xfburn-blank-cdrw.png,
+	  icons/48x48/stock_xfburn-burn-cd.png,
+	  icons/48x48/stock_xfburn-data-copy.png,
+	  icons/48x48/stock_xfburn-import-session.png, icons/Makefile.am,
+	  icons/scalable/Makefile.am,
+	  icons/scalable/stock_xfburn-blank-cdrw.svg,
+	  icons/scalable/stock_xfburn-burn-cd.svg,
+	  icons/scalable/stock_xfburn-data-copy.svg,
+	  icons/scalable/stock_xfburn-import-session.svg,
+	  xfburn/xfburn-burn-data-composition-progress-dialog.h,
+	  xfburn/xfburn-create-iso-from-composition-progress-dialog.h,
+	  xfburn/xfburn-progress-dialog.h:
+	  backport icons from libburn branch and revert not wanted changes
+	* configure.in.in, icons,
+	  xfburn/xfburn-burn-data-composition-progress-dialog.h,
+	  xfburn/xfburn-create-iso-from-composition-progress-dialog.h,
+	  xfburn/xfburn-progress-dialog.h:
+	  remove icons in order to backport new icons
+
+2007-01-07  stephan
+
+	* po/nl.po:
+	  set content-type of dutch translations to UTF-8
+	* po/nl.po:
+	  Updated Dutch translation
+
+2006-12-26  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-directory-browser.c:
+	  hide symbolic links in directory browser for consistency (related
+	  to bug #2688)
+
+2006-12-23  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-progress-dialog.c:
+	  Apply patch from Jasper to prevent crash when closing the
+	  Blanking CD dialog (fix bug #2679)
+
+2006-12-23  aalam
+
+	* po/ChangeLog, po/LINGUAS, po/pa.po:
+	  adding Punjabi Translation by alam and update Linguas/Changelog
+
+2006-12-22  maximilian
+
+	* po/ChangeLog:
+	  Updated the French translation for the xarchiver package and
+	  fixed a mistake I introduced in Changelog's lately
+
+2006-12-20  maximilian
+
+	* po/ChangeLog, po/ru.po:
+	  Updated the Russian translations by Andrey Fedoseev for a lot of
+	  packages
+
+2006-12-03  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-progress-dialog.c:
+	  get rid of all the stupid g_object_{get,set}_data calls
+
+2006-11-30  stavrosg
+
+	* po/ChangeLog, po/el.po:
+	  E-mail address change. Sorry for the noise.
+
+2006-11-16  yuvaltanny
+
+	* po/he.po:
+	  Updated Hebrew translations
+
+2006-11-11  maximilian
+
+	* po/fr.po:
+	  Still missed one accelerator in xfburn and forgot to name
+	  ByungHyun Choi for the Korean translation
+	* po/ChangeLog, po/fr.po:
+	  Updated the Korean translation for the mousepad package and
+	  corrected the French xfburn translation following the advice from
+	  JFW
+
+2006-11-11  stavrosg
+
+	* po/ChangeLog, po/el.po:
+	  Greek translations update
+
+2006-11-11  maximilian
+
+	* po/ChangeLog, po/cs.po, po/pl.po:
+	  Updated the Czech translations by Michal Várady for the following
+	  packages: mousepad; thunar; xarchiver; xfburn; xfcalendar;
+	  xfce-mcs-plugins; xfdesktop; xfce-battery-plugin Updated the
+	  Polish translations by Szymon Kałasz for the following packages:
+	  terminal; xarchiver; xfburn
+
+2006-11-05  paurullan
+
+	* po/ChangeLog, po/LINGUAS, po/de.po, po/fr.po, po/ko.po:
+	  i18n French, German and Korean translations
+
+2006-11-05  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-format-dvd-dialog.c,
+	  xfburn/xfburn-progress-dialog.c:
+	  fix XfburnProgressDialog's expander behaviour
+
+2006-11-04  paurullan
+
+	* po/ChangeLog, po/ca.po:
+	  i18n catalan update
+
+2006-11-03  jari
+
+	* po/ChangeLog, po/fi.po:
+	  Updated Finnish translations.
+
+2006-11-03  piarres
+
+	* po/ChangeLog, po/eu.po:
+	  xfburn basque translation update
+
+2006-11-01  sas
+
+	* po/hu.po:
+	  hu trunk: arch & burn updates
+
+2006-11-01  Jean-François Wauthy <pollux@xfce.org>
+
+	* NEWS, icons/24x24/Makefile.am,
+	  icons/24x24/stock_xfburn-blank-dvdrw.png,
+	  icons/24x24/stock_xfburn-format-dvdrw.png, po/POTFILES.in,
+	  po/ca.po, po/cs.po, po/de.po, po/dz.po, po/el.po, po/eu.po,
+	  po/fi.po, po/fr.po, po/gl.po, po/he.po, po/hu.po, po/ja.po,
+	  po/lt.po, po/nl.po, po/pl.po, po/ru.po, po/sv.po, po/uk.po,
+	  po/xfburn.pot, po/zh_TW.po, xfburn-toolbars.ui, xfburn.ui,
+	  xfburn/Makefile.am, xfburn/xfburn-copy-dvd-dialog.c,
+	  xfburn/xfburn-copy-dvd-dialog.h,
+	  xfburn/xfburn-create-iso-progress-dialog.c,
+	  xfburn/xfburn-format-dvd-dialog.c,
+	  xfburn/xfburn-format-dvd-dialog.h, xfburn/xfburn-global.h,
+	  xfburn/xfburn-main-window.c, xfburn/xfburn-stock.c,
+	  xfburn/xfburn-stock.h:
+	  Add create ISO from DVD support
+
+2006-10-29  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn.desktop.in:
+	  use media-cdrom as icon until better comes up (fix bug #2421)
+
+2006-10-28  paurullan
+
+	* po/ChangeLog, po/LINGUAS, po/dz.po:
+	  added whole Dzongkha translation
+	  
+	  congratulations to the dz team.
+
+2006-10-22  stavrosg
+
+	* po/ChangeLog, po/el.po:
+	  Updated Greek translations
+
+2006-10-11  stavrosg
+
+	* po/el.po:
+	  Greek translations update
+
+2006-10-10  eulex
+
+	* po/ChangeLog, po/LINGUAS, po/sv.po:
+	  Added swedish translations by Daniel Nylander
+
+2006-10-02  paurullan
+
+	* po/ChangeLog, po/ru.po:
+	  i18n updated Russian translations
+	* po/ChangeLog, po/nl.po:
+	  i18n Dutch updates
+
+2006-09-18  paurullan
+
+	* po/ChangeLog, po/ca.po:
+	  [i18n] update catalan translation
+
+2006-09-02  yuvaltanny
+
+	* po/he.po:
+	  Update Hebrew translation
+
+2006-08-27  Jean-François Wauthy <pollux@xfce.org>
+
+	* po/ChangeLog, po/cs.po:
+	  Add/Update Czech translations
+	* po/ChangeLog, po/de.po:
+	  Updated German translations
+	* po/ChangeLog, po/LINGUAS, po/nl.po, xfburn/xfburn-main-window.c:
+	  add Dutch translations
+
+2006-08-24  Jean-François Wauthy <pollux@xfce.org>
+
+	* po/ChangeLog, po/pl.po:
+	  Update Polish translations
+
+2006-08-21  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/Makefile.am, xfburn/xfburn-blank-cd-progress-dialog.c,
+	  xfburn/xfburn-burn-data-composition-dialog.h,
+	  xfburn/xfburn-burn-data-composition-progress-dialog.c,
+	  xfburn/xfburn-burn-image-dialog.h,
+	  xfburn/xfburn-burn-image-progress-dialog.c,
+	  xfburn/xfburn-copy-cd-dialog.h,
+	  xfburn/xfburn-copy-cd-progress-dialog.c,
+	  xfburn/xfburn-create-iso-from-composition-progress-dialog.c,
+	  xfburn/xfburn-create-iso-progress-dialog.c,
+	  xfburn/xfburn-device-box.c, xfburn/xfburn-device-box.h,
+	  xfburn/xfburn-device-list.c, xfburn/xfburn-device-list.h,
+	  xfburn/xfburn-global.h, xfburn/xfburn-main.c,
+	  xfburn/xfburn-preferences-dialog.c, xfburn/xfburn-utils.c,
+	  xfburn/xfburn-utils.h:
+	  add xfburn-device-list.[ch]
+
+2006-08-20  Jean-François Wauthy <pollux@xfce.org>
+
+	* po/gl.po:
+	  remove executable property from gl.po
+	* po/ChangeLog, po/LINGUAS, po/gl.po:
+	  Add Galician translations
+
+2006-08-19  hydonsingore
+
+	* po/ChangeLog, po/ja.po, po/zh_TW.po:
+	  Update traditional Chinese translations.
+
+2006-08-19  Jean-François Wauthy <pollux@xfce.org>
+
+	* po/ChangeLog, po/fr.po:
+	  Updated French translations
+
+2006-08-18  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-main-window.c:
+	  deactivate quit confirmation as it's more annoying than usefull
+	  at this point (fix bug #2193)
+	* INSTALL:
+	  add INSTALL to please sofar's autotools
+	* NEWS, xfburn/xfburn-data-composition.c:
+	  Avoid adding non regular files (bug #2179)
+
+2006-08-16  Jean-François Wauthy <pollux@xfce.org>
+
+	* po/ChangeLog, po/pl.po:
+	  Updated Polish translations
+
+2006-08-15  piarres
+
+	* po/ChangeLog, po/eu.po:
+	  Basque translation update for xfburn and xfdesktop
+
+2006-08-15  Jean-François Wauthy <pollux@xfce.org>
+
+	* NEWS, xfburn/xfburn-burn-image-dialog.c,
+	  xfburn/xfburn-data-composition.c:
+	  - Fix wrong get_speed call in burn iso dialog - Directory are
+	  sort before files in data composition
+
+2006-08-12  sas
+
+	* po/hu.po:
+	  hu trunk: panel, burn updated
+
+2006-08-12  jari
+
+	* po/ChangeLog, po/fi.po:
+	  Updated Finnish translations.
+
+2006-08-11  Jean-François Wauthy <pollux@xfce.org>
+
+	* NEWS, xfburn/xfburn-data-composition.c:
+	  Fix segfault when removing a file and one of its parent directory
+	  together
+	* NEWS, po/ca.po, po/cs.po, po/de.po, po/el.po, po/eu.po, po/fi.po,
+	  po/fr.po, po/he.po, po/hu.po, po/ja.po, po/lt.po, po/pl.po,
+	  po/ru.po, po/uk.po, po/xfburn.pot, po/zh_TW.po:
+	  update-po
+	* NEWS, xfburn/xfburn-blank-cd-dialog.c,
+	  xfburn/xfburn-blank-cd-dialog.h,
+	  xfburn/xfburn-blank-cd-progress-dialog.c,
+	  xfburn/xfburn-blank-cd-progress-dialog.h,
+	  xfburn/xfburn-burn-data-composition-dialog.c,
+	  xfburn/xfburn-burn-data-composition-dialog.h,
+	  xfburn/xfburn-burn-image-dialog.c,
+	  xfburn/xfburn-burn-image-dialog.h,
+	  xfburn/xfburn-burn-image-progress-dialog.c,
+	  xfburn/xfburn-burn-image-progress-dialog.h,
+	  xfburn/xfburn-composition.h, xfburn/xfburn-copy-cd-dialog.c,
+	  xfburn/xfburn-copy-cd-dialog.h,
+	  xfburn/xfburn-copy-cd-progress-dialog.c,
+	  xfburn/xfburn-copy-cd-progress-dialog.h,
+	  xfburn/xfburn-create-iso-from-composition-progress-dialog.c,
+	  xfburn/xfburn-create-iso-from-composition-progress-dialog.h,
+	  xfburn/xfburn-create-iso-progress-dialog.c,
+	  xfburn/xfburn-create-iso-progress-dialog.h,
+	  xfburn/xfburn-data-composition.c,
+	  xfburn/xfburn-data-disc-usage.c, xfburn/xfburn-data-disc-usage.h,
+	  xfburn/xfburn-directory-browser.c,
+	  xfburn/xfburn-directory-browser.h, xfburn/xfburn-file-browser.c,
+	  xfburn/xfburn-file-browser.h, xfburn/xfburn-fs-browser.c,
+	  xfburn/xfburn-fs-browser.h, xfburn/xfburn-main-window.h,
+	  xfburn/xfburn-notebook-tab.h, xfburn/xfburn-preferences-dialog.c,
+	  xfburn/xfburn-preferences-dialog.h,
+	  xfburn/xfburn-progress-dialog.c, xfburn/xfburn-progress-dialog.h,
+	  xfburn/xfburn-settings.c:
+	  Use g_type_class_add_private everywhere
+
+2006-08-10  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-data-composition.c:
+	  add copy support in DnD inside a data composition
+	* po/ChangeLog, po/cs.po:
+	  updated Czech translations
+
+2006-08-10  piarres
+
+	* po/ChangeLog, po/eu.po:
+	  xfburn basque trasnaltion update
+
+2006-08-10  Jean-François Wauthy <pollux@xfce.org>
+
+	* po/POTFILES.in, po/ca.po, po/cs.po, po/de.po, po/el.po, po/eu.po,
+	  po/fi.po, po/fr.po, po/he.po, po/hu.po, po/ja.po, po/lt.po,
+	  po/pl.po, po/ru.po, po/uk.po, po/xfburn.pot, po/zh_TW.po:
+	  update po
+	* NEWS, class diagram.zuml, configure.in.in:
+	  * Update NEWS * Update Class Diagram * Bump version
+	* xfburn/Makefile.am, xfburn/xfburn-blank-cd-dialog.c,
+	  xfburn/xfburn-burn-data-composition-dialog.c,
+	  xfburn/xfburn-burn-image-dialog.c,
+	  xfburn/xfburn-copy-cd-dialog.c, xfburn/xfburn-device-box.c,
+	  xfburn/xfburn-device-box.h:
+	  Add the XfburnDeviceBox class and use it in the burning dialogs
+
+2006-08-09  stavrosg
+
+	* po/ChangeLog, po/el.po:
+	  Xfburn Greek translations update
+
+2006-08-09  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-data-composition.c:
+	  update parent directory size when adding a subdirectory via the
+	  toolbar button (fix bug #2139)
+
+2006-08-08  Jean-François Wauthy <pollux@xfce.org>
+
+	* po/ChangeLog, po/de.po:
+	  updated German translations
+
+2006-08-08  jari
+
+	* po/ChangeLog, po/fi.po:
+	  Updated Finnish translations.
+
+2006-08-07  piarres
+
+	* po/ChangeLog, po/eu.po:
+	  Basque translation update
+
+2006-08-07  Jean-François Wauthy <pollux@xfce.org>
+
+	* NEWS, xfburn/xfburn-data-composition.c:
+	  add DnD inside data composition
+
+2006-08-06  Jean-François Wauthy <pollux@xfce.org>
+
+	* NEWS, xfburn/xfburn-data-composition.c:
+	  Prevent having two 'New directory' entries in a data composition
+
+2006-08-06  sas
+
+	* po/hu.po:
+	  hu trunk: burn updated
+
+2006-08-05  Jean-François Wauthy <pollux@xfce.org>
+
+	* po/POTFILES.in, po/ca.po, po/cs.po, po/de.po, po/el.po, po/eu.po,
+	  po/fi.po, po/fr.po, po/he.po, po/hu.po, po/ja.po, po/lt.po,
+	  po/pl.po, po/ru.po, po/uk.po, po/xfburn.pot, po/zh_TW.po:
+	  update-po
+	* xfburn/xfburn-burn-data-composition-dialog.c,
+	  xfburn/xfburn-main.c, xfburn/xfburn-settings.c:
+	  plug another memleak
+	* xfburn/xfburn-data-composition.c, xfburn/xfburn-main.c,
+	  xfburn/xfburn-settings.c, xfburn/xfburn-utils.c:
+	  plug some small memleaks
+	* NEWS, class diagram.zuml, xfburn/Makefile.am,
+	  xfburn/xfburn-burn-data-composition-dialog.c,
+	  xfburn/xfburn-burn-image-dialog.c, xfburn/xfburn-main-window.c,
+	  xfburn/xfburn-write-mode-combo-box.c,
+	  xfburn/xfburn-write-mode-combo-box.h:
+	  Add support of SAO mode (bug #2121)
+
+2006-08-05  jari
+
+	* po/ChangeLog, po/fi.po:
+	  Updated Finnish translations.
+
+2006-08-04  stavrosg
+
+	* po/ChangeLog, po/el.po:
+	  Greek translations update.
+
+2006-08-04  Jean-François Wauthy <pollux@xfce.org>
+
+	* NEWS, class diagram.zuml, xfburn.desktop.in:
+	  * update class diagram * fix xfburn.desktop Categories entry as
+	  suggested by Charles A Edwards <eslrahc@bellsouth.net> * update
+	  NEWS
+	* xfburn/xfburn-data-composition.c, xfburn/xfburn-main.c:
+	  * Add create directory action in data composition * Prevent usage
+	  of empty filename in data composition
+
+2006-08-03  Jean-François Wauthy <pollux@xfce.org>
+
+	* po/ChangeLog, po/cs.po:
+	  Updated Czech and French translations
+	* xfburn/xfburn-data-composition.c, xfburn/xfburn-file-browser.c:
+	  improve add button (fix focus problem with the fs browser)
+	* xfburn/xfburn-data-composition.c,
+	  xfburn/xfburn-data-disc-usage.c,
+	  xfburn/xfburn-directory-browser.c,
+	  xfburn/xfburn-directory-browser.h, xfburn/xfburn-file-browser.c,
+	  xfburn/xfburn-file-browser.h, xfburn/xfburn-fs-browser.c,
+	  xfburn/xfburn-fs-browser.h, xfburn/xfburn-main-window.c,
+	  xfburn/xfburn-main-window.h:
+	  implement the add button in the data composition toolbar
+
+2006-07-31  Jean-François Wauthy <pollux@xfce.org>
+
+	* NEWS, xfburn/NEWS, xfburn/xfburn-burn-image-dialog.c:
+	  Prevent cdrecord failure if there is a space in the path to an
+	  iso (bug #1198)
+	* xfburn/NEWS, xfburn/xfburn-settings.c:
+	  Avoid segfault on exit when ~/.config/xfburn doesn't exist (fix
+	  bug #2095)
+	* configure.in.in, po/ChangeLog, po/de.po,
+	  xfburn/xfburn-main-window.c:
+	  * update German translations * fix German and Polish translator
+	  names
+
+2006-07-30  Jean-François Wauthy <pollux@xfce.org>
+
+	* po/hu.po:
+	  update-po
+	* Makefile.am, configure.in.in, xfburn/Makefile.am:
+	  fix distcheck and bump version
+	* xfburn/xfburn-file-browser.c, xfburn/xfburn-fs-browser.c:
+	  fix browsing
+
+2006-07-30  sas
+
+	* po/hu.po:
+	  hu trunk: burn & archiver update
+
+2006-07-30  Jean-François Wauthy <pollux@xfce.org>
+
+	* po/POTFILES.in, po/ca.po, po/cs.po, po/de.po, po/el.po, po/eu.po,
+	  po/fi.po, po/fr.po, po/he.po, po/hu.po, po/ja.po, po/lt.po,
+	  po/pl.po, po/ru.po, po/uk.po, po/xfburn.pot, po/zh_TW.po:
+	  update-po
+	* xfburn/xfburn-burn-data-composition-dialog.c,
+	  xfburn/xfburn-burn-data-composition-progress-dialog.c,
+	  xfburn/xfburn-burn-data-composition-progress-dialog.h,
+	  xfburn/xfburn-burn-image-progress-dialog.c,
+	  xfburn/xfburn-progress-dialog.c:
+	  Compilation burning implemented
+	* xfburn/Makefile.am, xfburn/xfburn-burn-data-composition-dialog.c,
+	  xfburn/xfburn-data-composition.c,
+	  xfburn/xfburn-data-disc-usage.c, xfburn/xfburn-data-disc-usage.h,
+	  xfburn/xfburn-disc-usage.c, xfburn/xfburn-disc-usage.h:
+	  Rename XfburnDiscUsage into XfburnDataDiscUsage
+	* xfburn-toolbars.ui, xfburn.ui,
+	  xfburn/xfburn-burn-data-composition-dialog.c,
+	  xfburn/xfburn-burn-data-composition-dialog.h,
+	  xfburn/xfburn-data-composition.c,
+	  xfburn/xfburn-data-composition.h, xfburn/xfburn-disc-usage.c,
+	  xfburn/xfburn-main-window.c:
+	  * deactivate the save/load actions * add volume name support
+	* xfburn/Makefile.am, xfburn/xfburn-burn-composition-dialog.c,
+	  xfburn/xfburn-burn-composition-dialog.h,
+	  xfburn/xfburn-burn-composition-progress-dialog.c,
+	  xfburn/xfburn-burn-composition-progress-dialog.h,
+	  xfburn/xfburn-burn-data-composition-dialog.c,
+	  xfburn/xfburn-burn-data-composition-dialog.h,
+	  xfburn/xfburn-burn-data-composition-progress-dialog.c,
+	  xfburn/xfburn-burn-data-composition-progress-dialog.h,
+	  xfburn/xfburn-data-composition.c, xfburn/xfburn-main.c:
+	  * rename XfburnBurnCompositionDialog and
+	  XfburnBurnCompositionProgressDialog into
+	  XfburnBurnDataCompositionDialog and
+	  XfburnBurnDataCompositionProgressDialog (gosh it's long) * the
+	  generated filelist is now mkisofs compliant
+
+2006-07-29  Jean-François Wauthy <pollux@xfce.org>
+
+	* po/ChangeLog, po/pl.po:
+	  Updated Polish translations
+
+2006-07-24  Jean-François Wauthy <pollux@xfce.org>
+
+	* class diagram.zuml, po/ChangeLog, po/POTFILES.in,
+	  xfburn-toolbars.ui, xfburn.ui,
+	  xfburn/xfburn-compositions-notebook.c,
+	  xfburn/xfburn-compositions-notebook.h,
+	  xfburn/xfburn-data-composition.c, xfburn/xfburn-main-window.c:
+	  * add some composition actions to the GUI * fix wrong filename
+	  conflict detection
+
+2006-07-23  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-composition.c, xfburn/xfburn-composition.h,
+	  xfburn/xfburn-compositions-notebook.c,
+	  xfburn/xfburn-data-composition.c, xfburn/xfburn-disc-usage.c,
+	  xfburn/xfburn-main-window.c:
+	  * prevent the user to open the burning dialog if the composition
+	  is bigger than the media * rename tab and menu label if the user
+	  saves the composition
+
+2006-07-23  sas
+
+	* po/hu.po:
+	  hu trunk: burn update
+
+2006-07-23  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-compositions-notebook.c:
+	  use GObject data instead of a customized struct in order to store
+	  the pointer to the composition
+	* xfburn/Makefile.am, xfburn/xfburn-adding-progress.c,
+	  xfburn/xfburn-composition.c,
+	  xfburn/xfburn-compositions-notebook.c,
+	  xfburn/xfburn-data-composition.c, xfburn/xfburn-main-window.c,
+	  xfburn/xfburn-notebook-tab.c, xfburn/xfburn-notebook-tab.h:
+	  * rename some lost 'Compilation' into 'Composition' * add the
+	  XfburnNotebookTab widget and use it in XfburnCompositionsNotebook
+	* po/ChangeLog, po/de.po:
+	  Updated German translations
+	* po/ChangeLog, po/fr.po:
+	  Updated French translations
+	* class diagram.zuml, po/POTFILES.in, po/ca.po, po/cs.po, po/de.po,
+	  po/el.po, po/eu.po, po/fi.po, po/fr.po, po/he.po, po/hu.po,
+	  po/ja.po, po/lt.po, po/pl.po, po/ru.po, po/uk.po, po/xfburn.pot,
+	  po/zh_TW.po, xfburn.ui, xfburn/Makefile.am,
+	  xfburn/xfburn-composition.c, xfburn/xfburn-composition.h,
+	  xfburn/xfburn-compositions-notebook.c,
+	  xfburn/xfburn-compositions-notebook.h,
+	  xfburn/xfburn-data-composition.c,
+	  xfburn/xfburn-data-composition.h, xfburn/xfburn-main-window.c:
+	  * add tabbed composition * update POTFILES.in
+
+2006-07-21  Jean-François Wauthy <pollux@xfce.org>
+
+	* class diagram.zuml, xfburn.ui, xfburn/Makefile.am,
+	  xfburn/xfburn-composition.c, xfburn/xfburn-composition.h,
+	  xfburn/xfburn-data-composition.c,
+	  xfburn/xfburn-data-composition.h,
+	  xfburn/xfburn-directory-browser.c, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-disc-content.h, xfburn/xfburn-disc-usage.c,
+	  xfburn/xfburn-fs-browser.c, xfburn/xfburn-main-window.c,
+	  xfburn/xfburn-main-window.h:
+	  * update class diagram (some parts still have to be implemented)
+	  * rename XfburnDiscContent into XfburnDataComposition * create
+	  the XfburnComposition interface * XfburnDataComposition
+	  implements XfburnComposition * some public members of
+	  XfburnMainWindow are now private
+
+2006-07-20  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-disc-content.c, xfburn/xfburn-main-window.c,
+	  xfburn/xfburn-main-window.h:
+	  XfburnDiscContent handles the burn option dialog on its own
+	* xfburn/Makefile.am, xfburn/xfburn-adding-progress.c,
+	  xfburn/xfburn-adding-progress.h, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-disc-content.h, xfburn/xfburn-main-window.c,
+	  xfburn/xfburn-main-window.h:
+	  * avoid using a kind of signal proxy in XfburnDiscContent *
+	  prepared a progress bar dialog to show while adding files to the
+	  compilation (doesn't work so far so it's disabled)
+	* xfburn/xfburn-disc-content.c, xfburn/xfburn-disc-usage.c:
+	  improve disc usage management
+
+2006-07-10  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-disc-content.c:
+	  fix compilation without thunar-vfs
+
+2006-07-07  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-blank-cd-dialog.c, xfburn/xfburn-blank-cd-dialog.h,
+	  xfburn/xfburn-burn-composition-dialog.c,
+	  xfburn/xfburn-burn-composition-dialog.h,
+	  xfburn/xfburn-burn-image-dialog.c,
+	  xfburn/xfburn-burn-image-dialog.h,
+	  xfburn/xfburn-copy-cd-dialog.c, xfburn/xfburn-copy-cd-dialog.h,
+	  xfburn/xfburn-disc-content.c:
+	  * fix another crash in thunar_vfs_shutdown (some forgotten
+	  unref's) * dialogs now derive XfceTitledDialog instead of using a
+	  XfceHeading widget explicitly
+	* configure.in.in, xfburn/xfburn-directory-browser.c,
+	  xfburn/xfburn-main.c, xfburn/xfburn-preferences-dialog.c,
+	  xfburn/xfburn-preferences-dialog.h,
+	  xfburn/xfburn-progress-dialog.h, xfburn/xfburn-settings.c,
+	  xfburn/xfburn-settings.h:
+	  * fix thunar_vfs_shutdown crash at exit * settings are now
+	  handled by the XfburnSettings class
+
+2006-07-06  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-directory-browser.c:
+	  i misinterpreter the basename parameter
+	* xfburn/Makefile.am, xfburn/xfburn-directory-browser.c,
+	  xfburn/xfburn-disc-content.c, xfburn/xfburn-file-browser.c,
+	  xfburn/xfburn-main.c:
+	  basic Mime-type detection support using ThunarVFS (optional)
+	* xfburn/xfburn-blank-cd-dialog.c,
+	  xfburn/xfburn-burn-composition-dialog.c,
+	  xfburn/xfburn-burn-image-dialog.c,
+	  xfburn/xfburn-copy-cd-dialog.c:
+	  use new XfceHeading in dialogs
+	* xfburn/xfburn-disc-content.c, xfburn/xfburn-preferences-dialog.c:
+	  new Preferences dialog using ExoIconBar
+
+2006-06-09  jari
+
+	* po/ChangeLog, po/fi.po:
+	  Updated Finnish translation.
+
+2006-06-04  Jean-François Wauthy <pollux@xfce.org>
+
+	* po/ChangeLog, po/fr.po:
+	  updated French translations by Maximilian Schleiss
+	  <maxschleiss@bluewin.ch>
+
+2006-05-31  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-disc-content.c:
+	  support for saving tree-based composition
+
+2006-05-30  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-disc-content.c:
+	  GUI support for tree in composition
+
+2006-05-29  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-disc-content.c, xfburn/xfburn-main-window.c:
+	  reduce memory usage using const (patch from Nick Schermer)
+
+2006-05-28  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-disc-content.c:
+	  basic treeview in disc content (just the gui part)
+	* xfburn/xfburn-disc-content.c:
+	  * use static variables for folder and file icon in disc content *
+	  use a GtkTreeStore instead of GtkListStore in order to implement
+	  tree support in compilation
+
+2006-05-28  jari
+
+	* po/fi.po:
+	  Updated Finnish translations.
+
+2006-05-28  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-disc-content.c:
+	  avoid having two files with the same name in the compilation
+
+2006-05-27  Jean-François Wauthy <pollux@xfce.org>
+
+	* configure.in.in, xfburn/xfburn-blank-cd-progress-dialog.c,
+	  xfburn/xfburn-blank-cd-progress-dialog.h,
+	  xfburn/xfburn-burn-composition-dialog.c,
+	  xfburn/xfburn-burn-composition-dialog.h,
+	  xfburn/xfburn-burn-composition-progress-dialog.c,
+	  xfburn/xfburn-burn-composition-progress-dialog.h,
+	  xfburn/xfburn-burn-image-dialog.c,
+	  xfburn/xfburn-burn-image-dialog.h,
+	  xfburn/xfburn-burn-image-progress-dialog.c,
+	  xfburn/xfburn-burn-image-progress-dialog.h,
+	  xfburn/xfburn-copy-cd-dialog.c, xfburn/xfburn-copy-cd-dialog.h,
+	  xfburn/xfburn-copy-cd-progress-dialog.c,
+	  xfburn/xfburn-copy-cd-progress-dialog.h,
+	  xfburn/xfburn-create-iso-from-composition-progress-dialog.c,
+	  xfburn/xfburn-create-iso-from-composition-progress-dialog.h,
+	  xfburn/xfburn-create-iso-progress-dialog.c,
+	  xfburn/xfburn-create-iso-progress-dialog.h,
+	  xfburn/xfburn-directory-browser.c,
+	  xfburn/xfburn-directory-browser.h, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-disc-content.h, xfburn/xfburn-disc-usage.c,
+	  xfburn/xfburn-disc-usage.h, xfburn/xfburn-file-browser.c,
+	  xfburn/xfburn-file-browser.h, xfburn/xfburn-fs-browser.h,
+	  xfburn/xfburn-global.h, xfburn/xfburn-main-window.h,
+	  xfburn/xfburn-main.c, xfburn/xfburn-preferences-dialog.c,
+	  xfburn/xfburn-preferences-dialog.h,
+	  xfburn/xfburn-progress-dialog.c, xfburn/xfburn-progress-dialog.h,
+	  xfburn/xfburn-settings.h, xfburn/xfburn-utils.c,
+	  xfburn/xfburn-utils.h:
+	  update copyright info
+	* xfburn/xfburn-disc-content.c:
+	  fix crash when removing multiple files from the disc content
+	  (#1846)
+	* xfburn/xfburn-fs-browser.c, xfburn/xfburn-main-window.c,
+	  xfburn/xfburn-settings.c:
+	  save and restore main window size (fix #1857)
+
+2006-05-26  mantas
+
+	* po/LINGUAS, po/lt.po:
+	  Adding Lithuanian language
+
+2006-05-24  jari
+
+	* po/LINGUAS, po/fi.po:
+	  New Finnish translation.
+
+2006-05-24  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-disc-content.c:
+	  fix compilation with gcc 4.1
+	* xfburn/xfburn-blank-cd-dialog.c,
+	  xfburn/xfburn-burn-composition-dialog.c,
+	  xfburn/xfburn-burn-image-dialog.c,
+	  xfburn/xfburn-copy-cd-dialog.c,
+	  xfburn/xfburn-preferences-dialog.c:
+	  use new XfceFrameBox
+	* ., Makefile.am, autogen.sh, configure.ac, configure.in.in, icons,
+	  icons/24x24, icons/24x24/Makefile.am,
+	  icons/24x24/stock_xfburn-audio-copy.png,
+	  icons/24x24/stock_xfburn-blank-cdrw.png,
+	  icons/24x24/stock_xfburn-blank-dvdrw.png,
+	  icons/24x24/stock_xfburn-burn-cd.png,
+	  icons/24x24/stock_xfburn-cd.png,
+	  icons/24x24/stock_xfburn-data-copy.png,
+	  icons/24x24/stock_xfburn-import-session.png, icons/Makefile.am,
+	  icons/baker-audio-copy.png, icons/baker-blank-cdrw.png,
+	  icons/baker-blank-dvdrw.png, icons/baker-burn-cd.png,
+	  icons/baker-cd.png, icons/baker-data-copy.png,
+	  icons/baker-import-session.png, pixmaps, po, po/LINGUAS,
+	  xfburn/Makefile.am, xfburn/xfburn-blank-cd-dialog.c,
+	  xfburn/xfburn-burn-composition-dialog.c,
+	  xfburn/xfburn-burn-image-dialog.c,
+	  xfburn/xfburn-copy-cd-dialog.c, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-main-window.c, xfburn/xfburn-main.c,
+	  xfburn/xfburn-preferences-dialog.c, xfburn/xfburn-settings.c,
+	  xfburn/xfburn-stock.c, xfburn/xfburn-stock.h:
+	  * use GtkFrame instead of XfceFrameBox * add stock icons using
+	  Terminal's way * use new XfceAboutDialog * add LINGUAS support
+
+2006-05-16  hydonsingore
+
+	* configure.ac, po/ChangeLog, po/zh_TW.po:
+	  Tradtional Chinese translation for xfburn newly added.
+
+2006-05-13  paurullan
+
+	* po/ChangeLog, po/ca.po:
+	  [i18n] catalan Update various translations
+
+2006-05-13  daichi
+
+	* configure.ac, po/ChangeLog, po/cs.po:
+	  Added/Updated Czech translations by Michal Varady
+	  <miko.vaji@gmail.com>.
+
+2006-05-09  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-main-window.c:
+	  fix segfault reported by Kamran Khan
+
+2006-05-09  stavrosg
+
+	* po/ChangeLog, po/el.po:
+	  Unbreak the translation. Sorry for the noise
+
+2006-05-07  stavrosg
+
+	* configure.ac, po/ChangeLog, po/el.po:
+	  Added xfburn Greek translation
+
+2006-05-06  sas
+
+	* po/hu.po:
+	  hu trunk: terminal gui & burn fixes
+
+2006-05-03  sas
+
+	* po/hu.po:
+	  hu trunk: xfburn updates
+
+2006-05-02  sas
+
+	* configure.ac, po/hu.po:
+	  hu trunk: initial hungarian xfburn translation
+
+2006-05-02  daichi
+
+	* po/ChangeLog:
+	  Removed timestamps so that a translator isn't bothered: "Then,
+	  what time is it now in UTC?"
+	* configure.ac:
+	  Added `pl' to XDT_I18N().
+	* po/pl.po:
+	  Added/Updated Polish translations by Szymon Kalasz
+	  <szymon_maestro@gazeta.pl>.
+
+2006-05-02  Jean-François Wauthy <pollux@xfce.org>
+
+	* Makefile.am:
+	  should fix bug #1695 (patch from Jani Monoses)
+
+2006-05-01  daichi
+
+	* po/ru.po:
+	  Updated Russian translations by Anthony Ivanoff <a-i@bk.ru>,
+	  Maxim Zenin <webmechanics@gmail.com>, Sergey Fedoseev
+	  <fedoseev.sergey@gmail.com>.
+	* po/de.po, po/he.po, po/uk.po:
+	  Updated.
+
+2006-04-30  moe
+
+	* configure.ac, po/ChangeLog, po/de.po:
+	  Add German translations by Enrico Tröger
+	  <enrico.troeger@uvena.de> Fixes by Fabian Nowak
+	  <timystery@arcor.de> Fixes by Moritz Heiber <moe@xfce.org>
+
+2006-04-29  daichi
+
+	* configure.ac:
+	  Added `uk' to XDT_I18N().
+
+2006-04-23  daichi
+
+	* po/ru.po:
+	  Updated Russian translations by Sergey Fedoseev
+	  <fedoseev.sergey@gmail.com>.
+
+2006-04-21  mvd
+
+	* po/uk.po:
+	  2006-04-21 Maxim Dziumanenko <mvd@mylinux.ua>
+	  
+	  * Updated Ukrainian translation.
+
+2006-04-18  yuvaltanny
+
+	* configure.ac, po/he.po:
+	  Hebrew translation for xfburn
+
+2006-04-15  olivier
+
+	* ChangeLog:
+	  Update ChangeLog
+
+2006-04-15  daichi
+
+	* po/ca.po:
+	  Bump, etc.
+	* po/ru.po:
+	  Updated Russian translations by Andrey Fedoseev
+	  <andrey.fedoseev@gmail.com>.
+	* configure.ac:
+	  Added missing language codes.
+
+2006-04-02  paurullan
+
+	* po/ca.po:
+	  [i18n] catalan little of work on catalan translations
+
+2006-03-27  daichi
+
+	* po/ru.po:
+	  Added/Updated Russian translations by Andrey Fedoseev
+	  <andrey.fedoseev@gmail.com> and Sergey Fedoseev
+	  <fedoseev.sergey@gmail.com>.
+
+2006-03-19  paurullan
+
+	* po/ca.po:
+	  [i18n] catalan seems a lot of work but they all are fuzzy
+
+2006-03-18  paurullan
+
+	* po/ca.po:
+	  [i18n] catalan added null translation and some little tweaks to
+	  not-parsing ones
+
+2006-03-18  daichi
+
+	* configure.ac, po/ru.po:
+	  Added/Updated Russian translations by Andrey Fedoseev
+	  <andrey.fedoseev@gmail.com>, Sergey Fedoseev
+	  <fedoseev.sergey@gmail.com>.
+
+2006-01-18  daichi
+
+	* po/ChangeLog:
+	  Updated.
+
+2006-01-07  daichi
+
+	* po/eu.po, po/fr.po, po/ja.po:
+	  Updated copyright information.
+
+2005-12-20  daichi
+
+	* configure.ac:
+	  Added `eu' at the XDT_I18N().
+	* po/eu.po:
+	  Fixed errors etc.
+	* po/ChangeLog:
+	  Updated.
+
+2005-12-18  Jean-François Wauthy <pollux@xfce.org>
+
+	* Makefile.am:
+	  add dist-bz2 and distcheck-bz2 targets in order to build
+	  snapshots
+
+2005-12-04  piarres
+
+	* po/ChangeLog, po/eu.po:
+	  Xfburn Basque translation
+
+2005-11-28  daichi
+
+	* po/ChangeLog:
+	  Updated.
+
+2005-11-22  daichi
+
+	* po/ja.po:
+	  Updated Japanese translations.
+
+2005-11-21  daichi
+
+	* po/fr.po, po/ja.po, po/xfburn.pot:
+	  Updated.
+	* po/POTFILES.in:
+	  Updated POTFILES.in files.
+
+2005-11-05  daichi
+
+	* po/ChangeLog:
+	  Deciphering.
+	* po/ChangeLog:
+	  Trimmed and updated.
+
+2005-10-30  olivier
+
+	* xfburn/xfburn-disc-content.c:
+	  g_object_set() uses a variable list of arguments and must be NULL
+	  termianted otherwise unpredictable results may happen (a core
+	  dump in my case). This is to fix that bug.
+
+2005-10-30  daichi
+
+	* po/fr.po, po/ja.po, po/xfburn.pot:
+	  Updated.
+
+2005-10-16  daichi
+
+	* po/fr.po, po/ja.po, po/xfburn.pot:
+	  Updated.
+
+2005-10-11  daichi
+
+	* configure.ac, po/ja.po:
+	  Added initial Japanese translations.
+	* po/xfburn.pot:
+	  Updated.
+	* po/fr.po:
+	  * Modified initial header strings using template by `msginit'.
+	  
+	  * Modified initial comment strings using template by `msginit'.
+	* po/POTFILES.in:
+	  Added a missing file.
+
+2005-10-08  Jean-François Wauthy <pollux@xfce.org>
+
+	* po/fr.po, xfburn/xfburn-main-window.c:
+	  updated french translations from Etienne Collet
+
+2005-10-07  sofar
+
+	* Makefile.am, configure.ac, xfburn.desktop.in:
+	  Adding a xfburn.desktop!
+
+2005-09-07  Jean-François Wauthy <pollux@xfce.org>
+
+	* po/ChangeLog:
+	  update ChangeLog
+	* ChangeLog:
+	  update ChangeLog
+	* class diagram.zuml, configure.ac, po/fr.po, po/xfburn.pot:
+	  update ChangeLog
+
+2005-09-05  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-burn-composition-dialog.c,
+	  xfburn/xfburn-copy-cd-dialog.c,
+	  xfburn/xfburn-create-iso-from-composition-progress-dialog.c:
+	  can burn compositions
+	* xfburn/Makefile.am, xfburn/xfburn-burn-composition-dialog.c,
+	  xfburn/xfburn-copy-cd-dialog.c,
+	  xfburn/xfburn-create-iso-from-composition-progress-dialog.c,
+	  xfburn/xfburn-create-iso-from-composition-progress-dialog.h,
+	  xfburn/xfburn-global.h:
+	  create iso from composition implemented
+	* xfburn/xfburn-progress-dialog.c:
+	  closing ProgressDialog cancels current command
+	* xfburn/Makefile.am, xfburn/xfburn-copy-cd-dialog.c,
+	  xfburn/xfburn-copy-cd-progress-dialog.c,
+	  xfburn/xfburn-create-iso-progress-dialog.c,
+	  xfburn/xfburn-create-iso-progress-dialog.h,
+	  xfburn/xfburn-progress-dialog.c, xfburn/xfburn-progress-dialog.h:
+	  copy cd dialog uses new ProgressDialog framework
+
+2005-09-04  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-blank-cd-progress-dialog.c,
+	  xfburn/xfburn-burn-image-dialog.c,
+	  xfburn/xfburn-burn-image-dialog.h,
+	  xfburn/xfburn-burn-image-progress-dialog.c,
+	  xfburn/xfburn-global.h, xfburn/xfburn-progress-dialog.c,
+	  xfburn/xfburn-progress-dialog.h:
+	  add support for writing ISO with new ProgressDialog framework
+	* ChangeLog, class diagram.zuml, po/ChangeLog,
+	  xfburn/xfburn-blank-cd-dialog.c, xfburn/xfburn-blank-cd-dialog.h,
+	  xfburn/xfburn-blank-cd-progress-dialog.c,
+	  xfburn/xfburn-copy-cd-dialog.c, xfburn/xfburn-copy-cd-dialog.h,
+	  xfburn/xfburn-progress-dialog.c, xfburn/xfburn-progress-dialog.h:
+	  * blank cd works again using new XfburnProgressDialog framework *
+	  update ChangeLog
+
+2005-09-03  Jean-François Wauthy <pollux@xfce.org>
+
+	* class diagram.zuml, po/POTFILES.in, po/fr.po, po/xfburn.pot,
+	  xfburn/Makefile.am, xfburn/xfburn-blank-cd-dialog.c,
+	  xfburn/xfburn-blank-cd-progress-dialog.c,
+	  xfburn/xfburn-blank-cd-progress-dialog.h,
+	  xfburn/xfburn-burn-composition-dialog.c,
+	  xfburn/xfburn-burn-composition-progress-dialog.c,
+	  xfburn/xfburn-burn-composition-progress-dialog.h,
+	  xfburn/xfburn-burn-image-dialog.c,
+	  xfburn/xfburn-burn-image-progress-dialog.c,
+	  xfburn/xfburn-burn-image-progress-dialog.h,
+	  xfburn/xfburn-copy-cd-dialog.c,
+	  xfburn/xfburn-copy-cd-progress-dialog.c,
+	  xfburn/xfburn-copy-cd-progress-dialog.h,
+	  xfburn/xfburn-main-window.c, xfburn/xfburn-progress-dialog.c,
+	  xfburn/xfburn-progress-dialog.h:
+	  creates *ProgressDialog classes deriving XfburnProgressDialog
+
+2005-09-01  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-copy-cd-dialog.c, xfburn/xfburn-progress-dialog.c:
+	  add support for copying data cd
+
+2005-08-31  Jean-François Wauthy <pollux@xfce.org>
+
+	* po/fr.po, po/xfburn.pot, xfburn/xfburn-copy-cd-dialog.c,
+	  xfburn/xfburn-copy-cd-dialog.h, xfburn/xfburn-main-window.c,
+	  xfburn/xfburn-progress-dialog.c, xfburn/xfburn-progress-dialog.h,
+	  xfburn/xfburn-utils.c, xfburn/xfburn-utils.h:
+	  add support for creating iso from a CD
+	* xfburn/xfburn-burn-composition-dialog.c,
+	  xfburn/xfburn-burn-composition-dialog.h,
+	  xfburn/xfburn-copy-cd-dialog.c, xfburn/xfburn-main-window.c,
+	  xfburn/xfburn-progress-dialog.c, xfburn/xfburn-progress-dialog.h,
+	  xfburn/xfburn-utils.c:
+	  ;
+
+2005-08-29  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-blank-cd-dialog.c, xfburn/xfburn-blank-cd-dialog.h,
+	  xfburn/xfburn-burn-composition-dialog.c,
+	  xfburn/xfburn-burn-composition-dialog.h,
+	  xfburn/xfburn-burn-image-dialog.c,
+	  xfburn/xfburn-burn-image-dialog.h,
+	  xfburn/xfburn-copy-cd-dialog.c, xfburn/xfburn-copy-cd-dialog.h,
+	  xfburn/xfburn-directory-browser.c,
+	  xfburn/xfburn-directory-browser.h, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-disc-content.h, xfburn/xfburn-disc-usage.c,
+	  xfburn/xfburn-disc-usage.h, xfburn/xfburn-file-browser.c,
+	  xfburn/xfburn-file-browser.h, xfburn/xfburn-fs-browser.c,
+	  xfburn/xfburn-fs-browser.h, xfburn/xfburn-global.h,
+	  xfburn/xfburn-main-window.c, xfburn/xfburn-main-window.h,
+	  xfburn/xfburn-main.c, xfburn/xfburn-preferences-dialog.c,
+	  xfburn/xfburn-preferences-dialog.h,
+	  xfburn/xfburn-progress-dialog.c, xfburn/xfburn-progress-dialog.h,
+	  xfburn/xfburn-settings.c, xfburn/xfburn-settings.h,
+	  xfburn/xfburn-utils.c, xfburn/xfburn-utils.h:
+	  damn i forgot to comment the keyword :(
+	* xfburn/xfburn-blank-cd-dialog.c, xfburn/xfburn-blank-cd-dialog.h,
+	  xfburn/xfburn-burn-composition-dialog.c,
+	  xfburn/xfburn-burn-composition-dialog.h,
+	  xfburn/xfburn-burn-image-dialog.c,
+	  xfburn/xfburn-burn-image-dialog.h,
+	  xfburn/xfburn-copy-cd-dialog.c, xfburn/xfburn-copy-cd-dialog.h,
+	  xfburn/xfburn-directory-browser.c,
+	  xfburn/xfburn-directory-browser.h, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-disc-content.h, xfburn/xfburn-disc-usage.c,
+	  xfburn/xfburn-disc-usage.h, xfburn/xfburn-file-browser.c,
+	  xfburn/xfburn-file-browser.h, xfburn/xfburn-fs-browser.c,
+	  xfburn/xfburn-fs-browser.h, xfburn/xfburn-global.h,
+	  xfburn/xfburn-main-window.c, xfburn/xfburn-main-window.h,
+	  xfburn/xfburn-main.c, xfburn/xfburn-preferences-dialog.c,
+	  xfburn/xfburn-preferences-dialog.h,
+	  xfburn/xfburn-progress-dialog.c, xfburn/xfburn-progress-dialog.h,
+	  xfburn/xfburn-settings.c, xfburn/xfburn-settings.h,
+	  xfburn/xfburn-utils.c, xfburn/xfburn-utils.h:
+	  add $ in each source file
+	* configure.ac, xfburn/xfburn-main-window.c:
+	  add revision in about dialog
+
+2005-08-28  Jean-François Wauthy <pollux@xfce.org>
+
+	* configure.ac:
+	  keywords
+	* configure.ac:
+	  fix property
+	* TODO, configure.ac, po/fr.po, po/xfburn.pot,
+	  xfburn/xfburn-burn-composition-dialog.c,
+	  xfburn/xfburn-burn-composition-dialog.h,
+	  xfburn/xfburn-burn-image-dialog.c,
+	  xfburn/xfburn-copy-cd-dialog.c, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-disc-content.h, xfburn/xfburn-main-window.c,
+	  xfburn/xfburn-utils.c, xfburn/xfburn-utils.h:
+	  fix memomnics
+
+2005-08-16  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/Makefile.am, xfburn/xfburn-burn-composition-dialog.c,
+	  xfburn/xfburn-burn-composition-dialog.h,
+	  xfburn/xfburn-directory-browser.c,
+	  xfburn/xfburn-directory-browser.h, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-disc-content.h, xfburn/xfburn-disc-usage.c,
+	  xfburn/xfburn-disc-usage.h, xfburn/xfburn-file-browser.c,
+	  xfburn/xfburn-file-browser.h, xfburn/xfburn-main-window.c:
+	  * implement refresh * add burn composition dialog
+	* xfburn/xfburn-disc-content.c:
+	  don't load file that doesn't exist
+	* xfburn.ui, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-disc-content.h, xfburn/xfburn-main-window.c:
+	  add load/save composition
+
+2005-08-15  Jean-François Wauthy <pollux@xfce.org>
+
+	* ChangeLog, po/ChangeLog, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-disc-content.h:
+	  update ChangeLog
+
+2005-08-14  Jean-François Wauthy <pollux@xfce.org>
+
+	* po/POTFILES.in, po/fr.po, po/xfburn.pot,
+	  xfburn/xfburn-directory-browser.c, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-disc-usage.c, xfburn/xfburn-disc-usage.h:
+	  add disc content popup menu
+	* xfburn/xfburn-directory-browser.c, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-fs-browser.c, xfburn/xfburn-utils.c:
+	  first release won't have a treestore that's all (gtktreeview
+	  sucks)
+	* xfburn/xfburn-directory-browser.c, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-utils.c:
+	  disc content is now a treeview accepting DnD
+	* xfburn/xfburn-copy-cd-dialog.c,
+	  xfburn/xfburn-directory-browser.c, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-disc-content.h, xfburn/xfburn-fs-browser.c:
+	  commit before messing with the content treestore
+
+2005-08-13  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-file-browser.h, xfburn/xfburn-main-window.c,
+	  xfburn/xfburn-main.c, xfburn/xfburn-preferences-dialog.c,
+	  xfburn/xfburn-settings.c, xfburn/xfburn-settings.h:
+	  some settings stuff
+	* ., configure.ac, po/fr.po, po/xfburn.pot, xfburn.ui,
+	  xfburn/Makefile.am, xfburn/xfburn-burn-image-dialog.c,
+	  xfburn/xfburn-burn-image-dialog.h,
+	  xfburn/xfburn-copy-cd-dialog.c, xfburn/xfburn-copy-cd-dialog.h,
+	  xfburn/xfburn-disc-content.c, xfburn/xfburn-disc-content.h,
+	  xfburn/xfburn-fs-browser.c, xfburn/xfburn-main-window.c,
+	  xfburn/xfburn-main.c, xfburn/xfburn-progress-dialog.c,
+	  xfburn/xfburn-settings.c, xfburn/xfburn-settings.h,
+	  xfburn/xfburn-utils.c:
+	  add settings load/save support
+
+2005-08-12  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-main-window.c, xfburn/xfburn-progress-dialog.c,
+	  xfburn/xfburn-progress-dialog.h:
+	  improve burning dialog
+	* xfburn/xfburn-progress-dialog.c:
+	  burn ISO working in no error use case
+
+2005-08-11  Jean-François Wauthy <pollux@xfce.org>
+
+	* TODO, po/fr.po, po/xfburn.pot, xfburn/xfburn-burn-image-dialog.c,
+	  xfburn/xfburn-burn-image-dialog.h, xfburn/xfburn-main-window.c,
+	  xfburn/xfburn-progress-dialog.c:
+	  can burn iso but without feedback
+	* xfburn/xfburn-blank-cd-dialog.c, xfburn/xfburn-main-window.c,
+	  xfburn/xfburn-progress-dialog.c, xfburn/xfburn-progress-dialog.h:
+	  complete cdrw blanking support
+	* po/POTFILES.in, po/fr.po, po/xfburn.pot:
+	  update po
+	* xfburn/xfburn-progress-dialog.c:
+	  gtk uses UTF-8 internally not the current charset
+	* xfburn/xfburn-progress-dialog.c:
+	  cdrecord is written in ISO-8859-1, so we need to convert to the
+	  current locale before inserting it int the textview
+
+2005-08-10  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-progress-dialog.c:
+	  improve progress dialog
+	* TODO, po/POTFILES.in, po/fr.po, po/xfburn.pot,
+	  xfburn/xfburn-progress-dialog.c:
+	  should be able to blank cdrw
+	* xfburn/xfburn-blank-cd-dialog.c, xfburn/xfburn-progress-dialog.c:
+	  commit before messing things up
+	* xfburn/xfburn-blank-cd-dialog.c, xfburn/xfburn-main-window.c,
+	  xfburn/xfburn-progress-dialog.c, xfburn/xfburn-progress-dialog.h:
+	  fix compilation
+
+2005-08-09  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/Makefile.am, xfburn/xfburn-blank-cd-dialog.c,
+	  xfburn/xfburn-blank-cd-dialog.h,
+	  xfburn/xfburn-burn-image-dialog.c,
+	  xfburn/xfburn-burning-dialog.c, xfburn/xfburn-burning-dialog.h,
+	  xfburn/xfburn-main-window.c, xfburn/xfburn-progress-dialog.c,
+	  xfburn/xfburn-progress-dialog.h, xfburn/xfburn-utils.c,
+	  xfburn/xfburn-utils.h:
+	  draft of progress dialog
+
+2005-08-07  Jean-François Wauthy <pollux@xfce.org>
+
+	* po/POTFILES.in, po/fr.po, po/xfburn.pot, xfburn/Makefile.am,
+	  xfburn/xfburn-burn-image-dialog.h,
+	  xfburn/xfburn-burning-dialog.c, xfburn/xfburn-burning-dialog.h,
+	  xfburn/xfburn-main-window.c:
+	  add burning dialog
+	* xfburn/Makefile.am, xfburn/xfburn-blank-cd-dialog.c,
+	  xfburn/xfburn-burn-image-dialog.c,
+	  xfburn/xfburn-burn-image-dialog.h, xfburn/xfburn-main-window.c:
+	  add burn image dialog
+	* po/POTFILES.in:
+	  add burn image dialog
+	* po/ChangeLog, po/POTFILES.in, xfburn/Makefile.am,
+	  xfburn/xfburn-blank-cd-dialog.c, xfburn/xfburn-blank-cd-dialog.h,
+	  xfburn/xfburn-directory-browser.c,
+	  xfburn/xfburn-directory-browser.h, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-disc-content.h, xfburn/xfburn-disc-usage.c,
+	  xfburn/xfburn-disc-usage.h, xfburn/xfburn-file-browser.c,
+	  xfburn/xfburn-file-browser.h, xfburn/xfburn-fs-browser.c,
+	  xfburn/xfburn-fs-browser.h, xfburn/xfburn-global.h,
+	  xfburn/xfburn-main-window.c, xfburn/xfburn-main.c,
+	  xfburn/xfburn-preferences-dialog.c,
+	  xfburn/xfburn-preferences-dialog.h, xfburn/xfburn-utils.c,
+	  xfburn/xfburn-utils.h:
+	  add blank cdrw dialog
+	* xfburn/xfburn-preferences-dialog.c, xfburn/xfburn-utils.c:
+	  add drive capabilities dectection
+	* po/POTFILES.in, po/fr.po, po/xfburn.pot:
+	  update po
+
+2005-08-06  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-global.h, xfburn/xfburn-main.c,
+	  xfburn/xfburn-preferences-dialog.c, xfburn/xfburn-utils.c,
+	  xfburn/xfburn-utils.h:
+	  probe for cdrom devices
+	* xfburn/Makefile.am, xfburn/xfburn-main.c,
+	  xfburn/xfburn-preferences-dialog.c,
+	  xfburn/xfburn-preferences-dialog.h, xfburn/xfburn-utils.c:
+	  fix icon loading when prefix in set to an unusual location
+	* ChangeLog, po/ChangeLog:
+	  more ChangeLog
+	* ChangeLog, po/ChangeLog:
+	  ChangeLog script working
+	* ChangeLog, configure.ac, po/ChangeLog, po/fr.po, po/xfburn.pot,
+	  xfburn.ui:
+	  update Changelogs
+
+2005-08-05  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-main-window.c, xfburn/xfburn-preferences-dialog.c:
+	  basic GUI is done, now let's get our hands dirty
+	* xfburn/Makefile.am, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-main-window.c, xfburn/xfburn-preferences-dialog.c,
+	  xfburn/xfburn-preferences-dialog.h:
+	  add preferences dialog
+
+2005-08-04  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-disc-content.c, xfburn/xfburn-disc-usage.c,
+	  xfburn/xfburn-disc-usage.h:
+	  progress bar
+	* configure.ac, xfburn/Makefile.am,
+	  xfburn/xfburn-directory-browser.h, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-disc-content.h, xfburn/xfburn-disc-usage.c,
+	  xfburn/xfburn-disc-usage.h:
+	  add disc-usage class
+
+2005-08-03  Jean-François Wauthy <pollux@xfce.org>
+
+	* pixmaps, xfburn-toolbars.ui, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-disc-content.h, xfburn/xfburn-main-window.c,
+	  xfburn/xfburn-main.c:
+	  content toolbar
+	* pixmaps/Makefile, pixmaps/Makefile.in:
+	  remove autogenerated files
+	* Makefile.am, Xfburn.ui, configure.ac, pixmaps, pixmaps/Makefile,
+	  pixmaps/Makefile.am, pixmaps/Makefile.in,
+	  pixmaps/baker-audio-copy.png, pixmaps/baker-blank-cdrw.png,
+	  pixmaps/baker-blank-dvdrw.png, pixmaps/baker-burn-cd.png,
+	  pixmaps/baker-cd.png, pixmaps/baker-data-copy.png,
+	  pixmaps/baker-import-session.png, po/fr.po, po/xfburn.pot,
+	  xfburn-toolbars.ui, xfburn.ui, xfburn/xfburn-directory-browser.c,
+	  xfburn/xfburn-main-window.c, xfburn/xfburn-utils.c,
+	  xfburn/xfburn-utils.h:
+	  add pixmaps
+	* xfburn/xfburn-disc-content.c, xfburn/xfburn-file-browser.c,
+	  xfburn/xfburn-main-window.c, xfburn/xfburn-main-window.h,
+	  xfburn/xfburn-main.c:
+	  messing with ExoToolBars*
+	* xfburn/xfburn-directory-browser.c,
+	  xfburn/xfburn-directory-browser.h, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-disc-content.h:
+	  compute and show dir and file sizes
+	* xfburn/xfburn-directory-browser.c, xfburn/xfburn-disc-content.c:
+	  use liststore instead of treestore for disc content and directory
+	  browser
+
+2005-08-02  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-directory-browser.c,
+	  xfburn/xfburn-directory-browser.h, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-disc-content.h, xfburn/xfburn-file-browser.c,
+	  xfburn/xfburn-fs-browser.c, xfburn/xfburn-main-window.c:
+	  basic DnD between filebrowser and cd content
+	* xfburn/xfburn-file-browser.c:
+	  fix filebrowser bug
+
+2005-08-01  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-directory-browser.c, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-file-browser.c:
+	  tiny filebrowser working
+	* xfburn/xfburn-directory-browser.c,
+	  xfburn/xfburn-directory-browser.h, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-file-browser.c, xfburn/xfburn-fs-browser.c:
+	  more browser stuff
+
+2005-07-31  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/Makefile.am, xfburn/xfburn-directory-browser.c,
+	  xfburn/xfburn-directory-browser.h, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-disc-content.h, xfburn/xfburn-fs-browser.c:
+	  more code
+	* xfburn/xfburn-directory-browser.h, xfburn/xfburn-disc-content.h,
+	  xfburn/xfburn-file-browser.h, xfburn/xfburn-fs-browser.c,
+	  xfburn/xfburn-fs-browser.h, xfburn/xfburn-main-window.h:
+	  fs-browser allows browsing :)
+	* po/POTFILES.in, po/fr.po, po/xfburn.pot,
+	  xfburn/xfburn-fs-browser.c, xfburn/xfburn-fs-browser.h,
+	  xfburn/xfburn-main-window.c:
+	  basic directory load (only first level)
+	* configure.ac, xfburn/Makefile.am,
+	  xfburn/xfburn-directory-browser.c,
+	  xfburn/xfburn-directory-browser.h, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-disc-content.h, xfburn/xfburn-file-browser.c,
+	  xfburn/xfburn-file-browser.h, xfburn/xfburn-fs-browser.c,
+	  xfburn/xfburn-fs-browser.h, xfburn/xfburn-main-window.c,
+	  xfburn/xfburn-main-window.h, xfburn/xfburn-main.c:
+	  add empty class for directory and fs browser
+
+2005-07-30  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/xfburn-file-browser.c, xfburn/xfburn-file-browser.h,
+	  xfburn/xfburn-filebrowser.c, xfburn/xfburn-filebrowser.h,
+	  xfburn/xfburn-main-window.c, xfburn/xfburn-main-window.h,
+	  xfburn/xfburn-mainwindow.c, xfburn/xfburn-mainwindow.h:
+	  renaming some files
+	* xfburn/Makefile.am, xfburn/xfburn-disc-content.c,
+	  xfburn/xfburn-disc-content.h, xfburn/xfburn-mainwindow.c:
+	  add disc content empty class
+	* ., Makefile.am, Xfburn.ui, po/POTFILES.in, po/fr.po,
+	  po/xfburn.pot, xfburn/Makefile.am, xfburn/xfburn-filebrowser.c,
+	  xfburn/xfburn-filebrowser.h, xfburn/xfburn-main.c,
+	  xfburn/xfburn-mainwindow.c, xfburn/xfburn-mainwindow.h:
+	  still the GUI
+	* xfburn/Makefile.am, xfburn/xfburn-main.c,
+	  xfburn/xfburn-mainwindow.c, xfburn/xfburn-mainwindow.h:
+	  basic main window with menubar and about dialog
+	* xfburn/Makefile.am, xfburn/main.c, xfburn/mainwin.c,
+	  xfburn/mainwin.h, xfburn/xfburn-main.c,
+	  xfburn/xfburn-mainwindow.c, xfburn/xfburn-mainwindow.h:
+	  rename files
+
+2005-07-29  Jean-François Wauthy <pollux@xfce.org>
+
+	* xfburn/main.c, xfburn/mainwin.c, xfburn/mainwin.h:
+	  rename namespace
+	* configure.ac, xfburn/Makefile.am, xfburn/main.c,
+	  xfburn/mainwin.c, xfburn/mainwin.h:
+	  add dep on exo
+	* ., COPYING, po, xfburn, xfburn/main.c:
+	  update svn:ignore
+	* po/fr.po:
+	  fix fr.po
+	* autogen.sh, po/POTFILES.in, po/fr.po, po/xfburn.pot:
+	  xdt-autogen works
+	* AUTHORS, ChangeLog, Makefile.am, NEWS, README, configure.ac, po,
+	  po/ChangeLog, po/POTFILES.in, xfburn, xfburn/Makefile.am,
+	  xfburn/main.c:
+	  should work with xdt-autogen
+	* .:
+	  base layout
+

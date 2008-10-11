@@ -1,0 +1,25 @@
+# translation of xfce4-icon-theme.po to Sinhala
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Rashan Anushka <rashan.uoc@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-icon-theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-20 18:17+0100\n"
+"PO-Revision-Date: 2008-02-09 21:34+0530\n"
+"Last-Translator: Rashan Anushka <rashan.uoc@gmail.com>\n"
+"Language-Team: Sinhala <si@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../Rodent/index.theme.in.h:1
+msgid "Default icon for the Xfce Desktop Environment"
+msgstr "Xfce වැඩතල පරිසරය සඳහා පෙරනිමි නිරූපකය"
+
+#: ../Rodent/index.theme.in.h:2
+msgid "Rodent"
+msgstr "කාන්නකයා"

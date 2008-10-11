@@ -1,0 +1,112 @@
+# Brazilian Portuguese translation of the xfce4-radio-plugin package.
+# Copyright (C) 2007 Stefan Ott <stefan@desire.ch>
+# This file is distributed under the same license as the xfce4-radio-plugin package.
+# Andrius da Costa Ribas <andriusmao@gmail.com>, 2007.
+# Og Maciel <ogmaciel@gnome.org>, 2008.
+# Fábio Nogueira <deb-user-ba@ubuntu.com>, 2007-2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-radio-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-06-14 15:16+0200\n"
+"PO-Revision-Date: 2008-07-26 16:06-0300\n"
+"Last-Translator: Fábio Nogueira <deb-user-ba@ubuntu.com>\n"
+"Language-Team: Brazilian Portuguese <ldp-br@bazar2.conectiva.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../panel-plugin/radio.c:82
+msgid "Not tuned"
+msgstr "Não sintonizado"
+
+#: ../panel-plugin/radio.c:104
+msgid "- off -"
+msgstr "- desligado -"
+
+#: ../panel-plugin/radio.c:174
+msgid "Error opening radio device"
+msgstr "Erro ao abrir o dispositivo de rádio"
+
+#: ../panel-plugin/radio.c:296 ../panel-plugin/radio.c:327
+#: ../panel-plugin/radio.c:527
+msgid "Add preset"
+msgstr "Adicionar predefinição"
+
+#: ../panel-plugin/radio.c:302 ../panel-plugin/radio.c:333
+msgid "Station name:"
+msgstr "Nome da estação:"
+
+#: ../panel-plugin/radio.c:354
+msgid "There is already a preset with this frequency."
+msgstr "Já há uma predefinição com esta frequência."
+
+#: ../panel-plugin/radio.c:392
+msgid "Tune radio"
+msgstr "Sintonizar rádio"
+
+#: ../panel-plugin/radio.c:398
+msgid "Frequency [MHz]:"
+msgstr "Frequência [MHz]:"
+
+#: ../panel-plugin/radio.c:421
+msgid "Illegal frequency."
+msgstr "Frequência ilegal."
+
+#: ../panel-plugin/radio.c:498
+msgid "Presets"
+msgstr "Predefinições"
+
+#: ../panel-plugin/radio.c:534
+msgid "Delete active preset"
+msgstr "Excluir predefinição atual"
+
+#: ../panel-plugin/radio.c:541
+msgid "Rename active preset"
+msgstr "Renomear predefinição atual"
+
+#: ../panel-plugin/radio.c:553
+msgid "Tune to frequency"
+msgstr "Sintonizar na frequência"
+
+#: ../panel-plugin/radio.c:821
+msgid "Properties"
+msgstr "Propriedades"
+
+#: ../panel-plugin/radio.c:839
+msgid "V4L device"
+msgstr "Dispositivo V4L"
+
+#: ../panel-plugin/radio.c:845
+msgid "Display signal strength"
+msgstr "Exibir intensidade do sinal"
+
+#: ../panel-plugin/radio.c:856
+msgid "yes"
+msgstr "sim"
+
+#: ../panel-plugin/radio.c:865
+msgid "no"
+msgstr "não"
+
+#: ../panel-plugin/radio.c:875
+msgid "Execute command after startup"
+msgstr "Executar comando depois de iniciar"
+
+#: ../panel-plugin/radio.c:889
+msgid "Execute command after shutdown"
+msgstr "Executar comando depois de desligar"
+
+#: ../panel-plugin/radio.c:903
+msgid "Mouse scrolling changes"
+msgstr "Mudança no rolamento do mouse"
+
+#: ../panel-plugin/radio.c:915
+msgid "frequency"
+msgstr "frequência"
+
+#: ../panel-plugin/radio.c:923
+msgid "preset"
+msgstr "predefinição"

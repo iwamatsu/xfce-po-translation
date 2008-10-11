@@ -1,0 +1,51 @@
+04/11/2003
+
+Disk performance XFce4 panel plugin (DiskPerf)
+==============================================
+
+
+1 -	Description
+	-----------
+The DiskPerf plugin displays disk/partition performance based on data provided by Linux kernels 2.6 or recent 2.4's (at least 2.4.20 compiled with CONFIG_BLK_STATS turned on, or possibly older kernel patched with "Disk extended statistics" in /proc/partitions),or with NetBSD, based on the dk_rbytes and db_wbytes values provided by the hw.diskstats sysctl (see iostat for details).
+
+To know if your Linux kernel 2.4 provides such statistics:
+        - less /proc/partitions
+        - check that there are rsect/wsect data
+2.6 kernels should always provide those statistics.
+
+The code of this plugin has been written starting from the Xfce4 sample-plugin example (www.xfce.org), then looking at both systemload (Riccardo Persichetti - ricpersi@libero.it) and netload (Bernhard Walle - bernhard.walle@gmx.de) XFce4 goodies.
+The port onto NetBSD has been made by Benedikt Meurer - benedikt.meurer@unix-ag.uni-siegen.de
+
+DiskPerf has been intensively tested on Mandrake 9.1 (Linux kernel 2.4.21), 9.2 (2.4.22) and NetBSD 1.6W and 1.6ZE.
+
+
+2 -	Installation
+	------------
+Do the usual stuff:
+	- gunzip
+        - tar xf
+        - configure --prefix=<XFce4InstallationDir>	(e.g. /usr)
+        - make
+        - make install  (as root)
+	
+You should then end up with:
+        libdiskperf.a   libdiskperf.la  libdiskperf.so
+installed in <XFce4InstallationDir>/lib/xfce4/panel-plugins/
+
+
+3 -	Port
+	----
+Currently, DiskPerf runs only on recent Linux kernels (2.4.20+, 2.6.x), NetBSD and OpenBSD.
+If one would like to port this plugin onto another OS, please feel free to send me your patch.
+Furthermore, if you wish to take over the development of DiskPerf, just let me know. I would probably be able to provide you with useful information on how to get disk statistics on some commercial Unices (e.g. SunOS/Solaris).
+Adding support for other BSDs should be trivial now that we have NetBSD support, just go and watch out for the hw.diskstats sysctl.
+
+
+4 -	Bugs
+	----
+If you find a bug (on Linux), please send me the result of "uname -a" as well as 2 snapshots of your /proc/partitions (or /proc/diskstats if kernel 2.6) taken at 10-second interval.
+
+
+Enjoy!
+Roger Seguin
+roger_seguin@msn.com

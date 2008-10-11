@@ -1,0 +1,5 @@
+panel-plugin/cddrive.c
+panel-plugin/cddrive-error.c
+panel-plugin/cddrive-dialogs.c
+panel-plugin/cddrive-monitor.c
+panel-plugin/cddrive.desktop.in.in

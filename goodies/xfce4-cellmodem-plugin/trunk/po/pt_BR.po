@@ -1,0 +1,238 @@
+# Tradução portuguesa para o xfce4-cellmodem-plugin
+# Copyright (C) 2006 Álvaro Lopes
+# This file is distributed under the same license as the xfce4-cellmodem-plugin package.
+# Og Maciel <ogmaciel@gnome.org>, 2008.
+# Fábio Nogueira <deb-user-ba@ubuntu.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-cellmodem-plugin 0.0.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-22 19:01+0100\n"
+"PO-Revision-Date: 2008-07-16 09:29-0300\n"
+"Last-Translator: Fábio Nogueira <deb-user-ba@ubuntu.com>\n"
+"Language-Team: Brazilian Portuguese <ldp-br@bazar2.conectiva.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../panel-plugin/cellmodem.c:482
+msgid "Initializing plugin now"
+msgstr "Inicializando o plug-in"
+
+#: ../panel-plugin/cellmodem.c:505
+#, c-format
+msgid ""
+"Error detected:\n"
+"%s"
+msgstr ""
+"Erro detectado:\n"
+"%s"
+
+#: ../panel-plugin/cellmodem.c:511
+msgid "Not registered"
+msgstr "Não registrado"
+
+#: ../panel-plugin/cellmodem.c:514
+msgid "Modem needs PIN"
+msgstr "O modem necessita de um PIN"
+
+#: ../panel-plugin/cellmodem.c:517
+msgid "Registering"
+msgstr "Registrando"
+
+#: ../panel-plugin/cellmodem.c:520
+#, c-format
+msgid ""
+"Registered [GPRS] to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"Registrado [GPRS] em %s\n"
+"Qualidade: %d (%d%%)"
+
+#: ../panel-plugin/cellmodem.c:523
+#, c-format
+msgid ""
+"Registered [UMTS] to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"Registrado [UMTS] em %s\n"
+"Qualidade: %d (%d%%)"
+
+#: ../panel-plugin/cellmodem.c:526
+#, c-format
+msgid ""
+"Registered [HSDPA] to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"Registrado [HSDPA] em %s\n"
+"Qualidade: %d (%d%%)"
+
+#: ../panel-plugin/cellmodem.c:529
+#, c-format
+msgid ""
+"Registered to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"Registrado em %s\n"
+"Qualidade: %d (%d%%)"
+
+#. Error
+#: ../panel-plugin/cellmodem.c:687
+msgid "Error in modem reply to CREG"
+msgstr "Erro na resposta CREG do modem"
+
+#: ../panel-plugin/cellmodem.c:696
+msgid "Invalid reply to +CREG"
+msgstr "Resposta inválida a +CREG"
+
+#: ../panel-plugin/cellmodem.c:721
+msgid "Invalid CREG reply from modem"
+msgstr "Resposta CREG inválida do modem"
+
+#: ../panel-plugin/cellmodem.c:760
+msgid "Error in modem reply to COPS"
+msgstr "Erro na resposta COPS do modem"
+
+#: ../panel-plugin/cellmodem.c:816
+msgid "Invalid COPS reply from modem"
+msgstr "Resposta COPS inválida do modem"
+
+#: ../panel-plugin/cellmodem.c:844
+msgid "Error in modem reply to CPIN"
+msgstr "Erro na resposta CPIN do modem"
+
+#: ../panel-plugin/cellmodem.c:870
+msgid "Invalid CPIN reply from modem"
+msgstr "Resposta CPIN inválida do modem"
+
+#: ../panel-plugin/cellmodem.c:875
+msgid "Unsupportted CPIN reply from modem"
+msgstr "Resposta CPIN não suportada do modem"
+
+#: ../panel-plugin/cellmodem.c:919 ../panel-plugin/cellmodem.c:973
+msgid "Invalid OHCIP reply from modem"
+msgstr "Resposta OHCIP inválida do modem"
+
+#: ../panel-plugin/cellmodem.c:923 ../panel-plugin/cellmodem.c:977
+msgid "Unsupportted OHCIP reply from modem"
+msgstr "Resposta OHCIP não suportada do modem"
+
+#. Error
+#: ../panel-plugin/cellmodem.c:1019
+msgid "Cannot send PIN to modem"
+msgstr "Não foi possível enviar o PIN ao modem"
+
+#: ../panel-plugin/cellmodem.c:1055
+msgid "Error in modem reply to CSQ"
+msgstr "Erro na resposta CSQ do modem"
+
+#: ../panel-plugin/cellmodem.c:1075
+msgid "Invalid CSQ reply from modem"
+msgstr "Resposta CSQ inválida do modem"
+
+#: ../panel-plugin/cellmodem.c:1276 ../panel-plugin/cellmodem.c:1603
+msgid "Cannot open modem"
+msgstr "Não foi possível abrir o modem"
+
+#: ../panel-plugin/cellmodem.c:1429
+msgid "Error reading from modem"
+msgstr "Erro ao ler do modem"
+
+#: ../panel-plugin/cellmodem.c:1507
+msgid "Error writing to modem"
+msgstr "Erro ao escrever no modem"
+
+#: ../panel-plugin/cellmodem.c:1523
+msgid "Modem did not reply to command"
+msgstr "O modem não respondeu ao comando"
+
+#: ../panel-plugin/cellmodem.c:1541
+msgid "No driver defined"
+msgstr "Nenhum driver definido"
+
+#: ../panel-plugin/cellmodem.c:1546
+msgid "No modem instance"
+msgstr "Nenhuma instância do modem"
+
+#: ../panel-plugin/cellmodem.c:1720
+msgid "Modem initializing"
+msgstr "Inicializando o modem"
+
+#: ../panel-plugin/cellmodem.c:1755
+msgid "Invalid driver specified"
+msgstr "Driver especificado inválido"
+
+#. Error.
+#: ../panel-plugin/pin_helper.c:31
+msgid "Invalid PIN entered. PIN has 4 digits"
+msgstr "PIN inválido. O PIN tem 4 dígitos"
+
+#: ../panel-plugin/pin_helper.c:65
+msgid "Enter PIN"
+msgstr "Digite o PIN"
+
+#: ../panel-plugin/pin_helper.c:77
+msgid "Please enter PIN:"
+msgstr "Por favor digite o PIN:"
+
+#: ../panel-plugin/preferences.c:285
+msgid "Close"
+msgstr "Fechar"
+
+#: ../panel-plugin/preferences.c:290
+msgid "No known device found."
+msgstr "Não foi encontrado nenhum dispositivo conhecido."
+
+#: ../panel-plugin/preferences.c:292
+msgid "The following devices were found:"
+msgstr "Os seguintes dispositivos foram encontrados:"
+
+#: ../panel-plugin/preferences.c:299
+msgid "Use this device"
+msgstr "Usar este dispositivo"
+
+#: ../panel-plugin/preferences.c:343
+msgid "Configure Cell Modem Monitor"
+msgstr "Configurar o monitor de modem celular"
+
+#. The header - this was most copied from other sources
+#: ../panel-plugin/preferences.c:356
+msgid "Cellular Modem Monitor"
+msgstr "Monitor de modem celular"
+
+#: ../panel-plugin/preferences.c:387
+msgid "Modem driver:"
+msgstr "Driver do modem:"
+
+#: ../panel-plugin/preferences.c:409
+msgid "Modem speed:"
+msgstr "Velocidade do modem:"
+
+#: ../panel-plugin/preferences.c:422
+msgid "Modem device:"
+msgstr "Dispositivo do modem:"
+
+#: ../panel-plugin/preferences.c:434
+msgid "Autodetect modem..."
+msgstr "Autodetectar modem..."
+
+#: ../panel-plugin/preferences.c:444
+msgid "Maximum quality:"
+msgstr "Qualidade máxima:"
+
+#: ../panel-plugin/preferences.c:455
+msgid "Low quality percentage:"
+msgstr "Porcentagem de baixa qualidade:"
+
+#: ../panel-plugin/preferences.c:465
+msgid "Critical quality percentage:"
+msgstr "Porcentagem de qualidade crítica:"
+
+#: ../panel-plugin/preferences.c:479
+msgid "Check for SMS every"
+msgstr "Checar por SMS a cada"
+
+#: ../panel-plugin/preferences.c:481
+msgid "minutes"
+msgstr "minutos"

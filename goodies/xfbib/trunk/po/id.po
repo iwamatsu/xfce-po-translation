@@ -1,0 +1,262 @@
+# Indonesian translations for Xfbib package.
+# Copyright (C) 2008 the Xfbib COPYRIGHT HOLDER
+# This file is distributed under the same license as the Xfbib package.
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Xfbib\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-30 19:16+0200\n"
+"PO-Revision-Date: 2008-06-18 18:01+0700\n"
+"Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
+"Language-Team: Indonesian <id@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: ../src/about_dialog.c:28
+msgid "Developers:"
+msgstr "Pengembang:"
+
+#: ../src/about_dialog.c:38
+msgid "BibTeX editor for Xfce"
+msgstr "Penyunting BibTeX untuk Xfce"
+
+#: ../src/entry_edit_dialog.c:304
+msgid "Key used when citing the publication"
+msgstr "Kunci yang digunakan ketika mengutip publikasi"
+
+#: ../src/entry_edit_dialog.c:327
+msgid "Type: "
+msgstr "Tipe: "
+
+#: ../src/entry_edit_dialog.c:330
+msgid "Key: "
+msgstr "Kunci: "
+
+#: ../src/entry_edit_dialog.c:449
+msgid "Address of publisher"
+msgstr "Alamat penerbit"
+
+#: ../src/entry_edit_dialog.c:450
+msgid "Annotation for annotated bibliography styles"
+msgstr "Anotasi untuk gaya bibliografi yang dianotasi"
+
+#: ../src/entry_edit_dialog.c:451
+msgid "Name(s) of the author(s), separated by 'and' if more than one"
+msgstr "Nama pengarang, dipisahkan oleh 'dan' jika lebih dari satu"
+
+#: ../src/entry_edit_dialog.c:452
+msgid "Title of the book, if only part of it is being cited"
+msgstr "Judul buku, jika hanya sebagian yang dikutip"
+
+#: ../src/entry_edit_dialog.c:453
+msgid "Chapter number"
+msgstr "Nomor bab"
+
+#: ../src/entry_edit_dialog.c:454
+msgid "Citation key of the cross-referenced entry"
+msgstr "Kunci kutipan dari entri referensi silang"
+
+#: ../src/entry_edit_dialog.c:455
+msgid "Edition of the book (such as \"first\" or \"second\")"
+msgstr "Edisi buku (seperti \"pertama\" atau \"kedua\")"
+
+#: ../src/entry_edit_dialog.c:456
+msgid "Name(s) of the editor(s), separated by 'and' if more than one"
+msgstr "Nama penyunting, dipisahkan oleh 'dan' jika lebih dari satu"
+
+#: ../src/entry_edit_dialog.c:457
+msgid "Specification of electronic publication"
+msgstr "Spesifikasi dari publikasi elektronik"
+
+#: ../src/entry_edit_dialog.c:458
+msgid "Publishing method if the method is nonstandard"
+msgstr "Metode penerbitan jika metodenya nonstandar"
+
+#: ../src/entry_edit_dialog.c:459
+msgid "Institution that was involved in the publishing"
+msgstr "Institusi yang terlibat dalam proses penerbitan"
+
+#: ../src/entry_edit_dialog.c:460
+msgid "Journal or magazine in which the work was published"
+msgstr "Jurnal atau majalah dimana karya tersebut dipublikasikan"
+
+#: ../src/entry_edit_dialog.c:461
+msgid ""
+"Hidden field used for specifying or overriding the alphabetical order of "
+"entries"
+msgstr ""
+"Ruang tersembunyi yang digunakan untuk menentukan atau mengganti urutan "
+"alfabetik dari entri"
+
+#: ../src/entry_edit_dialog.c:462
+msgid "Month of publication or creation if unpublished"
+msgstr "Bulan publikasi atau pembuatan jika belum dipublikasikan"
+
+#: ../src/entry_edit_dialog.c:463
+msgid "Miscellaneous extra information"
+msgstr "Informasi tambahan lainnya"
+
+#: ../src/entry_edit_dialog.c:464
+msgid "Number of journal, magazine, or tech-report"
+msgstr "Nomor jurnal, majalah, atau laporan teknologi"
+
+#: ../src/entry_edit_dialog.c:465
+msgid "Sponsor of the conference"
+msgstr "Sponsor konferensi"
+
+#: ../src/entry_edit_dialog.c:466
+msgid "Page numbers separated by commas or double-hyphens"
+msgstr "Nomor halaman dipisahkan oleh koma atau tanda hubung (-) ganda"
+
+#: ../src/entry_edit_dialog.c:467
+msgid "Name of publisher"
+msgstr "Nama penerbit"
+
+#: ../src/entry_edit_dialog.c:468
+msgid "School where thesis was written"
+msgstr "Sekolah dimana tesis ditulis"
+
+#: ../src/entry_edit_dialog.c:469
+msgid "Series of books in which the book was published"
+msgstr "Seri dari buku dimana buku dipublikasikan"
+
+#: ../src/entry_edit_dialog.c:470
+msgid "Title of the work"
+msgstr "Judul karya tulis"
+
+#: ../src/entry_edit_dialog.c:471
+msgid "Type of technical report"
+msgstr "Tipe laporan teknis"
+
+#: ../src/entry_edit_dialog.c:472
+msgid "Internet address"
+msgstr "Alamat Internet"
+
+#: ../src/entry_edit_dialog.c:473
+msgid "Number of the volume"
+msgstr "Nomor volume"
+
+#: ../src/entry_edit_dialog.c:474
+msgid "Year of publication or creation if unpublished"
+msgstr "Tahun publikasi atau pembuatan jika belum dipublikasikan"
+
+#: ../src/entry_edit_dialog.c:478
+msgid "Add entry"
+msgstr "Tambah entri"
+
+#: ../src/entry_edit_dialog.c:478
+msgid "Edit entry"
+msgstr "Sunting entri"
+
+#: ../src/entry_edit_dialog.c:498
+msgid "Toggle case sensitivity."
+msgstr "Ubah sensitifitas karakter."
+
+#: ../src/entry_edit_dialog.c:544 ../src/treeview.c:144
+msgid "Title"
+msgstr "Judul"
+
+#: ../src/entry_edit_dialog.c:545
+msgid "Author/Editor"
+msgstr "Penulis/Penyunting"
+
+#: ../src/entry_edit_dialog.c:546
+msgid "Publication"
+msgstr "Publikasi"
+
+#: ../src/entry_edit_dialog.c:547
+msgid "Publisher"
+msgstr "Penerbit"
+
+#: ../src/entry_edit_dialog.c:548
+msgid "Misc"
+msgstr "Lainnya"
+
+#: ../src/entry_edit_dialog.c:592
+msgid "No type was selected"
+msgstr "Tak ada tipe yang dipilih"
+
+#: ../src/entry_edit_dialog.c:596
+msgid "No key was selected"
+msgstr "Tak ada kunci yang dipilih"
+
+#: ../src/menubar.c:159
+msgid "File"
+msgstr "Berkas"
+
+#: ../src/menubar.c:201
+msgid "E_ntry"
+msgstr "E_ntri"
+
+#: ../src/menubar.c:224 ../src/treeview.c:117
+msgid "Variable"
+msgstr "Variabel"
+
+#: ../src/menubar.c:247
+msgid "_View"
+msgstr "_Tampilan"
+
+#: ../src/menubar.c:249
+msgid "Show _Toolbar"
+msgstr "Tampilkan _Batang Alat"
+
+#: ../src/menubar.c:253
+msgid "Show _Variable List"
+msgstr "Tampilkan Senarai _Variabel"
+
+#: ../src/menubar.c:274
+msgid "Help"
+msgstr "Bantuan"
+
+#: ../src/open.c:41
+msgid " loaded..."
+msgstr " dimuat..."
+
+#: ../src/open_dialog.c:37
+msgid "Open"
+msgstr "Buka"
+
+#: ../src/open_dialog.c:43 ../src/save_dialog.c:39
+msgid "BibTeX files"
+msgstr "Berkas BibTeX"
+
+#: ../src/open_dialog.c:49 ../src/save_dialog.c:43
+msgid "All files"
+msgstr "Semua berkas"
+
+#: ../src/save_dialog.c:33
+msgid "Save As"
+msgstr "Simpan Sebagai"
+
+#: ../src/string_edit_dialog.c:42
+msgid "Variable name: "
+msgstr "Nama variabel: "
+
+#: ../src/string_edit_dialog.c:42
+msgid "Value: "
+msgstr "Nilai: "
+
+#: ../src/string_edit_dialog.c:45
+msgid "Add variable"
+msgstr "Tambah variabel"
+
+#: ../src/string_edit_dialog.c:45
+msgid "Edit variable"
+msgstr "Sunting variabel"
+
+#: ../src/treeview.c:144
+msgid "Key"
+msgstr "Kunci"
+
+#: ../src/treeview.c:144
+msgid "Type"
+msgstr "Tipe"
+
+#: ../src/treeview.c:144
+msgid "Author"
+msgstr "Penulis"
+

@@ -1,0 +1,263 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfbib\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-30 19:16+0200\n"
+"PO-Revision-Date: 2008-05-10 13:14+1000\n"
+"Last-Translator: Jeff Bailes <thepizzaking@gmail.com>\n"
+"Language-Team: English/GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+
+#: ../src/about_dialog.c:28
+msgid "Developers:"
+msgstr "Developers:"
+
+#: ../src/about_dialog.c:38
+msgid "BibTeX editor for Xfce"
+msgstr "BibTeX editor for Xfce"
+
+#: ../src/entry_edit_dialog.c:304
+msgid "Key used when citing the publication"
+msgstr "Key used when citing the publication"
+
+#: ../src/entry_edit_dialog.c:327
+msgid "Type: "
+msgstr "Type: "
+
+#: ../src/entry_edit_dialog.c:330
+msgid "Key: "
+msgstr "Key: "
+
+#: ../src/entry_edit_dialog.c:449
+msgid "Address of publisher"
+msgstr "Address of publisher"
+
+#: ../src/entry_edit_dialog.c:450
+msgid "Annotation for annotated bibliography styles"
+msgstr "Annotation for annotated bibliography styles"
+
+#: ../src/entry_edit_dialog.c:451
+msgid "Name(s) of the author(s), separated by 'and' if more than one"
+msgstr "Name(s) of the author(s), separated by 'and' if more than one"
+
+#: ../src/entry_edit_dialog.c:452
+msgid "Title of the book, if only part of it is being cited"
+msgstr "Title of the book, if only part of it is being cited"
+
+#: ../src/entry_edit_dialog.c:453
+msgid "Chapter number"
+msgstr "Chapter number"
+
+#: ../src/entry_edit_dialog.c:454
+msgid "Citation key of the cross-referenced entry"
+msgstr "Citation key of the cross-referenced entry"
+
+#: ../src/entry_edit_dialog.c:455
+msgid "Edition of the book (such as \"first\" or \"second\")"
+msgstr "Edition of the book (such as \"first\" or \"second\")"
+
+#: ../src/entry_edit_dialog.c:456
+msgid "Name(s) of the editor(s), separated by 'and' if more than one"
+msgstr "Name(s) of the editor(s), separated by 'and' if more than one"
+
+#: ../src/entry_edit_dialog.c:457
+msgid "Specification of electronic publication"
+msgstr "Specification of electronic publication"
+
+#: ../src/entry_edit_dialog.c:458
+msgid "Publishing method if the method is nonstandard"
+msgstr "Publishing method if the method is nonstandard"
+
+#: ../src/entry_edit_dialog.c:459
+msgid "Institution that was involved in the publishing"
+msgstr "Institution that was involved in the publishing"
+
+#: ../src/entry_edit_dialog.c:460
+msgid "Journal or magazine in which the work was published"
+msgstr "Journal or magazine in which the work was published"
+
+#: ../src/entry_edit_dialog.c:461
+msgid "Hidden field used for specifying or overriding the alphabetical order of entries"
+msgstr "Hidden field used for specifying or overriding the alphabetical order of entries"
+
+#: ../src/entry_edit_dialog.c:462
+msgid "Month of publication or creation if unpublished"
+msgstr "Month of publication or creation if unpublished"
+
+#: ../src/entry_edit_dialog.c:463
+msgid "Miscellaneous extra information"
+msgstr "Miscellaneous extra information"
+
+#: ../src/entry_edit_dialog.c:464
+msgid "Number of journal, magazine, or tech-report"
+msgstr "Number of journal, magazine, or tech-report"
+
+#: ../src/entry_edit_dialog.c:465
+msgid "Sponsor of the conference"
+msgstr "Sponsor of the conference"
+
+#: ../src/entry_edit_dialog.c:466
+msgid "Page numbers separated by commas or double-hyphens"
+msgstr "Page numbers separated by commas or double-hyphens"
+
+#: ../src/entry_edit_dialog.c:467
+msgid "Name of publisher"
+msgstr "Name of publisher"
+
+#: ../src/entry_edit_dialog.c:468
+msgid "School where thesis was written"
+msgstr "School where thesis was written"
+
+#: ../src/entry_edit_dialog.c:469
+msgid "Series of books in which the book was published"
+msgstr "Series of books in which the book was published"
+
+#: ../src/entry_edit_dialog.c:470
+msgid "Title of the work"
+msgstr "Title of the work"
+
+#: ../src/entry_edit_dialog.c:471
+msgid "Type of technical report"
+msgstr "Type of technical report"
+
+#: ../src/entry_edit_dialog.c:472
+msgid "Internet address"
+msgstr "Internet address"
+
+#: ../src/entry_edit_dialog.c:473
+msgid "Number of the volume"
+msgstr "Number of the volume"
+
+#: ../src/entry_edit_dialog.c:474
+msgid "Year of publication or creation if unpublished"
+msgstr "Year of publication or creation if unpublished"
+
+#: ../src/entry_edit_dialog.c:478
+msgid "Add entry"
+msgstr "Add entry"
+
+#: ../src/entry_edit_dialog.c:478
+msgid "Edit entry"
+msgstr "Edit entry"
+
+#: ../src/entry_edit_dialog.c:498
+msgid "Toggle case sensitivity."
+msgstr "Toggle case sensitivity."
+
+#: ../src/entry_edit_dialog.c:544
+#: ../src/treeview.c:144
+msgid "Title"
+msgstr "Title"
+
+#: ../src/entry_edit_dialog.c:545
+msgid "Author/Editor"
+msgstr "Author/Editor"
+
+#: ../src/entry_edit_dialog.c:546
+msgid "Publication"
+msgstr "Publication"
+
+#: ../src/entry_edit_dialog.c:547
+msgid "Publisher"
+msgstr "Publisher"
+
+#: ../src/entry_edit_dialog.c:548
+msgid "Misc"
+msgstr "Misc"
+
+#: ../src/entry_edit_dialog.c:592
+msgid "No type was selected"
+msgstr "No type was selected"
+
+#: ../src/entry_edit_dialog.c:596
+msgid "No key was selected"
+msgstr "No key was selected"
+
+#: ../src/menubar.c:159
+msgid "File"
+msgstr "File"
+
+#: ../src/menubar.c:201
+msgid "E_ntry"
+msgstr "E_ntry"
+
+#: ../src/menubar.c:224
+#: ../src/treeview.c:117
+msgid "Variable"
+msgstr "Variable"
+
+#: ../src/menubar.c:247
+msgid "_View"
+msgstr "_View"
+
+#: ../src/menubar.c:249
+msgid "Show _Toolbar"
+msgstr "Show _Toolbar"
+
+#: ../src/menubar.c:253
+msgid "Show _Variable List"
+msgstr "Show _Variable List"
+
+#: ../src/menubar.c:274
+msgid "Help"
+msgstr "Help"
+
+#: ../src/open.c:41
+msgid " loaded..."
+msgstr " loaded..."
+
+#: ../src/open_dialog.c:37
+msgid "Open"
+msgstr "Open"
+
+#: ../src/open_dialog.c:43
+#: ../src/save_dialog.c:39
+msgid "BibTeX files"
+msgstr "BibTeX files"
+
+#: ../src/open_dialog.c:49
+#: ../src/save_dialog.c:43
+msgid "All files"
+msgstr "All files"
+
+#: ../src/save_dialog.c:33
+msgid "Save As"
+msgstr "Save As"
+
+#: ../src/string_edit_dialog.c:42
+msgid "Variable name: "
+msgstr "Variable name: "
+
+#: ../src/string_edit_dialog.c:42
+msgid "Value: "
+msgstr "Value: "
+
+#: ../src/string_edit_dialog.c:45
+msgid "Add variable"
+msgstr "Add variable"
+
+#: ../src/string_edit_dialog.c:45
+msgid "Edit variable"
+msgstr "Edit variable"
+
+#: ../src/treeview.c:144
+msgid "Key"
+msgstr "Key"
+
+#: ../src/treeview.c:144
+msgid "Type"
+msgstr "Type"
+
+#: ../src/treeview.c:144
+msgid "Author"
+msgstr "Author"
+

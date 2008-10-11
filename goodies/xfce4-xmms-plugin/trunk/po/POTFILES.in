@@ -1,0 +1,4 @@
+panel-plugin/popupmenu.c
+panel-plugin/preferences.c
+panel-plugin/xmms_plugin.c
+panel-plugin/xfce4-xmms-plugin.desktop.in.in

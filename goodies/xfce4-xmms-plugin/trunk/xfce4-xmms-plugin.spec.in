@@ -1,0 +1,40 @@
+Summary: A xmms plugin for xfce4
+Name: 	 xfce4-xmms-plugin
+Version: @VERSION@
+Release: 1
+Group: 	 User Interface/Desktops
+License: GPL
+Source:  %{name}-%{version}.tar.bz2
+BuildRoot: %{_tmppath}/%{name}-%{version}-root
+URL:	 http://download.berlios.de/xfce-goodies/ 
+Requires: xfce4-panel >= 4.0.0
+BuildRequires: xmms-devel
+
+%description
+xmms panel plugin for XFce4.
+
+%prep
+%setup -q -n %{name}-%{version}
+
+%build
+%configure
+%{__make}
+
+%install
+make DESTDIR=%{buildroot} install 
+
+%clean
+rm -rf $RPM_BUILD_ROOT
+
+%files
+%defattr(-,root,root)
+%doc AUTHORS COPYING ChangeLog INSTALL README
+%{_libdir}/xfce4/panel-plugins/*.a
+%{_libdir}/xfce4/panel-plugins/*.la
+%{_libdir}/xfce4/panel-plugins/*.so
+%{_datadir}/xfce4/xmms-plugin/*.png
+%{_datadir}/locale/
+
+%changelog
+* Mon Nov 19 2003 Che
+- initial rpm release

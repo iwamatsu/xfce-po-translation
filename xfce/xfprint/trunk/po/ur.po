@@ -1,0 +1,497 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-20 18:56+0100\n"
+"PO-Revision-Date: 2007-10-28 19:52+0200\n"
+"Last-Translator: Muhammad Ali Makki <makki.ma@gmai.com>\n"
+"Language-Team: Urdu <makki.ma@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Urdu\n"
+"X-Poedit-Country: PAKISTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "پرنٹر"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "برخاست"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "xfprint4-manager کو برخاست کریں"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "بابت"
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "xfprint4-manager کی بابت"
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "xfprint4-manager کے بارے میں معلومات ظاہر کریں"
+
+#: ../libxfprint/printer-list-window.c:134
+msgid "Printer manager"
+msgstr "پرنٹر منیجر"
+
+#: ../libxfprint/printer-list-window.c:200
+msgid "Alias name"
+msgstr "عرفی نام"
+
+#: ../libxfprint/printer-list-window.c:204
+#: ../libxfprint/printer-queue-window.c:212
+msgid "State"
+msgstr "حالت"
+
+#: ../libxfprint/printer-list-window.c:258
+msgid "Xfprint printers manager"
+msgstr "Xfprint پرنٹر منیجر"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:263
+msgid "Former maintainer"
+msgstr "پہلا منتظم"
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Maintainer"
+msgstr "منتظم"
+
+#: ../libxfprint/printer-list-window.c:327
+msgid "Unknown"
+msgstr "نا معلوم"
+
+#: ../libxfprint/printer-list-window.c:330
+msgid "Idle"
+msgstr "انتظار میں"
+
+#: ../libxfprint/printer-list-window.c:333
+msgid "Processing"
+msgstr "عمل کاری"
+
+#: ../libxfprint/printer-list-window.c:336
+msgid "Stopped"
+msgstr "رکا ہوا"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "بند کریں"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "انتظار ونڈو بند کریں"
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr "کام"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:380
+#: ../libxfprint/printer-queue-window.c:384
+msgid "Remove job"
+msgstr "کام حذف کریں"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "انتظار میں سے منتخب کام حذف کریں"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "پھرتازہ"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "انتظار میں پھر تازہ کریں"
+
+#: ../libxfprint/printer-queue-window.c:121
+#: ../libxfprint/printer-queue-window.c:533
+msgid "Queue Manager"
+msgstr "انتظار منیجر"
+
+#: ../libxfprint/printer-queue-window.c:202
+msgid "Name"
+msgstr "نام"
+
+#: ../libxfprint/printer-queue-window.c:206
+msgid "ID"
+msgstr "آئی ڈی"
+
+#: ../libxfprint/printer-queue-window.c:209
+msgid "User"
+msgstr "صارف"
+
+#: ../libxfprint/printer-queue-window.c:215
+msgid "Size"
+msgstr "حجم"
+
+#: ../libxfprint/printer-queue-window.c:218
+msgid "Priority"
+msgstr "اہمیت"
+
+#: ../libxfprint/printer-queue-window.c:221
+msgid "Creation time"
+msgstr "بناوٹ کا وقت"
+
+#: ../libxfprint/printer-queue-window.c:224
+msgid "Processing time"
+msgstr "عمل کاری کا وقت"
+
+#: ../libxfprint/printer-queue-window.c:377
+msgid "Are you sure you want to remove the job "
+msgstr "کام آپ واقعی کام حذف کرنا چاہتے ہیں ؟"
+
+#: ../libxfprint/printer-queue-window.c:383
+msgid "Don't remove job"
+msgstr "کام حذف مت کریں"
+
+#: ../libxfprint/printer-queue-window.c:390
+msgid "An error occurred while removing job !"
+msgstr "کام حذف کرتے وقت غلطی !"
+
+#: ../libxfprint/printer-queue-window.c:441
+msgid "pending"
+msgstr "انتظار میں"
+
+#: ../libxfprint/printer-queue-window.c:444
+msgid "printing"
+msgstr "طباعت"
+
+#: ../libxfprint/printer-queue-window.c:447
+msgid "Kb"
+msgstr "ک.ب"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "طباعت نظام"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "نظامِ طباعت کا انتخاب"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "معلومات"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "تفصیل"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "ورژن"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "مالک"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "ہوم پیج"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "کچھ نہیں"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr "اس پس منظر کو استعمال کریں اگر آپ صرف فائل طبع کرنا چاہتے ہیں."
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "BSD-LPR طباعت نظام معاونت برائے Xfprint"
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr "CUPS طباعت نظام معاونت برائے Xfprint"
+
+#: ../printing-systems/cups/cups.c:48
+msgid "Set as default printer"
+msgstr "بطور طے شدہ پرنٹر متعین کریں"
+
+#: ../printing-systems/cups/cups.c:49
+msgid "Set as default CUPS printer"
+msgstr "بطور طے شدہ CUPS پرنٹر متعین کریں"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "خصوصیات"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "پرنٹر کی خصوصیات ظاہر کریں"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "پاس ورڈ"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "صارف:"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "پاس ورڈ:"
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr "صارف کا نام فراہم کرنا لازمی ہے !"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "راسیہ طبع کریں"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "راسیہ:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "Underlay:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "وسطی عنوان:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "بایاں عنوان:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "دایاں عنوان:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "وسطی پاساز:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "بایاں پاساز:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "دایاں پاساز:"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "انکوڈنگ:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "تمام صفحات طبع کریں"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "صفحات اس رینج سے طبع کریں"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "طویل لائنیں کاٹیں"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "TAB, BS اور FF رموز کا ترجمہ کریں"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "بائنری طباعت پر زور دیں"
+
+#: ../xfprint/main.c:113
+msgid "Select file to print"
+msgstr "طباعت کے لیے فائل منتخب کریں"
+
+#: ../xfprint/main.c:125
+msgid "The specified file does not exist"
+msgstr "معین کردہ فائل موجود نہیں ہے"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "زبان:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "نشان زدہ لیول:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "پٹی لیول:"
+
+#: ../xfprint/print_dialog.c:199
+msgid "Save settings"
+msgstr "ترتیبات محفوظ کریں"
+
+#: ../xfprint/print_dialog.c:207
+msgid "Xfprint"
+msgstr "Xfprint"
+
+#: ../xfprint/print_dialog.c:215
+msgid "Print to:"
+msgstr "طباعت تا:"
+
+#: ../xfprint/print_dialog.c:245
+msgid "Print to file:"
+msgstr "طباعت تا فائل:"
+
+#: ../xfprint/print_dialog.c:275
+msgid "Sheets"
+msgstr "شیٹیں"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Virtual pages"
+msgstr "تخیلاتی صفحات"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Pretty-printing"
+msgstr "خوبصورت-طباعت"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Input"
+msgstr "ماداخل"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Headings"
+msgstr "عنوانات"
+
+#: ../xfprint/print_dialog.c:304
+msgid "Copies:"
+msgstr "کاپیاں:"
+
+#: ../xfprint/print_dialog.c:311
+msgid "Apply filters"
+msgstr "فلٹرکااطلاق کریں"
+
+#: ../xfprint/print_dialog.c:366
+msgid "Neither the printing system backend or a2ps could be found on your system, you won't be able to print a file with xfprint !"
+msgstr "طباعت نظام کا پس منظر نہیں یا a2ps آپ کے نظام میں نہیں پایا گیا، اس طرح آپ xfprint سے کوئی فائل طبع کرنے کے قابل نہیں ہیں !"
+
+#: ../xfprint/print_dialog.c:484
+msgid "An error occurred while trying to print the file"
+msgstr "فائل کی طباعت کرتے وقت غلطی"
+
+#: ../xfprint/print_dialog.c:521
+msgid "Select file where to print"
+msgstr "فائل منتخب کریں جہاں طبع کرنی ہے"
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "کاغذحجم:"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "پورٹریٹ"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "لینڈسکیپ"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "کالم:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "کالم پہلے بھریں"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "رو پہلے بھریں"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "رو:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "کالموں کے گرد بارڈر طبع کریں"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "صفحات عکسی ترتیب میں طبع کریں"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "لائن نمبر:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "لائنیں فی صفحہ:"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "رموز فی صفحہ:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "ٹیبولیشن حجم:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "ناقابلِ طبع فارمیٹ:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr "آپ کو طباعت نظام کے پس منظر کے انتخاب کی اجازت دیتا ہے جسے xfprint استعمال کرے گا"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+msgid "Printing System Settings"
+msgstr "طباعت نظام ترتیبات"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+msgid "Xfce 4 Printing System Settings"
+msgstr "ایکسفس 4 طباعت نظام ترتیبات"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+msgid "Print Manager"
+msgstr "پرنٹ منیجر"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr "پرنٹر کی فہرست ظاہر کرکے آپ کو ان کے کام کی ادارت کی صلاحیت دیتی ہے"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+msgid "Xfce 4 Print Manager"
+msgstr "ایکسفس 4 طباعت منیجر"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "طباعت ڈائیلاگ"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr "فائل کی طباعت اور اس کے خاکہ کی ترتیب کی اجازت دیتی ہے"
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "ایکسفس 4 طباعت ڈائیلاگ"
+

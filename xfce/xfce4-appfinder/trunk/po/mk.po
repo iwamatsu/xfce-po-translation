@@ -1,0 +1,172 @@
+# translation of xfce4-appfinder.po to Macedonian
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Jovan Naumovski <jovan@lugola.net>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-appfinder 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-10-02 17:55+0200\n"
+"PO-Revision-Date: 2006-12-23 23:58+0100\n"
+"Last-Translator: Jovan Naumovski <jovan@lugola.net>\n"
+"Language-Team: Macedonian <mkde-l10n@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.2\n"
+
+#: ../src/main.c:42
+#, fuzzy
+msgid "Version information"
+msgstr "Повеќе информации..."
+
+#: ../src/main.c:43
+msgid "[MENUFILE]"
+msgstr ""
+
+#: ../src/main.c:64
+#, c-format
+msgid "Type '%s --help' for usage information."
+msgstr ""
+
+#: ../src/main.c:70
+msgid "Unable to initialize GTK+."
+msgstr ""
+
+#: ../src/main.c:80
+msgid "The Xfce development team. All rights reserved."
+msgstr ""
+
+#: ../src/main.c:81
+#, c-format
+msgid "Please report bugs to <%s>."
+msgstr ""
+
+#: ../src/main.c:97
+#, c-format
+msgid "Failed to connect to xfconf daemon. Reason: %s"
+msgstr ""
+
+#: ../src/main.c:101
+msgid "Failed to connect to xfconf daemon."
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:244 ../src/xfce-appfinder-window.c:258
+#: ../data/xfce4-appfinder.desktop.in.h:1
+#, fuzzy
+msgid "Application Finder"
+msgstr "Наоѓач на апликации за Xfce 4"
+
+#: ../src/xfce-appfinder-window.c:259 ../data/xfce4-appfinder.desktop.in.h:2
+msgid "Find and launch applications installed on your system"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:282
+msgid "Filter"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:304
+msgid "Categories"
+msgstr "Категории"
+
+#: ../src/xfce-appfinder-window.c:351
+msgid "C_lose after execute"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:614
+#, c-format
+msgid "Could not execute application %s. Reason: %s"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:618
+#, fuzzy, c-format
+msgid "Could not execute application %s"
+msgstr "Не можам да ја извршам избраната апликација"
+
+#: ../src/xfce-appfinder-window.c:736
+#, c-format
+msgid "Could not load menu from %s. Reason: %s"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:738 ../src/xfce-appfinder-window.c:747
+msgid "Could not load system menu"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:745
+#, c-format
+msgid "Could not load menu from %s"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:760 ../src/xfce-appfinder-window.c:1017
+msgid "All"
+msgstr "Сите"
+
+#~ msgid "Xfce 4 Appfinder"
+#~ msgstr "Наоѓач на апликации за Xfce 4"
+
+#~ msgid "<b>Name</b>"
+#~ msgstr "<b>Име</b>"
+
+#~ msgid "N/A"
+#~ msgstr "Нема"
+
+#~ msgid "<b>Comment</b>"
+#~ msgstr "<b>Коментар</b>"
+
+#~ msgid "<b>Categories</b>"
+#~ msgstr "<b>Категории</b>"
+
+#~ msgid "<b>Command</b>"
+#~ msgstr "<b>Команда</b>"
+
+#~ msgid "Run program"
+#~ msgstr "Изврши програма"
+
+#~ msgid "<b>Search:</b>"
+#~ msgstr "<b>Пребарај:</b>"
+
+#~ msgid "Show Categories"
+#~ msgstr "Покажи категории"
+
+#~ msgid "Core"
+#~ msgstr "Јадро"
+
+#~ msgid "Development"
+#~ msgstr "Равивање"
+
+#~ msgid "Office"
+#~ msgstr "Канцелариски"
+
+#~ msgid "Graphics"
+#~ msgstr "Графика"
+
+#~ msgid "Network"
+#~ msgstr "Мрежа"
+
+#~ msgid "AudioVideo"
+#~ msgstr "АудиоВидео"
+
+#~ msgid "Game"
+#~ msgstr "Игра"
+
+#~ msgid "Education"
+#~ msgstr "Едукација"
+
+#~ msgid "System"
+#~ msgstr "Систем"
+
+#~ msgid "Filemanager"
+#~ msgstr "Менаџер за датотеки"
+
+#~ msgid "Utility"
+#~ msgstr "Алатка"
+
+#~ msgid "No items available"
+#~ msgstr "Нема достапни предмети"
+
+#~ msgid "Sorry, no match for searched text."
+#~ msgstr "Не е пронајдено совпаѓање за бараниот текст."
+
+#~ msgid "Appfinder"
+#~ msgstr "Appfinder"

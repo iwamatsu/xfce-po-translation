@@ -1,0 +1,93 @@
+2008-06-07
+================================================================================
+xfce4-places-plugin v1.1.0 released
+
+ * "xfce4-popup-places" command to open the menu
+ * Error messages when mounts/unmounts fail
+ * Grays out panel icon while busy (un)mounting
+ * Multiple bug fixes and enhancements (see ChangeLog)
+
+2007-10-25
+================================================================================
+xfce4-places-plugin v1.0.0 released
+
+ * Added "Mount and Open" action for removable media (Bug #3565)
+ * Fixed make distcheck errors
+ * Fixed menu "blinking" when ~/.gtk-bookmarks not found
+ * Fixed always showing "No items found" in recent documents 
+   with GTK 2.12 (Bug #3605)
+ * Adopted menu positioning from notes plugin
+   for improved behavior with floating panels
+
+2007-09-12
+================================================================================
+xfce4-places-plugin v0.9.992 (1.0beta2) released
+
+ * Reorganization of GUI code
+ * Improved plugin sizing algorithm
+ * "Open" menu item now opens with Thunar, as intended
+ * Now polls for model changes (e.g., new devices) while menu is open
+ * Fix bug #3471 (Rightclick action pins autohidden panel)
+
+2007-08-15
+================================================================================
+xfce4-places-plugin v0.9.991 (1.0beta1) released
+
+ * Adds mount/unmount options for volumes (removable media)
+ * Adds Open Terminal Here option where applicable
+ * Search for Files with an external application
+ * The trash icon now shows whether there's anything in the trash
+ * Large internal clean-up
+ * Other minor bug fixes
+
+2007-05-17
+================================================================================
+xfce4-places-plugin v0.3.0 released
+
+ * Adds preferences dialog (optionally show a label on the panel)
+ * Thunar now opens when middle-clicking the button (Bug #3239)
+ * Bug fixes
+  - #3237: Places won't compile on Debian testing
+  - With no .gtk-bookmarks, the menu showed two consecutive separators
+
+2007-04-22
+================================================================================
+xfce4-places-plugin v0.2.0 released
+
+ * Support for volumes (removable media)
+  - Adds Thunar VFS dependency
+ * Support for recent documents
+  - Only available when compiled with GTK v2.10 or greater
+ * Now has 35 translations, taken from Thunar and gnome-panel.
+ * Rewritten view based on xfdesktop's menu
+  - No more arrow button
+  - Added "Places" tooltip
+ * Rewritten .gtk-bookmarks parsing based on Thunar's parser
+  - Improves consistency with Thunar
+  - Avoids potential bugs
+ * Many bug fixes
+  - #3028: Places button activated when dragged away
+  - #3029: Places ignores orientation-changed
+  - #3030: Places shows missing menu items
+  - #3124: Auto-hidden panel hides on plugin activation
+
+2007-04-21
+================================================================================
+xfce4-places-plugin v0.1.9 released
+
+ * Please see the v0.2 entry.
+ * There were no code changes between v0.1.9 and v0.2.0.
+
+2007-04-05
+================================================================================
+xfce4-places-plugin v0.1 released
+
+ * Adds i18n support
+ * Fixes url escaping bug (#3027)
+ * Fixes hard-coded thunar path (#3053)
+
+2007-03-14
+================================================================================
+xfce4-places-plugin v0.0.9 released
+
+ * Reads and watches .gtk-bookmarks for changes

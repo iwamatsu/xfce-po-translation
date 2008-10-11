@@ -1,0 +1,106 @@
+# Dutch translation of the xfce4-screenshooter-plugin package.
+# Copyright (C) 2008 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfce4-screenshooter-plugin package.
+# Stephan Arts <stephan@xfce.org>, 2008.
+# Vincent Tunru <imnotb@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-06-20 09:01+0200\n"
+"PO-Revision-Date: 2008-06-29 17:05+0100\n"
+"Last-Translator: Vincent Tunru <imnotb@gmail.com>\n"
+"Language-Team: Dutch <xfce-i18n@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Create the dialog
+#: ../src/screenshooter-plugin.c:271
+msgid "Screenshooter plugin"
+msgstr "Schermafdruk-plugin"
+
+#. Create the frame for screenshot modes and fill it with the radio buttons
+#: ../src/screenshooter-plugin.c:296
+msgid "Modes"
+msgstr "Screenshottypes"
+
+#: ../src/screenshooter-plugin.c:305
+msgid "Take a screenshot of desktop"
+msgstr "Maak een schermafdruk van het bureaublad"
+
+#: ../src/screenshooter-plugin.c:314
+#: ../src/main.c:47
+msgid "Take a screenshot of the active window"
+msgstr "Schermafdruk van het actieve venster maken"
+
+#. Create the options frame and add the delay and save options
+#: ../src/screenshooter-plugin.c:323
+msgid "Options"
+msgstr "Opties"
+
+#. Save option
+#: ../src/screenshooter-plugin.c:333
+msgid "Show save dialog"
+msgstr "Opslaan-dialoogvenster weergeven"
+
+#: ../src/screenshooter-plugin.c:344
+msgid "<span weight=\"bold\" stretch=\"semiexpanded\">Default save location</span>"
+msgstr "<span weight=\"bold\" stretch=\"semiexpanded\">Standaard-opslaglocatie</span>"
+
+#: ../src/screenshooter-plugin.c:349
+msgid "Default save location"
+msgstr "Standaard-opslaglocatie"
+
+#: ../src/screenshooter-plugin.c:358
+msgid "<span weight=\"bold\" stretch=\"semiexpanded\">Delay before taking the screenshot</span>"
+msgstr "<span weight=\"bold\" stretch=\"semiexpanded\">Vertraging voor het maken van een schermafdruk</span>"
+
+#: ../src/screenshooter-plugin.c:372
+msgid "seconds"
+msgstr "seconden"
+
+#: ../src/screenshooter-plugin.c:398
+msgid "Take screenshot"
+msgstr "Schermafdruk maken"
+
+#: ../src/screenshooter-plugin.c:405
+#: ../src/main.c:96
+msgid "Save screenshot as ..."
+msgstr "Schermafdruk opslaan als..."
+
+#: ../src/main.c:43
+msgid "Version information"
+msgstr "Versie-informatie"
+
+#: ../src/main.c:51
+msgid "Delay in seconds before taking the screenshot"
+msgstr "Vertraging in seconden voor het maken van een schermafdruk"
+
+#: ../src/main.c:74
+#, c-format
+msgid ""
+"%s: %s\n"
+"Try %s --help to see a full list of available command line options.\n"
+msgstr ""
+"%s: %s\n"
+"Probeer %s --help voor een volledige lijst van mogelijke opties.\n"
+
+#: ../src/screenshooter.desktop.in.in.h:1
+msgid " Screenshot"
+msgstr "Schermafdruk"
+
+#: ../src/screenshooter.desktop.in.in.h:2
+msgid " Take a screenshot"
+msgstr "Schermafdruk maken"
+
+#, fuzzy
+#~ msgid "Delay before taking the screenshot"
+#~ msgstr "Vertraging voordat een schermafdruk wordt gemaakt"
+#~ msgid "Properties"
+#~ msgstr "Eigenschappen"
+#~ msgid "Ask for _filename"
+#~ msgstr "Om _bestandsnaam vragen"
+

@@ -1,0 +1,528 @@
+# Azerbaijani Turkish translation of xfprint.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfprint package.
+# Mətin Əmirov <metin@karegen.com>, 2003, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-14 15:26+0200\n"
+"PO-Revision-Date: 2005-10-09 23:41+0900\n"
+"Last-Translator: Mətin Əmirov <metin@karegen.com>\n"
+"Language-Team: Azerbaijani <translation-team-az@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.3.1\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+#, fuzzy
+msgid "Printer"
+msgstr "Ç_apçı"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr ""
+
+#: ../libxfprint/printer-list-window.c:76
+#, fuzzy
+msgid "Quit xfprint4-manager"
+msgstr "xfprint-manager _haqqında ..."
+
+#: ../libxfprint/printer-list-window.c:77
+#, fuzzy
+msgid "About"
+msgstr "_Haqqında"
+
+#: ../libxfprint/printer-list-window.c:78
+#, fuzzy
+msgid "About xfprint4-manager"
+msgstr "xfprint-manager _haqqında ..."
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr ""
+
+#: ../libxfprint/printer-list-window.c:140
+msgid "Printer manager"
+msgstr "Çapçı idarəçisi"
+
+#: ../libxfprint/printer-list-window.c:206
+msgid "Alias name"
+msgstr "Alias adı"
+
+#: ../libxfprint/printer-list-window.c:210
+#: ../libxfprint/printer-queue-window.c:217
+msgid "State"
+msgstr "Vəziyyət"
+
+#: ../libxfprint/printer-list-window.c:264
+#, fuzzy
+msgid "Xfprint printers manager"
+msgstr "Çapçı idarəçisi"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:269
+#, fuzzy
+msgid "Former maintainer"
+msgstr "Çapçı idarəçisi"
+
+#: ../libxfprint/printer-list-window.c:270
+#, fuzzy
+msgid "Maintainer"
+msgstr "Çapçı idarəçisi"
+
+#: ../libxfprint/printer-list-window.c:271
+msgid "Artist"
+msgstr ""
+
+#: ../libxfprint/printer-list-window.c:334
+msgid "Unknown"
+msgstr ""
+
+#: ../libxfprint/printer-list-window.c:337
+msgid "Idle"
+msgstr ""
+
+#: ../libxfprint/printer-list-window.c:340
+#, fuzzy
+msgid "Processing"
+msgstr "Prosesləmə tarixi"
+
+#: ../libxfprint/printer-list-window.c:343
+msgid "Stopped"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:69
+#, fuzzy
+msgid "Jobs"
+msgstr "_Vəzifələr"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:385
+#: ../libxfprint/printer-queue-window.c:389
+msgid "Remove job"
+msgstr "Vəzifəni sil"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:122
+#: ../libxfprint/printer-queue-window.c:538
+msgid "Queue Manager"
+msgstr "Növbə İdarəçisi"
+
+#: ../libxfprint/printer-queue-window.c:207
+msgid "Name"
+msgstr "Ad"
+
+#: ../libxfprint/printer-queue-window.c:211
+msgid "ID"
+msgstr "ID"
+
+#: ../libxfprint/printer-queue-window.c:214
+msgid "User"
+msgstr "İstifadəçi"
+
+#: ../libxfprint/printer-queue-window.c:220
+msgid "Size"
+msgstr "Böyüklük"
+
+#: ../libxfprint/printer-queue-window.c:223
+msgid "Priority"
+msgstr "Təcillik"
+
+#: ../libxfprint/printer-queue-window.c:226
+msgid "Creation time"
+msgstr "Yaradılma tarixi"
+
+#: ../libxfprint/printer-queue-window.c:229
+msgid "Processing time"
+msgstr "Prosesləmə tarixi"
+
+#: ../libxfprint/printer-queue-window.c:382
+msgid "Are you sure you want to remove the job "
+msgstr "Həqiqətən də vəzifəni silmək istəyirsiniz?"
+
+#: ../libxfprint/printer-queue-window.c:388
+msgid "Don't remove job"
+msgstr "Vəzifəni silmə"
+
+#: ../libxfprint/printer-queue-window.c:395
+msgid "An error occurred while removing job !"
+msgstr "Vəzifə silinirkən xəta yarandı !"
+
+#: ../libxfprint/printer-queue-window.c:446
+msgid "pending"
+msgstr "növbəbə"
+
+#: ../libxfprint/printer-queue-window.c:449
+msgid "printing"
+msgstr "çap edilir"
+
+#: ../libxfprint/printer-queue-window.c:452
+msgid "Kb"
+msgstr ""
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "Çap sistemi"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "Çap Sistemi Seçkisi"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "Mə'lumat"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+#, fuzzy
+msgid "Description"
+msgstr "İzahat:"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+#, fuzzy
+msgid "Version"
+msgstr "Buraxılış:"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+#, fuzzy
+msgid "Author"
+msgstr "Müəllif:"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+#, fuzzy
+msgid "Homepage"
+msgstr "Ana Səhifə:"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "Heç biri"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr ""
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+#, fuzzy
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "Xfprint üçün CUPS əlavəsi"
+
+#: ../printing-systems/cups/cups.c:42
+#, fuzzy
+msgid "CUPS printing system support for Xfprint"
+msgstr "Xfprint üçün CUPS əlavəsi"
+
+#: ../printing-systems/cups/cups.c:48
+#, fuzzy
+msgid "Set as default printer"
+msgstr "Ön qurğulu çapçı olaraq müəyyən edilə bilmədi !"
+
+#: ../printing-systems/cups/cups.c:49
+#, fuzzy
+msgid "Set as default CUPS printer"
+msgstr "Ön qurğulu çapçı olaraq müəyyən edilə bilmədi !"
+
+#: ../printing-systems/cups/cups.c:50
+#, fuzzy
+msgid "Properties"
+msgstr "_Xassələr"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr ""
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr ""
+
+#: ../printing-systems/cups/cups.c:82
+#, fuzzy
+msgid "User :"
+msgstr "İstifadəçi"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr ""
+
+#: ../printing-systems/cups/cups.c:117
+#, fuzzy
+msgid "You have to provide an username !"
+msgstr "Hədəf fayl bildirməlisiniz !"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "Başlıqları çap et"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "Başlıq:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "Alt qat:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "Mərkəzi başlıq:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "Sol başlıq:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "Sağ başlıq:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "Mərkəzi altlıq:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "Sol altlıq:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "Sağ altlıq:"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "Kodlama:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "Bütün səhifələri çap et"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "Bu aralıqdakı səhifələri çap et"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "Uzun sətirləri kəs"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "TAB, BS və FF hərflərini işlə"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "İcraçı çapına məcbur et"
+
+#: ../xfprint/main.c:116
+msgid "Select file to print"
+msgstr "Çap ediləcək faylı seç"
+
+#: ../xfprint/main.c:128
+msgid "The specified file does not exist"
+msgstr "Bildirilən fayl mövcüd deyil"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "Dil:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "İşıqlandırma səviyyəsi:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "Kəsmə səviyyəsi:"
+
+#: ../xfprint/print_dialog.c:204
+msgid "Save settings"
+msgstr "Qurğuları qeyd et"
+
+#: ../xfprint/print_dialog.c:212
+#, fuzzy
+msgid "Xfprint"
+msgstr "XFPrint"
+
+#: ../xfprint/print_dialog.c:220
+#, fuzzy
+msgid "Print to:"
+msgstr "Buraya çap et :"
+
+#: ../xfprint/print_dialog.c:250
+msgid "Print to file:"
+msgstr "Fayla çap et:"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Sheets"
+msgstr "Laylar"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Virtual pages"
+msgstr "Virtual səhifələr"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Pretty-printing"
+msgstr "Gözəl-çap"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Input"
+msgstr "Giriş"
+
+#: ../xfprint/print_dialog.c:300
+msgid "Headings"
+msgstr "Başlıqlar"
+
+#: ../xfprint/print_dialog.c:309
+msgid "Copies:"
+msgstr "Nüsxələr:"
+
+#: ../xfprint/print_dialog.c:316
+msgid "Apply filters"
+msgstr ""
+
+#: ../xfprint/print_dialog.c:371
+msgid ""
+"Neither the printing system backend or a2ps could be found on your system, "
+"you won't be able to print a file with xfprint !"
+msgstr ""
+
+#: ../xfprint/print_dialog.c:486
+#, fuzzy
+msgid "An error occurred while trying to print the file"
+msgstr "Vəzifə silinirkən xəta yarandı !"
+
+#: ../xfprint/print_dialog.c:523
+msgid "Select file where to print"
+msgstr "Çap ediləcək faylı seçin"
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "Kağız böyüklüyü:"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "Portret"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "Mənzərə"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "Sütunlar:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "Əvvəlcə sütunları doldur"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "Əvvəlcə sətirləri doldur"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "Sətirlər:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "Sütunların ətrafındaki kənarlıqları çap et"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "Səhifələri tərs sıra ilə çap et"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "Sətir nömrələri:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "Səhifə başına sətir:"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "Sətir başına hərf:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "Çərtmə böyüklüyü:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "Çap edilməyən format:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr ""
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+#, fuzzy
+msgid "Printing System Settings"
+msgstr "Çap Sistemi Seçkisi"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+#, fuzzy
+msgid "Xfce 4 Printing System Settings"
+msgstr "Çap Sistemi Seçkisi"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+#, fuzzy
+msgid "Print Manager"
+msgstr "Çapçı idarəçisi"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr ""
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+#, fuzzy
+msgid "Xfce 4 Print Manager"
+msgstr "Çapçı idarəçisi"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+#, fuzzy
+msgid "Print Dialog"
+msgstr "Bütün səhifələri çap et"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr ""
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr ""

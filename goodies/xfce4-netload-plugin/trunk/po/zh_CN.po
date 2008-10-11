@@ -1,0 +1,115 @@
+# Simplified Chinese translation of xfce4-netload-plugin.
+# Copyright (C) 2005 THE xfce4-netload-plugin'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfce4-netload-plugin package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-netload-plugin 0.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-18 15:02+0800\n"
+"PO-Revision-Date: 2008-03-20 10:26+0800\n"
+"Last-Translator: Vern Sun <s5unty@gmail.com>\n"
+"Language-Team: Chinese <xfce-i18n@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../panel-plugin/netload.c:57
+msgid "Xfce4-Netload-Plugin"
+msgstr "Xfce4-Netload-Plugin"
+
+#: ../panel-plugin/netload.c:60
+msgid "Unknown error."
+msgstr "未知的错误。"
+
+#: ../panel-plugin/netload.c:61
+msgid "Linux proc device '/proc/net/dev' not found."
+msgstr "Linux 设备 '/proc/net/dev' 未找到。"
+
+#: ../panel-plugin/netload.c:62
+msgid "Interface was not found."
+msgstr "网络接口没找到。"
+
+#: ../panel-plugin/netload.c:218
+#, c-format
+msgid ""
+"<< %s >> (%s)\n"
+"Average of last %d measures:\n"
+"Incoming: %s kByte/s\n"
+"Outgoing: %s kByte/s\n"
+"Total: %s kByte/s"
+msgstr ""
+"<< %s >> (%s)\n"
+"%d 流量的最新统计信息:\n"
+"流入: %s kByte/s\n"
+"流出: %s kByte/s\n"
+"总共: %s kByte/s"
+
+#: ../panel-plugin/netload.c:220
+msgid "no IP address"
+msgstr "没有 IP 地址"
+
+#: ../panel-plugin/netload.c:458
+#, c-format
+msgid ""
+"%s: Error in initalizing:\n"
+"%s"
+msgstr ""
+"%s: 初始化时出错:\n"
+"%s"
+
+#: ../panel-plugin/netload.c:763
+msgid "Select color"
+msgstr "选择颜色"
+
+#: ../panel-plugin/netload.c:829
+msgid "Bar color (incoming):"
+msgstr "条纹颜色 (流入):"
+
+#: ../panel-plugin/netload.c:830
+msgid "Bar color (outgoing):"
+msgstr "条纹颜色 (流出):"
+
+#: ../panel-plugin/netload.c:833
+msgid "Maximum (incoming):"
+msgstr "最大值 (流入):"
+
+#: ../panel-plugin/netload.c:834
+msgid "Maximum (outgoing):"
+msgstr "最大值 (流出):"
+
+#: ../panel-plugin/netload.c:839
+msgid "Edit Properties"
+msgstr "编辑属性"
+
+#: ../panel-plugin/netload.c:853 ../panel-plugin/netload.desktop.in.in.h:1
+msgid "Network Monitor"
+msgstr "网络监视器"
+
+#: ../panel-plugin/netload.c:877
+msgid "Text to display:"
+msgstr "显示的文本:"
+
+#: ../panel-plugin/netload.c:908
+msgid "Network device:"
+msgstr "网络设备:"
+
+#: ../panel-plugin/netload.c:934
+msgid "Update interval:"
+msgstr "更新间隔:"
+
+#: ../panel-plugin/netload.c:945
+msgid "s"
+msgstr "s"
+
+#: ../panel-plugin/netload.c:958
+msgid "Automatic maximum"
+msgstr "自动调节最大值"
+
+#: ../panel-plugin/netload.c:990
+msgid "kByte/s"
+msgstr "kByte/s"
+
+#: ../panel-plugin/netload.desktop.in.in.h:2
+msgid "Show network traffic"
+msgstr "显示网络流量"

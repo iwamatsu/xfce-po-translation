@@ -1,0 +1,41 @@
+4.5.91
+======
+- Remove XfceMixerCard abstraction over GstMixer.
+- Use a single GstBus for all GstMixer notifications.
+- Use 'multimedia-volume-control' icon instead of 'xfce4-mixer'.
+- Improve panel plugin icons, add another icon for volume between 0% 
+  and 15%.
+- Panel plugin now refreshes properly after using the plugin properties
+  dialog (fixes bug #4370).
+- Translation updates: 
+    Brazilian Portuguese (Fábio Nogueira), 
+    Czech (Michal Várady),
+    German (Jannis Pohlmann),
+    Indonesian (Andhika Padmawan),
+    Spanish (Abel Martín).
+
+4.5.90
+======
+- Complete rewrite based on GStreamer 0.10.
+- Supports all sound systems supported by GStreamer (ALSA, OSS, 
+  PulseAudio and many more).
+- Support for multiple sound cards.
+- New panel plugin especially designed for easy use with the mouse 
+  scroll wheel.
+
+4.4.0
+=====
+- Several new and updated translations.
+
+
+4.3.90.1
+========
+- Port to the new panel framework.
+- Support for SGI mixer.
+
+
+4.2.0
+=====
+- Complete rewrite of the mixer with settings manager dialog.
+- Support for mixer profiles.
+- Support for ALSA, OSS and Sun Audio.

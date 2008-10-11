@@ -1,0 +1,240 @@
+# translation of eu.po to Euskara
+# Copyright (C) 2006 THE xfce4-cellmodem-plugin'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfce4-cellmodem-plugin package.
+#
+#
+# Piarres Beobide <pi@beobide.net>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: eu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-22 19:01+0100\n"
+"PO-Revision-Date: 2007-09-12 12:02+0200\n"
+"Last-Translator: Piarres Beobide <pi@beobide.net>\n"
+"Language-Team: Euskara <Librezale@librezale.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../panel-plugin/cellmodem.c:482
+msgid "Initializing plugin now"
+msgstr "Plugina orain abiarazten"
+
+#: ../panel-plugin/cellmodem.c:505
+#, c-format
+msgid ""
+"Error detected:\n"
+"%s"
+msgstr ""
+"Errorea atzemanda:\n"
+"%s"
+
+#: ../panel-plugin/cellmodem.c:511
+msgid "Not registered"
+msgstr "Erregistratu gabe"
+
+#: ../panel-plugin/cellmodem.c:514
+msgid "Modem needs PIN"
+msgstr "Modem-ak  PIN-a behar du"
+
+#: ../panel-plugin/cellmodem.c:517
+msgid "Registering"
+msgstr "Erregistratzen"
+
+#: ../panel-plugin/cellmodem.c:520
+#, c-format
+msgid ""
+"Registered [GPRS] to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"[GPRS] %s-(e)n erregistraturik\n"
+"Kalitatea: %d (%d%%)"
+
+#: ../panel-plugin/cellmodem.c:523
+#, c-format
+msgid ""
+"Registered [UMTS] to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"[UMTS] %s-(e)n erregistraturik\n"
+"Kalitatea: %d (%d%%)"
+
+#: ../panel-plugin/cellmodem.c:526
+#, c-format
+msgid ""
+"Registered [HSDPA] to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"[HSDPA] %s-(e)n erregistraturik\n"
+"Kalitatea: %d (%d%%)"
+
+#: ../panel-plugin/cellmodem.c:529
+#, c-format
+msgid ""
+"Registered to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"%s-(e)n erregistraturik\n"
+"\n"
+"Kalitatea: %d (%d%%)"
+
+#. Error
+#: ../panel-plugin/cellmodem.c:687
+msgid "Error in modem reply to CREG"
+msgstr "Errorea modem-aren CREG erantzunean"
+
+#: ../panel-plugin/cellmodem.c:696
+msgid "Invalid reply to +CREG"
+msgstr "+CREG erantzun baliogabea"
+
+#: ../panel-plugin/cellmodem.c:721
+msgid "Invalid CREG reply from modem"
+msgstr "Okerreko CREG erantzuna modem-etik"
+
+#: ../panel-plugin/cellmodem.c:760
+msgid "Error in modem reply to COPS"
+msgstr "Errorea modem COPS erantzunean"
+
+#: ../panel-plugin/cellmodem.c:816
+msgid "Invalid COPS reply from modem"
+msgstr "Okerreko COPS erantzuna modem-etik"
+
+#: ../panel-plugin/cellmodem.c:844
+msgid "Error in modem reply to CPIN"
+msgstr "Errorea modem CPIN erantzunean"
+
+#: ../panel-plugin/cellmodem.c:870
+msgid "Invalid CPIN reply from modem"
+msgstr "Okerreko CPIN erantzuna modem-etik"
+
+#: ../panel-plugin/cellmodem.c:875
+msgid "Unsupportted CPIN reply from modem"
+msgstr "Onartzen ez den CPIN erantzuna modem-etik"
+
+#: ../panel-plugin/cellmodem.c:919 ../panel-plugin/cellmodem.c:973
+msgid "Invalid OHCIP reply from modem"
+msgstr "Okerreko OHCIP erantzuna modem-etik"
+
+#: ../panel-plugin/cellmodem.c:923 ../panel-plugin/cellmodem.c:977
+msgid "Unsupportted OHCIP reply from modem"
+msgstr "Onartzen ez den OHCIP erantzuna modem-etik"
+
+#. Error
+#: ../panel-plugin/cellmodem.c:1019
+msgid "Cannot send PIN to modem"
+msgstr "Ezin da PIN-a bidali modemera"
+
+#: ../panel-plugin/cellmodem.c:1055
+msgid "Error in modem reply to CSQ"
+msgstr "Errorea modemaren CSQ-ra erantzunean"
+
+#: ../panel-plugin/cellmodem.c:1075
+msgid "Invalid CSQ reply from modem"
+msgstr "Okerreko CSQ erantzuna modem-etik"
+
+#: ../panel-plugin/cellmodem.c:1276 ../panel-plugin/cellmodem.c:1603
+msgid "Cannot open modem"
+msgstr "Ezin da modema ireki"
+
+#: ../panel-plugin/cellmodem.c:1429
+msgid "Error reading from modem"
+msgstr "errorea modenetik irakurtzean"
+
+#: ../panel-plugin/cellmodem.c:1507
+msgid "Error writing to modem"
+msgstr "Errorea modenean idaztean"
+
+#: ../panel-plugin/cellmodem.c:1523
+msgid "Modem did not reply to command"
+msgstr "Modem-ak ez du komandora erantzun "
+
+#: ../panel-plugin/cellmodem.c:1541
+msgid "No driver defined"
+msgstr "Ez da gailurik ezarri"
+
+#: ../panel-plugin/cellmodem.c:1546
+msgid "No modem instance"
+msgstr "Ez dago modem instantziarik"
+
+#: ../panel-plugin/cellmodem.c:1720
+msgid "Modem initializing"
+msgstr "Modem-a abiarazten"
+
+#: ../panel-plugin/cellmodem.c:1755
+msgid "Invalid driver specified"
+msgstr "Okerreko kontrolagailua ezarria"
+
+#. Error.
+#: ../panel-plugin/pin_helper.c:31
+msgid "Invalid PIN entered. PIN has 4 digits"
+msgstr "PIN okerra sartu da. PIN-ak lau digitu ditu"
+
+#: ../panel-plugin/pin_helper.c:65
+msgid "Enter PIN"
+msgstr "Idatzi PIN-a"
+
+#: ../panel-plugin/pin_helper.c:77
+msgid "Please enter PIN:"
+msgstr "Mesedez idatzi PIN-a:"
+
+#: ../panel-plugin/preferences.c:285
+msgid "Close"
+msgstr "Itxi"
+
+#: ../panel-plugin/preferences.c:290
+msgid "No known device found."
+msgstr "Ez da gailu ezagunik aurkitu"
+
+#: ../panel-plugin/preferences.c:292
+msgid "The following devices were found:"
+msgstr "Hurrengo gailuak aurkitu dira"
+
+#: ../panel-plugin/preferences.c:299
+msgid "Use this device"
+msgstr "Gailu hu erabili"
+
+#: ../panel-plugin/preferences.c:343
+msgid "Configure Cell Modem Monitor"
+msgstr "Cell Modem Monitorea konfiguratu"
+
+#. The header - this was most copied from other sources
+#: ../panel-plugin/preferences.c:356
+msgid "Cellular Modem Monitor"
+msgstr "Cellular Modem Monitorea"
+
+#: ../panel-plugin/preferences.c:387
+msgid "Modem driver:"
+msgstr "Modem kontrolagailua:"
+
+#: ../panel-plugin/preferences.c:409
+msgid "Modem speed:"
+msgstr "Modem abiadura:"
+
+#: ../panel-plugin/preferences.c:422
+msgid "Modem device:"
+msgstr "Modem gailua:"
+
+#: ../panel-plugin/preferences.c:434
+msgid "Autodetect modem..."
+msgstr ""
+
+#: ../panel-plugin/preferences.c:444
+msgid "Maximum quality:"
+msgstr "Gehienezko kalitatea:"
+
+#: ../panel-plugin/preferences.c:455
+msgid "Low quality percentage:"
+msgstr "Kalitate baxu ehunekoa:"
+
+#: ../panel-plugin/preferences.c:465
+msgid "Critical quality percentage:"
+msgstr "Kalitate larri ehunekoa:"
+
+#: ../panel-plugin/preferences.c:479
+msgid "Check for SMS every"
+msgstr ""
+
+#: ../panel-plugin/preferences.c:481
+msgid "minutes"
+msgstr ""

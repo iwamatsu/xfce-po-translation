@@ -1,0 +1,29 @@
+2007-09-09	Pasi Orovuo	<pasi.ov@gmail.com>
+			* Fix compilation error with new DBUS versions
+
+2005-10-16  Pasi Orovuo <pasi.ov@gmail.com>
+			* Fix potential crash in D-BUS handling
+			* Fix D-BUS errors caused by non-utf8 strings
+			* Make curretly playing song appear bolded in the menu
+
+2005-10-15  Pasi Orovuo <pasi.ov@gmail.com>
+			* Fix the delay on playing a selected track
+			* Disable settings dialog when it's redundant (flaky
+			Xmedia/dbus combination)
+
+2005-10-14	Pasi Orovuo <pasi.ov@gmail.com>
+			* Add track now handles multiple files
+			* Reduced functionality on Xfmedia 0.9.x with new D-BUS (>=0.31)
+			because of problems (no add track, load/save/clear playlist)
+			* Show playlist in menu setting
+			* Hidden setting for number of Xfmedia instances to probe
+
+2005-10-10	Pasi Orovuo <pasi.ov@gmail.com>
+			* Add support for the 4.4 panel api
+
+2005-07-18	Pasi Orovuo <pasi.ov@gmail.com>
+			* Fix compilation problem with dbus 0.34
+
+2005-07-14	Pasi Orovuo <pasi.ov@gmail.com>
+			* New file
+

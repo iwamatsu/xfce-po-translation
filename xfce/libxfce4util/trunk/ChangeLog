@@ -1,0 +1,237 @@
+2008-09-12	Jannis Pohlmann <jannis@xfce.org>
+
+	* NEWS: Fix typo.
+
+2008-09-12	Jannis Pohlmann <jannis@xfce.org>
+
+	* NEWS: Updated for the alpha release.
+
+2008-09-11	Brian Tarricone <bjt23@cornell.edu>
+
+	* libxfce4util/xfce-i18n.c: Fix what I can only assume is a typo
+	  in xfce_localize_path_internal().  Checking for a '/'  character
+	  in $LANG doesn't make sense; presumably it should be checking
+	  for a '/' in the path passed in.
+
+2008-09-04	Jannis Pohlmann <jannis@xfce.org>
+
+	* autogen.sh: Add git svn revision versioning support.
+
+2008-06-29	Jannis Pohlmann <jannis@xfce.org>
+
+	* libxfce4util/xfce-resource.c: Add _res_remove_trailing_slashes().
+	  It is used to support _res_remove_duplicates() in finding paths
+	  which appear multiple times but in fact refer to the same
+	  directory (like e.g. /usr/share/// and /usr/share). Use 
+	  g_build_path() in g_resource_lookup() and g_resource_lookup_all()
+	  instead of concatenating with "%s/%s".
+
+2007-12-17  Brian Tarricone <bjt23@cornell.edu>
+
+    * Fix docs/ stuff to include new signal handling functionality.
+
+2007-12-15  Brian Tarricone <bjt23@cornell.edu>
+
+    * libxfce4util/xfce-posix-signal-handler.{c,h}: new util functions
+      for setting up safe POSIX signal handling using pipe(),
+      GIOChannel, and the glib main loop.
+
+2007-05-09	Benedikt Meurer <benny@xfce.org>
+
+	* INSTALL, configure.in.in: Update for latest autoconf.
+
+2007-05-09	Benedikt Meurer <benny@xfce.org>
+
+	* libxfce4util/debug.h: Add support for function names in debug
+	  messages on Solarils. Bug #3090.
+
+2007-05-05	Brian Tarricone <bjt23@cornell.edu>
+
+	* configure.in.in: Bump version to 4.5.0, otherwise 4.4.1
+	  won't build against trunk!
+
+2007-02-12	Benedikt Meurer <benny@xfce.org>
+
+	* libxfce4util/xfce-rc-config.c, libxfce4util/xfce-rc.c,
+	  libxfce4util/xfce-rc-simple.c: Fix invalid g_slice_free1() in
+	  XfceRc code. Bug #2854.
+
+2007-01-22	Benedikt Meurer <benny@xfce.org>
+
+	* libxfce4util/xfce-rc-simple.c(_xfce_rc_simple_delete_group): Fix
+	  buglet when deleting groups.
+
+2007-01-22	Benedikt Meurer <benny@xfce.org>
+
+	* libxfce4util/: Do not use GMemChunk for XfceRc module as that leaks
+	  all of its memory starting with GLib 2.10. Bug #2427.
+
+2007-01-20	Benedikt Meurer <benny@xfce.org>
+
+	* configure.in.in: Post-release version bump.
+
+2007-01-20	Benedikt Meurer <benny@xfce.org>
+
+	* === Released 4.4.0 ===
+	* NEWS, configure.in.in: Bump version.
+	* po/*.po: Update Project-Id-Version.
+	* THANKS, Makefile.am: Add translator credits.
+
+2006-11-04	Benedikt Meurer <benny@xfce.org>
+
+	* configure.in.in: Post-release version bump.
+
+2006-11-04	Benedikt Meurer <benny@xfce.org>
+
+	* === Released 4.3.99.2 ===
+	* NEWS, configure.in.in: Bump version.
+	* docs/tmpl/xfce-miscutils.sgml: Regenerate API docs.
+	* po/*.po: Update Project-Id-Version.
+
+2006-09-02	Benedikt Meurer <benny@xfce.org>
+
+	* configure.in.in: Post-release version bump.
+
+2006-09-02	Benedikt Meurer <benny@xfce.org>
+
+	* === Released 4.3.99.1 ===
+	* configure.in.in: Do not set gcc specific flags unless gcc is used.
+	* NEWS, configure.in.in: Bump version.
+	* po/*.po: Update Project-Id-Version.
+
+2006-08-30	Benedikt Meurer <benny@xfce.org>
+
+	* libxfce4util/xfce-generics.h: Enable compilation with Sun Studio
+	  Pro. Bug #1851.
+
+2006-08-12	Benedikt Meurer <benny@xfce.org>
+
+	* libxfce4util/xfce-generics.h(xfce_stack_top): Enable compilation
+	  with compilers other than gcc. Bug #1851.
+
+2006-07-10	Benedikt Meurer <benny@xfce.org>
+
+	* configure.in.in: Post-release version bump.
+
+2006-07-10	Benedikt Meurer <benny@xfce.org>
+
+	* === Released 4.3.90.2 ===
+	* configure.in.in: Bump version.
+	* po/*.po: Update Project-Id-Version.
+
+2006-04-19	Benedikt Meurer <benny@xfce.org>
+
+	* libxfce4util/xfce-rc-simple.c(_xfce_rc_simple_delete_entry): Fix
+	  deletion of entries from an XfceRc object, as pointed out by Juha
+	  Kautto <kautto.juha@kolumbus.fi>.
+
+2006-04-18	Benedikt Meurer <benny@xfce.org>
+
+	* po/de.po: Add german translation of the GPL license text.
+
+2006-04-18	Benedikt Meurer <benny@xfce.org>
+
+	* libxfce4util/Makefile.am, libxfce4util/libxfce4util.symbols: Fix typos
+	  introduced with the previous commit.
+	* libxfce4util/, po/, Makefile.am, configure.in.in, autogen.sh: Add i18n
+	  support. This way the software licenses can be translated.
+	* docs/: Update the API documentation.
+
+2006-04-18	Benedikt Meurer <benny@xfce.org>
+
+	* libxfce4util/libxfce4util-config.{c,h.in}, libxfce4util/Makefile.am,
+	  libxfce4util/{BSD,GPL,LGPL}, libxfce4util/licenses-texts.c,
+	  libxfce4util/licenses-to-c.sh: Use the short versions of the GPL/LGPL
+	  license texts and move them to libxfce4util-config.
+	* libxfce4util/, configure.in.in: Apply outstanding patch to fix various
+	  memory leaks, reduce PLT entries and cleanup source code.
+	* libxfce4util/xfce-i18n.{c,h}, TODO: Turn xfce_textdomain() into a
+	  function.
+	* docs/: Update the API documentation.
+
+2006-04-16	Benedikt Meurer <benny@xfce.org>
+
+	* configure.in.in: Post-release version bump.
+
+2006-04-16	Benedikt Meurer <benny@xfce.org>
+
+	* === Released 4.3.90.1 ===
+	* configure.in.in: Bump version.
+	* configure.in.in: Depend on GObject >= 2.6.0.
+	* configure.in.in: Do not add revision to version unless the tag is svn.
+	* libxfce4util.spec.in: Update RPM spec file.
+	* AUTHORS: Add Olivier Fourdan to the authors list.
+
+2006-04-16	Benedikt Meurer <benny@xfce.org>
+
+	* libxfce4util/xfce-resource.c(_res_split_and_append): Be sure to strip
+	  off invalid paths from XDG_DATA_DIRS and XDG_CONFIG_DIRS.
+
+2006-03-26	Benedikt Meurer <benny@xfce.org>
+
+	* libxfce4util/xfce-rc-simple.c(simple_escape): Same for leading
+	  whitespace.
+
+2006-03-25	Benedikt Meurer <benny@xfce.org>
+
+	* libxfce4util/xfce-rc-simple.c: Properly handle trailing whitespace 
+	  when saving string values.
+
+2006-02-17	Brian Tarricone <bjt23@cornell.edu>
+
+	* libxfce4util/xfce-desktopentry.[ch]: Add
+	  xfce_desktop_entry_has_translated_entry() to report if the particular
+	  key has a value transalated into the current locale.
+	* configure.in.in: Bump version to 4.3.1.
+
+2005-12-03	Benedikt Meurer <benny@xfce.org>
+
+	* libxfce4util/i18n.h: Add ngettext(), dngettext() and dcngettext()
+	  macros for the case that ENABLE_NLS is not defined.
+
+2005-08-31	Benedikt Meurer <benny@xfce.org>
+
+	* Makefile.am: Remove unnecessary extra dist files.
+	* Makefile.am: Setup automake options properly.
+
+2005-08-31	Benedikt Meurer <benny@xfce.org>
+
+	* autogen.sh, configure.in.in: Merge build framework changes from
+	  libexo.
+	* COPYING, libxfce4util.spec.in, libxfce4util/*.{c,h}: Change overall
+	  license to LGPL.
+	* libxfce4util/*.h: Make sure only libxfce4util/libxfce4util.h can be
+	  included directly.
+	* docs/tmpl/*.sgml: Update to newer gtk-doc, which adds stability level
+	  to the interfaces.
+
+2005-08-30	Benedikt Meurer <benny@xfce.org>
+
+	* docs/tmpl/*.sgml: Update gtk-doc templates.
+
+2005-02-02	Benedikt Meurer <benny@xfce.org>
+
+	* libxfce4util/xfce-fileutils.c(xfce_mkdirhier): Make function always
+	  verify if the directory was actually created or already existed,
+	  instead of checking for special errno results if mkdir() failed.
+	  This fixes bug #724 (xfce fails on automounted NFS home-directories).
+	  All tabs have been expanded to spaces.
+
+2005-01-26	Benedikt Meurer <benny@xfce.org>
+
+	* autogen.sh: Send all command line parameters to xdt-autogen.
+	* gtk-doc.make: Removed, as its autogenerated by gtkdocize. Although,
+	  the autogenerated version lacks a `gmake dist' fix.
+
+2005-01-26	Benedikt Meurer <benny@xfce.org>
+
+	* ChangeLog.pre-4.2.0: This file now contains the change log messages
+	  generated by cvs2cl. Do NOT ever run cvs2cl in libxfce4util/ again!
+	* autogen.sh: Use xdt-autogen (from the xfce4-dev-tools package).
+	* m4/: Removed, those files are now included with the xfce4-dev-tools
+	  packages.
+	* configure.ac: Use new macros. Bumped version to 4.3.0. Bumped
+	  shared object major version to 2.
+	* Makefile.am: Include the old ChangeLog file with dists. Removed
+	  obsolete sub directory m4. Removed obsolete aclocal flags.
+	* libxfce4util.spec.in: Removed m4/ directory from the files section.

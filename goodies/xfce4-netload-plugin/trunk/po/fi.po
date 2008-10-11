@@ -1,0 +1,120 @@
+# Finnish translation for xfce4-netload-plugin
+# Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
+# This file is distributed under the same license as the xfce4-netload-plugin package.
+# Elias Julkunen <elias.julkunen@gmail.com>, 2008
+# Jari Rahkonen <jari.rahkonen@pp1.inet.fi>, 2008
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-netload-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-14 21:00+0300\n"
+"PO-Revision-Date: 2008-07-14 21:06+0300\n"
+"Last-Translator: Jari Rahkonen <jari.rahkonen@pp1.inet.fi>\n"
+"Language-Team: Finnish <fi@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2008-06-21 16:12+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../panel-plugin/netload.c:57
+msgid "Xfce4-Netload-Plugin"
+msgstr "Xfce4 verkkokuormaliitännäinen"
+
+#: ../panel-plugin/netload.c:60
+msgid "Unknown error."
+msgstr "Tuntematon virhe."
+
+#: ../panel-plugin/netload.c:61
+msgid "Linux proc device '/proc/net/dev' not found."
+msgstr "Linux proc -laitetta \"/proc/net/dev\" ei löytynyt."
+
+#: ../panel-plugin/netload.c:62
+msgid "Interface was not found."
+msgstr "Verkkolaitetta ei löytynyt."
+
+#: ../panel-plugin/netload.c:144
+#, c-format
+msgid "<< %s >> (Interface down)"
+msgstr "<< %s >> (Laite poistettu käytöstä)"
+
+#: ../panel-plugin/netload.c:228
+#, c-format
+msgid ""
+"<< %s >> (%s)\n"
+"Average of last %d measures:\n"
+"Incoming: %s kByte/s\n"
+"Outgoing: %s kByte/s\n"
+"Total: %s kByte/s"
+msgstr ""
+"<< %s >> (%s)\n"
+"Viimeisten %d:n mittauksen keskiarvo:\n"
+"Saapuva: %s kt/s\n"
+"Lähtevä: %s kt/s\n"
+"Yhteensä: %s kt/s"
+
+#: ../panel-plugin/netload.c:230
+msgid "no IP address"
+msgstr "ei IP-osoitetta"
+
+#: ../panel-plugin/netload.c:468
+#, c-format
+msgid ""
+"%s: Error in initalizing:\n"
+"%s"
+msgstr ""
+"%s: Alustusvirhe:\n"
+"%s"
+
+#: ../panel-plugin/netload.c:773
+msgid "Select color"
+msgstr "Valitse väri"
+
+#: ../panel-plugin/netload.c:839
+msgid "Bar color (incoming):"
+msgstr "Palkin väri (saapuva):"
+
+#: ../panel-plugin/netload.c:840
+msgid "Bar color (outgoing):"
+msgstr "Palkin väri (lähtevä):"
+
+#: ../panel-plugin/netload.c:843
+msgid "Maximum (incoming):"
+msgstr "Maksimi (saapuva):"
+
+#: ../panel-plugin/netload.c:844
+msgid "Maximum (outgoing):"
+msgstr "Maksimi (lähtevä):"
+
+#: ../panel-plugin/netload.c:849 ../panel-plugin/netload.desktop.in.in.h:1
+msgid "Network Monitor"
+msgstr "Verkon valvonta"
+
+#: ../panel-plugin/netload.c:878
+msgid "Text to display:"
+msgstr "Näytä teksti:"
+
+#: ../panel-plugin/netload.c:909
+msgid "Network device:"
+msgstr "Verkkolaite:"
+
+#: ../panel-plugin/netload.c:935
+msgid "Update interval:"
+msgstr "Päivitysväli:"
+
+#: ../panel-plugin/netload.c:946
+msgid "s"
+msgstr "s"
+
+#: ../panel-plugin/netload.c:959
+msgid "Automatic maximum"
+msgstr "Automaattinen maksimi"
+
+#: ../panel-plugin/netload.c:991
+msgid "kByte/s"
+msgstr "kilotavua/s"
+
+#: ../panel-plugin/netload.desktop.in.in.h:2
+msgid "Show network traffic"
+msgstr "Näytä verkkoliikenne"

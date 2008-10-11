@@ -1,0 +1,3464 @@
+# Traditional Chinese translations for orage package.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the orage package.
+# umm <umm@pchome.com.tw>, 2003.
+# Ambrose Li <acli@ada.dhs.org>, 2004.
+# Hydonsingore Cia <hydonsingore@educities.edu.tw>, 2005.
+# Cosmo Chene <cosmolax@gmail.com>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: orage 4.3.90.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-09-27 23:53+0300\n"
+"PO-Revision-Date: 2006-08-20 01:26+0800\n"
+"Last-Translator: Hydonsingore Cia <hydonsingore@educities.edu.tw>\n"
+"Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../globaltime/globaltime.c:100
+msgid "Raising GlobalTime window..."
+msgstr ""
+
+#: ../globaltime/globaltime.c:102
+msgid "GlobalTime window raise failed"
+msgstr ""
+
+#. ********** timezone tooltip **********
+#: ../globaltime/globaltime.c:278
+#, c-format
+msgid ""
+"%s\n"
+"click to modify clock"
+msgstr ""
+
+#. trick to refresh clocks once
+#: ../globaltime/globaltime.c:358
+msgid "Ending time adjustment mode"
+msgstr ""
+
+#: ../globaltime/globaltime.c:366
+msgid "Starting time adjustment mode"
+msgstr ""
+
+#: ../globaltime/globaltime.c:381
+#, fuzzy
+msgid "Localtime"
+msgstr "區域"
+
+#: ../globaltime/globaltime.c:456
+msgid ""
+"button 1 to change preferences \n"
+"button 2 to adjust time of clocks"
+msgstr ""
+
+#: ../globaltime/globaltime.c:472
+msgid "adjust to change hour"
+msgstr ""
+
+#: ../globaltime/globaltime.c:487
+msgid "adjust to change minute"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:69 ../globaltime/gt_prefs.c:1077
+#, fuzzy
+msgid "Standard"
+msgstr "月曆"
+
+#: ../globaltime/gt_prefs.c:71 ../src/appointment.c:2780
+msgid "None"
+msgstr "無"
+
+#: ../globaltime/gt_prefs.c:84 ../globaltime/gt_prefs.c:1100
+msgid "Equal"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:86
+#, fuzzy
+msgid "Vary"
+msgstr "每年"
+
+#: ../globaltime/gt_prefs.c:267 ../globaltime/gt_prefs.c:268
+msgid "NEW"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:291
+msgid "NEW COPY"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:312
+msgid "Not possible to delete the last clock."
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:366 ../panel-plugin/oc_config.c:114
+msgid "Select timezone"
+msgstr "選擇時區"
+
+#: ../globaltime/gt_prefs.c:511
+msgid "update this clock"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:516 ../globaltime/gt_prefs.c:1033
+msgid "add new empty clock"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:521
+msgid "add new clock using this clock as model"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:526
+msgid "delete this clock"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:534
+msgid "move this clock first"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:539
+msgid "move this clock left"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:544
+msgid "move this clock right"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:549
+msgid "move this clock last"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:557
+msgid "set the timezone of this clock to be local timezone"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:563 ../globaltime/gt_prefs.c:1041
+msgid "close window and exit"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:586
+msgid "Modify Clock "
+msgstr ""
+
+#. -----------------------HEADING-------------------------------------------
+#: ../globaltime/gt_prefs.c:599
+msgid "Clock Parameters"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:603
+msgid "Name of the clock:"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:609
+#, fuzzy
+msgid "enter name of clock"
+msgstr "Orage 時鐘"
+
+#: ../globaltime/gt_prefs.c:612
+msgid "Timezone of the clock:"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:618
+msgid ""
+"enter timezone of clock,\n"
+"(=any valid TZ value)"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:642
+msgid "Text Formatting"
+msgstr ""
+
+#. ------------------------background-------------------------
+#: ../globaltime/gt_prefs.c:648 ../globaltime/gt_prefs.c:855
+#, fuzzy
+msgid "Background color:"
+msgstr "設定背景顏色(_B):"
+
+#: ../globaltime/gt_prefs.c:655
+msgid "Click to change background colour for clock"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:664 ../globaltime/gt_prefs.c:696
+#: ../globaltime/gt_prefs.c:728 ../globaltime/gt_prefs.c:761
+#: ../globaltime/gt_prefs.c:795 ../globaltime/gt_prefs.c:825
+#: ../globaltime/gt_prefs.c:871 ../globaltime/gt_prefs.c:904
+#: ../globaltime/gt_prefs.c:937 ../globaltime/gt_prefs.c:971
+#, fuzzy
+msgid "Use default"
+msgstr "Orage 預設提醒"
+
+#: ../globaltime/gt_prefs.c:669 ../globaltime/gt_prefs.c:701
+#: ../globaltime/gt_prefs.c:734 ../globaltime/gt_prefs.c:767
+#: ../globaltime/gt_prefs.c:801 ../globaltime/gt_prefs.c:831
+msgid "Cross this to use default instead of selected value"
+msgstr ""
+
+#. ------------------------foreground-------------------------
+#: ../globaltime/gt_prefs.c:680 ../globaltime/gt_prefs.c:888
+#, fuzzy
+msgid "Foreground (=text) color:"
+msgstr "設定前景顏色(_C):"
+
+#: ../globaltime/gt_prefs.c:687
+msgid "Click to change foreground colour for clock"
+msgstr ""
+
+#. ------------------------name font-------------------------
+#: ../globaltime/gt_prefs.c:712 ../globaltime/gt_prefs.c:921
+msgid "Font for name of clock:"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:719
+msgid "Click to change font for clock name"
+msgstr ""
+
+#. ------------------------time font-------------------------
+#: ../globaltime/gt_prefs.c:745 ../globaltime/gt_prefs.c:955
+msgid "Font for time of clock:"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:752
+msgid "Click to change font for clock time"
+msgstr ""
+
+#. ------------------------underline name--------------------
+#: ../globaltime/gt_prefs.c:779
+msgid "Underline name of clock:"
+msgstr ""
+
+#. ------------------------underline time--------------------
+#: ../globaltime/gt_prefs.c:809
+msgid "Underline time of clock:"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:849
+msgid "Text Default Formatting"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:862
+msgid "Click to change default background colour for clocks"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:876 ../globaltime/gt_prefs.c:909
+msgid "Cross this to use system default instead of selected color"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:895
+msgid "Click to change default text colour for clocks"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:928
+msgid "Click to change default font for clock name"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:943 ../globaltime/gt_prefs.c:977
+msgid "Cross this to use system default font instead of selected font"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:962
+msgid "Click to change default font for clock time"
+msgstr ""
+
+#. ------------------------underline name--------------------
+#: ../globaltime/gt_prefs.c:989
+msgid "Underline for name of clock:"
+msgstr ""
+
+#. ------------------------underline time--------------------
+#: ../globaltime/gt_prefs.c:1003
+msgid "Underline for time of clock:"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:1026
+#, fuzzy
+msgid "update preferences"
+msgstr "Orage 偏好設定"
+
+#: ../globaltime/gt_prefs.c:1061
+#, fuzzy
+msgid "Modify Preferences"
+msgstr "Orage 偏好設定"
+
+#. -----------------------HEADING--------------------------------------
+#: ../globaltime/gt_prefs.c:1072
+#, fuzzy
+msgid "General Preferences"
+msgstr "Orage 偏好設定"
+
+#: ../globaltime/gt_prefs.c:1076
+#, fuzzy
+msgid "Decorations:"
+msgstr "時間長短"
+
+#: ../globaltime/gt_prefs.c:1082
+msgid "Use normal decorations"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:1093
+msgid "Do not show window decorations (borders)"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:1099
+#, fuzzy
+msgid "Clock size:"
+msgstr "關閉"
+
+#: ../globaltime/gt_prefs.c:1105
+msgid "All clocks have same size"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:1110
+#, fuzzy
+msgid "Varying"
+msgstr "警告"
+
+#: ../globaltime/gt_prefs.c:1115
+msgid "Clock sizes vary"
+msgstr ""
+
+#: ../globaltime/gt_prefs.c:1121
+#, fuzzy
+msgid "Local timezone:"
+msgstr "選擇本地時區"
+
+#: ../globaltime/gt_prefs.c:1128
+msgid ""
+"Enter local timezone. (it is used to show if time is on previous(-) or next "
+"date(+) by adding a +/- after the time)"
+msgstr ""
+
+#: ../panel-plugin/oc_config.c:193
+msgid "Appearance"
+msgstr "功能設定"
+
+#. show frame
+#: ../panel-plugin/oc_config.c:204
+msgid "Show _frame"
+msgstr "顯示框格(_F)"
+
+#. foreground color
+#: ../panel-plugin/oc_config.c:214
+msgid "set foreground _color:"
+msgstr "設定前景顏色(_C):"
+
+#. background color
+#: ../panel-plugin/oc_config.c:228
+msgid "set _background color:"
+msgstr "設定背景顏色(_B):"
+
+#. clock size (=vbox size): height and width
+#: ../panel-plugin/oc_config.c:242
+msgid "set _height:"
+msgstr "設定高度(_H):"
+
+#: ../panel-plugin/oc_config.c:254
+msgid "set _width:"
+msgstr "設定寬度(_W):"
+
+#: ../panel-plugin/oc_config.c:275
+msgid "Clock Options"
+msgstr "時鐘選項"
+
+#. timezone
+#: ../panel-plugin/oc_config.c:286
+msgid "set timezone to:"
+msgstr "設定時區為:"
+
+#: ../panel-plugin/oc_config.c:295
+msgid "Set any valid timezone (=TZ) value or pick one from the list."
+msgstr "設定任一可用的 時區值 (=TZ) 或請從清單中自行挑選。"
+
+#. line 1
+#: ../panel-plugin/oc_config.c:304
+msgid "show line _1:"
+msgstr "顯示行數(_1):"
+
+#: ../panel-plugin/oc_config.c:315
+msgid "Enter any valid strftime function parameter."
+msgstr "請輸入任一可用的·strftime·函數參數"
+
+#. line 2
+#: ../panel-plugin/oc_config.c:331
+msgid "show line _2:"
+msgstr "顯示行數(_2):"
+
+#. line 3
+#: ../panel-plugin/oc_config.c:353
+msgid "show line _3:"
+msgstr "顯示行數(_3):"
+
+#. Tooltip hint
+#: ../panel-plugin/oc_config.c:375
+msgid "Tooltip:"
+msgstr ""
+
+#: ../panel-plugin/oc_config.c:392
+msgid ""
+"This program uses strftime function to get time.\n"
+"Use any valid code to get time in the format you prefer.\n"
+"Some common codes are:\n"
+"\t%A = weekday\t\t\t%B = month\n"
+"\t%c = date & time\t\t%R = hour & minute\n"
+"\t%V = week number\t\t%Z = timezone in use\n"
+"\t%H = hours \t\t\t\t%M = minute\n"
+"\t%X = local time\t\t\t%x = local date"
+msgstr ""
+"本程式使用 strftime 函數來獲知時間。\n"
+"您可以使用可用的取數來調整成您習慣的時間格式。\n"
+"底下是一般常用的取數:\n"
+"\t%A = 星期幾\t\t\t%B = 月份\n"
+"\t%c = 日期與時間\t\t%R = 小時及分鐘\n"
+"\t%V = 第幾週\t\t%Z = 使用的時區\n"
+"\t%H = 小時 \t\t\t\t%M = 分鐘\n"
+"\t%X = 本地時間\t\t\t%x = 本地日期"
+
+#: ../panel-plugin/oc_config.c:416
+msgid "Properties"
+msgstr "內容"
+
+#: ../panel-plugin/oc_config.c:431
+msgid "Orage clock"
+msgstr "Orage 時鐘"
+
+#. TRANSLATORS: Use format characters from strftime(3)
+#. * to get the proper string for your locale.
+#. * I used these:
+#. * %A  : full weekday name
+#. * %d  : day of the month
+#. * %B  : full month name
+#. * %Y  : four digit year
+#. * %V  : ISO week number
+#.
+#: ../panel-plugin/orageclock.c:641
+msgid "%A %d %B %Y/%V"
+msgstr "%Y %B %d %A/%V"
+
+#: ../plugin/xfcalendar_plugin.c:43
+msgid "Failed to launch 'orage -p'"
+msgstr ""
+
+#. the button label in the xfce-mcs-manager dialog
+#: ../plugin/xfcalendar_plugin.c:61
+#, fuzzy
+msgid "Orage - Calendar"
+msgstr "月曆"
+
+#: ../src/about-xfcalendar.c:42
+msgid "Manage your time with Xfce4"
+msgstr "使用 XFce4 為您管理時間"
+
+#: ../src/about-xfcalendar.c:52
+msgid "Maintainer"
+msgstr ""
+
+#: ../src/about-xfcalendar.c:57
+msgid "Original creator, retired maintainer"
+msgstr ""
+
+#: ../src/about-xfcalendar.c:62
+msgid "Contributor"
+msgstr "參與貢獻者"
+
+#. if (gtk_toggle_button_get_active(
+#. GTK_TOGGLE_BUTTON(apptw->Type_journal_rb)))
+#. end time
+#: ../src/appointment.c:348 ../src/appointment.c:384 ../src/appointment.c:2330
+msgid "End"
+msgstr "結束"
+
+#: ../src/appointment.c:366
+msgid "Due"
+msgstr ""
+
+#: ../src/appointment.c:501 ../src/mainbox.c:689 ../xfcalendar.desktop.in.h:3
+msgid "Orage"
+msgstr "Orage"
+
+#. to avoid timing problems when updating entry
+#. Create file chooser
+#: ../src/appointment.c:651 ../src/interface.c:277 ../src/parameters.c:383
+msgid "Select a file..."
+msgstr "選擇一個檔案..."
+
+#: ../src/appointment.c:659
+msgid "Sound Files"
+msgstr "音效檔"
+
+#: ../src/appointment.c:666 ../src/interface.c:290
+msgid "All Files"
+msgstr "所有檔案"
+
+#: ../src/appointment.c:717 ../src/appointment.c:1145 ../src/event-list.c:897
+msgid "Warning"
+msgstr "警告"
+
+#: ../src/appointment.c:719
+msgid "The appointment information has been modified."
+msgstr "本約會資訊已經被修改"
+
+#: ../src/appointment.c:720 ../src/appointment.c:1148 ../src/event-list.c:900
+msgid "Do you want to continue?"
+msgstr "請問您要繼續嗎？"
+
+#: ../src/appointment.c:750
+msgid "Error"
+msgstr ""
+
+#: ../src/appointment.c:752
+msgid "The end of this appointment is earlier than the beginning."
+msgstr "本次約會的結束時間早於開始時間。"
+
+#. cat_groups[0] is special [NULL] entry always
+#: ../src/appointment.c:1007 ../src/appointment.c:1547
+#, fuzzy
+msgid "Not set"
+msgstr "備註"
+
+#: ../src/appointment.c:1147
+msgid "This appointment will be permanently removed."
+msgstr "這個約會將被永遠移除。"
+
+#: ../src/appointment.c:1421 ../src/event-list.c:726
+msgid "Info"
+msgstr ""
+
+#: ../src/appointment.c:1423
+#, fuzzy
+msgid "This appointment does not exist."
+msgstr "這個約會將被永遠移除。"
+
+#: ../src/appointment.c:1424
+msgid "It was probably removed, please refresh your screen."
+msgstr ""
+
+#: ../src/appointment.c:1729
+#, fuzzy
+msgid "Current categories"
+msgstr "封存檔案"
+
+#: ../src/appointment.c:1744
+msgid "Add new category with color"
+msgstr ""
+
+#: ../src/appointment.c:1748
+msgid "Category:"
+msgstr ""
+
+#: ../src/appointment.c:1779
+msgid "Colors of categories - Orage"
+msgstr ""
+
+#: ../src/appointment.c:1940
+msgid "New appointment - Orage"
+msgstr "新約會 - Orage"
+
+#: ../src/appointment.c:1964
+msgid " *** COPY ***"
+msgstr ""
+
+#. File menu stuff
+#. ********* File menu *********
+#. File menu
+#: ../src/appointment.c:2074 ../src/day-view.c:254 ../src/event-list.c:994
+#: ../src/interface.c:762 ../src/mainbox.c:261
+msgid "_File"
+msgstr "檔案(_F)"
+
+#: ../src/appointment.c:2080
+msgid "Sav_e and close"
+msgstr "儲存並關閉(_E)"
+
+#: ../src/appointment.c:2093 ../src/event-list.c:1000
+msgid "D_uplicate"
+msgstr "複製(_U)"
+
+#: ../src/appointment.c:2227
+msgid "Save"
+msgstr "儲存"
+
+#: ../src/appointment.c:2229
+msgid "Save and close"
+msgstr "儲存並關閉"
+
+#: ../src/appointment.c:2234
+msgid "Revert"
+msgstr "還原"
+
+#: ../src/appointment.c:2236 ../src/event-list.c:1085
+msgid "Duplicate"
+msgstr "複製"
+
+#: ../src/appointment.c:2241 ../src/event-list.c:1087
+msgid "Delete"
+msgstr "刪除"
+
+#: ../src/appointment.c:2259
+msgid "Free"
+msgstr "有閒"
+
+#: ../src/appointment.c:2259
+msgid "Busy"
+msgstr "無閒"
+
+#: ../src/appointment.c:2263
+msgid "General"
+msgstr "一般"
+
+#. type
+#: ../src/appointment.c:2269
+msgid "Type "
+msgstr ""
+
+#: ../src/appointment.c:2271 ../src/event-list.c:1139
+msgid "Event"
+msgstr ""
+
+#: ../src/appointment.c:2274
+msgid ""
+"Event that will happen sometime. For example:\n"
+"Meeting or birthday or TV show."
+msgstr ""
+
+#: ../src/appointment.c:2277 ../src/event-list.c:1160
+#, fuzzy
+msgid "Todo"
+msgstr "今天"
+
+#: ../src/appointment.c:2280
+msgid ""
+"Something that you should do sometime. For example:\n"
+"Wash your car or test new version of Orage."
+msgstr ""
+
+#: ../src/appointment.c:2283 ../src/event-list.c:1175
+msgid "Journal"
+msgstr ""
+
+#: ../src/appointment.c:2287
+msgid ""
+"Make a note that something happened. For example:\n"
+"Remark that your mother called or first snow came."
+msgstr ""
+
+#. title
+#: ../src/appointment.c:2294
+msgid "Title "
+msgstr "標題"
+
+#. location
+#: ../src/appointment.c:2301 ../src/ical-code.c:4495 ../src/ical-code.c:4500
+msgid "Location"
+msgstr "區域"
+
+#: ../src/appointment.c:2309
+msgid "All day event"
+msgstr "整天的事件"
+
+#. start time
+#: ../src/appointment.c:2315 ../src/day-view.c:681
+msgid "Start"
+msgstr "開始"
+
+#: ../src/appointment.c:2335
+msgid "Set      "
+msgstr ""
+
+#: ../src/appointment.c:2356
+msgid "Duration"
+msgstr "時間長短"
+
+#: ../src/appointment.c:2360 ../src/appointment.c:2532 ../src/day-view.c:702
+msgid "days"
+msgstr "天"
+
+#: ../src/appointment.c:2362 ../src/appointment.c:2534
+msgid "hours"
+msgstr "小時"
+
+#: ../src/appointment.c:2364 ../src/appointment.c:2536
+msgid "mins"
+msgstr "分鐘"
+
+#. Availability (only for EVENT)
+#: ../src/appointment.c:2376
+msgid "Availability"
+msgstr "能赴約否"
+
+#. completed (only for TODO)
+#: ../src/appointment.c:2384
+msgid "Completed"
+msgstr ""
+
+#: ../src/appointment.c:2387
+#, fuzzy
+msgid "Done"
+msgstr "無"
+
+#. categories
+#: ../src/appointment.c:2408
+msgid "Categories"
+msgstr ""
+
+#: ../src/appointment.c:2420
+msgid ""
+"This is special category, which can be used to color this appointment in "
+"list views."
+msgstr ""
+
+#: ../src/appointment.c:2425
+msgid "update colors for categories."
+msgstr ""
+
+#. note
+#: ../src/appointment.c:2431
+msgid "Note"
+msgstr "備註"
+
+#: ../src/appointment.c:2450
+msgid ""
+"<D> inserts current date in local date format.\n"
+"<T> inserts time and\n"
+"<DT> inserts date and time."
+msgstr ""
+
+#: ../src/appointment.c:2517
+msgid "Before Start"
+msgstr ""
+
+#: ../src/appointment.c:2517
+msgid "Before End"
+msgstr ""
+
+#: ../src/appointment.c:2518
+#, fuzzy
+msgid "After Start"
+msgstr "開始"
+
+#: ../src/appointment.c:2518
+msgid "After End"
+msgstr ""
+
+#: ../src/appointment.c:2523
+msgid "Alarm"
+msgstr "提醒"
+
+#. **** ALARM TIME ****
+#: ../src/appointment.c:2529
+#, fuzzy
+msgid "Alarm time"
+msgstr "提醒"
+
+#: ../src/appointment.c:2553
+msgid ""
+"Often you want to get alarm:\n"
+" 1) before Event start\n"
+" 2) before Todo end\n"
+" 3) after Todo start"
+msgstr ""
+
+#: ../src/appointment.c:2558
+msgid "Persistent alarm"
+msgstr ""
+
+#: ../src/appointment.c:2560
+msgid ""
+"Select this if you want Orage to remind you even if it has not been active "
+"when the alarm happened."
+msgstr ""
+
+#. **** Audio Alarm ****
+#: ../src/appointment.c:2569
+msgid "Sound"
+msgstr "鈴聲"
+
+#: ../src/appointment.c:2573 ../src/appointment.c:2694
+msgid "Use"
+msgstr ""
+
+#: ../src/appointment.c:2575
+msgid "Select this if you want audible alarm"
+msgstr ""
+
+#: ../src/appointment.c:2592
+msgid "Repeat alarm sound"
+msgstr "重複提醒鈴聲"
+
+#: ../src/appointment.c:2608 ../src/appointment.c:2852
+msgid "times"
+msgstr "次數"
+
+#: ../src/appointment.c:2624
+#, fuzzy
+msgid "sec interval"
+msgstr "一般"
+
+#. **** Display Alarm ****
+#: ../src/appointment.c:2634
+msgid "Visual"
+msgstr ""
+
+#: ../src/appointment.c:2638
+msgid "Use Orage window"
+msgstr ""
+
+#: ../src/appointment.c:2640
+msgid "Select this if you want Orage window alarm"
+msgstr ""
+
+#: ../src/appointment.c:2652
+msgid "Use notification"
+msgstr ""
+
+#: ../src/appointment.c:2654
+msgid "Select this if you want notification alarm"
+msgstr ""
+
+#: ../src/appointment.c:2660
+#, fuzzy
+msgid "Set timeout"
+msgstr "選擇時區"
+
+#: ../src/appointment.c:2663
+msgid "Select this if you want notification to expire automatically"
+msgstr ""
+
+#: ../src/appointment.c:2674
+msgid "0 = system default expiration time"
+msgstr ""
+
+#: ../src/appointment.c:2679
+msgid "seconds"
+msgstr ""
+
+#. **** Procedure Alarm ****
+#: ../src/appointment.c:2690
+#, fuzzy
+msgid "Procedure"
+msgstr "內容"
+
+#: ../src/appointment.c:2696
+msgid "Select this if you want procedure or script alarm"
+msgstr ""
+
+#: ../src/appointment.c:2702
+msgid ""
+"You must enter all escape etc characters yourself.\n"
+" This string is just given to shell to process"
+msgstr ""
+
+#. **** Default Alarm Settings ****
+#: ../src/appointment.c:2711
+#, fuzzy
+msgid "Default alarm"
+msgstr "Orage 預設提醒"
+
+#: ../src/appointment.c:2718
+msgid "Store current settings as default alarm"
+msgstr ""
+
+#: ../src/appointment.c:2723
+msgid "Set current settings from default alarm"
+msgstr ""
+
+#: ../src/appointment.c:2780
+msgid "Daily"
+msgstr "每日"
+
+#: ../src/appointment.c:2780
+msgid "Weekly"
+msgstr "每星期"
+
+#: ../src/appointment.c:2780
+msgid "Monthly"
+msgstr "每月"
+
+#: ../src/appointment.c:2780
+msgid "Yearly"
+msgstr "每年"
+
+#: ../src/appointment.c:2782
+#, fuzzy
+msgid "Mon"
+msgstr "每月"
+
+#: ../src/appointment.c:2782
+msgid "Tue"
+msgstr ""
+
+#: ../src/appointment.c:2782
+msgid "Wed"
+msgstr ""
+
+#: ../src/appointment.c:2782
+msgid "Thu"
+msgstr ""
+
+#: ../src/appointment.c:2782
+msgid "Fri"
+msgstr ""
+
+#: ../src/appointment.c:2782
+#, fuzzy
+msgid "Sat"
+msgstr "開始"
+
+#: ../src/appointment.c:2782
+#, fuzzy
+msgid "Sun"
+msgstr "鈴聲"
+
+#: ../src/appointment.c:2786
+msgid "Recurrence"
+msgstr "再現"
+
+#: ../src/appointment.c:2791
+msgid "Complexity"
+msgstr ""
+
+#: ../src/appointment.c:2794
+#, fuzzy
+msgid "Basic"
+msgstr "後退"
+
+#: ../src/appointment.c:2800
+msgid "Advanced"
+msgstr ""
+
+#: ../src/appointment.c:2807
+msgid "Use this if you want regular repeating event"
+msgstr ""
+
+#: ../src/appointment.c:2809
+msgid ""
+"Use this if you need complex times like:\n"
+" Every Saturday and Sunday or \n"
+" First Tuesday every month"
+msgstr ""
+
+#: ../src/appointment.c:2812
+#, fuzzy
+msgid "Frequency"
+msgstr "有閒"
+
+#: ../src/appointment.c:2818
+msgid "Each"
+msgstr ""
+
+#: ../src/appointment.c:2825
+#, fuzzy
+msgid "occurrence"
+msgstr "再現"
+
+#: ../src/appointment.c:2829
+msgid ""
+"Limit frequency to certain interval.\n"
+" For example: Every third day:\n"
+" Frequency = Daily and Interval = 3"
+msgstr ""
+
+#: ../src/appointment.c:2835
+msgid "Limit"
+msgstr ""
+
+#: ../src/appointment.c:2837
+msgid "Repeat forever"
+msgstr "持續重複"
+
+#: ../src/appointment.c:2844
+msgid "Repeat "
+msgstr "重複"
+
+#: ../src/appointment.c:2861
+msgid "Repeat until "
+msgstr "重複直到"
+
+#: ../src/appointment.c:2871
+#, fuzzy
+msgid "Weekdays"
+msgstr "每星期"
+
+#: ../src/appointment.c:2883
+msgid "Which day"
+msgstr ""
+
+#: ../src/appointment.c:2891
+msgid ""
+"Specify which weekday for monthly and yearly events.\n"
+" For example:\n"
+" Second Wednesday each month:\n"
+"\tFrequency = Monthly,\n"
+"\tWeekdays = check only Wednesday,\n"
+"\tWhich day = select 2 from the number below Wednesday"
+msgstr ""
+
+#. ********* View menu *********
+#. View menu
+#: ../src/day-view.c:264 ../src/event-list.c:1017 ../src/mainbox.c:287
+msgid "_View"
+msgstr "檢視(_V)"
+
+#. ********* Go menu   *********
+#: ../src/day-view.c:278 ../src/event-list.c:1036
+msgid "_Go"
+msgstr "前往(_G)"
+
+#: ../src/day-view.c:319 ../src/event-list.c:1083
+msgid "New"
+msgstr "新增"
+
+#: ../src/day-view.c:324 ../src/event-list.c:1092
+msgid "Back"
+msgstr "後退"
+
+#: ../src/day-view.c:326 ../src/event-list.c:1094 ../src/functions.c:132
+#: ../src/tray_icon.c:330
+msgid "Today"
+msgstr "今天"
+
+#: ../src/day-view.c:328 ../src/event-list.c:1096
+msgid "Forward"
+msgstr "前進"
+
+#: ../src/day-view.c:333 ../src/event-list.c:1101
+msgid "Refresh"
+msgstr "更新"
+
+#: ../src/day-view.c:338 ../src/event-list.c:1108 ../src/interface.c:804
+msgid "Close"
+msgstr "關閉"
+
+#. then add the appointment
+#: ../src/day-view.c:452
+msgid "Unknown"
+msgstr ""
+
+#: ../src/day-view.c:694 ../src/parameters.c:662
+msgid "Show"
+msgstr "顯示"
+
+#: ../src/day-view.c:931
+#, fuzzy
+msgid "Orage - day view"
+msgstr "月曆"
+
+#. date only appointment
+#: ../src/event-list.c:190
+msgid "All day"
+msgstr "全天"
+
+#: ../src/event-list.c:557 ../src/event-list.c:1266
+msgid "Time"
+msgstr "時間"
+
+#: ../src/event-list.c:728
+msgid "No rows have been selected."
+msgstr ""
+
+#: ../src/event-list.c:729
+msgid "Click a row to select it and after that you can copy it."
+msgstr ""
+
+#: ../src/event-list.c:899
+msgid ""
+"You will permanently remove all\n"
+"selected appointments."
+msgstr ""
+
+#: ../src/event-list.c:1103
+msgid "Find"
+msgstr ""
+
+#: ../src/event-list.c:1110
+msgid "Dayview"
+msgstr ""
+
+#: ../src/event-list.c:1143
+msgid "Extra days to show "
+msgstr ""
+
+#: ../src/event-list.c:1179
+msgid "Journal entries starting from:"
+msgstr ""
+
+#: ../src/event-list.c:1204
+msgid "Search"
+msgstr ""
+
+#: ../src/event-list.c:1208
+msgid "Search text "
+msgstr ""
+
+#: ../src/event-list.c:1274
+msgid "Flags"
+msgstr "旗標"
+
+#: ../src/event-list.c:1282
+msgid "Title"
+msgstr "標題"
+
+#: ../src/event-list.c:1308
+#, fuzzy
+msgid ""
+"Double click line to edit it.\n"
+"\n"
+"Flags in order:\n"
+"\t 1. Alarm: n=no alarm\n"
+"\t\t A=visual Alarm S=also Sound alarm\n"
+"\t 2. Recurrence: n=no recurrence\n"
+"\t\t D=Daily W=Weekly M=Monthly Y=Yearly\n"
+"\t 3. Type: f=free B=Busy\n"
+"\t 4. Located in file:\n"
+"\t\tO=Orage A=Archive F=Foreign\n"
+"\t 5. Appointment type:\n"
+"\t\tE=Event T=Todo J=Journal"
+msgstr ""
+"雙擊此行以開始編輯。\n"
+"\n"
+"旗標順序:\n"
+"\t 1. 鬧鐘: n=不用鬧鐘\n"
+"\t\tA=顯示鬧鐘 S=並用音效鬧鈴\n"
+"\t 2. 再現: n=不用再現\n"
+"\t\t D=每天 W=每週 M=每月 Y=每天\n"
+"\t 3. 情況: f=有閒 B=無閒"
+
+#: ../src/functions.c:130
+msgid "Pick the date"
+msgstr "選擇日期"
+
+#: ../src/ical-code.c:115
+msgid "Africa"
+msgstr "非洲"
+
+#: ../src/ical-code.c:116
+msgid "Africa/Abidjan"
+msgstr "非洲/阿必尚"
+
+#: ../src/ical-code.c:117
+msgid "Africa/Accra"
+msgstr "非洲/阿克拉"
+
+#: ../src/ical-code.c:118
+msgid "Africa/Addis_Ababa"
+msgstr "非洲/阿迪斯阿貝巴"
+
+#: ../src/ical-code.c:119
+msgid "Africa/Algiers"
+msgstr "非洲/阿爾及爾"
+
+#: ../src/ical-code.c:120
+msgid "Africa/Asmera"
+msgstr "非洲/阿斯馬拉"
+
+#: ../src/ical-code.c:121
+msgid "Africa/Bamako"
+msgstr "非洲/巴馬科"
+
+#: ../src/ical-code.c:122
+msgid "Africa/Bangui"
+msgstr "非洲/班基"
+
+#: ../src/ical-code.c:123
+msgid "Africa/Banjul"
+msgstr "非洲/班竹"
+
+#: ../src/ical-code.c:124
+msgid "Africa/Bissau"
+msgstr "非洲/比索"
+
+#: ../src/ical-code.c:125
+msgid "Africa/Blantyre"
+msgstr "非洲/布蘭泰爾"
+
+#: ../src/ical-code.c:126
+msgid "Africa/Brazzaville"
+msgstr "非洲/布拉薩"
+
+#: ../src/ical-code.c:127
+msgid "Africa/Bujumbura"
+msgstr "非洲/布松布拉"
+
+#: ../src/ical-code.c:128
+msgid "Africa/Cairo"
+msgstr "非洲/開羅"
+
+#: ../src/ical-code.c:129
+msgid "Africa/Casablanca"
+msgstr "非洲/卡薩布蘭加"
+
+#: ../src/ical-code.c:130
+msgid "Africa/Ceuta"
+msgstr "非洲/休達"
+
+#: ../src/ical-code.c:131
+msgid "Africa/Conakry"
+msgstr "非洲/科納克里"
+
+#: ../src/ical-code.c:132
+msgid "Africa/Dakar"
+msgstr "非洲/達卡"
+
+#: ../src/ical-code.c:133
+msgid "Africa/Dar_es_Salaam"
+msgstr "非洲/三蘭港"
+
+#: ../src/ical-code.c:134
+msgid "Africa/Djibouti"
+msgstr "非洲/吉布地"
+
+#: ../src/ical-code.c:135
+msgid "Africa/Douala"
+msgstr "非洲/都阿拉"
+
+#: ../src/ical-code.c:136
+msgid "Africa/El_Aaiun"
+msgstr "非洲/愛恩"
+
+#: ../src/ical-code.c:137
+msgid "Africa/Freetown"
+msgstr "非洲/自由城"
+
+#: ../src/ical-code.c:138
+msgid "Africa/Gaborone"
+msgstr "非洲/嘉伯隆里"
+
+#: ../src/ical-code.c:139
+msgid "Africa/Harare"
+msgstr "非洲/哈拉雷"
+
+#: ../src/ical-code.c:140
+msgid "Africa/Johannesburg"
+msgstr "非洲/約翰尼斯堡"
+
+#: ../src/ical-code.c:141
+msgid "Africa/Kampala"
+msgstr "非洲/康培拉"
+
+#: ../src/ical-code.c:142
+msgid "Africa/Khartoum"
+msgstr "非洲/喀土穆"
+
+#: ../src/ical-code.c:143
+msgid "Africa/Kigali"
+msgstr "非洲/吉佳利"
+
+#: ../src/ical-code.c:144
+msgid "Africa/Kinshasa"
+msgstr "非洲/金夏沙"
+
+#: ../src/ical-code.c:145
+msgid "Africa/Lagos"
+msgstr "非洲/拉哥斯"
+
+#: ../src/ical-code.c:146
+msgid "Africa/Libreville"
+msgstr "非洲/自由市"
+
+#: ../src/ical-code.c:147
+msgid "Africa/Lome"
+msgstr "非洲/洛梅"
+
+#: ../src/ical-code.c:148
+msgid "Africa/Luanda"
+msgstr "非洲/魯安達"
+
+#: ../src/ical-code.c:149
+msgid "Africa/Lubumbashi"
+msgstr "非洲/羅彭巴布"
+
+#: ../src/ical-code.c:150
+msgid "Africa/Lusaka"
+msgstr "非洲/路沙卡"
+
+#: ../src/ical-code.c:151
+msgid "Africa/Malabo"
+msgstr "非洲/馬拉博"
+
+#: ../src/ical-code.c:152
+msgid "Africa/Maputo"
+msgstr "非洲/馬布多"
+
+#: ../src/ical-code.c:153
+msgid "Africa/Maseru"
+msgstr "非洲/馬塞魯"
+
+#: ../src/ical-code.c:154
+msgid "Africa/Mbabane"
+msgstr "非洲/墨巴本"
+
+#: ../src/ical-code.c:155
+msgid "Africa/Mogadishu"
+msgstr "非洲/摩加迪休"
+
+#: ../src/ical-code.c:156
+msgid "Africa/Monrovia"
+msgstr "非洲/蒙羅維亞"
+
+#: ../src/ical-code.c:157
+msgid "Africa/Nairobi"
+msgstr "非洲/奈洛比"
+
+#: ../src/ical-code.c:158
+msgid "Africa/Ndjamena"
+msgstr "非洲/恩加美納"
+
+#: ../src/ical-code.c:159
+msgid "Africa/Niamey"
+msgstr "非洲/尼阿美"
+
+#: ../src/ical-code.c:160
+msgid "Africa/Nouakchott"
+msgstr "非洲/諾克少"
+
+#: ../src/ical-code.c:161
+msgid "Africa/Ouagadougou"
+msgstr "非洲/瓦加杜古"
+
+#: ../src/ical-code.c:162
+msgid "Africa/Porto-Novo"
+msgstr "非洲/新港"
+
+#: ../src/ical-code.c:163
+msgid "Africa/Sao_Tome"
+msgstr "非洲/聖多美"
+
+#: ../src/ical-code.c:164
+msgid "Africa/Timbuktu"
+msgstr "非洲/廷巴克圖"
+
+#: ../src/ical-code.c:165
+msgid "Africa/Tripoli"
+msgstr "非洲/的黎波里"
+
+#: ../src/ical-code.c:166
+msgid "Africa/Tunis"
+msgstr "非洲/突尼斯"
+
+#: ../src/ical-code.c:167
+msgid "Africa/Windhoek"
+msgstr "非洲/溫荷克"
+
+#: ../src/ical-code.c:168
+msgid "America"
+msgstr "美洲"
+
+#: ../src/ical-code.c:169
+msgid "America/Adak"
+msgstr "北美洲/艾達克"
+
+#: ../src/ical-code.c:170
+msgid "America/Anchorage"
+msgstr "北美洲/安哥拉治"
+
+#: ../src/ical-code.c:171
+msgid "America/Anguilla"
+msgstr "中美洲/安吉拉"
+
+#: ../src/ical-code.c:172
+msgid "America/Antigua"
+msgstr "中美洲/安地瓜"
+
+#: ../src/ical-code.c:173
+msgid "America/Araguaina"
+msgstr "南美洲/阿拉瓜伊納"
+
+#: ../src/ical-code.c:174
+#, fuzzy
+msgid "America/Argentina/Buenos_Aires"
+msgstr "南美洲/布宜諾斯艾利斯"
+
+#: ../src/ical-code.c:175
+#, fuzzy
+msgid "America/Argentina/Catamarca"
+msgstr "南美洲/卡塔馬卡"
+
+#: ../src/ical-code.c:176
+#, fuzzy
+msgid "America/Argentina/Cordoba"
+msgstr "南美洲/科多巴"
+
+#: ../src/ical-code.c:177
+#, fuzzy
+msgid "America/Argentina/Jujuy"
+msgstr "南美洲/呼回"
+
+#: ../src/ical-code.c:178
+#, fuzzy
+msgid "America/Argentina/Mendoza"
+msgstr "南美洲/門多薩"
+
+#: ../src/ical-code.c:179
+msgid "America/Aruba"
+msgstr "南美洲/阿路巴"
+
+#: ../src/ical-code.c:180
+msgid "America/Asuncion"
+msgstr "南美洲/亞松森"
+
+#: ../src/ical-code.c:181
+msgid "America/Barbados"
+msgstr "南美洲/巴貝多"
+
+#: ../src/ical-code.c:182
+msgid "America/Belem"
+msgstr "南美洲/貝郎"
+
+#: ../src/ical-code.c:183
+msgid "America/Belize"
+msgstr "南美洲/貝里斯"
+
+#: ../src/ical-code.c:184
+msgid "America/Boa_Vista"
+msgstr "南美洲/保維斯塔島"
+
+#: ../src/ical-code.c:185
+msgid "America/Bogota"
+msgstr "南美洲/波哥大"
+
+#: ../src/ical-code.c:186
+msgid "America/Boise"
+msgstr "北美洲/波伊西"
+
+#: ../src/ical-code.c:187
+msgid "America/Buenos_Aires"
+msgstr "南美洲/布宜諾斯艾利斯"
+
+#: ../src/ical-code.c:188
+msgid "America/Cambridge_Bay"
+msgstr "北美洲/劍橋灣"
+
+#: ../src/ical-code.c:189
+msgid "America/Cancun"
+msgstr "南美洲/坎昆"
+
+#: ../src/ical-code.c:190
+msgid "America/Caracas"
+msgstr "南美洲/卡拉卡斯"
+
+#: ../src/ical-code.c:191
+msgid "America/Catamarca"
+msgstr "南美洲/卡塔馬卡"
+
+#: ../src/ical-code.c:192
+msgid "America/Cayenne"
+msgstr "南美洲/凱恩"
+
+#: ../src/ical-code.c:193
+msgid "America/Cayman"
+msgstr "中美洲/開曼群島"
+
+#: ../src/ical-code.c:194
+msgid "America/Chicago"
+msgstr "北美洲/芝加哥"
+
+#: ../src/ical-code.c:195
+msgid "America/Chihuahua"
+msgstr "南美洲/濟華花"
+
+#: ../src/ical-code.c:196
+msgid "America/Cordoba"
+msgstr "南美洲/科多巴"
+
+#: ../src/ical-code.c:197
+msgid "America/Costa_Rica"
+msgstr "中美洲/哥斯大黎加"
+
+#: ../src/ical-code.c:198
+msgid "America/Cuiaba"
+msgstr "南美洲/古雅巴"
+
+#: ../src/ical-code.c:199
+msgid "America/Curacao"
+msgstr "南美洲/科拉克"
+
+#: ../src/ical-code.c:200
+msgid "America/Dawson"
+msgstr "北美洲/道森"
+
+#: ../src/ical-code.c:201
+msgid "America/Dawson_Creek"
+msgstr "北美洲/道森克里克"
+
+#: ../src/ical-code.c:202
+msgid "America/Denver"
+msgstr "北美洲/丹佛"
+
+#: ../src/ical-code.c:203
+msgid "America/Detroit"
+msgstr "北美洲/底特律"
+
+#: ../src/ical-code.c:204
+msgid "America/Dominica"
+msgstr "中美洲/多明尼加"
+
+#: ../src/ical-code.c:205
+msgid "America/Edmonton"
+msgstr "北美洲/愛民頓"
+
+#: ../src/ical-code.c:206
+msgid "America/Eirunepe"
+msgstr "南美洲/艾魯內佩"
+
+#: ../src/ical-code.c:207
+msgid "America/El_Salvador"
+msgstr "中美洲/薩爾瓦多"
+
+#: ../src/ical-code.c:208
+msgid "America/Fortaleza"
+msgstr "南美洲/佛達雷莎"
+
+#: ../src/ical-code.c:209
+msgid "America/Glace_Bay"
+msgstr "北美洲/葛雷斯灣"
+
+#: ../src/ical-code.c:210
+msgid "America/Godthab"
+msgstr "北美洲/戈薩普"
+
+#: ../src/ical-code.c:211
+msgid "America/Goose_Bay"
+msgstr "北美洲/鵝灣"
+
+#: ../src/ical-code.c:212
+msgid "America/Grand_Turk"
+msgstr "中美洲/大特克斯島"
+
+#: ../src/ical-code.c:213
+msgid "America/Grenada"
+msgstr "中美洲/格瑞那達"
+
+#: ../src/ical-code.c:214
+msgid "America/Guadeloupe"
+msgstr "北美洲/瓜德魯普島"
+
+#: ../src/ical-code.c:215
+msgid "America/Guatemala"
+msgstr "中美洲/瓜地馬拉"
+
+#: ../src/ical-code.c:216
+msgid "America/Guayaquil"
+msgstr "南美洲/惠夜基"
+
+#: ../src/ical-code.c:217
+msgid "America/Guyana"
+msgstr "南美洲/圭亞那"
+
+#: ../src/ical-code.c:218
+msgid "America/Halifax"
+msgstr "北美洲/哈利法克斯市"
+
+#: ../src/ical-code.c:219
+msgid "America/Havana"
+msgstr "中美洲/哈瓦那"
+
+#: ../src/ical-code.c:220
+msgid "America/Hermosillo"
+msgstr "北美洲/厄莫休"
+
+#: ../src/ical-code.c:221
+msgid "America/Indiana/Indianapolis"
+msgstr "北美洲/印第安那州/印第安納波里斯巿"
+
+#: ../src/ical-code.c:222
+msgid "America/Indiana/Knox"
+msgstr "北美洲/印第安那州/諾克斯"
+
+#: ../src/ical-code.c:223
+msgid "America/Indiana/Marengo"
+msgstr "北美洲/印第安那州/馬倫哥"
+
+#: ../src/ical-code.c:224
+msgid "America/Indiana/Vevay"
+msgstr "北美洲/印第安那州/維維市"
+
+#: ../src/ical-code.c:225
+msgid "America/Indianapolis"
+msgstr "北美洲/印第安納波里斯"
+
+#: ../src/ical-code.c:226
+msgid "America/Inuvik"
+msgstr "北美洲/因紐特"
+
+#: ../src/ical-code.c:227
+msgid "America/Iqaluit"
+msgstr "北美洲/伊魁特"
+
+#: ../src/ical-code.c:228
+msgid "America/Jamaica"
+msgstr "中美洲/牙買加"
+
+#: ../src/ical-code.c:229
+msgid "America/Jujuy"
+msgstr "南美洲/呼回"
+
+#: ../src/ical-code.c:230
+msgid "America/Juneau"
+msgstr "北美洲/朱諾"
+
+#: ../src/ical-code.c:231
+msgid "America/Kentucky/Louisville"
+msgstr "北美洲/肯德基州/路易斯維爾"
+
+#: ../src/ical-code.c:232
+msgid "America/Kentucky/Monticello"
+msgstr "北美洲/肯德基州/蒙提薩羅"
+
+#: ../src/ical-code.c:233
+msgid "America/La_Paz"
+msgstr "南美洲/拉巴斯"
+
+#: ../src/ical-code.c:234
+msgid "America/Lima"
+msgstr "南美洲/利馬"
+
+#: ../src/ical-code.c:235
+msgid "America/Los_Angeles"
+msgstr "北美洲/洛杉磯"
+
+#: ../src/ical-code.c:236
+msgid "America/Louisville"
+msgstr "北美洲/路易斯維爾"
+
+#: ../src/ical-code.c:237
+msgid "America/Maceio"
+msgstr "南美洲/馬賽約"
+
+#: ../src/ical-code.c:238
+msgid "America/Managua"
+msgstr "中美洲/馬納瓜"
+
+#: ../src/ical-code.c:239
+msgid "America/Manaus"
+msgstr "南美洲/瑪瑙斯"
+
+#: ../src/ical-code.c:240
+msgid "America/Martinique"
+msgstr "中美洲/法屬馬丁尼克"
+
+#: ../src/ical-code.c:241
+msgid "America/Mazatlan"
+msgstr "北美洲/馬薩特蘭"
+
+#: ../src/ical-code.c:242
+msgid "America/Mendoza"
+msgstr "南美洲/門多薩"
+
+#: ../src/ical-code.c:243
+msgid "America/Menominee"
+msgstr "北美洲/美諾米尼"
+
+#: ../src/ical-code.c:244
+msgid "America/Merida"
+msgstr "北美洲/美利達"
+
+#: ../src/ical-code.c:245
+msgid "America/Mexico_City"
+msgstr "北美洲/墨西哥城"
+
+#: ../src/ical-code.c:246
+msgid "America/Miquelon"
+msgstr "北美洲/密克隆"
+
+#: ../src/ical-code.c:247
+msgid "America/Monterrey"
+msgstr "北美洲/蒙特里"
+
+#: ../src/ical-code.c:248
+msgid "America/Montevideo"
+msgstr "南美洲/蒙特維多"
+
+#: ../src/ical-code.c:249
+msgid "America/Montreal"
+msgstr "北美洲/蒙特婁"
+
+#: ../src/ical-code.c:250
+msgid "America/Montserrat"
+msgstr "中美洲/蒙哲臘"
+
+#: ../src/ical-code.c:251
+msgid "America/Nassau"
+msgstr "中美洲/拿索"
+
+#: ../src/ical-code.c:252
+msgid "America/New_York"
+msgstr "北美洲/紐約"
+
+#: ../src/ical-code.c:253
+msgid "America/Nipigon"
+msgstr "北美洲/尼匹岡"
+
+#: ../src/ical-code.c:254
+msgid "America/Nome"
+msgstr "北美洲/諾母"
+
+#: ../src/ical-code.c:255
+msgid "America/Noronha"
+msgstr "南美洲/諾若尼亞"
+
+#: ../src/ical-code.c:256
+msgid "America/Panama"
+msgstr "中美洲/巴拿馬"
+
+#: ../src/ical-code.c:257
+msgid "America/Pangnirtung"
+msgstr "北美洲/龐納唐"
+
+#: ../src/ical-code.c:258
+msgid "America/Paramaribo"
+msgstr "南美洲/巴拉馬利波市"
+
+#: ../src/ical-code.c:259
+msgid "America/Phoenix"
+msgstr "北美洲/鳳凰城"
+
+#: ../src/ical-code.c:260
+msgid "America/Port-au-Prince"
+msgstr "中美洲/太子港"
+
+#: ../src/ical-code.c:261
+msgid "America/Port_of_Spain"
+msgstr "中美洲/西班牙港"
+
+#: ../src/ical-code.c:262
+msgid "America/Porto_Velho"
+msgstr "南美洲/維留港"
+
+#: ../src/ical-code.c:263
+msgid "America/Puerto_Rico"
+msgstr "中美洲/波多黎各"
+
+#: ../src/ical-code.c:264
+msgid "America/Rainy_River"
+msgstr "北美洲/雨河鎮"
+
+#: ../src/ical-code.c:265
+msgid "America/Rankin_Inlet"
+msgstr "北美洲/雷今海口"
+
+#: ../src/ical-code.c:266
+msgid "America/Recife"
+msgstr "南美洲/海席飛"
+
+#: ../src/ical-code.c:267
+msgid "America/Regina"
+msgstr "北美洲/雷嘉那"
+
+#: ../src/ical-code.c:268
+msgid "America/Rio_Branco"
+msgstr "南美洲/白河"
+
+#: ../src/ical-code.c:269
+msgid "America/Rosario"
+msgstr "南美洲/羅沙里市"
+
+#: ../src/ical-code.c:270
+msgid "America/Santiago"
+msgstr "南美洲/聖地牙哥"
+
+#: ../src/ical-code.c:271
+msgid "America/Santo_Domingo"
+msgstr "中美洲/聖多明哥"
+
+#: ../src/ical-code.c:272
+msgid "America/Sao_Paulo"
+msgstr "南美洲/聖保羅"
+
+#: ../src/ical-code.c:273
+msgid "America/Scoresbysund"
+msgstr "北美洲/史科斯比孫"
+
+#: ../src/ical-code.c:274
+msgid "America/Shiprock"
+msgstr "北美洲/船岩市"
+
+#: ../src/ical-code.c:275
+msgid "America/St_Johns"
+msgstr "中美洲/聖約翰"
+
+#: ../src/ical-code.c:276
+msgid "America/St_Kitts"
+msgstr "中美洲/聖啟斯"
+
+#: ../src/ical-code.c:277
+msgid "America/St_Lucia"
+msgstr "中美洲/聖露西亞"
+
+#: ../src/ical-code.c:278
+msgid "America/St_Thomas"
+msgstr "中美洲/聖湯瑪斯"
+
+#: ../src/ical-code.c:279
+msgid "America/St_Vincent"
+msgstr "中美洲/聖文森"
+
+#: ../src/ical-code.c:280
+msgid "America/Swift_Current"
+msgstr "北美洲/斯威夫特卡倫特"
+
+#: ../src/ical-code.c:281
+msgid "America/Tegucigalpa"
+msgstr "中美洲/德古西加巴"
+
+#: ../src/ical-code.c:282
+msgid "America/Thule"
+msgstr "北美洲/述利"
+
+#: ../src/ical-code.c:283
+msgid "America/Thunder_Bay"
+msgstr "北美洲/雷灣市"
+
+#: ../src/ical-code.c:284
+msgid "America/Tijuana"
+msgstr "北美洲/提華納"
+
+#: ../src/ical-code.c:285
+msgid "America/Tortola"
+msgstr "中美洲/托爾托拉島"
+
+#: ../src/ical-code.c:286
+msgid "America/Vancouver"
+msgstr "北美洲/溫哥華"
+
+#: ../src/ical-code.c:287
+msgid "America/Whitehorse"
+msgstr "北美洲/白馬市"
+
+#: ../src/ical-code.c:288
+msgid "America/Winnipeg"
+msgstr "北美洲/溫尼伯"
+
+#: ../src/ical-code.c:289
+msgid "America/Yakutat"
+msgstr "北美洲/亞庫塔特"
+
+#: ../src/ical-code.c:290
+msgid "America/Yellowknife"
+msgstr "北美洲/黃刀鎮"
+
+#: ../src/ical-code.c:291
+msgid "Antarctica"
+msgstr "南極洲"
+
+#: ../src/ical-code.c:292
+msgid "Antarctica/Casey"
+msgstr "南極洲/凱西研究站"
+
+#: ../src/ical-code.c:293
+msgid "Antarctica/Davis"
+msgstr "南極洲/戴維斯研究站"
+
+#: ../src/ical-code.c:294
+msgid "Antarctica/DumontDUrville"
+msgstr "南極洲/杜蒙杜荷維勒科學中心"
+
+#: ../src/ical-code.c:295
+msgid "Antarctica/Mawson"
+msgstr "南極洲/墨生研究站"
+
+#: ../src/ical-code.c:296
+msgid "Antarctica/McMurdo"
+msgstr "南極洲/麥克馬多基地"
+
+#: ../src/ical-code.c:297
+msgid "Antarctica/Palmer"
+msgstr "南極洲/巴麥"
+
+#: ../src/ical-code.c:298
+msgid "Antarctica/South_Pole"
+msgstr "南極洲/南極點"
+
+#: ../src/ical-code.c:299
+msgid "Antarctica/Syowa"
+msgstr "南極洲/昭和觀測站"
+
+#: ../src/ical-code.c:300
+msgid "Antarctica/Vostok"
+msgstr "南極洲/東方研究站"
+
+#: ../src/ical-code.c:301
+msgid "Arctic"
+msgstr "北極"
+
+#: ../src/ical-code.c:302
+msgid "Arctic/Longyearbyen"
+msgstr "北極/隆伊爾畢"
+
+#: ../src/ical-code.c:303
+msgid "Asia"
+msgstr "亞洲"
+
+#: ../src/ical-code.c:304
+msgid "Asia/Aden"
+msgstr "亞洲/亞丁"
+
+#: ../src/ical-code.c:305
+msgid "Asia/Almaty"
+msgstr "亞洲/阿拉木圖"
+
+#: ../src/ical-code.c:306
+msgid "Asia/Amman"
+msgstr "亞洲/安曼"
+
+#: ../src/ical-code.c:307
+msgid "Asia/Anadyr"
+msgstr "亞洲/阿納德爾"
+
+#: ../src/ical-code.c:308
+msgid "Asia/Aqtau"
+msgstr "亞洲/阿克圖"
+
+#: ../src/ical-code.c:309
+msgid "Asia/Aqtobe"
+msgstr "亞洲/阿克托貝"
+
+#: ../src/ical-code.c:310
+msgid "Asia/Ashgabat"
+msgstr "亞洲/阿什格巴特"
+
+#: ../src/ical-code.c:311
+msgid "Asia/Baghdad"
+msgstr "亞洲/巴格達"
+
+#: ../src/ical-code.c:312
+msgid "Asia/Bahrain"
+msgstr "亞洲/巴林"
+
+#: ../src/ical-code.c:313
+msgid "Asia/Baku"
+msgstr "亞洲/巴庫"
+
+#: ../src/ical-code.c:314
+msgid "Asia/Bangkok"
+msgstr "亞洲/曼谷"
+
+#: ../src/ical-code.c:315
+msgid "Asia/Beirut"
+msgstr "亞洲/貝魯特"
+
+#: ../src/ical-code.c:316
+msgid "Asia/Bishkek"
+msgstr "亞洲/比斯凱克"
+
+#: ../src/ical-code.c:317
+msgid "Asia/Brunei"
+msgstr "亞洲/汶萊"
+
+#: ../src/ical-code.c:318
+msgid "Asia/Calcutta"
+msgstr "亞洲/加爾各答"
+
+#: ../src/ical-code.c:319
+msgid "Asia/Chungking"
+msgstr "亞洲/重慶"
+
+#: ../src/ical-code.c:320
+msgid "Asia/Colombo"
+msgstr "亞洲/可倫坡"
+
+#: ../src/ical-code.c:321
+msgid "Asia/Damascus"
+msgstr "亞洲/大馬士革"
+
+#: ../src/ical-code.c:322
+msgid "Asia/Dhaka"
+msgstr "亞洲/達卡"
+
+#: ../src/ical-code.c:323
+msgid "Asia/Dili"
+msgstr "亞洲/帝利"
+
+#: ../src/ical-code.c:324
+msgid "Asia/Dubai"
+msgstr "亞洲/杜拜"
+
+#: ../src/ical-code.c:325
+msgid "Asia/Dushanbe"
+msgstr "亞洲/杜尚貝"
+
+#: ../src/ical-code.c:326
+msgid "Asia/Gaza"
+msgstr "亞洲/加薩"
+
+#: ../src/ical-code.c:327
+msgid "Asia/Harbin"
+msgstr "亞洲/哈爾濱"
+
+#: ../src/ical-code.c:328
+msgid "Asia/Hong_Kong"
+msgstr "亞洲/香港"
+
+#: ../src/ical-code.c:329
+msgid "Asia/Hovd"
+msgstr "亞洲/科布多"
+
+#: ../src/ical-code.c:330
+msgid "Asia/Irkutsk"
+msgstr "亞洲/伊爾庫玆克"
+
+#: ../src/ical-code.c:331
+msgid "Asia/Istanbul"
+msgstr "亞洲/伊斯坦堡"
+
+#: ../src/ical-code.c:332
+msgid "Asia/Jakarta"
+msgstr "亞洲/雅加達"
+
+#: ../src/ical-code.c:333
+msgid "Asia/Jayapura"
+msgstr "亞洲/加亞布拉港"
+
+#: ../src/ical-code.c:334
+msgid "Asia/Jerusalem"
+msgstr "亞洲/耶路撒冷"
+
+#: ../src/ical-code.c:335
+msgid "Asia/Kabul"
+msgstr "亞洲/喀布爾"
+
+#: ../src/ical-code.c:336
+msgid "Asia/Kamchatka"
+msgstr "亞洲/勘察加半島"
+
+#: ../src/ical-code.c:337
+msgid "Asia/Karachi"
+msgstr "亞洲/喀拉蚩"
+
+#: ../src/ical-code.c:338
+msgid "Asia/Kashgar"
+msgstr "亞洲/喀什噶爾"
+
+#: ../src/ical-code.c:339
+msgid "Asia/Katmandu"
+msgstr "亞洲/加德滿都"
+
+#: ../src/ical-code.c:340
+msgid "Asia/Krasnoyarsk"
+msgstr "亞洲/克拉斯諾雅斯科"
+
+#: ../src/ical-code.c:341
+msgid "Asia/Kuala_Lumpur"
+msgstr "亞洲/吉隆坡"
+
+#: ../src/ical-code.c:342
+msgid "Asia/Kuching"
+msgstr "亞洲/古晉"
+
+#: ../src/ical-code.c:343
+msgid "Asia/Kuwait"
+msgstr "亞洲/科威特"
+
+#: ../src/ical-code.c:344
+msgid "Asia/Macao"
+msgstr "亞洲/澳門"
+
+#: ../src/ical-code.c:345
+msgid "Asia/Magadan"
+msgstr "亞洲/馬加丹"
+
+#: ../src/ical-code.c:346
+msgid "Asia/Manila"
+msgstr "亞洲/馬尼拉"
+
+#: ../src/ical-code.c:347
+msgid "Asia/Muscat"
+msgstr "亞洲/馬斯開特"
+
+#: ../src/ical-code.c:348
+msgid "Asia/Nicosia"
+msgstr "亞洲/尼古西亞"
+
+#: ../src/ical-code.c:349
+msgid "Asia/Novosibirsk"
+msgstr "亞洲/新西伯利亞"
+
+#: ../src/ical-code.c:350
+msgid "Asia/Omsk"
+msgstr "亞洲/鄂木斯克"
+
+#: ../src/ical-code.c:351
+msgid "Asia/Phnom_Penh"
+msgstr "亞洲/金邊"
+
+#: ../src/ical-code.c:352
+msgid "Asia/Pontianak"
+msgstr "亞洲/坤甸"
+
+#: ../src/ical-code.c:353
+msgid "Asia/Pyongyang"
+msgstr "亞洲/平壤"
+
+#: ../src/ical-code.c:354
+msgid "Asia/Qatar"
+msgstr "亞洲/卡達"
+
+#: ../src/ical-code.c:355
+msgid "Asia/Rangoon"
+msgstr "亞洲/仰光"
+
+#: ../src/ical-code.c:356
+msgid "Asia/Riyadh"
+msgstr "亞洲/利雅德"
+
+#: ../src/ical-code.c:357
+msgid "Asia/Saigon"
+msgstr "亞洲/西貢"
+
+#: ../src/ical-code.c:358
+msgid "Asia/Samarkand"
+msgstr "亞洲/撒馬兒罕"
+
+#: ../src/ical-code.c:359
+msgid "Asia/Seoul"
+msgstr "亞洲/首爾"
+
+#: ../src/ical-code.c:360
+msgid "Asia/Shanghai"
+msgstr "亞洲/上海"
+
+#: ../src/ical-code.c:361
+msgid "Asia/Singapore"
+msgstr "亞洲/新加坡"
+
+#: ../src/ical-code.c:362
+msgid "Asia/Taipei"
+msgstr "亞洲/台北"
+
+#: ../src/ical-code.c:363
+msgid "Asia/Tashkent"
+msgstr "亞洲/塔什干"
+
+#: ../src/ical-code.c:364
+msgid "Asia/Tbilisi"
+msgstr "亞洲/提比里西"
+
+#: ../src/ical-code.c:365
+msgid "Asia/Tehran"
+msgstr "亞洲/德黑蘭"
+
+#: ../src/ical-code.c:366
+msgid "Asia/Thimphu"
+msgstr "亞洲/烏魯木齊"
+
+#: ../src/ical-code.c:367
+msgid "Asia/Tokyo"
+msgstr "亞洲/東京"
+
+#: ../src/ical-code.c:368
+msgid "Asia/Ujung_Pandang"
+msgstr "亞洲/錫江"
+
+#: ../src/ical-code.c:369
+msgid "Asia/Ulaanbaatar"
+msgstr "亞洲/烏蘭巴托"
+
+#: ../src/ical-code.c:370
+msgid "Asia/Urumqi"
+msgstr "亞洲/烏魯木齊"
+
+#: ../src/ical-code.c:371
+msgid "Asia/Vientiane"
+msgstr "亞洲/永珍"
+
+#: ../src/ical-code.c:372
+msgid "Asia/Vladivostok"
+msgstr "亞洲/海參崴"
+
+#: ../src/ical-code.c:373
+msgid "Asia/Yakutsk"
+msgstr "亞洲/雅庫次克"
+
+#: ../src/ical-code.c:374
+msgid "Asia/Yekaterinburg"
+msgstr "亞洲/葉卡捷林堡"
+
+#: ../src/ical-code.c:375
+msgid "Asia/Yerevan"
+msgstr "亞洲/葉里溫"
+
+#: ../src/ical-code.c:376
+msgid "Atlantic"
+msgstr "大西洋"
+
+#: ../src/ical-code.c:377
+msgid "Atlantic/Azores"
+msgstr "大西洋/亞速爾群島"
+
+#: ../src/ical-code.c:378
+msgid "Atlantic/Bermuda"
+msgstr "大西洋/百慕達"
+
+#: ../src/ical-code.c:379
+msgid "Atlantic/Canary"
+msgstr "大西洋/加那利群島"
+
+#: ../src/ical-code.c:380
+msgid "Atlantic/Cape_Verde"
+msgstr "大西洋/維德角"
+
+#: ../src/ical-code.c:381
+msgid "Atlantic/Faeroe"
+msgstr "大西洋/法羅群島"
+
+#: ../src/ical-code.c:382
+msgid "Atlantic/Jan_Mayen"
+msgstr "大西洋/珍瑪煙島"
+
+#: ../src/ical-code.c:383
+msgid "Atlantic/Madeira"
+msgstr "大西洋/馬德拉群島"
+
+#: ../src/ical-code.c:384
+msgid "Atlantic/Reykjavik"
+msgstr "大西洋/雷克雅維克"
+
+#: ../src/ical-code.c:385
+msgid "Atlantic/South_Georgia"
+msgstr "大西洋/南喬治亞"
+
+#: ../src/ical-code.c:386
+msgid "Atlantic/St_Helena"
+msgstr "大西洋/聖赫勒拿島"
+
+#: ../src/ical-code.c:387
+msgid "Atlantic/Stanley"
+msgstr "大西洋/史坦利港"
+
+#: ../src/ical-code.c:388
+msgid "Australia"
+msgstr "澳洲"
+
+#: ../src/ical-code.c:389
+msgid "Australia/Adelaide"
+msgstr "澳洲/阿得雷德市"
+
+#: ../src/ical-code.c:390
+msgid "Australia/Brisbane"
+msgstr "澳洲/布里斯本市"
+
+#: ../src/ical-code.c:391
+msgid "Australia/Broken_Hill"
+msgstr "澳洲/斷山"
+
+#: ../src/ical-code.c:392
+msgid "Australia/Darwin"
+msgstr "澳洲/達爾文"
+
+#: ../src/ical-code.c:393
+msgid "Australia/Hobart"
+msgstr "澳洲/荷巴特"
+
+#: ../src/ical-code.c:394
+msgid "Australia/Lindeman"
+msgstr "澳洲/林得曼島"
+
+#: ../src/ical-code.c:395
+msgid "Australia/Lord_Howe"
+msgstr "澳洲/豪勛爵群島"
+
+#: ../src/ical-code.c:396
+msgid "Australia/Melbourne"
+msgstr "澳洲/墨爾本"
+
+#: ../src/ical-code.c:397
+msgid "Australia/Perth"
+msgstr "澳洲/伯斯"
+
+#: ../src/ical-code.c:398
+msgid "Australia/Sydney"
+msgstr "澳洲/雪梨"
+
+#: ../src/ical-code.c:399
+msgid "Europe"
+msgstr "歐洲"
+
+#: ../src/ical-code.c:400
+msgid "Europe/Amsterdam"
+msgstr "歐洲/阿姆斯特丹"
+
+#: ../src/ical-code.c:401
+msgid "Europe/Andorra"
+msgstr "歐洲/安道爾"
+
+#: ../src/ical-code.c:402
+msgid "Europe/Athens"
+msgstr "歐洲/雅典"
+
+#: ../src/ical-code.c:403
+msgid "Europe/Belfast"
+msgstr "歐洲/貝爾法斯特"
+
+#: ../src/ical-code.c:404
+msgid "Europe/Belgrade"
+msgstr "歐洲/貝爾格勒"
+
+#: ../src/ical-code.c:405
+msgid "Europe/Berlin"
+msgstr "歐洲/柏林"
+
+#: ../src/ical-code.c:406
+msgid "Europe/Bratislava"
+msgstr "歐洲/布拉提斯拉瓦"
+
+#: ../src/ical-code.c:407
+msgid "Europe/Brussels"
+msgstr "歐洲/布魯塞爾"
+
+#: ../src/ical-code.c:408
+msgid "Europe/Bucharest"
+msgstr "歐洲/布加勒斯特"
+
+#: ../src/ical-code.c:409
+msgid "Europe/Budapest"
+msgstr "歐洲/布達佩斯"
+
+#: ../src/ical-code.c:410
+msgid "Europe/Chisinau"
+msgstr "歐洲/基西紐"
+
+#: ../src/ical-code.c:411
+msgid "Europe/Copenhagen"
+msgstr "歐洲/哥本哈根"
+
+#: ../src/ical-code.c:412
+msgid "Europe/Dublin"
+msgstr "歐洲/都柏林"
+
+#: ../src/ical-code.c:413
+msgid "Europe/Gibraltar"
+msgstr "歐洲/直布羅陀"
+
+#: ../src/ical-code.c:414
+msgid "Europe/Helsinki"
+msgstr "歐洲/赫爾辛基"
+
+#: ../src/ical-code.c:415
+msgid "Europe/Istanbul"
+msgstr "歐洲/伊斯坦堡"
+
+#: ../src/ical-code.c:416
+msgid "Europe/Kaliningrad"
+msgstr "歐洲/加里寧格勒"
+
+#: ../src/ical-code.c:417
+msgid "Europe/Kiev"
+msgstr "歐洲/基輔"
+
+#: ../src/ical-code.c:418
+msgid "Europe/Lisbon"
+msgstr "歐洲/里斯本"
+
+#: ../src/ical-code.c:419
+msgid "Europe/Ljubljana"
+msgstr "歐洲/盧布亞那"
+
+#: ../src/ical-code.c:420
+msgid "Europe/London"
+msgstr "歐洲/倫敦"
+
+#: ../src/ical-code.c:421
+msgid "Europe/Luxembourg"
+msgstr "歐洲/盧森堡"
+
+#: ../src/ical-code.c:422
+msgid "Europe/Madrid"
+msgstr "歐洲/馬德里"
+
+#: ../src/ical-code.c:423
+msgid "Europe/Malta"
+msgstr "歐洲/馬爾他"
+
+#: ../src/ical-code.c:424
+msgid "Europe/Minsk"
+msgstr "歐洲/明斯克"
+
+#: ../src/ical-code.c:425
+msgid "Europe/Monaco"
+msgstr "歐洲/摩納哥"
+
+#: ../src/ical-code.c:426
+msgid "Europe/Moscow"
+msgstr "歐洲/莫斯科"
+
+#: ../src/ical-code.c:427
+msgid "Europe/Nicosia"
+msgstr "歐洲/尼古西亞"
+
+#: ../src/ical-code.c:428
+msgid "Europe/Oslo"
+msgstr "歐洲/奧斯陸"
+
+#: ../src/ical-code.c:429
+msgid "Europe/Paris"
+msgstr "歐洲/巴黎"
+
+#: ../src/ical-code.c:430
+msgid "Europe/Prague"
+msgstr "歐洲/布拉格"
+
+#: ../src/ical-code.c:431
+msgid "Europe/Riga"
+msgstr "歐洲/里加"
+
+#: ../src/ical-code.c:432
+msgid "Europe/Rome"
+msgstr "歐洲/羅馬"
+
+#: ../src/ical-code.c:433
+msgid "Europe/Samara"
+msgstr "歐洲/薩瑪羅"
+
+#: ../src/ical-code.c:434
+msgid "Europe/San_Marino"
+msgstr "歐洲/聖馬利諾"
+
+#: ../src/ical-code.c:435
+msgid "Europe/Sarajevo"
+msgstr "歐洲/塞拉耶佛"
+
+#: ../src/ical-code.c:436
+msgid "Europe/Simferopol"
+msgstr "歐洲/辛菲羅波爾"
+
+#: ../src/ical-code.c:437
+msgid "Europe/Skopje"
+msgstr "歐洲/史高比耶"
+
+#: ../src/ical-code.c:438
+msgid "Europe/Sofia"
+msgstr "歐洲/索菲亞"
+
+#: ../src/ical-code.c:439
+msgid "Europe/Stockholm"
+msgstr "歐洲/斯德哥爾摩"
+
+#: ../src/ical-code.c:440
+msgid "Europe/Tallinn"
+msgstr "歐洲/塔林"
+
+#: ../src/ical-code.c:441
+msgid "Europe/Tirane"
+msgstr "歐洲/地拉那"
+
+#: ../src/ical-code.c:442
+msgid "Europe/Uzhgorod"
+msgstr "歐洲/烏玆哥洛"
+
+#: ../src/ical-code.c:443
+msgid "Europe/Vaduz"
+msgstr "歐洲/瓦都茲"
+
+#: ../src/ical-code.c:444
+msgid "Europe/Vatican"
+msgstr "歐洲/梵蒂岡"
+
+#: ../src/ical-code.c:445
+msgid "Europe/Vienna"
+msgstr "歐洲/維也納"
+
+#: ../src/ical-code.c:446
+msgid "Europe/Vilnius"
+msgstr "歐洲/維爾紐斯"
+
+#: ../src/ical-code.c:447
+msgid "Europe/Warsaw"
+msgstr "歐洲/華沙"
+
+#: ../src/ical-code.c:448
+msgid "Europe/Zagreb"
+msgstr "歐洲/札格瑞布"
+
+#: ../src/ical-code.c:449
+msgid "Europe/Zaporozhye"
+msgstr "歐洲/扎波羅熱"
+
+#: ../src/ical-code.c:450
+msgid "Europe/Zurich"
+msgstr "歐洲/蘇黎士"
+
+#: ../src/ical-code.c:451
+msgid "Indian"
+msgstr "印度次大陸"
+
+#: ../src/ical-code.c:452
+msgid "Indian/Antananarivo"
+msgstr "印度/安塔那那利弗"
+
+#: ../src/ical-code.c:453
+msgid "Indian/Chagos"
+msgstr "印度/查哥斯群島"
+
+#: ../src/ical-code.c:454
+msgid "Indian/Christmas"
+msgstr "印度/聖誕島"
+
+#: ../src/ical-code.c:455
+msgid "Indian/Cocos"
+msgstr "印度/科克斯島"
+
+#: ../src/ical-code.c:456
+msgid "Indian/Comoro"
+msgstr "印度/科摩洛群島"
+
+#: ../src/ical-code.c:457
+msgid "Indian/Kerguelen"
+msgstr "印度/克格連群島"
+
+#: ../src/ical-code.c:458
+msgid "Indian/Mahe"
+msgstr "印度/馬埃"
+
+#: ../src/ical-code.c:459
+msgid "Indian/Maldives"
+msgstr "印度/馬爾地夫"
+
+#: ../src/ical-code.c:460
+msgid "Indian/Mauritius"
+msgstr "印度/模里西斯"
+
+#: ../src/ical-code.c:461
+msgid "Indian/Mayotte"
+msgstr "印度/馬約特"
+
+#: ../src/ical-code.c:462
+msgid "Indian/Reunion"
+msgstr "印度/留尼旺島"
+
+#: ../src/ical-code.c:463
+msgid "Pacific"
+msgstr "太平洋"
+
+#: ../src/ical-code.c:464
+msgid "Pacific/Apia"
+msgstr "太平洋/阿庇亞"
+
+#: ../src/ical-code.c:465
+msgid "Pacific/Auckland"
+msgstr "太平洋/奧克蘭"
+
+#: ../src/ical-code.c:466
+msgid "Pacific/Chatham"
+msgstr "太平洋/查坦島"
+
+#: ../src/ical-code.c:467
+msgid "Pacific/Easter"
+msgstr "太平洋/復活節島"
+
+#: ../src/ical-code.c:468
+msgid "Pacific/Efate"
+msgstr "太平洋/艾法特島"
+
+#: ../src/ical-code.c:469
+msgid "Pacific/Enderbury"
+msgstr "太平洋/恩得伯利島"
+
+#: ../src/ical-code.c:470
+msgid "Pacific/Fakaofo"
+msgstr "太平洋/法考福環礁"
+
+#: ../src/ical-code.c:471
+msgid "Pacific/Fiji"
+msgstr "太平洋/斐濟"
+
+#: ../src/ical-code.c:472
+msgid "Pacific/Funafuti"
+msgstr "太平洋/富那富提"
+
+#: ../src/ical-code.c:473
+msgid "Pacific/Galapagos"
+msgstr "太平洋/龜島群島"
+
+#: ../src/ical-code.c:474
+msgid "Pacific/Gambier"
+msgstr "太平洋/甘比爾群島"
+
+#: ../src/ical-code.c:475
+msgid "Pacific/Guadalcanal"
+msgstr "太平洋/瓜達卡納爾"
+
+#: ../src/ical-code.c:476
+msgid "Pacific/Guam"
+msgstr "太平洋/關島"
+
+#: ../src/ical-code.c:477
+msgid "Pacific/Honolulu"
+msgstr "太平洋/檀香山"
+
+#: ../src/ical-code.c:478
+msgid "Pacific/Johnston"
+msgstr "太平洋/京斯頓礁群"
+
+#: ../src/ical-code.c:479
+msgid "Pacific/Kiritimati"
+msgstr "太平洋/聖誕島"
+
+#: ../src/ical-code.c:480
+msgid "Pacific/Kosrae"
+msgstr "太平洋/庫賽埃島"
+
+#: ../src/ical-code.c:481
+msgid "Pacific/Kwajalein"
+msgstr "太平洋/瓜佳蓮市"
+
+#: ../src/ical-code.c:482
+msgid "Pacific/Majuro"
+msgstr "太平洋/馬紹爾"
+
+#: ../src/ical-code.c:483
+msgid "Pacific/Marquesas"
+msgstr "太平洋/馬貴士群島"
+
+#: ../src/ical-code.c:484
+msgid "Pacific/Midway"
+msgstr "太平洋/中途島"
+
+#: ../src/ical-code.c:485
+msgid "Pacific/Nauru"
+msgstr "太平洋/諾魯"
+
+#: ../src/ical-code.c:486
+msgid "Pacific/Niue"
+msgstr "太平洋/紐埃"
+
+#: ../src/ical-code.c:487
+msgid "Pacific/Norfolk"
+msgstr "太平洋/諾福克島"
+
+#: ../src/ical-code.c:488
+msgid "Pacific/Noumea"
+msgstr "太平洋/努米亞"
+
+#: ../src/ical-code.c:489
+msgid "Pacific/Pago_Pago"
+msgstr "太平洋/巴哥巴哥"
+
+#: ../src/ical-code.c:490
+msgid "Pacific/Palau"
+msgstr "太平洋/帛琉"
+
+#: ../src/ical-code.c:491
+msgid "Pacific/Pitcairn"
+msgstr "太平洋/庇開恩島"
+
+#: ../src/ical-code.c:492
+msgid "Pacific/Ponape"
+msgstr "太平洋/波納佩"
+
+#: ../src/ical-code.c:493
+msgid "Pacific/Port_Moresby"
+msgstr "太平洋/莫士比港"
+
+#: ../src/ical-code.c:494
+msgid "Pacific/Rarotonga"
+msgstr "太平洋/拉羅東加"
+
+#: ../src/ical-code.c:495
+msgid "Pacific/Saipan"
+msgstr "太平洋/塞班島"
+
+#: ../src/ical-code.c:496
+msgid "Pacific/Tahiti"
+msgstr "太平洋/大溪地"
+
+#: ../src/ical-code.c:497
+msgid "Pacific/Tarawa"
+msgstr "太平洋/塔拉瓦"
+
+#: ../src/ical-code.c:498
+msgid "Pacific/Tongatapu"
+msgstr "太平洋/東加大浦"
+
+#: ../src/ical-code.c:499
+msgid "Pacific/Truk"
+msgstr "太平洋/特魯克"
+
+#: ../src/ical-code.c:500
+msgid "Pacific/Wake"
+msgstr "太平洋/威克島"
+
+#: ../src/ical-code.c:501
+msgid "Pacific/Wallis"
+msgstr "太平洋/沃里斯"
+
+#: ../src/ical-code.c:502
+msgid "Pacific/Yap"
+msgstr "太平洋/雅浦"
+
+#: ../src/ical-code.c:1329
+msgid "Orage default alarm"
+msgstr "Orage 預設提醒"
+
+#: ../src/ical-code.c:3023
+#, c-format
+msgid "Build alarm list: Added %d alarms. Processed %d events."
+msgstr ""
+
+#: ../src/ical-code.c:3025
+#, c-format
+msgid ""
+"\tFound %d alarms of which %d are active. (Searched %d recurring alarms.)"
+msgstr ""
+
+#. remove since it has ended
+#: ../src/ical-code.c:3542
+msgid "\tRecur ended, moving to archive file."
+msgstr ""
+
+#: ../src/ical-code.c:3604
+msgid "Archiving not enabled. Exiting"
+msgstr ""
+
+#: ../src/ical-code.c:3622
+#, fuzzy, c-format
+msgid "Archiving threshold: %d month(s)"
+msgstr "封存門檻"
+
+#. yy mon day
+#: ../src/ical-code.c:3625
+#, c-format
+msgid "\tArchiving events, which are older than: %04d-%02d-%02d"
+msgstr ""
+
+#: ../src/ical-code.c:3652
+#, fuzzy, c-format
+msgid "Archiving uid: %s"
+msgstr "封存檔案"
+
+#. VTODO not completed, do not archive
+#: ../src/ical-code.c:3658
+msgid "\tVTODO not complete; not archived"
+msgstr ""
+
+#. it is recurrent event
+#: ../src/ical-code.c:3663
+#, c-format
+msgid "\tRecurring. End year: %04d, month: %02d, day: %02d"
+msgstr ""
+
+#: ../src/ical-code.c:3680
+#, fuzzy
+msgid "Archiving done\n"
+msgstr "封存檔案"
+
+#. PHASE 1: go through base orage file and remove "repeat" shortcuts
+#: ../src/ical-code.c:3696
+#, fuzzy
+msgid "Starting archive removal."
+msgstr "封存門檻"
+
+#: ../src/ical-code.c:3697
+msgid "\tPHASE 1: reset recurring appointments"
+msgstr ""
+
+#. PHASE 2: go through archive file and add everything back to base orage.
+#. * After that delete the whole arch file
+#: ../src/ical-code.c:3719
+msgid "\tPHASE 2: return archived appointments"
+msgstr ""
+
+#: ../src/ical-code.c:3745
+#, fuzzy
+msgid "Archive removal done\n"
+msgstr "封存門檻"
+
+#: ../src/ical-code.c:3835
+msgid "Starting import file preprocessing"
+msgstr ""
+
+#: ../src/ical-code.c:3870
+msgid "... Patched DCREATED to be CREATED."
+msgstr ""
+
+#: ../src/ical-code.c:3909
+msgid "... Patched timezone to Orage format."
+msgstr ""
+
+#: ../src/ical-code.c:3918
+msgid "Import file preprocessing done"
+msgstr ""
+
+#. show it
+#: ../src/ical-code.c:4506
+msgid "Pick timezone"
+msgstr "選擇時區"
+
+#: ../src/ical-code.c:4509 ../src/ical-code.c:4537
+msgid "UTC"
+msgstr "國際標準時間"
+
+#: ../src/ical-code.c:4510 ../src/ical-code.c:4541 ../src/parameters.c:492
+msgid "floating"
+msgstr "浮動"
+
+#: ../src/interface.c:284
+msgid "Calendar files"
+msgstr "日曆檔案"
+
+#: ../src/interface.c:626
+msgid "Current foreign files"
+msgstr ""
+
+#: ../src/interface.c:638
+msgid "READ ONLY"
+msgstr ""
+
+#: ../src/interface.c:640
+msgid "READ WRITE"
+msgstr ""
+
+#: ../src/interface.c:658
+msgid "***** No foreign files *****"
+msgstr ""
+
+#: ../src/interface.c:968
+msgid "Import/export"
+msgstr ""
+
+#: ../src/interface.c:975
+msgid "Import"
+msgstr ""
+
+#: ../src/interface.c:980
+#, fuzzy
+msgid "Read from file:"
+msgstr "封存檔案"
+
+#: ../src/interface.c:997
+msgid ""
+"Separate filenames with comma(,).\n"
+" NOTE: comma is not valid character in filenames for Orage."
+msgstr ""
+
+#: ../src/interface.c:1002
+msgid "Export"
+msgstr ""
+
+#: ../src/interface.c:1007
+#, fuzzy
+msgid "Write to file:"
+msgstr "封存檔案"
+
+#: ../src/interface.c:1028 ../src/interface.c:1040
+#, fuzzy
+msgid "Select"
+msgstr "刪除"
+
+#: ../src/interface.c:1031
+#, fuzzy
+msgid "All appointments"
+msgstr "新約會"
+
+#: ../src/interface.c:1044
+#, fuzzy
+msgid "Named appointments: "
+msgstr "新約會"
+
+#: ../src/interface.c:1056
+msgid ""
+"Note that only main file appointments are read.\n"
+"Archived and Foreign events are not exported."
+msgstr ""
+
+#: ../src/interface.c:1059
+msgid ""
+"Note that only main file appointments are read.\n"
+"Foreign events are not exported."
+msgstr ""
+
+#: ../src/interface.c:1062
+msgid "You can easily drag these from event-list window."
+msgstr ""
+
+#: ../src/interface.c:1064
+msgid "Orage appointment UIDs separated by commas."
+msgstr ""
+
+#: ../src/interface.c:1070
+#, fuzzy
+msgid "Archive"
+msgstr "封存檔案"
+
+#: ../src/interface.c:1078
+#, fuzzy, c-format
+msgid "Archive now (threshold: %d months)"
+msgstr "封存門檻"
+
+#: ../src/interface.c:1088
+msgid "You can change archive threshold in parameters"
+msgstr ""
+
+#: ../src/interface.c:1095
+msgid "Revert archive now"
+msgstr ""
+
+#: ../src/interface.c:1101
+msgid ""
+"Return all archived events into main orage file and remove arch file.\n"
+"This is useful for example when doing export and moving orage\n"
+"appointments to another system."
+msgstr ""
+
+#: ../src/interface.c:1111
+#, fuzzy
+msgid "Orage files"
+msgstr "Orage 偏好設定"
+
+#: ../src/interface.c:1118
+#, fuzzy
+msgid "Orage main calendar file"
+msgstr "月曆"
+
+#: ../src/interface.c:1123 ../src/interface.c:1188
+#, fuzzy
+msgid "Current file"
+msgstr "封存檔案"
+
+#: ../src/interface.c:1130 ../src/interface.c:1195
+#, fuzzy
+msgid "New file"
+msgstr "封存檔案"
+
+#: ../src/interface.c:1146 ../src/interface.c:1212
+msgid "Action options"
+msgstr ""
+
+#: ../src/interface.c:1149 ../src/interface.c:1215
+msgid "Rename"
+msgstr ""
+
+#: ../src/interface.c:1153
+msgid ""
+"Orage internal file rename only.\n"
+"Does not touch external filesystem at all.\n"
+"New file must exist."
+msgstr ""
+
+#: ../src/interface.c:1157 ../src/interface.c:1220
+msgid "Copy"
+msgstr ""
+
+#: ../src/interface.c:1161
+msgid "Current file is copied and stays unmodified in the old place."
+msgstr ""
+
+#: ../src/interface.c:1165 ../src/interface.c:1225
+msgid "Move"
+msgstr ""
+
+#: ../src/interface.c:1169
+msgid "Current file is moved and vanishes from the old place."
+msgstr ""
+
+#: ../src/interface.c:1183
+msgid "Archive file"
+msgstr "封存檔案"
+
+#: ../src/interface.c:1246
+msgid "Foreign files"
+msgstr ""
+
+#: ../src/interface.c:1253
+msgid "Add new foreign file"
+msgstr ""
+
+#: ../src/interface.c:1258
+msgid "Foreign file:"
+msgstr ""
+
+#: ../src/interface.c:1276
+#, fuzzy
+msgid "Options"
+msgstr "時鐘選項"
+
+#: ../src/interface.c:1278
+msgid "Read only"
+msgstr ""
+
+#: ../src/interface.c:1286
+msgid ""
+"Set this if you want to make sure that this file is never modified by "
+"Orage.\n"
+"Note that modifying foreign files may make them incompatible with the "
+"original tool, where they came from!"
+msgstr ""
+
+#: ../src/interface.c:1300
+msgid "Exchange data - Orage"
+msgstr ""
+
+#: ../src/main.c:192
+#, c-format
+msgid ""
+"\tThis is %s version %s for Xfce %s\n"
+"\n"
+msgstr ""
+
+#: ../src/main.c:194
+#, c-format
+msgid "\tReleased under the terms of the GNU General Public License.\n"
+msgstr ""
+
+#: ../src/main.c:195
+#, c-format
+msgid "\tCompiled against GTK+-%d.%d.%d, "
+msgstr ""
+
+#: ../src/main.c:197
+#, c-format
+msgid "using GTK+-%d.%d.%d.\n"
+msgstr ""
+
+#: ../src/main.c:200
+#, c-format
+msgid "\tUsing DBUS for import.\n"
+msgstr ""
+
+#: ../src/main.c:202
+#, c-format
+msgid "\tNot using DBUS. Import works only partially.\n"
+msgstr ""
+
+#: ../src/main.c:205
+#, c-format
+msgid "\tUsing libnotify.\n"
+msgstr ""
+
+#: ../src/main.c:207
+#, c-format
+msgid "\tNot using libnotify.\n"
+msgstr ""
+
+#: ../src/main.c:210
+#, c-format
+msgid "\tUsing automatic archiving.\n"
+msgstr ""
+
+#: ../src/main.c:212
+#, c-format
+msgid "\tNot using archiving.\n"
+msgstr ""
+
+#: ../src/main.c:225
+#, c-format
+msgid ""
+"Usage: orage [options] [files]\n"
+"\n"
+msgstr ""
+
+#: ../src/main.c:226
+#, fuzzy, c-format
+msgid "Options:\n"
+msgstr "時鐘選項"
+
+#: ../src/main.c:227
+#, c-format
+msgid "--version (-v) \t\tshow version of orage\n"
+msgstr ""
+
+#: ../src/main.c:228
+#, c-format
+msgid "--help (-h) \t\tprint this text\n"
+msgstr ""
+
+#: ../src/main.c:229
+#, c-format
+msgid "--preferences (-p) \tshow preferences form\n"
+msgstr ""
+
+#: ../src/main.c:230
+#, c-format
+msgid "--toggle (-t) \t\tmake orage visible/unvisible\n"
+msgstr ""
+
+#: ../src/main.c:231
+#, c-format
+msgid "--add-foreign (-a) file [RW] \tadd a foreign file\n"
+msgstr ""
+
+#: ../src/main.c:232
+#, c-format
+msgid "--remove-foreign (-r) file \tremove a foreign file\n"
+msgstr ""
+
+#: ../src/main.c:234
+#, c-format
+msgid "files=ical files to load into orage\n"
+msgstr ""
+
+#: ../src/main.c:236
+#, c-format
+msgid "\tdbus not included in orage. \n"
+msgstr ""
+
+#: ../src/main.c:237
+#, c-format
+msgid ""
+"\twithout dbus [files] and foreign file options(-a & -r) can only be used "
+"when starting orage \n"
+msgstr ""
+
+#: ../src/main.c:380
+#, c-format
+msgid ""
+"\n"
+"Unknown option %s\n"
+"\n"
+msgstr ""
+
+#: ../src/mainbox.c:269
+msgid "_Exchange data"
+msgstr ""
+
+#. Edit menu
+#: ../src/mainbox.c:280
+msgid "_Edit"
+msgstr "編輯(_E)"
+
+#: ../src/mainbox.c:290
+msgid "View selected _date"
+msgstr "檢視所選的日期(_D)"
+
+#: ../src/mainbox.c:293
+#, fuzzy
+msgid "View selected _week"
+msgstr "檢視所選的日期(_D)"
+
+#: ../src/mainbox.c:299
+msgid "Select _Today"
+msgstr "選擇今天日期(_T)"
+
+#. Help menu
+#: ../src/mainbox.c:303
+msgid "_Help"
+msgstr "說明(_H)"
+
+#: ../src/mainbox.c:401
+#, fuzzy
+msgid "Never"
+msgstr "永不"
+
+#: ../src/mainbox.c:406
+#, c-format
+msgid ""
+"Title: %s\n"
+" Start:\t%s\n"
+" Due:\t%s\n"
+" Done:\t%s\n"
+"Note:\n"
+"%s"
+msgstr ""
+
+#: ../src/mainbox.c:412
+#, c-format
+msgid ""
+"Title: %s\n"
+" Start:\t%s\n"
+" End:\t%s\n"
+" Note:\n"
+"%s"
+msgstr ""
+
+#: ../src/mainbox.c:487
+msgid "<b>To do:</b>"
+msgstr ""
+
+#: ../src/mainbox.c:516
+#, c-format
+msgid "<b>Events for %s:</b>"
+msgstr ""
+
+#: ../src/parameters.c:472
+msgid "Main setups"
+msgstr ""
+
+#: ../src/parameters.c:478
+msgid "Timezone"
+msgstr "時區"
+
+#: ../src/parameters.c:497
+msgid "You should always define your local timezone."
+msgstr ""
+
+#: ../src/parameters.c:506
+#, fuzzy
+msgid "Archive threshold (months)"
+msgstr "封存門檻"
+
+#: ../src/parameters.c:516
+msgid "(0 = no archiving)"
+msgstr ""
+
+#: ../src/parameters.c:519
+msgid "Archiving is used to save time and space when handling events."
+msgstr ""
+
+#: ../src/parameters.c:528
+msgid "Sound command"
+msgstr ""
+
+#: ../src/parameters.c:543
+msgid "This command is given to shell to make sound in alarms."
+msgstr ""
+
+#: ../src/parameters.c:558
+msgid "Display"
+msgstr "顯示"
+
+#: ../src/parameters.c:565
+#, fuzzy
+msgid "Calendar main window"
+msgstr "月曆視窗"
+
+#: ../src/parameters.c:570
+#, fuzzy
+msgid "Show borders"
+msgstr "顯示框格(_F)"
+
+#: ../src/parameters.c:577
+#, fuzzy
+msgid "Show menu"
+msgstr "顯示框格(_F)"
+
+#: ../src/parameters.c:584
+#, fuzzy
+msgid "Show todo list"
+msgstr "顯示框格(_F)"
+
+#: ../src/parameters.c:591
+#, fuzzy
+msgid "Show event list"
+msgstr "在系統匣中顯示"
+
+#: ../src/parameters.c:598
+msgid "Set sticked"
+msgstr ""
+
+#: ../src/parameters.c:605
+#, fuzzy
+msgid "Set on top"
+msgstr "設定時區為:"
+
+#: ../src/parameters.c:626
+msgid "Show in taskbar"
+msgstr "在工作列中顯示"
+
+#: ../src/parameters.c:633
+msgid "Show in pager"
+msgstr "在頁面切換器中顯示"
+
+#: ../src/parameters.c:640
+msgid "Show in systray"
+msgstr "在系統匣中顯示"
+
+#: ../src/parameters.c:657
+msgid "Calendar start"
+msgstr "月曆啟動"
+
+#: ../src/parameters.c:674
+msgid "Hide"
+msgstr "隱藏"
+
+#: ../src/parameters.c:686
+msgid "Minimized"
+msgstr "最小化"
+
+#: ../src/parameters.c:716
+msgid "Extra setups"
+msgstr ""
+
+#: ../src/parameters.c:723 ../src/parameters.c:728
+#, fuzzy
+msgid "Select always today"
+msgstr "選擇今天日期(_T)"
+
+#: ../src/parameters.c:734
+msgid ""
+"When showing main calendar, set pointer to either previously selected day or "
+"always to current day."
+msgstr ""
+
+#: ../src/parameters.c:765
+msgid "Dynamic icon size"
+msgstr ""
+
+#: ../src/parameters.c:778 ../src/parameters.c:795
+msgid "(0 = use static icon)"
+msgstr ""
+
+#: ../src/parameters.c:781
+msgid ""
+"Dynamic icon shows current day and month. It is visible only in tray. If "
+"tray is too small for dynamic icon size, Orage switches automatically back "
+"to static icon."
+msgstr ""
+
+#: ../src/parameters.c:804
+msgid "Main Calendar double click shows"
+msgstr ""
+
+#: ../src/parameters.c:809
+msgid "Days view"
+msgstr ""
+
+#: ../src/parameters.c:821
+msgid "Event list"
+msgstr ""
+
+#: ../src/parameters.c:846
+msgid "Orage Preferences"
+msgstr "Orage 偏好設定"
+
+#: ../src/reminder.c:425
+msgid "Reminder "
+msgstr "提醒"
+
+#: ../src/reminder.c:449
+msgid "Open"
+msgstr ""
+
+#: ../src/reminder.c:539
+#, fuzzy
+msgid "Reminder - Orage"
+msgstr "提醒"
+
+#: ../src/reminder.c:844
+msgid "Next active alarms:"
+msgstr ""
+
+#: ../src/reminder.c:872
+#, c-format
+msgid ""
+"\n"
+"%02d d %02d h %02d min to: %s"
+msgstr ""
+
+#: ../src/reminder.c:880
+#, fuzzy, c-format
+msgid ""
+"\n"
+"No active alarms found"
+msgstr "重複提醒鈴聲"
+
+#: ../src/tray_icon.c:341
+msgid "New appointment"
+msgstr "新約會"
+
+#: ../src/tray_icon.c:361
+msgid "About Orage"
+msgstr "關於Orage"
+
+#: ../panel-plugin/orageclock.desktop.in.in.h:1
+msgid "Orage Clock"
+msgstr "Orage 時鐘"
+
+#: ../panel-plugin/orageclock.desktop.in.in.h:2
+msgid "What time and date is it?"
+msgstr "請問現在的時間與日期"
+
+#: ../plugin/xfce-xfcalendar-settings.desktop.in.h:1
+#: ../xfcalendar.desktop.in.h:1
+msgid "Calendar"
+msgstr "月曆"
+
+#: ../plugin/xfce-xfcalendar-settings.desktop.in.h:2
+msgid "Calendar Settings"
+msgstr "月曆偏好設定"
+
+#: ../plugin/xfce-xfcalendar-settings.desktop.in.h:3
+msgid "Settings for the Xfce 4 Calendar Application"
+msgstr "設定 Xfce 4 的月曆程式"
+
+#: ../plugin/xfce-xfcalendar-settings.desktop.in.h:4
+msgid "Xfce 4 Calendar Settings"
+msgstr "Xfce 4 月曆偏好設定"
+
+#: ../xfcalendar.desktop.in.h:2
+msgid "Desktop calendar"
+msgstr "桌面月曆"
+
+#, fuzzy
+#~ msgid "Monday"
+#~ msgstr "今天"
+
+#, fuzzy
+#~ msgid "Tuesday"
+#~ msgstr "今天"
+
+#, fuzzy
+#~ msgid "Wednesday"
+#~ msgstr "每星期"
+
+#, fuzzy
+#~ msgid "Thursday"
+#~ msgstr "今天"
+
+#, fuzzy
+#~ msgid "Friday"
+#~ msgstr "天"
+
+#, fuzzy
+#~ msgid "Sunday"
+#~ msgstr "鈴聲"
+
+#, fuzzy
+#~ msgid "Days"
+#~ msgstr "天"
+
+#, fuzzy
+#~ msgid "normal"
+#~ msgstr "一般"
+
+#~ msgid "%m/%d/%Y"
+#~ msgstr "%m/%d/%Y"
+
+#, fuzzy
+#~ msgid "Calendar Files"
+#~ msgstr "日曆檔案"
+
+#~ msgid "Calendar borders"
+#~ msgstr "月曆邊界"
+
+#~ msgid "Displayed"
+#~ msgstr "已顯示"
+
+#~ msgid "Hidden"
+#~ msgstr "隱藏"
+
+#~ msgid "3 months"
+#~ msgstr "3 個月"
+
+#~ msgid "6 months"
+#~ msgstr "6 個月"
+
+#~ msgid "1 year"
+#~ msgstr "1 年"
+
+#~ msgid "Application"
+#~ msgstr "應用程式"
+
+#~ msgid "Button Label|Orage"
+#~ msgstr "Orage"
+
+#~ msgid "Core developer"
+#~ msgstr "核心開發者"
+
+#~ msgid ""
+#~ "You will remove all information \n"
+#~ "associated with this date."
+#~ msgstr "您將刪除與該日期有關的所有資訊。"
+
+#~ msgid "Clear"
+#~ msgstr "清除"
+
+#~ msgid "uid"
+#~ msgstr "uid"
+
+#~ msgid "This should not happen"
+#~ msgstr "不應發生此種情況"
+
+#~ msgid "Cannot create MCS client channel"
+#~ msgstr "無法建立 MCS 客戶端通道"
+
+#~ msgid "Open archive file..."
+#~ msgstr "開啟封存檔案..."
+
+#~ msgid "Close archive file"
+#~ msgstr "關閉封存檔案"

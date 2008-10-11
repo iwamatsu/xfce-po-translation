@@ -1,0 +1,315 @@
+2008-06-07	Diego Ongaro <ongardie@gmail.com>
+
+	* NEWS, configure.in.in: Prep for 1.1 release
+	* view.c: Fix build for GTK versions before 2.10
+	* cfg.c: Revert "Make label insensitive when not shown" (this
+	label is used for the tooltip also)
+
+2008-05-01	Diego Ongaro <ongardie@gmail.com>
+
+	* cfg.c: Make label insensitive when not shown
+	* view.c: Disable the Recent Docs menu item if there are none.
+
+2008-04-06	Diego Ongaro <ongardie@gmail.com>
+
+	* view.c: Reposition Recent Docs submenu after "changed" signal.
+	Hide Clear option when there are no Recent Docs (Bug #3871).
+	Reposition Recent Documents submenu after Clear (Bug #3872).
+
+2008-02-16	Diego Ongaro <ongardie@gmail.com>
+
+	* model_user.c: Fix build on amd64
+
+2008-01-07	Diego Ongaro <ongardie@gmail.com>
+
+	* button.{c,h}: Created a button widget to modularize view code
+	* cfg.{c,h}: Made the interface between the view and cfg saner
+	* view.{c,h}: Moved stuff out of this file (see above)
+
+2007-12-13	Diego Ongaro <ongardie@gmail.com>
+
+	* model.h, model_volumes.c, view.c: Provide visual feedback on
+	actions that could take a long time to return
+	* model.{c,h}, support.c, model_volumes.c: add
+	places_bookmark_action_new() as counter-part to
+	places_bookmark_action_free()
+	* model*, support.c, view.c: consistent usage of _create(),
+	_finalize(), _destroy() naming convention
+
+2007-12-10	Diego Ongaro <ongardie@gmail.com>
+
+	* view.c: Bug: label didn't change when already shown
+	* view.c: Use GtkTooltip API when available
+	* model_volumes.c, support.{c,h}: Show error messages when
+	mounts/unmounts fail
+
+2007-12-09	Diego Ongaro <ongardie@gmail.com>
+
+	* *: Improve compatibility with older versions of libs
+	* xfce4-popup-places.{c,h}, view.c, Makefile.am: Bug #3672:
+	popup command (thanks to Mike for the patch)
+
+2007-12-08	Diego Ongaro <ongardie@gmail.com>
+
+	* model_user.c: Bug #3728: bookmarks may become (un)reachable
+
+2007-10-31	Diego Ongaro <ongardie@gmail.com>
+
+	* cfg.c: Bug #3637: Make options for recent documents transient
+
+2007-10-25	Diego Ongaro <ongardie@gmail.com>
+
+	* model.c: Don't debug (possibly invalid) bookmark label on free
+	* cfg.c: String change
+	* Prep for v1.0.0
+	* NEWS: fix typo
+
+2007-10-22	Diego Ongaro <ongardie@gmail.com>
+
+	* configure.ac, po/POTFILES.in: fix make distcheck errors
+
+2007-10-16	Diego Ongaro <ongardie@gmail.com>
+
+	* model_user.c: Don't always return TRUE in changed() when
+	~/.gtk-bookmarks is missing (resulted in menu "blinking")
+	* model*.c: Use places_bookmark_create() as counterpart to
+	places_bookmark_free()
+	* model_volumes.c: Added "Mount and Open" action for Bug #3565
+	* model.h, view.c: Added force_gray option to bookmarks for
+	Bug #3565
+	* cfg.{c,h}, model_volumes.c, view.c: Add "Mount and Open by
+	default" preference (closes Bug #3565)
+
+2007-10-15	Diego Ongaro <ongardie@gmail.com>
+
+	* view.c: Bug #3605 - individually show menu items instead of
+	using show_all to avoid incorrectly showing "No items found" in
+	the Recent Documents submenu on GTK 2.12
+
+2007-09-28	Diego Ongaro <ongardie@gmail.com>
+
+	* view.c: Use XfceHVBox
+
+2007-09-24	Diego Ongaro <ongardie@gmail.com>
+
+	* places.{c,h}, support.{c,h}: Created support with the parts
+	of places that didn't belong.
+	* view.c, support.{c,h}: Moved "Open" and "Open Terminal Here"
+	action creation into support.
+	* view.c, model.h: Added primary action to bookmarks
+	* view.c, model*.c: Model now defines all bookmark actions
+
+2007-09-20	Diego Ongaro <ongardie@gmail.com>
+
+	* view.c: Adopt notes plugin menu position function (better
+	behavior for floating panels)
+
+2007-09-14	Diego Ongaro <ongardie@gmail.com>
+
+	* {cfg,view,places}.c: Replace strlen with checks against '\0'
+
+2007-09-12	Diego Ongaro <ongardie@gmail.com>
+
+	* cfg.h: Don't define recent documents settings if compiled w/o.
+	* cfg.{c,h}: Clean-up, added more assertions
+	* view.{c,h}: Clean-up. Improved sizing algorithm.
+	* cfg.c: Fix: couldn't open menu with the search cmd field focused
+	* Prep for v0.9.992 (1.0beta2)
+
+2007-09-11	Diego Ongaro <ongardie@gmail.com>
+
+	* places.{c,h}, view.{c,h}, cfg.{c,h}: Large shuffling of GUI
+	code
+	* *.{c,h}: Added purpose to top of each file
+
+2007-09-07	Diego Ongaro <ongardie@gmail.com>
+
+	* view.c: places_load_thunar_wrapper() should load thunar, not
+	terminal (context menu "Open" action)
+	* view.c: improve how icon theme changes and screen changes are
+	handled
+	* *.{c,h}: removed all C++-style comments
+	* view.c: added menu timeout to poll for model changes
+
+2007-08-23	Diego Ongaro <ongardie@gmail.com>
+
+	* HACKING: updated to reflect current model
+
+2007-08-22	Diego Ongaro <ongardie@gmail.com>
+
+	* view.c: Avoid infinite icon theme changed signals on etch
+
+2007-08-18	Diego Ongaro <ongardie@gmail.com>
+
+	* view.c: Fix bug 3471 (Rightclick action pins autohidden panel)
+
+2007-08-15	Diego Ongaro <ongardie@gmail.com>
+
+	* Prep for v0.9.991 (1.0beta1)
+	* view.c: If left-click is disabled, do right-click action.
+
+2007-08-12	Diego Ongaro <ongardie@gmail.com>
+
+	* model_volumes.c: set changed when volumes added/removed
+	* view.c: free GList's of PlacesBookmarks
+
+2007-08-11	Diego Ongaro <ongardie@gmail.com>
+
+	* Large model refactoring for flexibility, maintainability.
+
+2007-08-10	Diego Ongaro <ongardie@gmail.com>
+
+	* Clicking on Recent Changes -> Clear no longer hides the menu
+
+2007-08-05	Diego Ongaro <ongardie@gmail.com>
+
+	* Improved BookmarkAction concept.
+	* Fixed bad mount points bug.
+	* Avoid failing xfce_rc_write_entry assertion when
+	cfg->search_cmd is NULL
+	* Made "Eject" actually eject
+
+2007-07-28	Diego Ongaro <ongardie@gmail.com>
+
+	* Handle alternate menu actions better.
+
+2007-07-26	Diego Ongaro <ongardie@gmail.com>
+
+	* Fixed bug #3350 (Expression compares a char* pointer with a
+	string literal)
+
+2007-07-13	Diego Ongaro <ongardie@gmail.com>
+
+	* Merged in umount branch at r1908 (now obsolete):
+	 - added "actions" to bookmarks.
+	 - added unmount/mount actions to volumes.
+	 - added Open Terminal Here action.
+
+2007-06-04	Diego Ongaro <ongardie@gmail.com>
+
+	* Fix BookmarkInfo-related memory leaks
+
+2007-06-03	Diego Ongaro <ongardie@gmail.com>
+
+	* Use exo_str_is_equal (adds direct exo dependency)
+	* Added optional search command
+	* Use thunar-vfs to get and update trash icon (empty/full)
+
+2007-05-22	Diego Ongaro <ongardie@gmail.com>
+
+	* Changed to lazily adding menu separators to avoid extra
+	trailing separator when recent documents are not shown.
+
+2007-05-17	Diego Ongaro <ongardie@gmail.com>
+
+	* Button's "Image" -> "Icon" and clarified variable names.
+	* Added cfg.c, cfg.h to POTFILES.in
+	* Ran intltool-update on po files
+	* Preparing for v0.3 release
+
+2007-05-15	Diego Ongaro <ongardie@gmail.com>
+
+	* Improved consistency of configuration dialog frames with other
+	plugins.
+	* Fixed Bug #3237 (Places won't compile on Debian testing)
+	* Open Thunar on middle-click (Bug #3239)
+
+2007-05-14	Diego Ongaro <ongardie@gmail.com>
+
+	* Moved configuration code into cfg.h, cfg.c.
+	* Don't compile in Recent Documents configuration code on older
+	versions of GTK.
+	* Set icon on and centered configuration dialog.
+
+2007-05-13	Diego Ongaro <ongardie@gmail.com>
+
+	* Added "Places" label and configuration settings for 
+	show_image, show_label, show_icons, label, 
+	show_recent, show_recent_clear, show_recent_num,
+	show_volumes, show_bookmarks.
+
+2007-04-26	Diego Ongaro <ongardie@gmail.com>
+
+	* view.c, places.h: Never draw two consecutive menu separators.
+
+2007-04-22	Diego Ongaro <ongardie@gmail.com>
+
+	* Released v0.2
+
+2007-04-21	Diego Ongaro <ongardie@gmail.com>
+
+	* Preparing for v0.2 release
+	* Releasec v0.1.9 (2.0 release candidate)
+
+2007-04-20	Diego Ongaro <ongardie@gmail.com>
+
+	* scripts/: Created script to take translations from thunar, gnome-panel.
+	* model*.c: Added include for config.h for i18n, DBG.
+	  Better memory management.
+	* view.c: Disabled Recent Documents for gtk < v2.10.
+	  Replaced gtk_image_clear() call since it's new in gtk v2.8.
+	  Now using g_object_ref_sink() and g_object_unref() on tooltips.
+	  Connects menu deactivate signal only once per menu.
+	  Registers menu with panel before every popup.
+	  Got rid of final TODOs regarding xfdesktop's code.
+	* TODO: Updated.
+
+2007-04-14	Diego Ongaro <ongardie@gmail.com>
+
+	* view.c: rewrite
+	  - Based on xfdesktop menu, launcher
+	  - Fixes bugs #3124, #3029
+	  - Removed arrow button
+	  - Added "Places" tooltip
+	  - Added listener for theme changes
+	* model_volumes.c: free volumes data in correct order
+
+2007-04-13	Diego Ongaro <ongardie@gmail.com>
+
+	* Split view into its own file
+
+2007-04-09	Diego Ongaro <ongardie@gmail.com>
+
+	* Added menu item to clear Recent Documents
+	* Accidentally had the menu always rebuilding
+	* Made some callbacks listen on more appropriate listeners
+	* Added double quotes to paths/URIs sent to Thunar
+
+2007-04-08	Diego Ongaro <ongardie@gmail.com>
+
+	* Added Recent Documents via GtkRecentChooserMenu
+
+2007-04-07	Diego Ongaro <ongardie@gmail.com>
+
+	* Added BookmarksVisitor struct
+
+2007-04-06	Diego Ongaro <ongardie@gmail.com>
+
+	* Improved consistency with Thunar for user bookmarks
+	  (reading and display)
+	* Dropped unescape_uri.c
+	* Fixed bug 3030 (Places shows missing menu items)
+	* Improved the headers mess
+
+2007-04-05	Diego Ongaro <ongardie@gmail.com>
+	
+	* Merged in volumes branch
+	* Adds Thunar VFS dependency.
+	* Uncouples model from view/controller as explained in HACKING.
+
+2007-04-05	Diego Ongaro <ongardie@gmail.com>
+
+	* Releasing version 0.1
+	* With psyBSD's help, i18n is now up and running.
+
+2007-03-25	Diego Ongaro <ongardie@gmail.com>
+
+	* Fixed bug 3053 (Plugin doesn't launch thunar) by dropping "/usr/bin/"
+	* Fixed bug 3027 (Places menu showing %20) by copying glib code
+
+2007-03-14	Diego Ongaro <ongardie@gmail.com>
+
+	* initial beta release, packaged outside svn
+
+
+# vi:set ts=8 sw=8 tw=72 noet ai nocindent:

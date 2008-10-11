@@ -1,0 +1,507 @@
+# $Id: ja.po 24668 2007-01-20 17:58:14Z benny $
+#
+# Japanese translations for xfprint package.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfprint package.
+# Zhao Ji <zhao-ji@awz.ne.jp>, 2003.
+# Daichi Kawahata <daichi@xfce.org>, 2005-2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-14 15:26+0200\n"
+"PO-Revision-Date: 2006-03-04 17:18+0900\n"
+"Last-Translator: Daichi Kawahata <daichi@xfce.org>\n"
+"Language-Team: Japanese <xfce-users-jp@ml.fdiary.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "プリンター"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "終了"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "Xfprint-manager を終了します"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "このプログラムについて"
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "Xfprint4-manager について"
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "Xfprint4-manager についての情報を表示します。"
+
+#: ../libxfprint/printer-list-window.c:140
+msgid "Printer manager"
+msgstr "プリンターマネージャー"
+
+#: ../libxfprint/printer-list-window.c:206
+msgid "Alias name"
+msgstr "別名"
+
+#: ../libxfprint/printer-list-window.c:210
+#: ../libxfprint/printer-queue-window.c:217
+msgid "State"
+msgstr "状態"
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Xfprint printers manager"
+msgstr "Xfprint プリンターマネージャー"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:269
+msgid "Former maintainer"
+msgstr "以前のメインテナー"
+
+#: ../libxfprint/printer-list-window.c:270
+msgid "Maintainer"
+msgstr "メインテナー"
+
+#: ../libxfprint/printer-list-window.c:271
+msgid "Artist"
+msgstr "アーティスト"
+
+#: ../libxfprint/printer-list-window.c:334
+msgid "Unknown"
+msgstr "不明"
+
+#: ../libxfprint/printer-list-window.c:337
+msgid "Idle"
+msgstr "待機中"
+
+#: ../libxfprint/printer-list-window.c:340
+msgid "Processing"
+msgstr "処理中"
+
+#: ../libxfprint/printer-list-window.c:343
+msgid "Stopped"
+msgstr "中止"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "閉じる"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "キューウィンドウを閉じます"
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr "ジョブ"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:385
+#: ../libxfprint/printer-queue-window.c:389
+msgid "Remove job"
+msgstr "ジョブの削除"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "キューから選択したジョブを削除します。"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "更新"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "キューを更新します。"
+
+#: ../libxfprint/printer-queue-window.c:122
+#: ../libxfprint/printer-queue-window.c:538
+msgid "Queue Manager"
+msgstr "キューマネージャー"
+
+#: ../libxfprint/printer-queue-window.c:207
+msgid "Name"
+msgstr "名前"
+
+#: ../libxfprint/printer-queue-window.c:211
+msgid "ID"
+msgstr "ID"
+
+#: ../libxfprint/printer-queue-window.c:214
+msgid "User"
+msgstr "ユーザー"
+
+#: ../libxfprint/printer-queue-window.c:220
+msgid "Size"
+msgstr "大きさ"
+
+#: ../libxfprint/printer-queue-window.c:223
+msgid "Priority"
+msgstr "優先度"
+
+#: ../libxfprint/printer-queue-window.c:226
+msgid "Creation time"
+msgstr "作成時間"
+
+#: ../libxfprint/printer-queue-window.c:229
+msgid "Processing time"
+msgstr "処理時間"
+
+#: ../libxfprint/printer-queue-window.c:382
+msgid "Are you sure you want to remove the job "
+msgstr "このジョブを削除してもよろしいですか "
+
+#: ../libxfprint/printer-queue-window.c:388
+msgid "Don't remove job"
+msgstr "ジョブを削除しない"
+
+#: ../libxfprint/printer-queue-window.c:395
+msgid "An error occurred while removing job !"
+msgstr "ジョブの削除中にエラーが発生しました！"
+
+#: ../libxfprint/printer-queue-window.c:446
+msgid "pending"
+msgstr "待機中"
+
+#: ../libxfprint/printer-queue-window.c:449
+msgid "printing"
+msgstr "プリント中"
+
+#: ../libxfprint/printer-queue-window.c:452
+msgid "Kb"
+msgstr "KB"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "プリント方式"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "プリント方式の選択"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "情報"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "説明"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "バージョン"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "著作者"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "ホームページ"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "無し"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr ""
+"ただファイルへプリントするだけでしたら、\n"
+"このバックエンドを使用して下さい。"
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "BSD-LPR のプリント方式サポートします。"
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr "CUPS のプリント方式サポートします。"
+
+#: ../printing-systems/cups/cups.c:48
+msgid "Set as default printer"
+msgstr "標準のプリンターとして設定"
+
+#: ../printing-systems/cups/cups.c:49
+msgid "Set as default CUPS printer"
+msgstr "標準のCUPSプリンターとして設定"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "プロパティ"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "プリンターのプロパティを表示します。"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "パスワード"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "ユーザー :"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "パスワード :"
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr "ユーザー名を指定する必要があります！"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "ヘッダーを印刷する"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "ヘッダー:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "アンダーレイ:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "タイトル中央:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "タイトル左:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "タイトル右:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "フッター中央:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "フッター左:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "フッター右:"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "エンコード:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "全てのページを印刷する"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "指定範囲を印刷する"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "長い行を切る"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "TAB, BS, FF コードを有効にする"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "バイナリを強制的に印刷する"
+
+#: ../xfprint/main.c:116
+msgid "Select file to print"
+msgstr "印刷するファイルを選択して下さい"
+
+#: ../xfprint/main.c:128
+msgid "The specified file does not exist"
+msgstr "指定したファイルは存在しません"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "言語:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "ハイライトレベル:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "ストリップレベル:"
+
+#: ../xfprint/print_dialog.c:204
+msgid "Save settings"
+msgstr "設定の保存"
+
+#: ../xfprint/print_dialog.c:212
+msgid "Xfprint"
+msgstr "Xfprint"
+
+#: ../xfprint/print_dialog.c:220
+msgid "Print to:"
+msgstr "プリント先:"
+
+#: ../xfprint/print_dialog.c:250
+msgid "Print to file:"
+msgstr "ファイルへプリント:"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Sheets"
+msgstr "用紙"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Virtual pages"
+msgstr "仮想ページ"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Pretty-printing"
+msgstr "所定形式"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Input"
+msgstr "入力"
+
+#: ../xfprint/print_dialog.c:300
+msgid "Headings"
+msgstr "見出し"
+
+#: ../xfprint/print_dialog.c:309
+msgid "Copies:"
+msgstr "写しの枚数:"
+
+#: ../xfprint/print_dialog.c:316
+msgid "Apply filters"
+msgstr "フィルターを適用"
+
+#: ../xfprint/print_dialog.c:371
+msgid ""
+"Neither the printing system backend or a2ps could be found on your system, "
+"you won't be able to print a file with xfprint !"
+msgstr ""
+"あなたのシステムには、プリント方式で選択されているバックエンド、またはコマン"
+"ド a2ps のいずれもありませんでした。xfprint でファイルをプリントすることはで"
+"きません！"
+
+#: ../xfprint/print_dialog.c:486
+msgid "An error occurred while trying to print the file"
+msgstr "ファイルをプリントする際にエラーが発生しました"
+
+#: ../xfprint/print_dialog.c:523
+msgid "Select file where to print"
+msgstr "ファイルのプリント先を選択して下さい"
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "用紙の大きさ:"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "縦置き"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "横置き"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "列数:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "最初に列を埋める"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "最初に行を埋める"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "行数:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "列の周りの枠を印刷する"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "逆ページ順で印刷する"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "行番号:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "一頁の行数:"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "一行の文字数:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "タブのサイズ:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "プリントできない形式:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr "Xfprint が使用するプリント方式のバックエンドを選択します。"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+msgid "Printing System Settings"
+msgstr "プリント方式"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+msgid "Xfce 4 Printing System Settings"
+msgstr "Xfce 4 プリント方式の設定"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+msgid "Print Manager"
+msgstr "プリントマネージャー"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr "プリンターのリストを表示します。また、それらのジョブを管理します。"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+msgid "Xfce 4 Print Manager"
+msgstr "Xfce 4 プリントマネージャー"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "プリントダイアログ"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr "ファイルをプリントします。また、そのレイアウトを設定します。"
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "Xfce 4 プリントダイアログ"

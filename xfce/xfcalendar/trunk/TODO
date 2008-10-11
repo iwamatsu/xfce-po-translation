@@ -1,0 +1,58 @@
+List of things we should do when (if) we have time:
+
+1) VTODO handling
+*** DONE 4.5 ***
+
+2) Import (Export ?) data from external calendar sources
+    Read valid ical files and add VEVENTS into xfcalendar format.
+*** DONE 4.5 ***
+
+3) Timezone handling
+    This is actually needed only if we want to syncronize several 
+    xfcalendar files and search for example common free time for 
+    meetings.
+    But some of the code is in fact using old ical calls due to missing
+    timezone data, which is native to the new version of ical.
+*** DONE 4.4 ***
+
+4) Exchange data between different xfcalendar users
+    To build group meetings.
+
+5) History files
+    Keep expired events in history file and remove them from the main
+    xfcalendar file. This would also make the active file smaller and
+    faster.
+    We need some kind of cleaning function anyway ? so this would be handy
+    feature to do both.
+*** DONE 4.4 ***
+*** RECODED 4.5 ***
+
+6) WEB interface to show xfcalendar appointments on the internet
+
+7) Add pull-down menus in event-list window and appointment window
+    These are not dialog windows, they should have a menu each.
+*** DONE 4.4 ***
+
+8) Write help
+*** DONE 4.4 ***
+
+9) VJOURNAL handling
+*** DONE 4.5 ***
+
+10) more alarm possibilities (like libnotify BUG 2831 and email)
+*** Partly DONE 4.5 ***
+
+11) Day, Week, Month view
+*** Partly DONE 4.5 ***
+
+12) Exclude possiblity in repeating rule
+
+13) Repeating rule visual presentation
+    Show when events actually happen
+
+14) Alarm before the end of the event. 
+    Needed for TODOs
+*** DONE 4.5 ***
+
+15) Internal: build own message/warning system
+*** DONE 4.5 ***

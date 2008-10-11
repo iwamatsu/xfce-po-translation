@@ -1,0 +1,243 @@
+# Ukrainian translation to libxfcegui4.
+# Copyright (C) 2002-2006 The Xfce development team.
+# This file is distributed under the same license as the libxfcegui4 package.
+#
+# Maxim V. Dziumanenko <mvd@mylinux.ua>, 2005-2006.
+# Dmitry Nikitin <luckas_fb@mail.ru>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: libxfcegui4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-09 12:15+0000\n"
+"PO-Revision-Date: 2008-06-30 17:46+0300\n"
+"Last-Translator: Dmitry Nikitin <luckas_fb@mail.ru>\n"
+"Language-Team: Ukrainian <xfce4-dev@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../libxfcegui4/netk-window-action-menu.c:215
+#: ../libxfcegui4/netk-window-action-menu.c:217
+msgid "Workspace"
+msgstr "Робоча область"
+
+#: ../libxfcegui4/netk-window-action-menu.c:246
+msgid "S_how"
+msgstr "_Показати"
+
+#: ../libxfcegui4/netk-window-action-menu.c:253
+msgid "_Hide"
+msgstr "С_ховати"
+
+#: ../libxfcegui4/netk-window-action-menu.c:261
+msgid "Un_maximize"
+msgstr "Від_новити"
+
+#: ../libxfcegui4/netk-window-action-menu.c:268
+msgid "Ma_ximize"
+msgstr "_Максимізувати"
+
+#: ../libxfcegui4/netk-window-action-menu.c:276
+msgid "Un_shade"
+msgstr "_Розгорнути"
+
+#: ../libxfcegui4/netk-window-action-menu.c:283
+msgid "_Shade"
+msgstr "З_горнути"
+
+#: ../libxfcegui4/netk-window-action-menu.c:291
+msgid "Uns_tick"
+msgstr "_Відліпити"
+
+#: ../libxfcegui4/netk-window-action-menu.c:299
+msgid "S_tick"
+msgstr "П_риліпити"
+
+#: ../libxfcegui4/netk-window-action-menu.c:439
+msgid "Send to..."
+msgstr "Надіслати до..."
+
+#: ../libxfcegui4/netk-window-action-menu.c:463
+msgid "_Close"
+msgstr "_Закрити"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:232
+msgid "Needs terminal"
+msgstr "Потребує запуску у терміналі"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:233
+msgid "Whether or not the command needs a terminal to execute"
+msgstr "Визначає чи потрібно виконувати команду у терміналі"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../libxfcegui4/xfce-appmenuitem.c:237 ../glade/xfce4.xml.in.h:8
+msgid "Command"
+msgstr "Команда"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:238
+msgid "The command to run when the item is clicked"
+msgstr "Команда, що запускається при клацанні по елементу"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:242
+msgid "Icon name"
+msgstr "Назва значка"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:243
+msgid "The name of the themed icon to display next to the item"
+msgstr "Назва значка з теми, що відображається біля елемента"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../libxfcegui4/xfce-appmenuitem.c:247 ../glade/xfce4.xml.in.h:27
+msgid "Label"
+msgstr "Мітка"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:248
+msgid "The label displayed in the item"
+msgstr "Мітка, що відображаєтся в елементі"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:252
+msgid "Startup notification"
+msgstr "Повідомлення про запуск"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:253
+msgid "Whether or not the app supports startup notification"
+msgstr "Визначає чи підтримує програма повідомлення про запуск"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:257
+msgid "Use underline"
+msgstr "Використовувати підкреслення"
+
+#: ../libxfcegui4/xfce-appmenuitem.c:258
+msgid "Whether or not to use an underscore in the label as a keyboard mnemonic"
+msgstr ""
+"Визначає чи використовувати підкреслення в мітці як скорочення клавіатури"
+
+#. set window title
+#: ../libxfcegui4/xfce_aboutdialog.c:644
+#, c-format
+msgid "About %s..."
+msgstr "Про програму %s..."
+
+#: ../libxfcegui4/xfce_aboutdialog.c:1000
+msgid "Visit homepage"
+msgstr "Відвідати домашню сторінку"
+
+#: ../libxfcegui4/xfce_aboutdialog.c:1012
+msgid "Info"
+msgstr "Інформація"
+
+#: ../libxfcegui4/xfce_aboutdialog.c:1034
+msgid "Credits"
+msgstr "Подяки"
+
+#: ../libxfcegui4/xfce_aboutdialog.c:1056
+msgid "License"
+msgstr "Ліцензія"
+
+#: ../libxfcegui4/xfce_systemtray.c:347 ../libxfcegui4/xfce_systemtray.c:351
+#, c-format
+msgid "Failed to acquire manager selection"
+msgstr "Не вдається захопити менеджер виділення"
+
+#: ../libxfcegui4/xfce_systemtray.c:487
+#, c-format
+msgid "tray icon has requested a size of (%i x %i), resizing to (%i x %i)"
+msgstr ""
+"значок лотка зареєстрований з розмірами (%i x %i), змінюється на (%i x %i)"
+
+#: ../libxfcegui4/xfce_systemtray.c:496
+msgid "tray icon was not attached, destroying it"
+msgstr "значок лотка не приєднаний, він знищується"
+
+#: ../glade/xfce4.xml.in.h:9
+msgid "Dialog Header"
+msgstr "Заголовок діалогу"
+
+#: ../glade/xfce4.xml.in.h:10
+msgid "Icon"
+msgstr "Значок"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../glade/xfce4.xml.in.h:18
+msgid "Icon Filename"
+msgstr "Назва файлу значка"
+
+#: ../glade/xfce4.xml.in.h:19
+msgid "Icon Name"
+msgstr "Назва значка"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../glade/xfce4.xml.in.h:35
+msgid "Launcher Menu Item"
+msgstr "Елемент Меню запуску"
+
+#: ../glade/xfce4.xml.in.h:36
+msgid "Move Handle"
+msgstr "Перемістити Handle"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../glade/xfce4.xml.in.h:44
+msgid "Needs Terminal"
+msgstr "Потребує запуску у терміналі"
+
+#: ../glade/xfce4.xml.in.h:45
+msgid "Scaled Image"
+msgstr "Масштабоване зображення"
+
+#: ../glade/xfce4.xml.in.h:46
+msgid "Subtitle"
+msgstr "Підменю"
+
+#. TODO: this needs some special setup in the glade helper lib to
+#. create and populate the XfceAboutInfo struct.
+#. <glade-widget-class name="XfceAboutDialog" _title="Xfce About Dialog"
+#. generic-name="xfce-about-dialog">
+#.
+#. </glade-widget-class>
+#.
+#: ../glade/xfce4.xml.in.h:54
+msgid "Supports Startup Notification"
+msgstr "Підтримує повідомлення про запуск"
+
+#: ../glade/xfce4.xml.in.h:55
+msgid "Title"
+msgstr "Меню"
+
+#: ../glade/xfce4.xml.in.h:56
+msgid "Titled Dialog"
+msgstr "Діалог меню"
+
+#: ../glade/xfce4.xml.in.h:57
+msgid "Xfce4 Widgets"
+msgstr "Віджети Xfce4"

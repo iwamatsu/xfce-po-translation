@@ -1,0 +1,504 @@
+# translation of ca.po to Catalan
+# xfprint for XFce desktop environment.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfprint package.
+#
+# Carles Muñoz Gorriz <carlesmu@internautas.org>, 2003.
+# Pau Rul·lan Ferragut <paurullan@bulma.net> 2005, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-14 15:26+0200\n"
+"PO-Revision-Date: 2006-09-20 13:49+0200\n"
+"Last-Translator: Pau Rul·lan Ferragut <paurullan@bulma.net>\n"
+"Language-Team: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.2\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "Impressora"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "Sortir"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "Quant a xfprint4-manager."
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "Quant a"
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "Quant a xfprint4-manager."
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "Mostra informació sobre el xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:140
+msgid "Printer manager"
+msgstr "Gestor d'impressores"
+
+#: ../libxfprint/printer-list-window.c:206
+msgid "Alias name"
+msgstr "Àlies"
+
+#: ../libxfprint/printer-list-window.c:210
+#: ../libxfprint/printer-queue-window.c:217
+msgid "State"
+msgstr "Estat"
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Xfprint printers manager"
+msgstr "Gestor d'impresores Xfprint"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:269
+msgid "Former maintainer"
+msgstr "Mantenidor anterior"
+
+#: ../libxfprint/printer-list-window.c:270
+msgid "Maintainer"
+msgstr "Mantenidor"
+
+#: ../libxfprint/printer-list-window.c:271
+msgid "Artist"
+msgstr "Artista"
+
+#: ../libxfprint/printer-list-window.c:334
+msgid "Unknown"
+msgstr "Desconegut"
+
+#: ../libxfprint/printer-list-window.c:337
+msgid "Idle"
+msgstr "Inactiu"
+
+#: ../libxfprint/printer-list-window.c:340
+msgid "Processing"
+msgstr "S'està processant"
+
+#: ../libxfprint/printer-list-window.c:343
+msgid "Stopped"
+msgstr "Aturat"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "Tanca"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "Tanca la finestra de cues"
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr "Treball"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:385
+#: ../libxfprint/printer-queue-window.c:389
+msgid "Remove job"
+msgstr "Suprimeix treball"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "Suprimeix el treball seleccionada de la cua"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "Refresca"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "Refresca cua"
+
+#: ../libxfprint/printer-queue-window.c:122
+#: ../libxfprint/printer-queue-window.c:538
+msgid "Queue Manager"
+msgstr "Gestor de cues"
+
+#: ../libxfprint/printer-queue-window.c:207
+msgid "Name"
+msgstr "Nom"
+
+#: ../libxfprint/printer-queue-window.c:211
+msgid "ID"
+msgstr "Identificador"
+
+#: ../libxfprint/printer-queue-window.c:214
+msgid "User"
+msgstr "Usuari"
+
+#: ../libxfprint/printer-queue-window.c:220
+msgid "Size"
+msgstr "Mida"
+
+#: ../libxfprint/printer-queue-window.c:223
+msgid "Priority"
+msgstr "Prioritat"
+
+#: ../libxfprint/printer-queue-window.c:226
+msgid "Creation time"
+msgstr "Temps de creació"
+
+#: ../libxfprint/printer-queue-window.c:229
+msgid "Processing time"
+msgstr "S'està processant el temps"
+
+#: ../libxfprint/printer-queue-window.c:382
+msgid "Are you sure you want to remove the job "
+msgstr "Esteu segurs de suprimir el treball?"
+
+#: ../libxfprint/printer-queue-window.c:388
+msgid "Don't remove job"
+msgstr "No suprimeixis el treball"
+
+#: ../libxfprint/printer-queue-window.c:395
+msgid "An error occurred while removing job !"
+msgstr "S'ha produit un error mentre es suprimia el treball"
+
+#: ../libxfprint/printer-queue-window.c:446
+msgid "pending"
+msgstr "pendent"
+
+#: ../libxfprint/printer-queue-window.c:449
+msgid "printing"
+msgstr "s'està imprimint"
+
+#: ../libxfprint/printer-queue-window.c:452
+msgid "Kb"
+msgstr "Kb"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "Sistema d'impressió"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "Seleccioneu el sistema d'impressió"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "Informació"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "Descripció"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "Versió"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "Autor"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "Pàgina principal"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "Cap"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr "Usa aquest rerefons si simplement voleu imprimir a un fitxer."
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "Sistema d'impressió BSD-LPR per Xfprint"
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr "Sistema d'impressió CUPS per Xfprint"
+
+#: ../printing-systems/cups/cups.c:48
+msgid "Set as default printer"
+msgstr "Configura com impressora predeterminada"
+
+#: ../printing-systems/cups/cups.c:49
+msgid "Set as default CUPS printer"
+msgstr "Seleccioneu per defecte una impressora CUPS"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "Propietats"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "Mostra les propietats de l'impresora"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "Contrasenya"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "Usuari:"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "Contrasenya:"
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr "Heu de donar un nom d'usuari"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "Imprimeix capsaleres"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "Capçalera:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "Alça:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "Títol central:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "Títol a l'esquerra:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "Títol a la dreta:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "Peu central:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "Peu a l'esquerra:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "Peu a la dreta:"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "Codificació:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "Imprimeix totes les págines"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "Imprimeix les pàgines dins un rang des de"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "Retalla les línees"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "Interpreta TAB, BS i FF com a caràcters"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "Força la impressió binària"
+
+#: ../xfprint/main.c:116
+msgid "Select file to print"
+msgstr "Seleccionei un fitxer per imprimir"
+
+#: ../xfprint/main.c:128
+msgid "The specified file does not exist"
+msgstr "El fitxer especificat no existeix"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "Idioma:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "Nivell de resaltat:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "Nivell de detall:"
+
+#: ../xfprint/print_dialog.c:204
+msgid "Save settings"
+msgstr "Desa els paràmetres"
+
+#: ../xfprint/print_dialog.c:212
+msgid "Xfprint"
+msgstr "Xfprint"
+
+#: ../xfprint/print_dialog.c:220
+msgid "Print to:"
+msgstr "Imprimeix a:"
+
+#: ../xfprint/print_dialog.c:250
+msgid "Print to file:"
+msgstr "Imprimeix a un fitxer:"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Sheets"
+msgstr "Fulls"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Virtual pages"
+msgstr "Pàgines virtuals"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Pretty-printing"
+msgstr "Impressió ràpida"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Input"
+msgstr "Entrada"
+
+#: ../xfprint/print_dialog.c:300
+msgid "Headings"
+msgstr "Capsaleres"
+
+#: ../xfprint/print_dialog.c:309
+msgid "Copies:"
+msgstr "Còpies:"
+
+#: ../xfprint/print_dialog.c:316
+msgid "Apply filters"
+msgstr "Aplica els filtres"
+
+#: ../xfprint/print_dialog.c:371
+msgid ""
+"Neither the printing system backend or a2ps could be found on your system, "
+"you won't be able to print a file with xfprint !"
+msgstr ""
+"Al seu sistema no s'ha pogut trobar ni un sistema d'impressió ni un a2ps, "
+"per la qual cosa no podreu imprimir un fitxer amb xfprint."
+
+#: ../xfprint/print_dialog.c:486
+msgid "An error occurred while trying to print the file"
+msgstr "S'ha produit un error quan s'intentava imprimir al fitxer"
+
+#: ../xfprint/print_dialog.c:523
+msgid "Select file where to print"
+msgstr "Seleccioneu un fitxer a imprimeir"
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "Mida del paper:"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "Vertical"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "Apaïsat"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "Columnes:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "Omple columnes primer"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "Omple files primer"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "Files:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "Imprimeix columnes"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "Imprimeix en ordre invers"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "Número de línia:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "Línies per pàgina:"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "Caràcters per línia:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "Tamany del tabulador:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "Format no imprimible:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr "Permet seleccionar el sistema d'impressió que usarà xfprint"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+msgid "Printing System Settings"
+msgstr "Paràmetres del sistema d'impressió"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+msgid "Xfce 4 Printing System Settings"
+msgstr "Paràmetres del sistema d'impressió Xfce4"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+msgid "Print Manager"
+msgstr "Gestor d'impressió"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr "Mostra el llistat d'impresores i us permet gestionar els treballs"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+msgid "Xfce 4 Print Manager"
+msgstr "Gestor d'impressió Xfce4"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "Diàleg d'impressió"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr "Imprimeix un fitxer i us permet configurar el seu format"
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "Diàleg d'impressió Xfce4"

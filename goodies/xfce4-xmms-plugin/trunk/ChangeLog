@@ -1,0 +1,163 @@
+2007-01-16  Kemal Ilgar Eroglu <kieroglu@math.washington.edu
+	* Bump version to 0.5.1 (hopefully) final for XFCE 4.4.0
+	* Applied Martti Kuparinen's patch to the configure script.
+	* Applied Dan Kao's patches (song # fix and + Open/Add file dialogs.
+
+2006-09-23 gaso <ganchang_mrlbr@ybb.ne.jp>
+
+	* split panel-plugin/xmms_plugin.c into panel-plugin/xmms_plugin.c and
+	  panel-plugin/preferences.c
+	* loading libraries has changed to dynamic loading by using gmodule and
+	  remove --with-player option from configure script 
+	* add Audacious support
+	* add menu button for popupmenu
+
+2006-09-12 Kemal Ilgar Eroglu <kieroglu@math.washington.edu>
+
+	* Version 0.4.2
+	* Addressed issues noted by gaso <ganchang_mrlbr at ybb.ne.jp>, 
+	  applied his patches for:
+		* Gtk warning occurs at the plugin starting 
+		  time if XMMS isn't running
+		* "Horizontal volume bar on vertical panels" 
+		  option ignores "Show volume level" setting
+		* resized to incorrect size by "size-change" signal
+		* wrong value is set to height of volume bar if panel 
+		  and volume bar are vertical
+		* It seems volume bar width is too thick when 
+		  panel is horizontal
+
+2006-08-27 Kemal Ilgar Eroglu <kieroglu@math.washington.edu>
+
+	* Version bumped to 0.4.1 .
+	* Little mod to configure.in.in. for gettext.
+	* Added Turkish translations.
+	* Fixed some (hopefully all) Gtk warnings.
+	* Fixed a bug about visibility settings 
+	  not being loaded correctly.
+
+2006-08-13 Jannis Pohlmann
+
+	* 0.4.0 released!
+	* configure.in.in, po/*.po: Bump version to 0.4.0.
+
+2005-11-30 Kemal Ilgar Eroglu
+
+	* Modified version for 4.4 panels
+
+2005-06-06 Kemal Ilgar Eroglu
+
+	* Release 0.3.1
+	
+2005-06-05 Kemal Ilgar Eroglu
+
+	* Make progressbar hideable
+	* Fix the "show title option not being remembered" issue.
+	* Add a choice to use BMP. The only difference is the spawning code, 
+	otherwise BMP uses XMMS libraries.
+	* Update the configure script to check for XMMS and Pango 1.8.0 .
+
+2005-05-31 Kemal Ilgar Eroglu
+
+	* Release 0.3.0
+
+2005-05-** Kemal Ilgar Rroglu and Mario Streiber
+2005-04-**
+
+	* Mario rewrote the code, introduced the preferences window.
+	* Title scrolling is now pixel based (Mario).
+	* Added a progressbar for volume.
+
+2005-03-22 Kemal Ilgar Eroglu
+
+	* Version 0.2.1
+	* Added show/hide and text size adjustment for srolling title.
+	* Settings are now saved
+	* Check if xmms is running (reading song title crashes otherwise)
+	* Fixed the scrolling algorithm ("switching to shorter title while
+	scrolling back" case is handled correctly now).
+
+2005-03-20 Kemal Ilgar Eroglu
+
+	* Version 0.2
+	* Scroll up/down changes volume
+	* Added song title scroll feature
+	* Clickable progressbar for reading/setting track position
+
+2003-11-20 04:56EST  pat
+
+	PATCH: Rudolf Kastl <che666@uni.de>
+	* panel-plugin/Makefile.am - get rid of hardcoded base dir
+	Thanks Rudolf!
+
+2003-11-09 18:11EST  pat
+
+	* unofficial 0.0.9 release
+	* cleaned up all the info files
+	* code finally works, compiles with only one error, loads perfectly
+	* callbacks work so it unloads properly
+	* pixmaps load now
+	* cleaned the xmms_plugin.c file, got rid of all the scrap code
+	* it works, despite the fact that its GIGANTIC.
+
+2003-11-08 21:38EST  pat
+
+	* put in pixmaps directory.  now builds .png files from
+	.xcf files using ImageMagick's `convert'.  png's aren't
+	removed on distclean, so its not required for clients to
+	have this.
+
+2003-11-08 04:42EST  pat
+
+	* changes to Makefile.am in panel-plugin/ to compile && link
+	xmms properly
+
+2003-11-07 19:11EST  pat
+
+	* slapped in code to make xmms-plugin, ripped out all sample
+	code and made a mess of things.
+	* so much crap its not even funny
+	* buggy like week old milk thats been sitting on the counter
+
+2003-07-11 15:56  huysmans
+
+	* panel-plugin/sample.c: Hmm, chinese translation updates that
+	didn't get picked up by my previous commit. Should have been in
+	rc1, sorry.
+
+2003-07-11 09:33  huysmans
+
+	* ChangeLog: Update ChangeLog's for release
+
+2003-07-10 11:56  huysmans
+
+	* ChangeLog: Update ChangeLog's for release
+
+2003-07-06 22:14  huysmans
+
+	* ChangeLog: Update ChangeLogs
+
+2003-07-06 15:35  xfce
+
+	* Makefile.in, aclocal.m4, config.h.in, configure, ltconfig,
+	ltmain.sh, panel-plugin/Makefile.in: libtool update
+
+2003-07-02 12:18  bmeurer
+
+	* AUTHORS, COPYING, INSTALL, autogen.sh, config.guess, config.sub,
+	ltconfig, ltcf-c.sh, ltmain.sh, Makefile.in, aclocal.m4, compile,
+	config.h.in, depcomp, install-sh, missing, mkinstalldirs,
+	Makefile.am, README, configure, configure.ac, m4/debug.m4,
+	m4/depends.m4, m4/i18n.m4, panel-plugin/Makefile.am,
+	panel-plugin/Makefile.in, panel-plugin/sample.c: Initial import of
+	the sample panel plugin.
+
+2003-07-02 12:18  bmeurer
+
+	* AUTHORS, COPYING, INSTALL, autogen.sh, config.guess, config.sub,
+	ltconfig, ltcf-c.sh, ltmain.sh, Makefile.in, aclocal.m4, compile,
+	config.h.in, depcomp, install-sh, missing, mkinstalldirs,
+	Makefile.am, README, configure, configure.ac, m4/debug.m4,
+	m4/depends.m4, m4/i18n.m4, panel-plugin/Makefile.am,
+	panel-plugin/Makefile.in, panel-plugin/sample.c: Initial revision
+

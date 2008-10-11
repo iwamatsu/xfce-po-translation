@@ -1,0 +1,20 @@
+2007-06-22	Sylvain Reynal <sreynal@nerim.net>
+
+	* === Released 0.1.0  ===
+  - with CD-TEXT support (see below), libcdio is no more optional.
+    It is now a requirement.
+  - add "Network" section with a switch to enable/disable connections to freedb.org.
+  - add --enable-cddb/--disable-cddb switches to configure script (bug #3354).
+  - add CD-TEXT support to retrieve audio cd infos.
+  - add performer name to audio cd label (in addition of the cd title).
+  - fix useless expansion of the plugin in the panel (bug #3354).
+  - fix bug that disabled the name entry when opening the configuration dialog
+    if the "use in tooltip" option was not selected.
+  - fix wrong error handling when drive detection fails (bug #3354).
+  - fix audio cd infos reading when thread support is disabled.
+	
+
+2007-04-20	Sylvain Reynal <sreynal@nerim.net>
+
+	* === Released 0.0.1 ===
+	First release.

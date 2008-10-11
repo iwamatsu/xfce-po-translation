@@ -1,0 +1,80 @@
+4.5.91
+======
+- Start up session in parallel to greatly shorten startup time (bug 4312).
+- Add a D-Bus interface for some limited amount of remote control.
+- Implement support for the ShutdownCommand SM property when a
+  client has RestartAnyway set as its restart style hint.
+- Implement support for the RestartNever restart style hint.
+- sync() disks early in the shutdown process if on Linux and
+  ioprio_set() is available (bug 4313).  Otherwise sync() right before
+  quit as before (bug 4313).
+- Check for a running gnome-keyring instance before launching
+  a new one (bug 3007).
+
+
+4.5.90
+======
+- Modified settings-dialogs to work with the new settings-manager
+- Fix compile-issues with -Wall -Werror in mice theme-engine and settings-dialogs
+- Let xfce4-session start xfsettingsd automatically
+- Remove dependency on deprecated NETK
+- Translations: am, ar, az, be, bn_IN, ca, cs, da, de, dz, el, 
+  en_GB, eo, es_MX, es, et, eu, fa, fi, fr, gl, gu, he, hi, hu, 
+  id, it, ja, ka, ko, lt, lv, mk, mr, ms, nb_NO, nl, pa, pl, 
+  pt_BR, pt_PT, ro, ru, si, sk, sq, sv, ta, tr, uk, ur, vi, zh_CN, zh_TW 
+
+
+4.4.0
+=====
+- Improve the logout dialog (Bug #2653).
+- Fix poweroff on DragonFly BSD (Bug #2567).
+- Use Xrender to fadeout the background if cairo is available.
+- Updated translations: Carles Muñoz Gorriz (ca), Fabian Nowak (de),
+                        Rudy Godoy (es), Maximilian Schleiss (fr), Andrey
+                        Fedoseev (ru)
+- New translations: Josip Dzolonga (mk)
+
+
+4.3.99.2
+========
+- Remove references to xftaskbar4 and xfce4-iconbox and rename xffm to Thunar
+  for the Tips'n'Tricks displayed on startup (#1332).
+- Be sure to start Thunar prior to xfdesktop on first login to avoid the trash
+  error from xfdesktop if the session bus is not configured properly (#2447).
+- Applications that fail to startup on login do no longer time out, but are
+  dropped immediately from the session, which results in faster startup in
+  that case.
+- Merge the sudo and the HAL shutdown helpers into a single shutdown helper,
+  which tries to use HAL first, and falls back to sudo.
+- Drop GLib 2.2.x compatibility code.
+- Updated translations: Pau Rul-lan Ferragut (ca), Sylvain Vedrenne (eo),
+			ByungHyun Choi (ko), Phan Vĩnh Thịnh (vi)
+- New translations: Sonam Rinchen (dz)
+
+
+4.3.99.1
+========
+- Add support for HAL to shutdown/reboot the computer. Must be enabled
+  explicitly using --with-shutdown-style=hal to configure (Bug #2046).
+- Do not try to save the xfce4-tips as part of the session (Bug #1089).
+- Add shutdown/reboot support for Solaris (Bug #2230, Moinak Ghosh).
+- Drop libgnome dependency for assistive technologies support.
+
+
+4.3.90.2
+========
+- Update dialogs to use the new XfceTitledDialog.
+- Properly handle OnlyShowIn and NotShowIn in the autostart editor.
+- Run discard command when client terminates unexpectedly.
+
+
+4.3.90.1
+========
+- Use the new standard location ($XDG_CONFIG_DIRS/autostart/) to specify
+  applications that will be automatically start on session login. Autostart
+  items from the previous location (~/Desktop/Autostart/) will be migrated
+  automatically on first run of the new session manager.
+- The list of autostarted applications can now be altered using a simple
+  editor application (xfce4-autostart-editor).
+- The xfce4-tips tool is now part of xfce4-session and well integrated with
+  the new autostart mechanism.

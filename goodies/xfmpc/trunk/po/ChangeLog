@@ -1,0 +1,117 @@
+2008-10-10  Maximilian Schleiss <maximilian@xfce.org>
+
+	* ja.po: Japanese translation update (Nobuhiro Iwamatsu)
+
+2008-09-14 Piarres Beobide <pi@beobide.net>
+
+	* eu.po, LINGUAS: Basque translation added
+
+2008-08-25 Mike Massonnet <mmassonnet@xfce.org>
+
+	* *.po, *.pot: make update-po
+	* fi.po: Add Finnish translation (Miia Ranta). Bug#4320
+
+2008-07-15 Mohamed Magdy <alnokta@xfce.org>
+
+        * ar.po: Add Arabic translation
+
+2008-06-26  Maximilian Schleiss <maximilian@xfce.org>
+
+	* gl.po, LINGUAS: Galician translation added (Leandro Regueiro)
+
+2008-06-25  Maximilian Schleiss <maximilian@xfce.org>
+
+	* id.po, LINGUAS: Indonesian translation added (Andhika Padmawan)
+
+2008-05-27  Mike Massonnet <mmassonnet@xfce.org>
+
+	* da.po, LINGUAS: Add Danish translation (Jens Hyllegaard)
+
+2008-05-14	Mike Massonnet <mmassonnet@xfce.org>
+
+	* ja.po: Update Japanese translation (Nobuhiro Iwamatsu)
+
+2008-05-13	Mike Massonnet <mmassonnet@xfce.org>
+
+	* en_GB.po: Update translation (Jeff Bailes)
+
+2008-04-21  Og Maciel <ogmaciel@gnome.org>
+
+	* pt_BR.po: Updated Brazilian Portuguese translation by
+	Fábio Nogueira <deb-user-ba@ubuntu.com>
+
+2008-04-20	Mike Massonnet <mmassonnet@xfce.org>
+
+	* *.po, *.pot: make update-po for new strings from extended-interface.c
+	* fr.po: Update French translation
+	* nl.po: Update Dutch translation
+
+2008-04-10  Og Maciel <ogmaciel@gnome.org>
+
+	* pt_BR.po: Updated Brazilian Portuguese translation by
+	Fábio Nogueira <deb-user-ba@ubuntu.com>
+
+2008-04-05	Stephan Arts <stephan@xfce.org>
+
+	* nl.po: Update Dutch translation
+
+2008-04-05	Mike Massonnet <mmassonnet@xfce.org>
+
+	* nl.po: Update Dutch translation
+
+2008-04-05	Mike Massonnet <mmassonnet@xfce.org>
+
+	* de.po, LINGUAS: Add German translation from Enrico Tröger
+	<enrico.troeger@uvena.de>
+
+2008-03-30	Mike Massonnet <mmassonnet@xfce.org>
+
+	* *.po, *.pot: make update-po for new strings from extended-interface.c
+	* fr.po: Update French translation
+
+2008-03-22	Mike Massonnet <mmassonnet@xfce.org>
+
+	* *.po, *.pot: make update-po for new strings from extended-interface.c
+	* fr.po: Update French translation
+
+2008-02-27  Og Maciel <ogmaciel@gnome.org>
+
+	* pt_BR.po: Brazilian Portuguese translation updated by 
+	Fábio Nogueira <deb-user-ba@ubuntu.com> and myself.
+
+2008-02-15	Mike Massonnet <mmassonnet@xfce.org>
+
+	* *.po, *.pot, POTFILES.in, POTFILES.skip: make update-po for new strings
+	extended-interface.c
+	* fr.po: Update French translation
+	* nl.po: Translate one string to Dutch
+
+2008-02-08  Stephan Arts <stephan@xfce.org>
+
+	* nl.po: Add Dutch translation
+
+2008-01-27	Mike Massonnet <mmassonnet@xfce.org>
+
+	* *.po, *.pot, POTFILES.in: make update-po for new strings from
+	xfmpc.desktop.in
+	* fr.po: Update French translation
+
+2008-01-27	Mike Massonnet <mmassonnet@xfce.org>
+
+	* *.po, *.pot: make update-po
+
+2008-01-21  Og Maciel <ogmaciel@gnome.org>
+
+	* pt_BR.po: Added Brazilian Portuguese translation by
+	Fábio Nogueira <deb-user-ba@ubuntu.com>
+
+2008-01-19	Mike Massonnet <mmassonnet@xfce.org>
+
+	* *.po, *.pot: make update-po
+	* fr.po: Update French translations
+
+2008-01-15	Mike Massonnet <mmassonnet@xfce.org>
+
+	* xfmpc.pot: Merge strings.
+	* fr.po: Update French translations
+

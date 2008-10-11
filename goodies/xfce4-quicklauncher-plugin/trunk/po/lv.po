@@ -1,0 +1,85 @@
+# Latvian translation of xfce4-quicklauncher-plugin.
+# CCopyright (C) 2005-2006 Masse Nicolas.
+# This file is distributed under the same license as the xfce4-quicklauncher-plugin package.
+# Rihards Prieditis <rprieditis@inbox.lv>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-quicklauncher-plugin 1.9.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-05-17 21:37+0200\n"
+"PO-Revision-Date: 2007-11-16 21:35+0300\n"
+"Last-Translator: Rihards Priedītis <rprieditis@inbox.lv>\n"
+"Language-Team: Latvian <rprieditis@inbox.lv>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../panel-plugin/callbacks.c:79
+msgid "Configure Quicklauncher"
+msgstr "Konfigurēt Ātropalaidēju"
+
+#: ../panel-plugin/callbacks.c:93
+msgid "Lines: "
+msgstr "Līnijas:"
+
+#: ../panel-plugin/callbacks.c:123
+msgid "Espace entre les lanceurs :"
+msgstr "Atstarpe starp palaidējiem:"
+
+#: ../panel-plugin/callbacks.c:131
+msgid "afficher les tooltips"
+msgstr "Rādīt paskaidres"
+
+#: ../panel-plugin/callbacks.c:135
+msgid "afficher les labels"
+msgstr "Rādīt etiķetes"
+
+#: ../panel-plugin/callbacks.c:216
+msgid "icone"
+msgstr "ikona"
+
+#: ../panel-plugin/callbacks.c:222
+msgid "commande"
+msgstr "komanda"
+
+#: ../panel-plugin/callbacks.c:228
+msgid "nom"
+msgstr "nosaukums"
+
+#: ../panel-plugin/callbacks.c:327
+msgid "Open icon"
+msgstr "Atvērt ikonu"
+
+#: ../panel-plugin/main.c:163
+#: ../panel-plugin/quicklauncher.desktop.in.in.h:2
+msgid "Quicklauncher"
+msgstr "Ātropalaidējs"
+
+#: ../panel-plugin/main.c:166
+msgid "Allows you to add launchers easily and display them on many lines."
+msgstr "Ļauj viegli pievienot palaidēju un attēlot vairākās līnijās."
+
+#: ../panel-plugin/main.c:168
+msgid "Other plugins available here"
+msgstr "Citi spraudņi pieejami"
+
+#: ../panel-plugin/main.c:320
+msgid "Lock"
+msgstr "Slēgt"
+
+#: ../panel-plugin/main.c:323
+msgid "Parameters"
+msgstr "Parametri"
+
+#: ../panel-plugin/main.c:326
+msgid "Applications"
+msgstr "Lietotnes"
+
+#: ../panel-plugin/main.c:329
+msgid "Help"
+msgstr "Palīdzība"
+
+#: ../panel-plugin/quicklauncher.desktop.in.in.h:1
+msgid "Program with several launchers"
+msgstr "Programma ar dažiem palaidējiem"
+

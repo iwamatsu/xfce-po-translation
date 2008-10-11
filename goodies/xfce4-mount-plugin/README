@@ -1,0 +1,6 @@
+the branches/oldpanel branch contains the plugin for the 4.2 panel, while the 
+trunk branch holds the code for the "new" 4.3 panel which is the branch for the 
+4.4 panel now :)
+
+Someone might want to properly rename the oldbranch to panel-4.2 and the current one (as of 2007-02-28) to panel-4.4 and create a new trunk.
+

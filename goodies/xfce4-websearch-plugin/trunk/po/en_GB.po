@@ -1,0 +1,39 @@
+# English/GB translation of xfce4-websearch-plugin.
+# Copyright (C) 2007 THE xfce4-websearch-plugin'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfce4-websearch-plugin package.
+# Jeff Bailes <thepizzaking@gmail.com>, 2007.
+# , fuzzy
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-websearch-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:29+0200\n"
+"PO-Revision-Date: 2007-03-31 10:45+1000\n"
+"Last-Translator: Jeff Bailes <thepizzaking@gmail.com>\n"
+"Language-Team: English/GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+#: ../src/websearch.c:312
+msgid "Properties"
+msgstr "Properties"
+
+#: ../src/websearch.c:321
+msgid "Browser command: "
+msgstr "Browser command: "
+
+#: ../src/websearch.c:328
+msgid "Search engine: "
+msgstr "Search engine: "
+
+#: ../src/websearch.c:345 ../src/websearch.desktop.in.in.h:2
+msgid "WebSearch"
+msgstr "WebSearch"
+
+#: ../src/websearch.desktop.in.in.h:1
+msgid "Search the Web directly from the Panel"
+msgstr "Search the Web directly from the Panel"
+

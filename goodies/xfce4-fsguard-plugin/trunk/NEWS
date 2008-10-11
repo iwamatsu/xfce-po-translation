@@ -1,0 +1,67 @@
+20080113 (0.4.1):
+-----------------
+
+    * Switch "Hide button" with "Display button" #3802
+    * Replace xfce_themed_icon with gtk_icon_theme
+    * Some GUI tweaks in the dialog
+    * Display natural numbers in MB
+    * Replace the label with a checkbox+label for the name
+    * Fix pixbuf size in size-changed callback
+
+20071025 (0.4.0):
+-----------------
+
+	* Release 0.4.0
+
+20071021 (0.3.99.2):
+--------------------
+
+	* Set default plugin icon to xfce4-fsguard-plugin-warning
+	* Rename the "progress bar" to "meter"
+	* Fix size of plugin and border around the GtkProgressBar
+	* Reworked option dialog
+
+20071005 (0.3.99.1):
+--------------------
+	* New options to display the free space in a text label and in a
+	  progress bar, and the possibility to hide the button in the panel
+	* Redefined the strings
+	* Bug fixes and code cleanup
+
+20060206 (0.3.0):
+-----------------
+	* Ported to xfce 4.4 by Jasper Huijsmans, thanks!
+
+20051011 (0.2.1):
+-----------------
+	* The icon is now properly centered when no label is given
+
+20040204:
+---------
+	* Now it's possible to add mountpoints with max 32 chars
+	  as requested by Stefan Misel
+
+20040109:
+---------
+	* Added Polish translation by Daniel Mroz
+
+20031124:
+---------
+	* Added Korean translation by David Choi
+
+20031122:
+---------
+	* Fixed memory leak
+
+20031112:
+---------
+	* New option to choose the filemanager for button1 click
+
+20031111:
+---------
+	* The label is now located below the icon in vertical mode.
+
+	* Tooltip and Messagebox show the size in GB if MB > 1024.
+	
+	* Make this work on Net/Free/OpenBSD as well. Currently only tested
+	  on NetBSD.

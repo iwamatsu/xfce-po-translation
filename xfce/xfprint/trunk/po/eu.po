@@ -1,0 +1,508 @@
+# translation of eu.po to librezale
+# Euskara translations for xfprint package.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfprint package.
+#
+# Piarres Beobide <pi@beobide.net>, 2004-2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-14 15:26+0200\n"
+"PO-Revision-Date: 2006-03-07 22:56+0100\n"
+"Last-Translator: Piarres Beobide <pi@beobide.net>\n"
+"Language-Team: librezale <librezale@librezale.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "Inprimagailua"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "Itxi"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "Xfprint4-manager itxi"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "Honi buruz"
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "Xfprint4-manager buruz"
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "Xfprint4-manager buruzko argibideak bistarazi."
+
+#: ../libxfprint/printer-list-window.c:140
+msgid "Printer manager"
+msgstr "Inprimagailu kudeatzailea"
+
+#: ../libxfprint/printer-list-window.c:206
+msgid "Alias name"
+msgstr "Aliasa"
+
+#: ../libxfprint/printer-list-window.c:210
+#: ../libxfprint/printer-queue-window.c:217
+msgid "State"
+msgstr "Egoera"
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Xfprint printers manager"
+msgstr "Xfprint inprimagailu kudeatzailea"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:269
+msgid "Former maintainer"
+msgstr "Aurreko mantenua"
+
+#: ../libxfprint/printer-list-window.c:270
+msgid "Maintainer"
+msgstr "Mantenua"
+
+#: ../libxfprint/printer-list-window.c:271
+msgid "Artist"
+msgstr "Artea"
+
+#: ../libxfprint/printer-list-window.c:334
+msgid "Unknown"
+msgstr "Ezezaguna"
+
+#: ../libxfprint/printer-list-window.c:337
+msgid "Idle"
+msgstr "Inaktibo"
+
+#: ../libxfprint/printer-list-window.c:340
+msgid "Processing"
+msgstr "Prozesatzen"
+
+#: ../libxfprint/printer-list-window.c:343
+msgid "Stopped"
+msgstr "Gelditurik"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "Itxi"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "Hilara leihoa itxi"
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr "Lanak"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:385
+#: ../libxfprint/printer-queue-window.c:389
+msgid "Remove job"
+msgstr "Lana ezabatu"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "Hauataturiko lana hilaratik ezabatu"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "Berritu"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "Hilara berritu"
+
+#: ../libxfprint/printer-queue-window.c:122
+#: ../libxfprint/printer-queue-window.c:538
+msgid "Queue Manager"
+msgstr "Hilara Kudeatzailea"
+
+#: ../libxfprint/printer-queue-window.c:207
+msgid "Name"
+msgstr "Izena"
+
+#: ../libxfprint/printer-queue-window.c:211
+msgid "ID"
+msgstr "ID-a"
+
+#: ../libxfprint/printer-queue-window.c:214
+msgid "User"
+msgstr "Erabiltzailea"
+
+#: ../libxfprint/printer-queue-window.c:220
+msgid "Size"
+msgstr "Tamaina"
+
+#: ../libxfprint/printer-queue-window.c:223
+msgid "Priority"
+msgstr "Lehentasuna"
+
+#: ../libxfprint/printer-queue-window.c:226
+msgid "Creation time"
+msgstr "Sorrera data"
+
+#: ../libxfprint/printer-queue-window.c:229
+msgid "Processing time"
+msgstr "Prozesatze denbora"
+
+#: ../libxfprint/printer-queue-window.c:382
+msgid "Are you sure you want to remove the job "
+msgstr "Ziur al zaude lana ezabatu nahi duzula "
+
+#: ../libxfprint/printer-queue-window.c:388
+msgid "Don't remove job"
+msgstr "Lana ez ezabatu"
+
+#: ../libxfprint/printer-queue-window.c:395
+msgid "An error occurred while removing job !"
+msgstr "Errore bat gertatu da lana ezabatzerakoan !"
+
+#: ../libxfprint/printer-queue-window.c:446
+msgid "pending"
+msgstr "eiteko"
+
+#: ../libxfprint/printer-queue-window.c:449
+msgid "printing"
+msgstr "Inprimatzen"
+
+#: ../libxfprint/printer-queue-window.c:452
+msgid "Kb"
+msgstr "Kb"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "Inprimatze sistema"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "Inprimatzea Sistema Hautapena"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "Informazioa"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "Azalpena"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "Bertsioa"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "Egilea:"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "Etxegunea"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "Bat ere ez"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr "Euskarri hau erabili fitxategi batetara inprimatzeko"
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "BSD-LPR inprimatze sistema onarpena  Xfprint-rentzat"
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr "CUPS inprimatze sistema  Xfprint-entzat"
+
+#: ../printing-systems/cups/cups.c:48
+msgid "Set as default printer"
+msgstr "Lehenetsitako inprimagailu bezala ezarri"
+
+#: ../printing-systems/cups/cups.c:49
+msgid "Set as default CUPS printer"
+msgstr "Lehenetsitako CUPS inprimagailu bezala ezarri"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "Propietateak"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "Inprimagailu propietateak bistarazi"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "Pasahitza"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "Erabiltzailea :"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "Pasahitza :"
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr "Erabiltzaile izen bat eman behar duzu !"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "Inprimatze goiburuak"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "Goiburukoa"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "Azpimarratu"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "Titulua erdiratu"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "Ezkerreko titulua:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "Eskuineko titulua:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "Oina erdiratu:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "Ezkerreko oina:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "Eskuineko oina:"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "Kodeketa:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "Inprimatu orrialde guztiak"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "Inprimatu tarteko orrialdeak hemendik "
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "Moztu lerro luzeak"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "TAB, BS y FF karaktereak intepretatu"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "Indartu binariar inprimaketa"
+
+#: ../xfprint/main.c:116
+msgid "Select file to print"
+msgstr "Aukeratu inprimatzeko fitxategia"
+
+#: ../xfprint/main.c:128
+msgid "The specified file does not exist"
+msgstr "Emandako fitxategia ez da aurkitzen"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "Hizkuntza:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "Nabarmentze maila:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "Biluzte maila:"
+
+#: ../xfprint/print_dialog.c:204
+msgid "Save settings"
+msgstr "Gorde ezarpenak"
+
+#: ../xfprint/print_dialog.c:212
+msgid "Xfprint"
+msgstr "Xfprint"
+
+#: ../xfprint/print_dialog.c:220
+msgid "Print to:"
+msgstr "Hona inprimatu:"
+
+#: ../xfprint/print_dialog.c:250
+msgid "Print to file:"
+msgstr "Fitxategian inprimatu:"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Sheets"
+msgstr "Orriak"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Virtual pages"
+msgstr "Orrialde birtualak"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Pretty-printing"
+msgstr "Inprimatze-polita"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Input"
+msgstr "Sarrera"
+
+#: ../xfprint/print_dialog.c:300
+msgid "Headings"
+msgstr "Izenburuak"
+
+#: ../xfprint/print_dialog.c:309
+msgid "Copies:"
+msgstr "Kopiak:"
+
+#: ../xfprint/print_dialog.c:316
+msgid "Apply filters"
+msgstr "Iragazkiak ezarri"
+
+#: ../xfprint/print_dialog.c:371
+msgid ""
+"Neither the printing system backend or a2ps could be found on your system, "
+"you won't be able to print a file with xfprint !"
+msgstr ""
+"Edo inprimatze sistema edo a2ps ezin da zure sisteman aukitu, ez zara "
+"xfprint erabiliaz inprimatzeko gai izango !"
+
+#: ../xfprint/print_dialog.c:486
+msgid "An error occurred while trying to print the file"
+msgstr "Errore bat gertatu da fitxategia inprimatzerakoan"
+
+#: ../xfprint/print_dialog.c:523
+msgid "Select file where to print"
+msgstr "Aukeratu inprimatzeko fitxategia"
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "Orrialde tamaina:"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "Bertikala"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "Horizontala"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "Zutabeak:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "Bete zutabeak aurrena"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "Bete lerroak aurrena"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "Lerroak:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "Inprimatu ertzak zutabeen inguruan"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "Inprimatu orrialdeak atzetik aurrera"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "Lerro zenbakiak:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "Orriadeko lerroak:"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "Lerroko karatereak:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "Tabulazio tamaina:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "Inprima ezineko formatua:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr ""
+"xfprint-ek erabiliko duen inprimatze sistema interfazea aukeratzeko aukera "
+"ematen du"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+msgid "Printing System Settings"
+msgstr "Inprimatze Sistema Ezarpenak"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+msgid "Xfce 4 Printing System Settings"
+msgstr "Xfce 4 Inprimatze Sistema Ezarpenak"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+msgid "Print Manager"
+msgstr "Inprimagailu kudeatzailea"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr ""
+"Inrpmagailu zerrenda bistarazi eta beren lanak kudeatzeko aukera ematen du"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+msgid "Xfce 4 Print Manager"
+msgstr "Xfce 4 Inprimagailu kudeatzailea"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "Inprimatze Elkarrizketa"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr ""
+"Fitxategia inprimatu eta bere ingurunea konfigruatzeko aukera ematen du"
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "Xfce 4 Inprimatze Elkarrizketa"

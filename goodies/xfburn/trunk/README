@@ -1,0 +1,94 @@
+==============================================================================
+xfburn
+------
+
+Version 0.3.2, 2008-07-xx
+
+http://www.xfce.org/projects/xfburn/
+
+An easy to use burning software for the xfce desktop environment (but of
+course will work with others). It uses libburn and libisofs as a backend, in
+difference to most other GUI programs at the moment. Visit
+http://www.libburnia-project.org/ for more information about these libraries.
+
+==============================================================================
+Functionality
+-------------
+
+xfburn is still a new program, and does not yet do all common burning related
+tasks.
+
+Currently implemented is:
+ * Create data compositions
+  - Burn to CD or DVD
+  - Create ISO images
+ * Burn ISO images
+ * Blank discs
+ * Format and deformat DVD-RW discs
+
+----------------------
+Experimential Features
+----------------------
+
+ * Audio CD support
+Now included is some very basic audio CD support. Right now only CD-quality, 
+uncompressed (PCM) Wave files can be added to an audio compilation. Use i.e.
+your favority audio player with a disc writer output mode / plugin to
+decompress your existing audio files. If .wav files are added to the
+compilation, their headers get checked to make sure they are of the right
+format. Note that this check is not very well tested (in particular it's not
+likely to work on big-endian machines like PowerPC), since it is likely to
+get replaced in the near future.
+
+==============================================================================
+Requirements
+------------
+ * libisofs version 0.6.2 or newer
+ * libburn version 0.4.2 or newer
+
+Optional, but highly recommended
+--------------------------------
+ * hal        (required for notification of disc eject / insert and
+               also for automatic disc unmounting)
+ * thunar-vfs (required for some drag and drop code, icons and automatic disc 
+               unmounting)
+
+The author works with both hal and thunar-vfs enabled, so there might be the
+occasional bug that breaks compilation without these components. Xfburn should
+work without these optional components, but it is not well tested at all.
+Should something not compile or work as expected, please report a bug, and it
+will get fixed.
+
+==============================================================================
+Future Plans
+------------
+
+Missing functionality that we plan to add:
+ * Save and load compositions
+ * Verification
+ * Burn audio CDs
+ * Copy discs (needs backend support)
+ * Automatic checksum creation
+ * Blu-ray support
+ * Plugin support
+
+There is no, and never will be, a timeline for these. Let us know if you think
+something is missing on this list. If you really need something implemented,
+feel free to help us out :-).
+
+==============================================================================
+Bugs & Feedback
+---------------
+
+Any comments are welcome! We aim to make xfburn a very easily usable program.
+So if you think something could be implemented differently, feel free to speak
+up and it will be considered. Please send all feedbacks to xfburn@xfce.org, or
+use the xfce mailing lists. Bugs are best placed in the xfce bugtracker at
+http://bugzilla.xfce.org/
+
+==============================================================================
+License
+-------
+
+This program is released under the GNU GPL version 2 or newer. See COPYING for
+the full text of the license.

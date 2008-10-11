@@ -1,0 +1,72 @@
+20070117:
+---------
+  * Version 0.5.4
+  * Add an option to make the panel icon square.
+  * Fix a bug that calculated the signal strength incorrectly, reporting 102%
+    for some people. Your signal strength may well be reported lower now,
+    but apparently it was wrong before.
+  * Fix a bug where the interface wasn't activated if it was the first in
+    the list.
+  * Improve the handling of the kernel's include files.
+  * Fix compilation on kfreebsd thanks to Petr Salinger.
+
+20060911:
+---------
+  * Version 0.5.3
+  * Fix a typo that referenced the wrong executable in the .desktop file.
+
+20060810:
+---------
+  * Version 0.5.2
+  * Fix the regression that made the icon square.
+  * Added Italian translation. (Thanks ema).
+  * Allow hiding the plugin if no device is present.
+
+20060809:
+---------
+  * Version 0.5.1
+  * Fix the bug that meant that it couldn't find the device on most systems.
+
+20060503:
+---------
+  * Version 0.5.0
+  * Updated to new panel API
+
+20041203:
+---------
+	* Version 0.4.1.
+	* Applied patch from veser@gmx.net to ensure that ESSSID is always
+	  zero terminated on Linux.
+	* Don't use deprecated Gtk+ functions.
+
+20040803:
+---------
+	* Version 0.4.0 with support for threaded xfce4-panel.
+	* Added combo for interface selection.
+
+20040212:
+---------
+	* Version 0.3.2 with improved Linux support from An-Cheng Huang
+	  using the Linux Wireless Extensions ioctl()'s if available.
+
+20040211:
+---------
+	* Version 0.3.1 with fixes from An-Cheng for linux. Linux
+	  version will be improved soon.
+
+20040209:
+---------
+	* Version 0.3.0 with (initial) OpenBSD support and some more
+	  eye-candy.
+	* Added (untested) Linux support, requires /proc/net/wireless
+	  which should be provided by the so called "WireLess Extension".
+
+20031219:
+---------
+	* Initial (tested) FreeBSD support, thanks to Sebastian Yepes F.
+	  <esn@x123.info>. In addition the current transfer rate selection
+	  is displayed. This is now version 0.2.0.
+
+20031111:
+---------
+	* Version 0.1.0 with tested NetBSD support.

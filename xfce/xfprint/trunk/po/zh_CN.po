@@ -1,0 +1,524 @@
+# #-#-#-#-#  zh_CN.po (xfprint 4.3.90.2)  #-#-#-#-#
+# Simplified Chinese translations for xfprint package.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfprint package.
+# Yongtao Yang <yongtao.yang@telia.com>, 2005.
+# wuli <wurisky@gmail.com>,2007
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-14 15:26+0200\n"
+"PO-Revision-Date: 2007-02-07 20:20+0800\n"
+"Last-Translator: wuli <wurisky@gmail.com>\n"
+"Language-Team: Simplified Chinese <i18n-translation@lists.linux.net.cn>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+#, 
+msgid "Printer"
+msgstr "打印机"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "退出"
+
+#: ../libxfprint/printer-list-window.c:76
+#, 
+msgid "Quit xfprint4-manager"
+msgstr "退出 xfprin4-manager"
+
+#: ../libxfprint/printer-list-window.c:77
+#, 
+msgid "About"
+msgstr "关于"
+
+#: ../libxfprint/printer-list-window.c:78
+#, 
+msgid "About xfprint4-manager"
+msgstr "关于 xfprint-manager"
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "显示 xfprint4-manager相关信息"
+
+#: ../libxfprint/printer-list-window.c:140
+msgid "Printer manager"
+msgstr "打印管理器"
+
+#: ../libxfprint/printer-list-window.c:206
+msgid "Alias name"
+msgstr "别名"
+
+#: ../libxfprint/printer-list-window.c:210
+#: ../libxfprint/printer-queue-window.c:217
+msgid "State"
+msgstr "状态"
+
+#: ../libxfprint/printer-list-window.c:264
+#, 
+msgid "Xfprint printers manager"
+msgstr "xfprint 打印管理器"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:269
+#, 
+msgid "Former maintainer"
+msgstr "先前维护者"
+
+#: ../libxfprint/printer-list-window.c:270
+#, 
+msgid "Maintainer"
+msgstr "维护者"
+
+#: ../libxfprint/printer-list-window.c:271
+msgid "Artist"
+msgstr "美工"
+
+#: ../libxfprint/printer-list-window.c:334
+msgid "Unknown"
+msgstr "未知"
+
+#: ../libxfprint/printer-list-window.c:337
+msgid "Idle"
+msgstr "空闲"
+
+#: ../libxfprint/printer-list-window.c:340
+#, 
+msgid "Processing"
+msgstr "正在处理"
+
+#: ../libxfprint/printer-list-window.c:343
+msgid "Stopped"
+msgstr "停止"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "关闭"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "关闭队列窗口"
+
+#: ../libxfprint/printer-queue-window.c:69
+#, 
+msgid "Jobs"
+msgstr "任务"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:385
+#: ../libxfprint/printer-queue-window.c:389
+msgid "Remove job"
+msgstr "删除任务"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "删除从队列中选择的任务"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "刷新"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "刷新队列"
+
+#: ../libxfprint/printer-queue-window.c:122
+#: ../libxfprint/printer-queue-window.c:538
+msgid "Queue Manager"
+msgstr "队列管理器"
+
+#: ../libxfprint/printer-queue-window.c:207
+msgid "Name"
+msgstr "名称"
+
+#: ../libxfprint/printer-queue-window.c:211
+msgid "ID"
+msgstr "标识符"
+
+#: ../libxfprint/printer-queue-window.c:214
+msgid "User"
+msgstr "用户"
+
+#: ../libxfprint/printer-queue-window.c:220
+msgid "Size"
+msgstr "尺寸"
+
+#: ../libxfprint/printer-queue-window.c:223
+msgid "Priority"
+msgstr "优先级"
+
+#: ../libxfprint/printer-queue-window.c:226
+msgid "Creation time"
+msgstr "创建时间"
+
+#: ../libxfprint/printer-queue-window.c:229
+msgid "Processing time"
+msgstr "处理时间"
+
+#: ../libxfprint/printer-queue-window.c:382
+msgid "Are you sure you want to remove the job "
+msgstr "您确定要删除该任务吗 "
+
+#: ../libxfprint/printer-queue-window.c:388
+msgid "Don't remove job"
+msgstr "不删除任务"
+
+#: ../libxfprint/printer-queue-window.c:395
+msgid "An error occurred while removing job !"
+msgstr "删除任务时出错！"
+
+#: ../libxfprint/printer-queue-window.c:446
+msgid "pending"
+msgstr "等待"
+
+#: ../libxfprint/printer-queue-window.c:449
+msgid "printing"
+msgstr "打印"
+
+#: ../libxfprint/printer-queue-window.c:452
+msgid "Kb"
+msgstr "Kb"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "打印系统"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "打印系统选择"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "信息"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "描述"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "版本"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "作者"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "主页"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "无"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr "如果你想打印到文件，请使用这个后端。"
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+#, 
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "Xfprint 的 BSD-LPR 打印系统支持"
+
+#: ../printing-systems/cups/cups.c:42
+#, 
+msgid "CUPS printing system support for Xfprint"
+msgstr "Xfprint 的 CUPS 打印系统支持"
+
+#: ../printing-systems/cups/cups.c:48
+#, 
+msgid "Set as default printer"
+msgstr "设为默认打印机"
+
+#: ../printing-systems/cups/cups.c:49
+#, 
+msgid "Set as default CUPS printer"
+msgstr "设为默认 CUPS 打印机！"
+
+#: ../printing-systems/cups/cups.c:50
+#, 
+msgid "Properties"
+msgstr "属性"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "显示打印机属性"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "密码"
+
+#: ../printing-systems/cups/cups.c:82
+#, 
+msgid "User :"
+msgstr "用户："
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "密码 ："
+
+#: ../printing-systems/cups/cups.c:117
+#, 
+msgid "You have to provide an username !"
+msgstr "您必须提供一个用户名！"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "打印页眉"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "页眉："
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "下衬："
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "居中标题："
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "左侧标题："
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "右侧标题："
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "居中页脚："
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "左侧页脚："
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "右侧页脚："
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "字符编码："
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "打印所有页"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "打印范围"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "截断长行"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "解释 TAB，BS 和 FF 字符"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "强制二进制打印"
+
+#: ../xfprint/main.c:116
+msgid "Select file to print"
+msgstr "选择要打印的文件"
+
+#: ../xfprint/main.c:128
+msgid "The specified file does not exist"
+msgstr "所指定的文件不存在"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "语言："
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "语法高亮等级："
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "剥除等级："
+
+#: ../xfprint/print_dialog.c:204
+msgid "Save settings"
+msgstr "保存设置"
+
+#: ../xfprint/print_dialog.c:212
+#, 
+msgid "Xfprint"
+msgstr "Xfprint"
+
+#: ../xfprint/print_dialog.c:220
+#, 
+msgid "Print to:"
+msgstr "打印到："
+
+#: ../xfprint/print_dialog.c:250
+msgid "Print to file:"
+msgstr "打印到文件"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Sheets"
+msgstr "印张"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Virtual pages"
+msgstr "虚拟页"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Pretty-printing"
+msgstr "美化打印"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Input"
+msgstr "输入"
+
+#: ../xfprint/print_dialog.c:300
+msgid "Headings"
+msgstr "标题"
+
+#: ../xfprint/print_dialog.c:309
+msgid "Copies:"
+msgstr "复制份数："
+
+#: ../xfprint/print_dialog.c:316
+msgid "Apply filters"
+msgstr "应用过滤器"
+
+#: ../xfprint/print_dialog.c:371
+msgid ""
+"Neither the printing system backend or a2ps could be found on your system, "
+"you won't be able to print a file with xfprint !"
+msgstr "无法在你系统里找到打印系统后端或 a2ps，你将无法使用xfprint打印文件。"
+
+#: ../xfprint/print_dialog.c:486
+#, 
+msgid "An error occurred while trying to print the file"
+msgstr "尝试打印文件时出错"
+
+#: ../xfprint/print_dialog.c:523
+msgid "Select file where to print"
+msgstr "选择要打印的文件"
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "纸张尺寸："
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "垂直方向"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "水平方向"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "列数："
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "先填充列"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "先填充行"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "行数："
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "在列周围打印边界"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "逆序打印各页"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "行号："
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "每页行数："
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "每行字符数："
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "制表符尺寸："
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "不可打印格式："
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr "允许你选择xfprint使用的打印系统后端"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+#, 
+msgid "Printing System Settings"
+msgstr "打印系统设置"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+#, 
+msgid "Xfce 4 Printing System Settings"
+msgstr "xfce4 打印系统设置"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+#, 
+msgid "Print Manager"
+msgstr "打印管理器"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr "显示打印列表，允许你管理其任务"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+#, 
+msgid "Xfce 4 Print Manager"
+msgstr "xfce4 打印管理器"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+#, 
+msgid "Print Dialog"
+msgstr "打印对话框"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr "打印文件并让你设置其版面"
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "xfce4 打印对话框"

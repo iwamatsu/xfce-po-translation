@@ -1,0 +1,28 @@
+The Model Infrastructure
+================================================================================
+
+model.h defines:
+ * PlacesBookmarkAction:
+   - An action associated with a bookmark, such as "Mount"
+   - In the current view, each entry in the right-click menus
+ * PlacesBookmark
+   - A bookmark, such as "Desktop"
+   - In the current view, each entry in the main menu
+ * PlacesBookmarkGroup
+   - A source of bookmarks; one of:
+     - system: home, Trash, Desktop Filesystem
+     - volumes: removable media
+     - user: defined in ~/.gtk-bookmarks
+
+So there can be several bookmark groups, each one rendering zero or more bookmarks, 
+wich each contain zero or more associated actions.
+
+Each PlacesBookmarkGroup has 4 entry points:
+  1) Initialization
+    * Returns the PlacesBookmarkGroup struct, with pointers to (2-4) below
+  2) Get bookmarks
+    * Returns a list of bookmarks
+  3) Have the bookmarks changed?
+    * The return value of this function indicates whether get_bookmarks() 
+      would return anything different from when it was last called.
+  4) Finalize

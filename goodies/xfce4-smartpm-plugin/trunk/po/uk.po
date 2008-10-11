@@ -1,0 +1,197 @@
+# Ukrainian translation of xfce4-smartpm-plugin.
+# Copyright (C) 2008 Dmitry Nikitin
+# This file is distributed under the same license as the xfce4-smartpm-plugin package.
+#
+# Dmitry Nikitin <luckas_fb@mail.ru>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-smartpm-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-14 09:52+0000\n"
+"PO-Revision-Date: 2008-07-09 15:36+0300\n"
+"Last-Translator: Dmitry Nikitin <luckas_fb@mail.ru>\n"
+"Language-Team: Ukrainian <xfce4-dev@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../src/xfcesmart.c:149
+msgid "No upgrades"
+msgstr "Немає оновлень"
+
+#: ../src/xfcesmart.c:158
+#, c-format
+msgid "%d upgrade available"
+msgstr "%d оновлення доступно"
+
+#: ../src/xfcesmart.c:159
+#, c-format
+msgid "%d upgrades available"
+msgstr "%d оновлень доступно"
+
+#: ../src/xfcesmart.c:162
+msgid "Package Upgrades"
+msgstr "Оновлення пакетів"
+
+#: ../src/xfcesmart.c:248
+msgid "No new packages"
+msgstr "Немає нових пакетів"
+
+#: ../src/xfcesmart.c:250
+#, c-format
+msgid "Channels have %d new packages"
+msgstr "Канали мають %d нових пакетів"
+
+#. unknown
+#: ../src/xfcesmart.c:252
+msgid "Channels updated"
+msgstr "Канали оновлено"
+
+#: ../src/xfcesmart.c:256
+msgid "Package Updates"
+msgstr "Пакети оновлення"
+
+#: ../src/xfcesmart.c:261 ../src/xfcesmart.c:367
+#, c-format
+msgid "Error updating%s%s"
+msgstr "Помилка оновлення %s%s"
+
+#: ../src/xfcesmart.c:274
+msgid "Smart Read-Only"
+msgstr "Тільки читання Smart"
+
+#: ../src/xfcesmart.c:275
+msgid "Another process seems to be using Smart ?"
+msgstr "Можливо інший процес використовує Smart ?"
+
+#: ../src/xfcesmart.c:306
+msgid "Updating channels..."
+msgstr "Канали оновлення..."
+
+#: ../src/xfcesmart.c:359 ../src/xfcesmart.c:1118
+msgid "Update Channels"
+msgstr "Канали оновлення"
+
+#: ../src/xfcesmart.c:364 ../src/xfcesmart.c:405
+msgid "Failed to run update"
+msgstr "Не вдалось запустити оновлення"
+
+#: ../src/xfcesmart.c:379 ../src/xfcesmart.c:400
+msgid "Channels updated."
+msgstr "Канали оновлено."
+
+#: ../src/xfcesmart.c:404 ../src/xfcesmart.c:645
+msgid "Smart Unavailable"
+msgstr "Smart недоступний"
+
+#: ../src/xfcesmart.c:555
+#, c-format
+msgid "Error checking%s%s"
+msgstr "Помилка перевірки %s%s"
+
+#: ../src/xfcesmart.c:595
+msgid "Checking for upgrades..."
+msgstr "Перевірка наявності оновлень..."
+
+#: ../src/xfcesmart.c:646
+msgid "Failed to run upgrade"
+msgstr "Не вдалось запустити оновлення"
+
+#: ../src/xfcesmart.c:729
+msgid "Smart Failed"
+msgstr "Невдача Smart"
+
+#: ../src/xfcesmart.c:730
+msgid "Failed to run smart program"
+msgstr "Не вдалось запустити програму smart"
+
+#: ../src/xfcesmart.c:801
+msgid "Upgrade Now"
+msgstr "Оновити зараз"
+
+#: ../src/xfcesmart.c:948
+msgid "Upgrade In Progress"
+msgstr "Триває процес оновлення"
+
+#: ../src/xfcesmart.c:949
+msgid "An upgrade is already in progress, please wait."
+msgstr "Оновлення вже в процесі, будь ласка зачекайте."
+
+#: ../src/xfcesmart.c:1331
+#, c-format
+msgid "Unable to open the following url: %s"
+msgstr "Неможливо відкрити наступне посилання: %s"
+
+#: ../src/xfcesmart.c:1337
+msgid "Update In Progress"
+msgstr "Процес оновлення"
+
+#: ../src/xfcesmart.c:1338
+msgid "An update is already in progress, please wait."
+msgstr "Процес оновлення триває, зачекайте будь ласка."
+
+#. create the dialog
+#: ../src/xfcesmart.c:1423 ../src/xfce4-smart.desktop.in.in.h:2
+msgid "Smart Package Manager"
+msgstr "Менеджер пакетів Smart"
+
+#: ../src/xfcesmart.c:1434
+msgid "_Update..."
+msgstr "_Оновлення..."
+
+#: ../src/xfcesmart.c:1448
+msgid "Package Manager: "
+msgstr "Менеджер пакетів: "
+
+#: ../src/xfcesmart.c:1452
+msgid "Smart"
+msgstr "Кмітливий і швидкий Smart"
+
+#: ../src/xfcesmart.c:1453
+msgid "Yum+Extender"
+msgstr "Менеджер Yum+Extender"
+
+#: ../src/xfcesmart.c:1454
+msgid "APT+Synaptic"
+msgstr "Менеджер APT+Synaptic"
+
+#: ../src/xfcesmart.c:1455
+msgid "slapt+gslapt"
+msgstr "Менеджер slapt+gslapt"
+
+#: ../src/xfcesmart.c:1462
+msgid "Show application icon for package manager"
+msgstr "Показувати піктограму для менеджера пакетів"
+
+#: ../src/xfcesmart.c:1470
+msgid "Check for upgrades every "
+msgstr "Перевірка оновлень кожні "
+
+#: ../src/xfcesmart.c:1478
+msgid " minutes"
+msgstr "хвилин"
+
+#: ../src/xfcesmart.c:1483
+msgid "Show notifications for updates and upgrades"
+msgstr "Показувати попередження для оновлень"
+
+#: ../src/xfcesmart.c:1492
+msgid "Use su for authentication (instead of sudo)"
+msgstr "Використовувати su для авторизації (аналогічно sudo)"
+
+#: ../src/xfcesmart.c:1498
+msgid "Upgrade on launch (if upgrades available)"
+msgstr "Оновити при запуску (якщо оновлення доступні)"
+
+#: ../src/xfcesmart.c:1504
+msgid "Smart upgrade to newer release (dist-upgrade)"
+msgstr "Smart оновлює до нової версії (dist-оновлення)"
+
+#: ../src/xfcesmart.c:1541
+msgid "Smart Package Manager - panel plugin"
+msgstr "Smart Package Manager - плагін панелі"
+
+#: ../src/xfcesmart.c:1543 ../src/xfce4-smart.desktop.in.in.h:1
+msgid "Check for updates using the Smart Package Manager"
+msgstr "Перевірка оновлень використовуючи менеджер пакетів Smart"

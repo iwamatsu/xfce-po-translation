@@ -1,0 +1,49 @@
+# Albanian translation of the xfce4-wavelan-plugin package.
+# Copyright (C) 2003-2007 Benedikt Meurer <benny@xfce.org>
+# This file is distributed under the same license as the xfce4-wavelan-plugin package.
+# Besnik Bleta <besnik@programeshqip.org>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-wavelan-plugin 0.4.3svn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 22:55+0200\n"
+"PO-Revision-Date: 2007-01-29 18:05+0200\n"
+"Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
+"Language-Team: Albanian <translation-team-sq@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: ../panel-plugin/wavelan.c:187
+msgid "No carrier signal"
+msgstr "Pa sinjal bartës"
+
+#: ../panel-plugin/wavelan.c:217
+msgid "No device configured"
+msgstr "S'ka pajisje të formësuar"
+
+#: ../panel-plugin/wavelan.c:499
+msgid "Properties"
+msgstr "Veti"
+
+#: ../panel-plugin/wavelan.c:515
+msgid "Wavelan Plugin Options"
+msgstr "Mundësi Shtojce Wavelan"
+
+#: ../panel-plugin/wavelan.c:531
+msgid "Interface"
+msgstr "Ndërfaqe"
+
+#: ../panel-plugin/wavelan.c:553
+msgid "_Autohide when offline"
+msgstr "_Vetëfshihe kur je i palidhur"
+
+#: ../panel-plugin/wavelan.c:563
+msgid "Autohide when no hardware present"
+msgstr "Vetëfshihe kur nuk ka \"hardware\" të pranishëm"
+
+#: ../panel-plugin/wavelan.c:574
+msgid "Note: This will make it difficult to remove or configure the plugin if there is no device detected."
+msgstr "Shënim: Kjo do ta bëjë të vështirë heqjen ose formësimin e shtojcës nëse nuk zbulohet pajisje."
+

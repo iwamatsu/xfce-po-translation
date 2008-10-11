@@ -1,0 +1,105 @@
+# Indonesian translations for xfce-radio-plugin package.
+# Copyright (C) 2006 Stefan Ott
+# This file is distributed under the same license as the xfce-radio-plugin package.
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-radio-plugin v0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:29+0200\n"
+"PO-Revision-Date: 2008-06-21 12:17+0700\n"
+"Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
+"Language-Team: Indonesian <id@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../panel-plugin/radio.c:78
+msgid "Not tuned"
+msgstr "Tak diatur"
+
+#: ../panel-plugin/radio.c:100
+msgid "- off -"
+msgstr "- padam -"
+
+#: ../panel-plugin/radio.c:118
+msgid "Error opening radio device"
+msgstr "Galat ketika membuka divais radio"
+
+#: ../panel-plugin/radio.c:236 ../panel-plugin/radio.c:267
+#: ../panel-plugin/radio.c:467
+msgid "Add preset"
+msgstr "Tambah penyetelan"
+
+#: ../panel-plugin/radio.c:242 ../panel-plugin/radio.c:273
+msgid "Station name:"
+msgstr "Nama stasiun:"
+
+#: ../panel-plugin/radio.c:294
+msgid "There is already a preset with this frequency."
+msgstr "Telah ada penyetelan dengan frekuensi ini."
+
+#: ../panel-plugin/radio.c:332
+msgid "Tune radio"
+msgstr "Mencari stasiun radio"
+
+#: ../panel-plugin/radio.c:338
+msgid "Frequency [MHz]:"
+msgstr "Frekuensi [MHz]:"
+
+#: ../panel-plugin/radio.c:361
+msgid "Illegal frequency."
+msgstr "Frekuensi ilegal."
+
+#: ../panel-plugin/radio.c:438
+msgid "Presets"
+msgstr "Penyetelan"
+
+#: ../panel-plugin/radio.c:474
+msgid "Delete active preset"
+msgstr "Hapus penyetelan aktif"
+
+#: ../panel-plugin/radio.c:481
+msgid "Rename active preset"
+msgstr "Namai ulang penyetelan aktif"
+
+#: ../panel-plugin/radio.c:493
+msgid "Tune to frequency"
+msgstr "Atur ke frekuensi"
+
+#: ../panel-plugin/radio.c:720
+msgid "Properties"
+msgstr "Properti"
+
+#: ../panel-plugin/radio.c:739
+msgid "V4L device"
+msgstr "Divais V4L"
+
+#: ../panel-plugin/radio.c:745
+msgid "Display signal strength"
+msgstr "Tampilkan kekuatan sinyal"
+
+#: ../panel-plugin/radio.c:756
+msgid "yes"
+msgstr "ya"
+
+#: ../panel-plugin/radio.c:765
+msgid "no"
+msgstr "tidak"
+
+#: ../panel-plugin/radio.c:775
+msgid "Execute command after shutdown"
+msgstr "Eksekusi perintah setelah tutup padam"
+
+#: ../panel-plugin/radio.c:787
+msgid "Mouse scrolling changes"
+msgstr "Gulung perubahan dengan tetikus"
+
+#: ../panel-plugin/radio.c:799
+msgid "frequency"
+msgstr "frekuensi"
+
+#: ../panel-plugin/radio.c:807
+msgid "preset"
+msgstr "penyetelan"

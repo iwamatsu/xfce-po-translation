@@ -1,0 +1,81 @@
+dnl configure.ac
+dnl
+dnl xfvnc - a gtk frontend to vncviewer for xfce
+dnl
+dnl Copyright (c) 2007 Brian Tarricone <bjt23@cornell.edu>
+dnl
+
+dnl version info
+m4_define([xfvnc_version_major], [0])
+m4_define([xfvnc_version_minor], [1])
+m4_define([xfvnc_version_micro], [0])
+m4_define([xfvnc_version_build], [r@REVISION@])
+m4_define([xfvnc_version_tag], [svn])
+m4_define([xfvnc_version], [xfvnc_version_major().xfvnc_version_minor().xfvnc_version_micro()ifelse(xfvnc_version_tag(), [svn], [xfvnc_version_tag()-xfvnc_version_build()], [xfvnc_version_tag()])])
+
+dnl init autoconf
+AC_INIT([xfvnc], [xfvnc_version], [bjt23@cornell.edu])
+AC_PREREQ([2.50])
+
+dnl init automake
+AM_INIT_AUTOMAKE([dist-bzip2])
+AM_CONFIG_HEADER([config.h])
+dnl AC_DEFINE([WEBSITE], ["http://spuriousinterrupt.org/projects/xfvnc"],
+dnl           [Location of the xfvnc website])
+AM_MAINTAINER_MODE
+
+dnl check for UNIX variants
+AC_AIX
+AC_ISC_POSIX
+AC_MINIX
+
+dnl check for basic programs
+AC_PROG_CC
+AM_PROG_CC_C_O
+AC_PROG_INSTALL
+AC_PROG_INTLTOOL([0.31], [no-xml])
+dnl AC_PROG_MAKE_SET
+
+dnl check for standard header files
+AC_HEADER_STDC
+AC_CHECK_HEADERS([stdlib.h])
+
+dnl version information
+XFVNC_VERSION=xfvnc_version
+AC_SUBST(XFVNC_VERSION)
+
+dnl Check for i18n support
+XDT_I18N([@LINGUAS@])
+
+dnl Check for X11 installed
+dnl XDT_CHECK_LIBX11_REQUIRE
+
+dnl required
+XDT_CHECK_PACKAGE([GTK], [gtk+-2.0], [2.6.0])
+XDT_CHECK_PACKAGE([LIBXFCE4UTIL], [libxfce4util-1.0], [4.4.0])
+XDT_CHECK_PACKAGE([LIBXFCEGUI4], [libxfcegui4-1.0], [4.4.0])
+XDT_CHECK_PACKAGE([LIBGLADE], [libglade-2.0], [2.6.0])
+XDT_CHECK_PACKAGE([GTK_VNC], [gtk-vnc-1.0], [0.2.0])
+
+dnl newer versions don't have vnc_display_set_use_shm
+saved_CFLAGS="$CFLAGS"
+saved_LIBS="$LIBS"
+CFLAGS="$CFLAGS $GTK_VNC_CFLAGS"
+LIBS="$LIBS $GTK_VNC_LIBS"
+AC_CHECK_FUNCS([vnc_display_set_use_shm])
+CFLAGS="$saved_CFLAGS"
+LIBS="$saved_LIBS"
+
+dnl check for debugging support
+XDT_FEATURE_DEBUG
+dnl if test "x$enable_debug" = "xfull"; then
+dnl     if test "x$CC" = "xgcc"; then
+dnl         CFLAGS="$CFLAGS -fno-strict-aliasing"
+dnl     fi
+dnl fi
+
+AC_OUTPUT([
+Makefile
+po/Makefile.in
+xfvnc/Makefile
+])

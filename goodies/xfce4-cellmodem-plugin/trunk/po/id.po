@@ -1,0 +1,236 @@
+# Indonesian translations for xfce4-cellmodem-plugin package.
+# Copyright (C) 2006 Álvaro Lopes
+# This file is distributed under the same license as the xfce4-cellmodem-plugin package.
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-cellmodem-plugin 0.0.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-16 12:55+0200\n"
+"PO-Revision-Date: 2008-07-20 21:13+0700\n"
+"Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
+"Language-Team: Indonesian <translation-team-id@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../panel-plugin/cellmodem.c:482
+msgid "Initializing plugin now"
+msgstr "Menginisialisasi plugin sekarang"
+
+#: ../panel-plugin/cellmodem.c:505
+#, c-format
+msgid ""
+"Error detected:\n"
+"%s"
+msgstr ""
+"Galat terdeteksi:\n"
+"%s"
+
+#: ../panel-plugin/cellmodem.c:511
+#, c-format
+msgid "Not registered"
+msgstr "Tak terdaftar"
+
+#: ../panel-plugin/cellmodem.c:514
+#, c-format
+msgid "Modem needs PIN"
+msgstr "Modem memerlukan PIN"
+
+#: ../panel-plugin/cellmodem.c:517
+#, c-format
+msgid "Registering"
+msgstr "Mendaftarkan"
+
+#: ../panel-plugin/cellmodem.c:520
+#, c-format
+msgid ""
+"Registered [GPRS] to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"[GPRS] terdaftar ke %s\n"
+"Kualitas: %d (%d%%)"
+
+#: ../panel-plugin/cellmodem.c:523
+#, c-format
+msgid ""
+"Registered [UMTS] to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"[UMTS] terdaftar ke %s\n"
+"Kualitas: %d (%d%%)"
+
+#: ../panel-plugin/cellmodem.c:526
+#, c-format
+msgid ""
+"Registered [HSDPA] to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"[HSDPA] terdaftar ke %s\n"
+"Kualitas: %d (%d%%)"
+
+#: ../panel-plugin/cellmodem.c:529
+#, c-format
+msgid ""
+"Registered to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"Terdaftar ke %s\n"
+"Kualitas: %d (%d%%)"
+
+#. Error
+#: ../panel-plugin/cellmodem.c:687
+msgid "Error in modem reply to CREG"
+msgstr "Galat di balasan modem ke CREG"
+
+#: ../panel-plugin/cellmodem.c:696
+msgid "Invalid reply to +CREG"
+msgstr "Balasan tidak sah ke +CREG"
+
+#: ../panel-plugin/cellmodem.c:721
+msgid "Invalid CREG reply from modem"
+msgstr "Balasan CREG tidak sah dari modem"
+
+#: ../panel-plugin/cellmodem.c:760
+msgid "Error in modem reply to COPS"
+msgstr "Galat di balasan modem ke COPS"
+
+#: ../panel-plugin/cellmodem.c:816
+msgid "Invalid COPS reply from modem"
+msgstr "Balasan COPS tidak sah dari modem"
+
+#: ../panel-plugin/cellmodem.c:844
+msgid "Error in modem reply to CPIN"
+msgstr "Galat di balasan modem ke CPIN"
+
+#: ../panel-plugin/cellmodem.c:870
+msgid "Invalid CPIN reply from modem"
+msgstr "Balasan CPIN tidak sah dari modem"
+
+#: ../panel-plugin/cellmodem.c:875
+msgid "Unsupportted CPIN reply from modem"
+msgstr "Balasan CPIN tidak didukung dari modem"
+
+#: ../panel-plugin/cellmodem.c:919 ../panel-plugin/cellmodem.c:973
+msgid "Invalid OHCIP reply from modem"
+msgstr "Balasan OHCIP tidak sah dari modem"
+
+#: ../panel-plugin/cellmodem.c:923 ../panel-plugin/cellmodem.c:977
+msgid "Unsupportted OHCIP reply from modem"
+msgstr "Balasan OHCIP tidak didukung dari modem"
+
+#. Error
+#: ../panel-plugin/cellmodem.c:1019
+msgid "Cannot send PIN to modem"
+msgstr "Tak dapat mengirim PIN ke modem"
+
+#: ../panel-plugin/cellmodem.c:1055
+msgid "Error in modem reply to CSQ"
+msgstr "Galat di balasan modem ke CSQ"
+
+#: ../panel-plugin/cellmodem.c:1075
+msgid "Invalid CSQ reply from modem"
+msgstr "Balasan CSQ tidak sah dari modem"
+
+#: ../panel-plugin/cellmodem.c:1276 ../panel-plugin/cellmodem.c:1603
+msgid "Cannot open modem"
+msgstr "Tak dapat membuka modem"
+
+#: ../panel-plugin/cellmodem.c:1429
+msgid "Error reading from modem"
+msgstr "Galat membaca dari modem"
+
+#: ../panel-plugin/cellmodem.c:1507
+msgid "Error writing to modem"
+msgstr "Galat menulis ke modem"
+
+#: ../panel-plugin/cellmodem.c:1523
+msgid "Modem did not reply to command"
+msgstr "Modem tidak membalas terhadap perintah"
+
+#: ../panel-plugin/cellmodem.c:1541
+msgid "No driver defined"
+msgstr "Tak ada driver yang didefinisikan"
+
+#: ../panel-plugin/cellmodem.c:1546
+msgid "No modem instance"
+msgstr "Tak ada instansi modem"
+
+#: ../panel-plugin/cellmodem.c:1720
+msgid "Modem initializing"
+msgstr "Modem menginisialisasi"
+
+#: ../panel-plugin/cellmodem.c:1755
+msgid "Invalid driver specified"
+msgstr "Driver yang ditentukan tidak sah"
+
+#. Error.
+#: ../panel-plugin/pin_helper.c:31
+msgid "Invalid PIN entered. PIN has 4 digits"
+msgstr "PIN yang dimasukkan tidak sah. PIN memiliki 4 digit"
+
+#: ../panel-plugin/pin_helper.c:65
+msgid "Enter PIN"
+msgstr "Masukkan PIN"
+
+#: ../panel-plugin/pin_helper.c:77
+msgid "Please enter PIN:"
+msgstr "Silakan masukkan PIN:"
+
+#: ../panel-plugin/preferences.c:285
+msgid "Close"
+msgstr "Tutup"
+
+#: ../panel-plugin/preferences.c:290
+msgid "No known device found."
+msgstr "Tak menemukan divais yang dikenal."
+
+#: ../panel-plugin/preferences.c:292
+msgid "The following devices were found:"
+msgstr "Divais berikut ditemukan:"
+
+#: ../panel-plugin/preferences.c:299
+msgid "Use this device"
+msgstr "Gunakan divais ini"
+
+#: ../panel-plugin/preferences.c:343
+msgid "Configure Cell Modem Monitor"
+msgstr "Atur Monitor Modem Selular"
+
+#. The header - this was most copied from other sources
+#: ../panel-plugin/preferences.c:356
+msgid "Cellular Modem Monitor"
+msgstr "Monitor Modem Selular"
+
+#: ../panel-plugin/preferences.c:387
+msgid "Modem driver:"
+msgstr "Driver modem:"
+
+#: ../panel-plugin/preferences.c:409
+msgid "Modem speed:"
+msgstr "Kecepatan modem:"
+
+#: ../panel-plugin/preferences.c:422
+msgid "Modem device:"
+msgstr "Divais modem:"
+
+#: ../panel-plugin/preferences.c:444
+msgid "Maximum quality:"
+msgstr "Kualitas maksimum:"
+
+#: ../panel-plugin/preferences.c:455
+msgid "Low quality percentage:"
+msgstr "Persentase kualitas rendah:"
+
+#: ../panel-plugin/preferences.c:465
+msgid "Critical quality percentage:"
+msgstr "Persentase kualitas kritis:"
+
+#: ../panel-plugin/preferences.c:479
+msgid "Check for SMS every"
+msgstr "Cek SMS tiap"
+
+#: ../panel-plugin/preferences.c:481
+msgid "minutes"
+msgstr "menit"

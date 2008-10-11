@@ -1,0 +1,80 @@
+dnl $Id: configure.in.in 26855 2008-04-17 08:40:01Z stephan $
+dnl
+dnl Copyright (c) 2004-2007
+dnl         The Xfce development team. All rights reserved.
+dnl
+dnl Written for Xfce by François Le Clainche  <fleclainche@wanadoo.fr>.
+dnl
+
+dnl Version information
+m4_define([xit_version_major], [4])
+m4_define([xit_version_minor], [4])
+m4_define([xit_version_micro], [0])
+m4_define([xit_version_nano], [])
+m4_define([xit_version], [xit_version_major().xit_version_minor().xit_version_micro()ifelse(xit_version_nano(), [], [], [.xit_version_nano()])])
+
+
+dnl # DO NOT MODIFY ANYTHING BELOW THIS LINE, UNLESS YOU KNOW WHAT
+dnl # YOU ARE DOING.
+
+
+dnl Initialize autoconf
+AC_COPYRIGHT([Copyright (c) 2004-2007
+        The Xfce development team. All rights reserved.
+
+Created for Xfce by François Le Clainche  <fleclainche@wanadoo.fr>.])
+AC_INIT([xfce4-icon-theme], [xit_version], [xfce4-dev@xfce.org])
+AC_REVISION([$Id: configure.in.in 26855 2008-04-17 08:40:01Z stephan $])
+AC_PROG_MAKE_SET()
+
+dnl Initialize automake
+AM_INIT_AUTOMAKE([AC_PACKAGE_TARNAME()], [AC_PACKAGE_VERSION()])
+AM_MAINTAINER_MODE()
+
+dnl Check for required programs
+AC_PROG_INSTALL()
+AC_PROG_INTLTOOL([0.31], [no-xml])
+AC_PROG_LN_S()
+
+dnl *******************************
+dnl *** Check for UNIX variants ***
+dnl *******************************
+AC_AIX()
+AC_ISC_POSIX()
+AC_MINIX()
+AM_CONDITIONAL([HAVE_CYGWIN], [test "`uname | grep \"CYGWIN\"`" != ""])
+
+dnl I18n support
+XDT_I18N([@LINGUAS@])
+
+dnl Don't install translations
+USE_NLS="no"
+AC_SUBST([USE_NLS])
+
+AC_OUTPUT([
+xfce4-icon-theme.spec
+Makefile
+mime/Makefile
+po/Makefile.in
+xfce4-icon-theme-1.0.pc
+Rodent/Makefile
+Rodent/48x48/Makefile
+Rodent/48x48/actions/Makefile
+Rodent/48x48/apps/Makefile
+Rodent/48x48/categories/Makefile
+Rodent/48x48/devices/Makefile
+Rodent/48x48/filesystems/Makefile
+Rodent/48x48/emblems/Makefile
+Rodent/48x48/mimetypes/Makefile
+Rodent/48x48/misc/Makefile
+Rodent/48x48/status/Makefile
+Rodent/scalable/Makefile
+Rodent/scalable/apps/Makefile
+Rodent/scalable/devices/Makefile
+Rodent/scalable/filesystems/Makefile
+Rodent/scalable/emblems/Makefile
+Rodent/scalable/mimetypes/Makefile
+Rodent/scalable/misc/Makefile
+Rodent/scalable/actions/Makefile
+])
+

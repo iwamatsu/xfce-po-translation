@@ -1,0 +1,209 @@
+# Galician translation of xfce4-smartpm-plugin
+# Copyright (C) 2008 Leandro Regueiro
+# This file is distributed under the same license as the xfce package.
+#
+# Leandro Regueiro <leandro.regueiro@gmail.com>, 2008.
+#
+# Proxecto Trasno - Adaptación do software libre á lingua galega:  Se desexas
+# colaborar connosco, podes atopar máis información en <http://trasno.net>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-smartpm-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-04-22 08:54+0200\n"
+"PO-Revision-Date: 2008-06-24 20:08+0100\n"
+"Last-Translator: Leandro Regueiro <leandro DOT regueiro AT gmail DOT com>\n"
+"Language-Team: Galician <proxecto@trasno.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: ../src/xfcesmart.c:149
+msgid "No upgrades"
+msgstr ""
+
+#: ../src/xfcesmart.c:158
+#, c-format
+msgid "%d upgrade available"
+msgstr ""
+
+#: ../src/xfcesmart.c:159
+#, c-format
+msgid "%d upgrades available"
+msgstr ""
+
+#: ../src/xfcesmart.c:162
+msgid "Package Upgrades"
+msgstr ""
+
+#: ../src/xfcesmart.c:248
+msgid "No new packages"
+msgstr "Non hai paquetes novos"
+
+#: ../src/xfcesmart.c:250
+#, c-format
+msgid "Channels have %d new packages"
+msgstr ""
+
+#. unknown
+#: ../src/xfcesmart.c:252
+msgid "Channels updated"
+msgstr ""
+
+#: ../src/xfcesmart.c:256
+msgid "Package Updates"
+msgstr ""
+
+#: ../src/xfcesmart.c:261
+#: ../src/xfcesmart.c:367
+#, c-format
+msgid "Error updating%s%s"
+msgstr ""
+
+#: ../src/xfcesmart.c:274
+msgid "Smart Read-Only"
+msgstr ""
+
+#: ../src/xfcesmart.c:275
+msgid "Another process seems to be using Smart ?"
+msgstr ""
+
+#: ../src/xfcesmart.c:306
+msgid "Updating channels..."
+msgstr ""
+
+#: ../src/xfcesmart.c:359
+#: ../src/xfcesmart.c:1118
+msgid "Update Channels"
+msgstr ""
+
+#: ../src/xfcesmart.c:364
+#: ../src/xfcesmart.c:405
+msgid "Failed to run update"
+msgstr ""
+
+#: ../src/xfcesmart.c:379
+#: ../src/xfcesmart.c:400
+msgid "Channels updated."
+msgstr ""
+
+#: ../src/xfcesmart.c:404
+#: ../src/xfcesmart.c:645
+msgid "Smart Unavailable"
+msgstr ""
+
+#: ../src/xfcesmart.c:555
+#, c-format
+msgid "Error checking%s%s"
+msgstr ""
+
+#: ../src/xfcesmart.c:595
+msgid "Checking for upgrades..."
+msgstr ""
+
+#: ../src/xfcesmart.c:646
+msgid "Failed to run upgrade"
+msgstr ""
+
+#: ../src/xfcesmart.c:729
+msgid "Smart Failed"
+msgstr ""
+
+#: ../src/xfcesmart.c:730
+msgid "Failed to run smart program"
+msgstr ""
+
+#: ../src/xfcesmart.c:801
+msgid "Upgrade Now"
+msgstr ""
+
+#: ../src/xfcesmart.c:948
+msgid "Upgrade In Progress"
+msgstr ""
+
+#: ../src/xfcesmart.c:949
+msgid "An upgrade is already in progress, please wait."
+msgstr ""
+
+#: ../src/xfcesmart.c:1331
+#, c-format
+msgid "Unable to open the following url: %s"
+msgstr ""
+
+#: ../src/xfcesmart.c:1337
+msgid "Update In Progress"
+msgstr ""
+
+#: ../src/xfcesmart.c:1338
+msgid "An update is already in progress, please wait."
+msgstr ""
+
+#. create the dialog
+#: ../src/xfcesmart.c:1423
+#: ../src/xfce4-smart.desktop.in.in.h:2
+msgid "Smart Package Manager"
+msgstr ""
+
+#: ../src/xfcesmart.c:1434
+msgid "_Update..."
+msgstr ""
+
+#: ../src/xfcesmart.c:1448
+msgid "Package Manager: "
+msgstr "Xestor de Paquetes: "
+
+#: ../src/xfcesmart.c:1452
+msgid "Smart"
+msgstr "Smart"
+
+#: ../src/xfcesmart.c:1453
+msgid "Yum+Extender"
+msgstr "Yum+Extender"
+
+#: ../src/xfcesmart.c:1454
+msgid "APT+Synaptic"
+msgstr "APT+Synaptic"
+
+#: ../src/xfcesmart.c:1455
+msgid "slapt+gslapt"
+msgstr "slapt+gslapt"
+
+#: ../src/xfcesmart.c:1462
+msgid "Show application icon for package manager"
+msgstr ""
+
+#: ../src/xfcesmart.c:1470
+msgid "Check for upgrades every "
+msgstr ""
+
+#: ../src/xfcesmart.c:1478
+msgid " minutes"
+msgstr " minutos"
+
+#: ../src/xfcesmart.c:1483
+msgid "Show notifications for updates and upgrades"
+msgstr ""
+
+#: ../src/xfcesmart.c:1492
+msgid "Use su for authentication (instead of sudo)"
+msgstr ""
+
+#: ../src/xfcesmart.c:1498
+msgid "Upgrade on launch (if upgrades available)"
+msgstr ""
+
+#: ../src/xfcesmart.c:1504
+msgid "Smart upgrade to newer release (dist-upgrade)"
+msgstr ""
+
+#: ../src/xfcesmart.c:1541
+msgid "Smart Package Manager - panel plugin"
+msgstr ""
+
+#: ../src/xfcesmart.c:1543
+#: ../src/xfce4-smart.desktop.in.in.h:1
+msgid "Check for updates using the Smart Package Manager"
+msgstr ""
+

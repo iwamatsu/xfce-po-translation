@@ -1,0 +1,37 @@
+# Greek translations for xfce4-websearch-plugin package.
+# Copyright (C) 2005 Piotr Wolny.
+# This file is distributed under the same license as the xfce4-websearch-plugin package.
+# Stavros Giannouris <stavrosg@serverhive.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-websearch-plugin 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:29+0200\n"
+"PO-Revision-Date: 2006-04-06 21:56+0200\n"
+"Last-Translator: Stavros Giannouris <stavrosg@serverhive.com>\n"
+"Language-Team: Greek <nls@tux.hellug.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../src/websearch.c:312
+msgid "Properties"
+msgstr "Ιδιότητες"
+
+#: ../src/websearch.c:321
+msgid "Browser command: "
+msgstr "Εντολή περιηγητή:"
+
+#: ../src/websearch.c:328
+msgid "Search engine: "
+msgstr "Μηχανή αναζήτησης:"
+
+#: ../src/websearch.c:345 ../src/websearch.desktop.in.in.h:2
+msgid "WebSearch"
+msgstr "WebSearch"
+
+#: ../src/websearch.desktop.in.in.h:1
+msgid "Search the Web directly from the Panel"
+msgstr "Αναζητείστε στον Ιστό απευθείας από το Ταμπλό"

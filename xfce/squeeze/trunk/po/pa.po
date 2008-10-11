@@ -1,0 +1,468 @@
+# Punjabi translation of the squeeze package.
+# Copyright (C) 2006-2007 Stephan Arts.
+# This file is distributed under the same license as the squeeze package.
+# A S Alam <aalam@users.sf.net>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: squeeze 0.2.0\n"
+"Report-Msgid-Bugs-To: stephan@xfce.org\n"
+"POT-Creation-Date: 2007-08-21 00:30+0200\n"
+"PO-Revision-Date: 2007-04-11 20:10+0530\n"
+"Last-Translator: A S Alam <aalam@users.sf.net>\n"
+"Language-Team: Punjabi <xfce-i18n@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../libsqueeze/archive.c:236
+msgid "Name"
+msgstr "ਨਾਂ"
+
+#: ../libsqueeze/archive.c:238
+msgid "Mime type"
+msgstr "ਮਾਈਮ ਕਿਸਮ"
+
+#: ../squeeze.desktop.in.h:1
+#, fuzzy
+msgid "Archive Manager"
+msgstr "ਅਕਾਈਵ ਮੈਨੇਜਰ"
+
+#: ../squeeze.desktop.in.h:2
+msgid "Create and manage archives with the archive manager"
+msgstr ""
+
+#: ../squeeze.desktop.in.h:3
+#, fuzzy
+msgid "Squeeze Archive Manager"
+msgstr "ਅਕਾਈਵ ਮੈਨੇਜਰ"
+
+#.
+#. * Could not open archive (mime type not supported or file did not exist)
+#. * Should be a more specific error message.
+#.
+#: ../src/application.c:160 ../src/application.c:250
+msgid "Could not open archive, MIME-type unsupported or file did not exist"
+msgstr "ਆਕਾਈਵ ਖੋਲ੍ਹਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ, MIME-ਕਿਸਮ ਸਹਾਇਕ ਨਹੀਂ ਜਾਂ ਫਾਇਲ ਮੌਜੂਦ ਨਹੀਂ"
+
+#: ../src/application.c:191 ../src/main_window.c:826 ../src/main_window.c:1260
+msgid ""
+"Squeeze cannot extract this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"ਸਕਿਊਜ਼ ਇਹ ਆਕਾਈਵ ਕਿਸਮ ਤੋਂ ਖੋਲ੍ਹ ਨਹੀਂ ਸਕਦਾ ਹੈ,\n"
+"ਇਹ ਸਹਿਯੋਗ ਲਈ ਐਪਲੀਕੇਸ਼ਨ ਗੁੰਮ ਹੈ।"
+
+#.
+#. * Could not create archive (mime type unsupported)
+#.
+#: ../src/application.c:233
+msgid "Could not create archive, MIME-type unsupported"
+msgstr "ਆਕਾਈਵ ਬਣਾਇਆ ਨਹੀਂ ਜਾ ਸਕਿਆ, MIME-ਕਿਸਮ ਸਹਾਇਕ ਨਹੀਂ"
+
+#: ../src/application.c:268 ../src/main_window.c:874
+msgid ""
+"Squeeze cannot add files to this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"ਸਕਿਊਜ਼ ਇਹ ਆਕਾਈਵ ਕਿਸਮ ਤੋਂ ਫਾਇਲਾਂ ਨੂੰ ਸ਼ਾਮਲ ਨਹੀਂ ਸਕਦਾ ਹੈ,\n"
+"ਇਹ ਸਹਿਯੋਗ ਲਈ ਐਪਲੀਕੇਸ਼ਨ ਗੁੰਮ ਹੈ।"
+
+#: ../src/archive_store.c:249 ../src/notebook.c:179
+msgid "Show full path"
+msgstr "ਪੂਰਾ ਪਾਥ ਵੇਖਾਓ"
+
+#: ../src/archive_store.c:250 ../src/notebook.c:180
+msgid "Show the full path strings for each entry"
+msgstr "ਹਰੇਕ ਇੰਦਰਾਜ਼ ਲਈ ਪੂਰੀ ਪਾਥ ਲਾਈਨ ਵੇਖਾਓ"
+
+#: ../src/archive_store.c:256 ../src/notebook.c:186
+msgid "Show mime icons"
+msgstr "ਮਾਈਮ ਆਈਕਾਨ ਵੇਖਾਓ"
+
+#: ../src/archive_store.c:257 ../src/notebook.c:187
+msgid "Show the mime type icons for each entry"
+msgstr "ਹਰੇਕ ਇੰਦਰਾਜ਼ ਲਈ ਮਾਈਮ ਕਿਸਮ ਆਈਕਾਨ ਵੇਖਾਓ"
+
+#: ../src/archive_store.c:263
+msgid "Show up dir entry"
+msgstr "ਉੱਤਲੀ ਡਾਇਰੈਕਟਰੀ ਵੇਖਾਓ"
+
+#: ../src/archive_store.c:264
+msgid "Show '..' to go to the parent directory"
+msgstr "ਮੁੱਢਲੀ ਡਾਇਰੈਕਟਰੀ ਉੱਤੇ ਜਾਣ ਲਈ '..' ਵੇਖਾਓ"
+
+#: ../src/archive_store.c:270 ../src/notebook.c:193
+msgid "Sort folders before files"
+msgstr "ਫੋਲਡਰ ਫਾਇਲਾਂ ਤੋਂ ਪਹਿਲਾਂ ਲੜੀਬੱਧ"
+
+#: ../src/archive_store.c:271 ../src/notebook.c:194
+msgid "The folders will be put at the top of the list"
+msgstr "ਫੋਲਡਰ ਲਿਸਟ ਦੇ ਉੱਤੇ ਰੱਖੇ ਜਾਣਗੇ"
+
+#: ../src/archive_store.c:277 ../src/archive_store.c:278 ../src/notebook.c:200
+#: ../src/notebook.c:201
+msgid "Sort text case sensitive"
+msgstr "ਟੈਕਸਟ ਕੇਸ ਸੈਂਸਟਿਵ ਲੜੀਬੱਧ"
+
+#: ../src/extract_dialog.c:76
+msgid "<b>Extract files:</b>"
+msgstr "<b>ਫਾਇਲਾਂ ਖੋਲ੍ਹੋ:</b>"
+
+#: ../src/extract_dialog.c:77
+msgid "<b>Options:</b>"
+msgstr "<b>ਚੋਣਾਂ:</b>"
+
+#: ../src/extract_dialog.c:87
+msgid "All files"
+msgstr "ਸਭ ਫਾਇਲਾਂ"
+
+#: ../src/extract_dialog.c:88
+msgid "Selected files"
+msgstr "ਚੁਣੀਆਂ ਫਾਇਲਾਂ"
+
+#: ../src/extract_dialog.c:100 ../src/main_window.c:451
+#: ../src/main_window.c:1219
+msgid "Extract"
+msgstr "ਖੋਲ੍ਹੋ"
+
+#: ../src/extract_dialog.c:110
+msgid "Extract archive"
+msgstr "ਆਕਾਈਵ ਖਿਲਾਰੋ"
+
+#: ../src/main.c:51
+msgid "[destination path]"
+msgstr "[destination path]"
+
+#: ../src/main.c:59
+msgid "[archive path] [file1] [file2] ... [fileN]"
+msgstr "[archive path] [file1] [file2] ... [fileN]"
+
+#: ../src/main.c:63
+msgid "[file1] [file2] ... [fileN]"
+msgstr "[file1] [file2] ... [fileN]"
+
+#: ../src/main.c:66
+msgid "Version information"
+msgstr "ਵਰਜਨ ਜਾਣਕਾਰੀ"
+
+#: ../src/main.c:92
+msgid "[archive name]"
+msgstr "[ਆਕਾਈਵ ਨਾਂ]"
+
+#: ../src/main.c:96
+#, c-format
+msgid ""
+"%s: %s\n"
+"Try %s --help to see a full list of available command line options.\n"
+msgstr ""
+"%s: %s\n"
+"Try %s --help to see a full list of available command line options.\n"
+
+#: ../src/main_window.c:133
+msgid "Internal Style"
+msgstr "ਇੰਟਰਨਲ ਸ਼ੈਲੀ"
+
+#: ../src/main_window.c:134
+msgid "Tool Bar Style"
+msgstr "ਟੂਲ ਪੱਟੀ ਸਟਾਇਲ"
+
+#: ../src/main_window.c:135
+msgid "Path Bar Style"
+msgstr "ਪਾਥ ਪੱਟੀ ਸਟਾਇਲ"
+
+#: ../src/main_window.c:182
+msgid "Navigation Style"
+msgstr "ਨੇਵੀਗੇਸ਼ਨ ਸਟਾਇਲ"
+
+#: ../src/main_window.c:183
+msgid ""
+"Style of navigation\n"
+"The style to navigate trough the archive"
+msgstr ""
+"ਨੇਵੀਗੇਸ਼ਨ ਦਾ ਸਟਾਇਲ\n"
+"ਆਕਾਈਵ ਵਿੱਚ ਨੇਵੀਗੇਸ਼ਨ ਦਾ ਸਟਾਇਲ ਹੈ"
+
+#. File menu
+#: ../src/main_window.c:295
+msgid "_File"
+msgstr "ਫਾਇਲ(_F)"
+
+#. Action menu: ref all the childs
+#: ../src/main_window.c:323
+msgid "_Action"
+msgstr "ਐਕਸ਼ਨ(_A)"
+
+#: ../src/main_window.c:328
+#, fuzzy
+msgid "_Add files"
+msgstr "ਫਾਇਲਾਂ ਸ਼ਾਮਲ ਕੀਤੀਆਂ ਜਾ ਰਹੀਆਂ ਹਨ"
+
+#: ../src/main_window.c:334
+#, fuzzy
+msgid "_Add _folders"
+msgstr "ਫਾਇਲਾਂ ਸ਼ਾਮਲ ਕੀਤੀਆਂ ਜਾ ਰਹੀਆਂ ਹਨ"
+
+#: ../src/main_window.c:340
+msgid "_Extract"
+msgstr "ਖਿਲਾਰੋ(_E)"
+
+#. View menu
+#: ../src/main_window.c:373
+msgid "_View"
+msgstr "ਵੇਖੋ(_V)"
+
+#. Help menu
+#: ../src/main_window.c:397
+msgid "_Help"
+msgstr "ਸਹਾਇਤਾ(_H)"
+
+#: ../src/main_window.c:443 ../src/main_window.c:852
+#, fuzzy
+msgid "Add files"
+msgstr "ਫਾਇਲਾਂ ਸ਼ਾਮਲ ਕੀਤੀਆਂ ਜਾ ਰਹੀਆਂ ਹਨ"
+
+#: ../src/main_window.c:447 ../src/main_window.c:894
+#, fuzzy
+msgid "Add folders"
+msgstr "ਫਾਇਲਾਂ ਸ਼ਾਮਲ ਕੀਤੀਆਂ ਜਾ ਰਹੀਆਂ ਹਨ"
+
+#: ../src/main_window.c:724
+msgid "Open archive in new window"
+msgstr "ਨਵੇਂ ਝਰੋਖੇ ਵਿੱਚ ਆਕਾਈਵ ਖੋਲ੍ਹੋ"
+
+#: ../src/main_window.c:730
+msgid "Open archive"
+msgstr "ਆਕਾਈਵ ਖੋਲ੍ਹੋ"
+
+#: ../src/main_window.c:916
+#, fuzzy
+msgid ""
+"Squeeze cannot add folders to this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"ਸਕਿਊਜ਼ ਇਹ ਆਕਾਈਵ ਕਿਸਮ ਤੋਂ ਫਾਇਲਾਂ ਨੂੰ ਸ਼ਾਮਲ ਨਹੀਂ ਸਕਦਾ ਹੈ,\n"
+"ਇਹ ਸਹਿਯੋਗ ਲਈ ਐਪਲੀਕੇਸ਼ਨ ਗੁੰਮ ਹੈ।"
+
+#: ../src/main_window.c:937
+msgid "Are you sure you want to remove the selected files?"
+msgstr "ਕੀ ਤੁਸੀਂ ਚੁਣੀਆਂ ਫਾਇਲਾਂ ਹਟਾਉਣੀਆਂ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: ../src/main_window.c:950
+msgid ""
+"Squeeze cannot remove files from this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"ਸਕਿਊਜ਼ ਇਹ ਆਕਾਈਵ ਕਿਸਮ ਤੋਂ ਫਾਇਲਾਂ ਨੂੰ ਹਟਾ ਨਹੀਂ ਸਕਦਾ ਹੈ,\n"
+"ਇਹ ਸਹਿਯੋਗ ਲਈ ਐਪਲੀਕੇਸ਼ਨ ਗੁੰਮ ਹੈ।"
+
+#: ../src/main_window.c:999
+msgid ""
+"Are you sure you want to cancel this operation?\n"
+"This could damage the archive."
+msgstr ""
+"ਕੀ ਤੁਸੀਂ ਇਹ ਐਕਸ਼ਨ ਰੋਕਣਾ ਚਾਹੁੰਦੇ ਹੋ?\n"
+"ਇਹ ਆਕਾਈਵ ਨੂੰ ਖਰਾਬ ਕਰ ਸਕਦੀ ਹੈ।"
+
+#: ../src/main_window.c:1081
+msgid "Lead developer:"
+msgstr "ਲੀਡ ਡੀਵੈਲਪਰ:"
+
+#: ../src/main_window.c:1084
+msgid "Contributors:"
+msgstr "ਯੋਗਦਾਨ:"
+
+#: ../src/main_window.c:1087
+msgid "Inspired by Xarchiver, written by Giuseppe Torelli"
+msgstr "Xarchiver ਤੋਂ ਪਰਭਾਵਿਤ ਹੋਕੇ ਗੀਉਜ਼ੱਪੀ ਟੋਰਿੱਲੀ ਵਲੋਂ ਲਿਖਿਆ"
+
+#: ../src/main_window.c:1089
+msgid "Application Icon:"
+msgstr "ਕਾਰਜ ਆਈਕਾਨ:"
+
+#: ../src/main_window.c:1092
+msgid "Add / Extract icons:"
+msgstr "ਸ਼ਾਮਲ / ਖੋਲ੍ਹਣ ਆਈਕਾਨ:"
+
+#: ../src/main_window.c:1093
+msgid "Based on the original extract icon created by Andreas Nilsson"
+msgstr "ਐਂਡਰਿਸ ਨੀਲਸਨ ਵਲੋਂ ਅਸਲੀ ਖੋਲ੍ਹਣ ਆਈਕਾਨ ਉੱਤੇ ਆਧਾਰਿਤ"
+
+#: ../src/main_window.c:1100
+msgid ""
+"Squeeze is a lightweight and flexible archive manager for the Xfce Desktop "
+"Environment"
+msgstr "ਸਕਿਊਜ਼ੀ Xfce ਡੈਸਕਟਾਪ ਇੰਵਾਇਰਮਿੰਟ ਲਈ ਹਲਕਾ ਅਤੇ ਲਚਕਦਾਰ ਆਕਾਈਵ ਮੈਨੇਜਰ ਹੈ।"
+
+#. Translator credits as shown in the about dialog: NAME <E-MAIL> YEAR
+#: ../src/main_window.c:1108
+msgid "translator-credits"
+msgstr ""
+"ਅਮਨਪਰੀਤ ਸਿੰਘ ਆਲਮ\n"
+"Punjabi OpenSource Team\n"
+"http://punjabi.sf.net"
+
+#: ../src/main_window.c:1137 ../src/main_window.c:1208
+#: ../src/main_window.c:1376
+msgid "Done"
+msgstr "ਸਮਾਪਤ"
+
+#: ../src/main_window.c:1218
+msgid "Which action do you want to perform on the selected file(s)?"
+msgstr "ਚੁਣੀਆਂ ਫਾਇਲਾਂ ਉੱਤੇ ਤੁਸੀਂ ਕੀ ਕਾਰਵਾਈ ਕਰਨੀ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: ../src/main_window.c:1219
+msgid "Open"
+msgstr "ਖੋਲ੍ਹੋ"
+
+#: ../src/main_window.c:1233
+msgid ""
+"Squeeze cannot view this file.\n"
+"the application to support this is missing."
+msgstr ""
+"ਸਕਿਊਜ਼ੀ ਇਹ ਫਾਇਲ ਨਹੀਂ ਵੇਖਾ ਸਕਦਾ ਹੈ।\n"
+"ਇਹ ਕਾਰਜ ਲਈ ਸਹਿਯੋਗ ਕਾਰਜ ਨਹੀਂ ਹੈ।"
+
+#: ../src/main_window.c:1301
+msgid "Failed to open file"
+msgstr "ਫਾਇਲ ਖੋਲ੍ਹਣ ਲਈ ਫੇਲ੍ਹ ਹੋਇਆ"
+
+#: ../src/main_window.c:1302
+#, c-format
+msgid ""
+"'%s'\n"
+"Could not be opened"
+msgstr ""
+"'%s'\n"
+"ਨੂੰ ਖੋਲ੍ਹਿਆ ਨਹੀਂ ਜਾ ਸਕਿਆ"
+
+#: ../src/new_dialog.c:69
+msgid "Archive type:"
+msgstr "ਆਕਾਈਵ ਕਿਸਮ:"
+
+#: ../src/new_dialog.c:80
+msgid "Archives"
+msgstr "ਅਕਾਈਵ"
+
+#: ../src/new_dialog.c:108
+msgid "Create new archive"
+msgstr "ਨਵਾਂ ਆਕਾਈਵ ਬਣਾਓ"
+
+#: ../src/notebook.c:207
+msgid "Rules hint"
+msgstr "ਰੂਲ ਹਿੰਟ"
+
+#: ../src/notebook.c:208
+msgid "Make the row background colors alternate"
+msgstr "ਕਤਾਰ ਬੈਕਗਰਾਊਂਡ ਰੰਗ ਬਦਲਵੇਂ ਰੰਗ ਨਾਲ ਵੇਖਾਓ"
+
+#: ../src/path_bar.c:141
+msgid "Spacing"
+msgstr "ਫਾਸਲਾ"
+
+#: ../src/path_bar.c:142
+msgid "The amount of space between the path buttons"
+msgstr "ਪਾਥ ਬਟਨਾਂ ਵਿੱਚ ਕੁੱਲ ਸਪੇਸ"
+
+#: ../src/tool_bar.c:167
+msgid "Location:"
+msgstr "ਟਿਕਾਣਾ:"
+
+#: ../src/message_dialog.c:158
+msgid "Archive manager"
+msgstr "ਅਕਾਈਵ ਮੈਨੇਜਰ"
+
+#~ msgid "Compressing"
+#~ msgstr "ਕੰਪਰੈਸਿੰਗ"
+
+#~ msgid "Decompressing"
+#~ msgstr "ਡੀ-ਕੰਪਰੈਸਿੰਗ"
+
+#~ msgid "Refresh"
+#~ msgstr "ਤਾਜ਼ਾ"
+
+#~ msgid "Rights"
+#~ msgstr "ਰਾਈਟ"
+
+#~ msgid "Owner/Group"
+#~ msgstr "ਓਨਰ/ਗਰੁੱਪ"
+
+#~ msgid "Size"
+#~ msgstr "ਆਕਾਰ"
+
+#~ msgid "Date"
+#~ msgstr "ਤਾਰੀਖ"
+
+#~ msgid "Time"
+#~ msgstr "ਟਾਈਮ"
+
+#~ msgid "Removing files"
+#~ msgstr "ਫਾਇਲਾਂ ਹਟਾਈਆਂ ਜਾ ਰਹੀਆਂ ਹਨ"
+
+#~ msgid "Removing"
+#~ msgstr "ਹਟਾਇਆ ਜਾ ਰਿਹਾ ਹੈ"
+
+#~ msgid "Extracting"
+#~ msgstr "ਖੋਲ੍ਹਿਆ ਜਾ ਰਿਹਾ ਹੈ"
+
+#~ msgid "Compressed"
+#~ msgstr "ਕੰਪਰੈਸਡ"
+
+#~ msgid "Ratio"
+#~ msgstr "ਅਨੁਪਾਤ"
+
+#~ msgid "Method"
+#~ msgstr "ਢੰਗ"
+
+#~ msgid "Version"
+#~ msgstr "ਵਰਜਨ"
+
+#~ msgid "Adding"
+#~ msgstr "ਸ਼ਾਮਲ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ"
+
+#~ msgid "Execute"
+#~ msgstr "ਚਲਾਓ"
+
+#~ msgid "Command exited with status %d."
+#~ msgstr "ਕਮਾਂਡ %d ਹਾਲਤ ਨਾਲ ਬੰਦ ਹੋਈ।"
+
+#~ msgid "Command interrupted by user"
+#~ msgstr "ਉਪਭੋਗੀ ਨੇ ਕਮਾਂਡ ਚਲਾਈ"
+
+#~ msgid "Command received SIGSEGV"
+#~ msgstr "ਕਮਾਂਡ ਨੂੰ SIGSEGV ਮਿਲਿਆ"
+
+#~ msgid "Command Terminated"
+#~ msgstr "ਕਮਾਂਡ ਖਤਮ ਹੋਈ"
+
+#~ msgid "Files and directories to add"
+#~ msgstr "ਫਾਇਲਾਂ ਅਤੇ ਫੋਲਡਰ ਸ਼ਾਮਲ ਕਰੋ"
+
+#~ msgid "Options:"
+#~ msgstr "ਚੋਣਾਂ:"
+
+#~ msgid "Files"
+#~ msgstr "ਫਾਇਲਾਂ"
+
+#~ msgid "Directories"
+#~ msgstr "ਡਾਇਰੈਕਟਰੀਆਂ"
+
+#~ msgid "Add file(s) to archive"
+#~ msgstr "ਅਕਾਈਵ ਵਿੱਚ ਫਾਇਲਾਂ ਸ਼ਾਮਲ ਕਰੋ"
+
+#~ msgid "Select files"
+#~ msgstr "ਫਾਇਲਾਂ ਚੁਣੋ"
+
+#~ msgid "Select folders"
+#~ msgstr "ਫੋਲਡਰ ਚੁਣੋ"
+
+#~ msgid "_Add"
+#~ msgstr "ਸ਼ਾਮਲ(_A)"
+
+#~ msgid "Add"
+#~ msgstr "ਸ਼ਾਮਲ"
+
+#~ msgid "Xfce archive manager"
+#~ msgstr "Xfce ਅਕਾਈਵ ਮੈਨੇਜਰ"

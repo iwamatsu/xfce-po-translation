@@ -1,0 +1,91 @@
+# Ukrainian translation of xfvnc.
+# Copyright (C) 2007 Brian Tarricone <bjt23@cornell.edu>
+# This file is distributed under the same license as the xfvnc package.
+#
+# Dmitry Nikitin <luckas_fb@mail.ru>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfvnc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-11-02 01:40-0700\n"
+"PO-Revision-Date: 2008-07-28 19:03+0300\n"
+"Last-Translator: Dmitry Nikitin <luckas_fb@mail.ru>\n"
+"Language-Team: Ukrainian <xfce4-dev@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../xfvnc/main.c:28
+msgid "Connected.  Starting session..."
+msgstr "Під'єднано.  Початок сесії..."
+
+#: ../xfvnc/main.c:50
+#, c-format
+msgid "XfVNC .:. %s"
+msgstr "XfVNC .:. %s"
+
+#: ../xfvnc/main.c:64
+msgid "Connection Error"
+msgstr "Помилка з'єднання"
+
+#: ../xfvnc/main.c:66
+msgid "There was an error connecting to the VNC server"
+msgstr "Отримано помилку з'єднання з сервером VNC"
+
+#: ../xfvnc/main.c:67
+msgid "Unfortunately, the type of error is unknown."
+msgstr "Невдача, невідомий тип помилки."
+
+#: ../xfvnc/xfvnc.desktop.in.h:1
+msgid "VNC Viewer"
+msgstr "Переглядач VNC"
+
+#: ../xfvnc/xfvnc.desktop.in.h:2 ../xfvnc/xfvnc.glade.h:4
+msgid "XfVNC"
+msgstr "Клієнт XfVNC"
+
+#: ../xfvnc/xfvnc.desktop.in.h:3
+msgid "Xfce VNC Viewer Application"
+msgstr "Програма перегляду з'єднань VNC для Xfce"
+
+#: ../xfvnc/xfvnc.glade.h:1
+msgid "Connecting..."
+msgstr "З'єднуємось..."
+
+#: ../xfvnc/xfvnc.glade.h:2
+msgid "Display _number:"
+msgstr "Показати _номер:"
+
+#: ../xfvnc/xfvnc.glade.h:3
+msgid "Show _fullscreen"
+msgstr "В _повноекранному режимі"
+
+#: ../xfvnc/xfvnc.glade.h:5
+msgid "XfVNC Status"
+msgstr "Стан XfVNC"
+
+#: ../xfvnc/xfvnc.glade.h:6
+msgid "Xfce VNC Viewer"
+msgstr "Переглядач з'єднань VNC для Xfce"
+
+#: ../xfvnc/xfvnc.glade.h:7
+msgid "_Allow other clients to connect"
+msgstr "_Дозволяти з'єднання іншим клієнтам"
+
+#: ../xfvnc/xfvnc.glade.h:8
+msgid "_Computer name:"
+msgstr "_Назва комп'ютера:"
+
+#: ../xfvnc/xfvnc.glade.h:9
+msgid "_Password:"
+msgstr "_Пароль:"
+
+#: ../xfvnc/xfvnc.glade.h:10
+msgid "_Recent servers:"
+msgstr "_Віддалені сервери:"
+
+#: ../xfvnc/xfvnc.glade.h:11
+msgid "_View only"
+msgstr "_Тільки перегляд"
+

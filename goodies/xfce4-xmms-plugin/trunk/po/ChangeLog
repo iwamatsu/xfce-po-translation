@@ -1,0 +1,158 @@
+2008-07-15 Mohamed Magdy <alnokta@xfce.org>
+
+        * ar.po: Add Arabic translation
+
+2008-06-27  Og Maciel <ogmaciel@gnome.org>
+
+    * pt_BR.po: Changed header codification to utf-8
+
+2008-06-26  Maximilian Schleiss <maximilian@xfce.org>
+
+	* gl.po, LINGUAS: Galician translation added (Leandro Regueiro)
+
+2008-06-25  Maximilian Schleiss <maximilian@xfce.org>
+
+	* id.po, LINGUAS: Indonesian translation added (Andhika Padmawan)
+
+2008-05-27  Mike Massonnet <mmassonnet@xfce.org>
+
+	* da.po, LINGUAS: Add Danish translation (Jens Hyllegaard)
+
+2008-05-14	Mike Massonnet <mmassonnet@xfce.org>
+
+	* ja.po: Update Japanese translation (Nobuhiro Iwamatsu)
+
+2007-12-19	Maximilian Schleiss <maximilian@xfce.org>
+
+	* de.po: German translation update
+	by Fabian Nowak <timystery@arcor.de>
+
+2007-11-18	Maximilian Schleiss <maximilian@xfce.org>
+
+	* lv.po: Latvian translation added
+	by Rihards Priedītis <rprieditis@inbox.lv>
+
+2007-11-15	Mike Massonnet <mmassonnet@xfce.org>
+
+	* ur.po: Update translation by Muhammad Ali Makki <makki.ma@gmail.com>
+	* pk.po, ur.po: Rename pk.po to ur.po.
+
+2007-10-28	Mike Massonnet <mmassonnet@xfce.org>
+
+	* pk.po: Add new translation by محمد علي المكي <makki.ma@gmail.com>
+
+2007-09-07  Og Maciel <ogmaciel@gnome.org>
+
+	* pt_BR.po: Brazilian Portuguese translation added
+	by Andrius da Costa Ribas <andriusmao@gmail.com>
+
+2007-08-25  Mike Massonnet <mmassonnet@xfce.org>
+
+	* pt_PT.po: European Portuguese update
+	by Nuno Miguel <nunis@netcabo.pt>
+
+2007-07-08  Maximilian Schleiss <maximilian@xfce.org>
+
+	* pt_PT.po: European Protuguese translation added
+	by Nuno Miguel <nunis@netcabo.pt>
+
+2007-03-31  Pau Rul-lan Ferragut <paurullan@bulma.net>
+
+	* gb.po: British translation by Jeff Bailes <thepizzaking@gmail.com>
+
+2007-02-20  Maximilian Schleiss <maximilian@xfce.org>
+
+	* ko.po: Updated the Korean translation by
+	ByungHyun Choi <byunghyun.choi@debianusers.org>
+
+2007-02-02  Maximilian Schleiss <maximilian@xfce.org>
+
+	* fr.po: Added the Albanian translation by
+	Besnik Bleta <besnik@programeshqip.org>
+
+2006-12-15  Pau Rul-lan Ferragut <paurullan@bulma.net>
+
+	* ko.po: Updated Korean translations
+	by ByungHyun Choi <byunghyun.choi@debianusers.org>
+
+2006-11-27  Pau Rul-lan Ferragut <paurullan@bulma.net>
+
+	* ko.po: Update Korean Translations by
+	ByungHyun Choi <byunghyun.choi@debianusers.org>
+
+2006-11-24  Maximilian Schleiss <maximilian@xfce.org>
+
+	* fr.po: Updated the French translation
+	by Gérald Barré <g.barre@free.fr>
+
+2006-10-21  Maximilian Schleiss <maximilian@xfce.org>
+
+	* ko.po: Updated the Korean translation by ByungHyun Choi
+	<byunghyun.choi@debianusers.org>
+
+2006-10-03  Jean-François Wauthy <pollux@xfce.org>
+
+	* cs.po: Updated Czech translations by Michal Varady
+	<miko.vaji@gmail.com>
+
+2006-09-18  Pau Rul-lan Ferragut <paurullan@bulma.net>
+
+	* ca.po: Created catalan translation
+
+2006-09-13  Piarres Beobide <pi@beobide.net>
+
+	* eu.po : Updated basque transaltion
+
+2006-09-03  Jean-François Wauthy <pollux@xfce.org>
+
+	* de.po: Updated German translations
+	* pl.po: Updated Polish translations
+
+2006-08-27  Kemal Ilgar Eroglu <kieroglu@math.washington.edu>
+
+	* Made some more strings translatable.
+	* tr.po: Added Turkish translations
+
+2006-08-27  Jean-François Wauthy <pollux@xfce.org>
+
+	* cs.po: Add Czech translations
+
+2006-07-29  Jean-François Wauthy <pollux@xfce.org>
+
+	* fr.po: Add French translations by Maximilian Schleiss
+	<maximilian@xfce.org>
+
+2006-07-27  Jean-François Wauthy <pollux@xfce.org>
+
+	* de.po: Updated German translations by Enrico Tröger
+	<enrico.troeger@uvena.de>
+
+2006-04-08  Daichi Kawahata <daichi@xfce.org>
+
+	* pl.po: Added Polish translations by Piotr Makinski
+	  <admin@rk.edu.pl>.
+
+2006-01-04  Daichi Kawahata <daichi@xfce.org>
+
+	* ja.po: Added Japanese translations.
+	* POTFILES.in: Added a missing file.
+	* de.po, ko.po, lt.po: Updated.
+
+2005-12-01  Kemal Ilgar Eroglu <kieroglu@math.washington.edu>
+
+	* Makefile.in.in: Fix Makefile
+
+2005-02-13  Jean-Francois Wauthy <pollux@xfce.org>
+
+	* lt.po: add LT translations
+
+2005-01-25  Jean-Francois Wauthy <pollux@xfce.org>
+
+	* ko.po: add KO translations
+
+2004-03-20  Benedikt Meurer <benny@xfce.org>
+
+	* ChangeLog, Makefile.in.in, POTFILES.in, de.gmo, de.po,
+	  xfce4-xmms-plugin.pot: Added i18n support. Rearranged some
+	  stuff.
+

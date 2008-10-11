@@ -1,0 +1,14 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+_Name=Squeeze Archive Manager
+_Comment=Create and manage archives with the archive manager
+_GenericName=Archive Manager
+Exec=squeeze
+Icon=squeeze
+Terminal=false
+Type=Application
+X-MultipleArgs=false
+Categories=GTK;Archiving;Utility;
+StartupNotify=true
+MimeType=application/x-bzip-compressed-tar;application/x-bzip2-compressed-tar;application/x-compressed-tar;application/x-tar;application/x-tarz;application/x-tzo;application/x-zip;application/x-zip-compressed;application/zip;application/x-rar;application/x-gzip;application/x-bzip;application/x-lzop;application/x-compress

@@ -1,0 +1,329 @@
+# translation of eu.po to Euskara
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Piarres Beobide <pi@beobide.net>, 2007, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: eu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-09-10 11:12+0200\n"
+"PO-Revision-Date: 2008-09-10 11:35+0200\n"
+"Last-Translator: Piarres Beobide <pi@beobide.net>\n"
+"Language-Team: Euskara <debian-l10n-basque@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+
+#: ../panel-plugin/xfce4-dict-plugin.desktop.in.in.h:1
+msgid "A plugin to query different dictionaries."
+msgstr "Hiztegi ezberdinak galdekatzeko plugina."
+
+#: ../panel-plugin/xfce4-dict-plugin.desktop.in.in.h:2
+msgid "Dictionary"
+msgstr "Hiztegia"
+
+#: ../panel-plugin/xfce4-dict-plugin.c:370
+msgid "Look up a word"
+msgstr "Hitz bat bilatu"
+
+#: ../panel-plugin/xfce4-dict-plugin.c:429 ../src/xfce4-dict.c:206
+#: ../lib/aspell.c:198 ../lib/dictd.c:145 ../lib/gui.c:96
+msgid "Ready."
+msgstr "Prest."
+
+#. Note for translators: run xfce4-dict --help and copy the help text for "--help" into this one
+#: ../src/xfce4-dict.c:54
+msgid "Show help options"
+msgstr "Ikusi laguntza aukerak"
+
+#: ../src/xfce4-dict.c:56
+msgid "Search the given text using a Dict server(RFC 2229)"
+msgstr "Bilatu emandako testua Dict zerbitzari(RFC 2229) batetan"
+
+#: ../src/xfce4-dict.c:57
+msgid "Search the given text using a web-based search engine"
+msgstr "Bilatu emandako testua web-ean oinarritutako motor bat erabiliaz"
+
+#: ../src/xfce4-dict.c:58
+msgid "Check the given text with a spellchecker"
+msgstr "Egiaztatu emandako testua hiztegi ortografikoarekin"
+
+#: ../src/xfce4-dict.c:59
+msgid "Grab the focus on the text field in the panel"
+msgstr "Mantendu fokoa paneleko testu eremuan"
+
+#: ../src/xfce4-dict.c:60
+msgid "Start stand-alone application even if the panel plugin is loaded"
+msgstr "Hasi banakako aplikazioa nahiz panel plugina kargaturik egon"
+
+#: ../src/xfce4-dict.c:61
+msgid "Show version information"
+msgstr "Ikusi bertsio argibideak"
+
+#: ../src/xfce4-dict.c:134
+msgid "[TEXT]"
+msgstr "[TESTUA]"
+
+#: ../src/xfce4-dict.c:158
+#, c-format
+msgid "(built on %s with GTK %d.%d.%d, GLib %d.%d.%d)"
+msgstr "(%s-ean GTK %d.%d.%d, GLib %d.%d.%d erabiliaz konpilaturik)"
+
+#: ../src/xfce4-dict.desktop.in.h:1 ../lib/gui.c:339
+msgid "A client program to query different dictionaries."
+msgstr "Hiztegi ezberdinak galdekatzeko bezero programa bat."
+
+#: ../src/xfce4-dict.desktop.in.h:2
+msgid "Dictionary Client"
+msgstr "Hiztegi bezeroa"
+
+#: ../src/xfce4-dict.desktop.in.h:3 ../lib/gui.c:189 ../lib/prefs.c:236
+msgid "Xfce4 Dictionary"
+msgstr "Xfce4 Hiztegia"
+
+#: ../lib/aspell.c:75
+#, c-format
+msgid "%d suggestion found."
+msgid_plural "%d suggestions found."
+msgstr[0] "Gomendio %d aurkitu da"
+msgstr[1] "%d gomendio aurkitu dira"
+
+#: ../lib/aspell.c:79
+#, c-format
+msgid "Suggestions for \"%s\":"
+msgstr "\"%s\"-rentzat gomendioak:"
+
+#: ../lib/aspell.c:90
+#, c-format
+msgid "\"%s\" is spelled correctly."
+msgstr "\"%s\" behar bezala idatzirik dago."
+
+#: ../lib/aspell.c:96
+#, c-format
+msgid "No suggestions could be found for \"%s\"."
+msgstr "Ez da gomendiorik aurkitu \"%s\"-rentzat."
+
+#. translation hint:
+#. * Error while executing <spell command, e.g. "aspell"> (<error message>)
+#: ../lib/aspell.c:122
+#, c-format
+msgid "Error while executing \"%s\" (%s)."
+msgstr "Errorea \"%s\" (%s) exekutatzean."
+
+#: ../lib/aspell.c:158
+msgid "Please set the aspell command in the preferences dialog."
+msgstr "Mesedez ezarri aspell komandoa hobespenetan."
+
+#: ../lib/aspell.c:164 ../lib/common.c:200
+msgid "Invalid input."
+msgstr "Sarrera baliogabea."
+
+#: ../lib/aspell.c:202
+#, c-format
+msgid "Process failed (%s)"
+msgstr "Prozesuak huts egin du (%s)"
+
+#: ../lib/common.c:166
+msgid "The search URL is empty. Please check your preferences."
+msgstr "Bilaketa URLa hutsik dago. Mesedez egiaztatu zure hobespenak."
+
+#: ../lib/common.c:171
+msgid "Browser could not be opened. Please check your preferences."
+msgstr "Nabigatzailea ezin da ireki. Mesedez egiaztatu zure hobespenak."
+
+#: ../lib/common.c:210
+msgid "Invalid non-UTF8 input."
+msgstr "Ez-UTF8 sarrera baliogabea"
+
+#: ../lib/dictd.c:112 ../lib/dictd.c:409
+msgid "Could not connect to server."
+msgstr "Ezin da zerbitzarira konektatu."
+
+#: ../lib/dictd.c:119 ../lib/dictd.c:164 ../lib/dictd.c:433
+msgid "Unknown error while quering the server."
+msgstr "Errore ezezaguna zerbitzaria galdekatzerakoan."
+
+#: ../lib/dictd.c:127
+msgid "Server not ready."
+msgstr "Zerbitzaria ez dago prest."
+
+#: ../lib/dictd.c:134
+msgid "Invalid dictionary specified. Please check your preferences."
+msgstr "Okerreko hiztegia zehazturik. Mesedez egiaztatu zure hobespenak."
+
+#: ../lib/dictd.c:147
+#, c-format
+msgid "No matches could be found for \"%s\"."
+msgstr "Ez  da parekatzerik aurkitu \"%s\"-rentzat."
+
+#: ../lib/dictd.c:169
+#, c-format
+msgid "%d definition found."
+msgid_plural "%d definitions found."
+msgstr[0] "definizio %d aurkitu da"
+msgstr[1] "%d definizio aurkitu dira"
+
+#: ../lib/dictd.c:379
+#, c-format
+msgid "Querying %s..."
+msgstr "%s galdekatzen..."
+
+#: ../lib/dictd.c:428
+msgid "The server doesn't offer any databases."
+msgstr "Zerbitzariak ez du datubaserik eskaintzen."
+
+#: ../lib/gui.c:146
+msgid "_File"
+msgstr "_Fitxategia"
+
+#: ../lib/gui.c:162
+msgid "_Help"
+msgstr "_Laguntza"
+
+#: ../lib/gui.c:212
+msgid "Text to search:"
+msgstr "Bilatzeko testua:"
+
+#: ../lib/gui.c:258
+msgid "Search with:"
+msgstr "Bilatu honekin:"
+
+#: ../lib/gui.c:262 ../lib/prefs.c:276 ../lib/prefs.c:372
+msgid "Dict"
+msgstr "Dict"
+
+#: ../lib/gui.c:268 ../lib/prefs.c:285 ../lib/prefs.c:483
+msgid "Web"
+msgstr "Web"
+
+#: ../lib/gui.c:274 ../lib/prefs.c:294
+msgid "Spellcheck"
+msgstr "Ortografia-egiaztatzea"
+
+#: ../lib/gui.c:343
+msgid "Developer"
+msgstr "Garatzailea"
+
+#: ../lib/prefs.c:116
+msgid "You have chosen an invalid dictionary."
+msgstr "Hiztegi baliogabe bat hautatu duzu."
+
+#: ../lib/prefs.c:127
+msgid "You must set a valid search URL."
+msgstr "Baliozko bilaketa URL bat zehaztu behar duzu."
+
+#: ../lib/prefs.c:195
+msgid "dict.leo.org - German <-> English"
+msgstr "dict.leo.org - Alemaniera <-> Ingelesa"
+
+#: ../lib/prefs.c:196
+msgid "dict.leo.org - German <-> French"
+msgstr "dict.leo.org - Alemaniera <-> Frantsesa"
+
+#: ../lib/prefs.c:197
+msgid "dict.leo.org - German <-> Spanish"
+msgstr "dict.leo.org - Alemaniera <-> Gaztelania"
+
+#: ../lib/prefs.c:198
+msgid "dict.leo.org - German <-> Italian"
+msgstr "dict.leo.org - Alemaniera <-> Italiera"
+
+#: ../lib/prefs.c:199
+msgid "dict.leo.org - German <-> Chinese"
+msgstr "dict.leo.org - Alemaniera <-> Txinera"
+
+#: ../lib/prefs.c:200
+msgid "dist.cc - Dictionary"
+msgstr "dist.cc - Hiztegia"
+
+#: ../lib/prefs.c:201
+msgid "Dictionary.com"
+msgstr "Dictionary.com"
+
+#: ../lib/prefs.c:202
+msgid "TheFreeDictionary.com"
+msgstr "TheFreeDictionary.com"
+
+#: ../lib/prefs.c:203
+msgid "Wiktionary, the free dictionary (EN)"
+msgstr "Wiktionary, hiztegi librea (EN)"
+
+#: ../lib/prefs.c:204
+msgid "Clear"
+msgstr "Garbitu"
+
+#: ../lib/prefs.c:268
+msgid "General"
+msgstr "Orokorra"
+
+#: ../lib/prefs.c:270
+msgid "<b>Default search method:</b>"
+msgstr "<b>Lehenetsitako bilaketa metodoa:</b>"
+
+#: ../lib/prefs.c:303
+msgid "Last used method"
+msgstr "Azkenez erabilitako metodoa"
+
+#: ../lib/prefs.c:317
+msgid "<b>Panel text field:</b>"
+msgstr "<b>Panel testu eremua:</b>"
+
+#: ../lib/prefs.c:323
+msgid "Show text field in the panel"
+msgstr "Ikusi testu eremua panelean"
+
+#. panel entry size
+#: ../lib/prefs.c:330
+msgid "Text field size:"
+msgstr "Testu eremu tamaina:"
+
+#. server address
+#: ../lib/prefs.c:375
+msgid "Server:"
+msgstr "Zerbitzaria:"
+
+#. server port
+#: ../lib/prefs.c:387
+msgid "Server Port:"
+msgstr "Zerbitzari ataka:"
+
+#. dictionary
+#: ../lib/prefs.c:395 ../lib/prefs.c:544
+msgid "Dictionary:"
+msgstr "Hiztegia:"
+
+#: ../lib/prefs.c:399
+msgid "* (use all)"
+msgstr "* (dena erabili)"
+
+#: ../lib/prefs.c:401
+msgid "! (use all, stop after first match)"
+msgstr "! (dena erabili, lehen parekatzean gelditu)"
+
+#: ../lib/prefs.c:485
+msgid "<b>Web search URL:</b>"
+msgstr "<b>Web bilaketa URLa:</b>"
+
+#: ../lib/prefs.c:491
+msgid "URL:"
+msgstr "URLa:"
+
+#: ../lib/prefs.c:511
+msgid ""
+"Enter an URL to a web site which offer translation or dictionary services. "
+"Use {word} as placeholder for the searched word."
+msgstr ""
+"Idatzi itzulpena edo hiztegi zerbitzuak eskaintzen dituen webgune baten URLa. "
+"{word} erabili bilatu behar den hitza zehazteko."
+
+#: ../lib/prefs.c:531
+msgid "Aspell"
+msgstr "Aspell"
+
+#: ../lib/prefs.c:533
+msgid "Aspell program:"
+msgstr "Aspell programa:"
+

@@ -1,0 +1,1597 @@
+# Russian translations for xfmedia package.
+# Copyright (C) 2004-2006 Brian J. Tarricone.
+# This file is distributed under the same license as the xfmedia package.
+# Sergey Fedoseev <fedoseev.sergey@gmail.com>, 2006.
+# Andrey Fedoseev <andrey.fedoseev@gmail.com>, 2006.
+# Nikolay Borisov <neiro21@gmail.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfmedia 0.10.0svn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-06-16 22:22+0900\n"
+"PO-Revision-Date: 2006-10-11 11:43+0400\n"
+"Last-Translator: Nikolay Borisov <neiro21@gmail.com>\n"
+"Language-Team: Russian <ru@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:102
+#, c-format
+msgid "Status:                  %s\n"
+msgstr "Статус:                  %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:106
+#, c-format
+msgid "Now Playing:             %s\n"
+msgstr "Проигрывается:             %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:111
+#, c-format
+msgid "Filename:                %s\n"
+msgstr "Имя файла:               %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:112
+#: ../plugins/infopipe/xfmedia-infopipe.c:127
+#: ../plugins/infopipe/xfmedia-infopipe.c:138
+msgid "(none)"
+msgstr "(ничего)"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:115
+#, fuzzy, c-format
+msgid "Track Position:          %d\n"
+msgstr "Позиция:          %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:119
+#, c-format
+msgid "Track Length:            %d\n"
+msgstr "Длина трека:             %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:126
+#, c-format
+msgid ""
+"Audio Codec:             %s\n"
+"Audio Bitrate:           %d\n"
+"Audio Sample Rate:       %d\n"
+"Audio Channels:          %d\n"
+"Audio Bits Per Sample:   %d\n"
+msgstr ""
+"Аудио,кодек:             %s\n"
+"Аудио, битрейт:          %d\n"
+"Аудио, сэмплов/сек:      %d\n"
+"Аудио, каналы:           %d\n"
+"Аудио, битов/сэмпл:      %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:137
+#, c-format
+msgid ""
+"Video Codec:            %s\n"
+"Video Bitrate:          %d\n"
+"Video Frames Per Second: %.02f\n"
+"Video Frame Size:        %dx%d\n"
+"Video Aspect Ratio:      %.02f\n"
+msgstr ""
+"Видео, кодек:           %s\n"
+"Видео, битрейт:         %d\n"
+"Видео, кадров/сек:       %.02f\n"
+"Видео, размер кадра:     %dx%d\n"
+"Видео, степень сжатия:      %.02f\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:144
+#, c-format
+msgid "Playlist Length:         %d\n"
+msgstr "Длина списка             %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:148
+#, c-format
+msgid "Current Playlist Index:  %d\n"
+msgstr "Текущая позиция в списке: %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:234
+#, c-format
+msgid "Xfmedia-Infopipe: Unable to delete file '%s'."
+msgstr "Xfmedia-Infopipe: Не удалось удалить файл '%s'."
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:245
+#, c-format
+msgid "Xfmedia-Infopipe: Unable to create pipe '%s'."
+msgstr "Xfmedia-Infopipe: Не удалось создать именованный канал '%s'."
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:262
+msgid "Xfmedia Infopipe"
+msgstr "Xfmedia Infopipe"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:264
+msgid ""
+"The Infopipe plugin creates a pipe in /tmp that you can use to retrieve "
+"information about the currently playing track."
+msgstr ""
+"Модуль Infopipe создает в каталоге /tmp именованный канал, который можно "
+"использовать для получения информации о проигрываемом треке."
+
+#: ../src/equaliser.c:132
+msgid "Equalizer"
+msgstr "Эквалайзер"
+
+#: ../src/equaliser.c:175
+msgid "Preamp"
+msgstr "Предусилитель"
+
+#: ../src/http.c:95
+#, c-format
+msgid "http: failed to open socket: %s\n"
+msgstr "http: не удалось открыть сокет: %s\n"
+
+#: ../src/http.c:105
+#, c-format
+msgid "http: cannot connect to host\n"
+msgstr "http: не удалось соединиться с удалённым компьютером\n"
+
+#: ../src/http.c:121
+#, c-format
+msgid "http: unable to resolve '%s'\n"
+msgstr "http: не удалось найти '%s'\n"
+
+#: ../src/http.c:133
+#, c-format
+msgid "http: unable to connect to '%s'\n"
+msgstr "http: не удается соединиться с '%s'\n"
+
+#: ../src/http.c:311 ../src/http.c:330
+msgid "URL parse error"
+msgstr "Ошибка при разборе URL"
+
+#: ../src/http.c:322 ../src/http.c:340
+msgid "proxy authentication error"
+msgstr "ошибка аутентификации прокси"
+
+#: ../src/http.c:360
+msgid "host connect error"
+msgstr "ошибка соединения"
+
+#: ../src/http.c:399
+msgid "couldn't send request"
+msgstr "невозможно отправить запрос"
+
+#: ../src/http.c:420
+msgid "read error"
+msgstr "ошибка чтения"
+
+#: ../src/http.c:446
+msgid "invalid HTTP response"
+msgstr "неправильный HTTP ответ"
+
+#: ../src/http.c:454
+msgid "HTTP 3xx redirection not implemented"
+msgstr "Перенаправление HTTP 3xx не реализовано"
+
+#: ../src/http.c:461
+msgid "HTTP status is not 2xx"
+msgstr "Статус HTTP не является 2xx"
+
+#: ../src/http.c:480
+msgid "HTTP 'Location:' redirection not implemented"
+msgstr "HTTP 'Location:' перенаправление не реализовано"
+
+#. FIXME: report errno, and possibly in a window
+#: ../src/http.c:534
+#, c-format
+msgid "http: read error\n"
+msgstr "http: ошибка чтения\n"
+
+#: ../src/main.c:227 ../src/xfmedia-remote.c:102
+#, c-format
+msgid ""
+"Xfmedia %s.  Released under the terms of the GNU GPL.  See the COPYING\n"
+"file for details.\n"
+"\n"
+msgstr ""
+"Xfmedia %s.  Распространяется на условиях GNU GPL. См. файл COPYING\n"
+"для более подробной информации.\n"
+"\n"
+
+#: ../src/main.c:228
+#, c-format
+msgid ""
+"Usage: %s [options] [files]\n"
+"\n"
+msgstr ""
+"Использование: %s [параметры] [файлы]\n"
+"\n"
+
+#: ../src/main.c:229 ../src/xfmedia-remote.c:104
+msgid "    -h, --help           Print this help message and exit.\n"
+msgstr "    -h, --help           Вывести это справочное сообщение и выйти.\n"
+
+#: ../src/main.c:230 ../src/xfmedia-remote.c:105
+msgid "    -V, --version        Print version information and exit.\n"
+msgstr "    -V, --version        Вывести информацию о версии и выйти.\n"
+
+#: ../src/main.c:231
+msgid ""
+"    -v, --verbose        Instruct xine to print useful status information.\n"
+msgstr "    -v, --verbose        Выводить подробную информацию о статусе.\n"
+
+#: ../src/main.c:232
+msgid ""
+"    --debug              Instruct xine to print detailed debug information.\n"
+msgstr "    --debug              Выводить подробную отладочную информацию.\n"
+
+#: ../src/main.c:233
+msgid ""
+"    -f, --fullscreen     Start xfmedia's video window in fullscreen mode.\n"
+msgstr ""
+"    -f, --fullscreen     Запустить окно видео в полноэкранном режиме.\n"
+
+#: ../src/main.c:234
+msgid ""
+"    -p, --autoplay       Start playing when Xfmedia starts.  (This is the\n"
+"                         default if xfmedia is given filenames on the "
+"command\n"
+"                         line.)\n"
+msgstr ""
+"    -p, --autoplay       Начать воспроизведение при запуске xfmedia. (Это\n"
+"                         происходит по умолчанию, если xfmedia в командной\n"
+"                         строке указаны файлы.\n"
+
+#: ../src/main.c:237
+msgid "    -c, --clear-playlist Start xfmedia with an empty playlist.\n"
+msgstr ""
+"    -c, --clear--playlist Запустить xfmedia c пустым списком "
+"воспроизведения\n"
+
+#: ../src/main.c:238
+msgid "    --audio-out=DRIVER   Specify the audio output driver to use.\n"
+msgstr "    --audio-out=ДРАЙВЕР   Задать аудио драйвер для вывода.\n"
+
+#: ../src/main.c:239
+msgid "    --video-out=DRIVER   Specify the video output driver to use.\n"
+msgstr "    --video-out=ДРАЙВЕР   Задать видео драйвер для вывода.\n"
+
+#: ../src/main.c:240
+msgid ""
+"    --vwin-geometry=WxH[+X+Y]\n"
+"                         Specify a fixed size and/or position for xfmedia's\n"
+"                         video window.\n"
+msgstr ""
+"    --vwin-geometry=ШxВ[+X+Y]\n"
+"                         Задать фиксированный размер и/или позицию для\n"
+"                         окна видео.\n"
+
+#: ../src/main.c:315 ../src/xfmedia-remote.c:167
+#, c-format
+msgid ""
+"Xfmedia version %s, Copyright (c) Brian Tarricone, <bjt23@cornell.edu>\n"
+msgstr ""
+"Xfmedia, версия %s, Copyright (c) Brian Tarricone, <bjt23@cornell.edu>\n"
+
+#: ../src/main.c:316 ../src/xfmedia-remote.c:168
+msgid "Released under the terms of the GNU General Public License.\n"
+msgstr "Распространяется на условиях лицензии GNU GPL.\n"
+
+#: ../src/main.c:317
+#, c-format
+msgid "Compiled against xine-lib %s, using xine-lib %s.\n"
+msgstr "Скомпилирован с xine-lib %s, успользуется xine-lib %s.\n"
+
+#: ../src/main.c:319
+#, c-format
+msgid "Compiled against Xfce %d.%d.%d, using Xfce %s.\n"
+msgstr "Скомпилировано с Xfce %d.%d.%d, используется Xfce %s.\n"
+
+#: ../src/main.c:354
+msgid "The option --audio-out requires an argument.\n"
+msgstr "Параметр --audio-out требует аргумента.\n"
+
+#: ../src/main.c:363
+msgid "The option --video-out requires an argument.\n"
+msgstr "Параметр --video-out требует аргумента.\n"
+
+#: ../src/mainwin-callbacks.c:130
+msgid "Unable to play file."
+msgstr "Не удалось воспроизвести файл."
+
+#: ../src/mainwin-callbacks.c:131
+msgid ""
+"Xfmedia was unable to play the selected file.  Be sure that the file exists "
+"and that you have permission to access it."
+msgstr ""
+"Xfmedia не удалось воспроизвести выбранный файл. Убедитесь, что файл "
+"существует, и вы имеете права на чтение этого файла."
+
+#: ../src/mainwin-callbacks.c:222
+msgid "Metadata Changed"
+msgstr "Метаданные были изменены"
+
+#: ../src/mainwin-callbacks.c:224
+msgid "You have edited this file's metadata."
+msgstr "Вы изменили метаданные данного файла."
+
+#: ../src/mainwin-callbacks.c:225
+msgid ""
+"Changes will be lost unless they are saved.  Do you wish to save changes?"
+msgstr "Изменения будут утеряны, если их не сохранить. Сохранить их?"
+
+#: ../src/mainwin-callbacks.c:226
+msgid "_Discard Changes"
+msgstr "_Отменить изменения"
+
+#: ../src/mainwin-callbacks.c:227
+msgid "_Save Changes"
+msgstr "_Сохранить изменения"
+
+#: ../src/mainwin-callbacks.c:285
+#, c-format
+msgid ""
+"Xfmedia was unable to open '%s'.  Be sure that the file exists and that you "
+"have permission to access it."
+msgstr ""
+"Xfmedia не удалось открыть файл '%s'. Убедитесь, что файл существует, и вы "
+"имеете права на чтение этого файла."
+
+#: ../src/mainwin-callbacks.c:287
+msgid "Unable to open file."
+msgstr "Не удалось открыть файл."
+
+#: ../src/mainwin-callbacks.c:308
+msgid "File Info"
+msgstr "Информация о файле"
+
+#: ../src/mainwin-callbacks.c:323
+msgid "Filename"
+msgstr "Имя файла"
+
+#: ../src/mainwin-callbacks.c:336
+msgid "Media Info"
+msgstr "Информация"
+
+#: ../src/mainwin-callbacks.c:348
+msgid "Title:"
+msgstr "Название:"
+
+#: ../src/mainwin-callbacks.c:375
+msgid "Artist:"
+msgstr "Исполнитель:"
+
+#: ../src/mainwin-callbacks.c:402
+msgid "Album:"
+msgstr "Альбом:"
+
+#: ../src/mainwin-callbacks.c:429
+msgid "Genre:"
+msgstr "Жанр:"
+
+#: ../src/mainwin-callbacks.c:452
+msgid "Track:"
+msgstr "Трек:"
+
+#: ../src/mainwin-callbacks.c:477
+msgid "Year:"
+msgstr "Год:"
+
+#: ../src/mainwin-callbacks.c:504
+msgid "Comment:"
+msgstr "Комментарий:"
+
+#: ../src/mainwin-callbacks.c:535
+msgid "Length:"
+msgstr "Продолжительность:"
+
+#: ../src/mainwin-callbacks.c:552
+msgid "File size (b):"
+msgstr "Размер файла (б):"
+
+#: ../src/mainwin-callbacks.c:569
+msgid "Audio Info"
+msgstr "Информация об аудио"
+
+#: ../src/mainwin-callbacks.c:581 ../src/mainwin-callbacks.c:675
+msgid "Codec:"
+msgstr "Кодек:"
+
+#: ../src/mainwin-callbacks.c:596
+msgid "Samples/sec:"
+msgstr "Сэмплов/сек:"
+
+#: ../src/mainwin-callbacks.c:615
+msgid "Bits/sample:"
+msgstr "Бит/сэмпл:"
+
+#: ../src/mainwin-callbacks.c:631 ../src/mainwin-callbacks.c:732
+msgid "Channels:"
+msgstr "Каналы:"
+
+#: ../src/mainwin-callbacks.c:646 ../src/mainwin-callbacks.c:746
+msgid "Bitrate (kbit):"
+msgstr "Битрейт (кбит):"
+
+#: ../src/mainwin-callbacks.c:663
+msgid "Video Info"
+msgstr "Информация о видео"
+
+#: ../src/mainwin-callbacks.c:690
+msgid "FourCC:"
+msgstr "FourCC:"
+
+#: ../src/mainwin-callbacks.c:714
+msgid "Frame size:"
+msgstr "Размер кадра:"
+
+#: ../src/mainwin-callbacks.c:895
+msgid "Add URL"
+msgstr "Добавить URL"
+
+#: ../src/mainwin-callbacks.c:912
+msgid "_URL:"
+msgstr "_URL:"
+
+#: ../src/mainwin-callbacks.c:937
+msgid "Sort by filename"
+msgstr "Сортировать по имени файла"
+
+#: ../src/mainwin-callbacks.c:938
+msgid "Sort by title"
+msgstr "Сортировать по названию"
+
+#: ../src/mainwin-callbacks.c:939
+msgid "Sort by artist, title"
+msgstr "Сортировать по исполнителю, названию"
+
+#: ../src/mainwin-callbacks.c:940
+msgid "Sort by artist, album, track number"
+msgstr "Сортировать по исполнителю, альбому, номеру треку"
+
+#: ../src/mainwin-callbacks.c:1241
+msgid "Add Directory"
+msgstr "Добавить каталог"
+
+#: ../src/mainwin-callbacks.c:1329
+msgid "Add Media File"
+msgstr "Добавить файл"
+
+#: ../src/mainwin-callbacks.c:1331
+msgid "Add _Selected"
+msgstr "Добавить _выбранное"
+
+#: ../src/mainwin-callbacks.c:1335
+msgid "A_dd and Close"
+msgstr "_Добавить и закрыть"
+
+#: ../src/mainwin-callbacks.c:1349 ../src/playlist.c:686
+msgid "All Files"
+msgstr "Все файлы"
+
+#: ../src/mainwin-callbacks.c:1353
+msgid "Music Files"
+msgstr "Аудио-файлы"
+
+#: ../src/mainwin-callbacks.c:1367 ../src/playlist.c:690
+msgid "Playlists"
+msgstr "Списки воспроизведения"
+
+#: ../src/mainwin-callbacks.c:1373
+msgid "Video Files"
+msgstr "Видео-файлы"
+
+#: ../src/mainwin-callbacks.c:1949
+msgid "Translator"
+msgstr ""
+"Sergey Fedoseev <fedoseev.sergey@gmail.com>\n"
+"Andrey Fedoseev <andrey.fedoseev@gmail.com>\n"
+"Nikolay Borisov <neiro21@gmail.com>"
+
+#: ../src/mainwin-callbacks.c:1962
+msgid ""
+"Xfmedia is a lightweight media player,\n"
+"based on the xine engine"
+msgstr ""
+"Xfmedia - облегченный медиапроигрыватель\n"
+"на основе xine"
+
+#: ../src/mainwin-callbacks.c:1967
+msgid "Original Author/Maintainer"
+msgstr "Автор/сопровождающий"
+
+#: ../src/mainwin-callbacks.c:2080 ../src/mainwin.c:1843
+msgid "Stopped"
+msgstr "Остановлен"
+
+#: ../src/mainwin.c:383
+msgid "_Other"
+msgstr "_Другое"
+
+#: ../src/mainwin.c:429
+msgid "_URL..."
+msgstr "_URL..."
+
+#: ../src/mainwin.c:438
+msgid "_Directory..."
+msgstr "_Каталог..."
+
+#: ../src/mainwin.c:447
+msgid "_File..."
+msgstr "_Файл..."
+
+#: ../src/mainwin.c:633
+msgid "Volume"
+msgstr "Громкость"
+
+#: ../src/mainwin.c:658 ../src/xfmedia-keybindings.c:513
+msgid "Previous Track"
+msgstr "Предыдущий трек"
+
+#: ../src/mainwin.c:670
+msgid "Play/Pause Track"
+msgstr "Воспроизведение / Пауза"
+
+#: ../src/mainwin.c:686
+msgid "Stop Playback"
+msgstr "Остановить воспроизведение"
+
+#: ../src/mainwin.c:697 ../src/xfmedia-keybindings.c:514
+msgid "Next Track"
+msgstr "Следующий трек"
+
+#: ../src/mainwin.c:705
+msgid "_Playlist"
+msgstr "_Список воспроизведения"
+
+#: ../src/mainwin.c:759
+msgid "_Enqueue"
+msgstr "Добавить в _очередь"
+
+#: ../src/mainwin.c:768
+msgid "Add _Mediamark..."
+msgstr "Добавить _закладку..."
+
+#: ../src/mainwin.c:781
+msgid "_File Info"
+msgstr "_Информация о файле"
+
+#: ../src/mainwin.c:798
+msgid "About _Xfmedia"
+msgstr "_О программе"
+
+#: ../src/mainwin.c:811
+msgid "_Preferences"
+msgstr "_Настройки"
+
+#: ../src/mainwin.c:821
+msgid "_Equalizer..."
+msgstr "_Эквалайзер..."
+
+#: ../src/mainwin.c:832
+msgid "_Jump to File..."
+msgstr "Перейти к _файлу..."
+
+#: ../src/mainwin.c:841
+msgid "Play_list Queue..."
+msgstr "Очередь _списка воспроизведения..."
+
+#: ../src/mainwin.c:848
+msgid "_Mediamarks"
+msgstr "_Закладки"
+
+#: ../src/mainwin.c:858
+msgid "Re_order"
+msgstr "_Изменить порядок"
+
+#: ../src/mainwin.c:869
+msgid "Sort by _Title"
+msgstr "Упорядочить по _названию"
+
+#: ../src/mainwin.c:875
+msgid "Sort by _Filename"
+msgstr "Упорядочить по имени _файла"
+
+#: ../src/mainwin.c:881
+msgid "_Randomize List"
+msgstr "_Перемешать список"
+
+#: ../src/mainwin.c:893
+msgid "_Shuffle"
+msgstr "В с_лучайном порядке"
+
+#: ../src/mainwin.c:901
+msgid "_Repeat"
+msgstr "_Повторять"
+
+#: ../src/mainwin.c:909
+msgid "Repeat Single _Track"
+msgstr "Повторять этот _трек"
+
+#: ../src/mainwin.c:917
+msgid "Show Audio _Visualization"
+msgstr "Показывать _визуализацию аудио"
+
+#: ../src/mainwin.c:1124 ../src/mainwin.c:1733
+msgid "Playing"
+msgstr "Воспроизведение"
+
+#: ../src/mainwin.c:1141
+msgid "P_revious Track"
+msgstr "_Предыдущий трек"
+
+#: ../src/mainwin.c:1150 ../src/mainwin.c:1262
+msgid "_Play"
+msgstr "_Воспроизведение"
+
+#: ../src/mainwin.c:1167 ../src/mainwin.c:1283
+msgid "_Pause"
+msgstr "_Пауза"
+
+#: ../src/mainwin.c:1178
+msgid "_Stop"
+msgstr "_Остановить"
+
+#: ../src/mainwin.c:1186
+msgid "_Next Track"
+msgstr "_Следующий трек"
+
+#: ../src/mainwin.c:1754
+msgid "Paused"
+msgstr "Приостановлено"
+
+#: ../src/mediamarks.c:125
+msgid "Mediamarks Save Error"
+msgstr "Ошибка сохранения закладок"
+
+#: ../src/mediamarks.c:127
+msgid "The mediamarks file failed to save."
+msgstr "Не удалось сохранить файл закладок."
+
+#: ../src/mediamarks.c:128 ../src/xfmedia-keybindings.c:683
+#: ../src/xfmedia-keybindings.c:696
+msgid ""
+"This could be because your disk is full, or you don't have permission to "
+"write to the configuration directory.  Any changes will be lost when you "
+"quit Xfmedia."
+msgstr ""
+"Это могло произойти потому, что нет места на диске, или вы не имеете прав на "
+"запись в каталог настроек.  Изменения будут утеряны при выходе."
+
+#: ../src/mediamarks.c:625 ../src/mediamarks.c:889
+msgid "Mediamarks"
+msgstr "Закладки"
+
+#: ../src/mediamarks.c:721
+msgid "Add Mediamark"
+msgstr "Добавить закладку"
+
+#: ../src/mediamarks.c:726
+msgid "_Add Mediamark"
+msgstr "_Добавить закладку"
+
+#: ../src/mediamarks.c:745 ../src/mediamarks.c:1191
+msgid "_Name:"
+msgstr "_Имя:"
+
+#: ../src/mediamarks.c:766 ../src/mediamarks.c:1213
+msgid "_Location:"
+msgstr "_Расположение:"
+
+#: ../src/mediamarks.c:781 ../src/mediamarks.c:987
+msgid "File _in:"
+msgstr "Сохранить _в:"
+
+#: ../src/mediamarks.c:803
+msgid "New Folder"
+msgstr "Новый каталог"
+
+#: ../src/mediamarks.c:808
+msgid "Add _Folder"
+msgstr "Добавить _каталог"
+
+#: ../src/mediamarks.c:956
+msgid "Add Mediamark Folder"
+msgstr "Добавить каталог для закладок"
+
+#: ../src/mediamarks.c:962
+msgid "_Add Folder"
+msgstr "_Добавить каталог"
+
+#: ../src/mediamarks.c:978
+msgid "_Folder Name:"
+msgstr "Имя _каталога:"
+
+#: ../src/mediamarks.c:1047
+msgid "Remove Mediamark"
+msgstr "Удалить закладку"
+
+#: ../src/mediamarks.c:1048 ../src/mediamarks.c:1053
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+#: ../src/mediamarks.c:1048
+msgid "You're about to remove a Mediamark, which can't be undone."
+msgstr "Вы собираетесь удалить закладку. Это действие нельзя будет отменить."
+
+#: ../src/mediamarks.c:1052
+msgid "Remove Folder"
+msgstr "Удалить каталог"
+
+#: ../src/mediamarks.c:1054
+msgid ""
+"Removing a folder also removes all items and subfolders contained in it, and "
+"can't be undone."
+msgstr ""
+"При удалении папки будет удалено всё её содержимое. Это действие будет "
+"нельзя отменить."
+
+#: ../src/mediamarks.c:1174
+msgid "Mediamark Properties"
+msgstr "Свойства закладки"
+
+#: ../src/mediamarks.c:1174
+msgid "Folder Properties"
+msgstr "Свойства папки"
+
+#: ../src/mediamarks.c:1593
+msgid "Manage Mediamarks"
+msgstr "Управление закладками"
+
+#: ../src/mediamarks.c:1615
+msgid "New Mediamark..."
+msgstr "Новая закладка..."
+
+#: ../src/mediamarks.c:1616
+msgid "Add a new mediamark"
+msgstr "Добавить новую закладку"
+
+#: ../src/mediamarks.c:1621
+msgid "Add Folder..."
+msgstr "Добавить папку..."
+
+#: ../src/mediamarks.c:1622
+msgid "Add a new folder"
+msgstr "Добавить новую папку"
+
+#: ../src/mediamarks.c:1627
+msgid "Remove Item"
+msgstr "Удалить"
+
+#: ../src/mediamarks.c:1628
+msgid "Remove the selected item"
+msgstr "Удалить выбранный элемент"
+
+#: ../src/mediamarks.c:1635
+msgid "Move Item Up"
+msgstr "Переместить вверх"
+
+#: ../src/mediamarks.c:1636
+msgid "Move the selected item up"
+msgstr "Переместить выбранный элемент вверх"
+
+#: ../src/mediamarks.c:1641
+msgid "Move Item Down"
+msgstr "Переместить вниз"
+
+#: ../src/mediamarks.c:1642
+msgid "Move the selected item down"
+msgstr "Переместить выбранный элемент вниз"
+
+#: ../src/mediamarks.c:1649
+msgid "Refresh"
+msgstr "Обновить"
+
+#: ../src/mediamarks.c:1650
+msgid "Refresh the list"
+msgstr "Обновить список"
+
+#: ../src/mediamarks.c:1655
+msgid "Properties..."
+msgstr "Свойства..."
+
+#: ../src/mediamarks.c:1656
+msgid "Edit the selected item's properties"
+msgstr "Редактировать свойства выбранного элемента"
+
+#: ../src/mediamarks.c:1686
+msgid "Name"
+msgstr "Имя"
+
+#: ../src/mediamarks.c:1713
+msgid "Location"
+msgstr "Расположение"
+
+#: ../src/mediamarks.c:1806
+msgid "_Add Current Stream..."
+msgstr "_Добавить текущий поток..."
+
+#: ../src/mediamarks.c:1815
+msgid "_Manage Mediamarks..."
+msgstr "Управление _закладками..."
+
+#: ../src/playlist.c:536
+msgid "Save changes to this playlist before closing?"
+msgstr "Сохранить изменения в этом списке воспроизведения перед выходом?"
+
+#: ../src/playlist.c:537
+msgid "You've changed this playlist since it was last saved."
+msgstr ""
+"Вы изменили этот список воспроизведения после того, как он был последний раз "
+"сохранён."
+
+#: ../src/playlist.c:541
+msgid "Do_n't save"
+msgstr "_Не сохранять"
+
+#: ../src/playlist.c:590 ../src/xfmedia-keybindings.c:534
+msgid "Save Playlist"
+msgstr "Сохранить список воспроизведения"
+
+#: ../src/playlist.c:600
+msgid "Autodetect type by extension"
+msgstr "Автоопределение типа по расширению"
+
+#: ../src/playlist.c:604
+msgid "Flat file"
+msgstr ""
+
+#: ../src/playlist.c:676
+msgid "Open Playlist"
+msgstr "Открыть список воспроизведения"
+
+#: ../src/playlist.c:1359
+msgid "#"
+msgstr "№"
+
+#: ../src/playlist.c:1373
+msgid "Title"
+msgstr "Название"
+
+#: ../src/playlist.c:1381
+msgid "Length"
+msgstr "Продолжительность"
+
+#: ../src/playlist.c:1431
+msgid "Add entry to playlist"
+msgstr "Добавить в список"
+
+#: ../src/playlist.c:1441
+msgid "Remove entry from playlist"
+msgstr "Удалить из списка"
+
+#: ../src/playlist.c:1451
+msgid "Move selected playlist entry up"
+msgstr "Переместить вверх"
+
+#: ../src/playlist.c:1461
+msgid "Move selected playlist entry down"
+msgstr "Переместить вниз"
+
+#: ../src/playlist.c:1486
+msgid "Randomize play order"
+msgstr "Воспроизводить в случайном порядке"
+
+#: ../src/playlist.c:1505
+msgid "Repeat after playlist finishes"
+msgstr "При достижении конца списка перейти к началу"
+
+#: ../src/playlist.c:1520
+msgid "Save current playlist"
+msgstr "Сохранить текущий список воспроизведения"
+
+#: ../src/playlist.c:1530
+msgid "Open a saved playlist"
+msgstr "Открыть сохранённый список воспроизведения"
+
+#: ../src/playlist.c:1540
+msgid "Start a new playlist"
+msgstr "Начать новый список воспроизведения"
+
+#: ../src/playlist.c:1548
+msgid "_Remove Entry"
+msgstr "_Удалить"
+
+#: ../src/playlist.c:1557
+msgid "Move _Up"
+msgstr "Переместить ввер_х"
+
+#: ../src/playlist.c:1566
+msgid "Move _Down"
+msgstr "Переместить вни_з"
+
+#: ../src/remote.c:223 ../src/remote.c:466
+msgid "(no title)"
+msgstr "(нет названия)"
+
+#: ../src/settings-dialog.c:145
+msgid "Optical Devices"
+msgstr "Оптические устройства"
+
+#: ../src/settings-dialog.c:159
+msgid "CD A_udio Device:"
+msgstr "Устройство воспроизведения _аудио-CD:"
+
+#: ../src/settings-dialog.c:181
+msgid "DVD Vide_o Device:"
+msgstr "Устройство воспроизведения _видео-DVD:"
+
+#: ../src/settings-dialog.c:203
+msgid "Vid_eo CD Device:"
+msgstr "Устройство воспроизведения в_идео-CD:"
+
+#: ../src/settings-dialog.c:221
+msgid "Audio"
+msgstr "Аудио"
+
+#: ../src/settings-dialog.c:233
+msgid "Dr_iver:"
+msgstr "_Драйвер:"
+
+#: ../src/settings-dialog.c:243 ../src/settings-dialog.c:312
+msgid "(no drivers)"
+msgstr "(нет драйверов)"
+
+#: ../src/settings-dialog.c:267
+msgid "_Speaker Layout:"
+msgstr "Тип а_удиосистемы:"
+
+#: ../src/settings-dialog.c:275
+msgid "(option unavailable)"
+msgstr "(параметр недоступен)"
+
+#: ../src/settings-dialog.c:290
+msgid "Video"
+msgstr "Видео"
+
+#: ../src/settings-dialog.c:302
+msgid "D_river:"
+msgstr "Д_райвер:"
+
+#: ../src/settings-dialog.c:608
+msgid "Xfmedia Preferences"
+msgstr "Параметры Xfmedia"
+
+#: ../src/settings-dialog.c:630
+msgid "Playlist"
+msgstr "Список воспроизведения"
+
+#: ../src/settings-dialog.c:643
+msgid "_Title Display:"
+msgstr "Отображение _названия:"
+
+#: ../src/settings-dialog.c:653
+msgid ""
+"This is a printf-like format string controlling the display of the "
+"playlist.  Xfmedia will replace the following symbols:\n"
+"\t%p: Artist/Performer\n"
+"\t%t: Track Title\n"
+"\t%a: Album Name\n"
+"\t%T: Track Number\n"
+"\t%g: Genre\n"
+"\t%y: Year\n"
+"\t%f: Filename\n"
+"\t%%: a percent sign"
+msgstr ""
+
+#: ../src/settings-dialog.c:667
+msgid "_Advance playlist when track ends"
+msgstr "При _окончании трека переходить к следующему"
+
+#: ../src/settings-dialog.c:675
+msgid ""
+"When a track ends, Xfmedia can automatically advance to the next track in "
+"the playlist and continue playback."
+msgstr ""
+"Когда трек заканчивается, Xfmedia может автоматически перейти к следующему "
+"треку в списке воспроизведения."
+
+#: ../src/settings-dialog.c:677
+msgid "_Don't save playlist on exit for one-shot invocations"
+msgstr ""
+
+#: ../src/settings-dialog.c:685
+msgid ""
+"Only automatically save the playlist during interactive use; i.e., don't "
+"save the playlist when Xfmedia was invoked from the commandline with a short "
+"list of definite arguments.  This option needs to be named better."
+msgstr ""
+
+#: ../src/settings-dialog.c:691
+msgid "Load metadata:"
+msgstr "Загружать метаданные:"
+
+#: ../src/settings-dialog.c:695
+msgid "On _scroll"
+msgstr "При _прокрутке"
+
+#: ../src/settings-dialog.c:703
+msgid "Load file metadata for entries in the playlist when they are visible."
+msgstr ""
+"Загружать метаданные, когда элемент списка воспроизведения становится "
+"видимым."
+
+#: ../src/settings-dialog.c:706
+msgid "On pla_y"
+msgstr "При _воспроизведении"
+
+#: ../src/settings-dialog.c:714
+msgid "Load file metadata for entries in the playlist only when playing them."
+msgstr "Загружать метаданные только при воспроизведении записи."
+
+#: ../src/settings-dialog.c:717
+msgid "_Never"
+msgstr "_Никогда"
+
+#: ../src/settings-dialog.c:725
+msgid "Never load file metadata for entries in the playlist."
+msgstr "Никогда не загружать метаданные для элементов списка воспроизведения."
+
+#: ../src/settings-dialog.c:727
+msgid "Window"
+msgstr "Окно"
+
+#: ../src/settings-dialog.c:736
+msgid "Show Xfmedia on all _workspaces"
+msgstr "Показывать Xfmedia на всех _рабочих местах"
+
+#: ../src/settings-dialog.c:742
+msgid ""
+"Sets Xfmedia \"sticky\" such that it appears on all workspaces (virtual "
+"desktops)."
+msgstr "Установить для Xfmedia режим отображения на всех рабочих местах."
+
+#: ../src/settings-dialog.c:744
+msgid "Keep X_fmedia above other windows"
+msgstr "_Удерживать Xfmedia поверх всех окон"
+
+#: ../src/settings-dialog.c:751
+msgid "Sets the Xfmedia window to \"Always-on-Top\" status."
+msgstr "Установить для Xfmedia статус \"Всегда наверху\"."
+
+#: ../src/settings-dialog.c:753
+msgid "Dock and auto-_hide Xfmedia at screen edges"
+msgstr ""
+
+#: ../src/settings-dialog.c:760
+msgid ""
+"When the Xfmedia window is dragged to a screen edge, it will auto-hide "
+"itself and reappear when you move the mouse to the edge of the screen."
+msgstr ""
+
+#: ../src/settings-dialog.c:762
+msgid "Tray Icon"
+msgstr "Значок в системном лотке"
+
+#: ../src/settings-dialog.c:771
+msgid "Show _tray icon"
+msgstr "Показывать значок в системном _лотке"
+
+#: ../src/settings-dialog.c:777
+msgid "Displays an Xfmedia icon in the system notification area."
+msgstr "Показывать значок Xfmedia в области уведомления."
+
+#: ../src/settings-dialog.c:779
+msgid "_Minimize Xfmedia to tray icon"
+msgstr "_Сворачивать в системный лоток"
+
+#: ../src/settings-dialog.c:787
+msgid ""
+"Minimizes Xfmedia to the tray icon rather than to the taskbar or iconbox."
+msgstr "Сворачивать окно Xfmedia в системный лоток."
+
+#: ../src/settings-dialog.c:793
+msgid "On middle _click:"
+msgstr "По _щелчку средней кнопкой:"
+
+#: ../src/settings-dialog.c:796 ../src/settings-dialog.c:810
+msgid ""
+"The tray icon can perform an action when middle-clicked.  Select the action "
+"in the dropdown box."
+msgstr ""
+"Значок в системном лотке может выполнять действие по щелчку средней "
+"кнопкой.  Выберите действие из выпадающего списка."
+
+#: ../src/settings-dialog.c:799
+msgid "Do nothing"
+msgstr "Ничего не делать"
+
+#: ../src/settings-dialog.c:800
+msgid "Toggle play/pause"
+msgstr "Воспроизведение / Пауза"
+
+#: ../src/settings-dialog.c:801
+msgid "Next track"
+msgstr "Следующий трек"
+
+#: ../src/settings-dialog.c:802
+msgid "Previous track"
+msgstr "Предыдущий трек"
+
+#: ../src/settings-dialog.c:815
+msgid "O_ptions"
+msgstr "_Параметры"
+
+#: ../src/settings-dialog.c:826
+msgid "Selected Visualization"
+msgstr "Выберите режим визуализации"
+
+#: ../src/settings-dialog.c:854
+msgid "(none available)"
+msgstr "(нет доступных)"
+
+#: ../src/settings-dialog.c:865
+msgid "Visualization Options"
+msgstr "Параметры визуализации"
+
+#: ../src/settings-dialog.c:880
+msgid "_Audio Visualization"
+msgstr "Визуализация _аудио"
+
+#: ../src/settings-dialog.c:886
+msgid "_Devices"
+msgstr "_Устройства"
+
+#: ../src/settings-dialog.c:892
+msgid "_Keybindings"
+msgstr "_Комбинации клавиш"
+
+#: ../src/settings-dialog.c:900
+msgid "_Plugins"
+msgstr "_Модули"
+
+#: ../src/settings.c:242
+msgid "Settings Save Error"
+msgstr "Ошибка сохранения настроек"
+
+#: ../src/settings.c:243
+msgid "The settings file failed to save."
+msgstr "Не удалось сохранить настройки."
+
+#: ../src/settings.c:244
+msgid ""
+"This could be because your disk is full, or you don't have permission to "
+"write to the configuration directory.  Any changes will be lost when you "
+"exit Xfmedia."
+msgstr ""
+"Это могло произойти потому, что нет места на диске или вы не имеете прав на "
+"запись в папку настроек.  Изменения будут утеряны при выходе."
+
+#: ../src/xfmedia-common.c:422
+msgid "(UTF-8 conversion failed)"
+msgstr "(Не удалось преобразовать в UTF-8)"
+
+#: ../src/xfmedia-handle.c:141
+msgid "Handle Style"
+msgstr ""
+
+#: ../src/xfmedia-handle.c:142
+msgid "This property defines the handle style of the XfmediaHandle widget."
+msgstr ""
+
+#: ../src/xfmedia-handle.c:150
+msgid "Orientation"
+msgstr "Ориентация"
+
+#: ../src/xfmedia-handle.c:151
+msgid "This property defines whether this is a horizontal or vertical handle."
+msgstr ""
+
+#: ../src/xfmedia-keybindings.c:510
+msgid "Play"
+msgstr "Воспроизведение"
+
+#: ../src/xfmedia-keybindings.c:511
+msgid "Pause"
+msgstr "Пауза"
+
+#: ../src/xfmedia-keybindings.c:512
+msgid "Stop"
+msgstr "Остановить"
+
+#: ../src/xfmedia-keybindings.c:515
+msgid "Quit"
+msgstr "Выйти"
+
+#: ../src/xfmedia-keybindings.c:516
+msgid "Toggle Fullscreen"
+msgstr "На весь экран"
+
+#: ../src/xfmedia-keybindings.c:517
+msgid "Toggle Shuffle Play"
+msgstr "В случайном порядке"
+
+#: ../src/xfmedia-keybindings.c:518
+msgid "Toggle Repeat Play"
+msgstr "Режим повтора"
+
+#: ../src/xfmedia-keybindings.c:519
+msgid "Toggle Audio Visualization"
+msgstr "Включить визуализацию аудио"
+
+#: ../src/xfmedia-keybindings.c:520
+msgid "Set Speed Faster"
+msgstr "Увеличить скорость"
+
+#: ../src/xfmedia-keybindings.c:521
+msgid "Set Speed Slower"
+msgstr "Уменьшить скорость"
+
+#: ../src/xfmedia-keybindings.c:522
+msgid "Forward 10 Seconds"
+msgstr "Вперёд на 10 секунд"
+
+#: ../src/xfmedia-keybindings.c:523
+msgid "Forward 30 Seconds"
+msgstr "Вперёд на 30 секунд"
+
+#: ../src/xfmedia-keybindings.c:524
+msgid "Forward 60 Seconds"
+msgstr "Вперёд на 60 секунд"
+
+#: ../src/xfmedia-keybindings.c:525
+msgid "Backward 10 Seconds"
+msgstr "Назад на 10 секунд"
+
+#: ../src/xfmedia-keybindings.c:526
+msgid "Backward 30 Seconds"
+msgstr "Назад на 30 секунд"
+
+#: ../src/xfmedia-keybindings.c:527
+msgid "Backward 60 Seconds"
+msgstr "Назад на 60 секунд"
+
+#: ../src/xfmedia-keybindings.c:528
+msgid "Enqueue Track"
+msgstr "Поставить в очередь"
+
+#: ../src/xfmedia-keybindings.c:529
+msgid "Show Queued Tracks"
+msgstr "Показать очередь"
+
+#: ../src/xfmedia-keybindings.c:530
+msgid "Toggle Audio Mute"
+msgstr "Выключить звук"
+
+#: ../src/xfmedia-keybindings.c:531
+msgid "Add File to Playlist"
+msgstr "Добавить файл в список воспроизведения"
+
+#: ../src/xfmedia-keybindings.c:532
+msgid "Add URL to Playlist"
+msgstr "Добавить URL в список воспроизведения"
+
+#: ../src/xfmedia-keybindings.c:533
+msgid "Open Saved Playlist"
+msgstr "Открыть сохранённый список воспроизведения"
+
+#: ../src/xfmedia-keybindings.c:535
+msgid "Clear Playlist"
+msgstr "Очистить список воспроизведения"
+
+#: ../src/xfmedia-keybindings.c:536
+msgid "A/V Sync Plus"
+msgstr ""
+
+#: ../src/xfmedia-keybindings.c:537
+msgid "A/V Sync Minus"
+msgstr ""
+
+#: ../src/xfmedia-keybindings.c:538
+msgid "Select Aspect Ratio"
+msgstr "Изменить соотношение сторон"
+
+#: ../src/xfmedia-keybindings.c:539
+msgid "Jump to File"
+msgstr "Перейти к файлу"
+
+#: ../src/xfmedia-keybindings.c:540
+msgid "Video Zoom In"
+msgstr "Увеличить масштаб видео"
+
+#: ../src/xfmedia-keybindings.c:541
+msgid "Video Zoom Out"
+msgstr "Уменьшить масштаб видео"
+
+#: ../src/xfmedia-keybindings.c:542
+msgid "Video Window Larger"
+msgstr "Увеличить окно видео"
+
+#: ../src/xfmedia-keybindings.c:543
+msgid "Video Window Smaller"
+msgstr "Уменьшить окно видео"
+
+#: ../src/xfmedia-keybindings.c:544
+msgid "Volume Up"
+msgstr "Увеличить громкость"
+
+#: ../src/xfmedia-keybindings.c:545
+msgid "Volume Down"
+msgstr "Уменьшить громкость"
+
+#: ../src/xfmedia-keybindings.c:546
+msgid "Audio Track Next"
+msgstr "Следующий аудио-трек"
+
+#: ../src/xfmedia-keybindings.c:547
+msgid "Audio Track Previous"
+msgstr "Предыдущий аудио-трек"
+
+#: ../src/xfmedia-keybindings.c:548
+msgid "Subtitle Track Next"
+msgstr ""
+
+#: ../src/xfmedia-keybindings.c:549
+msgid "Subtitle Track Previous"
+msgstr ""
+
+#: ../src/xfmedia-keybindings.c:635
+msgid "Set Keybinding"
+msgstr "Назначить горячую клавишу"
+
+#: ../src/xfmedia-keybindings.c:638
+msgid "_Clear"
+msgstr "_Очистить"
+
+#: ../src/xfmedia-keybindings.c:647
+msgid "Set shortcut for:"
+msgstr "Задать комбинацию клавиш для:"
+
+#: ../src/xfmedia-keybindings.c:665
+msgid "Keybinding Error"
+msgstr "Ошибка"
+
+#: ../src/xfmedia-keybindings.c:666
+msgid "Keybinding already in use."
+msgstr "Комбинация клавиш уже занята."
+
+#: ../src/xfmedia-keybindings.c:667
+msgid ""
+"The key sequence you selected is already in use by another function.  Please "
+"set the other function to something else."
+msgstr ""
+"Выбранная комбинация клавиш уже используется для вызова другой функции.  "
+"Пожалуйста, выберите другую комбинацию."
+
+#: ../src/xfmedia-keybindings.c:680 ../src/xfmedia-keybindings.c:693
+msgid "Keybindings Save Error"
+msgstr "Ошибка сохранения горячих клавиш"
+
+#: ../src/xfmedia-keybindings.c:682 ../src/xfmedia-keybindings.c:695
+msgid "The keybindings file failed to save."
+msgstr "Не удалось сохранить файл настроек горячих клавиш."
+
+#: ../src/xfmedia-keybindings.c:691
+msgid "None"
+msgstr "Нет"
+
+#: ../src/xfmedia-keybindings.c:808
+msgid "Function"
+msgstr "Функция"
+
+#: ../src/xfmedia-keybindings.c:813
+msgid "Keys"
+msgstr "Клавиши"
+
+#: ../src/xfmedia-remote.c:103
+#, c-format
+msgid ""
+"Usage: %s [options]\n"
+"\n"
+msgstr ""
+"Использование: %s [параметры]\n"
+"\n"
+
+#: ../src/xfmedia-remote.c:106
+msgid ""
+"    --session=N          Specify the number of the already-running instance "
+"of\n"
+"                         Xfmedia.  (Defaults to 0, or the first instance "
+"found.)\n"
+msgstr ""
+
+#: ../src/xfmedia-remote.c:108
+msgid ""
+"    --ping               Checks to see if an instance of Xfmedia is "
+"running.\n"
+msgstr ""
+
+#: ../src/xfmedia-remote.c:109
+msgid ""
+"    -p, --play[=N]       Causes Xfmedia to play the file at playlist idx N.\n"
+"                         If N is not specified, Xfmedia will play the "
+"currently-\n"
+"                         selected entry, or, if no item is selected, the "
+"first\n"
+"                         entry.  If used in conjunction with --playlist-"
+"add,\n"
+"                         will cause Xfmedia to play the newly-added entry.\n"
+msgstr ""
+
+#: ../src/xfmedia-remote.c:114
+msgid ""
+"    --toggle             Causes Xfmedia to pause if playing, or play if "
+"paused\n"
+"                         or stopped.\n"
+msgstr ""
+
+#: ../src/xfmedia-remote.c:116
+msgid "    --pause              Causes Xfmedia to pause/unpause.\n"
+msgstr ""
+
+#: ../src/xfmedia-remote.c:117
+msgid "    --stop               Causes Xfmedia to stop playback.\n"
+msgstr ""
+
+#: ../src/xfmedia-remote.c:118
+msgid ""
+"    --previous           Causes Xfmedia to play the entry played before the\n"
+"                         currently-selected (or -playing) entry.\n"
+msgstr ""
+
+#: ../src/xfmedia-remote.c:120
+msgid ""
+"    --next               Causes Xfmedia to play the next entry in the "
+"playlist.\n"
+"                         If Xfmedia is in shuffle mode, a new entry will be\n"
+"                         selected randomly.\n"
+msgstr ""
+
+#: ../src/xfmedia-remote.c:123
+msgid ""
+"    -a, --playlist-add=FILE\n"
+"                         Adds FILE to the end of the playlist.\n"
+msgstr ""
+
+#: ../src/xfmedia-remote.c:125
+msgid ""
+"    -r, --playlist-remove=N\n"
+"                         Removes the specified playlist entry from the "
+"playlist.\n"
+msgstr ""
+
+#: ../src/xfmedia-remote.c:127
+msgid ""
+"    -c, --playlist-clear\n"
+"                         Removes all entries from the playlist.\n"
+msgstr ""
+
+#: ../src/xfmedia-remote.c:129
+msgid ""
+"    -l, --playlist-load=FILE\n"
+"                         Loads the specified playlist.  Note that this does "
+"NOT\n"
+"                         first clear the playlist.\n"
+msgstr ""
+
+#: ../src/xfmedia-remote.c:132
+msgid ""
+"    -s, --playlist-save=FILE\n"
+"                         Saves the current playlist to the specified FILE.\n"
+msgstr ""
+
+#: ../src/xfmedia-remote.c:134
+msgid "    -Q, --quit           Instructs Xfmedia to quit.\n"
+msgstr ""
+
+#: ../src/xfmedia-remote.c:135
+msgid ""
+"    -j, --jump-to-file   Causes Xfmedia to show the main window (if not "
+"visible)\n"
+"                         and show the jump-to-file entry box.\n"
+msgstr ""
+
+#: ../src/xfmedia-remote.c:180
+msgid "Argument to --session must be greater than or equal to 0.\n"
+msgstr ""
+"Аргументом параметра --session должно быть число больше или равное 0.\n"
+
+#: ../src/xfmedia-remote.c:195
+msgid "Argument to --play must be greater than or equal to 0.\n"
+msgstr "Аргументом параметра --play должно быть число больше или равное 0.\n"
+
+#: ../src/xfmedia-remote.c:239
+msgid "Argument to --playlist-remove must be greater than or equal to 0.\n"
+msgstr ""
+"Аргументом параметра --playlist-remove должно быть число больше или равное "
+"0.\n"
+
+#: ../src/xfmedia-remote.c:276
+#, c-format
+msgid "Unrecognized option: %s\n"
+msgstr "Неизвестный параметр: %s\n"
+
+#: ../src/xfmedia-remote.c:289
+msgid ""
+"Unable to initialize the Xfmedia remote client service.  The most likely "
+"cause is that a DBUS session bus is not running"
+msgstr ""
+"Не удается запустить службу удалённого управление Xfmedia. Вероятнее всего "
+"причина в отсутствии запущенной сессии DBUS"
+
+#: ../src/xfmedia-remote.c:301
+msgid "Unable to find a running Xfmedia instance."
+msgstr "Не удается найти запущенный экземпляр Xfmedia."
+
+#: ../src/xfmedia-video-window.c:188
+msgid "Xfmedia Video"
+msgstr "Xfmedia видео"
+
+#: ../xfmedia/getopt.c:686
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: параметр `%s' неоднозначен\n"
+
+#: ../xfmedia/getopt.c:711
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr ""
+
+#: ../xfmedia/getopt.c:716
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr ""
+
+#: ../xfmedia/getopt.c:734 ../xfmedia/getopt.c:907
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: параметру `%s' нужен аргумент\n"
+
+#. --option
+#: ../xfmedia/getopt.c:763
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr ""
+
+#. +option or -option
+#: ../xfmedia/getopt.c:767
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr ""
+
+#. 1003.2 specifies the format of this message.
+#: ../xfmedia/getopt.c:793
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr ""
+
+#: ../xfmedia/getopt.c:796
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr ""
+
+#. 1003.2 specifies the format of this message.
+#: ../xfmedia/getopt.c:826 ../xfmedia/getopt.c:956
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: параметру нужен аргумент -- %c\n"
+
+#: ../xfmedia/getopt.c:873
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: параметр `-W %s' неоднозначен\n"
+
+#: ../xfmedia/getopt.c:891
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: параметр `-W %s' не допускает аргумента\n"
+
+#: ../xfmedia/remote-client.c:607 ../xfmedia/remote-client.c:614
+#: ../xfmedia/remote-client.c:621
+msgid ""
+"Xfmedia was not compiled with D-BUS support.  Remote control interface is "
+"not available."
+msgstr ""
+"Xfmedia было собрано без поддержки DBUS. Интерфейс удалённого управления "
+"недоступен."
+
+#: ../xfmedia.desktop.in.h:1
+msgid "Enqueue and play with Xfmedia"
+msgstr "Поместить в список воспроизведения и проиграть"
+
+#: ../xfmedia.desktop.in.h:2
+msgid "Enqueue in Xfmedia"
+msgstr "Поместить в список воспроизведения"
+
+#: ../xfmedia.desktop.in.h:3
+msgid "Lightweight Media Player"
+msgstr ""
+
+#: ../xfmedia.desktop.in.h:4
+msgid "Xfmedia"
+msgstr "Xfmedia"

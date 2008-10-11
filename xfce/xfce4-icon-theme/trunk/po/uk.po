@@ -1,0 +1,24 @@
+# Ukrainian translation of xfce4-icon-theme.
+# Copyright (C) 2002-2006 The Xfce development team.
+# This file is distributed under the same license as the xfce4-icon-theme package.
+# Maxim Dziumanenko <mvd@mylinux.ua>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-icon-theme 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-11-22 00:16+0900\n"
+"PO-Revision-Date: 2006-04-23 10:23+0200\n"
+"Last-Translator: Maxim Dziumanenko <mvd@mylinux.ua>\n"
+"Language-Team: Ukrainian <uk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../Rodent/index.theme.in.h:1
+msgid "Default icon for the Xfce Desktop Environment"
+msgstr "Типовий значок для середовища Xfce"
+
+#: ../Rodent/index.theme.in.h:2
+msgid "Rodent"
+msgstr "Rodent"

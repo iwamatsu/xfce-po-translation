@@ -1,0 +1,216 @@
+0.3.80
+======
+- Include preferred apps dialog in the new settings manager.
+- Add support for mounting and unmounting encrypted volumes. (Bug #3349)
+- Don't strip text between nodes with --strip-content, this will make stripping work on glade files.
+
+0.3.4
+=====
+- Add option to exo-csource to strip comments from XML prior to embedding
+  them into binaries (Bug #3094).
+- Fix compilation on Solaris 2.8 (Bug #2798).
+- Fix compilation on NetBSD (Bug #2808).
+- Properly quote URLs prior to passing them to external programs (Bug #2791).
+- Bump required HAL version to 0.5.7 (Bug #2828).
+- Updated translations: Alexander Nyakhaychyk (be), Pau Rul-lan Ferragut (ca),
+                        Benedikt Meurer and Nico Schümann (de), Jeff Bailes
+                        (en_GB), Piarres Beobide (eu), Jari Rahkonen (fi), Mike
+                        Massonnet (fr), Daichi Kawahata (ja), Peter Maassen and
+                        Stephan Arts (nl), Pablo Lerina and Og Maciel (pt_BR),
+                        Mişu Moldovan (ro)
+- New translations: Mohamed Magdy (ar), Terje Uriansrud (nb_NO), Rihards
+                    Priedītis (lv), Nuno Miguel (pt_PT), ﻢﺤﻣﺩ ﻊﻠﻳ ﺎﻠﻤﻜﻳ (ur),
+                    Hydonsingore Cia (zh_TW), Besnik Bleta (sq)
+
+
+0.3.2
+=====
+- Further clean up the ExoIconView code and add several small optimization.
+- Import exo-mount utility to drop the dependency on other mount utilities,
+  like pmount and gnome-mount, that don't work reliably, and were often the
+  cause of trouble when mounting in Thunar.
+- Add optional mount notify tool, which notifies the user that a device/media
+  is begin unmounted by the system and gives a hint when the device/media can
+  be disconnected/removed.
+- Add exo-hal library, which provides several HAL related utility functions
+  that have been deprecated in libhal-storage, but are required by several
+  modules.
+- Import ExoMountPoint module, which provides platform independent access to
+  the configured and currently active mount points. This is required by other
+  modules like exo-mount and thunar-vfs (for the trash implementation).
+- Fix crash with certain kinds of discs (Bug #2723).
+- Detect complex mailto:-URIs properly (Bug #2530).
+- Fix compilation on amd64 (Bug #2758).
+- Fix a few memory leaks.
+- Updated translations: Pau Rul-lan Ferragut (ca), Michal Várady (cs), Benedikt
+                        Meurer (de), Stavros Giannouris (el), Piarres Beobide
+                        (eu), Piotr Maliński and Szymon Kałasz (pl), Andrey
+                        Fedoseev (ru), Alexander Toresson (sv).
+- New translations: Alexander Nyakhaychyk (be), Geraint Rowlands (cy), Pavle
+                    Jonoski (mk), Stephan Arts (nl), Amanpreet Singh Alam (pa).
+
+
+0.3.1.12rc2
+===========
+- Added a --working-directory command line switch to exo-open, which primarily
+  useful to start the TerminalEmulator's in a specific directory.
+- Import french translations of the user manual (#2478).
+- Fix double click somethimes requiring a third click (#2259).
+- Fix crash in the icon chooser with internal icons (#2488).
+- Fix installation on Win32 variants (#2463).
+- Fix detection of email addresses with underscores in the username (#2453).
+- Escape commata in URLs prior to passing the URLs to the web browser or the
+  mail reader, as some helper applications, namely Firefox and Thunderbird,
+  cannot handle URLs with commata (#2454).
+- Updated translations: Pau Rul-lan Ferragut (ca), Michal Várady (cs), Benedikt
+                        Meurer (de), Piarres Beobide (eu), Jari Rahkonen (fi),
+                        Maximilian Schleiss (fr), Piotr Maliński (pl), Adriano
+                        Winter Bess (pt_BR), Andrey Fedoseev (ru)
+- New translations: Sonam Pelden (dz), Dario DOE (it)
+
+
+0.3.1.10rc1
+===========
+- Added a new ExoIconChooserDialog widget to pick an icon from either the
+  current icon theme or an image file.
+- Added exo_gtk_file_chooser_add_thumbnail_preview() which adds a thumbnail
+  preview widget to a GtkFileChooser.
+- Added exo_gdk_pixbuf_new_from_at_max_size() to scale down image files while
+  loading them, but never scale up.
+- Added ExoCellRendererIcon as default icon renderer for the ExoIconView.
+- Added support for the rxvt-unicode terminal emulator (Bug #2158).
+- Updated ExoCellRendererEllipsizedText to be used as default text renderer
+  for the ExoIconView.
+- Updated ExoTreeView to add support for rubberband selection (Bug #1996).
+- Updated exo-desktop-item-edit to offer a completion of possible applications
+  from the desktop database in the Name entry field when creating or modifying
+  launchers.
+- Fix a layout problem in ExoIconView where the appearance of a scrollbar
+  causes the icons to be laid out again and again (Bug #2219, Matt McClinch).
+- Fix build with compilers other than gcc (Bug #2252).
+- Use the GSlice allocator where possible to further reduce memory overhead.
+- Update the API documentation, adding a visual index for the available widgets.
+- Updated translations: Michal Varady (cs), Benedikt Meurer and Fabian Nowak
+                        (de), Stavros Giannouris (el), Piarres Beobide (eu),
+                        Jari Rahkonen (fi), Maximilian Schleiss (fr), Piotr
+                        Maliński and Szymon Kałasz (pl), Tomás Acauan Schertel
+                        (pt_BR)
+- New translations: Leandro Regueiro (gl), Dimitri Gogelia (ka)
+
+
+0.3.1.8beta2
+============
+- Imported the "Xfce Preferred Applications" framework, which allows users to
+  select their preferred applications (i.e. web browser, mail reader, terminal
+  emulator) using a nice graphical interface, rather than having to figure out
+  where to add which environment variable to make Xfce use Firefox as default
+  web browser. The "Xfce Preferred Applications" framework can also pass
+  additional information when composing emails using the preferred mail reader,
+  for example, you can use the extended mailto:-syntax to open the composer
+  with a predefined subject and automatically attached files.
+- Updated the ExoIconView class to support an API compatible to the GtkIconView
+  in Gtk+ 2.8, and improve the performance of the icon view.
+- Added single click navigation support to ExoIconView.
+- Added hover-selection support to ExoIconView in single-click mode, which
+  automatically selects an item when the mouse is paused over it for a
+  certain amount of time.
+- Added "Right Arrow Keyboard Navigation" to ExoIconView, as suggested in
+  http://chabada.sk/better-desktop/#nautilus-improvements.
+- Added a compact layout mode to ExoIconView, similar to the list view found
+  in Windows Explorer.
+- Added a new widget ExoTreeView, which extends GtkTreeView with single click
+  navigation.
+- Added a new widget ExoWrapTable, which layouts its child widgets in an
+  automatically wrapped table. For example, this is used for the emblem
+  chooser in Thunar.
+- Added a new utility exo-csource, which can generate C source code from
+  arbitrary data.
+- Added a new utility exo-desktop-item-edit, which is used to create new
+  launchers/links on the desktop and when dropping URLs to the file manager.
+- Added various new convenience functions to make dealing with strings,
+  pixbufs and other data structures easier for C programmers.
+- The number of relocations in the library and the number of linked dependencies
+  were reduced to improve the startup time of applications using this library.
+- Updated class structures to make sure constant static strings aren't
+  unnecessarily duplicated at runtime, and provide other packages with
+  the same functionality by exporting the functions and macros in
+  question.
+- Updated the python bindings to include the new functionality.
+- Support three different levels of debugging support (yes/minimum/no).
+- New translations: Pau Rul·lan Ferragut (ca), Michal Várady (cs), Stavros
+                    Giannouris (el), Dwayne Bailey (en_GB), Patricio Carr (es),
+                    Peeter Vois (et), Piarres Beobide (eu), Jari Rahkonen
+                    (fi), Stephane Roy (fr), Dotan Kamber (he), Szervác Attila
+                    (hu), Daichi Kawahata (ja), Piotr Maliński (pl), Adriano
+                    Winter Bess (pt_BR), Joao Pedrosa (pt_BR), Mişu Moldovan
+                    (ro), Andrey Fedoseev (ru), Maxim Zenin (ru), Alexander
+                    Toresson (sv)
+
+
+0.3.0
+=====
+- The icon bar is now sized and rendered properly with all Gtk+ theme engines.
+- The following obsolete components have been removed: ExoIce, ExoFileWatch,
+  ExoUri and ExoPropertyProxy.
+- A bug in ExoCellRendererEllipsizedText was fixed, which caused Xfmedia to
+  crash under certain circumstances.
+- The dependency on D-BUS is gone.
+- Python bindings have been added.
+- Updated API documentation.
+- New translations: Dwayne Bailey (en_GB)
+
+
+0.2.0
+=====
+- The ellipsizing functions now use the Pango 1.6 builtin functionality
+  if available.
+- Added lightweight session management support with the ExoXsessionClient
+  class.
+- The API of ExoEllipsizedLabel was changed to be compatible with GtkLabel
+  in Gtk+ 2.5 and above.
+- Added an ellipsizing cell renderer ExoCellRendererEllipsizedText, compatible
+  with GtkCellRendererText in Gtk+ 2.6.
+- ExoIconBar has an "orientation" property now. The "selection-changed" signal
+  has been renamed to "changed". The ExoIconBar background is updated when
+  the Gtk style changes.
+- libexo is fully internationalized now. German translations are already
+  available.
+- The ExoToolbarsView class has been changed to provide a "Customize 
+  Toolbars..." menu item together with the other items and to emit a
+  signal "customize".
+- ExoPropertyProxy has been replaced by ExoBinding, which is based on
+  the GObject Binding Properties implementation available from
+  http://ex-code.com/glib-bind/. ExoBinding is way more powerful and
+  easier to handle than ExoPropertyProxy. ExoBinding contains some 
+  improvements over GBinding; for example, GBinding can run into an
+  endless loop, when you bind properties of type GBoxed, whereas
+  ExoBinding doesn't suffer from this problem.
+- The MD5 functions have been changed to be compatible with the MD5 API
+  found in libegg.
+- The API documentation is nearly complete now.
+
+0.1.3
+=====
+- Added a framework for editable toolbars (ExoToolbarsModel, ExoToolbarsView,
+  ExoToolbarsEditor and ExoToolbarsEditorDialog).
+- Added initial API reference documentation.
+- Added version information variables and macros similar to whats used
+  in Xfce and Gtk+.
+
+
+0.1.2
+=====
+- Fixed a style problem with the iconbar.
+- Fixed a bug in the md5 module, that caused the libexo compile to fail
+  on some GNU/Linux systems.
+- The configure option --enable-final now enables linker optimizations for
+  plattforms that support it (recent GNU binutils required).
+
+
+0.1.1
+=====
+- An ICE module was added, based upon the ice-layer from xfce4-session and
+  the gnome-ice module of libgnomeui.
+- libexo no longer requires SSL on non-BSD systems, since a MD5 fallback
+  implementation was added, which will be used if the system doesn't
+  provide MD5_* functions.

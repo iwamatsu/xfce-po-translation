@@ -1,0 +1,107 @@
+# translation of xfvnc.po to Greek
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfvnc package.
+#
+# Evaggelos Balaskas <ebalaskas@ebalaskas.gr>, 2008.
+# Stavros Giannouris <stavrosg@hellug.gr>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfvnc 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-03-24 22:39+0200\n"
+"PO-Revision-Date: 2008-03-24 22:43+0200\n"
+"Last-Translator: Stavros Giannouris <stavrosg@hellug.gr>\n"
+"Language-Team: Greek <nls@tux.hellug.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../xfvnc/main.c:81
+msgid "Connected.  Starting session..."
+msgstr "Συνδέθηκε. Εκκίνηση συνεδρίας..."
+
+#: ../xfvnc/main.c:105
+#, c-format
+msgid "XfVNC .:. %s"
+msgstr "XfVNC .:. %s"
+
+#: ../xfvnc/main.c:144
+msgid "Disconnected"
+msgstr "Αποσυνδέθηκε"
+
+#: ../xfvnc/main.c:146
+msgid "The remote VNC session was disconnected"
+msgstr "Η απομακρυσμένη συνεδρία VNC αποσυνδέθηκε"
+
+#: ../xfvnc/main.c:147
+msgid ""
+"The connection with the VNC server was lost.  This could be due to a network "
+"problem, or a problem with the server."
+msgstr ""
+"Η σύνδεση με τον εξυπηρετητή VNC χάθηκε. Αυτό μπορεί να οφείλεται σε σφάλμα "
+"δικτύου ή σε πρόβλημα με τον εξυπηρετητή."
+
+#: ../xfvnc/main.c:166
+msgid "Connection Error"
+msgstr "Σφάλμα σύνδεσης"
+
+#: ../xfvnc/main.c:168
+msgid "There was an error connecting to the VNC server"
+msgstr "Υπήρξε ένα σφάλμα κατά την σύνδεση με τον VNC server"
+
+#: ../xfvnc/main.c:169
+msgid "Unfortunately, the type of error is unknown."
+msgstr "Δυστυχώς, ο τύπος σφάλματος είναι άγνωστος"
+
+#: ../xfvnc/xfvnc.desktop.in.h:1
+msgid "VNC Viewer"
+msgstr "Πελάτης VNC"
+
+#: ../xfvnc/xfvnc.desktop.in.h:2 ../xfvnc/xfvnc.glade.h:4
+msgid "XfVNC"
+msgstr "XfVNC"
+
+#: ../xfvnc/xfvnc.desktop.in.h:3
+msgid "Xfce VNC Viewer Application"
+msgstr "Εφαρμογή Xfce VNC Viewer"
+
+#: ../xfvnc/xfvnc.glade.h:1
+msgid "Connecting..."
+msgstr "Σύνδεση..."
+
+#: ../xfvnc/xfvnc.glade.h:2
+msgid "Display _number:"
+msgstr "Αριθμός Οθό_νης:"
+
+#: ../xfvnc/xfvnc.glade.h:3
+msgid "Show _fullscreen"
+msgstr "Εμ_φάνιση Ολόκληρης Οθόνης"
+
+#: ../xfvnc/xfvnc.glade.h:5
+msgid "XfVNC Status"
+msgstr "Κατάσταση XfVNC"
+
+#: ../xfvnc/xfvnc.glade.h:6
+msgid "Xfce VNC Viewer"
+msgstr "Πελάτης VNC για το Xfce"
+
+#: ../xfvnc/xfvnc.glade.h:7
+msgid "_Allow other clients to connect"
+msgstr "Ε_πέτρεψε άλλοι χρήστε να συνδέονται"
+
+#: ../xfvnc/xfvnc.glade.h:8
+msgid "_Computer name:"
+msgstr "Όν_ομα υπολογιστή:"
+
+#: ../xfvnc/xfvnc.glade.h:9
+msgid "_Password:"
+msgstr "_Συνθηματικό:"
+
+#: ../xfvnc/xfvnc.glade.h:10
+msgid "_Recent computers:"
+msgstr "Π_ρόσφατοι υπολογιστές:"
+
+#: ../xfvnc/xfvnc.glade.h:11
+msgid "_View only"
+msgstr "_Εμφάνιση μόνο"

@@ -1,0 +1,76 @@
+# translation of notification-daemon-xfce.po to librezale
+# Copyright (C) 2008 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: notification-daemon-xfce 0.3.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-10-22 17:38+0200\n"
+"PO-Revision-Date: 2008-06-10 19:47+0700\n"
+"Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
+"Language-Team: Indonesian <id@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/settings/main.c:64
+msgid "Top Left"
+msgstr "Kiri Atas"
+
+#: ../src/settings/main.c:65
+msgid "Top Right"
+msgstr "Kanan Atas"
+
+#: ../src/settings/main.c:66
+msgid "Bottom Left"
+msgstr "Kiri Bawah"
+
+#: ../src/settings/main.c:67
+msgid "Bottom Right"
+msgstr "Kanan Bawah"
+
+#. create new preview notification
+#: ../src/settings/main.c:188
+msgid "Preview notification"
+msgstr "Pemberitahuan pratayang"
+
+#: ../src/settings/main.c:189
+msgid ""
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr ""
+"Lorem Ipsum adalah teks percobaan sederhana yang digunakan oleh industri pencetakan dan typeset."
+
+#: ../src/settings/main.c:324
+#: ../src/settings/notification-settings.desktop.in.h:2
+msgid "Notification Settings"
+msgstr "Pengaturan Pemberitahuan"
+
+#: ../src/settings/main.c:330
+msgid "Configure the Xfce notification daemon"
+msgstr "Atur jurik pemberitahuan Xfce"
+
+#: ../src/settings/main.c:340
+msgid "Notification _position:"
+msgstr "Posisi _pemberitahuan:"
+
+#: ../src/settings/main.c:370
+msgid "Pre_view"
+msgstr "Pra_tayang"
+
+#: ../src/settings/mcs_plugin.c:41
+msgid "Failed to launch notification-settings"
+msgstr "Gagal menjalankan pengaturan pemberitahuan"
+
+#: ../src/settings/mcs_plugin.c:61
+msgid "Button Label|Notification Settings"
+msgstr "Pengaturan Pemberitahuan"
+
+#: ../src/settings/notification-settings.desktop.in.h:1
+msgid "Customize the notification daemon settings"
+msgstr "Sesuaikan pengaturan jurik pemberitahuan"
+
+#: ../src/settings/notification-settings.desktop.in.h:3
+msgid "Xfce 4 Notification Settings"
+msgstr "Pengaturan Pemberitahuan Xfce 4"

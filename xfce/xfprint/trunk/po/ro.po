@@ -1,0 +1,504 @@
+# Romanian translation of xfprint.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfprint package.
+# Mişu Moldovan <dumol@gnome.ro>, 2005-2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-14 15:26+0200\n"
+"PO-Revision-Date: 2007-01-20 23:26+0200\n"
+"Last-Translator: Mişu Moldovan <dumol@gnome.ro>\n"
+"Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3;plural=(n==1?0:(n==0||((n%100)>0&&(n%100)<20))?1:2)\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "Imprimantă"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "Ieşire"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "Ieşire din xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "Despre"
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "Despre xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "Arată detalii despre xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:140
+msgid "Printer manager"
+msgstr "Administrator de imprimante"
+
+#: ../libxfprint/printer-list-window.c:206
+msgid "Alias name"
+msgstr "Alias nume"
+
+#: ../libxfprint/printer-list-window.c:210
+#: ../libxfprint/printer-queue-window.c:217
+msgid "State"
+msgstr "Stare"
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Xfprint printers manager"
+msgstr "Administrator de imprimante Xfprint"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:269
+msgid "Former maintainer"
+msgstr "Dezvoltator inactiv"
+
+#: ../libxfprint/printer-list-window.c:270
+msgid "Maintainer"
+msgstr "Dezvoltator activ"
+
+#: ../libxfprint/printer-list-window.c:271
+msgid "Artist"
+msgstr "Artist"
+
+#: ../libxfprint/printer-list-window.c:334
+msgid "Unknown"
+msgstr "Necunoscută"
+
+#: ../libxfprint/printer-list-window.c:337
+msgid "Idle"
+msgstr "Inactivă"
+
+#: ../libxfprint/printer-list-window.c:340
+msgid "Processing"
+msgstr "Procesare"
+
+#: ../libxfprint/printer-list-window.c:343
+msgid "Stopped"
+msgstr "Oprită"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "Închide"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "Închide fereastra cozii"
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr "Sarcini"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:385
+#: ../libxfprint/printer-queue-window.c:389
+msgid "Remove job"
+msgstr "Şterge sarcina"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "Şterge sarcina selectată din coadă"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "Actualizare"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "Actualizare coadă"
+
+#: ../libxfprint/printer-queue-window.c:122
+#: ../libxfprint/printer-queue-window.c:538
+msgid "Queue Manager"
+msgstr "Administratorul cozilor de tipărire"
+
+#: ../libxfprint/printer-queue-window.c:207
+msgid "Name"
+msgstr "Nume"
+
+#: ../libxfprint/printer-queue-window.c:211
+msgid "ID"
+msgstr "ID"
+
+#: ../libxfprint/printer-queue-window.c:214
+msgid "User"
+msgstr "Utilizator"
+
+#: ../libxfprint/printer-queue-window.c:220
+msgid "Size"
+msgstr "Mărime"
+
+#: ../libxfprint/printer-queue-window.c:223
+msgid "Priority"
+msgstr "Prioritate"
+
+#: ../libxfprint/printer-queue-window.c:226
+msgid "Creation time"
+msgstr "Dată de creare"
+
+#: ../libxfprint/printer-queue-window.c:229
+msgid "Processing time"
+msgstr "Dată de procesare"
+
+#: ../libxfprint/printer-queue-window.c:382
+msgid "Are you sure you want to remove the job "
+msgstr "Sigur doriţi să ştergeţi sarcina?"
+
+#: ../libxfprint/printer-queue-window.c:388
+msgid "Don't remove job"
+msgstr "Nu şterge sarcina"
+
+#: ../libxfprint/printer-queue-window.c:395
+msgid "An error occurred while removing job !"
+msgstr "A intervenit o eroare la ştergerea sarcinii!"
+
+#: ../libxfprint/printer-queue-window.c:446
+msgid "pending"
+msgstr "în aşteptare"
+
+#: ../libxfprint/printer-queue-window.c:449
+msgid "printing"
+msgstr "se tipăreşte"
+
+#: ../libxfprint/printer-queue-window.c:452
+msgid "Kb"
+msgstr "Ko"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "Sistem de tipărire"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "Selectare sistem de tipărire"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "Detalii"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "Descriere"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "Versiune"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "Autor"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "Pagină internet"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "Niciunul"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr "Utilizaţi acest sistem dacă doriţi să tipăriţi într-un fişier."
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "Sistem de tipărire BSD-LPR pentru Xfprint"
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr "Sistem de tipărire CUPS pentru Xfprint"
+
+#: ../printing-systems/cups/cups.c:48
+msgid "Set as default printer"
+msgstr "Desemnează ca imprimantă implicită"
+
+#: ../printing-systems/cups/cups.c:49
+msgid "Set as default CUPS printer"
+msgstr "Desemnează ca imprimantă implicită CUPS"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "Proprietăţi"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "Arată proprietăţile imprimantei"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "Parolă"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "Utilizator:"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "Parolă:"
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr "E necesar să precizaţi un nume de utilizator!"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "Antete tipărire"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "Antet:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "Dedesubt:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "Titlu centrat:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "Titlu stânga"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "Titlu dreapta:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "Notiţe de subsol centrate:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "Notiţe de subsol în stânga:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "Notiţe de subsol în dreapta:"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "Codare:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "Tipăreşte toate paginile"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "Tipăreşte paginile din intervalul:"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "Rupe liniile lungi"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "Interpretează caracterele TAB, BS şi FF"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "Forţează tipărirea binară"
+
+#: ../xfprint/main.c:116
+msgid "Select file to print"
+msgstr "Selectare fişier de tipărit"
+
+#: ../xfprint/main.c:128
+msgid "The specified file does not exist"
+msgstr "Fişierul specificat nu există"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "Limbaj:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "Nivel evidenţiere:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "Nivel tăiere comentarii:"
+
+#: ../xfprint/print_dialog.c:204
+msgid "Save settings"
+msgstr "Salvare setări"
+
+#: ../xfprint/print_dialog.c:212
+msgid "Xfprint"
+msgstr "Xfprint"
+
+#: ../xfprint/print_dialog.c:220
+msgid "Print to:"
+msgstr "Tipăreşte la:"
+
+#: ../xfprint/print_dialog.c:250
+msgid "Print to file:"
+msgstr "Tipăreşte în fişierul:"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Sheets"
+msgstr "Foi"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Virtual pages"
+msgstr "Pagini virtuale"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Pretty-printing"
+msgstr "Tipărire îngrijită"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Input"
+msgstr "Intrare"
+
+#: ../xfprint/print_dialog.c:300
+msgid "Headings"
+msgstr "Titluri"
+
+#: ../xfprint/print_dialog.c:309
+msgid "Copies:"
+msgstr "Cópii:"
+
+#: ../xfprint/print_dialog.c:316
+msgid "Apply filters"
+msgstr "Aplică filtrele"
+
+#: ../xfprint/print_dialog.c:371
+msgid ""
+"Neither the printing system backend or a2ps could be found on your system, "
+"you won't be able to print a file with xfprint !"
+msgstr ""
+"Sistemul de tipărire selectat sau a2ps nu au fost găsite în sistem. Nu veţi "
+"putea tipări fişiere cu xfprint!"
+
+#: ../xfprint/print_dialog.c:486
+msgid "An error occurred while trying to print the file"
+msgstr "O eroare a intervenit la încercarea de tipărire în fişier"
+
+#: ../xfprint/print_dialog.c:523
+msgid "Select file where to print"
+msgstr "Selectaţi fişierul destinaţie"
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "Mărime hârtie:"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "Portret"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "Vedere"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "Coloane:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "Umple întâi coloanele"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "Umple întâi rândurile"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "Rânduri:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "Tipăreşte chenare în jurul coloanelor"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "Tipăreşte paginile în ordine inversă"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "Rânduri numerotate:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "Rânduri per pagină:"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "Caractere per rând:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "Mărime tabulare:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "Format netipăribil:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr "Vă permite să selectaţi un sistem de tipărire pentru xfprint"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+msgid "Printing System Settings"
+msgstr "Sistem de tipărire"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+msgid "Xfce 4 Printing System Settings"
+msgstr "Selectare sistem de tipărire Xfce 4"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+msgid "Print Manager"
+msgstr "Administrator de imprimante"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr ""
+"Arată lista imprimantelor şi permite administrarea sarcinilor de tipărire"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+msgid "Xfce 4 Print Manager"
+msgstr "Administrator de imprimante Xfce 4"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "Dialog de tipărire"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr "Tipărire fişier cu modificarea aspectului"
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "Dialog de tipărire Xfce 4"
+

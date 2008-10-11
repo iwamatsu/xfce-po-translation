@@ -1,0 +1,502 @@
+# British English translation of the squeeze package.
+# Copyright (C) 2006-2007 Stephan Arts.
+# This file is distributed under the same license as the squeeze package.
+# Jeff Bailes <thepizzaking@gmail.com>, 2007.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: squeeze 0.2.0\n"
+"Report-Msgid-Bugs-To: stephan@xfce.org\n"
+"POT-Creation-Date: 2007-08-21 00:30+0200\n"
+"PO-Revision-Date: 2008-05-10 12:15+1000\n"
+"Last-Translator: Jeff Bailes <thepizzaking@gmail.com>\n"
+"Language-Team: English/GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../libsqueeze/archive.c:236
+msgid "Name"
+msgstr "Name"
+
+#: ../libsqueeze/archive.c:238
+msgid "Mime type"
+msgstr "Mime type"
+
+#: ../squeeze.desktop.in.h:1
+msgid "Archive Manager"
+msgstr "Archive Manager"
+
+#: ../squeeze.desktop.in.h:2
+msgid "Create and manage archives with the archive manager"
+msgstr "Create and manage archives with the archive manager"
+
+#: ../squeeze.desktop.in.h:3
+msgid "Squeeze Archive Manager"
+msgstr "Squeeze Archive Manager"
+
+#.
+#. * Could not open archive (mime type not supported or file did not exist)
+#. * Should be a more specific error message.
+#.
+#: ../src/application.c:160
+#: ../src/application.c:250
+msgid "Could not open archive, MIME-type unsupported or file did not exist"
+msgstr "Could not open archive, MIME-type unsupported or file did not exist"
+
+#: ../src/application.c:191
+#: ../src/main_window.c:826
+#: ../src/main_window.c:1260
+msgid ""
+"Squeeze cannot extract this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"Squeeze cannot extract this archive type,\n"
+"the application to support this is missing."
+
+#.
+#. * Could not create archive (mime type unsupported)
+#.
+#: ../src/application.c:233
+msgid "Could not create archive, MIME-type unsupported"
+msgstr "Could not create archive, MIME-type unsupported"
+
+#: ../src/application.c:268
+#: ../src/main_window.c:874
+msgid ""
+"Squeeze cannot add files to this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"Squeeze cannot add files to this archive type,\n"
+"the application to support this is missing."
+
+#: ../src/archive_store.c:249
+#: ../src/notebook.c:179
+msgid "Show full path"
+msgstr "Show full path"
+
+#: ../src/archive_store.c:250
+#: ../src/notebook.c:180
+msgid "Show the full path strings for each entry"
+msgstr "Show the full path strings for each entry"
+
+#: ../src/archive_store.c:256
+#: ../src/notebook.c:186
+msgid "Show mime icons"
+msgstr "Show mime icons"
+
+#: ../src/archive_store.c:257
+#: ../src/notebook.c:187
+msgid "Show the mime type icons for each entry"
+msgstr "Show the mime type icons for each entry"
+
+#: ../src/archive_store.c:263
+msgid "Show up dir entry"
+msgstr "Show up dir entry"
+
+#: ../src/archive_store.c:264
+msgid "Show '..' to go to the parent directory"
+msgstr "Show '..' to go to the parent directory"
+
+#: ../src/archive_store.c:270
+#: ../src/notebook.c:193
+msgid "Sort folders before files"
+msgstr "Sort folders before files"
+
+#: ../src/archive_store.c:271
+#: ../src/notebook.c:194
+msgid "The folders will be put at the top of the list"
+msgstr "The folders will be put at the top of the list"
+
+#: ../src/archive_store.c:277
+#: ../src/archive_store.c:278
+#: ../src/notebook.c:200
+#: ../src/notebook.c:201
+msgid "Sort text case sensitive"
+msgstr "Sort text case sensitive"
+
+#: ../src/extract_dialog.c:76
+msgid "<b>Extract files:</b>"
+msgstr "<b>Extract files:</b>"
+
+#: ../src/extract_dialog.c:77
+msgid "<b>Options:</b>"
+msgstr "<b>Options:</b>"
+
+#: ../src/extract_dialog.c:87
+msgid "All files"
+msgstr "All files"
+
+#: ../src/extract_dialog.c:88
+msgid "Selected files"
+msgstr "Selected files"
+
+#: ../src/extract_dialog.c:100
+#: ../src/main_window.c:451
+#: ../src/main_window.c:1219
+msgid "Extract"
+msgstr "Extract"
+
+#: ../src/extract_dialog.c:110
+msgid "Extract archive"
+msgstr "Extract archive"
+
+#: ../src/main.c:51
+msgid "[destination path]"
+msgstr "[destination path]"
+
+#: ../src/main.c:59
+msgid "[archive path] [file1] [file2] ... [fileN]"
+msgstr "[archive path] [file1] [file2] ... [fileN]"
+
+#: ../src/main.c:63
+msgid "[file1] [file2] ... [fileN]"
+msgstr "[file1] [file2] ... [fileN]"
+
+#: ../src/main.c:66
+msgid "Version information"
+msgstr "Version information"
+
+#: ../src/main.c:92
+msgid "[archive name]"
+msgstr "[archive name]"
+
+#: ../src/main.c:96
+#, c-format
+msgid ""
+"%s: %s\n"
+"Try %s --help to see a full list of available command line options.\n"
+msgstr ""
+"%s: %s\n"
+"Try %s --help to see a full list of available command line options.\n"
+
+#: ../src/main_window.c:133
+msgid "Internal Style"
+msgstr "Internal Style"
+
+#: ../src/main_window.c:134
+msgid "Tool Bar Style"
+msgstr "Tool Bar Style"
+
+#: ../src/main_window.c:135
+msgid "Path Bar Style"
+msgstr "Path Bar Style"
+
+#: ../src/main_window.c:182
+msgid "Navigation Style"
+msgstr "Navigation Style"
+
+#: ../src/main_window.c:183
+msgid ""
+"Style of navigation\n"
+"The style to navigate trough the archive"
+msgstr ""
+"Style of navigation\n"
+"The style to navigate trough the archive"
+
+#. File menu
+#: ../src/main_window.c:295
+msgid "_File"
+msgstr "_File"
+
+#. Action menu: ref all the childs
+#: ../src/main_window.c:323
+msgid "_Action"
+msgstr "_Action"
+
+#: ../src/main_window.c:328
+msgid "_Add files"
+msgstr "_Add files"
+
+#: ../src/main_window.c:334
+msgid "_Add _folders"
+msgstr "_Add _folders"
+
+#: ../src/main_window.c:340
+msgid "_Extract"
+msgstr "_Extract"
+
+#. View menu
+#: ../src/main_window.c:373
+msgid "_View"
+msgstr "_View"
+
+#. Help menu
+#: ../src/main_window.c:397
+msgid "_Help"
+msgstr "_Help"
+
+#: ../src/main_window.c:443
+#: ../src/main_window.c:852
+msgid "Add files"
+msgstr "Add files"
+
+#: ../src/main_window.c:447
+#: ../src/main_window.c:894
+msgid "Add folders"
+msgstr "Add folders"
+
+#: ../src/main_window.c:724
+msgid "Open archive in new window"
+msgstr "Open archive in new window"
+
+#: ../src/main_window.c:730
+msgid "Open archive"
+msgstr "Open archive"
+
+#: ../src/main_window.c:916
+msgid ""
+"Squeeze cannot add folders to this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"Squeeze cannot add folders to this archive type,\n"
+"the application to support this is missing."
+
+#: ../src/main_window.c:937
+msgid "Are you sure you want to remove the selected files?"
+msgstr "Are you sure you want to remove the selected files?"
+
+#: ../src/main_window.c:950
+msgid ""
+"Squeeze cannot remove files from this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"Squeeze cannot remove files from this archive type,\n"
+"the application to support this is missing."
+
+#: ../src/main_window.c:999
+msgid ""
+"Are you sure you want to cancel this operation?\n"
+"This could damage the archive."
+msgstr ""
+"Are you sure you want to cancel this operation?\n"
+"This could damage the archive."
+
+#: ../src/main_window.c:1081
+msgid "Lead developer:"
+msgstr "Lead developer:"
+
+#: ../src/main_window.c:1084
+msgid "Contributors:"
+msgstr "Contributors:"
+
+#: ../src/main_window.c:1087
+msgid "Inspired by Xarchiver, written by Giuseppe Torelli"
+msgstr "Inspired by Xarchiver, written by Giuseppe Torelli"
+
+#: ../src/main_window.c:1089
+msgid "Application Icon:"
+msgstr "Application Icon:"
+
+#: ../src/main_window.c:1092
+msgid "Add / Extract icons:"
+msgstr "Add / Extract icons:"
+
+#: ../src/main_window.c:1093
+msgid "Based on the original extract icon created by Andreas Nilsson"
+msgstr "Based on the original extract icon created by Andreas Nilsson"
+
+#: ../src/main_window.c:1100
+msgid "Squeeze is a lightweight and flexible archive manager for the Xfce Desktop Environment"
+msgstr "Squeeze is a lightweight and flexible archive manager for the Xfce Desktop Environment"
+
+#. Translator credits as shown in the about dialog: NAME <E-MAIL> YEAR
+#: ../src/main_window.c:1108
+msgid "translator-credits"
+msgstr "Jeff Bailes <thepizzaking@gmail.com>"
+
+#: ../src/main_window.c:1137
+#: ../src/main_window.c:1208
+#: ../src/main_window.c:1376
+msgid "Done"
+msgstr "Done"
+
+#: ../src/main_window.c:1218
+msgid "Which action do you want to perform on the selected file(s)?"
+msgstr "Which action do you want to perform on the selected file(s)?"
+
+#: ../src/main_window.c:1219
+msgid "Open"
+msgstr "Open"
+
+#: ../src/main_window.c:1233
+msgid ""
+"Squeeze cannot view this file.\n"
+"the application to support this is missing."
+msgstr ""
+"Squeeze cannot view this file.\n"
+"the application to support this is missing."
+
+#: ../src/main_window.c:1301
+msgid "Failed to open file"
+msgstr "Failed to open file"
+
+#: ../src/main_window.c:1302
+#, c-format
+msgid ""
+"'%s'\n"
+"Could not be opened"
+msgstr ""
+"'%s'\n"
+"Could not be opened"
+
+#: ../src/new_dialog.c:69
+msgid "Archive type:"
+msgstr "Archive type:"
+
+#: ../src/new_dialog.c:80
+msgid "Archives"
+msgstr "Archives"
+
+#: ../src/new_dialog.c:108
+msgid "Create new archive"
+msgstr "Create new archive"
+
+#: ../src/notebook.c:207
+msgid "Rules hint"
+msgstr "Rules hint"
+
+#: ../src/notebook.c:208
+msgid "Make the row background colors alternate"
+msgstr "Make the row background colours alternate"
+
+#: ../src/path_bar.c:141
+msgid "Spacing"
+msgstr "Spacing"
+
+#: ../src/path_bar.c:142
+msgid "The amount of space between the path buttons"
+msgstr "The amount of space between the path buttons"
+
+#: ../src/tool_bar.c:167
+msgid "Location:"
+msgstr "Location:"
+
+#: ../src/message_dialog.c:158
+msgid "Archive manager"
+msgstr "Archive manager"
+
+#~ msgid "Compressing"
+#~ msgstr "Compressing"
+#~ msgid "Decompressing"
+#~ msgstr "Decompressing"
+#~ msgid "Refresh"
+#~ msgstr "Refresh"
+#~ msgid "Rights"
+#~ msgstr "Rights"
+#~ msgid "Owner/Group"
+#~ msgstr "Owner/Group"
+#~ msgid "Size"
+#~ msgstr "Size"
+#~ msgid "Date"
+#~ msgstr "Date"
+#~ msgid "Time"
+#~ msgstr "Time"
+#~ msgid "Cleanup"
+#~ msgstr "Cleanup"
+#~ msgid "Removing files"
+#~ msgstr "Removing files"
+#~ msgid "Removing"
+#~ msgstr "Removing"
+#~ msgid "Extracting"
+#~ msgstr "Extracting"
+#~ msgid "Compressed"
+#~ msgstr "Compressed"
+#~ msgid "Ratio"
+#~ msgstr "Ratio"
+#~ msgid "Method"
+#~ msgstr "Method"
+#~ msgid "Version"
+#~ msgstr "Version"
+#~ msgid "Adding"
+#~ msgstr "Adding"
+#~ msgid "Execute"
+#~ msgstr "Execute"
+#~ msgid "Command exited with status %d."
+#~ msgstr "Command exited with status %d."
+#~ msgid "Command interrupted by user"
+#~ msgstr "Command interrupted by user"
+#~ msgid "Command received SIGSEGV"
+#~ msgstr "Command received SIGSEGV"
+#~ msgid "Command Terminated"
+#~ msgstr "Command Terminated"
+#~ msgid "Files and directories to add"
+#~ msgstr "Files and directories to add"
+#~ msgid "Options:"
+#~ msgstr "Options:"
+#~ msgid "Files"
+#~ msgstr "Files"
+#~ msgid "Directories"
+#~ msgstr "Directories"
+#~ msgid "Add file(s) to archive"
+#~ msgstr "Add file(s) to archive"
+#~ msgid "Select files"
+#~ msgstr "Select files"
+#~ msgid "Select folders"
+#~ msgstr "Select folders"
+#~ msgid "_Add"
+#~ msgstr "_Add"
+#~ msgid "Add"
+#~ msgstr "Add"
+#~ msgid "Xfce archive manager"
+#~ msgstr "Xfce archive manager"
+#~ msgid "Artwork:"
+#~ msgstr "Artwork:"
+
+#, fuzzy
+#~ msgid "idle"
+#~ msgstr "_File"
+
+#, fuzzy
+#~ msgid "Owner"
+#~ msgstr "Owner/Group"
+#~ msgid "Overwrite existing files"
+#~ msgstr "Overwrite existing files"
+#~ msgid "Overwrite existing files on extraction"
+#~ msgstr "Overwrite existing files on extraction"
+#~ msgid "Touch files"
+#~ msgstr "Touch files"
+#~ msgid "Strip directories"
+#~ msgstr "Strip directories"
+#~ msgid "Keep newer files"
+#~ msgstr "Keep newer files"
+#~ msgid "Do not overwrite files newer than those in the archive"
+#~ msgstr "Do not overwrite files newer than those in the archive"
+#~ msgid "Override permissions"
+#~ msgstr "Override permissions"
+#~ msgid "View filesize"
+#~ msgstr "View filesize"
+#~ msgid "Permissions"
+#~ msgstr "Permissions"
+#~ msgid "View permissions"
+#~ msgstr "View permissions"
+#~ msgid "View date"
+#~ msgstr "View date"
+#~ msgid "View time"
+#~ msgstr "View time"
+#~ msgid "Password"
+#~ msgstr "Password"
+#~ msgid "View compressed filesize"
+#~ msgstr "View compressed filesize"
+#~ msgid "View ratio"
+#~ msgstr "View ratio"
+#~ msgid "View method"
+#~ msgstr "View method"
+#~ msgid "Checksum"
+#~ msgstr "Checksum"
+#~ msgid "View Checksum"
+#~ msgstr "View Checksum"
+#~ msgid "Compression version"
+#~ msgstr "Compression version"
+#~ msgid "View compression version"
+#~ msgstr "View compression version"
+#~ msgid "Append extension to filename"
+#~ msgstr "Append extension to filename"
+#~ msgid "Name:"
+#~ msgstr "Name:"
+#~ msgid "Kind:"
+#~ msgstr "Kind:"
+#~ msgid "Properties"
+#~ msgstr "Properties"
+

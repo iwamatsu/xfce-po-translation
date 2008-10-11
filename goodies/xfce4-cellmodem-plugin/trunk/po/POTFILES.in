@@ -1,0 +1,8 @@
+panel-plugin/cellmodem.c
+panel-plugin/leds.c
+panel-plugin/modem_driver.c
+panel-plugin/modem_driver_fake.c
+panel-plugin/modem_driver_generic.c
+panel-plugin/pin_helper.c
+panel-plugin/preferences.c
+panel-plugin/autodetect.c

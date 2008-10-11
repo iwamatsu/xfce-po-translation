@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-quicklauncher-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-05-17 21:37+0200\n"
+"PO-Revision-Date: 2007-10-27 16:09+0500\n"
+"Last-Translator: Muhammad Ali Makki <makk.ma@gmail.com>\n"
+"Language-Team: Urdu <makki.ma@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Urdu\n"
+"X-Poedit-Country: PAKISTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../panel-plugin/callbacks.c:79
+msgid "Configure Quicklauncher"
+msgstr "Quicklauncher کی تشکیل"
+
+#: ../panel-plugin/callbacks.c:93
+msgid "Lines: "
+msgstr "لائنیں:"
+
+#: ../panel-plugin/callbacks.c:123
+msgid "Espace entre les lanceurs :"
+msgstr "Espace entre les lanceurs :"
+
+#: ../panel-plugin/callbacks.c:131
+msgid "afficher les tooltips"
+msgstr "afficher les tooltips"
+
+#: ../panel-plugin/callbacks.c:135
+msgid "afficher les labels"
+msgstr "afficher les labels"
+
+#: ../panel-plugin/callbacks.c:216
+msgid "icone"
+msgstr "آئکن"
+
+#: ../panel-plugin/callbacks.c:222
+msgid "commande"
+msgstr "کمانڈ"
+
+#: ../panel-plugin/callbacks.c:228
+msgid "nom"
+msgstr "nom"
+
+#: ../panel-plugin/callbacks.c:327
+msgid "Open icon"
+msgstr "آئکن کھولیں"
+
+#: ../panel-plugin/main.c:163
+#: ../panel-plugin/quicklauncher.desktop.in.in.h:2
+msgid "Quicklauncher"
+msgstr "Quicklauncher"
+
+#: ../panel-plugin/main.c:166
+msgid "Allows you to add launchers easily and display them on many lines."
+msgstr "آسانی سے آپ کو لاؤنچر شامل کرنے اور انہیں مختلف لائنوں میں ظاہر کرنے کی سہولت دیتا ہے."
+
+#: ../panel-plugin/main.c:168
+msgid "Other plugins available here"
+msgstr "دیگر پلگ ان یہاں دستیاب ہیں"
+
+#: ../panel-plugin/main.c:320
+msgid "Lock"
+msgstr "قفل"
+
+#: ../panel-plugin/main.c:323
+msgid "Parameters"
+msgstr "پیرامیٹرز"
+
+#: ../panel-plugin/main.c:326
+msgid "Applications"
+msgstr "اطلاقیے"
+
+#: ../panel-plugin/main.c:329
+msgid "Help"
+msgstr "ہدایات"
+
+#: ../panel-plugin/quicklauncher.desktop.in.in.h:1
+msgid "Program with several launchers"
+msgstr "پروگرام بمع متعدد لاؤنچرز"
+

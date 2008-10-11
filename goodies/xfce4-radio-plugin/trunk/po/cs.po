@@ -1,0 +1,106 @@
+# .pot file for the xfce-radio-plugin
+# Copyright (C) 2006 Stefan Ott
+# This file is distributed under the same license as the xfce4-radio-plugin
+# Michal Várady <miko.vaji@gmail.com>, 2006
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-radio-plugin 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:29+0200\n"
+"PO-Revision-Date: 2006-08-27 01:41+0100\n"
+"Last-Translator: Michal Várady <miko.vaji@gmail.com>\n"
+"Language-Team: Czech <translation-team-cs@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: ../panel-plugin/radio.c:78
+msgid "Not tuned"
+msgstr "Nenaladěno"
+
+#: ../panel-plugin/radio.c:100
+msgid "- off -"
+msgstr "- vypnuto -"
+
+#: ../panel-plugin/radio.c:118
+msgid "Error opening radio device"
+msgstr "Chyba při otevírání zařízení pro příjem rádia"
+
+#: ../panel-plugin/radio.c:236 ../panel-plugin/radio.c:267
+#: ../panel-plugin/radio.c:467
+msgid "Add preset"
+msgstr "Přidat předvolbu"
+
+#: ../panel-plugin/radio.c:242 ../panel-plugin/radio.c:273
+msgid "Station name:"
+msgstr "Název stanice:"
+
+#: ../panel-plugin/radio.c:294
+msgid "There is already a preset with this frequency."
+msgstr "Na této frekvenci již existuje předvolba."
+
+#: ../panel-plugin/radio.c:332
+msgid "Tune radio"
+msgstr "Ladit rádio"
+
+#: ../panel-plugin/radio.c:338
+msgid "Frequency [MHz]:"
+msgstr "Frekvence [MHz]:"
+
+#: ../panel-plugin/radio.c:361
+msgid "Illegal frequency."
+msgstr "Nedovolená frekvence."
+
+#: ../panel-plugin/radio.c:438
+msgid "Presets"
+msgstr "Předvolby"
+
+#: ../panel-plugin/radio.c:474
+msgid "Delete active preset"
+msgstr "Smazat aktivní předvolbu"
+
+#: ../panel-plugin/radio.c:481
+msgid "Rename active preset"
+msgstr "Přejmenovat aktivní předvolbu"
+
+#: ../panel-plugin/radio.c:493
+msgid "Tune to frequency"
+msgstr "Přeladit na frekvenci"
+
+#: ../panel-plugin/radio.c:720
+msgid "Properties"
+msgstr "Vlastnosti"
+
+#: ../panel-plugin/radio.c:739
+msgid "V4L device"
+msgstr "Zařízení V4L"
+
+#: ../panel-plugin/radio.c:745
+msgid "Display signal strength"
+msgstr "Zobrazit sílu signálu"
+
+#: ../panel-plugin/radio.c:756
+msgid "yes"
+msgstr "ano"
+
+#: ../panel-plugin/radio.c:765
+msgid "no"
+msgstr "ne"
+
+#: ../panel-plugin/radio.c:775
+msgid "Execute command after shutdown"
+msgstr "Po vypnutí spustit příkaz"
+
+#: ../panel-plugin/radio.c:787
+msgid "Mouse scrolling changes"
+msgstr "Změny způsobené posunutím myši"
+
+#: ../panel-plugin/radio.c:799
+msgid "frequency"
+msgstr "frekvence"
+
+#: ../panel-plugin/radio.c:807
+msgid "preset"
+msgstr "předvolba"

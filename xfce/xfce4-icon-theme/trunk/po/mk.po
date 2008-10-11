@@ -1,0 +1,26 @@
+# translation of xfce4-icon-theme.po to Macedonian
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Dimitar Talevski <dimi.lugola@gmail.com>, 2006.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-icon-theme 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-11-22 00:16+0900\n"
+"PO-Revision-Date: 2006-12-24 01:55-0500\n"
+"Last-Translator: Dimitar Talevski <dimi.lugola@gmail.com>\n"
+"Language-Team: Macedonian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.2\n"
+
+#: ../Rodent/index.theme.in.h:1
+msgid "Default icon for the Xfce Desktop Environment"
+msgstr "Стандардна икона за Xfce работна околина"
+
+#: ../Rodent/index.theme.in.h:2
+msgid "Rodent"
+msgstr "Глодар"
+

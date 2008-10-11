@@ -1,0 +1,6 @@
+This is an XMMS Control plugin, if you havent figured that out yet.
+
+It uses gtk, glib, xfce4-panel headers, and xmms headers.  You must have XMMS installed to 
+compile this program. You'll also need the program xmms-config in your path, else it won't 
+compile right.  99.9% of the time if you have XMMS installed, it is in your path and you have 
+nothing to fear.

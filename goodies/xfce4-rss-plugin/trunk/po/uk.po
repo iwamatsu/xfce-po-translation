@@ -1,0 +1,50 @@
+# Ukrainian translation of xfce4-rss-plugin.
+# Copyright (C) 2008 Dmitry Nikitin
+# This file is distributed under the same license as the xfce4-rss-plugin package.
+#
+# Dmitry Nikitin <luckas_fb@mail.ru>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-rss-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-14 09:36+0000\n"
+"PO-Revision-Date: 2008-07-09 12:02+0300\n"
+"Last-Translator: Dmitry Nikitin <luckas_fb@mail.ru>\n"
+"Language-Team: Ukrainian <xfce4-dev@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../panel-plugin/props.py:25 ../panel-plugin/rss.desktop.in.in.h:2
+msgid "RSS Aggregator"
+msgstr "Інтегратор новин RSS"
+
+#: ../panel-plugin/props.py:46
+msgid "RSS Feeds:"
+msgstr "Стрічки RSS:"
+
+#: ../panel-plugin/props.py:63 ../panel-plugin/props.py:107
+msgid "Name"
+msgstr "Назва"
+
+#: ../panel-plugin/props.py:73
+msgid "URL"
+msgstr "Посилання URL"
+
+#. Start with an empty feeds menu
+#: ../panel-plugin/plugin.py:51
+msgid "Feeds"
+msgstr "Стрічки"
+
+#: ../panel-plugin/plugin.py:61
+msgid "Refresh all"
+msgstr "Оновити всі"
+
+#: ../panel-plugin/plugin.py:66
+msgid "RSS"
+msgstr "Новини RSS"
+
+#: ../panel-plugin/rss.desktop.in.in.h:1
+msgid "Check and display RSS feeds"
+msgstr "Перевірити та показати стрічки новин RSS"

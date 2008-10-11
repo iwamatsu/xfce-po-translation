@@ -1,0 +1,37 @@
+# Ukrainian translation of xfce4-websearch-plugin.
+# Copyright (C) 2006 Piotr Wolny <gildur@gmail.com>
+# This file is distributed under the same license as the xfce4-websearch-plugin package.
+#
+# Dmitry Nikitin <luckas_fb@mail.ru>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-websearch-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-31 15:32+0000\n"
+"PO-Revision-Date: 2008-07-14 12:49+0300\n"
+"Last-Translator: Dmitry Nikitin <luckas_fb@mail.ru>\n"
+"Language-Team: Ukrainian <xfce4-dev@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../src/websearch.c:312
+msgid "Properties"
+msgstr "Параметри"
+
+#: ../src/websearch.c:321
+msgid "Browser command: "
+msgstr "Команда запуску переглядача Web: "
+
+#: ../src/websearch.c:328
+msgid "Search engine: "
+msgstr "Пошукова система: "
+
+#: ../src/websearch.c:345 ../src/websearch.desktop.in.in.h:2
+msgid "WebSearch"
+msgstr "Пошук в Інтернеті"
+
+#: ../src/websearch.desktop.in.in.h:1
+msgid "Search the Web directly from the Panel"
+msgstr "Пошук в Інтернет напряму з панелі"

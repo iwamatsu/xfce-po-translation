@@ -1,0 +1,1907 @@
+# Marathi Translation of xfdesktop.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfdesktop package.
+# Pallavi Nikam <pallavi_edu@rediffmail.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfdesktop 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-09-08 09:57+0200\n"
+"PO-Revision-Date: 2005-10-09 22:20+0900\n"
+"Last-Translator: Pallavi Nikam <pallavi_edu@rediffmail.com>\n"
+"Language-Team: Marathi <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9\n"
+
+#: ../menueditor/menueditor-add-dialog.c:129
+msgid "Add menu entry"
+msgstr "यादीची नोदं समाविष्ट करा"
+
+#. Type
+#: ../menueditor/menueditor-add-dialog.c:142
+#: ../menueditor/menueditor-add-dialog.c:143
+#: ../menueditor/menueditor-add-external-dialog.c:113
+#: ../menueditor/menueditor-add-external-dialog.c:114
+msgid "Type:"
+msgstr "टंकलेखन:"
+
+#: ../menueditor/menueditor-add-dialog.c:151
+msgid "Title"
+msgstr "मथळा"
+
+#: ../menueditor/menueditor-add-dialog.c:152
+msgid "Submenu"
+msgstr "उपयादी"
+
+#: ../menueditor/menueditor-add-dialog.c:153
+msgid "Launcher"
+msgstr "लॉनचंर"
+
+#: ../menueditor/menueditor-add-dialog.c:154
+msgid "Separator"
+msgstr "विभाजक"
+
+#: ../menueditor/menueditor-add-dialog.c:155
+msgid "Quit"
+msgstr "थांबवा"
+
+#. Name
+#: ../menueditor/menueditor-add-dialog.c:162
+#: ../menueditor/menueditor-add-dialog.c:163
+#: ../menueditor/menueditor-edit-dialog.c:140
+#: ../menueditor/menueditor-edit-dialog.c:141
+#: ../src/xfdesktop-file-properties-dialog.c:188
+msgid "Name:"
+msgstr "नाव:"
+
+#. Command
+#: ../menueditor/menueditor-add-dialog.c:176
+#: ../menueditor/menueditor-add-dialog.c:177
+#: ../menueditor/menueditor-edit-dialog.c:154
+#: ../menueditor/menueditor-edit-dialog.c:155
+msgid "Command:"
+msgstr "आज्ञा:"
+
+#. Icon chooser
+#: ../menueditor/menueditor-add-dialog.c:201
+#: ../menueditor/menueditor-add-dialog.c:202
+#: ../menueditor/menueditor-add-dialog.c:244
+#: ../menueditor/menueditor-add-dialog.c:245
+#: ../menueditor/menueditor-edit-dialog.c:179
+#: ../menueditor/menueditor-edit-dialog.c:180
+#: ../menueditor/menueditor-edit-dialog.c:222
+#: ../menueditor/menueditor-edit-dialog.c:223
+msgid "Icon:"
+msgstr "आयकॉन:"
+
+#. setup a label to tell that no icon was selected
+#: ../menueditor/menueditor-add-dialog.c:213
+#: ../menueditor/menueditor-add-dialog.c:330
+#: ../menueditor/menueditor-edit-dialog.c:191
+#: ../menueditor/menueditor-edit-dialog.c:586
+#, fuzzy
+msgid "No icon"
+msgstr "बटन आयकॉन (_B):"
+
+#: ../menueditor/menueditor-add-dialog.c:225
+#: ../menueditor/menueditor-add-dialog.c:226
+#: ../menueditor/menueditor-edit-dialog.c:203
+#: ../menueditor/menueditor-edit-dialog.c:204
+#, fuzzy
+msgid "Themed icon:"
+msgstr "आयकॉन निवडा"
+
+#. allocate the chooser dialog
+#: ../menueditor/menueditor-add-dialog.c:252
+#: ../menueditor/menueditor-add-dialog.c:347
+#: ../menueditor/menueditor-edit-dialog.c:230
+#: ../menueditor/menueditor-edit-dialog.c:384
+#, fuzzy
+msgid "Select icon"
+msgstr "आयकॉन निवडा"
+
+#: ../menueditor/menueditor-add-dialog.c:257
+#: ../menueditor/menueditor-add-dialog.c:437
+#: ../menueditor/menueditor-add-external-dialog.c:142
+#: ../menueditor/menueditor-edit-dialog.c:235
+#: ../menueditor/menueditor-edit-dialog.c:296
+#: ../menueditor/menueditor-edit-external-dialog.c:122
+#: ../panel-plugin/desktop-menu-plugin.c:606
+msgid "All Files"
+msgstr "सर्व फाईल्स"
+
+#: ../menueditor/menueditor-add-dialog.c:261
+#: ../menueditor/menueditor-edit-dialog.c:239
+#: ../panel-plugin/desktop-menu-plugin.c:612
+msgid "Image Files"
+msgstr "प्रतिमा फाईल्सची "
+
+#. Start Notify check button
+#: ../menueditor/menueditor-add-dialog.c:283
+#: ../menueditor/menueditor-edit-dialog.c:261
+msgid "Use startup _notification"
+msgstr "प्रारंभीची सुचना वापरा (_n)"
+
+#. Run in terminal check button
+#: ../menueditor/menueditor-add-dialog.c:288
+#: ../menueditor/menueditor-edit-dialog.c:266
+msgid "Run in _terminal"
+msgstr "टर्मिनलमध्ये सुरु करा (_t)"
+
+#: ../menueditor/menueditor-add-dialog.c:427
+#: ../menueditor/menueditor-edit-dialog.c:286
+#: ../menueditor/menueditor-main-window.c:450
+msgid "Select command"
+msgstr "आज्ञा निवडा"
+
+#: ../menueditor/menueditor-add-dialog.c:442
+#: ../menueditor/menueditor-edit-dialog.c:301
+#, fuzzy
+msgid "Executable Files"
+msgstr "यादिची फाईल निवडा"
+
+#: ../menueditor/menueditor-add-dialog.c:457
+#: ../menueditor/menueditor-edit-dialog.c:316
+msgid "Perl Scripts"
+msgstr ""
+
+#: ../menueditor/menueditor-add-dialog.c:463
+#: ../menueditor/menueditor-edit-dialog.c:322
+msgid "Python Scripts"
+msgstr ""
+
+#: ../menueditor/menueditor-add-dialog.c:469
+#: ../menueditor/menueditor-edit-dialog.c:328
+msgid "Ruby Scripts"
+msgstr ""
+
+#: ../menueditor/menueditor-add-dialog.c:475
+#: ../menueditor/menueditor-edit-dialog.c:334
+msgid "Shell Scripts"
+msgstr ""
+
+#: ../menueditor/menueditor-add-external-dialog.c:100
+#, fuzzy
+msgid "Add external menu entry"
+msgstr "बाहेरील यादी समाविष्ट करा"
+
+#: ../menueditor/menueditor-add-external-dialog.c:122
+msgid "File"
+msgstr "फाईल"
+
+#: ../menueditor/menueditor-add-external-dialog.c:123
+#: ../modules/menu/directory-data/xfce-system.directory.in.h:1
+msgid "System"
+msgstr "प्रणाली"
+
+#. Source
+#: ../menueditor/menueditor-add-external-dialog.c:129
+#: ../menueditor/menueditor-add-external-dialog.c:130
+#: ../menueditor/menueditor-edit-external-dialog.c:109
+#: ../menueditor/menueditor-edit-external-dialog.c:110
+msgid "Source:"
+msgstr "मुळ:"
+
+#: ../menueditor/menueditor-add-external-dialog.c:137
+#: ../menueditor/menueditor-edit-external-dialog.c:117
+#, fuzzy
+msgid "Select external menu"
+msgstr "बाहेरील यादी समाविष्ट करा"
+
+#: ../menueditor/menueditor-add-external-dialog.c:146
+#: ../menueditor/menueditor-edit-external-dialog.c:126
+#: ../panel-plugin/desktop-menu-plugin.c:620
+msgid "Menu Files"
+msgstr "यादी फाईल्स"
+
+#. Style
+#: ../menueditor/menueditor-add-external-dialog.c:155
+#: ../menueditor/menueditor-add-external-dialog.c:156
+#: ../menueditor/menueditor-edit-external-dialog.c:135
+#: ../menueditor/menueditor-edit-external-dialog.c:136
+msgid "Style:"
+msgstr "शैली:"
+
+#: ../menueditor/menueditor-add-external-dialog.c:165
+#: ../menueditor/menueditor-edit-external-dialog.c:145
+msgid "Simple"
+msgstr "साधे"
+
+#: ../menueditor/menueditor-add-external-dialog.c:166
+#: ../menueditor/menueditor-edit-external-dialog.c:146
+msgid "Multilevel"
+msgstr "बहुपातळी"
+
+#. Unique check button
+#: ../menueditor/menueditor-add-external-dialog.c:171
+#: ../menueditor/menueditor-edit-external-dialog.c:151
+msgid "_Unique entries only"
+msgstr "फक्त वेगळ्या प्रवेशीका (_U)"
+
+#: ../menueditor/menueditor-edit-dialog.c:127
+msgid "Edit menu entry"
+msgstr "यादीच्या प्रवेशीकेचे संपादन"
+
+#: ../menueditor/menueditor-edit-external-dialog.c:96
+#, fuzzy
+msgid "Edit external menu entry"
+msgstr "बाहेरील यादी समाविष्ट करा"
+
+#: ../menueditor/menueditor-main.c:43
+#, fuzzy
+msgid "Xfce4-MenuEditor"
+msgstr "Xfce यादी संपादक"
+
+#: ../menueditor/menueditor-main.c:57
+#, fuzzy
+msgid "Menueditor Warning"
+msgstr "यादी संपादक"
+
+#: ../menueditor/menueditor-main.c:59
+msgid "xfce4-menueditor is deprecated"
+msgstr ""
+
+#: ../menueditor/menueditor-main.c:60
+msgid ""
+"Xfce's menu system has been replaced, and xfce4-menueditor is not able to "
+"edit the new menu file format.  You may continue and edit an old-style menu "
+"file, or quit."
+msgstr ""
+
+#: ../menueditor/menueditor-main.c:61
+#, fuzzy
+msgid "Continue"
+msgstr "सहाय्यक"
+
+#: ../menueditor/menueditor-main-window.c:140
+msgid "_File"
+msgstr "फाईल (_F)"
+
+#: ../menueditor/menueditor-main-window.c:141
+msgid "_New"
+msgstr ""
+
+#: ../menueditor/menueditor-main-window.c:141
+#, fuzzy
+msgid "Create a new empty menu"
+msgstr "नविन Xfce4 यादी फाईल तयार करा"
+
+#: ../menueditor/menueditor-main-window.c:142
+#: ../src/xfdesktop-file-icon-manager.c:1719
+#: ../src/xfdesktop-special-file-icon.c:633 ../src/xfdesktop-volume-icon.c:560
+msgid "_Open"
+msgstr ""
+
+#: ../menueditor/menueditor-main-window.c:142
+#, fuzzy
+msgid "Open existing menu"
+msgstr "डिफॉल्ट यादी उघडा"
+
+#: ../menueditor/menueditor-main-window.c:143
+#, fuzzy
+msgid "Open _default menu"
+msgstr "डिफॉल्ट यादी उघडा"
+
+#: ../menueditor/menueditor-main-window.c:143
+msgid "Open default menu"
+msgstr "डिफॉल्ट यादी उघडा"
+
+#: ../menueditor/menueditor-main-window.c:144
+msgid "_Save"
+msgstr ""
+
+#: ../menueditor/menueditor-main-window.c:144
+#, fuzzy
+msgid "Save modifications"
+msgstr "बदल विसरलात"
+
+#: ../menueditor/menueditor-main-window.c:145
+#, fuzzy
+msgid "Save _as..."
+msgstr "रक्षण याप्रमाणे..."
+
+#: ../menueditor/menueditor-main-window.c:145
+msgid "Save menu under a given name"
+msgstr ""
+
+#: ../menueditor/menueditor-main-window.c:146
+msgid "_Close"
+msgstr ""
+
+#: ../menueditor/menueditor-main-window.c:146
+#, fuzzy
+msgid "Close menu"
+msgstr "चालू यादी बंद करा"
+
+#: ../menueditor/menueditor-main-window.c:147
+#, fuzzy
+msgid "_Quit"
+msgstr "थांबवा"
+
+#: ../menueditor/menueditor-main-window.c:147
+#, fuzzy
+msgid "Quit Xfce4-Menueditor"
+msgstr "Xfce यादी संपादक"
+
+#: ../menueditor/menueditor-main-window.c:149
+msgid "_Edit"
+msgstr "संपादन (_E)"
+
+#: ../menueditor/menueditor-main-window.c:150
+#, fuzzy
+msgid "_Edit entry"
+msgstr "यादीच्या प्रवेशीकेचे संपादन"
+
+#: ../menueditor/menueditor-main-window.c:150
+#, fuzzy
+msgid "Edit selected entry"
+msgstr "यादीच्या प्रवेशीकेचे संपादन"
+
+#: ../menueditor/menueditor-main-window.c:151
+#, fuzzy
+msgid "_Add entry"
+msgstr "यादीची नोदं समाविष्ट करा"
+
+#: ../menueditor/menueditor-main-window.c:151
+#, fuzzy
+msgid "Add a new entry in the menu"
+msgstr "प्रवेशीका यादीमध्ये समाविष्ट करा"
+
+#: ../menueditor/menueditor-main-window.c:152
+#, fuzzy
+msgid "Add _external"
+msgstr "बाहेरील यादी समाविष्ट करा"
+
+#: ../menueditor/menueditor-main-window.c:152
+#, fuzzy
+msgid "Add an external entry"
+msgstr "बाहेरील यादी समाविष्ट करा"
+
+#: ../menueditor/menueditor-main-window.c:153
+msgid "_Remove entry"
+msgstr ""
+
+#: ../menueditor/menueditor-main-window.c:153
+#, fuzzy
+msgid "Remove entry"
+msgstr "यादीची नोदं समाविष्ट करा"
+
+#: ../menueditor/menueditor-main-window.c:154
+msgid "_Up"
+msgstr ""
+
+#: ../menueditor/menueditor-main-window.c:154
+#, fuzzy
+msgid "Move entry up"
+msgstr "चालू प्रवेशीका वर हलवा"
+
+#: ../menueditor/menueditor-main-window.c:155
+msgid "_Down"
+msgstr ""
+
+#: ../menueditor/menueditor-main-window.c:155
+#, fuzzy
+msgid "Move entry down"
+msgstr "चालू प्रवेशीका खाली हलवा"
+
+#: ../menueditor/menueditor-main-window.c:157
+msgid "_Help"
+msgstr "मदत(_H)"
+
+#: ../menueditor/menueditor-main-window.c:158
+msgid "_About..."
+msgstr "च्या बद्दल (_A)..."
+
+#: ../menueditor/menueditor-main-window.c:158
+#, fuzzy
+msgid "Show informations about xfce4-menueditor"
+msgstr "xfce4-यादी संपादक लॉन्च करु शकत नाही: %s"
+
+#: ../menueditor/menueditor-main-window.c:160
+#, fuzzy
+msgid "Collapse all"
+msgstr "वृक्ष नाश करा"
+
+#: ../menueditor/menueditor-main-window.c:160
+#, fuzzy
+msgid "Collapse all menu entries"
+msgstr "वृक्ष नाश करा"
+
+#: ../menueditor/menueditor-main-window.c:161
+msgid "Expand all"
+msgstr ""
+
+#: ../menueditor/menueditor-main-window.c:161
+#, fuzzy
+msgid "Expand all menu entries"
+msgstr "वृक्ष विस्तारित करा"
+
+#: ../menueditor/menueditor-main-window.c:341
+msgid "Name"
+msgstr "नाव"
+
+#: ../menueditor/menueditor-main-window.c:344
+msgid "Command"
+msgstr "आज्ञा"
+
+#: ../menueditor/menueditor-main-window.c:345
+msgid "Hidden"
+msgstr "लपलेले"
+
+#: ../menueditor/menueditor-main-window.c:427
+msgid "Are you sure you want to close the current menu?"
+msgstr "तुम्हाला नक्की चालू यादी बंद करावयाची आहे का?"
+
+#: ../menueditor/menueditor-main-window.c:441
+msgid "Do you want to save before closing the file?"
+msgstr "फाईल बंद करण्याआधी रक्षण करावयाची आहे का?"
+
+#: ../menueditor/menueditor-main-window.c:479
+#: ../menueditor/menueditor-main-window.c:532
+#: ../menueditor/menueditor-main-window.c:630
+#: ../src/xfdesktop-file-icon-manager.c:679 ../src/xfdesktop-file-utils.c:55
+msgid "Question"
+msgstr "प्रश्न"
+
+#: ../menueditor/menueditor-main-window.c:481
+msgid "Do you want to save before opening an other menu ?"
+msgstr "दुसरी एक यादी उघडण्याआधी रक्षण करावयाची आहे का?"
+
+#: ../menueditor/menueditor-main-window.c:483
+#: ../menueditor/menueditor-main-window.c:536
+#: ../menueditor/menueditor-main-window.c:634
+msgid "Ignore modifications"
+msgstr "बदल दुर्लक्षीत करा"
+
+#: ../menueditor/menueditor-main-window.c:494
+msgid "Open menu file"
+msgstr "यादी फाईल उघडा"
+
+#: ../menueditor/menueditor-main-window.c:534
+msgid "Do you want to save before opening the default menu ?"
+msgstr "डिफॉल्ट यादी उघडण्याआधी रक्षण करावयाचे आहे का?"
+
+#: ../menueditor/menueditor-main-window.c:594
+#, fuzzy
+msgid "Save menu file as"
+msgstr "यादी फाईल उघडा"
+
+#: ../menueditor/menueditor-main-window.c:632
+#: ../menueditor/menueditor-main-window.c:1343
+msgid "Do you want to save before closing the menu ?"
+msgstr "यादी बंद करण्याआधी रक्षण करावयाचे आहे का?"
+
+#: ../menueditor/menueditor-main-window.c:858
+#: ../menueditor/menueditor-main-window.c:988
+msgid "quit"
+msgstr "थांबवा"
+
+#: ../menueditor/menueditor-main-window.c:963
+#: ../menueditor/menueditor-main-window.c:1584
+msgid "--- separator ---"
+msgstr "-----विभाजक----"
+
+#: ../menueditor/menueditor-main-window.c:1081
+#: ../menueditor/menueditor-main-window.c:1088
+#: ../menueditor/menueditor-main-window.c:1638
+msgid "--- include ---"
+msgstr "---अंतर्भुत---"
+
+#: ../menueditor/menueditor-main-window.c:1089
+#: ../menueditor/menueditor-main-window.c:1655
+msgid "system"
+msgstr "प्रणाली"
+
+#: ../menueditor/menueditor-main-window.c:1215
+#: ../menueditor/menueditor-main-window.c:1263
+msgid "Do you want to move the item into the submenu?"
+msgstr "उपयादीमध्ये तुम्हाला आयटम स्थानांतरित करावयाचा आहे का?"
+
+#: ../menueditor/menueditor-main-window.c:1293
+msgid "A menu editor for Xfce4"
+msgstr "Xfce4 साठी असलेला यादीचा संपादक"
+
+#. Credits
+#: ../menueditor/menueditor-main-window.c:1298
+msgid "Author/Maintainer"
+msgstr ""
+
+#: ../menueditor/menueditor-main-window.c:1299
+#: ../menueditor/menueditor-main-window.c:1300
+#: ../menueditor/menueditor-main-window.c:1301
+msgid "Contributor"
+msgstr "सहाय्यक"
+
+#: ../menueditor/menueditor-main-window.c:1302
+msgid "Icon designer"
+msgstr "अयकॉन कल्पक"
+
+#: ../menueditor/menueditor-main-window.c:1345
+msgid "You have modified the menu, do you want to save it before quitting ?"
+msgstr "तुम्ही यादी बदललेली आहे, थांबण्याआधी तुम्हाला ती रक्षण करावयाची आहे का?"
+
+#: ../menueditor/menueditor-main-window.c:1347
+#, fuzzy
+msgid "Forget modifications"
+msgstr "बदल दुर्लक्षीत करा"
+
+#: ../menueditor/menueditor-main-window.c:2035
+#, c-format
+msgid "Unable to open the menu file %s in write mode"
+msgstr ""
+
+#: ../panel-plugin/desktop-menu-plugin.c:589
+msgid "Select Icon"
+msgstr "आयकॉन निवडा"
+
+#: ../panel-plugin/desktop-menu-plugin.c:591
+msgid "Select Menu File"
+msgstr "यादिची फाईल निवडा"
+
+#: ../panel-plugin/desktop-menu-plugin.c:748
+#, c-format
+msgid "Unable to launch xfce4-menueditor: %s"
+msgstr "xfce4-यादी संपादक लॉन्च करु शकत नाही: %s"
+
+#: ../panel-plugin/desktop-menu-plugin.c:771
+#: ../panel-plugin/xfce4-menu.desktop.in.in.h:2
+msgid "Xfce Menu"
+msgstr "Xfce यादी"
+
+#: ../panel-plugin/desktop-menu-plugin.c:783
+#, fuzzy
+msgid "Button"
+msgstr "बटन आयकॉन (_B):"
+
+#: ../panel-plugin/desktop-menu-plugin.c:796
+#, fuzzy
+msgid "Button _title:"
+msgstr "बटन आयकॉन (_B):"
+
+#: ../panel-plugin/desktop-menu-plugin.c:809
+msgid "_Show title in button"
+msgstr ""
+
+#: ../panel-plugin/desktop-menu-plugin.c:816
+#, fuzzy
+msgid "Menu File"
+msgstr "यादी फाईल्स"
+
+#: ../panel-plugin/desktop-menu-plugin.c:828
+#, fuzzy
+msgid "Use default _desktop menu file"
+msgstr "डेस्कटॉप यादी संपादन (_E)"
+
+#: ../panel-plugin/desktop-menu-plugin.c:837
+#, fuzzy
+msgid "Use _custom menu file:"
+msgstr "यादी फाईल उघडा"
+
+#: ../panel-plugin/desktop-menu-plugin.c:888
+#, fuzzy
+msgid "_Edit Menu"
+msgstr "यादी (_M)"
+
+#: ../panel-plugin/desktop-menu-plugin.c:894
+#, fuzzy
+msgid "Icons"
+msgstr "आयकॉन:"
+
+#: ../panel-plugin/desktop-menu-plugin.c:906
+msgid "_Button icon:"
+msgstr "बटन आयकॉन (_B):"
+
+#: ../panel-plugin/desktop-menu-plugin.c:930
+msgid "Show _icons in menu"
+msgstr "यादीमध्ये आयकॉनस दाखवा (_i)"
+
+#: ../panel-plugin/desktop-menu-plugin.c:965
+msgid "There is already a panel menu registered for this screen"
+msgstr ""
+
+#: ../panel-plugin/desktop-menu-plugin.c:1077
+#, fuzzy
+msgid "Edit Menu"
+msgstr "यादी (_M)"
+
+#: ../panel-plugin/xfce4-menu.desktop.in.in.h:1
+msgid "Shows a menu containing categories of installed applications"
+msgstr ""
+
+#: ../src/main.c:227
+#, c-format
+msgid "This is %s version %s, running on Xfce %s.\n"
+msgstr ""
+
+#: ../src/main.c:229
+#, c-format
+msgid "Built with GTK+ %d.%d.%d, linked with GTK+ %d.%d.%d."
+msgstr ""
+
+#: ../src/main.c:233
+#, c-format
+msgid "Build options:\n"
+msgstr ""
+
+#: ../src/main.c:234
+#, c-format
+msgid "    Desktop Menu:        %s\n"
+msgstr ""
+
+#: ../src/main.c:236 ../src/main.c:243 ../src/main.c:250
+#, fuzzy
+msgid "enabled"
+msgstr "प्रमाण"
+
+#: ../src/main.c:238 ../src/main.c:245 ../src/main.c:252
+#, fuzzy
+msgid "disabled"
+msgstr "टाईल्ड"
+
+#: ../src/main.c:241
+#, fuzzy, c-format
+msgid "    Desktop Icons:       %s\n"
+msgstr "डेस्कटॉप यादी"
+
+#: ../src/main.c:248
+#, fuzzy, c-format
+msgid "    Desktop File Icons:  %s\n"
+msgstr "डेस्कटॉप यादी"
+
+#: ../src/main.c:277
+#, c-format
+msgid "%s: Unknown option: %s\n"
+msgstr "%s: अपरिची पर्याय:%s\n"
+
+#: ../src/main.c:278
+#, c-format
+msgid "Options are:\n"
+msgstr "पर्याय:\n"
+
+#: ../src/main.c:279
+#, fuzzy, c-format
+msgid "    --reload      Reload all settings, refresh image list\n"
+msgstr "-रिलोड    सर्व रचना रिलोड करा, इमेजची सूची रिफ्रेश करा\n"
+
+#: ../src/main.c:280
+#, fuzzy, c-format
+msgid "    --menu        Pop up the menu (at the current mouse position)\n"
+msgstr "      -यादी        यादी दाखवा (माउस सध्या ज्या जागेवेर आहे तिथे)\n"
+
+#: ../src/main.c:281
+#, fuzzy, c-format
+msgid ""
+"    --windowlist  Pop up the window list (at the current mouse position)\n"
+msgstr " - विण्डोसूची    विण्डो ची सूची दाखवा (माउस सध्या ज्या जागेवेर आहे तिथे)\n"
+
+#: ../src/main.c:282
+#, c-format
+msgid "    --quit        Cause xfdesktop to quit\n"
+msgstr ""
+
+#: ../src/main.c:297
+#, c-format
+msgid "%s is not running.\n"
+msgstr ""
+
+#: ../src/menu.c:113
+msgid "_Applications"
+msgstr ""
+
+#: ../src/windowlist.c:236
+msgid "Window List"
+msgstr ""
+
+#: ../src/windowlist.c:262
+#, c-format
+msgid "<b>Workspace %d</b>"
+msgstr "<b>कार्यस्थान %d</b>"
+
+#: ../src/windowlist.c:271
+#, fuzzy, c-format
+msgid "Workspace %d"
+msgstr "<b>कार्यस्थान %d</b>"
+
+#: ../src/windowlist.c:273
+#, c-format
+msgid "<i>Workspace %d</i>"
+msgstr "<i>कार्यस्थान %d</i>"
+
+#: ../src/windowlist.c:370 ../src/windowlist.c:373
+msgid "_Add Workspace"
+msgstr "कार्यस्थान समाविष्ट करा(_A)"
+
+#: ../src/windowlist.c:381
+#, c-format
+msgid "_Remove Workspace %d"
+msgstr "%d कार्यस्थान काढून टाका (_R)"
+
+#: ../src/windowlist.c:384
+#, c-format
+msgid "_Remove Workspace '%s'"
+msgstr "%s कार्यस्थान काढून टाका (_R)"
+
+#: ../src/xfce-desktop.c:738 ../settings/xfce-backdrop-settings.desktop.in.h:1
+msgid "Desktop"
+msgstr "डेस्कटॉप"
+
+#: ../src/xfce-desktop.c:1004
+#, fuzzy, c-format
+msgid "Unable to load image from backdrop list file \"%s\""
+msgstr "xfce4-यादी संपादक लॉन्च करु शकत नाही: %s"
+
+#: ../src/xfce-desktop.c:1006
+#, fuzzy
+msgid "Desktop Error"
+msgstr "डेस्कटॉप"
+
+#: ../src/xfdesktop-file-icon-manager.c:478
+#, c-format
+msgid ""
+"Xfdesktop was unable to create the folder \"%s\" to store desktop items:"
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:480
+#: ../src/xfdesktop-file-icon-manager.c:491
+#: ../src/xfdesktop-file-icon-manager.c:1208
+msgid "Create Folder Failed"
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:489
+#, c-format
+msgid ""
+"Xfdesktop is unable to use \"%s\" to hold desktop items because it is not a "
+"folder."
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:493
+msgid "Please delete or rename the file."
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:630
+#, c-format
+msgid "Rename \"%s\""
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:637
+#: ../src/xfdesktop-file-icon-manager.c:1280
+#: ../src/xfdesktop-file-icon-manager.c:1371
+#: ../src/xfdesktop-file-icon-manager.c:1382
+msgid "Enter the new name:"
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:639
+#, fuzzy
+msgid "Rename"
+msgstr "प्रमाण"
+
+#: ../src/xfdesktop-file-icon-manager.c:676
+#, fuzzy, c-format
+msgid "Are you sure that you want to delete \"%s\"?"
+msgstr "तुम्हाला नक्की चालू यादी बंद करावयाची आहे का?"
+
+#: ../src/xfdesktop-file-icon-manager.c:681
+#: ../src/xfdesktop-file-icon-manager.c:701
+msgid "If you delete a file, it is permanently lost."
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:695
+#, fuzzy, c-format
+msgid "Are you sure you want to delete the following %d files?"
+msgstr "तुम्हाला नक्की चालू यादी बंद करावयाची आहे का?"
+
+#: ../src/xfdesktop-file-icon-manager.c:698
+#, fuzzy
+msgid "Delete Multiple Files"
+msgstr "यादिची फाईल निवडा"
+
+#. printf is to be translator-friendly
+#: ../src/xfdesktop-file-icon-manager.c:917
+#: ../src/xfdesktop-file-icon-manager.c:1635 ../src/xfdesktop-file-icon.c:142
+#: ../src/xfdesktop-file-utils.c:353
+#, fuzzy, c-format
+msgid "Unable to launch \"%s\":"
+msgstr "xfce4-यादी संपादक लॉन्च करु शकत नाही: %s"
+
+#: ../src/xfdesktop-file-icon-manager.c:919
+#: ../src/xfdesktop-file-icon-manager.c:977
+#: ../src/xfdesktop-file-icon-manager.c:1242
+#: ../src/xfdesktop-file-icon-manager.c:1636 ../src/xfdesktop-file-icon.c:144
+#: ../src/xfdesktop-file-utils.c:356
+#, fuzzy
+msgid "Launch Error"
+msgstr "लॉनचंर"
+
+#: ../src/xfdesktop-file-icon-manager.c:978
+msgid "The application chooser could not be opened."
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:979 ../src/xfdesktop-file-utils.c:358
+msgid ""
+"This feature requires a file manager service present (such as that supplied "
+"by Thunar)."
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:1139
+#, c-format
+msgid "_Open With \"%s\""
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:1142
+#, c-format
+msgid "Open With \"%s\""
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:1205
+#, fuzzy, c-format
+msgid "Unable to create folder named \"%s\":"
+msgstr "xfce4-यादी संपादक लॉन्च करु शकत नाही: %s"
+
+#: ../src/xfdesktop-file-icon-manager.c:1244
+msgid ""
+"Unable to launch \"exo-desktop-item-edit\", which is required to create and "
+"edit launchers and links on the desktop."
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:1277
+msgid "Create New Folder"
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:1281
+msgid "New Folder"
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:1282
+#: ../src/xfdesktop-file-icon-manager.c:1373
+#: ../src/xfdesktop-file-icon-manager.c:1384
+msgid "Create"
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:1318
+#, fuzzy, c-format
+msgid "Unable to create file named \"%s\":"
+msgstr "xfce4-यादी संपादक लॉन्च करु शकत नाही: %s"
+
+#: ../src/xfdesktop-file-icon-manager.c:1321
+#, fuzzy
+msgid "Create File Failed"
+msgstr "यादिची फाईल निवडा"
+
+#: ../src/xfdesktop-file-icon-manager.c:1360
+#, c-format
+msgid "Create Document from template \"%s\""
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:1379
+msgid "Create Empty File"
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:1383
+msgid "New Empty File"
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:1416
+#, fuzzy, c-format
+msgid "Unable to create file \"%s\":"
+msgstr "xfce4-यादी संपादक लॉन्च करु शकत नाही: %s"
+
+#: ../src/xfdesktop-file-icon-manager.c:1417
+#, fuzzy
+msgid "Create Error"
+msgstr "बॅकड्रॉप सूचीचे संपादन करा"
+
+#: ../src/xfdesktop-file-icon-manager.c:1701
+msgid "_Open all"
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:1717
+msgid "_Open in New Window"
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:1734
+#, fuzzy
+msgid "Create _Launcher..."
+msgstr "लॉनचंर"
+
+#: ../src/xfdesktop-file-icon-manager.c:1755
+msgid "Create _URL Link..."
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:1772
+#, fuzzy
+msgid "Create _Folder..."
+msgstr "बॅकड्रॉप सूचीचे संपादन करा"
+
+#: ../src/xfdesktop-file-icon-manager.c:1814
+#, fuzzy
+msgid "_Empty File"
+msgstr "फाईल (_F)"
+
+#: ../src/xfdesktop-file-icon-manager.c:1830
+msgid "_Execute"
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:1848
+#, fuzzy
+msgid "_Edit Launcher"
+msgstr "लॉनचंर"
+
+#: ../src/xfdesktop-file-icon-manager.c:1888
+msgid "Open With"
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:1919
+msgid "Open With Other _Application..."
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:2026
+msgid "_Rename..."
+msgstr ""
+
+#: ../src/xfdesktop-file-icon-manager.c:2044
+#, fuzzy
+msgid "Desktop _Settings..."
+msgstr "डेस्कटॉप रचना"
+
+#: ../src/xfdesktop-file-icon-manager.c:2054
+#: ../src/xfdesktop-volume-icon.c:610
+#, fuzzy
+msgid "_Properties..."
+msgstr "बॅकड्रॉप सूचीचे संपादन करा"
+
+#: ../src/xfdesktop-file-icon-manager.c:3258
+#: ../src/xfdesktop-regular-file-icon.c:382
+#, fuzzy, c-format
+msgid "Failed to run \"%s\":"
+msgstr "xfce4-यादी संपादक लॉन्च करु शकत नाही: %s"
+
+#: ../src/xfdesktop-file-icon-manager.c:3260
+#: ../src/xfdesktop-regular-file-icon.c:384
+msgid "Run Error"
+msgstr ""
+
+#: ../src/xfdesktop-file-icon.c:146
+msgid "The associated application could not be found or executed."
+msgstr ""
+
+#: ../src/xfdesktop-file-properties-dialog.c:103
+#, c-format
+msgid "Unable to set default application for \"%s\" to \"%s\":"
+msgstr ""
+
+#: ../src/xfdesktop-file-properties-dialog.c:106
+#, fuzzy
+msgid "Properties Error"
+msgstr "बॅकड्रॉप सूचीचे संपादन करा"
+
+#: ../src/xfdesktop-file-properties-dialog.c:138
+msgid "None"
+msgstr ""
+
+#: ../src/xfdesktop-file-properties-dialog.c:138
+msgid "Write only"
+msgstr ""
+
+#: ../src/xfdesktop-file-properties-dialog.c:138
+msgid "Read only"
+msgstr ""
+
+#: ../src/xfdesktop-file-properties-dialog.c:138
+msgid "Read & Write"
+msgstr ""
+
+#: ../src/xfdesktop-file-properties-dialog.c:163
+msgid "General"
+msgstr ""
+
+#: ../src/xfdesktop-file-properties-dialog.c:214
+msgid "Kind:"
+msgstr ""
+
+#: ../src/xfdesktop-file-properties-dialog.c:234
+msgid "Link Target:"
+msgstr ""
+
+#: ../src/xfdesktop-file-properties-dialog.c:251
+#: ../src/xfdesktop-file-properties-dialog.c:410
+#: ../src/xfdesktop-volume-icon.c:476 ../src/xfdesktop-volume-icon.c:482
+msgid "(unknown)"
+msgstr ""
+
+#: ../src/xfdesktop-file-properties-dialog.c:273
+msgid "Open With:"
+msgstr ""
+
+#: ../src/xfdesktop-file-properties-dialog.c:350
+msgid "Modified:"
+msgstr ""
+
+#: ../src/xfdesktop-file-properties-dialog.c:368
+msgid "Accessed:"
+msgstr ""
+
+#: ../src/xfdesktop-file-properties-dialog.c:395
+msgid "Free Space:"
+msgstr ""
+
+#: ../src/xfdesktop-file-properties-dialog.c:397
+msgid "Size:"
+msgstr ""
+
+#: ../src/xfdesktop-file-properties-dialog.c:413
+#: ../src/xfdesktop-regular-file-icon.c:486
+#: ../src/xfdesktop-special-file-icon.c:492
+msgid "%s (%"
+msgstr ""
+
+#. permissions tab
+#: ../src/xfdesktop-file-properties-dialog.c:428
+msgid "Permissions"
+msgstr ""
+
+#: ../src/xfdesktop-file-properties-dialog.c:450
+msgid "Owner:"
+msgstr ""
+
+#: ../src/xfdesktop-file-properties-dialog.c:472
+#: ../src/xfdesktop-file-properties-dialog.c:510
+msgid "Access:"
+msgstr ""
+
+#: ../src/xfdesktop-file-properties-dialog.c:495
+msgid "Group:"
+msgstr ""
+
+#: ../src/xfdesktop-file-properties-dialog.c:533
+#, fuzzy
+msgid "Others:"
+msgstr "/बाकीचे"
+
+#: ../src/xfdesktop-file-utils.c:74
+msgid "Yes to _all"
+msgstr ""
+
+#: ../src/xfdesktop-file-utils.c:106
+#, c-format
+msgid "There was an error moving \"%s\" to \"%s\":"
+msgstr ""
+
+#: ../src/xfdesktop-file-utils.c:109
+#, c-format
+msgid "There was an error copying \"%s\" to \"%s\":"
+msgstr ""
+
+#: ../src/xfdesktop-file-utils.c:112
+#, c-format
+msgid "There was an error linking \"%s\" to \"%s\":"
+msgstr ""
+
+#: ../src/xfdesktop-file-utils.c:121
+#, fuzzy
+msgid "File Error"
+msgstr "बॅकड्रॉप सूचीचे संपादन करा"
+
+#: ../src/xfdesktop-file-utils.c:137
+msgid "broken link"
+msgstr ""
+
+#: ../src/xfdesktop-file-utils.c:141
+#, c-format
+msgid "link to %s"
+msgstr ""
+
+#: ../src/xfdesktop-regular-file-icon.c:489
+#: ../src/xfdesktop-special-file-icon.c:496
+#, c-format
+msgid ""
+"Kind: %s\n"
+"Modified:%s\n"
+"Size: %s"
+msgstr ""
+
+#: ../src/xfdesktop-regular-file-icon.c:520
+#: ../src/xfdesktop-regular-file-icon.c:584
+msgid "Error"
+msgstr ""
+
+#: ../src/xfdesktop-regular-file-icon.c:581
+#, c-format
+msgid "Failed to rename \"%s\" to \"%s\":"
+msgstr ""
+
+#: ../src/xfdesktop-special-file-icon.c:259 ../settings/main.c:163
+msgid "Home"
+msgstr ""
+
+#. FIXME: also display # of items in trash
+#: ../src/xfdesktop-special-file-icon.c:482
+msgid "Kind: Trash"
+msgstr ""
+
+#: ../src/xfdesktop-special-file-icon.c:515
+#, fuzzy
+msgid "Trash Error"
+msgstr "लॉनचंर"
+
+#: ../src/xfdesktop-special-file-icon.c:517
+#, fuzzy
+msgid "Unable to contact the Xfce Trash service."
+msgstr "xfce4-यादी संपादक लॉन्च करु शकत नाही: %s"
+
+#: ../src/xfdesktop-special-file-icon.c:518
+msgid ""
+"Make sure you have a file manager installed that supports the Xfce Trash "
+"service, such as Thunar."
+msgstr ""
+
+#: ../src/xfdesktop-special-file-icon.c:651
+#, fuzzy
+msgid "_Empty Trash"
+msgstr "फाईल (_F)"
+
+#: ../src/xfdesktop-volume-icon.c:474
+#, c-format
+msgid "%s (%s total)"
+msgstr ""
+
+#: ../src/xfdesktop-volume-icon.c:478
+#, c-format
+msgid ""
+"Kind: Removable Volume\n"
+"Mount Point: %s\n"
+"Free Space: %s"
+msgstr ""
+
+#: ../src/xfdesktop-volume-icon.c:509
+#, fuzzy, c-format
+msgid "Unable to mount \"%s\":"
+msgstr "xfce4-यादी संपादक लॉन्च करु शकत नाही: %s"
+
+#: ../src/xfdesktop-volume-icon.c:510
+#, fuzzy, c-format
+msgid "Unable to unmount \"%s\":"
+msgstr "xfce4-यादी संपादक लॉन्च करु शकत नाही: %s"
+
+#: ../src/xfdesktop-volume-icon.c:513
+#, fuzzy
+msgid "Mount Failed"
+msgstr "यादी फाईल्स"
+
+#: ../src/xfdesktop-volume-icon.c:513
+#, fuzzy
+msgid "Unmount Failed"
+msgstr "यादी फाईल्स"
+
+#: ../src/xfdesktop-volume-icon.c:531
+#, fuzzy, c-format
+msgid "Unable to eject \"%s\":"
+msgstr "xfce4-यादी संपादक लॉन्च करु शकत नाही: %s"
+
+#: ../src/xfdesktop-volume-icon.c:534
+msgid "Eject Failed"
+msgstr ""
+
+#: ../src/xfdesktop-volume-icon.c:571
+msgid "_Mount Volume"
+msgstr ""
+
+#: ../src/xfdesktop-volume-icon.c:582
+msgid "_Unmount Volume"
+msgstr ""
+
+#: ../src/xfdesktop-volume-icon.c:596
+msgid "E_ject Volume"
+msgstr ""
+
+#: ../menueditor/xfce-menueditor.desktop.in.h:1
+msgid "Graphical tool for editing the Xfce 4 menu"
+msgstr "Xfce 4  यादीचे संपादन करण्यासाठी आलेखात्मक साधन"
+
+#: ../menueditor/xfce-menueditor.desktop.in.h:2
+msgid "Menu Editor"
+msgstr "यादी संपादक"
+
+#: ../menueditor/xfce-menueditor.desktop.in.h:3
+msgid "Xfce 4 Menu Editor"
+msgstr "Xfce यादी संपादक"
+
+#: ../modules/menu/directory-data/xfce-accessories.directory.in.h:1
+msgid "Accessories"
+msgstr ""
+
+#: ../modules/menu/directory-data/xfce-accessories.directory.in.h:2
+msgid "Common desktop tools and applications"
+msgstr ""
+
+#: ../modules/menu/directory-data/xfce-development.directory.in.h:1
+msgid "Development"
+msgstr ""
+
+#: ../modules/menu/directory-data/xfce-development.directory.in.h:2
+#, fuzzy
+msgid "Software development tools"
+msgstr "मुख्य निर्माता"
+
+#: ../modules/menu/directory-data/xfce-education.directory.in.h:1
+msgid "Education"
+msgstr ""
+
+#: ../modules/menu/directory-data/xfce-education.directory.in.h:2
+msgid "Educational software"
+msgstr ""
+
+#: ../modules/menu/directory-data/xfce-games.directory.in.h:1
+#, fuzzy
+msgid "Games"
+msgstr "नाव"
+
+#: ../modules/menu/directory-data/xfce-games.directory.in.h:2
+msgid "Games, puzzles, and other fun software"
+msgstr ""
+
+#: ../modules/menu/directory-data/xfce-graphics.directory.in.h:1
+msgid "Graphics"
+msgstr ""
+
+#: ../modules/menu/directory-data/xfce-graphics.directory.in.h:2
+msgid "Graphics creation and manipulation applications"
+msgstr ""
+
+#: ../modules/menu/directory-data/xfce-multimedia.directory.in.h:1
+msgid "Audio and video players and editors"
+msgstr ""
+
+#: ../modules/menu/directory-data/xfce-multimedia.directory.in.h:2
+#, fuzzy
+msgid "Multimedia"
+msgstr "बहुपातळी"
+
+#: ../modules/menu/directory-data/xfce-network.directory.in.h:1
+msgid "Network"
+msgstr ""
+
+#: ../modules/menu/directory-data/xfce-network.directory.in.h:2
+msgid "Network applications and utilities"
+msgstr ""
+
+#: ../modules/menu/directory-data/xfce-office.directory.in.h:1
+msgid "Office"
+msgstr ""
+
+#: ../modules/menu/directory-data/xfce-office.directory.in.h:2
+msgid "Office and productivity applications"
+msgstr ""
+
+#: ../modules/menu/directory-data/xfce-other.directory.in.h:1
+msgid "Applications that don't fit into other categories"
+msgstr ""
+
+#: ../modules/menu/directory-data/xfce-other.directory.in.h:2
+#, fuzzy
+msgid "Other"
+msgstr "/बाकीचे"
+
+#: ../modules/menu/directory-data/xfce-screensavers.directory.in.h:1
+msgid "Screensaver applets"
+msgstr ""
+
+#: ../modules/menu/directory-data/xfce-screensavers.directory.in.h:2
+msgid "Screensavers"
+msgstr ""
+
+#: ../modules/menu/directory-data/xfce-settings.directory.in.h:1
+msgid "Desktop and system settings applications"
+msgstr ""
+
+#: ../modules/menu/directory-data/xfce-settings.directory.in.h:2
+#, fuzzy
+msgid "Settings"
+msgstr "डेस्कटॉप रचना"
+
+#: ../modules/menu/directory-data/xfce-system.directory.in.h:2
+msgid "System tools and utilities"
+msgstr ""
+
+#: ../modules/menu/menu-data/xfce4-about-xfce.desktop.in.h:1
+msgid "About Xfce"
+msgstr ""
+
+#: ../modules/menu/menu-data/xfce4-about-xfce.desktop.in.h:2
+msgid "Information about the Xfce Desktop Environment"
+msgstr ""
+
+#: ../modules/menu/menu-data/xfce4-file-manager.desktop.in.h:1
+msgid "File Manager"
+msgstr ""
+
+#: ../modules/menu/menu-data/xfce4-file-manager.desktop.in.h:2
+msgid "Thunar file manager"
+msgstr ""
+
+#: ../modules/menu/menu-data/xfce4-help.desktop.in.h:1
+#, fuzzy
+msgid "Help"
+msgstr "मदत(_H)"
+
+#: ../modules/menu/menu-data/xfce4-help.desktop.in.h:2
+msgid "Help using Xfce"
+msgstr ""
+
+#: ../modules/menu/menu-data/xfce4-logout.desktop.in.h:1
+msgid "Log Out"
+msgstr ""
+
+#: ../modules/menu/menu-data/xfce4-logout.desktop.in.h:2
+#, fuzzy
+msgid "Log out of the Xfce Desktop"
+msgstr "Xfce 4 डेस्कटॉप व्यवस्थापकाची रचना"
+
+#: ../modules/menu/menu-data/xfce4-run-program.desktop.in.h:1
+msgid "Run Program..."
+msgstr ""
+
+#: ../modules/menu/menu-data/xfce4-run-program.desktop.in.h:2
+msgid "Run a program"
+msgstr ""
+
+#: ../modules/menu/menu-data/xfce4-terminal.desktop.in.h:1
+msgid "Terminal"
+msgstr ""
+
+#: ../modules/menu/menu-data/xfce4-terminal.desktop.in.h:2
+msgid "Terminal emulator"
+msgstr ""
+
+#: ../modules/menu/menu-data/xfce4-web-browser.desktop.in.h:1
+msgid "Browse the web"
+msgstr ""
+
+#: ../modules/menu/menu-data/xfce4-web-browser.desktop.in.h:2
+msgid "Web Browser"
+msgstr ""
+
+#: ../settings/main.c:165
+#, fuzzy
+msgid "Filesystem"
+msgstr "प्रणाली"
+
+#: ../settings/main.c:167
+#, fuzzy
+msgid "Trash"
+msgstr "लॉनचंर"
+
+#: ../settings/main.c:169
+msgid "Removable Devices"
+msgstr ""
+
+#: ../settings/main.c:321
+#, fuzzy, c-format
+msgid "Cannot create backdrop list \"%s\""
+msgstr "बॅकड्रॉप सूची तयार करा"
+
+#: ../settings/main.c:325 ../settings/main.c:678
+#, fuzzy
+msgid "Backdrop List Error"
+msgstr "बॅकड्रॉप सूची"
+
+#: ../settings/main.c:350
+#, fuzzy
+msgid "Create/Load Backdrop List"
+msgstr "बॅकड्रॉप सूची तयार करा"
+
+#: ../settings/main.c:374
+#, c-format
+msgid ""
+"File \"%s\" is not a valid backdrop list file.  Do you wish to overwrite it?"
+msgstr ""
+
+#: ../settings/main.c:379
+#, fuzzy
+msgid "Invalid List File"
+msgstr "फाईल्सची सूची"
+
+#: ../settings/main.c:382
+msgid "Overwriting the file will cause its contents to be lost."
+msgstr ""
+
+#: ../settings/main.c:384
+#, fuzzy
+msgid "Replace"
+msgstr "प्रमाण"
+
+#: ../settings/main.c:674
+#, fuzzy, c-format
+msgid "Failed to write backdrop list to \"%s\""
+msgstr "बॅकड्रॉप सूचीचे संपादन करा"
+
+#: ../settings/main.c:701
+#, fuzzy
+msgid "Add Image File(s)"
+msgstr "प्रतिमा फाईल्सची "
+
+#: ../settings/main.c:710
+msgid "Image files"
+msgstr "प्रतिमा फाईल्सची"
+
+#: ../settings/main.c:715
+#, fuzzy
+msgid "All files"
+msgstr "सर्व फाईल्स"
+
+#: ../settings/main.c:979
+#, fuzzy, c-format
+msgid "Screen %d, Monitor %d (%s)"
+msgstr "%d पडदा %d मॉनिटर"
+
+#: ../settings/main.c:984
+#, c-format
+msgid "Screen %d, Monitor %d"
+msgstr "%d पडदा %d मॉनिटर"
+
+#: ../settings/main.c:987
+#, c-format
+msgid "Screen %d"
+msgstr " पडदा %d"
+
+#: ../settings/main.c:993
+#, c-format
+msgid "Monitor %d (%s)"
+msgstr ""
+
+#: ../settings/main.c:998
+#, fuzzy, c-format
+msgid "Monitor %d"
+msgstr "%d पडदा %d मॉनिटर"
+
+#: ../settings/main.c:1200 ../settings/xfce-backdrop-settings.desktop.in.h:2
+msgid "Desktop Settings"
+msgstr "डेस्कटॉप रचना"
+
+#: ../settings/main.c:1202
+#, fuzzy
+msgid "Unable to contact settings server"
+msgstr "xfce4-यादी संपादक लॉन्च करु शकत नाही: %s"
+
+#: ../settings/xfce-backdrop-settings.desktop.in.h:3
+msgid "Settings for the Xfce 4 Desktop Manager"
+msgstr "Xfce 4 डेस्कटॉप व्यवस्थापकाची रचना"
+
+#: ../settings/xfce-backdrop-settings.desktop.in.h:4
+msgid "Xfce 4 Desktop Settings"
+msgstr "Xfce 4 डेस्कटॉप रचना"
+
+#: ../settings/xfdesktop-settings.glade.h:1
+msgid "<b>Adjustments</b>"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:2
+#, fuzzy
+msgid "<b>Appearance</b>"
+msgstr "<b>कार्यस्थान %d</b>"
+
+#: ../settings/xfdesktop-settings.glade.h:3
+#, fuzzy
+msgid "<b>Colors</b>"
+msgstr "<b>कार्यस्थान %d</b>"
+
+#: ../settings/xfdesktop-settings.glade.h:4
+msgid "<b>Default Icons</b>"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:5
+msgid "<b>Desktop Menu</b>"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:6
+msgid "<b>Image</b>"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:7
+msgid "<b>Images</b>"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:8
+msgid "<b>Window List Menu</b>"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:9
+msgid "Add an image to the list"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:10
+msgid ""
+"Auto\n"
+"Centered\n"
+"Tiled\n"
+"Stretched\n"
+"Scaled\n"
+"Zoomed"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:16
+msgid "Automatically pick a random image from a list file"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:17
+#, fuzzy
+msgid "B_rightness:"
+msgstr "प्रकाशिझोत सुव्यवस्थीत करा (_B):"
+
+#: ../settings/xfdesktop-settings.glade.h:18
+#, fuzzy
+msgid "B_utton:"
+msgstr "बटन आयकॉन (_B):"
+
+#: ../settings/xfdesktop-settings.glade.h:19
+msgid "Create a new list, or load an existing one"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:20
+msgid "Don't display an image at all"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:21
+#, fuzzy
+msgid "Icon _size:"
+msgstr "अयकॉन कल्पक"
+
+#: ../settings/xfdesktop-settings.glade.h:22
+#, fuzzy
+msgid "Icon _type:"
+msgstr "अयकॉन कल्पक"
+
+#: ../settings/xfdesktop-settings.glade.h:23
+#, fuzzy
+msgid "Image _list"
+msgstr "प्रतिमा फाईल्सची "
+
+#: ../settings/xfdesktop-settings.glade.h:24
+msgid "Increase or decrease the brightness of the final image"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:25
+msgid "Increase or decrease the color saturation of the final image"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:26
+msgid "Label trans_parency:"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:27
+msgid ""
+"Left\n"
+"Middle\n"
+"Right"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:30
+msgid "Mo_difier:"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:31
+msgid "Modi_fier:"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:32
+#, fuzzy
+msgid ""
+"None\n"
+"Minimized application icons\n"
+"File/launcher icons"
+msgstr "अॅप्लिकेशन आयकॉन दाखवा (_a)"
+
+#: ../settings/xfdesktop-settings.glade.h:35
+msgid ""
+"None\n"
+"Shift\n"
+"Alt\n"
+"Control"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:39
+msgid "Remove the selected image(s) from the list"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:40
+msgid "Sa_turation:"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:41
+#, fuzzy
+msgid "Select First Color"
+msgstr "प्रथम रंग (_r):"
+
+#: ../settings/xfdesktop-settings.glade.h:42
+#, fuzzy
+msgid "Select Second Color"
+msgstr "द्वितीय(_S):"
+
+#: ../settings/xfdesktop-settings.glade.h:43
+msgid "Select a single image as the backdrop"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:44
+msgid "Set desktop background and menu and icon behavior"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:45
+#, fuzzy
+msgid "Sh_ow application icons in menu"
+msgstr "यादीमध्ये आयकॉनस दाखवा (_i)"
+
+#: ../settings/xfdesktop-settings.glade.h:46
+#, fuzzy
+msgid "Show _application icons in menu"
+msgstr "यादीमध्ये आयकॉनस दाखवा (_i)"
+
+#: ../settings/xfdesktop-settings.glade.h:47
+#, fuzzy
+msgid "Show _desktop menu on desktop click"
+msgstr "डेस्कटॉप यादी दाखवा (_m) "
+
+#: ../settings/xfdesktop-settings.glade.h:48
+#, fuzzy
+msgid "Show _window list menu on desktop click"
+msgstr "विण्डो सूची दाखवा (_l) "
+
+#: ../settings/xfdesktop-settings.glade.h:49
+msgid "Show s_ticky windows only in active workspace"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:50
+msgid "Show windows on each workspace in _submenus"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:51
+msgid "Show workspace _names in list"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:52
+msgid ""
+"Solid color\n"
+"Horizontal gradient\n"
+"Vertical gradient\n"
+"Transparent"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:56
+msgid "Specifies the \"right\" or \"bottom\" color of the gradient"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:57
+msgid ""
+"Specifies the solid color, or the \"left\" or \"top\" color of the gradient"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:58
+#, fuzzy
+msgid "St_yle:"
+msgstr "शैली:"
+
+#: ../settings/xfdesktop-settings.glade.h:59
+msgid "Use _Xfce to manage the desktop"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:60
+#, fuzzy
+msgid "Use custom _font size:"
+msgstr "यादी फाईल उघडा"
+
+#: ../settings/xfdesktop-settings.glade.h:61
+msgid "_Background"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:62
+#, fuzzy
+msgid "_Button:"
+msgstr "बटन आयकॉन (_B):"
+
+#: ../settings/xfdesktop-settings.glade.h:63
+#, fuzzy
+msgid "_Edit desktop menu"
+msgstr "यादी (_M)"
+
+#: ../settings/xfdesktop-settings.glade.h:64
+#, fuzzy
+msgid "_Icons"
+msgstr "आयकॉन:"
+
+#: ../settings/xfdesktop-settings.glade.h:65
+#, fuzzy
+msgid "_Menus"
+msgstr "यादी फाईल्स"
+
+#: ../settings/xfdesktop-settings.glade.h:66
+msgid "_None"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:67
+msgid "_Single image"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:68
+msgid "gtk-close"
+msgstr ""
+
+#: ../settings/xfdesktop-settings.glade.h:69
+msgid "gtk-help"
+msgstr ""
+
+#~ msgid ""
+#~ "Could not save file %s: %s\n"
+#~ "\n"
+#~ "Please choose another location or press cancel in the dialog to discard "
+#~ "your changes"
+#~ msgstr ""
+#~ "फाईल रक्षण करु शकत नाही %s: %s\n"
+#~ "\n"
+#~ " कृपया दुसरी जागा निवडा किंवा बदल नष्ट करण्यासाठी डायलॉगमध्ये रद्द दाबा"
+
+#~ msgid "backdrops.list"
+#~ msgstr "बॅकड्रॉपस.सूची"
+
+#~ msgid "Select backdrop image or list file"
+#~ msgstr "बॅकड्रॉप प्रतिमा किंवा सूची फाईल"
+
+#~ msgid "List Files (*.list)"
+#~ msgstr "सूची फाईल्सची  (*.list) "
+
+#~ msgid "_Edit list..."
+#~ msgstr "सूची संपादन (_E)..."
+
+#~ msgid "_New list..."
+#~ msgstr "नविन सूची (_N)..."
+
+#~ msgid "S_tyle:"
+#~ msgstr "शैली(_t):"
+
+#~ msgid "Auto"
+#~ msgstr "स्वयं"
+
+#~ msgid "Centered"
+#~ msgstr "मध्य"
+
+#~ msgid "Tiled"
+#~ msgstr "टाईल्ड"
+
+#~ msgid "Stretched"
+#~ msgstr "अोढलेले"
+
+#~ msgid "Scaled"
+#~ msgstr "प्रमाण"
+
+#, fuzzy
+#~ msgid "Information"
+#~ msgstr "बदल दुर्लक्षीत करा"
+
+#, fuzzy
+#~ msgid "Desktop Preferences"
+#~ msgstr "डेस्कटॉप रचना"
+
+#~ msgid "Color"
+#~ msgstr "रंग"
+
+#~ msgid "_Color Style:"
+#~ msgstr "रंगांची शैली(_C):"
+
+#~ msgid "Solid Color"
+#~ msgstr "भरीव रंग"
+
+#~ msgid "Horizontal Gradient"
+#~ msgstr "आडवे मान"
+
+#~ msgid "Vertical Gradient"
+#~ msgstr "उभे मान"
+
+#~ msgid "Image"
+#~ msgstr "इमेज"
+
+#~ msgid "Show _Image"
+#~ msgstr "इमेज दाखवा (_I)"
+
+#~ msgid "_File:"
+#~ msgstr "फाईल(_F):"
+
+#~ msgid "Select backdrop image file"
+#~ msgstr "बॅकड्रॉप प्रतिमा फाईल निवडा"
+
+#~ msgid "Choose backdrop list filename"
+#~ msgstr "बॅकड्रॉप सूची फाईलचे नाव निवडा"
+
+#~ msgid "List file"
+#~ msgstr "सूची फाईल"
+
+#, fuzzy
+#~ msgid "Desktop Icons"
+#~ msgstr "डेस्कटॉप यादी"
+
+#, fuzzy
+#~ msgid "Des_ktop"
+#~ msgstr "डेस्कटॉप"
+
+#, fuzzy
+#~ msgid "_Desktop Properties..."
+#~ msgstr "बॅकड्रॉप सूचीचे संपादन करा"
+
+#, fuzzy
+#~ msgid "Scientific applications and tools"
+#~ msgstr "अॅप्लिकेशन आयकॉन दाखवा (_a)"
+
+#, fuzzy
+#~ msgid "Edit Properties"
+#~ msgstr "बॅकड्रॉप सूचीचे संपादन करा"
+
+#, fuzzy
+#~ msgid "Unable to empty the trash."
+#~ msgstr "xfce4-यादी संपादक लॉन्च करु शकत नाही: %s"
+
+#, fuzzy
+#~ msgid "_Copy Files"
+#~ msgstr "फाईल (_F)"
+
+#, fuzzy
+#~ msgid "_Copy File"
+#~ msgstr "फाईल (_F)"
+
+#, fuzzy
+#~ msgid "Cu_t Files"
+#~ msgstr "फाईल (_F)"
+
+#, fuzzy
+#~ msgid "Cu_t File"
+#~ msgstr "फाईल (_F)"
+
+#, fuzzy
+#~ msgid "_Delete Files"
+#~ msgstr "यादिची फाईल निवडा"
+
+#, fuzzy
+#~ msgid "_Delete File"
+#~ msgstr "यादिची फाईल निवडा"
+
+#, fuzzy
+#~ msgid "_Paste Files"
+#~ msgstr "फाईल्सची सूची"
+
+#, fuzzy
+#~ msgid "Are sure you want to quit?"
+#~ msgstr "तुम्हाला नक्की चालू यादी बंद करावयाची आहे का?"
+
+#~ msgid "The command doesn't exist !"
+#~ msgstr "आज्ञा अस्तित्वात नाही !"
+
+#~ msgid "All fields must be filled to add an item."
+#~ msgstr "आयटम समाविष्ट करण्यासाठी सर्व रकाने भरलेले हवेत."
+
+#~ msgid "The 'Name' field is required."
+#~ msgstr "नावाचा रकाना हवा."
+
+#~ msgid "The 'Source' field is required."
+#~ msgstr "मुळ रकाना आवश्यक आहे."
+
+#~ msgid "Separators cannot be edited"
+#~ msgstr "विभाजकांचे संपादन होऊ शकत नाही"
+
+#~ msgid "File %s doesn't exist !"
+#~ msgstr "%s फाईल अस्तित्वात नाहीत!"
+
+#~ msgid "Do you want to move the item into the parent menu?"
+#~ msgstr "मूळ यादीमध्ये तुम्हाला आयटम स्थानांतरित करावयाचा आहे का?"
+
+#~ msgid "Edit"
+#~ msgstr "सपांदन"
+
+#~ msgid "Add an external menu..."
+#~ msgstr "बाहेरिल यादी समाविष्ट करा..."
+
+#~ msgid "Open an Xfce4 menu file"
+#~ msgstr "Xfce4 यादी फाईल उघडा"
+
+#~ msgid "Save current menu"
+#~ msgstr "चालू यादी रक्षण करा"
+
+#~ msgid "Delete the current entry"
+#~ msgstr "चालू प्रवेशीका नष्ट करा"

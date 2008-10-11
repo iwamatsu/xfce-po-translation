@@ -1,0 +1,241 @@
+0.9.80
+======
+- Fix .desktop file to launch thunar-settings dialog with 
+  xfce4-settings-manager
+- Update Indonesian, Korean, Polisn, Arabic, Ukranian, Galician, Turkish, 
+  English Brittish, Lithuanian, Latvian, Chinese (traditional), Portuguese,
+  Brazilian Portuguese, Catalan, Greek, French, Spanish, Russian, Czech and
+  Hungarian translations.
+- Add Kurdish translation
+
+
+0.9.0
+=====
+- Do not display volumes without mountable file systems (Bug #3555).
+- Properly recognize OGG files as audio files for custom actions (Bug #3604).
+- Add new date renamer (Bug #3656).
+- Pass the correct $DISPLAY value to processes spawned by Thunar and
+  xfdesktop in multi screen environments (Bug #3667).
+- Preselect the whole filename when renaming folders (Bug #3057).
+- Prevent infinite recursion on JPEG files with broken EXIF data (Bug #3452).
+- Fix crash on amd64 (Bug #3303).
+- Add support to retry job based operations.
+- Display more details in the override dialog (Bug #3268).
+- Add support for different date/time formats (Bug #3265).
+- Fix crash on sparc64 (Bug #2815).
+- Properly binaries selected for custom actions (Bug #3105).
+- Fix invalid invocation of thunar-volman for volumes that should be
+  ignored (Bug #2789).
+- Reduce binary size by stripping XML comments and whitespace (Bug #3094).
+- Use the correct HAL property to determine whether a given volume or
+  device requires eject (Bug #3119).
+- Automatically disable thumbnailing if storing a thumbnail fails because
+  of a fatal error (Bug #3020).
+- Fix crash because of unaligned memory access (Bug #2880).
+- Fix compilation with the Sun Studio 11 compiler (Bug #2899, #2900).
+- Updated translations: Alexander Nyakhaychyk (be), Pau Rul-lan Ferragut (ca),
+                        Benedikt Meurer (de), Piarres Beobide (eu), Jari
+                        Rahkonen (fi) Daichi Kawahata (ja), ByungHyun Choi (ko),
+                        Stephan Arts, Peter Maassen and Vincent Tunru (nl),
+                        Szymon Kałasz (pl), Fábio Nogueira (pt_BR), Mişu
+                        Moldovan (ro), Eren Turkay (tr), Dmitry Nikitin (uk)
+- New translations: Mohamed Magdy (ar), Jeff Bailes (en_GB), Rihards Prieditis
+                    (lv), Terje Uriansrud (nb_NO), Amanpreet SIngh Alam (pa),
+                    Nuno Miguel (pt_PT), Besnik Bleta (sq), ﻢﺤﻣﺩ ﻊﻠﻳ ﺎﻠﻤﻜﻳ (ur)
+
+
+0.8.0
+=====
+- Add documentation for the bulk renamer (Bug #1594).
+- Improve the user manual (Bug #1365).
+- Connect the various "Help" buttons (Bug #1230).
+- Automatically add removable devices as targets to the "Send To" menu
+  (Bug #2683).
+- Allow to use "Eject" button on CD-ROM drives to unmount and eject the media
+  (Bug #2759).
+- Use Exif embedded thumbnails if available, which reduces the amount of data
+  that must be retrieved from a camera to around 50k instead of the whole JPEG
+  image, which can be up to several mega bytes.
+- Treat hotplugged drives as removable drives, so they will be displayed in
+  the side pane.
+- Improve startup notification support.
+- Add support for trashes other than the home trash (Bug #2132).
+- Fix crash on platforms where sizeof(GType) != sizeof(gint) (Bug #2726).
+- Add support for thunar-volman, which gets invoked by Thunar whenever a
+  new device is added to the HAL device tree.
+- Add support for memory cards and generic removable disk drives (Bug #2652).
+- Handle blank discs and pure audio discs as well (Bug #2599).
+- Use exo-mount to mount, eject and unmount volumes of relying on external
+  utilities, like pmount or gnome-mount, that do not always behave properly
+  (Bug #2715).
+- Add ability to mount floppy drives using exo-mount (Bug #2075).
+- Make sure GThread gets initialized first to avoid possible crashes in
+  the GSlice allocator later.
+- Add ability to load custom thumbnailers from .desktop files.
+- Stop unused threads after ten seconds of idle time to return some more
+  free memory to the kernel.
+- Improve performance when loading really large folders using a parallel
+  lock-free algorithm.
+- Ellipsize long shortcut names, but make sure "File System" still fits into
+  the side pane.
+- Properly initialize the translation domain for thunar-vfs (Bug #2543).
+- Do not gather detailed statistics from non-regular files to avoid blocking
+  Thunar forever reading from a named pipe (Bug #2655).
+- Add keyboard shortcuts to switch between the different views (Bug #2600).
+- Do not display "Desktop (Create Link)" action in "Send To" menu for
+  trashed files, because symlinks cannot be created for files in the
+  trash (Bug #2539).
+- Fix crash when transfering a lot of files via drag'n'drop or clipboard
+  (Bug #2356).
+- Fix modal about dialog blocking other windows (Bug #2545).
+- Fix build with dbus-binding-tool 0.72 and above (Bug #2528).
+- Fix installation on case insensitive file systems (Bug #2521).
+- Set word-wrap width depending on current zoom-level (Bug #2505).
+- Improve the performance of the automatic path completion (Bug #1681).
+- Properly redraw the shortcuts pane after after drag'n'drop (Bug #2498).
+- Updated translations: Pau Rul-lan Ferragut (ca), Michal Várady (cs),
+                        Benedikt Meurer and Fabian Nowak (de), Stavros
+			Giannouris (el), Piarres Beobide (eu), Jari Rahkonen
+			(fi), Maximilian Schleiss, Mike Massonnet and Niki
+			Kovacs (fr), Szervác Attila (hu), Roberto Pariset
+			(it), Piotr Maliński and Szymon Kałasz (pl), Andrey
+			Fedoseev (ru), Alexander Toresson (sv), Kang
+			Kang (zh_CN).
+- New translations: Alexander Nyakhaychyk (be), ByungHyun Choi (ko), Jovan
+                    Naumovski and Viktor Stojanovski (mk), Stephan Arts and
+		    Vincent Tunru (nl), Amanpreet Singh Alam (pa).
+
+
+0.5.0rc1
+========
+- Add a "Trash" menu entry to the "Go" menu (#2486).
+- Add a drop-down menu to the toolbar-style location bar to enable quick
+  access to the shortcuts even if the classic file manager look'n'feel is
+  being used (#2024).
+- Add support for HAL on FreeBSD. Make HAL the preferred volume manager on
+  FreeBSD.
+- Adjust the preferences dialog to match the look of the other Xfce preferences
+  dialogs (#2379).
+- Allow to change the icon of .desktop files (#2150).
+- Allow Thunar extensions to add menu items to the Drag'n'Drop context menu.
+  This is for example used by the thunar-archive-plugin to add an "Extract
+  Here" action, which extracts a dragged archive file at the drop location.
+- Display the real mime type as tooltip for the "Kind" label in the properties
+  dialog (#2369).
+- Keep the modification time when copying files (#2244).
+- Make sure emblems don't get too large with SVG icon themes (#2466).
+- Make sure Thunar is restarted prior to xfdesktop, so the trash support in
+  xfdesktop works as expected even if D-Bus autoactivation is not setup
+  properly.
+- Place automake options into configure.in.in instead of Makefile.am and add
+  the tar-ustar option to fix building distributions on system where tar
+  defaults to the deprecated V7 format (#2304).
+- Place cursor on the first selected file after a new file or folder was
+  created (#2368).
+- Place focus on the main view after changing the current directory (#2367).
+- Properly clean up the path bar when a folder that is currently displayed
+  on the path bar is deleted.
+- Properly validate the Name of .desktop files (#2227).
+- Update the icon mime icon lookup to try icon names from Icon Naming Spec
+  first, and fallback to legacy GNOME icon names.
+- Use default dbus connection timeout (#2243).
+- Use exo-open for the default "Open Terminal Here" action (#2256).
+- Use the thumbnail database to load SVG icons from the icon theme, because
+  loading SVG is quite slow and takes a lot more memory than loading and
+  scaling PNG icons from the thumbnail database.
+- Fix usage of deprecated HAL policy functions (#2475).
+- Fix crash with newer GtkTreeView's if the "row-has-child-toggled" signal is
+  emitted even if the child state of a node did not change (#2372).
+- Fix several race conditions that were introduced over time and prevented the
+  "new-files" job handling from working properly with Gamin and automatic
+  folder reload (#2199).
+- Fix invalid calculation of free space on OpenBSD/amd64 (#2383).
+- Fix crash due to invalid handling of file names with printf(3)-style format
+  arguments (#2468).
+- Fix crash on systems with small per-thread stacks (#2269).
+- Fix installation on Win32 platforms (#2432).
+- Fix build with GLib 2.6.x (#2317).
+- Fix build with latest dbus-glib (#2263).
+- Updated translations: Pau Rul-lan Ferragut (ca), Michal Várady (cs), Benedikt
+			Meurer (de), Stavros Giannouris (el), Jarbas Araujo,
+			Antono Vasiljev and Sylvain Vedrenne (eo), Piarres
+			Beobide (eu), Jari Rhkonen (fi), Maximilian Schleiss
+			(fr), Piotr Maliński (pl), Adriano Winter Bess (pt_BR),
+			Andrey Fedoseev (ru), Hydonsingore Cia (zh_TW)
+- New translations: Sonam Pelden (dz)
+
+
+0.4.0rc1
+========
+- An implementation of the XDG Trash Specification was imported and is now
+  used by both Thunar and xfdesktop to display and manage trashed files.
+  The implementation is currently limited to the home trash, but that will
+  be extended to support foreign trash cans soon.
+- Add a trash panel applet for the Xfce panel, that displays the current
+  state of the trash, allows to open and empty the trash, and supports
+  drops of files to the trash.
+- Add "No to all" response to the transfer progress dialog, which allows to
+  skip all further overwrite dialogs (Bug #1666).
+- Add ISO Speed Ratings to the Image page of the properties dialog.
+- Add rubberband selection support to the detailed list view when build with
+  GTK+ 2.9.0 and above (Bug #1996).
+- Add menus to the "Back" and "Forward" buttons in the toolbar (Bug #1782).
+- Update the path bar with the latest changes to GtkFileChooser (Bug #2060).
+- The dependency of the thunar-vfs library on GConf is gone. Instead the
+  available thumbnailers are now determined by an external tool and added to
+  a cache file, which will be mapped by all processes using the thunar-vfs
+  library (Bug #2131).
+- Add a new thumbnailer for TrueType fonts using the FreeType 2.x library.
+- Add a warning text to the window when running as super user (Bug #2218).
+- Add desktop shortcut to the shortcuts pane and use a special icon for the
+  desktop folder (Bug #2235).
+- Use the new icon chooser dialog, available with exo 0.3.1.10rc1, to pick
+  icons for custom actions.
+- Fix invalid display of the file's group in the properties dialog (Bug #1838).
+- Fix the location entry completion crashing with certain GTK+ versions (Bug
+  #1891).
+- Fix list model related crashes with GTK+ 2.10 (Gnome Bug #349128).
+- Use CRLF for text/uri-list as specified by RFC 2483 (Bug #2166).
+- Fix invalid substitution of %d in custom commands (Bug #2214).
+- Fix not working Ctrl+A in the location entry (Bug #2036).
+- Fix the progress bar text being truncated (Bug #2003).
+- Fix missing mkdtemp on Solaris (Bug #2070).
+- Fix compilation with compilers other than gcc (Bug #1852).
+- Fix compilation on NetBSD 2.99 and above.
+- Fix compilation on OpenBSD.
+- Add manual page for Thunar (Bug #1650).
+- Unmount volumes prior to ejecting them (Bug #2236).
+- Do not use different icons to represent the home folder.
+- Use "<folder> - File Manager" for the title of Thunar windows to make it
+  easier to identify file manager windows in the taskbar.
+- The thunar-vfs reference manual was updated to reflect the latest changes.
+- Case sensitive sorting is now disabled by default (Bug #2064).
+- Use a localized human readable format for the file dates (Bug #2057).
+- Use the new GSlice allocator where possible to reduce memory overhead.
+- Avoid the usage of GMemChunk, because in GLib 2.10 and above that is not
+  only inefficient, but also continously leaks memory.
+- Updated translations: Pau Rul-lan Ferragut (ca), Michal Várady (cs),
+                        Benedikt Meurer and Fabian Nowak (de), Stavros
+			Giannouris (el), Sylvain Vedrenne (eo), Piarres
+			Beobide (eu), Jari Rahkonen (fi), Maximilian
+			Schleiss (fr), Szervác Attila (hu), Roberto
+			Pariset (it), Piotr Maliński and Szymon Kałasz (pl),
+			Hydonsingore Cia (zh_TW)
+- New translations: Iván Seoane Pardo (gl), Dimitri Gogelia (ka)
+
+
+0.3.2beta2
+==========
+- The default operation when dropping files into a folder is now to move the
+  files if both the source files and the target folder is on the same file
+  system and the source files are owned by the user.
+- The custom actions are now run using the shell.
+- Added the "Send To" menu, which allows users to easily send files to other
+  applications from within the file manager. Default targets are "Desktop
+  (Create Link)", "Mail Recipient" and "Side Pane (Create Shortcut)". Additio-
+  nal targets can be dynamically added via .desktop files.
+- Support for session management was added.
+- The "Open With" dialog now allows users to remove launchers that were
+  previously added via the custom command box.
+- The number of relocations for the libraries was reduced to improve the
+  application startup time.

@@ -1,0 +1,86 @@
+# Indonesian translations for xfce4-quicklauncher-plugin package.
+# Copyright (C) 2005-2006 Masse Nicolas.
+# This file is distributed under the same license as the xfce4-quicklauncher-plugin package.
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-quicklauncher-plugin 1.9.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-05-17 21:37+0200\n"
+"PO-Revision-Date: 2008-06-21 12:05+0700\n"
+"Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
+"Language-Team: Indonesian <id@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../panel-plugin/callbacks.c:79
+msgid "Configure Quicklauncher"
+msgstr "Konfigurasi Quicklauncher"
+
+#: ../panel-plugin/callbacks.c:93
+msgid "Lines: "
+msgstr "Baris: "
+
+#: ../panel-plugin/callbacks.c:123
+msgid "Espace entre les lanceurs :"
+msgstr "Spasi di antara peluncur :"
+
+#: ../panel-plugin/callbacks.c:131
+msgid "afficher les tooltips"
+msgstr "tampilkan tip alat"
+
+#: ../panel-plugin/callbacks.c:135
+msgid "afficher les labels"
+msgstr "tampilkan label"
+
+#: ../panel-plugin/callbacks.c:216
+msgid "icone"
+msgstr "ikon"
+
+#: ../panel-plugin/callbacks.c:222
+msgid "commande"
+msgstr "perintah"
+
+#: ../panel-plugin/callbacks.c:228
+msgid "nom"
+msgstr "nama"
+
+#: ../panel-plugin/callbacks.c:327
+msgid "Open icon"
+msgstr "Buka ikon"
+
+#: ../panel-plugin/main.c:163 ../panel-plugin/quicklauncher.desktop.in.in.h:2
+msgid "Quicklauncher"
+msgstr "Quicklauncher"
+
+#: ../panel-plugin/main.c:166
+msgid "Allows you to add launchers easily and display them on many lines."
+msgstr ""
+"Memungkinkan anda untuk menambah peluncur dengan mudah dan menampilkannya "
+"pada banyak baris."
+
+#: ../panel-plugin/main.c:168
+msgid "Other plugins available here"
+msgstr "Plugin lainnya tersedia di sini"
+
+#: ../panel-plugin/main.c:320
+msgid "Lock"
+msgstr "Kunci"
+
+#: ../panel-plugin/main.c:323
+msgid "Parameters"
+msgstr "Parameter"
+
+#: ../panel-plugin/main.c:326
+msgid "Applications"
+msgstr "Aplikasi"
+
+#: ../panel-plugin/main.c:329
+msgid "Help"
+msgstr "Bantuan"
+
+#: ../panel-plugin/quicklauncher.desktop.in.in.h:1
+msgid "Program with several launchers"
+msgstr "Program dengan beberapa peluncur"

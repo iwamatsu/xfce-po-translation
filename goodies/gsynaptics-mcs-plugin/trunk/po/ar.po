@@ -1,0 +1,17 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-12-29 15:23+0100\n"
+"PO-Revision-Date: 2008-07-15 13:46+0200\n"
+"Last-Translator: Mohamed Magdy <mohamedmk@gmail.com>\n"
+"Language-Team: Arabeyes <doc@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Arabic\n"
+
+#. the button label in the xfce-mcs-manager dialog
+#: ../src/gsynaptics-plugin.c:54
+msgid "Button Label|Synaptics settings"
+msgstr "Button Label|إعدادات سينبتك"

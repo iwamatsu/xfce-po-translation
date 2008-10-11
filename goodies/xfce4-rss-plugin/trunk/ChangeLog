@@ -1,0 +1,17 @@
+2006-07-30  Adriano Winter Bess  <adriano@xfce.org>
+
+	* panel-plugin/rss.desktop.in.in: Changed plugin description as
+	  suggested by Maximilian Schleiss <maxschleiss@bluewin.ch>.
+
+2006-07-28  Adriano Winter Bess  <adriano@xfce.org>
+
+	* AUTHORS, acinclude.m4, INSTALL, ChangeLog, configure.ac.in,
+	  COPYING, Makefile.am, autogen.sh, panel-plugin,
+	  panel-plugin/globals.py.in, panel-plugin/xfce4-rss-plugin.py,
+	  panel-plugin/plugin.py, panel-plugin/__init__.py,
+	  panel-plugin/Makefile.am, panel-plugin/rss.desktop.in.in,
+	  panel-plugin/props.py, panel-plugin/globals.py,
+	  panel-plugin/config.py, NEWS, README, po, po/pt_BR.po,
+	  po/Makefile.in.in, po/ChangeLog, po/POTFILES.in,
+	  po/xfce4-rss-plugin.pot: Imported project into repository.
+

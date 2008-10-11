@@ -1,0 +1,180 @@
+# translation of eu.po to Euskara
+# Euskara translations for xfce-utila package.
+# Copyright (C) 2002-2007 The Xfce development team.
+# This file is distributed under the same license as the xfce-utils package.
+#
+# Jon Latorre Martinez <patataman@airtel.net>, 2003.
+# Piarres Beobide Egaña <pi@beobide.net>, 2004, 2005, 2006, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: eu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-09-06 22:45+0200\n"
+"PO-Revision-Date: 2008-09-11 09:29+0200\n"
+"Last-Translator: Piarres Beobide <pi@beobide.net>\n"
+"Language-Team: Euskara <debian-l10n-basque@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../xfce4-about/info.c:172
+msgid "Unable to load "
+msgstr "Ezin da kargatu "
+
+#. Project lead
+#: ../xfce4-about/info.c:201
+msgid "Project Lead"
+msgstr "Proiektu buru"
+
+#. Core developers
+#: ../xfce4-about/info.c:205
+msgid "Core developers"
+msgstr "Muin Garatzaileak"
+
+#. Active contributors
+#: ../xfce4-about/info.c:209
+msgid "Active contributors"
+msgstr "Laguntzaileak"
+
+#. Previous contributors
+#: ../xfce4-about/info.c:213
+msgid "Previous contributors"
+msgstr "Laguntzaile oihak"
+
+#: ../xfce4-about/info.c:218
+msgid "Web Hosting and Mailing Lists provided by"
+msgstr "Web ostalaritza eta posta zerrendak"
+
+#. Server admins
+#: ../xfce4-about/info.c:250
+msgid "Server maintained by"
+msgstr "Zerbitzari mantenua"
+
+#. Goodies supervision
+#: ../xfce4-about/info.c:254
+msgid "Goodies supervision"
+msgstr "Goodie gainbegiratzea"
+
+#. Translations supervision
+#: ../xfce4-about/info.c:258
+msgid "Translations supervision"
+msgstr "Itzulpen gainbegiratzea"
+
+#. Translators
+#: ../xfce4-about/info.c:262
+msgid "Translators"
+msgstr "Itzultzaileak"
+
+#: ../xfce4-about/info.c:293
+msgid "If you know of anyone missing from this list, please let us know on <"
+msgstr "Zerrenda honetan falta den bati berri jakin ezkero mesedez berri eman hona <"
+
+#: ../xfce4-about/info.c:297
+msgid "Thanks to all who helped making this software available."
+msgstr "Milesker software hau posible egiten duzzuen guztioi."
+
+#: ../xfce4-about/info.c:397
+msgid "About Xfce 4"
+msgstr "XFce 4-ri buruz "
+
+#: ../xfce4-about/info.c:398
+msgid "Copyright 2002-2007 by Olivier Fourdan"
+msgstr "Copyright 2002-2007 Olivier Fourdan"
+
+#: ../xfce4-about/info.c:421
+msgid "Info"
+msgstr "Info"
+
+#. add_page (GTK_NOTEBOOK (notebook), _("Credits"), XFCE_AUTHORS, FALSE);
+#: ../xfce4-about/info.c:423
+msgid "Credits"
+msgstr "Kredituak"
+
+#: ../xfce4-about/info.c:424
+msgid "Copyright"
+msgstr "Copyright"
+
+#: ../xfce4-about/info.c:425
+msgid "BSDL"
+msgstr "BSDL"
+
+#: ../xfce4-about/info.c:426
+msgid "LGPL"
+msgstr "LGPL"
+
+#: ../xfce4-about/info.c:427
+msgid "GPL"
+msgstr "GPL"
+
+#. we don't support daemon mode
+#: ../xfrun/xfrun.c:50
+msgid "Daemon Mode"
+msgstr "Deabru modua"
+
+#: ../xfrun/xfrun.c:52
+msgid "Daemon mode is not supported."
+msgstr "Ez da deabru modua onartzen."
+
+#: ../xfrun/xfrun.c:53
+msgid "Xfrun must be compiled with D-BUS support to enable daemon mode."
+msgstr "Xfrun D-BUS onarpenarekin konpilatu ebhar da deabru modua gaitzeko."
+
+#: ../xfrun/xfrun-dbus.c:141
+#, c-format
+msgid "Unable to open display \"%s\"."
+msgstr "Ezin da  \"%s\" ireki. "
+
+#: ../xfrun/xfrun-dbus.c:200
+#, c-format
+msgid "D-BUS message bus disconnected. Exiting ...\n"
+msgstr "D-BUS mezu hilara deskonektatua. Irteten ...\n"
+
+#. failed
+#: ../xfrun/xfrun-dbus.c:340 ../xfrun/xfrun-dbus.c:351
+msgid "System Error"
+msgstr "Sistema errorea"
+
+#: ../xfrun/xfrun-dbus.c:342 ../xfrun/xfrun-dbus.c:353
+msgid "Unable to fork to background:"
+msgstr "Ezin da atzeko planora pasa:"
+
+#: ../xfrun/xfrun-dialog.c:188
+msgid "Run in _terminal"
+msgstr "Abiarazi _terminalean"
+
+#: ../xfrun/xfrun-dialog.c:209
+msgid "_Run"
+msgstr "_Abiarazi"
+
+#: ../xfrun/xfrun-dialog.c:540
+#, c-format
+msgid "The command \"%s\" failed to run:"
+msgstr "\"%s\" komandoa huts egn du abiaraztean:"
+
+#: ../xfrun/xfrun-dialog.c:542
+msgid "Run Error"
+msgstr "Abiarazte errorea"
+
+#: ../xfrun/xfrun-dialog.c:544
+msgid "Unknown Error"
+msgstr "Errore ezezaguna"
+
+#: ../xfrun/xfrun-dialog.c:631
+#, c-format
+msgid "Open %s with what program?"
+msgstr "Zein programekin ireki %s?"
+
+#: ../xfrun/xfrun-dialog.c:636
+msgid "Run program"
+msgstr "Programa abiarazi"
+
+#: ../xfce.desktop.in.h:1
+msgid "Use this session to run Xfce as your desktop environment"
+msgstr "Saio hau erabili Xfce idazmahai ingurune bezala erabiltzeko"
+
+#: ../xfce.desktop.in.h:2
+msgid "Xfce Session"
+msgstr "Xfce saioa"
+

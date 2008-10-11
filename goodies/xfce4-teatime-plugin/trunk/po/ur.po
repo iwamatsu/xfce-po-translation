@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: teatime-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:29+0200\n"
+"PO-Revision-Date: 2007-10-27 17:10+0500\n"
+"Last-Translator: Muhammad Ali Makki <makk.ma@gmail.com>\n"
+"Language-Team: Urdu <makki.ma@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Urdu\n"
+"X-Poedit-Country: PAKISTAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../src/interface.c:69
+msgid "Edit properties"
+msgstr "خصوصیات مدون کریں"
+
+#: ../src/interface.c:75
+msgid "<b>Xfteatime</b>"
+msgstr "<b>Xfteatime</b>"
+
+#: ../src/interface.c:103
+msgid "Tea can"
+msgstr "چائے کین"
+
+#: ../src/interface.c:109
+msgid "Coffee can"
+msgstr "کافی کین"
+
+#: ../src/interface.c:115
+msgid "Stove"
+msgstr "چولہا"
+
+#: ../src/interface.c:128
+msgid "/usr/share/icons/image.png"
+msgstr "/usr/share/icons/image.png"
+
+#: ../src/interface.c:142
+msgid "<b>Icon image</b>"
+msgstr "<b>آئکن تصویر</b>"
+
+#: ../src/interface.c:168
+msgid "Just a minute, please (1 minute)"
+msgstr "برائے مہربانی رکیں (1 منٹ)"
+
+#: ../src/interface.c:169
+msgid "Assam tea (2 minutes)"
+msgstr "اسام چائے (2 منٹ)"
+
+#: ../src/interface.c:170
+msgid "Coffee (5 minutes)"
+msgstr "کافی (5 منٹ)"
+
+#: ../src/interface.c:171
+msgid "Italian noodles (10 minutes)"
+msgstr "اطالوی نوڈلز (10 منٹ)"
+
+#: ../src/interface.c:172
+msgid "Pizza (12 minutes)"
+msgstr "پیزا (12 منٹ)"
+
+#: ../src/interface.c:173
+msgid "Turkey (2 hours)"
+msgstr "ترکی (2 گھنٹے)"
+
+#: ../src/interface.c:175
+msgid "after"
+msgstr "بعد"
+
+#: ../src/interface.c:184
+msgid "seconds"
+msgstr "سیکنڈ"
+
+#: ../src/interface.c:192
+msgid "per"
+msgstr "فی"
+
+#: ../src/interface.c:196
+msgid "System bell"
+msgstr "نظام گھنٹی"
+
+#: ../src/interface.c:200
+msgid "Popup window"
+msgstr "پوپ اپ ونڈو"
+
+#: ../src/interface.c:204
+msgid "Blinking image"
+msgstr "دمکتی تصویر"
+
+#: ../src/interface.c:208
+msgid "<b>Notification</b>"
+msgstr "<b>اطلاعیہ</b>"
+
+#: ../src/support.c:90
+#: ../src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "pixmap فائل تلاش نہیں کی جاسکی: %s"
+

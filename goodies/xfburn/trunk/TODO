@@ -1,0 +1,46 @@
+user visible
+============
+
+- add audio cd support
+- remove temporary files
+- use more thunar-vfs
+- add verification of written disc
+- add blu-ray support
+
+various fixes and changes
+=========================
+
+- cleanup code
+  - remove duplicated code fragments, in particular
+    - the burning backend, and [started]
+- fix available writing speeds detection (maybe task for libburn?)
+- only allow usage of drives with matching capabilities
+  - when burning ISO image, only show drives capable of 
+    burning to desired disk, or report that we cannot
+    burn the image if there is no capable drive
+    (say somebody wants to burn DVD image on 
+     a drive not capable of doing so)
+  - when burning composition, only show drives capable of 
+    burning desired composition, or report that we cannot
+    burn the image if no capable drives are found, and
+    leave all the files previously
+    added by the user in composition so he could tweak it
+- recode copy disk with libburn
+- update columns resizing by using column enum index
+- take advantage of gvfs in addition to thunar-vfs until thunar-vfs gets deprecated
+- disable device selection before image is selected
+  - once image is selected, populate device selection box
+    only with appropriate devices (i.e. if it's 1200MB image,
+    we can't burn it on cd-writer).
+  - if no suitable writer is found, use that red label thingy
+    to inform the user
+- determine if it's worth it to add advanced burn options dialog to 
+  toggle rockridge and joliet extensions / iso_write_opts profiles
+- check for memory leaks while adding files
+- check if all the enter/leaving of gdk threads slows adding down
+- aborting the adding process can lead to invalid an composition size,
+  or invalid size of a composition item
+- rework refresh_speed_list, to make it more easily understandable when the 
+  disc status should get refreshed
+- cairo animation for blanking progress
+- allow usage of gtk bookmarks

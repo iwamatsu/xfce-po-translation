@@ -1,0 +1,74 @@
+version 1.94:
+**************
++fix some bugs
++made some changes to the aspect of the configuration dialog
++Update translations files
++add an option in order to add more space between launchers
++add a name field different from the command
++some internal changes
++add the use of labels 
++add an option for using tooltips 
++replace xfce_icon_theme_load_category (deprecated) by xfce_themed_icon_load_category
+
+
+version 1.92:
+**************
++replace g_assert by g_return_if_fail in order to not crash the panel.
++removed the use of eventboxes. Looks better when a theme is used.
++hopefully fix some compilation problems with netbsd
++lot of new translations (thanks to the people working on this)
+
+version 1.91:
+**************
++make dist now works
++fix translations + new ones (thanks to Daichi)
++fix a bug who makes the panel size grown when the quicklauncher plugin was added
++fix multiple warnings
++fix a little bug who crashed the panel
++fix what seems to be a bug with gcc4
++remove useless vars
++fix a warning when removing a launcher.  
+
+version 1.90:
+**************
++updated source code but also auto tools files in order to work with the 4.4 version of the panel
++allow multiple instance
+
+version 0.82:
+*************
++minor bug fix
++enhenced preview window in the filechooser
+
+version 0.81:
+*************
++fix a compilation problem with gcc4
++fix gettext stuff (thanks Jasper ;) )
+
+version 0.8:
+*************
++add french translation (not tested)
++FIX: size of zoomed icons is now calculated from icons size instead of panel size
++some little changes
++FIX: some images wasn't unloaded when destroying a launcher.
++add tooltip
+
+Version 0.7:
+************
++FIX: a problem with icon size when loading
++FIX: there was a crash sometimes when clicking on an icon.
++some internal changes
++make icons bigger when passing throught
++change icon when clicking on
++Change: use GdkPixbuf and event_boxes instead of buttons. Looks better ; ).    
+
+Version 0.6:
+************
++FIX: Icon size in the configuration dialog doesn't take care of the size of the icons in the  bar anymore
++Add: number of lines is now configurable
++FIX: Size of the icons are now better handled
++FIX: some possible memory leaks
++some internal changes.
+
+Version 0.5:
+************
++First public release

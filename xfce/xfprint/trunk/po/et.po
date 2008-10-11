@@ -1,0 +1,499 @@
+# Estonian translation of xfprint.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfprint package.
+# Peeter Vois <peeter.vois@proekspert.ee>, 2004.
+# Mart Tõnso <mart.tonso@ttu.ee>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-14 15:26+0200\n"
+"PO-Revision-Date: 2007-09-15 15:17+0300\n"
+"Last-Translator: Indrek Ardel <fps.intz@gmail.com>\n"
+"Language-Team: Estonian <et@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "Printer"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "Välju"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "Välju xfprint4-managerist"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "Sellest"
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "Info xfprint4-manageri kohta"
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "Kuva teavet xfprint4-manageri kohta"
+
+#: ../libxfprint/printer-list-window.c:140
+msgid "Printer manager"
+msgstr "Printeri haldaja"
+
+#: ../libxfprint/printer-list-window.c:206
+msgid "Alias name"
+msgstr "Hüüdnimi"
+
+#: ../libxfprint/printer-list-window.c:210
+#: ../libxfprint/printer-queue-window.c:217
+msgid "State"
+msgstr "Olek"
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Xfprint printers manager"
+msgstr "Xfprint printerite haldaja"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:269
+msgid "Former maintainer"
+msgstr "Eelmine haldaja"
+
+#: ../libxfprint/printer-list-window.c:270
+msgid "Maintainer"
+msgstr "Haldaja"
+
+#: ../libxfprint/printer-list-window.c:271
+msgid "Artist"
+msgstr "Kujundaja"
+
+#: ../libxfprint/printer-list-window.c:334
+msgid "Unknown"
+msgstr "Tundmatu"
+
+#: ../libxfprint/printer-list-window.c:337
+msgid "Idle"
+msgstr "Jõude"
+
+#: ../libxfprint/printer-list-window.c:340
+msgid "Processing"
+msgstr "Töötlemisel"
+
+#: ../libxfprint/printer-list-window.c:343
+msgid "Stopped"
+msgstr "Seisatud"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "Sulge"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "Sulge järjekorra aken"
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr "Tööd"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:385
+#: ../libxfprint/printer-queue-window.c:389
+msgid "Remove job"
+msgstr "Eemalda töö"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "Eemalda valitud töö järjekorrast"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "Värskenda"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "Värskenda järjekord"
+
+#: ../libxfprint/printer-queue-window.c:122
+#: ../libxfprint/printer-queue-window.c:538
+msgid "Queue Manager"
+msgstr "Järjekorra haldur"
+
+#: ../libxfprint/printer-queue-window.c:207
+msgid "Name"
+msgstr "Nimi"
+
+#: ../libxfprint/printer-queue-window.c:211
+msgid "ID"
+msgstr "ID"
+
+#: ../libxfprint/printer-queue-window.c:214
+msgid "User"
+msgstr "Kasutaja"
+
+#: ../libxfprint/printer-queue-window.c:220
+msgid "Size"
+msgstr "Suurus"
+
+#: ../libxfprint/printer-queue-window.c:223
+msgid "Priority"
+msgstr "prioriteet"
+
+#: ../libxfprint/printer-queue-window.c:226
+msgid "Creation time"
+msgstr "Loomisaeg"
+
+#: ../libxfprint/printer-queue-window.c:229
+msgid "Processing time"
+msgstr "Töötlemisaeg"
+
+#: ../libxfprint/printer-queue-window.c:382
+msgid "Are you sure you want to remove the job "
+msgstr "Kas sa oled kindel, et soovid töö tühistada "
+
+#: ../libxfprint/printer-queue-window.c:388
+msgid "Don't remove job"
+msgstr "Ära tühista tööd"
+
+#: ../libxfprint/printer-queue-window.c:395
+msgid "An error occurred while removing job !"
+msgstr "Töö tühistamisel tekkis viga !"
+
+#: ../libxfprint/printer-queue-window.c:446
+msgid "pending"
+msgstr "ootel"
+
+#: ../libxfprint/printer-queue-window.c:449
+msgid "printing"
+msgstr "trükkimine"
+
+#: ../libxfprint/printer-queue-window.c:452
+msgid "Kb"
+msgstr "Kb"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "Printimissüsteem"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "Printimissüsteemi valik"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "Teave"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "Kirjeldus"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "Versioon"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "Autor"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "Koduleht"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "Puudub"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr "Kasuta seda abivahendit failide trükkimiseks."
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "BSD-LPR liides Xfprindile"
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr "CUPS liides Xfprindile"
+
+#: ../printing-systems/cups/cups.c:48
+msgid "Set as default printer"
+msgstr "Määra vaikimisi printeriks"
+
+#: ../printing-systems/cups/cups.c:49
+msgid "Set as default CUPS printer"
+msgstr "Määra vaikimisi CUPS printeriks"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "Omadused"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "Näita printeri omadusi"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "Parool"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "Kasutaja :"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "Parool :"
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr "Sa pead sisestama kasutajanime !"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "Trüki päised"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "Päis:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "Aluspõhi:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "Kesk pealkiri:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "Vasak pealkiri:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "Parem pealkiri:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "Kesk allkiri:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "Vasak allkiri:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "Parem allkiri:"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "Kodeering:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "Trüki kõik lehed"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "Trügi lehed vahemikus"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "Lõika pikad read"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "Käsitle TAB, BS ja FF sümboleid"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "Sunni binaartrükkimist"
+
+#: ../xfprint/main.c:116
+msgid "Select file to print"
+msgstr "Vali fail, mida trükkida"
+
+#: ../xfprint/main.c:128
+msgid "The specified file does not exist"
+msgstr "Valitud faili ei leidu"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "Keel:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "Esildamise tase:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "Lühendamise tase:"
+
+#: ../xfprint/print_dialog.c:204
+msgid "Save settings"
+msgstr "Salvesta seaded"
+
+#: ../xfprint/print_dialog.c:212
+msgid "Xfprint"
+msgstr "Xfprint"
+
+#: ../xfprint/print_dialog.c:220
+msgid "Print to:"
+msgstr "Trüki asukohta:"
+
+#: ../xfprint/print_dialog.c:250
+msgid "Print to file:"
+msgstr "Trüki faili:"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Sheets"
+msgstr "Lehed"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Virtual pages"
+msgstr "Virtuaalsed leheküljed"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Pretty-printing"
+msgstr "Kaunis trükkimine"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Input"
+msgstr "Sisend"
+
+#: ../xfprint/print_dialog.c:300
+msgid "Headings"
+msgstr "Pealkirjad"
+
+#: ../xfprint/print_dialog.c:309
+msgid "Copies:"
+msgstr "Koopiaid:"
+
+#: ../xfprint/print_dialog.c:316
+msgid "Apply filters"
+msgstr "Rakenda filtreid"
+
+#: ../xfprint/print_dialog.c:371
+msgid "Neither the printing system backend or a2ps could be found on your system, you won't be able to print a file with xfprint !"
+msgstr "Ei leidnud trükisüsteemi abivahendit ega a2ps programmi sinu süsteemist, te ei saa trükkida seda faili xfprint abil!"
+
+#: ../xfprint/print_dialog.c:486
+msgid "An error occurred while trying to print the file"
+msgstr "Faili trükkimisel tekkis viga"
+
+#: ../xfprint/print_dialog.c:523
+msgid "Select file where to print"
+msgstr "Vali fail, kuhu trükkida"
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "Paberi mõõt:"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "Püsti"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "Pikali"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "Tulbad:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "Täida esmalt tulbad"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "Täida esmalt read"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "Ridu:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "Trüki raamid ümber tulpade"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "Trüki lehed tagurpidi järjekorras"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "Rea numbrid:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "Ridu lehe kohta:"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "Sümboleid rea kohta:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "Tabuleerimise suurus:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "Trükkimatu formaat:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr "Lubab sul valida trükkimise süsteemi abivahendit, mida xfprint kasutab"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+msgid "Printing System Settings"
+msgstr "Printimissüsteemi seadistused"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+msgid "Xfce 4 Printing System Settings"
+msgstr "Xfce 4 printimissüsteemi seadistused"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+msgid "Print Manager"
+msgstr "Printeri haldaja"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr "Näitab printerite nimekirja ja lubab sul hallata nende tööd"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+msgid "Xfce 4 Print Manager"
+msgstr "Xfce 4 printeri haldaja"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "Trükkimise dialoog"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr "Trükib faili ja lubab sul sättida selle paigutust"
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "Xfce 4 Trükkimise dialoog"
+

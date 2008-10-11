@@ -1,0 +1,77 @@
+2007-05-26 Nick Schermer <nick@xfce.org>
+
+	* Fix typo in the Makefile.
+	* Update to latest revision.
+
+2007-01-12 Nick Schermer <nick@xfce.org>
+
+	* Update to latest revision.
+	* Add configure option to enable the new gradient look
+	  (--enable-gradient-look). This is disabled by default.
+
+2007-01-11 Nick Schermer <nick@xfce.org>
+
+	* Improve the configure and makefiles a bit.
+
+2007-01-11 Nick Schermer <nick@xfce.org>
+
+	* Sync changes from the notification-trunk up to
+	  revision 2959.
+
+2006-10-22 Nick Schermer <nick@xfce.org>
+
+	* Reorganize the directory structure, all code is now
+	  located in src/.
+	* Fix typo in Makefile.am, reported by James Westby
+	* Moved make setting to configure.in.in
+	* Regenerated po files
+
+2006-09-10 Nick Schermer <nick@xfce.org>
+
+	* Add build option to disable the close button inside
+	  the default theme (--disable-close-button).
+
+2006-09-07 Nick Schermer <nick@xfce.org>
+
+	* Better way to "re-display" the preview notification
+
+2006-09-07 Nick Schermer <nick@xfce.org>
+
+	* Created icons directory with icon-cache hook, moved
+	  the 48px icon into this dir and add a 22px icon for
+	  the preview button.
+	* Fix typos in .desktop file.
+
+2006-09-07 Nick Schermer <nick@xfce.org>
+
+	* Added new dbus method to reload the daemon settings.
+	* Removed hacky code from preview dialog, but trigger the
+	  ReloadSettings call instead.
+	* Improved the preview notification: only 1 preview is
+	  possible, but it moves when the position is changed.
+
+2006-09-06  Nick Schermer <nick@xfce.org>
+
+	* Add preview support to the settings dialog.
+	* Hacky way to kill the deamon when settings has been
+	  changed.
+
+2006-09-06 Nick Schermer <nick@xfce.org>
+
+	* Imported all changes from the trunk version of
+	  the origional daemon (0.3.6).
+	* Improved the XfceRc handling, the values are now
+	  written if they don't exist yet.
+	* Renamed the entire plugin to notification-daemon-xfce.
+	* notification-settings application. With this application
+	  you can control the screen position of the notification.
+	  In the feature this will also control the notification
+	  theme (when more themes are added).
+	* MCS wrapper for notification-settings.
+	* Added .pot file.
+	* Bumped version to 0.3.6.
+
+2006-09-06 Nick Schermer <nick@xfce.org>
+
+	* Initial import of notification-daemon-xfce. It's
+	  based on version 0.3.5 of the notification-daemon.

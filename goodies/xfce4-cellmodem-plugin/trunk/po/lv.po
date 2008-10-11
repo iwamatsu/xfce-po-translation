@@ -1,0 +1,238 @@
+# Latvian translations for xfce4-cellmodem-plugin package.
+# Copyright (C) 2006 THE xfce4-cellmodem-plugin'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfce4-cellmodem-plugin package.
+# Rihards Prieditis <rprieditis@inbox.lv>, 2007
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-cellmodem-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-22 19:01+0100\n"
+"PO-Revision-Date: 2007-11-16 20:07+0300\n"
+"Last-Translator: Rihards Priedītis <rprieditis@inbox.lv>\n"
+"Language-Team: Latvian <Rprieditis@inbox.lv>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2;\n"
+
+#: ../panel-plugin/cellmodem.c:482
+msgid "Initializing plugin now"
+msgstr "Spraudņa inicializācija"
+
+#: ../panel-plugin/cellmodem.c:505
+#, c-format
+msgid ""
+"Error detected:\n"
+"%s"
+msgstr ""
+"Kļūda:\n"
+"%s"
+
+#: ../panel-plugin/cellmodem.c:511
+msgid "Not registered"
+msgstr "Nereģistrēts"
+
+#: ../panel-plugin/cellmodem.c:514
+msgid "Modem needs PIN"
+msgstr "Modēmam nepieciešams PIN"
+
+#: ../panel-plugin/cellmodem.c:517
+msgid "Registering"
+msgstr "Reģistrēju"
+
+#: ../panel-plugin/cellmodem.c:520
+#, c-format
+msgid ""
+"Registered [GPRS] to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"Reģistrēts [GPRS] uz %s\n"
+"Kvalitāte: %d (%d%%)"
+
+#: ../panel-plugin/cellmodem.c:523
+#, c-format
+msgid ""
+"Registered [UMTS] to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"Reģistrēts [UMTS] uz %s\n"
+"Kvalitāte:%d (%d%%)"
+
+#: ../panel-plugin/cellmodem.c:526
+#, c-format
+msgid ""
+"Registered [HSDPA] to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"Reģistrēts [HSDPA] uz %s\n"
+"Kvalitāte: %d (%d%%)"
+
+#: ../panel-plugin/cellmodem.c:529
+#, c-format
+msgid ""
+"Registered to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"Reģistrēts uz %s\n"
+"Kvalitāte: %d (%d%%)"
+
+#. Error
+#: ../panel-plugin/cellmodem.c:687
+msgid "Error in modem reply to CREG"
+msgstr "Kļūda modēma CREG atbilde"
+
+#: ../panel-plugin/cellmodem.c:696
+msgid "Invalid reply to +CREG"
+msgstr "Nederīga +CREG atbilde"
+
+#: ../panel-plugin/cellmodem.c:721
+msgid "Invalid CREG reply from modem"
+msgstr "Nederīga +CREG atbilde no modēma"
+
+#: ../panel-plugin/cellmodem.c:760
+msgid "Error in modem reply to COPS"
+msgstr "Kļūda modēma COPS atbilde"
+
+#: ../panel-plugin/cellmodem.c:816
+msgid "Invalid COPS reply from modem"
+msgstr "Nederīga COPS atbilde no modēma"
+
+#: ../panel-plugin/cellmodem.c:844
+msgid "Error in modem reply to CPIN"
+msgstr "Kļūda modēma CPIN atbilde"
+
+#: ../panel-plugin/cellmodem.c:870
+msgid "Invalid CPIN reply from modem"
+msgstr "Nederīga CPIN atbilde no modēma"
+
+#: ../panel-plugin/cellmodem.c:875
+msgid "Unsupportted CPIN reply from modem"
+msgstr "Neatbalstīta CPIN atbilde no modēma"
+
+#: ../panel-plugin/cellmodem.c:919 ../panel-plugin/cellmodem.c:973
+msgid "Invalid OHCIP reply from modem"
+msgstr "Nederīga OHCIP atbilde no modēma"
+
+#: ../panel-plugin/cellmodem.c:923 ../panel-plugin/cellmodem.c:977
+msgid "Unsupportted OHCIP reply from modem"
+msgstr "Neatbalstīta OHCIP atbilde no modēma"
+
+#. Error
+#: ../panel-plugin/cellmodem.c:1019
+msgid "Cannot send PIN to modem"
+msgstr "Nevar nosūtīt PIN uz modēmu"
+
+#: ../panel-plugin/cellmodem.c:1055
+msgid "Error in modem reply to CSQ"
+msgstr "Kļūda CSQ atbildē no modēma"
+
+#: ../panel-plugin/cellmodem.c:1075
+msgid "Invalid CSQ reply from modem"
+msgstr "Nederīga CSQ atbilde no modēma"
+
+#: ../panel-plugin/cellmodem.c:1276 ../panel-plugin/cellmodem.c:1603
+msgid "Cannot open modem"
+msgstr "Nevar atvērt modēmu"
+
+#: ../panel-plugin/cellmodem.c:1429
+msgid "Error reading from modem"
+msgstr "Kļūda lasot no  modēma"
+
+#: ../panel-plugin/cellmodem.c:1507
+msgid "Error writing to modem"
+msgstr "Kļūda rakstot modēmā"
+
+#: ../panel-plugin/cellmodem.c:1523
+msgid "Modem did not reply to command"
+msgstr "Modems neatbildēja uz komandu"
+
+#: ../panel-plugin/cellmodem.c:1541
+msgid "No driver defined"
+msgstr "Nav definēta ierīce"
+
+#: ../panel-plugin/cellmodem.c:1546
+msgid "No modem instance"
+msgstr "Nav neviena modēma"
+
+#: ../panel-plugin/cellmodem.c:1720
+msgid "Modem initializing"
+msgstr "Modēma inicializācija"
+
+#: ../panel-plugin/cellmodem.c:1755
+msgid "Invalid driver specified"
+msgstr "Norādīta nederīga ierīce"
+
+#. Error.
+#: ../panel-plugin/pin_helper.c:31
+msgid "Invalid PIN entered. PIN has 4 digits"
+msgstr "Ievadits nederīgs PIN. PIN ir 4 simbolu garšs."
+
+#: ../panel-plugin/pin_helper.c:65
+msgid "Enter PIN"
+msgstr "Ievadiet PIN"
+
+#: ../panel-plugin/pin_helper.c:77
+msgid "Please enter PIN:"
+msgstr "Lūdzu ievadiet PIN:"
+
+#: ../panel-plugin/preferences.c:285
+msgid "Close"
+msgstr "Aizvērt"
+
+#: ../panel-plugin/preferences.c:290
+msgid "No known device found."
+msgstr "Neviena zināma ierīce nav atrasta."
+
+#: ../panel-plugin/preferences.c:292
+msgid "The following devices were found:"
+msgstr "Tika atrastas sekojošas ierīces:"
+
+#: ../panel-plugin/preferences.c:299
+msgid "Use this device"
+msgstr "Izmantot šo ierīci"
+
+#: ../panel-plugin/preferences.c:343
+msgid "Configure Cell Modem Monitor"
+msgstr "Konfigurēt Mobilā Telefona Modēma Uzraugu"
+
+#. The header - this was most copied from other sources
+#: ../panel-plugin/preferences.c:356
+msgid "Cellular Modem Monitor"
+msgstr "Mobilo Telefonu Modēmu Uzraugs"
+
+#: ../panel-plugin/preferences.c:387
+msgid "Modem driver:"
+msgstr "Modēma datu nesējs:"
+
+#: ../panel-plugin/preferences.c:409
+msgid "Modem speed:"
+msgstr "Modēma ātrums:"
+
+#: ../panel-plugin/preferences.c:422
+msgid "Modem device:"
+msgstr "Modēma ierīce:"
+
+#: ../panel-plugin/preferences.c:434
+msgid "Autodetect modem..."
+msgstr ""
+
+#: ../panel-plugin/preferences.c:444
+msgid "Maximum quality:"
+msgstr "Maksimālā kvalitāte:"
+
+#: ../panel-plugin/preferences.c:455
+msgid "Low quality percentage:"
+msgstr "Zemas kavalitātes procents:"
+
+#: ../panel-plugin/preferences.c:465
+msgid "Critical quality percentage:"
+msgstr "Augstas kavalitātes procents:"
+
+#: ../panel-plugin/preferences.c:479
+msgid "Check for SMS every"
+msgstr ""
+
+#: ../panel-plugin/preferences.c:481
+msgid "minutes"
+msgstr ""

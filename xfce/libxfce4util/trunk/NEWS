@@ -1,0 +1,74 @@
+4.5.90
+======
+- Do not use GMemChunk for XfceRc due to memory leaks (Bug #2427).
+- Fix buglet when deleting XfceRc groups.
+- Fix invalid use of g_slice_free1() in XfceRc (Bug #2854).
+- Add support for function names in debug messages on Solaris (Bug #3090).
+- New util functions for setting up POSIX signal handling using pipe(), 
+  GIOChannel and the glib main loop.
+- Strip trailing slashes to avoid directories appearing multiple times in
+  resource lookup functions.
+- Updated translations: Maximilian Schleiss (fr), Besnik Bleta (sq), 
+  Mohamed Magdy (ar), Jeff Bailes (en_GB), Nuno Miguel (pt_PT), Daichi 
+  Kawahata (ja), Terje Uriansrud (nb_NO), Tegegne Tefera (am), Rihards 
+  Priedītis (lv), Muhammad Ali Makki (ur), Rashan Anushka (si), Leandro 
+  Regueiro (gl), Khaled Hosny (ar), Peter Vois (et), 
+
+4.4.0
+=====
+- Updated translations: Szymon Kałasz (pl)
+- New translations: Geraint Rowlands (cy), Jovan Naumovski (mk)
+
+
+4.3.99.2
+========
+- Updated translations: Pau Rul-lan Ferragut (ca), Maximilian Schleiss (fr)
+- New translations: Michal Várady (cs), Tenzin Dendup (dz), 
+  ByungHyun Choi (ko), Stephan Arts (nl)
+
+
+4.3.99.1
+========
+- Enable compilation with compilers other than gcc (Bug #1851).
+- Updated translations: Fabian Nowak (de)
+- New translations: Leandro Regueiro (gl), Dimitri Gogelia (ka)
+
+
+4.1.6
+=====
+- Added LIBXFCE4UTIL_*_VERSION macros.
+
+
+4.1.5
+=====
+- Added XDG Base Directory Implementation (version 0.6) and updated
+  documentation.
+- Small fixes to make gcc happy and first steps with Intel C compiler
+  on FreeBSD.
+
+
+4.1.4
+=====
+- Several bugfixes
+- Added --with-broken-putenv=[auto/no/yes] to configure to make
+  libxfce4util cross-compilable again.
+
+
+4.1.3
+=====
+- Code cleanups (Yes, consistency is important)
+- Switched to gtk-doc, cause of doxygen being unable to handle
+  GObject's
+- Mark some functions as DEPRECATED.
+
+
+4.1.1
+=====
+- added xfce_setenv(), xfce_putenv()
+- Started doxygen documentation of the code
+
+
+4.1.0
+=====
+- Added xfce_textdomain(package, localedir, encoding) to avoid
+  problems with gettext binding in the future.

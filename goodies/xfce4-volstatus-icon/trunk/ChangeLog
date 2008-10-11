@@ -1,0 +1,164 @@
+2007-05-29 00:42  kelnos
+
+	* configure.ac.in: bump version for 0.1.0 release
+
+2007-05-28 03:16  kelnos
+
+	* po/en_GB.po, po/fr.po, po/hu.po, po/ja.po, po/pl.po,
+	  po/xfce4-volstatus-icon.pot: update-po
+
+2007-05-28 03:12  kelnos
+
+	* ghal/ghal-context.c, ghal/ghal-volume.c,
+	  xfce4-volstatus-icon/xfce-volstatus-dialog.c,
+	  xfce4-volstatus-icon/xfce-volstatus-icon.c: plug memleaks
+
+2007-05-27 20:51  kelnos
+
+	* configure.ac.in, xfce4-volstatus-icon/Makefile.am,
+	  xfce4-volstatus-icon/main.c: we don't use threading anymore, so
+	  ditch libgthread and g_thread_init()
+
+2007-05-27 20:25  kelnos
+
+	* ghal/ghal-context.c: match on capabilities instead of category
+	  when determining what subclass of
+	  GHalDevice to return
+
+2007-05-26 07:21  sas
+
+	* po/hu.po: hu trunk: volstatus updates
+
+2007-05-26 05:15  kelnos
+
+	* ., ghal, po, xfce4-volstatus-icon: set svn:ignore on all dirs
+
+2007-05-26 05:07  kelnos
+
+	* INSTALL: remove INSTALL
+
+2007-05-26 05:07  kelnos
+
+	* po/POTFILES.in, po/en_GB.po, po/fr.po, po/hu.po, po/ja.po,
+	  po/pl.po, po/xfce4-volstatus-icon.pot: update-po
+
+2007-05-26 04:58  kelnos
+
+	* ghal/ghal-context.c: fix creation of GHalVolumeDisc objects,
+	  rearrange function order because
+	  i'm anal
+
+2007-05-22 08:02  kelnos
+
+	* Makefile.am, ghal/Makefile.am: add release targets, fix distcheck
+	  for ghal
+
+2007-05-22 07:52  kelnos
+
+	* INSTALL, Makefile.am, TODO, configure.ac.in, ghal,
+	  ghal/Makefile.am, ghal/ghal-context.c, ghal/ghal-context.h,
+	  ghal/ghal-device.c, ghal/ghal-device.h, ghal/ghal-drive.c,
+	  ghal/ghal-drive.h, ghal/ghal-marshal.list, ghal/ghal-private.h,
+	  ghal/ghal-types.h, ghal/ghal-volume-disc.c,
+	  ghal/ghal-volume-disc.h, ghal/ghal-volume.c, ghal/ghal-volume.h,
+	  ghal/ghal.h, xfce4-volstatus-icon/Makefile.am,
+	  xfce4-volstatus-icon/main.c,
+	  xfce4-volstatus-icon/xfce-volstatus-common.c,
+	  xfce4-volstatus-icon/xfce-volstatus-common.h,
+	  xfce4-volstatus-icon/xfce-volstatus-dialog.c,
+	  xfce4-volstatus-icon/xfce-volstatus-icon.c,
+	  xfce4-volstatus-icon/xfce-volstatus-icon.h,
+	  xfce4-volstatus-icon/xfce-volstatus-marshal.list: move hal-drive
+	  branch to trunk, since it seems to be working ok.
+
+2007-05-06 08:02  sas
+
+	* po/LINGUAS, po/hu.po: hu trunk: mediatags, mount fixed (thx
+	  timistery) timeout, volstatus added
+
+2007-04-01 22:19  maximilian
+
+	* po/ChangeLog, po/LINGUAS, po/pl.po: Added and fixed Polish
+	  translations.
+
+2007-03-31 11:51  paurullan
+
+	* po/LINGUAS: forgot to add in LINGUAS en_GB
+
+2007-03-31 07:25  paurullan
+
+	* po/ChangeLog, po/en_GB.po: i18n british translation
+
+2007-02-20 21:24  maximilian
+
+	* po/ChangeLog, po/LINGUAS: Updated LINGUAS file in volstatus-icon
+	  package.
+
+2007-02-20 21:22  maximilian
+
+	* po/ChangeLog, po/ja.po: * fr.po: Updated some French
+	  translations.
+	  * ja.po: Updated and added the Japanese translations by Nobuhiro
+	  Iwamatsu in the
+	  xkb and the volstatus-icon plugins respectively.
+	  * sq.po: Updated the headers of most plugins by Besnik Bleta.
+
+2007-02-02 19:28  kelnos
+
+	* TODO: update todo
+
+2007-02-02 11:58  maximilian
+
+	* po/ChangeLog, po/LINGUAS, po/fr.po: Added the French translation
+	  to the xfce4-volstatus-icon package, updated the LINGUAS file and
+	  created the ChangeLog file.
+
+2007-02-02 01:46  kelnos
+
+	* xfce4-volstatus-icon/xfce-volstatus-dialog.c: fix list store
+	  leak, fix volume leaks
+
+2007-02-02 01:36  kelnos
+
+	* xfce4-volstatus-icon/xfce-volstatus-dialog.c: plug pixbuf memleak
+
+2007-02-02 01:27  kelnos
+
+	* xfce4-volstatus-icon/xfce-volstatus-dialog.c: grey-out remove
+	  button in dialog if nothing selected
+
+2007-02-02 01:23  kelnos
+
+	* TODO, po/POTFILES.in, po/xfce4-volstatus-icon.pot,
+	  xfce4-volstatus-icon/Makefile.am, xfce4-volstatus-icon/main.c,
+	  xfce4-volstatus-icon/xfce-volstatus-common.c,
+	  xfce4-volstatus-icon/xfce-volstatus-common.h,
+	  xfce4-volstatus-icon/xfce-volstatus-dialog.c,
+	  xfce4-volstatus-icon/xfce-volstatus-dialog.h,
+	  xfce4-volstatus-icon/xfce-volstatus-icon.c,
+	  xfce4-volstatus-icon/xfce-volstatus-icon.h: * move common stuff
+	  to xfce-volstatus-common.{c,h}
+	  * set window icon
+	  * add dialog to show all volumes, info about them, and allow
+	  removal
+
+2007-02-01 21:06  kelnos
+
+	* po/POTFILES.in, xfce4-volstatus-icon/Makefile.am,
+	  xfce4-volstatus-icon/main.c,
+	  xfce4-volstatus-icon/xfce-volstatus-icon.c: fix a bunch of
+	  warnings, make some function static (i guess i'm asleep
+	  today), ifdef a couple gtk 2.12-isms, and make it more or less
+	  work.
+
+2007-02-01 20:48  kelnos
+
+	* ., AUTHORS, COPYING, ChangeLog, INSTALL, Makefile.am, NEWS,
+	  README, TODO, autogen.sh, configure.ac.in, po, po/LINGUAS,
+	  po/POTFILES.in, xfce4-volstatus-icon,
+	  xfce4-volstatus-icon/Makefile.am, xfce4-volstatus-icon/main.c,
+	  xfce4-volstatus-icon/xfce-volstatus-icon.c,
+	  xfce4-volstatus-icon/xfce-volstatus-icon.h: initial import of
+	  xfce4-volstatus-icon, a systray icon that lets you
+	  safely eject removable volumes. not even compile-tested yet.
+

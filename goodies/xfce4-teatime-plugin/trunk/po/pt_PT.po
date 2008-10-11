@@ -1,0 +1,103 @@
+# European Portuguese translation of the xfce4-teatime-plugin package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Nuno Miguel <nunis@netcabo.pt>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-teatime-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:29+0200\n"
+"PO-Revision-Date: 2007-06-30 19:03+0100\n"
+"Last-Translator: Nuno Miguel <nunis@netcabo.pt>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/interface.c:69
+msgid "Edit properties"
+msgstr "Editar Propriedades"
+
+#: ../src/interface.c:75
+msgid "<b>Xfteatime</b>"
+msgstr "<b>Xfteatime</b>"
+
+#: ../src/interface.c:103
+msgid "Tea can"
+msgstr "Caneca de chá"
+
+#: ../src/interface.c:109
+msgid "Coffee can"
+msgstr "Caneca de café"
+
+#: ../src/interface.c:115
+msgid "Stove"
+msgstr "Fogão"
+
+#: ../src/interface.c:128
+msgid "/usr/share/icons/image.png"
+msgstr "/usr/share/icons/image.png"
+
+#: ../src/interface.c:142
+msgid "<b>Icon image</b>"
+msgstr "<b>Imagem de ícone</b>"
+
+#: ../src/interface.c:168
+msgid "Just a minute, please (1 minute)"
+msgstr "Só um minuto, por favor (1 minuto)"
+
+#: ../src/interface.c:169
+msgid "Assam tea (2 minutes)"
+msgstr "Chá de Assam (2 minutos)"
+
+#: ../src/interface.c:170
+msgid "Coffee (5 minutes)"
+msgstr "Café (5 minutos)"
+
+#: ../src/interface.c:171
+msgid "Italian noodles (10 minutes)"
+msgstr "Macarrão italiano (10 minutos)"
+
+#: ../src/interface.c:172
+msgid "Pizza (12 minutes)"
+msgstr "Pizza (12 minutos)"
+
+#: ../src/interface.c:173
+msgid "Turkey (2 hours)"
+msgstr "Peru (2 horas)"
+
+#: ../src/interface.c:175
+msgid "after"
+msgstr "depois"
+
+#: ../src/interface.c:184
+msgid "seconds"
+msgstr "segundos"
+
+#: ../src/interface.c:192
+msgid "per"
+msgstr "por"
+
+#: ../src/interface.c:196
+msgid "System bell"
+msgstr "Campainha de sistema"
+
+#: ../src/interface.c:200
+msgid "Popup window"
+msgstr "Janela popup"
+
+#: ../src/interface.c:204
+msgid "Blinking image"
+msgstr "Imagem de pisca"
+
+#: ../src/interface.c:208
+msgid "<b>Notification</b>"
+msgstr "<b>Notificação</b>"
+
+#: ../src/support.c:90
+#: ../src/support.c:114
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Ficheiro pixmap não encontrado: %s"
+

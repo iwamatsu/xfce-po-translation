@@ -1,0 +1,157 @@
+#!/bin/sh
+#
+# $Id$
+#
+# Copyright (c) 2007 
+#         The Xfce development team. All rights reserved.
+#
+# Written for Xfce by Mike Massonnet <mmassonnet@xfce.org>.
+#
+# This program is free software; you can redistribute it and/or modify it
+# under the terms of the GNU General Public License as published by the Free
+# Software Foundation; either version 2 of the License, or (at your option)
+# any later version.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+# FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
+# more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program; if not, write to the Free Software Foundation, Inc., 59 Temple
+# Place, Suite 330, Boston, MA  02111-1307  USA
+#
+# xdt-i18n - Part of the Xfce developer tools.
+#
+
+##
+## Check if SVN is installed
+##
+if ! type svn > /dev/null 2>&1; then
+  echo "Subversion needs to be installed."
+  exit 1
+fi
+
+##
+## Usage
+##
+usage () {
+cat << EOF
+`basename $0` list
+    Print a full list of <version> values
+`basename $0` init <version> [<path>] [-https]
+    Initialize a new local copy (run it over an existing local copy to
+                    refresh its content with possible new projects)
+    Values for <version> are:
+        goodies/trunk
+        xfce/trunk
+        xfce/4.4
+        xfce/4.2
+`basename $0` update
+    Update all the sub-directories in the current working directory
+`basename $0` stat <file>
+    Display unstralated and fuzzy strings of every <file>
+    Valid values for <file> are your_locale.po (e.g. de.po, fr.po, ...)
+EOF
+}
+
+case "$1" in
+##
+## Print a full list of possible <version> values
+##
+    "list")
+    GOODIES=$(svn list http://svn.xfce.org/svn/goodies/modules/|grep po/|cut -d- -f1)
+    XFCE=$(svn list http://svn.xfce.org/svn/xfce/modules/|grep po/|cut -d- -f1)
+
+    for i in $GOODIES; do
+        echo "goodies/$i"
+    done
+    for i in $XFCE; do
+        echo "xfce/$i"
+    done
+    ;;
+
+##
+## Initialize a local working directory (svn co)
+##
+    "init")
+    VERSION=$(echo "$2"|cut -d'/' -f2)
+    test -z "$2" -o "$VERSION" == "$2" && exec $0
+
+    REPOSIT="http://svn.xfce.org/svn/"$(echo "$2"|cut -d'/' -f1)
+    PACKAGES=$(svn propget svn:externals $REPOSIT/modules/$VERSION-po|grep .|cut -d/ -f1)
+    PACKAGES_URL=$(svn propget svn:externals $REPOSIT/modules/$VERSION-po|grep .|cut -d\  -f2)
+    test -n "$3" -a "$3" != "-https" && DEST="$3" || DEST="`basename $REPOSIT`"
+
+    test -d "$DEST" && svn switch --relocate $(echo $REPOSIT|sed s/http:/https:/) $REPOSIT "$DEST"
+
+    svn co -N $REPOSIT "$DEST"
+    for pkg in $PACKAGES; do
+        for url in $PACKAGES_URL; do
+            test -n "$(echo $url|grep $pkg)" \
+            && path=$(echo $url|sed "s,$REPOSIT/$pkg,,") \
+            && break
+        done
+
+        svn up -N "$DEST/$pkg"
+        unset filename
+        for i in $(echo $path|sed 's,/,\n,g'); do
+            filename="$filename/$i"
+            svn up -N "$DEST/$pkg/$filename"
+        done
+    done
+
+    test "$4" = "-https" -o "$3" = "-https" && svn switch --relocate $REPOSIT $(echo $REPOSIT|sed s/http:/https:/) "$DEST"
+    ;;
+
+##
+## Update all the sub-directories
+##
+    "update")
+    find $2 -type d -name .svn -prune -exec svn up -N {}/.. \;
+    ;;
+
+##
+## Display statistics about a locale
+##
+    "stat")
+    test -z "$2" && exec $0
+    LANG=C find -name "$2" -print -exec msgfmt -o/dev/null --statistics {} \; 2>&1 | grep -E 'fuzzy|untranslated' -B1
+    ;;
+
+##
+## Check locales
+##
+    "check")
+    test -z "$2" && exec $0
+    LANG=C find -name "$2" -print -exec msgfmt -o/dev/null --check --check-accelerators=_ {} \; 2>&1 | grep -E 'fuzzy|untranslated' -B1
+    ;;
+
+##
+## Statistics by locale
+##
+    "stat-lang")
+    VERSION=$(echo "$2"|cut -d'/' -f2)
+    REPOSIT=$(echo "$2"|cut -d'/' -f1)
+
+    if (test $VERSION = "4.4") then
+    	VERSION="branches/xfce_4_4"
+    fi
+    if (test $VERSION = "4.2") then
+    	VERSION="branches/xfce_4_2"
+    fi
+
+    for PKG in `ls $4/$REPOSIT`; do
+	echo $REPOSIT/$PKG/$VERSION/po
+    	msgfmt -o/dev/null --statistics $4/$REPOSIT/$PKG/$VERSION/po/$3.po 2>&1 | grep -E 'translated|fuzzy|error' -B1
+    done
+
+    ;;
+
+    *)
+    usage
+    ;;
+
+
+esac
+

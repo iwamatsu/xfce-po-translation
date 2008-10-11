@@ -1,0 +1,243 @@
+# Translation of xfce4-cellmodem-plugin to Ukrainian
+# Copyright (C) 2007 Dmitry Nikitin
+# This file is distributed under the same license as the xfce4-cellmodem-plugin package.
+#
+# Dmitry Nikitin <luckas_fb@mail.ru>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-cellmodem-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-22 19:01+0100\n"
+"PO-Revision-Date: 2008-09-01 05:09+0100\n"
+"Last-Translator: SZERVÁC Attila <sas@321.hu>\n"
+"Language-Team: Ukrainian <xfce-i18n@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../panel-plugin/cellmodem.c:482
+msgid "Initializing plugin now"
+msgstr "Beillesztés inicializálása"
+
+#: ../panel-plugin/cellmodem.c:505
+#, c-format
+msgid ""
+"Error detected:\n"
+"%s"
+msgstr ""
+"Hiba történt:\n"
+"%s"
+
+#: ../panel-plugin/cellmodem.c:511
+msgid "Not registered"
+msgstr "Nem regisztrált"
+
+#: ../panel-plugin/cellmodem.c:514
+msgid "Modem needs PIN"
+msgstr "A modemhez PIN kell"
+
+#: ../panel-plugin/cellmodem.c:517
+msgid "Registering"
+msgstr "Regisztrálás"
+
+#: ../panel-plugin/cellmodem.c:520
+#, c-format
+msgid ""
+"Registered [GPRS] to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"Regisztrált [GPRS] ide: %s\n"
+"Minőség: %d (%d%%)"
+
+#: ../panel-plugin/cellmodem.c:523
+#, c-format
+msgid ""
+"Registered [UMTS] to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"Regisztrált [UMTS] ide: %s\n"
+"Minőség: %d (%d%%)"
+
+#: ../panel-plugin/cellmodem.c:526
+#, c-format
+msgid ""
+"Registered [HSDPA] to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"Regisztrált [HSDPA] ide: %s\n"
+"Minőség: %d (%d%%)"
+
+#: ../panel-plugin/cellmodem.c:529
+#, c-format
+msgid ""
+"Registered to %s\n"
+"Quality: %d (%d%%)"
+msgstr ""
+"Regisztrált ide: %s\n"
+"Minőség: %d (%d%%)"
+
+#. Error
+#: ../panel-plugin/cellmodem.c:687
+msgid "Error in modem reply to CREG"
+msgstr "Hiba a modem válaszában erre: CREG"
+
+#: ../panel-plugin/cellmodem.c:696
+msgid "Invalid reply to +CREG"
+msgstr "Érvénytelen válasz erre: +CREG"
+
+#: ../panel-plugin/cellmodem.c:721
+msgid "Invalid CREG reply from modem"
+msgstr "Érvénytelen CREG válasz a modemtól"
+
+#: ../panel-plugin/cellmodem.c:760
+msgid "Error in modem reply to COPS"
+msgstr "Hiba a modem válaszában erre: COPS"
+
+#: ../panel-plugin/cellmodem.c:816
+msgid "Invalid COPS reply from modem"
+msgstr "Érvénytelen COPS válasz a modemtól"
+
+#: ../panel-plugin/cellmodem.c:844
+msgid "Error in modem reply to CPIN"
+msgstr "Hiba a modem válaszában erre: CPIN"
+
+#: ../panel-plugin/cellmodem.c:870
+msgid "Invalid CPIN reply from modem"
+msgstr "Érvénytelen CPIN válasz a modemtól"
+
+#: ../panel-plugin/cellmodem.c:875
+msgid "Unsupportted CPIN reply from modem"
+msgstr "Nem támogatott CPIN válasz a modemtól"
+
+#: ../panel-plugin/cellmodem.c:919
+#: ../panel-plugin/cellmodem.c:973
+msgid "Invalid OHCIP reply from modem"
+msgstr "Érvénytelen OHCIP válasz a modemtól"
+
+#: ../panel-plugin/cellmodem.c:923
+#: ../panel-plugin/cellmodem.c:977
+msgid "Unsupportted OHCIP reply from modem"
+msgstr "Nem támogatott OHCIP válasz a modemtól"
+
+#. Error
+#: ../panel-plugin/cellmodem.c:1019
+msgid "Cannot send PIN to modem"
+msgstr "Nem tudok PIN-t küldeni a modemnak"
+
+#: ../panel-plugin/cellmodem.c:1055
+msgid "Error in modem reply to CSQ"
+msgstr "Hiba a modem válaszában erre: CSQ"
+
+#: ../panel-plugin/cellmodem.c:1075
+msgid "Invalid CSQ reply from modem"
+msgstr "Érvénytelen CSQ válasz a modemtól"
+
+#: ../panel-plugin/cellmodem.c:1276
+#: ../panel-plugin/cellmodem.c:1603
+msgid "Cannot open modem"
+msgstr "Modem megnyitása sikertelen"
+
+#: ../panel-plugin/cellmodem.c:1429
+msgid "Error reading from modem"
+msgstr "Hiba a modem olvasásakor"
+
+#: ../panel-plugin/cellmodem.c:1507
+msgid "Error writing to modem"
+msgstr "Hiba a modem írásakor"
+
+#: ../panel-plugin/cellmodem.c:1523
+msgid "Modem did not reply to command"
+msgstr "A modem nem válaszolt a parancsra"
+
+#: ../panel-plugin/cellmodem.c:1541
+msgid "No driver defined"
+msgstr "Nincs meghajtó megadva"
+
+#: ../panel-plugin/cellmodem.c:1546
+msgid "No modem instance"
+msgstr "Nincs modem példány"
+
+#: ../panel-plugin/cellmodem.c:1720
+msgid "Modem initializing"
+msgstr "Modem inicializálása"
+
+#: ../panel-plugin/cellmodem.c:1755
+msgid "Invalid driver specified"
+msgstr "Érvénytelen meghajtó megadva"
+
+#. Error.
+#: ../panel-plugin/pin_helper.c:31
+msgid "Invalid PIN entered. PIN has 4 digits"
+msgstr "Érvénytelen PIN megadva. A PIN 4 jegyű"
+
+#: ../panel-plugin/pin_helper.c:65
+msgid "Enter PIN"
+msgstr "PIN megadása"
+
+#: ../panel-plugin/pin_helper.c:77
+msgid "Please enter PIN:"
+msgstr "Kérjük, add meg a PIN-t:"
+
+#: ../panel-plugin/preferences.c:285
+msgid "Close"
+msgstr "Bezár"
+
+#: ../panel-plugin/preferences.c:290
+msgid "No known device found."
+msgstr "Nincs ismert eszköz"
+
+#: ../panel-plugin/preferences.c:292
+msgid "The following devices were found:"
+msgstr "Az alábbi eszközöket leltem:"
+
+#: ../panel-plugin/preferences.c:299
+msgid "Use this device"
+msgstr "Ezen eszköz használata"
+
+#: ../panel-plugin/preferences.c:343
+msgid "Configure Cell Modem Monitor"
+msgstr ""
+
+#. The header - this was most copied from other sources
+#: ../panel-plugin/preferences.c:356
+msgid "Cellular Modem Monitor"
+msgstr ""
+
+#: ../panel-plugin/preferences.c:387
+msgid "Modem driver:"
+msgstr "Modem meghajtó:"
+
+#: ../panel-plugin/preferences.c:409
+msgid "Modem speed:"
+msgstr "Modem sebessége:"
+
+#: ../panel-plugin/preferences.c:422
+msgid "Modem device:"
+msgstr "Modem eszköz:"
+
+#: ../panel-plugin/preferences.c:434
+msgid "Autodetect modem..."
+msgstr "Modem automata érzékelése..."
+
+#: ../panel-plugin/preferences.c:444
+msgid "Maximum quality:"
+msgstr "Legjobb minőség:"
+
+#: ../panel-plugin/preferences.c:455
+msgid "Low quality percentage:"
+msgstr "Alacsony minőség százaléka:"
+
+#: ../panel-plugin/preferences.c:465
+msgid "Critical quality percentage:"
+msgstr "Kritikus minőség százaléka:"
+
+#: ../panel-plugin/preferences.c:479
+msgid "Check for SMS every"
+msgstr "SMS ellenőrzése minden"
+
+#: ../panel-plugin/preferences.c:481
+msgid "minutes"
+msgstr "percben"
+

@@ -1,0 +1,60 @@
+Summary:       Lightweight media player using xine
+Name:          xfmedia
+Version:       @VERSION@
+Release:       1
+License:       GPL
+URL:           http://kelnos.spuriousinterrupt.org/projects/xfmedia/
+Source0:       %{name}-%{version}.tar.gz
+Group:         Applications/Multimedia
+BuildRoot:     %{_tmppath}/%{name}-root
+Requires:      gtk2 >= @GTK_REQUIRED_VERSION@
+Requires:      libxfcegui4 >= @LIBXFCEGUI4_REQUIRED_VERSION@
+Requires:      xine-lib >= @LIBXINE_REQUIRED_VERSION@
+BuildRequires: gtk2-devel >= @GTK_REQUIRED_VERSION@
+BuildRequires: libxfcegui4-devel >= @LIBXFCEGUI4_REQUIRED_VERSION@
+BuildRequires: xine-lib-devel >= @LIBXINE_REQUIRED_VERSION@
+
+%description
+A lightweight media player for Xfce 4, based on the xine engine.
+
+%package devel
+Summary: Development files for Xfmedia
+Group: Development
+
+%description devel
+Headers and development libraries for compiling plugins for Xfmedia.
+
+%prep
+%setup -q
+
+%build
+%configure
+make
+
+%install
+rm -rf $RPM_BUILD_ROOT
+make install DESTDIR=$RPM_BUILD_ROOT mandir=%{_mandir}
+
+%clean
+rm -rf $RPM_BUILD_ROOT
+
+%post -p /sbin/ldconfig
+
+%postun -p /sbin/ldconfig
+
+%files
+%defattr(-,root,root)
+%{_bindir}/xfmedia
+%{_bindir}/xfmedia-remote
+%{_sysconfdir}/xdg/xfmedia/
+%{_libdir}/xfmedia/plugins/
+%{_datadir}/applications/xfmedia.desktop
+%{_datadir}/icons/hicolor/
+%{_datadir}/locale/
+%{_datadir}/xfmedia/doc/
+%docdir %{_datadir}/xfmedia/doc/
+
+%files devel
+%defattr(-, root, root)
+%{_includedir}/xfmedia/
+%{_libdir}/pkgconfig/xfmedia-plugin.pc

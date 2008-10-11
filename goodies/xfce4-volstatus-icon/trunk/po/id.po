@@ -1,0 +1,263 @@
+# Indonesian translations for xfce4-volstatus-icon package.
+# Copyright (C) 2007 Brian J. Tarricone.
+# This file is distributed under the same license as the xfce4-volstatus-icon package.
+# Andhika Padmawan <andhika.padmawan@gmail.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-volstatus-icon\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-05-27 20:15-0700\n"
+"PO-Revision-Date: 2008-06-21 18:39+0700\n"
+"Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
+"Language-Team: Indonesian <id@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: xfce4-volstatus-icon/main.c:102 xfce4-volstatus-icon/main.c:115
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:733
+msgid "Removable Volumes"
+msgstr "Volume Dapat Dilepas"
+
+#: xfce4-volstatus-icon/main.c:104
+msgid "This is the first time you've run the Xfce Volstatus Icon application"
+msgstr "Ini pertama kalinya anda menjalankan aplikasi ikon Xfce Volstatus"
+
+#: xfce4-volstatus-icon/main.c:105
+msgid ""
+"Would you like Xfce Volstatus to run automatically each time your session "
+"begins?  You can disable this behavior later by using the \"Autostarted "
+"Applications\" settings panel."
+msgstr ""
+"Apakah anda ingin Xfce Volstatus agar otomatis berjalan tiap kali sesi anda "
+"dimulai? Anda dapat menonaktifkan perilaku ini nanti dengan menggunakan "
+"panel pengaturan \"Aplikasi Otomatis Berjalan\"."
+
+#: xfce4-volstatus-icon/main.c:117
+msgid "Failed to write autostart file"
+msgstr "Gagal menulis berkas otomatis berjalan"
+
+#: xfce4-volstatus-icon/main.c:118
+msgid ""
+"For some reason, the autostart location could not be found or written to.  "
+"This location is usually in your home directory, in ~/.config/autostart/."
+msgstr ""
+"Karena beberapa alasan, lokasi otomatis berjalan tak dapat ditemukan atau "
+"ditulis. Lokasi ini biasanya berada di direktori rumah anda, di "
+"~/.config/autostart/."
+
+#: xfce4-volstatus-icon/main.c:125
+msgid "Xfce Volstatus Icon"
+msgstr "Ikon Xfce Volstatus"
+
+#: xfce4-volstatus-icon/main.c:127
+msgid "Safe removal of removable volumes"
+msgstr "Melepas volume dapat dilepas dengan aman"
+
+#: xfce4-volstatus-icon/main.c:213
+msgid "An unknown error occurred."
+msgstr "Galat tak diketahui terjadi."
+
+#: xfce4-volstatus-icon/main.c:215 xfce4-volstatus-icon/main.c:226
+#: xfce4-volstatus-icon/main.c:241
+msgid "Xfce Volstatus"
+msgstr "Xfce Volstatus"
+
+#: xfce4-volstatus-icon/main.c:216
+msgid "Unable to connect to D-Bus system bus daemon"
+msgstr "Tak dapat menghubungi jurik bus sistem D-Bus"
+
+#: xfce4-volstatus-icon/main.c:227
+msgid "Unable to connect to HAL"
+msgstr "Tak dapat menghubungi HAL"
+
+#: xfce4-volstatus-icon/main.c:242
+msgid "Unable to get device list from HAL"
+msgstr "Tak dapat mendapatkan senarai divais dari HAL"
+
+#: xfce4-volstatus-icon/xfce-volstatus-common.c:76
+#, c-format
+msgid "Unable to remove \"%s\""
+msgstr "Tak dapat melepas \"%s\""
+
+#: xfce4-volstatus-icon/xfce-volstatus-common.c:77
+msgid "Removal Failure"
+msgstr "Gagal Melepas"
+
+#: xfce4-volstatus-icon/xfce-volstatus-common.c:79
+msgid "Unknown error"
+msgstr "Galat tak dikenal"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:171
+msgid "Audio CD"
+msgstr "CD Audio"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:178
+msgid "Recordable CD"
+msgstr "CD Dapat Direkam"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:181
+msgid "Rewritable CD"
+msgstr "CD Dapat Ditulis Ulang"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:184
+msgid "DVD"
+msgstr "DVD"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:187
+msgid "Rewritable DVD (DVD-RAM)"
+msgstr "DVD Dapat Ditulis Ulang (DVD-RAM)"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:192
+msgid "Recordable DVD"
+msgstr "DVD Dapat Direkam"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:196
+msgid "Rewritable DVD"
+msgstr "DVD Dapat Ditulis Ulang"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:199
+msgid "Blu-ray Disc"
+msgstr "Cakram Blu-ray"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:202
+msgid "Recordable Blu-ray Disc"
+msgstr "Cakram Blu-ray dapat direkam"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:205
+msgid "Rewritable Blu-ray Disc"
+msgstr "Cakram Blu-ray dapat ditulis ulang"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:208
+msgid "HD-DVD"
+msgstr "HD-DVD"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:211
+msgid "Recordable HD-DVD"
+msgstr "HD-DVD dapat direkam"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:214
+msgid "Rewritable HD-DVD"
+msgstr "HD-DVD dapat ditulis ulang"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:217
+msgid "Data CD"
+msgstr "CD Data"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:227
+msgid "Optical Drive"
+msgstr "Penggerak Optik"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:233
+msgid "Floppy Disk"
+msgstr "Disket Liuk"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:235
+msgid "Removable Disk"
+msgstr "Cakram Dapat Dilepas"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:237
+msgid "Hard Disk"
+msgstr "Cakram Keras"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:240
+msgid "Flash Disk"
+msgstr "Cakram Flash"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:242
+msgid "Audio Player"
+msgstr "Penggelar Audio"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:244
+msgid "Memory Stick"
+msgstr "Tongkat Memori"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:246
+msgid "Smart Media Disk"
+msgstr "Cakram Media Cerdas"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:248
+msgid "SD/MMC Disk"
+msgstr "Cakram SD/MMC"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:250
+msgid "Camera"
+msgstr "Kamera"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:252
+msgid "Zip Disk"
+msgstr "Cakram Zip"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:254
+msgid "Jaz Disk"
+msgstr "Cakram Jaz"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:256
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:602
+msgid "Unknown"
+msgstr "Tak diketahui"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:549
+msgid "n/a"
+msgstr "tak tersedia"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:560
+#, c-format
+msgid "Filesystem (%s)"
+msgstr "Sistem berkas (%s)"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:565
+msgid "Filesystem"
+msgstr "Sistem berkas"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:571
+msgid "(unknown)"
+msgstr "(tak diketahui)"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:573
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:582
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:589
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:597
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:604
+msgid "(n/a)"
+msgstr "(tak tersedia)"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:580
+msgid "Partition Table"
+msgstr "Tabel Partisi"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:587
+msgid "RAID Array Member"
+msgstr "Anggota Larik RAID"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:595
+msgid "Encrypted Filesystem"
+msgstr "Sistem Berkas Terenkripsi"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:677
+msgid "Name:"
+msgstr "Nama:"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:682
+msgid "Kind:"
+msgstr "Jenis:"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:687
+msgid "Mount Point:"
+msgstr "Titik Mount:"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:734
+msgid "Use the list below to safely remove removable volumes."
+msgstr "" 
+"Gunakan senarai di bawah untuk melepas volume dapat dilepas dengan aman."
+
+#: xfce4-volstatus-icon/xfce-volstatus-icon.c:227
+#, c-format
+msgid "Safely remove \"%s\""
+msgstr "Lepas \"%s\" dengan aman"
+
+#. this shouldn't happen, but just to be safe...
+#: xfce4-volstatus-icon/xfce-volstatus-icon.c:243
+msgid "(no removable drives)"
+msgstr "(tak ada penggerak dapat dilepas)"

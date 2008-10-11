@@ -1,0 +1,116 @@
+2007-03-30	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* started new plugin by hacking the xfce4-sample-plugin
+
+2007-04-02	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* === Released 0.1.0 ===
+	* configure.in.in, NEWS: Bump version.
+
+2007-04-03	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* added -- to the gksudo invocation
+	* look for errors in upgrade output
+
+2007-04-03	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* === Released 0.1.1 ===
+	* configure.in.in, NEWS: Bump version.
+
+2007-04-04	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* run gksudo always, as backup plan
+	* add /opt/gnome/bin to the $PATH
+
+2007-04-08	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* === Released 0.1.2 ===
+	* configure.in.in, NEWS: Bump version.
+
+2007-05-07	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* add support for Yum+Extender and APT+Synaptic as well
+
+2007-05-09	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* rename from xfce4-smart-plugin to xfce4-smartpm-plugin
+
+2007-05-10	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* add new application and package icons, including SVG
+	* package counting implemented for Yum and APT too now
+	* fixed missing icon from Update menu, wrong GTK class
+
+2007-08-22	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* === Released 0.2.0 ===
+
+2007-09-07	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* added "rpm" and "deb" targets, for packaging simplicity
+	* silenced some compiler warnings, about unused variables
+
+2007-09-27	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* Ignore APT error "Failed to write temporary StateFile"
+	* Fix bug with showing wrong type icon when errors occur
+
+2007-09-29	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* === Released 0.2.1 ===
+
+2007-10-04	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* configure paths to su and sudo, instead of hard-coding
+	* add some documentation on usage and the commands used
+
+2007-10-05	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* add panel setting for doing upgrade vs. dist-upgrade
+
+2007-10-05	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* === Released 0.2.2 ===
+
+2007-10-07	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* Move RPM Specfile to a "redhat" subdirectory instead
+	* Add support for slapt-get and gslapt, for Vector Linux
+
+2007-10-10	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* Add optional libnotify support, for pop-up dialogs
+
+2007-12-16	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* Removed "debian" package directory from the tarball
+	* Updated translations, thanks to all the translators
+
+2008-01-09	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* === Released 0.3.0 ===
+
+2008-01-31	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* Fix path bug when not finding gksu during configure
+
+2008-01-31	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* === Released 0.3.1 ===
+
+2008-04-16	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* add panel setting for using "su" vs. "sudo" for auth
+
+2008-04-18	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* look for smart-root in /usr/bin as well as /usr/sbin
+
+2008-04-21	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* allow using the small ktsuss helper, instead of gksu
+
+2008-05-18	Anders F Bjorklund <afb@users.sourceforge.net>
+
+	* === Released 0.3.2 ===
+

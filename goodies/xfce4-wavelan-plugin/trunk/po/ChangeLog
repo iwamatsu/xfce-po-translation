@@ -1,0 +1,145 @@
+2008-07-15 Mohamed Magdy <alnokta@xfce.org>
+
+        * ar.po: Add Arabic translation
+
+2008-06-26  Maximilian Schleiss <maximilian@xfce.org>
+
+	* gl.po, LINGUAS: Galician translation added (Leandro Regueiro)
+
+2008-06-25  Maximilian Schleiss <maximilian@xfce.org>
+
+	* id.po, LINGUAS: Indonesian translation added (Andhika Padmawan)
+
+2008-05-27  Mike Massonnet <mmassonnet@xfce.org>
+
+	* da.po, LINGUAS: Add Danish translation (Jens Hyllegaard)
+
+2008-05-14	Mike Massonnet <mmassonnet@xfce.org>
+
+	* ja.po: Update Japanese translation (Nobuhiro Iwamatsu)
+
+2007-11-18	Maximilian Schleiss <maximilian@xfce.org>
+
+	* lv.po: Latvian translation added
+	by Rihards Priedītis <rprieditis@inbox.lv>
+
+2007-11-15	Mike Massonnet <mmassonnet@xfce.org>
+
+	* ur.po: Update translation by Muhammad Ali Makki <makki.ma@gmail.com>
+	* pk.po, ur.po: Rename pk.po to ur.po.
+
+2007-10-28	Mike Massonnet <mmassonnet@xfce.org>
+
+	* pk.po: Add new translation by محمد علي المكي <makki.ma@gmail.com>
+
+2007-09-07  Og Maciel <ogmaciel@gnome.org>
+
+	* pt_BR.po: Brazilian Protuguese translation added
+	by Vladimir Melo <vladimirmelo@foresightlinux.org>
+
+2007-07-08  Maximilian Schleiss <maximilian@xfce.org>
+
+	* nb_NO.po: Norwegian Bokmal translation added
+	by Terje Uriansrud <ter@operamail.com>
+	* pt_PT.po: European Protuguese translation added
+	by Nuno Miguel <nunis@netcabo.pt>
+
+2007-03-31  Pau Rul-lan Ferragut <paurullan@bulma.net>
+
+  * gb.po: British translation by Jeff Bailes <thepizzaking@gmail.com>
+
+2007-02-20  Maximilian Schleiss <maximilian@xfce.org>
+
+	* ko.po: Updated the Korean translation by
+	ByungHyun Choi <byunghyun.choi@debianusers.org>
+
+2007-02-02  Maximilian Schleiss <maximilian@xfce.org>
+
+	* fr.po: Added the Albanian translation by
+	Besnik Bleta <besnik@programeshqip.org>
+
+2007-01-18  Maximilian Schleiss <maximilian@xfce.org>
+
+	* de.po: Updated the German translation by
+	Fabian Nowak <timystery@arcor.de>
+
+2007-01-02  Maximilian Schleiss <maximilian@xfce.org>
+
+	* be.po: Added the Belarusian translation by
+	Ales Nyakhaychyk <nab@mail.by>
+	* fr.po: Added header information
+
+2006-12-15  Pau Rul-lan Ferragut <paurullan@bulma.net>
+
+    * ko.po: Updated Korean translations
+      by ByungHyun Choi <byunghyun.choi@debianusers.org>
+
+2006-11-27  Pau Rul-lan Ferragut <paurullan@bulma.net>
+
+	* ko.po: Update Korean Translations by
+	ByungHyun Choi <byunghyun.choi@debianusers.org>
+
+2006-11-05  Pau Rul-lan Ferragut <paurullan@bulma.net>
+
+	* fr.po: Added French translations by
+	Gerald Barre <g.barre@free.fr>
+
+2006-09-23  Jean-François Wauthy <pollux@xfce.org>
+	
+	* pl.po: Updated Polish translation by piotr maliński
+	<riklaunim@gmail.com>
+
+2006-09-18  Pau Rul-lan Ferragut <paurullan@bulma.net>
+
+	* ca.po: Add Catalan translations
+
+2006-09-17  Jean-François <pollux@xfce.org>
+
+	* pl.po: Updated Polish translations
+
+2006-09-13  Piarres Beobide <pi@beobide.net>
+
+	* eu.po: Basque trasnaltion updated.
+
+2006-07-29  Jean-François Wauthy <pollux@xfce.org>
+
+	* fr.po: Add French translations by Maximilian Schleiss
+	<maximilian@xfce.org>
+
+2006-04-08  Daichi Kawahata <daichi@xfce.org>
+
+	* pl.po: Added Polish translations by Piotr Malinski
+	  <admin@rk.edu.pl>.
+
+2006-04-02  Daichi Kawahata <daichi@xfce.org>
+
+	* de.po, eu.po, ko.po, vi.po: Updated.
+	* ja.po: Added Japanese translations.
+
+2006-02-23  Daichi Kawahata <daichi@xfce.org>
+
+	* vi.po: Added Vietnamese translations by Phan Vinh Thinh
+	  <teppi@vnlinux.org>.
+
+2006-02-22  Daichi Kawahata <daichi@xfce.org>
+
+	* hu.po: Updated.
+
+2006-02-15  Daichi Kawahata <daichi@xfce.org>
+
+	* eu.po: Added Basque translations by Piarres Beobide
+	  <pi@beobide.net>.
+
+2006-02-11  Szervac Attila <sas@321.hu>
+
+	* hu.po: Add Hungarian Translations.
+
+2005-11-02  ByungHyun Choi <byunghyunchoi@gmail.com>
+
+	* ko.po: Added Korean translations.
+
+2005-07-11  Benedikt Meurer <benny@xfce.org>
+
+	* ChangeLog, POTFILES.in, de.po, xfce4-wavelan-plugin.pot: Use
+	  xfce4-dev-tools. Add i18n support.
+

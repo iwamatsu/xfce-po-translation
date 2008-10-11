@@ -1,0 +1,117 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: launcher.po\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-18 00:44+0900\n"
+"PO-Revision-Date: 2006-10-24 16:19+0530\n"
+"Last-Translator: wangmo sherpa <rinwanshe@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../panel-plugin/triggerlauncher-old2.c:287
+msgid "Check status every"
+msgstr "གནས་ཚད་ཆ་མཉམ་རང་ཞིབ་དཔྱད་འབད།"
+
+#: ../panel-plugin/triggerlauncher-old2.c:296
+#: ../panel-plugin/xfce-trigger-launcher-options.c:132
+msgid "seconds"
+msgstr "སྐར་མ་ཚུ།"
+
+#: ../panel-plugin/triggerlauncher-old2.c:1005
+msgid "Icon (off)"
+msgstr "ངོས་དཔར་(ཨོཕ)།"
+
+#: ../panel-plugin/triggerlauncher-old2.c:1006
+msgid "Icon (on)"
+msgstr "ངོས་དཔར་(ཨཱོན)།"
+
+#: ../panel-plugin/triggerlauncher-old2.c:1143
+msgid "Two-state Launcher"
+msgstr "གནས་ལུགས་-གཉིས་ གསར་བཙུགས་འབད་མི།"
+
+#: ../panel-plugin/xfce-file-chooser-button.c:141
+msgid "Select Icon"
+msgstr "ངེས་དཔར་སེལ་འཐུ་འབད།"
+
+#: ../panel-plugin/xfce-file-chooser-button.c:146
+msgid "_Select"
+msgstr "སེལ་འཐུ་འབད།(_S)"
+
+#: ../panel-plugin/xfce-file-chooser-button.c:157
+msgid "(None Selected)"
+msgstr "(སེལ་འཐུ་མ་གྲུབ་པའི།)"
+
+#: ../panel-plugin/xfce-launcher-command-entry.c:118
+#, c-format
+msgid "Could not run \"%s\""
+msgstr "\"%s\" གཡོག་བཀོལ་འབད་མི་བཏུབ་པས།"
+
+#: ../panel-plugin/xfce-launcher-command-entry.c:120
+msgid "Xfce Panel"
+msgstr "ཨེགསི་ཨེཕ་སི་ཨི་ པེ་ནཱལ།"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:127
+msgid "Command To Check Status:"
+msgstr "གནས་ཚད་ཞིབ་དཔྱད་འབད་ནི་ལུ་བརྡ་བཀོད།:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:128
+msgid "Command To Enable:"
+msgstr "ལྕོགས་ཅན་བཟོ་ནི་ལུ་ བརྡ་བཀོད།:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:129
+msgid "Command To Disable:"
+msgstr "ལྕོགས་མིན་བཟོ་ནི་ལུ་ བརྡ་བཀོད།:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:130
+msgid "Command to Poke:"
+msgstr "གསོབ་ནི་ལུ་ བརྡ་བཀོད།:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:131
+msgid "Check Interval:"
+msgstr "བར་མཚམས་ཞིབ་དཔྱད་འབད།:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:134
+#: ../panel-plugin/xfce-trigger-launcher-options.c:135
+#: ../panel-plugin/xfce-trigger-launcher-options.c:136
+#: ../panel-plugin/xfce-trigger-launcher-options.c:137
+msgid "Icon:"
+msgstr "ངོས་དཔར།:"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:236
+msgid "To Check Status"
+msgstr "གནས་ཚད་ཞིབ་དཔྱད་འབད་ནིའི་དོན་ལུ།"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:237
+msgid "When Disabled"
+msgstr "ལྕོགས་མིན་བཟོ་ཡོད་པའི་སྐབས་སུ།"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:238
+msgid "When Enabled"
+msgstr "ལྕོགས་ཅན་བཟོ་ཡོད་པའི་སྐབས་སུ།"
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:239
+msgid "When Undefined"
+msgstr "ངེས་འཛིན་འབད་དེ་མེད་པའི་སྐབས་སུ། "
+
+#: ../panel-plugin/xfce-trigger-launcher-options.c:240
+msgid "When Dodgy"
+msgstr "གཡོག་བཀོལ་མ་བཏུབ་ད།"
+
+#: ../panel-plugin/xfce4-trigger-launcher.desktop.in.in.h:1
+msgid "Keeps track of the state of something and can control it"
+msgstr "ག་ཅི་ཅིག་གི་ གནས་ལུགས་ཀྱི་ རྗེས་འཚོལ་བཞག་སྟེ་ འདི་ ཚད་འཛིན་ཚུགསཔ་ཨིན།"
+
+#: ../panel-plugin/xfce4-trigger-launcher.desktop.in.in.h:2
+msgid "Trigger Launcher Plugin"
+msgstr "ཐར་རྟ་གསར་བཙུགས་འབད་མི་ པ་ལག་ཨིན།"

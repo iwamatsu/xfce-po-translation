@@ -1,0 +1,49 @@
+# Belarusian translation of the xfce4-wavelan-plugin package.
+# Copyright (C) Benedikt Meurer <benny@xfce.org>
+# This file is distributed under the same license as the xfce4-wavelan-plugin package.
+# Alexander Nyakhaychyk <nyakhaychyk@gmail.com>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-wavelan-plugin 0.5.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-02 02:06+0200\n"
+"PO-Revision-Date: 2007-01-02 02:08+0300\n"
+"Last-Translator: Alexander Nyakhaychyk <nyakhaychyk@gmail.com>\n"
+"Language-Team: Belarusian <xfce-i18n@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../panel-plugin/wavelan.c:187
+msgid "No carrier signal"
+msgstr "Адсутнічае сыгнал"
+
+#: ../panel-plugin/wavelan.c:217
+msgid "No device configured"
+msgstr "Прылада не наладжана"
+
+#: ../panel-plugin/wavelan.c:498
+msgid "Properties"
+msgstr "Уласьцівасьці"
+
+#: ../panel-plugin/wavelan.c:514
+msgid "Wavelan Plugin Options"
+msgstr "Опцыі модуля Wi-Fi"
+
+#: ../panel-plugin/wavelan.c:530
+msgid "Interface"
+msgstr "Картка"
+
+#: ../panel-plugin/wavelan.c:552
+msgid "_Autohide when offline"
+msgstr "_Хаваць, калі не далучаны"
+
+#: ../panel-plugin/wavelan.c:562
+msgid "Autohide when no hardware present"
+msgstr "Хаваць, калі адсутнічае прылада"
+
+#: ../panel-plugin/wavelan.c:573
+msgid "Note: This will make it difficult to remove or configure the plugin if there is no device detected."
+msgstr "Заўвага: гэтая опцыя зробіць вельмі складаным наладку альбо выдаленьне модулю, калі будзе адсутнічаць прылада."
+

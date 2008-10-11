@@ -1,0 +1,72 @@
+What is it?
+===========
+
+This is a Smart plugin for the Xfce panel, version 4.4.0 or higher. It
+checks for package updates using the Smart Package Manager (smartpm.org).
+
+It should work with both Fedora (RPM packages) and Ubuntu (DEB packages),
+and also with Slackware (TAR packages) although this has not been tested.
+
+It can also be configured, though with less features and functionality,
+to use either the Yum (+Extender) or APT (+Synaptic) package managers.
+
+Alternatively you can try the Slapt package manager (slapt-get and gslapt)
+for Slackware and Vector Linux, although these are highly experimental...
+
+Installation
+============
+
+The file 'INSTALL' contains generic installation instructions.
+
+For more detailed information, visit the Smart plugin website at:
+http://goodies.xfce.org/projects/panel-plugins/xfce4-smartpm-plugin
+
+If compiling directly from the trunk, you need to run `./autogen.sh`
+To make an RPM package, you can use "make rpm". For DEB, "make deb".
+
+To make a Slackware TAR package, use one of the tgz/tbz/tlz targets.
+(You will probably need to run that make command as the root user.)
+
+Usage
+=====
+
+You can set the appearance and preferences, in the panel settings dialog.
+
+Click the icon to launch the Smart install/upgrade GUI, or middle-click
+the icon to check for upgrades. This will check using local cache only.
+
+To update channels from the network, use the menu item or dialog button
+(install the setuid program "smart-update" to avoid sudo and the dialog)
+
+By default, the plugin will check for upgrades / updates on demand only.
+Recommended is to use check interval for upgrades, and cron for updates.
+
+Commands
+========
+
+The following table shows which Package Manager commands are being used:
+
+      +-------------------------------------+----------------------------------+
+P.M.  | CHECK FOR UPGRADES (local)          | UPDATE CHANNELS (network)        |
+      |=====================================|==================================|
+Smart | smart upgrade --dump                | smart-update                     |
+      |-------------------------------------|----------------------------------|
+Yum   | yum -C check-update                 | su -c "yum check-update"         |
+      |-------------------------------------|----------------------------------|
+APT   | apt-get --simulate dist-upgrade     | sudo apt-get update              |
+      |-------------------------------------|----------------------------------|
+Slapt | slapt-get --simulate --dist-upgrade | su -c "slapt-get --update"       |
+      +-------------------------------------+----------------------------------+
+
+Checking for upgrades or browsing packages can be done as a regular user,
+while updating channels or installing packages requires superuser privileges.
+
+The panel plugin will look for a consolehelper program called "smart-root",
+else try to use either "gksudo" or "gksu" to run the Smart package manager.
+
+How to report bugs?
+===================
+
+Bugs should be reported to the Xfce bug tracking system
+(http://bugzilla.xfce.org, product 'Xfce Panel Plugins', Component
+'Smart PM Plugin'). You will need to create an account for yourself.

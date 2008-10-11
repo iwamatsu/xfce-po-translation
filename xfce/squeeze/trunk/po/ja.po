@@ -1,0 +1,499 @@
+# French translation of the squeeze package.
+# Copyright (C) 2006-2007 Stephan Arts.
+# This file is distributed under the same license as the squeeze package.
+# Nobuhiro Iwamatsu <iwamatsu@nigauri.org>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Squeeze\n"
+"Report-Msgid-Bugs-To: stephan@xfce.org\n"
+"POT-Creation-Date: 2007-08-21 00:30+0200\n"
+"PO-Revision-Date: 2008-10-10 02:41+0900\n"
+"Last-Translator: Nobuhiro Iwamatsu <iwamatsu@nigauri.org>\n"
+"Language-Team: French <xfce-i18n@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../libsqueeze/archive.c:236
+msgid "Name"
+msgstr "名前"
+
+#: ../libsqueeze/archive.c:238
+msgid "Mime type"
+msgstr "MIME タイプ"
+
+#: ../squeeze.desktop.in.h:1
+msgid "Archive Manager"
+msgstr "アーカイブマネージャ"
+
+#: ../squeeze.desktop.in.h:2
+msgid "Create and manage archives with the archive manager"
+msgstr "アーカイブマネージャでアーカイブの作成と管理をする"
+
+#: ../squeeze.desktop.in.h:3
+msgid "Squeeze Archive Manager"
+msgstr "Squeeze アーカイブマネージャ"
+
+#.
+#. * Could not open archive (mime type not supported or file did not exist)
+#. * Should be a more specific error message.
+#.
+#: ../src/application.c:160
+#: ../src/application.c:250
+msgid "Could not open archive, MIME-type unsupported or file did not exist"
+msgstr "MIME タイプがサポートされていないかファイルがなかったため、アーカイブを開く事ができませんでした。"
+
+#: ../src/application.c:191
+#: ../src/main_window.c:826
+#: ../src/main_window.c:1260
+msgid ""
+"Squeeze cannot extract this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"サポートするアプリケーションがないため、\n"
+"Squeeze は このアーカイブタイプを展開できません。"
+
+#.
+#. * Could not create archive (mime type unsupported)
+#.
+#: ../src/application.c:233
+msgid "Could not create archive, MIME-type unsupported"
+msgstr "MIME タイプがサポートされていないため、アーカイブを作成できませんでした"
+
+#: ../src/application.c:268
+#: ../src/main_window.c:874
+msgid ""
+"Squeeze cannot add files to this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"サポートするアプリケーションがないため、\n"
+"Squeeze はこのアーカイブタイプのファイルを追加できません。"
+
+#: ../src/archive_store.c:249
+#: ../src/notebook.c:179
+msgid "Show full path"
+msgstr "フルパスを表示"
+
+#: ../src/archive_store.c:250
+#: ../src/notebook.c:180
+msgid "Show the full path strings for each entry"
+msgstr "各エントリにフルパスの文字列を表示"
+
+#: ../src/archive_store.c:256
+#: ../src/notebook.c:186
+msgid "Show mime icons"
+msgstr "MIME アイコンを表示"
+
+#: ../src/archive_store.c:257
+#: ../src/notebook.c:187
+msgid "Show the mime type icons for each entry"
+msgstr "各エントリに MIME タイプアイコンを表示"
+
+#: ../src/archive_store.c:263
+msgid "Show up dir entry"
+msgstr "上のディレクトリエントリを表示"
+
+#: ../src/archive_store.c:264
+msgid "Show '..' to go to the parent directory"
+msgstr "親ディレクトリに行くための '..' を表示"
+
+#: ../src/archive_store.c:270
+#: ../src/notebook.c:193
+msgid "Sort folders before files"
+msgstr "ファイルの前にフォルダを分類"
+
+#: ../src/archive_store.c:271
+#: ../src/notebook.c:194
+msgid "The folders will be put at the top of the list"
+msgstr "フォルダーはリスト頭に置かれます"
+
+#: ../src/archive_store.c:277
+#: ../src/archive_store.c:278
+#: ../src/notebook.c:200
+#: ../src/notebook.c:201
+msgid "Sort text case sensitive"
+msgstr "大文字と小文字でテキストファイルを分類"
+
+#: ../src/extract_dialog.c:76
+msgid "<b>Extract files:</b>"
+msgstr "<b>展開ファイル :</b>"
+
+#: ../src/extract_dialog.c:77
+msgid "<b>Options:</b>"
+msgstr "<b>オプション :</b>"
+
+#: ../src/extract_dialog.c:87
+msgid "All files"
+msgstr "全てのファイル"
+
+#: ../src/extract_dialog.c:88
+msgid "Selected files"
+msgstr "選択されたファイル"
+
+#: ../src/extract_dialog.c:100
+#: ../src/main_window.c:451
+#: ../src/main_window.c:1219
+msgid "Extract"
+msgstr "展開"
+
+#: ../src/extract_dialog.c:110
+msgid "Extract archive"
+msgstr "アーカイブを展開"
+
+#: ../src/main.c:51
+msgid "[destination path]"
+msgstr "[移動先パス]"
+
+#: ../src/main.c:59
+msgid "[archive path] [file1] [file2] ... [fileN]"
+msgstr "[アーカイブパス] [ファイル1] [ファイル2] ... [ファイルN]"
+
+#: ../src/main.c:63
+msgid "[file1] [file2] ... [fileN]"
+msgstr "[ファイル1] [ファイル2] ... [ファイルN]"
+
+#: ../src/main.c:66
+msgid "Version information"
+msgstr "バージョン情報"
+
+#: ../src/main.c:92
+msgid "[archive name]"
+msgstr "[アーカイブ名]"
+
+#: ../src/main.c:96
+#, c-format
+msgid ""
+"%s: %s\n"
+"Try %s --help to see a full list of available command line options.\n"
+msgstr ""
+"%s : %s\n"
+"利用可能なコマンドラインオプションの完全なリストを見るために %s --help を試してください。\n"
+
+#: ../src/main_window.c:133
+msgid "Internal Style"
+msgstr "内部スタイル"
+
+#: ../src/main_window.c:134
+msgid "Tool Bar Style"
+msgstr "ツールバースタイル"
+
+#: ../src/main_window.c:135
+msgid "Path Bar Style"
+msgstr "パスバースタイル"
+
+#: ../src/main_window.c:182
+msgid "Navigation Style"
+msgstr "ナビゲーションスタイル"
+
+#: ../src/main_window.c:183
+msgid ""
+"Style of navigation\n"
+"The style to navigate trough the archive"
+msgstr ""
+"ナビゲーションのスタイル\n"
+"アーカイブを通してナビゲートするスタイル"
+
+#. File menu
+#: ../src/main_window.c:295
+msgid "_File"
+msgstr "ファイル(_F)"
+
+#. Action menu: ref all the childs
+#: ../src/main_window.c:323
+msgid "_Action"
+msgstr "動作(_A)"
+
+#: ../src/main_window.c:328
+msgid "_Add files"
+msgstr "ファイルの追加(_A)"
+
+#: ../src/main_window.c:334
+msgid "_Add _folders"
+msgstr "フォルダの追加(_A  _f)"
+
+#: ../src/main_window.c:340
+msgid "_Extract"
+msgstr "展開(_E)"
+
+#. View menu
+#: ../src/main_window.c:373
+msgid "_View"
+msgstr "表示(_V)"
+
+#. Help menu
+#: ../src/main_window.c:397
+msgid "_Help"
+msgstr "ヘルプ"
+
+#: ../src/main_window.c:443
+#: ../src/main_window.c:852
+msgid "Add files"
+msgstr "ファイルの追加"
+
+#: ../src/main_window.c:447
+#: ../src/main_window.c:894
+msgid "Add folders"
+msgstr "フォルダの追加"
+
+#: ../src/main_window.c:724
+msgid "Open archive in new window"
+msgstr "新しいウィンドウでアーカイブを開く"
+
+#: ../src/main_window.c:730
+msgid "Open archive"
+msgstr "アーカイブを開く"
+
+#: ../src/main_window.c:916
+msgid ""
+"Squeeze cannot add folders to this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"サポートするアプリケーションがないため、\n"
+"Squeeze はこのアーカイブタイプにフォルダを追加できません。"
+
+#: ../src/main_window.c:937
+msgid "Are you sure you want to remove the selected files?"
+msgstr "本当に選択されたファイルを削除しますか？"
+
+#: ../src/main_window.c:950
+msgid ""
+"Squeeze cannot remove files from this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"サポートするアプリケーションがないため、\n"
+"Squeeze はこのアーカイブタイプからファイルを削除できません。"
+
+#: ../src/main_window.c:999
+msgid ""
+"Are you sure you want to cancel this operation?\n"
+"This could damage the archive."
+msgstr ""
+"本当にこの操作をキャンセルしてもよろしいですか？\n"
+"アーカイブを破損するかもしれません。"
+
+#: ../src/main_window.c:1081
+msgid "Lead developer:"
+msgstr "中心開発者:"
+
+#: ../src/main_window.c:1084
+msgid "Contributors:"
+msgstr "貢献者:"
+
+#: ../src/main_window.c:1087
+msgid "Inspired by Xarchiver, written by Giuseppe Torelli"
+msgstr "Giuseppe Torelli によって作成された Xarchiver からヒントを得ました"
+
+#: ../src/main_window.c:1089
+msgid "Application Icon:"
+msgstr "アプリケーションアイコン :"
+
+#: ../src/main_window.c:1092
+msgid "Add / Extract icons:"
+msgstr "追加 / 展開 用アイコン :"
+
+#: ../src/main_window.c:1093
+msgid "Based on the original extract icon created by Andreas Nilsson"
+msgstr "Andreas Nilsson によって作成されたオリジナルの展開用アイコンがベースです"
+
+#: ../src/main_window.c:1100
+msgid "Squeeze is a lightweight and flexible archive manager for the Xfce Desktop Environment"
+msgstr "Squeeze は Xfce デスクトップ環境向けの軽量かつ柔軟なアーカイブマネージャです"
+
+#. Translator credits as shown in the about dialog: NAME <E-MAIL> YEAR
+#: ../src/main_window.c:1108
+msgid "translator-credits"
+msgstr "Nobuhiro Iwamatsu <iwamatsu@nigauri.org>"
+
+#: ../src/main_window.c:1137
+#: ../src/main_window.c:1208
+#: ../src/main_window.c:1376
+msgid "Done"
+msgstr "完了"
+
+#: ../src/main_window.c:1218
+msgid "Which action do you want to perform on the selected file(s)?"
+msgstr "選択されたファイルをどの動作で実行したいですか？"
+
+#: ../src/main_window.c:1219
+msgid "Open"
+msgstr "開く"
+
+#: ../src/main_window.c:1233
+msgid ""
+"Squeeze cannot view this file.\n"
+"the application to support this is missing."
+msgstr ""
+"サポートするアプリケーションがないため、\n"
+"Squeeze はこのファイルを表示できません。"
+
+#: ../src/main_window.c:1301
+msgid "Failed to open file"
+msgstr "ファイルのオープンに失敗しました"
+
+#: ../src/main_window.c:1302
+#, c-format
+msgid ""
+"'%s'\n"
+"Could not be opened"
+msgstr ""
+"'%s'\n"
+"開くことができませんでした"
+
+#: ../src/new_dialog.c:69
+msgid "Archive type:"
+msgstr "アーカイブタイプ :"
+
+#: ../src/new_dialog.c:80
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: ../src/new_dialog.c:108
+msgid "Create new archive"
+msgstr "新しいアーカイブを作成する"
+
+#: ../src/notebook.c:207
+msgid "Rules hint"
+msgstr "ヒントのルール"
+
+#: ../src/notebook.c:208
+msgid "Make the row background colors alternate"
+msgstr "列の背景色を代わりを作成"
+
+#: ../src/path_bar.c:141
+msgid "Spacing"
+msgstr "間隔"
+
+#: ../src/path_bar.c:142
+msgid "The amount of space between the path buttons"
+msgstr "パスボタン間のスペースの合計"
+
+#: ../src/tool_bar.c:167
+msgid "Location:"
+msgstr "場所:"
+
+#: ../src/message_dialog.c:158
+msgid "Archive manager"
+msgstr "アーカイブマネージャ"
+
+#~ msgid "Compressing"
+#~ msgstr "Compression en cours"
+#~ msgid "Decompressing"
+#~ msgstr "Décompression"
+#~ msgid "Refresh"
+#~ msgstr "Rafraîchir"
+#~ msgid "Rights"
+#~ msgstr "Droits"
+#~ msgid "Owner/Group"
+#~ msgstr "Propriétaire/Groupe"
+#~ msgid "Size"
+#~ msgstr "Taille"
+#~ msgid "Date"
+#~ msgstr "Date"
+#~ msgid "Time"
+#~ msgstr "Temps"
+#~ msgid "Cleanup"
+#~ msgstr "Nettoyage"
+#~ msgid "Removing files"
+#~ msgstr "Suppression de fichiers"
+#~ msgid "Removing"
+#~ msgstr "Suppression"
+#~ msgid "Extracting"
+#~ msgstr "Extraction"
+#~ msgid "Compressed"
+#~ msgstr "Compressé"
+#~ msgid "Ratio"
+#~ msgstr "Ratio"
+#~ msgid "Method"
+#~ msgstr "Méthode"
+#~ msgid "Version"
+#~ msgstr "Version"
+#~ msgid "Adding"
+#~ msgstr "Ajout"
+#~ msgid "Execute"
+#~ msgstr "Exécuter"
+#~ msgid "Command exited with status %d."
+#~ msgstr "La commande s'est terminée avec un état %d."
+#~ msgid "Command interrupted by user"
+#~ msgstr "Commande interrompue par l'utilisateur"
+#~ msgid "Command received SIGSEGV"
+#~ msgstr "La commande a reçu un signal SIGSEGV"
+#~ msgid "Command Terminated"
+#~ msgstr "Commande terminée"
+#~ msgid "Files and directories to add"
+#~ msgstr "Fichiers et répertoires à ajouter"
+#~ msgid "Options:"
+#~ msgstr "Options :"
+#~ msgid "Files"
+#~ msgstr "Fichiers"
+#~ msgid "Directories"
+#~ msgstr "Répertoires"
+#~ msgid "Add file(s) to archive"
+#~ msgstr "Ajouter un ou des fichiers à l'archive"
+#~ msgid "Select files"
+#~ msgstr "Sélectionner les fichiers"
+#~ msgid "Select folders"
+#~ msgstr "Sélectionner les dossiers"
+#~ msgid "_Add"
+#~ msgstr "_Ajouter"
+#~ msgid "Add"
+#~ msgstr "Ajouter"
+#~ msgid "Xfce archive manager"
+#~ msgstr "Gestionnaire d'archives pour Xfce"
+#~ msgid "Artwork:"
+#~ msgstr "Images :"
+#~ msgid "idle"
+#~ msgstr "en attente"
+
+#, fuzzy
+#~ msgid "Owner"
+#~ msgstr "Propriétaire/Groupe"
+#~ msgid "Overwrite existing files"
+#~ msgstr "Écraser les fichiers existants"
+#~ msgid "Overwrite existing files on extraction"
+#~ msgstr "Écraser les fichiers existants à l'extraction"
+#~ msgid "Touch files"
+#~ msgstr "\"Touch\" fichiers"
+#~ msgid "Strip directories"
+#~ msgstr "Enlever les répertoires"
+#~ msgid "Keep newer files"
+#~ msgstr "Garder les fichiers plus récents"
+#~ msgid "Do not overwrite files newer than those in the archive"
+#~ msgstr "Ne pas écraser les fichiers plus récents que ceux dans l'archive"
+#~ msgid "Override permissions"
+#~ msgstr "Outrepasser les permissions"
+#~ msgid "View filesize"
+#~ msgstr "Voir la taille du fichier"
+#~ msgid "Permissions"
+#~ msgstr "Permissions"
+#~ msgid "View permissions"
+#~ msgstr "Voir les permissions"
+#~ msgid "View date"
+#~ msgstr "Voir la date"
+#~ msgid "View time"
+#~ msgstr "Voir le temps"
+#~ msgid "Password"
+#~ msgstr "Mot de passe"
+#~ msgid "View compressed filesize"
+#~ msgstr "Voir la taille du fichier compressé"
+#~ msgid "View ratio"
+#~ msgstr "Voir le ratio de compression"
+#~ msgid "View method"
+#~ msgstr "Voir la méthode"
+#~ msgid "Checksum"
+#~ msgstr "Checksum"
+#~ msgid "View Checksum"
+#~ msgstr "Voirle checksum"
+#~ msgid "Compression version"
+#~ msgstr "Version de la compression"
+#~ msgid "View compression version"
+#~ msgstr "voir la version de la compression"
+#~ msgid "Append extension to filename"
+#~ msgstr "Ajouter l'extension de l'archive au nom de fichier"
+#~ msgid "Name:"
+#~ msgstr "Nom :"
+#~ msgid "Kind:"
+#~ msgstr "Genre :"
+#~ msgid "Properties"
+#~ msgstr "Propriétés"
+

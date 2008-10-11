@@ -1,0 +1,122 @@
+# Korean translations for xfce4-netload-plugin package.
+# Copyright (C) Free Software Foundation
+# This file is distributed under the same license as the xfce4-netload-plugin package.
+# ByungHyun Choi<byunghyun.choi@debianusers.org>, 2005.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-netload-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-05 02:01+0100\n"
+"PO-Revision-Date: 2007-02-20 12:45+0900\n"
+"Last-Translator: ByungHyun Choi<byunghyun.choi@debianusers.org>\n"
+"Language-Team: xfce4-users-kr-i18n <xfce4-users-kr-i18n@lists.sourceforge."
+"net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../panel-plugin/netload.c:57
+msgid "Xfce4-Netload-Plugin"
+msgstr "Xfce4 네트웍 감시"
+
+#: ../panel-plugin/netload.c:60
+msgid "Unknown error."
+msgstr "알 수 없는 오류."
+
+#: ../panel-plugin/netload.c:61
+msgid "Linux proc device '/proc/net/dev' not found."
+msgstr "Linux proc 장치 '/proc/net/dev'를 못 찾겠습니다."
+
+#: ../panel-plugin/netload.c:62
+msgid "Interface was not found."
+msgstr "네트웍 장치를 못 찾겠습니다."
+
+#: ../panel-plugin/netload.c:144
+#, c-format
+msgid "<< %s >> (Interface down)"
+msgstr "<< %s >> (사망)"
+
+#: ../panel-plugin/netload.c:228
+#, c-format
+msgid ""
+"<< %s >> (%s)\n"
+"Average of last %d measures:\n"
+"Incoming: %s kByte/s\n"
+"Outgoing: %s kByte/s\n"
+"Total: %s kByte/s"
+msgstr ""
+"<< %s >> (%s)\n"
+"최근 %d 회 측정 평균:\n"
+"들어오는 것: %s kByte/s\n"
+"나가는 것: %s kByte/s\n"
+"전부: %s kByte/s"
+
+#: ../panel-plugin/netload.c:230
+msgid "no IP address"
+msgstr "IP 주소가 없습니다."
+
+#: ../panel-plugin/netload.c:468
+#, c-format
+msgid ""
+"%s: Error in initalizing:\n"
+"%s"
+msgstr ""
+"%s: 초기화 도중 오류 발생:\n"
+"%s"
+
+#: ../panel-plugin/netload.c:773
+msgid "Select color"
+msgstr "색상을 선택하십시오."
+
+#: ../panel-plugin/netload.c:839
+msgid "Bar color (incoming):"
+msgstr "막대 색(들어오는 것):"
+
+#: ../panel-plugin/netload.c:840
+msgid "Bar color (outgoing):"
+msgstr "막대 색(나가는 것):"
+
+#: ../panel-plugin/netload.c:843
+msgid "Maximum (incoming):"
+msgstr "최대 (들어오는 것):"
+
+#: ../panel-plugin/netload.c:844
+msgid "Maximum (outgoing):"
+msgstr "최대 (나가는 것)"
+
+#: ../panel-plugin/netload.c:849 ../panel-plugin/netload.desktop.in.in.h:1
+msgid "Network Monitor"
+msgstr "네트웍 감시:"
+
+#: ../panel-plugin/netload.c:878
+msgid "Text to display:"
+msgstr "표시:"
+
+#: ../panel-plugin/netload.c:909
+msgid "Network device:"
+msgstr "네트웍 장치:"
+
+#: ../panel-plugin/netload.c:935
+msgid "Update interval:"
+msgstr "검사 간격:"
+
+#: ../panel-plugin/netload.c:946
+msgid "s"
+msgstr "초"
+
+#: ../panel-plugin/netload.c:959
+msgid "Automatic maximum"
+msgstr "최대치 자동 설정"
+
+#: ../panel-plugin/netload.c:991
+msgid "kByte/s"
+msgstr "kByte/s"
+
+#: ../panel-plugin/netload.desktop.in.in.h:2
+msgid "Show network traffic"
+msgstr "네트웍 상태 보임"
+
+#~ msgid "Netload"
+#~ msgstr "네트워크 감시"

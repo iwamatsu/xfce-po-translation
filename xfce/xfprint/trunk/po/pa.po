@@ -1,0 +1,506 @@
+# translation of pa.po to Punjabi
+# Punjabi translations for xfprint package.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfprint package.
+#
+# Jaswinder Singh Phulewala <jaswinderphulewala@yahoo.com>, 2004.
+# A S Alam <aalam@users.sf.net>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-14 15:26+0200\n"
+"PO-Revision-Date: 2007-01-07 15:41+0530\n"
+"Last-Translator: A S Alam <aalam@users.sf.net>\n"
+"Language-Team: Punjabi <fedora-trans-pa@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "ਪਰਿੰਟਰ"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "ਬਾਹਰ"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "xfprint4-ਮੈਨੇਜਰ ਬੰਦ ਕਰੋ"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "ਇਸ ਬਾਰੇ"
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "xfprint4-ਮੈਨੇਜਰ ਬਾਰੇ"
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "xfprint4-ਮੈਨੇਜਰ ਬਾਰੇ ਜਾਣਕਾਰੀ ਵੇਖਾਓ"
+
+#: ../libxfprint/printer-list-window.c:140
+msgid "Printer manager"
+msgstr "ਪਰਿੰਟਰ ਮੈਨੇਜਰ"
+
+#: ../libxfprint/printer-list-window.c:206
+msgid "Alias name"
+msgstr "ਉਪ-ਨਾਂ"
+
+#: ../libxfprint/printer-list-window.c:210
+#: ../libxfprint/printer-queue-window.c:217
+msgid "State"
+msgstr "ਹਾਲਤ"
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Xfprint printers manager"
+msgstr "Xfprint ਪਰਿੰਟਰ ਮੈਨੇਜਰ"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:269
+msgid "Former maintainer"
+msgstr "ਪੁਰਾਣਾ ਮੇਨਟੇਨਰ"
+
+#: ../libxfprint/printer-list-window.c:270
+msgid "Maintainer"
+msgstr "ਮੇਨਟੇਨਰ"
+
+#: ../libxfprint/printer-list-window.c:271
+msgid "Artist"
+msgstr "ਕਲਾਕਾਰ"
+
+#: ../libxfprint/printer-list-window.c:334
+msgid "Unknown"
+msgstr "ਅਣਜਾਣ"
+
+#: ../libxfprint/printer-list-window.c:337
+msgid "Idle"
+msgstr "ਆਈਡਲ"
+
+#: ../libxfprint/printer-list-window.c:340
+msgid "Processing"
+msgstr "ਕਾਰਵਾਈ"
+
+#: ../libxfprint/printer-list-window.c:343
+msgid "Stopped"
+msgstr "ਰੋਕਿਆ ਗਿਆ"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "ਬੰਦ ਕਰੋ"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "ਕਿਊ ਵਿੰਡੋ ਬੰਦ ਕਰੋ"
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr "ਜਾਬ"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:385
+#: ../libxfprint/printer-queue-window.c:389
+msgid "Remove job"
+msgstr "ਜਾਬ ਹਟਾਓ"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "ਕਿਊ ਤੋਂ ਚੁਣੇ ਜਾਬ ਹਟਾਓ"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "ਤਾਜ਼ਾ"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "ਕਿਊ ਤਾਜ਼ਾ"
+
+#: ../libxfprint/printer-queue-window.c:122
+#: ../libxfprint/printer-queue-window.c:538
+msgid "Queue Manager"
+msgstr "ਕਿਊ ਮੈਨੇਜਰ"
+
+#: ../libxfprint/printer-queue-window.c:207
+msgid "Name"
+msgstr "ਨਾਂ"
+
+#: ../libxfprint/printer-queue-window.c:211
+msgid "ID"
+msgstr "ID"
+
+#: ../libxfprint/printer-queue-window.c:214
+msgid "User"
+msgstr "ਯੂਜਰ"
+
+#: ../libxfprint/printer-queue-window.c:220
+msgid "Size"
+msgstr "ਆਕਾਰ"
+
+#: ../libxfprint/printer-queue-window.c:223
+msgid "Priority"
+msgstr "ਪਰਿਉਰਟੀ"
+
+#: ../libxfprint/printer-queue-window.c:226
+msgid "Creation time"
+msgstr "ਬਣਾਉਣ ਟਾਈਮ"
+
+#: ../libxfprint/printer-queue-window.c:229
+msgid "Processing time"
+msgstr "ਪ੍ਰੋਸੈਸਿੰਗ ਟਾਈਮ"
+
+#: ../libxfprint/printer-queue-window.c:382
+msgid "Are you sure you want to remove the job "
+msgstr "ਕੀ ਤੁਸੀਂ ਜਾਬ ਹਟਾਉਣੀ ਚਾਹੁੰਦੇ ਹੋ "
+
+#: ../libxfprint/printer-queue-window.c:388
+msgid "Don't remove job"
+msgstr "ਜਾਬ ਨਾ ਹਟਾਓ"
+
+#: ../libxfprint/printer-queue-window.c:395
+msgid "An error occurred while removing job !"
+msgstr "ਜਾਬ ਹਟਾਉਣ ਦੌਰਾਨ ਗਲਤੀ ਆਈ ਹੈ !"
+
+#: ../libxfprint/printer-queue-window.c:446
+msgid "pending"
+msgstr "ਪੈਡਿੰਗ"
+
+#: ../libxfprint/printer-queue-window.c:449
+msgid "printing"
+msgstr "ਪ੍ਰਿੰਟਿੰਗ"
+
+#: ../libxfprint/printer-queue-window.c:452
+msgid "Kb"
+msgstr "Kb"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "ਪ੍ਰਿੰਟਿੰਗ ਸਿਸਟਮ"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "ਪ੍ਰਿੰਟਿੰਗ ਸਿਸਟਮ ਚੋਣ"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "ਜਾਣਕਾਰੀ"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "ਵੇਰਵਾ"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "ਵਰਜਨ"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "ਲੇਖਕ"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "ਮੁੱਖ ਸਫ਼ਾ"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "ਕੋਈ ਨਹੀਂ"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr "ਜੇ ਤੁਸੀਂ ਫਾਇਲ ਦੇ ਤੌਰ ਤੇ ਛਾਪਣਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਇਹ ਬੈਕਐਂਡ ਵਰਤੋਂ।"
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "ਐਕਸਐਫ-ਪ੍ਰਿੰਟ ਲਈ BSD-LPR ਪ੍ਰਿੰਟਿੰਗ ਸਿਸਟਮ"
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr "Xfprint ਲਈ CUPS ਪ੍ਰਿੰਟਿੰਗ ਸਿਸਟਮ ਸਹਿਯੋਗ"
+
+#: ../printing-systems/cups/cups.c:48
+msgid "Set as default printer"
+msgstr "ਮੂਲ ਪਰਿੰਟਰ ਬਣਾਓ"
+
+#: ../printing-systems/cups/cups.c:49
+msgid "Set as default CUPS printer"
+msgstr "ਮੂਲ CUPS ਪਰਿੰਟਰ ਵਾਂਗ ਸੈੱਟ ਕਰੋ"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "ਵਿਸ਼ੇਸ਼ਤਾ"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "ਪਰਿੰਟਰ ਵਿਸ਼ੇਸ਼ਤਾ ਵੇਖਾਓ"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "ਗੁਪਤ-ਕੋਡ"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "ਯੂਜਰ:"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "ਗੁਪਤ-ਕੋਡ :"
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr "ਤੁਹਾਨੂੰ ਇੱਕ ਉਪਭੋਗੀ-ਨਾਂ ਦੇਣਾ ਪਵੇਗਾ!"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "ਪ੍ਰਿੰਟ ਹੈਡਰ"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "ਹੈਡਰ:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "ਅੰਡਰਲੇਅ:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "ਸੈਂਟਰ ਟਾਇਟਲ:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "ਖੱਬਾ ਟਾਇਟਲ:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "ਸੱਜਾ ਟਾਇਟਲ:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "ਸੈਂਟਰ ਫੁੱਟਰ:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "ਖੱਬਾ ਫੁੱਟਰ:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "ਸੱਜਾ ਫੁੱਟਰ:"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "ਇੰਕੋਡਿੰਗ:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "ਸਭ ਪੇਜ਼ ਛਾਪੋ"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "ਇਸ ਤੋਂ ਲੈਕੇ ਪੇਜ਼ ਛਾਪੋ"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "ਲੰਬੀਆਂ ਲਾਈਨਾਂ ਕੱਟੋ"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "TAB, BS ਅਤੇ FF ਅੱਖਰ ਇੰਟਰਪਰੇਟ ਕਰੋ"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "ਬਾਇਨਰੀ ਛਾਪਾਈ ਲਈ ਮਜਬੂਰ"
+
+#: ../xfprint/main.c:116
+msgid "Select file to print"
+msgstr "ਛਾਪਣ ਲਈ ਫਾਇਲ ਚੁਣੋ"
+
+#: ../xfprint/main.c:128
+msgid "The specified file does not exist"
+msgstr "ਦਿੱਤੀ ਫਾਇਲ ਮੌਜੂਦ ਨਹੀਂ ਹੈ"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "ਭਾਸ਼ਾ:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "ਹਾਈਲਾਇਟ ਲੈਵਲ:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "ਸਟਰਿੱਪ ਲੈਵਲ:"
+
+#: ../xfprint/print_dialog.c:204
+msgid "Save settings"
+msgstr "ਸੈਟਿੰਗ ਸੰਭਾਲੋ"
+
+#: ../xfprint/print_dialog.c:212
+msgid "Xfprint"
+msgstr "Xfprint"
+
+#: ../xfprint/print_dialog.c:220
+msgid "Print to:"
+msgstr "ਛਾਪੋ:"
+
+#: ../xfprint/print_dialog.c:250
+msgid "Print to file:"
+msgstr "ਛਾਪਣ ਲਈ ਫਾਈਲ:"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Sheets"
+msgstr "ਸ਼ੀਟਾਂ"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Virtual pages"
+msgstr "ਵੁਰਚੁਅਲ ਪੇਜ਼"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Pretty-printing"
+msgstr "ਪ੍ਰੀਟੀ-ਪ੍ਰਿੰਟਿੰਗ"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Input"
+msgstr "ਇੰਪੁੱਟ"
+
+#: ../xfprint/print_dialog.c:300
+msgid "Headings"
+msgstr "ਹੈਡਿੰਗ"
+
+#: ../xfprint/print_dialog.c:309
+msgid "Copies:"
+msgstr "ਕਾਪੀ:"
+
+#: ../xfprint/print_dialog.c:316
+msgid "Apply filters"
+msgstr "ਫਿਲਟਰ ਲਾਗੂ ਕਰੋ"
+
+#: ../xfprint/print_dialog.c:371
+msgid ""
+"Neither the printing system backend or a2ps could be found on your system, "
+"you won't be able to print a file with xfprint !"
+msgstr ""
+"ਨਾ ਤਾਂ ਪ੍ਰਿੰਟਿੰਗ ਸਿਸਟਮ ਬੈਕਐਂਡ ਅਤੇ ਨਾ ਹੀ a2ps ਤੁਹਾਡੇ ਸਿਸਟਮ ਉੱਤੇ ਮਿਲਿਆ ਹੈ, ਤੁਸੀਂ xfprint ਨਾਲ "
+"ਇੱਕ ਫਾਇਲ ਨਹੀਂ ਛਾਪ ਸਕੋਗੇ!"
+
+#: ../xfprint/print_dialog.c:486
+msgid "An error occurred while trying to print the file"
+msgstr "ਫਾਇਲ ਛਾਪਣ ਦੌਰਾਨ ਇੱਕ ਗਲਤੀ ਆਈ ਹੈ"
+
+#: ../xfprint/print_dialog.c:523
+msgid "Select file where to print"
+msgstr "ਛਾਪਣ ਲਈ ਫਾਈਲ ਚੁਣੋ"
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "ਪੇਪਰ-ਸਾਈਜ਼:"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "ਪੋਰਟਰੇਟ"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "ਲੈਂਡਸਕੇਪ"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "ਕਾਲਮ:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "ਪਹਿਲਾਂ ਕਾਲਮ ਭਰੋ"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "ਪਹਿਲਾਂ ਕਤਾਰਾਂ ਭਰੋ"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "ਕਤਾਰਾਂ:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "ਕਾਲਮਾਂ ਦੁਆਲੇ ਬਾਰਡਰ ਛਾਪੋ"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "ਪੇਜ਼ ਰੀਵਰਸ ਕ੍ਰਮ 'ਚ ਛਾਪੋ"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "ਲਾਈਨ ਨੰਬਰ:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "ਪ੍ਰਤੀ ਪੇਜ਼ ਲਾਇਨਾਂ:"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "ਪ੍ਰਤੀ ਲਾਇਨ ਅੱਖਰ:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "ਸਾਰਣੀ ਸਾਈਜ਼:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "ਨਾ-ਛਾਪਣਯੋਗ ਫਾਰਮੈਟ:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr "ਤੁਹਾਨੂੰ ਪਰਿੰਟਿੰਗ ਸਿਸਟਮ ਬੈਕਐਂਡ ਚੁਣਨ ਲਈ ਸਹਾਇਕ ਹੈ, ਜੋ ਕਿ xfprint ਵਰਤੇਗਾ"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+msgid "Printing System Settings"
+msgstr "ਪ੍ਰਿੰਟਿੰਗ ਸਿਸਟਮ ਸੈਟਿੰਗ"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+msgid "Xfce 4 Printing System Settings"
+msgstr "Xfce 4 ਪ੍ਰਿੰਟਿੰਗ ਸਿਸਟਮ ਸੈਟਿੰਗ"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+msgid "Print Manager"
+msgstr "ਛਾਪਣ ਮੈਨੇਜਰ"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr "ਪਰਿੰਟਰ ਲਿਸਟ ਵੇਖਾਉਦੀ ਹੈ ਅਤੇ ਤੁਸੀਂ ਆਪਣੇ ਜਾਬ ਦਾ ਪਰਬੰਧ ਕਰ ਸਕਦੇ ਹੋ"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+msgid "Xfce 4 Print Manager"
+msgstr "Xfce 4 ਛਪਾਈ ਮੈਨੇਜਰ"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "ਛਾਪਣ ਡਾਈਲਾਗ"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr "ਇੱਕ ਫਾਇਲ ਛਾਪਣ ਅਤੇ ਤੁਹਾਨੂੰ ਇਸਦਾ ਖਾਕਾ ਸੈੱਟਅੱਪ ਕਰਨ ਲਈ"
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "Xfce 4 ਛਾਪਣ ਡਾਈਲਾਗ"
+

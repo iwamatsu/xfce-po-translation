@@ -1,0 +1,90 @@
+# Portuguese translations for xfvnc package.
+# Copyright (C) 2007 THE Xfvnc'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfvnc package.
+# Fábio Nogueira <deb-user-ba@ubuntu.com>, 2007, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfvnc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-11-02 01:40-0700\n"
+"PO-Revision-Date: 2007-11-09 09:07-0300\n"
+"Last-Translator: Fábio Nogueira <deb-user-ba@ubuntu.com>\n"
+"Language-Team: Brazilian Portuguese <ldp-br@bazar2.conectiva.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../xfvnc/main.c:28
+msgid "Connected.  Starting session..."
+msgstr "Conectado.  Iniciando sessão..."
+
+#: ../xfvnc/main.c:50
+#, c-format
+msgid "XfVNC .:. %s"
+msgstr "XfVNC .:. %s"
+
+#: ../xfvnc/main.c:64
+msgid "Connection Error"
+msgstr "Erro de Conexão"
+
+#: ../xfvnc/main.c:66
+msgid "There was an error connecting to the VNC server"
+msgstr "Ocorreu um erro conectando ao servidor VNC"
+
+#: ../xfvnc/main.c:67
+msgid "Unfortunately, the type of error is unknown."
+msgstr "Infelizmente, o tipo de erro é desconhecido."
+
+#: ../xfvnc/xfvnc.desktop.in.h:1
+msgid "VNC Viewer"
+msgstr "Visualizador VNC"
+
+#: ../xfvnc/xfvnc.desktop.in.h:2 ../xfvnc/xfvnc.glade.h:4
+msgid "XfVNC"
+msgstr "XfVNC"
+
+#: ../xfvnc/xfvnc.desktop.in.h:3
+msgid "Xfce VNC Viewer Application"
+msgstr "Aplicativo Visualizador VNC do Xfce"
+
+#: ../xfvnc/xfvnc.glade.h:1
+msgid "Connecting..."
+msgstr "Conectando..."
+
+#: ../xfvnc/xfvnc.glade.h:2
+msgid "Display _number:"
+msgstr "Exibir _número:"
+
+#: ../xfvnc/xfvnc.glade.h:3
+msgid "Show _fullscreen"
+msgstr "Mostrar _tela cheia"
+
+#: ../xfvnc/xfvnc.glade.h:5
+msgid "XfVNC Status"
+msgstr "Status do XfVNC"
+
+#: ../xfvnc/xfvnc.glade.h:6
+msgid "Xfce VNC Viewer"
+msgstr "Visualizador VNC do Xfce"
+
+#: ../xfvnc/xfvnc.glade.h:7
+msgid "_Allow other clients to connect"
+msgstr "Permitir que outros clientes poss_am conectar"
+
+#: ../xfvnc/xfvnc.glade.h:8
+msgid "_Computer name:"
+msgstr "Nome do _computador:"
+
+#: ../xfvnc/xfvnc.glade.h:9
+msgid "_Password:"
+msgstr "_Senha:"
+
+#: ../xfvnc/xfvnc.glade.h:10
+msgid "_Recent servers:"
+msgstr "Servidores _recentes:"
+
+#: ../xfvnc/xfvnc.glade.h:11
+msgid "_View only"
+msgstr "Somente _visualizar"

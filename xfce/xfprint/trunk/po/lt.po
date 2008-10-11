@@ -1,0 +1,501 @@
+# Lithuanian translation of xfprint.
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfprint package.
+# Mantas Zapolskas <mantaz@users.sf.net>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-11-04 19:47+0100\n"
+"PO-Revision-Date: 2006-12-14 10:28+0300\n"
+"Last-Translator: Mantas Zapolskas <mantaz@users.sf.net>\n"
+"Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "Spausdintuvas"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "Baigti"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "Išjungti xfprint-manager"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "Apie"
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "Apie xfprint-manager"
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "Rodyti informaciją apie xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:134
+msgid "Printer manager"
+msgstr "Spausdintuvo tvarkyklė"
+
+#: ../libxfprint/printer-list-window.c:200
+msgid "Alias name"
+msgstr "Alternatyvus vardas"
+
+#: ../libxfprint/printer-list-window.c:204
+#: ../libxfprint/printer-queue-window.c:212
+msgid "State"
+msgstr "Būsena"
+
+#: ../libxfprint/printer-list-window.c:258
+msgid "Xfprint printers manager"
+msgstr "Xfprint spausdintuvų tvarkyklė"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:263
+msgid "Former maintainer"
+msgstr "Ankstesnis prižiūrėtojas"
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Maintainer"
+msgstr "Prižiūrėtojas"
+
+#: ../libxfprint/printer-list-window.c:327
+msgid "Unknown"
+msgstr "Nežinoma"
+
+#: ../libxfprint/printer-list-window.c:330
+msgid "Idle"
+msgstr "Laisvas"
+
+#: ../libxfprint/printer-list-window.c:333
+msgid "Processing"
+msgstr "Atlikimas"
+
+#: ../libxfprint/printer-list-window.c:336
+msgid "Stopped"
+msgstr "Sustabdyta"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "Uždaryti"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "Uždaryti eilės langą"
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr "Darbai"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:380
+#: ../libxfprint/printer-queue-window.c:384
+msgid "Remove job"
+msgstr "Pašalinti darbą"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "Išmesti pasirinktą darbą iš eilės"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "Anaujinti"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "Atnaujinti eilę"
+
+#: ../libxfprint/printer-queue-window.c:121
+#: ../libxfprint/printer-queue-window.c:533
+msgid "Queue Manager"
+msgstr "Eilės Valdymas"
+
+#: ../libxfprint/printer-queue-window.c:202
+msgid "Name"
+msgstr "Vardas"
+
+#: ../libxfprint/printer-queue-window.c:206
+msgid "ID"
+msgstr "ID"
+
+#: ../libxfprint/printer-queue-window.c:209
+msgid "User"
+msgstr "Vartotojas"
+
+#: ../libxfprint/printer-queue-window.c:215
+msgid "Size"
+msgstr "Dydis"
+
+#: ../libxfprint/printer-queue-window.c:218
+msgid "Priority"
+msgstr "Prioritetas"
+
+#: ../libxfprint/printer-queue-window.c:221
+msgid "Creation time"
+msgstr "Sukūrimo laikas"
+
+#: ../libxfprint/printer-queue-window.c:224
+msgid "Processing time"
+msgstr "Atlikimo laikas"
+
+#: ../libxfprint/printer-queue-window.c:377
+msgid "Are you sure you want to remove the job "
+msgstr "Ar tikrai norite pašalinti darbą "
+
+#: ../libxfprint/printer-queue-window.c:383
+msgid "Don't remove job"
+msgstr "Nepašalinti darbo"
+
+#: ../libxfprint/printer-queue-window.c:390
+msgid "An error occurred while removing job !"
+msgstr "Įvyko klaida pašalinant darbą !"
+
+#: ../libxfprint/printer-queue-window.c:441
+msgid "pending"
+msgstr "sprendžiama"
+
+#: ../libxfprint/printer-queue-window.c:444
+msgid "printing"
+msgstr "spausdinimas"
+
+#: ../libxfprint/printer-queue-window.c:447
+msgid "Kb"
+msgstr "Kb"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "Spausdinimo sistema"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "Spausdinimo Sistemos Pasirinkimas"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "Informacija"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "Aprašymas"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "Versija"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "Autorius"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "Svetainė"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "Niekas"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr "Naudokite šį posistemį, jei norite spausdinti į failą."
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "Xfprint BSD-LPR priedas"
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr "Xfprint CUPS priedas"
+
+#: ../printing-systems/cups/cups.c:48
+msgid "Set as default printer"
+msgstr "Nustatyti kaip pagrindinį spausdintuvą"
+
+#: ../printing-systems/cups/cups.c:49
+msgid "Set as default CUPS printer"
+msgstr "Nustatyti kaip pagrindinį CUPS spausdintuvą"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "Savybės"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "Rodyt spausdintuvo savybes"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "Slaptažodis"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "Vartotojas :"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "Slaptažodis :"
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr "Jūs turite nurodyti vartotojo vardą !"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "Spausdinti "
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "Antraštė:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "Patiesti:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "Centrinė antraštė:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "Kairė antraštė:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "Dešinė antraštė:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "Centrinė poraštė:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "Kairė poraštė:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "Dešinė poraštė:"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "Koduotė:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "Spausdinti visus puslapius"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "Spausdinti nuo puslapio"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "Nukirpti ilgas eilutes"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "Versti TAB, BS, ir FF simbolius"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "Greitinti dvejetainį spausdinimą"
+
+#: ../xfprint/main.c:113
+msgid "Select file to print"
+msgstr "Pasirinkite failą kurį spausdinsite"
+
+#: ../xfprint/main.c:125
+msgid "The specified file does not exist"
+msgstr "Nurodytas failas neegzistuoja"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "Kalba:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "Paryškinimo lygis:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "Rėžio lygis:"
+
+#: ../xfprint/print_dialog.c:199
+msgid "Save settings"
+msgstr "Saugoti nuostatas"
+
+#: ../xfprint/print_dialog.c:207
+msgid "Xfprint"
+msgstr "Xfprint"
+
+#: ../xfprint/print_dialog.c:215
+msgid "Print to:"
+msgstr "Spausdinti į :"
+
+#: ../xfprint/print_dialog.c:245
+msgid "Print to file:"
+msgstr "Spausdinti į failą"
+
+#: ../xfprint/print_dialog.c:275
+msgid "Sheets"
+msgstr "Lakštai"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Virtual pages"
+msgstr "Virtualūs puslapiai"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Pretty-printing"
+msgstr "Puikus-spausdinimas"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Input"
+msgstr "Įvestis"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Headings"
+msgstr "Antraštės"
+
+#: ../xfprint/print_dialog.c:304
+msgid "Copies:"
+msgstr "Kopijos:"
+
+#: ../xfprint/print_dialog.c:311
+msgid "Apply filters"
+msgstr "Pritaikyti filtrus"
+
+#: ../xfprint/print_dialog.c:366
+#, fuzzy
+msgid ""
+"Neither the printing system backend or a2ps could be found on your system, "
+"you won't be able to print a file with xfprint !"
+msgstr ""
+"Jūs negalėsite spausdinti failų su Xfprint, nes Jūsų kompiuteryje nerastas "
+"joks spausdinimo posistemis ar a2ps."
+
+#: ../xfprint/print_dialog.c:484
+msgid "An error occurred while trying to print the file"
+msgstr "Įvyko klaida bandant spausdinant failą."
+
+#: ../xfprint/print_dialog.c:521
+msgid "Select file where to print"
+msgstr "Pasirinkite failą į kurį spausdinsite"
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "Popieriaus dydis:"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "Stačias"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "Gulsčias"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "Stulpelis:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "Užpildyti stulpelius pradžioje"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "Užpildyti eilutes pradžioje"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "Eilutės:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "Spausdinti rėmus aplink skiltis"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "Spausdinti puslapius atvirštine tvarka"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "Linijų numeriai:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "Linijų puslapyje:"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "Simbolių eilutėje:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "Tabuliacijos dydis:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "Formatas nespausdinamas:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr "Leisti pasirinkti kurį spausdinimo posistemę kurią Xfprint naudos"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+msgid "Printing System Settings"
+msgstr "Spausdinimo Sistemos Nustatymai"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+msgid "Xfce 4 Printing System Settings"
+msgstr "Xfce 4 Spausdinimo Sistemos Nustatymai"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+msgid "Print Manager"
+msgstr "Spausdinimo tvarkyklė"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr "Rodyti spausdintuvų sąrašą ir leisti valdyti jų darbus"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+msgid "Xfce 4 Print Manager"
+msgstr "Xfce 4 Spausdinimo tvarkyklė"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "Spausdinimo Dialogo Langas"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr "Spausdinti failą ir leisti pasirinkti išdėstymą"
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "Xfce 4 Spausdinimo Dialogo Langas"
+
+#~ msgid "Artist"
+#~ msgstr "Atlikėjas"

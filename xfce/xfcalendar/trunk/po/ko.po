@@ -1,0 +1,3394 @@
+# Korean translations for orage package.
+# Copyright (C) 2003-2006 The Xfce development team
+# This file is distributed under the same license as the orage package.
+# ByungHyun Choi <byunghyun.choi@gmail.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: orage 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-09-27 23:53+0300\n"
+"PO-Revision-Date: 2008-08-26 01:36+0900\n"
+"Last-Translator: ByungHyun Choi<byunghyunchoi@debianusers.org>\n"
+"Language-Team: xfce4-users-kr-i18n <xfce4-users-kr-i18n@lists.sourceforge."
+"net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../globaltime/globaltime.c:100
+msgid "Raising GlobalTime window..."
+msgstr "세계시간 창 올림..."
+
+#: ../globaltime/globaltime.c:102
+msgid "GlobalTime window raise failed"
+msgstr "세계시간 창을 올리지 못 했습니다."
+
+#. ********** timezone tooltip **********
+#: ../globaltime/globaltime.c:278
+#, c-format
+msgid ""
+"%s\n"
+"click to modify clock"
+msgstr ""
+"%s\n"
+"클릭해서 시계를 바꾸세요."
+
+#. trick to refresh clocks once
+#: ../globaltime/globaltime.c:358
+msgid "Ending time adjustment mode"
+msgstr "시간설정 모드 끝"
+
+#: ../globaltime/globaltime.c:366
+msgid "Starting time adjustment mode"
+msgstr "시간설정 모드 시작"
+
+#: ../globaltime/globaltime.c:381
+msgid "Localtime"
+msgstr "지역시간"
+
+#: ../globaltime/globaltime.c:456
+msgid ""
+"button 1 to change preferences \n"
+"button 2 to adjust time of clocks"
+msgstr ""
+"속성 변경은 버튼1 \n"
+"시간 설정은 버튼2"
+
+#: ../globaltime/globaltime.c:472
+msgid "adjust to change hour"
+msgstr "시 설정"
+
+#: ../globaltime/globaltime.c:487
+msgid "adjust to change minute"
+msgstr "분 설정"
+
+#: ../globaltime/gt_prefs.c:69 ../globaltime/gt_prefs.c:1077
+msgid "Standard"
+msgstr "표준"
+
+#: ../globaltime/gt_prefs.c:71 ../src/appointment.c:2780
+msgid "None"
+msgstr "없음"
+
+#: ../globaltime/gt_prefs.c:84 ../globaltime/gt_prefs.c:1100
+msgid "Equal"
+msgstr "같음"
+
+#: ../globaltime/gt_prefs.c:86
+msgid "Vary"
+msgstr "변함"
+
+#: ../globaltime/gt_prefs.c:267 ../globaltime/gt_prefs.c:268
+msgid "NEW"
+msgstr "새로운"
+
+#: ../globaltime/gt_prefs.c:291
+msgid "NEW COPY"
+msgstr "새로 복사"
+
+#: ../globaltime/gt_prefs.c:312
+msgid "Not possible to delete the last clock."
+msgstr "마지막 시계는 지울 수 없습니다."
+
+#: ../globaltime/gt_prefs.c:366 ../panel-plugin/oc_config.c:114
+msgid "Select timezone"
+msgstr "시간대 설정"
+
+#: ../globaltime/gt_prefs.c:511
+msgid "update this clock"
+msgstr "이 시계 변경"
+
+#: ../globaltime/gt_prefs.c:516 ../globaltime/gt_prefs.c:1033
+msgid "add new empty clock"
+msgstr "새로운 시계 추가"
+
+#: ../globaltime/gt_prefs.c:521
+msgid "add new clock using this clock as model"
+msgstr "현재 시계를 모델로 새로운 시계 추가"
+
+#: ../globaltime/gt_prefs.c:526
+msgid "delete this clock"
+msgstr "현재 시계 삭제"
+
+#: ../globaltime/gt_prefs.c:534
+msgid "move this clock first"
+msgstr "현재 시계를 선두로 이동"
+
+#: ../globaltime/gt_prefs.c:539
+msgid "move this clock left"
+msgstr "현재 시계를 왼쪽으로"
+
+#: ../globaltime/gt_prefs.c:544
+msgid "move this clock right"
+msgstr "현재 시계를 오른쪽으로"
+
+#: ../globaltime/gt_prefs.c:549
+msgid "move this clock last"
+msgstr "현재 시계를 마지막으로"
+
+#: ../globaltime/gt_prefs.c:557
+msgid "set the timezone of this clock to be local timezone"
+msgstr "현재 시계의 시간대를 지역시간대로"
+
+#: ../globaltime/gt_prefs.c:563 ../globaltime/gt_prefs.c:1041
+msgid "close window and exit"
+msgstr "창닫고 종료"
+
+#: ../globaltime/gt_prefs.c:586
+msgid "Modify Clock "
+msgstr "시계 변경"
+
+#. -----------------------HEADING-------------------------------------------
+#: ../globaltime/gt_prefs.c:599
+msgid "Clock Parameters"
+msgstr "시계 설정값"
+
+#: ../globaltime/gt_prefs.c:603
+msgid "Name of the clock:"
+msgstr "시계 이름:"
+
+#: ../globaltime/gt_prefs.c:609
+msgid "enter name of clock"
+msgstr "시계이름을 입력하세요"
+
+#: ../globaltime/gt_prefs.c:612
+msgid "Timezone of the clock:"
+msgstr "시간대"
+
+#: ../globaltime/gt_prefs.c:618
+msgid ""
+"enter timezone of clock,\n"
+"(=any valid TZ value)"
+msgstr ""
+"시간대를 입력하세요,\n"
+"(=유효한 TZ 값)"
+
+#: ../globaltime/gt_prefs.c:642
+msgid "Text Formatting"
+msgstr "글자 형식"
+
+#. ------------------------background-------------------------
+#: ../globaltime/gt_prefs.c:648 ../globaltime/gt_prefs.c:855
+msgid "Background color:"
+msgstr "바탕색"
+
+#: ../globaltime/gt_prefs.c:655
+msgid "Click to change background colour for clock"
+msgstr "클릭해서 시계의 배경색 변경"
+
+#: ../globaltime/gt_prefs.c:664 ../globaltime/gt_prefs.c:696
+#: ../globaltime/gt_prefs.c:728 ../globaltime/gt_prefs.c:761
+#: ../globaltime/gt_prefs.c:795 ../globaltime/gt_prefs.c:825
+#: ../globaltime/gt_prefs.c:871 ../globaltime/gt_prefs.c:904
+#: ../globaltime/gt_prefs.c:937 ../globaltime/gt_prefs.c:971
+msgid "Use default"
+msgstr "초기값 사용"
+
+#: ../globaltime/gt_prefs.c:669 ../globaltime/gt_prefs.c:701
+#: ../globaltime/gt_prefs.c:734 ../globaltime/gt_prefs.c:767
+#: ../globaltime/gt_prefs.c:801 ../globaltime/gt_prefs.c:831
+msgid "Cross this to use default instead of selected value"
+msgstr "선택한 것을 버리고 초기값을 사용"
+
+#. ------------------------foreground-------------------------
+#: ../globaltime/gt_prefs.c:680 ../globaltime/gt_prefs.c:888
+msgid "Foreground (=text) color:"
+msgstr "글자색:"
+
+#: ../globaltime/gt_prefs.c:687
+msgid "Click to change foreground colour for clock"
+msgstr "클릭하여 글자색 변경"
+
+#. ------------------------name font-------------------------
+#: ../globaltime/gt_prefs.c:712 ../globaltime/gt_prefs.c:921
+msgid "Font for name of clock:"
+msgstr "시계의 글꼴"
+
+#: ../globaltime/gt_prefs.c:719
+msgid "Click to change font for clock name"
+msgstr "클릭해서 글꼴 변경"
+
+#. ------------------------time font-------------------------
+#: ../globaltime/gt_prefs.c:745 ../globaltime/gt_prefs.c:955
+msgid "Font for time of clock:"
+msgstr "시간의 글꼴"
+
+#: ../globaltime/gt_prefs.c:752
+msgid "Click to change font for clock time"
+msgstr "클릭해서 글꼴 변경"
+
+#. ------------------------underline name--------------------
+#: ../globaltime/gt_prefs.c:779
+msgid "Underline name of clock:"
+msgstr "시계이름에 밑줄:"
+
+#. ------------------------underline time--------------------
+#: ../globaltime/gt_prefs.c:809
+msgid "Underline time of clock:"
+msgstr "시간에 밑줄:"
+
+#: ../globaltime/gt_prefs.c:849
+msgid "Text Default Formatting"
+msgstr "기본 형식"
+
+#: ../globaltime/gt_prefs.c:862
+msgid "Click to change default background colour for clocks"
+msgstr "클릭해서 시계의 배경색 바꾸기"
+
+#: ../globaltime/gt_prefs.c:876 ../globaltime/gt_prefs.c:909
+msgid "Cross this to use system default instead of selected color"
+msgstr "선택한 색을 버리고 시스템 설정 사용"
+
+#: ../globaltime/gt_prefs.c:895
+msgid "Click to change default text colour for clocks"
+msgstr "클릭해서 시계의 글자색 바꾸기"
+
+#: ../globaltime/gt_prefs.c:928
+msgid "Click to change default font for clock name"
+msgstr "클릭해서 시계이름 바꾸기"
+
+#: ../globaltime/gt_prefs.c:943 ../globaltime/gt_prefs.c:977
+msgid "Cross this to use system default font instead of selected font"
+msgstr "선택한 글꼴을 버리고 시스템 설정 사용"
+
+#: ../globaltime/gt_prefs.c:962
+msgid "Click to change default font for clock time"
+msgstr "클릭하여 시간의 글꼴 변경"
+
+#. ------------------------underline name--------------------
+#: ../globaltime/gt_prefs.c:989
+msgid "Underline for name of clock:"
+msgstr "시계이름에 밑줄:"
+
+#. ------------------------underline time--------------------
+#: ../globaltime/gt_prefs.c:1003
+msgid "Underline for time of clock:"
+msgstr "시간에 밑줄:"
+
+#: ../globaltime/gt_prefs.c:1026
+msgid "update preferences"
+msgstr "속성 변경"
+
+#: ../globaltime/gt_prefs.c:1061
+msgid "Modify Preferences"
+msgstr "속성 편집"
+
+#. -----------------------HEADING--------------------------------------
+#: ../globaltime/gt_prefs.c:1072
+msgid "General Preferences"
+msgstr "일반 속성"
+
+#: ../globaltime/gt_prefs.c:1076
+msgid "Decorations:"
+msgstr "꾸미기:"
+
+#: ../globaltime/gt_prefs.c:1082
+msgid "Use normal decorations"
+msgstr "기본 꾸미기 사용"
+
+#: ../globaltime/gt_prefs.c:1093
+msgid "Do not show window decorations (borders)"
+msgstr "창틀을 숨기시렵니까"
+
+#: ../globaltime/gt_prefs.c:1099
+msgid "Clock size:"
+msgstr "시계 크기:"
+
+#: ../globaltime/gt_prefs.c:1105
+msgid "All clocks have same size"
+msgstr "모든 시계를 같은 크기로"
+
+#: ../globaltime/gt_prefs.c:1110
+msgid "Varying"
+msgstr "변함"
+
+#: ../globaltime/gt_prefs.c:1115
+msgid "Clock sizes vary"
+msgstr "시계크기 변경"
+
+#: ../globaltime/gt_prefs.c:1121
+msgid "Local timezone:"
+msgstr "현지 시간대"
+
+#: ../globaltime/gt_prefs.c:1128
+msgid ""
+"Enter local timezone. (it is used to show if time is on previous(-) or next "
+"date(+) by adding a +/- after the time)"
+msgstr ""
+"지역 시간대를 입력하세요. (시간뒤에 +/-를 붙여서 이전날짜(-) 또는 이후날짜(+)"
+"를 알려줍니다."
+
+#: ../panel-plugin/oc_config.c:193
+msgid "Appearance"
+msgstr "겉 모양"
+
+#. show frame
+#: ../panel-plugin/oc_config.c:204
+msgid "Show _frame"
+msgstr "틀보이기(_f)"
+
+#. foreground color
+#: ../panel-plugin/oc_config.c:214
+msgid "set foreground _color:"
+msgstr "글자색(_c)"
+
+#. background color
+#: ../panel-plugin/oc_config.c:228
+msgid "set _background color:"
+msgstr "바탕색(_b)"
+
+#. clock size (=vbox size): height and width
+#: ../panel-plugin/oc_config.c:242
+msgid "set _height:"
+msgstr "높이(_h)"
+
+#: ../panel-plugin/oc_config.c:254
+msgid "set _width:"
+msgstr "폭(_w)"
+
+#: ../panel-plugin/oc_config.c:275
+msgid "Clock Options"
+msgstr "시계 선택사항"
+
+#. timezone
+#: ../panel-plugin/oc_config.c:286
+msgid "set timezone to:"
+msgstr "시간대 설정:"
+
+#: ../panel-plugin/oc_config.c:295
+msgid "Set any valid timezone (=TZ) value or pick one from the list."
+msgstr "시간대 코드(TZ)를 입력하시거나 아래 목록에서 선택하십시오."
+
+#. line 1
+#: ../panel-plugin/oc_config.c:304
+msgid "show line _1:"
+msgstr "line_1 표시:"
+
+#: ../panel-plugin/oc_config.c:315
+msgid "Enter any valid strftime function parameter."
+msgstr "strftime 함수의 파라미터를 입력하시면 됩니다."
+
+#. line 2
+#: ../panel-plugin/oc_config.c:331
+msgid "show line _2:"
+msgstr "line_2 표시:"
+
+#. line 3
+#: ../panel-plugin/oc_config.c:353
+msgid "show line _3:"
+msgstr "line_3 표시:"
+
+#. Tooltip hint
+#: ../panel-plugin/oc_config.c:375
+msgid "Tooltip:"
+msgstr "힌트"
+
+#: ../panel-plugin/oc_config.c:392
+msgid ""
+"This program uses strftime function to get time.\n"
+"Use any valid code to get time in the format you prefer.\n"
+"Some common codes are:\n"
+"\t%A = weekday\t\t\t%B = month\n"
+"\t%c = date & time\t\t%R = hour & minute\n"
+"\t%V = week number\t\t%Z = timezone in use\n"
+"\t%H = hours \t\t\t\t%M = minute\n"
+"\t%X = local time\t\t\t%x = local date"
+msgstr ""
+"이 프로그램은 strftime()함수를 이용하여 시간을 나타냅니다.\n"
+"시간표시 코드를 이용하여 원하는 형식으로 시간을 표시하십시오.\n"
+"다음은 자주 사용하는 코드입니다.:\n"
+"\t%A = 요일\t\t\t%B = 월\n"
+"\t%c = 날짜와 시간\t\t%R = 시분\n"
+"\t%V = 요일(숫자)\t\t%Z = 현재 시간대\n"
+"\t%H = 시 \t\t\t\t%M = 분\n"
+"\t%X = 현지 시간\t\t\t%x = 현지 날짜"
+
+#: ../panel-plugin/oc_config.c:416
+msgid "Properties"
+msgstr "속성"
+
+#: ../panel-plugin/oc_config.c:431
+msgid "Orage clock"
+msgstr "Orage 시계"
+
+#. TRANSLATORS: Use format characters from strftime(3)
+#. * to get the proper string for your locale.
+#. * I used these:
+#. * %A  : full weekday name
+#. * %d  : day of the month
+#. * %B  : full month name
+#. * %Y  : four digit year
+#. * %V  : ISO week number
+#.
+#: ../panel-plugin/orageclock.c:641
+msgid "%A %d %B %Y/%V"
+msgstr "%Y-%m-%d %A/%V"
+
+#: ../plugin/xfcalendar_plugin.c:43
+msgid "Failed to launch 'orage -p'"
+msgstr "'orage -p'로 기동 실패"
+
+#. the button label in the xfce-mcs-manager dialog
+#: ../plugin/xfcalendar_plugin.c:61
+msgid "Orage - Calendar"
+msgstr "Orage - 달력"
+
+#: ../src/about-xfcalendar.c:42
+msgid "Manage your time with Xfce4"
+msgstr "Xfce4로 일정을 관리합시다."
+
+#: ../src/about-xfcalendar.c:52
+msgid "Maintainer"
+msgstr "메인터너"
+
+#: ../src/about-xfcalendar.c:57
+msgid "Original creator, retired maintainer"
+msgstr "원작자, 은퇴한 메인터너"
+
+#: ../src/about-xfcalendar.c:62
+msgid "Contributor"
+msgstr "도와주신 분들"
+
+#. if (gtk_toggle_button_get_active(
+#. GTK_TOGGLE_BUTTON(apptw->Type_journal_rb)))
+#. end time
+#: ../src/appointment.c:348 ../src/appointment.c:384 ../src/appointment.c:2330
+msgid "End"
+msgstr "끝"
+
+#: ../src/appointment.c:366
+msgid "Due"
+msgstr "기한"
+
+#: ../src/appointment.c:501 ../src/mainbox.c:689 ../xfcalendar.desktop.in.h:3
+msgid "Orage"
+msgstr "Orage"
+
+#. to avoid timing problems when updating entry
+#. Create file chooser
+#: ../src/appointment.c:651 ../src/interface.c:277 ../src/parameters.c:383
+msgid "Select a file..."
+msgstr "화일을 선택하시지요."
+
+#: ../src/appointment.c:659
+msgid "Sound Files"
+msgstr "소리 화일"
+
+#: ../src/appointment.c:666 ../src/interface.c:290
+msgid "All Files"
+msgstr "모든 화일"
+
+#: ../src/appointment.c:717 ../src/appointment.c:1145 ../src/event-list.c:897
+msgid "Warning"
+msgstr "경고"
+
+#: ../src/appointment.c:719
+msgid "The appointment information has been modified."
+msgstr "일정을 변경하셨습니다."
+
+#: ../src/appointment.c:720 ../src/appointment.c:1148 ../src/event-list.c:900
+msgid "Do you want to continue?"
+msgstr " 계속 진행하실렵니까?"
+
+#: ../src/appointment.c:750
+msgid "Error"
+msgstr "에러"
+
+#: ../src/appointment.c:752
+msgid "The end of this appointment is earlier than the beginning."
+msgstr "일정의 마지막이 시작보다 전입니다."
+
+#. cat_groups[0] is special [NULL] entry always
+#: ../src/appointment.c:1007 ../src/appointment.c:1547
+msgid "Not set"
+msgstr "설정 안됨"
+
+#: ../src/appointment.c:1147
+msgid "This appointment will be permanently removed."
+msgstr "일정을 완전히 삭제합니다."
+
+#: ../src/appointment.c:1421 ../src/event-list.c:726
+msgid "Info"
+msgstr "정보"
+
+#: ../src/appointment.c:1423
+msgid "This appointment does not exist."
+msgstr "이 일정은 없습니다."
+
+#: ../src/appointment.c:1424
+msgid "It was probably removed, please refresh your screen."
+msgstr "아마도 지워졌을 겁니다. 화면을 새로 고쳐보시지요."
+
+#: ../src/appointment.c:1729
+msgid "Current categories"
+msgstr "현재 분류"
+
+#: ../src/appointment.c:1744
+msgid "Add new category with color"
+msgstr "색을 지정해서 새로운 분류 추가"
+
+#: ../src/appointment.c:1748
+msgid "Category:"
+msgstr "분류:"
+
+#: ../src/appointment.c:1779
+msgid "Colors of categories - Orage"
+msgstr "분류에 대한 색 - Orage"
+
+#: ../src/appointment.c:1940
+msgid "New appointment - Orage"
+msgstr "새로운 일정 - Orage"
+
+#: ../src/appointment.c:1964
+msgid " *** COPY ***"
+msgstr " *** 복사 ***"
+
+#. File menu stuff
+#. ********* File menu *********
+#. File menu
+#: ../src/appointment.c:2074 ../src/day-view.c:254 ../src/event-list.c:994
+#: ../src/interface.c:762 ../src/mainbox.c:261
+msgid "_File"
+msgstr "화일(_F)"
+
+#: ../src/appointment.c:2080
+msgid "Sav_e and close"
+msgstr "저장하고 종료(_e)"
+
+#: ../src/appointment.c:2093 ../src/event-list.c:1000
+msgid "D_uplicate"
+msgstr "복사(_u)"
+
+#: ../src/appointment.c:2227
+msgid "Save"
+msgstr "저장"
+
+#: ../src/appointment.c:2229
+msgid "Save and close"
+msgstr "저장하고 종료"
+
+#: ../src/appointment.c:2234
+msgid "Revert"
+msgstr "되돌리기"
+
+#: ../src/appointment.c:2236 ../src/event-list.c:1085
+msgid "Duplicate"
+msgstr "복사"
+
+#: ../src/appointment.c:2241 ../src/event-list.c:1087
+msgid "Delete"
+msgstr "삭제"
+
+#: ../src/appointment.c:2259
+msgid "Free"
+msgstr "여유"
+
+#: ../src/appointment.c:2259
+msgid "Busy"
+msgstr "바쁨"
+
+#: ../src/appointment.c:2263
+msgid "General"
+msgstr "일반"
+
+#. type
+#: ../src/appointment.c:2269
+msgid "Type "
+msgstr "형태"
+
+#: ../src/appointment.c:2271 ../src/event-list.c:1139
+msgid "Event"
+msgstr "이벤트"
+
+#: ../src/appointment.c:2274
+msgid ""
+"Event that will happen sometime. For example:\n"
+"Meeting or birthday or TV show."
+msgstr ""
+"주기적으로 일어나는 일. 예:\n"
+"모임, 생일, 또는 TV쇼."
+
+#: ../src/appointment.c:2277 ../src/event-list.c:1160
+msgid "Todo"
+msgstr "할일"
+
+#: ../src/appointment.c:2280
+msgid ""
+"Something that you should do sometime. For example:\n"
+"Wash your car or test new version of Orage."
+msgstr ""
+"반드시 해야할 일. 예:\n"
+"세차, Orage 새버전 테트스."
+
+#: ../src/appointment.c:2283 ../src/event-list.c:1175
+msgid "Journal"
+msgstr "저널"
+
+#: ../src/appointment.c:2287
+msgid ""
+"Make a note that something happened. For example:\n"
+"Remark that your mother called or first snow came."
+msgstr ""
+"어떤 일에 대한 메모. 예:\n"
+"어머니께서 전화, 첫눈이 왔다."
+
+#. title
+#: ../src/appointment.c:2294
+msgid "Title "
+msgstr "제목"
+
+#. location
+#: ../src/appointment.c:2301 ../src/ical-code.c:4495 ../src/ical-code.c:4500
+msgid "Location"
+msgstr "위치"
+
+#: ../src/appointment.c:2309
+msgid "All day event"
+msgstr "하루 종일"
+
+#. start time
+#: ../src/appointment.c:2315 ../src/day-view.c:681
+msgid "Start"
+msgstr "시작"
+
+#: ../src/appointment.c:2335
+msgid "Set      "
+msgstr "설정     "
+
+#: ../src/appointment.c:2356
+msgid "Duration"
+msgstr "주기"
+
+#: ../src/appointment.c:2360 ../src/appointment.c:2532 ../src/day-view.c:702
+msgid "days"
+msgstr "일"
+
+#: ../src/appointment.c:2362 ../src/appointment.c:2534
+msgid "hours"
+msgstr "시간"
+
+#: ../src/appointment.c:2364 ../src/appointment.c:2536
+msgid "mins"
+msgstr "분"
+
+#. Availability (only for EVENT)
+#: ../src/appointment.c:2376
+msgid "Availability"
+msgstr "이용가능"
+
+#. completed (only for TODO)
+#: ../src/appointment.c:2384
+msgid "Completed"
+msgstr "완료"
+
+#: ../src/appointment.c:2387
+msgid "Done"
+msgstr "완료"
+
+#. categories
+#: ../src/appointment.c:2408
+msgid "Categories"
+msgstr "분류"
+
+#: ../src/appointment.c:2420
+msgid ""
+"This is special category, which can be used to color this appointment in "
+"list views."
+msgstr ""
+"특별한 분류항목이기 때문에, 리스트에 있는 약속을 표시하는 데 사용합니다."
+
+#: ../src/appointment.c:2425
+msgid "update colors for categories."
+msgstr "분류에 대한 색을 새로 고침"
+
+#. note
+#: ../src/appointment.c:2431
+msgid "Note"
+msgstr "메모"
+
+#: ../src/appointment.c:2450
+msgid ""
+"<D> inserts current date in local date format.\n"
+"<T> inserts time and\n"
+"<DT> inserts date and time."
+msgstr ""
+"<D>  현재 날짜를 지역 날짜 형식으로 추가.\n"
+"<T> 시간을 추가\n"
+"<DT> 날짜와 시간을 추가."
+
+#: ../src/appointment.c:2517
+msgid "Before Start"
+msgstr "시작하기 전"
+
+#: ../src/appointment.c:2517
+msgid "Before End"
+msgstr "끝나기 전"
+
+#: ../src/appointment.c:2518
+msgid "After Start"
+msgstr "시작한 후"
+
+#: ../src/appointment.c:2518
+msgid "After End"
+msgstr "끝난 후"
+
+#: ../src/appointment.c:2523
+msgid "Alarm"
+msgstr "알리미"
+
+#. **** ALARM TIME ****
+#: ../src/appointment.c:2529
+msgid "Alarm time"
+msgstr "알리미 시간"
+
+#: ../src/appointment.c:2553
+msgid ""
+"Often you want to get alarm:\n"
+" 1) before Event start\n"
+" 2) before Todo end\n"
+" 3) after Todo start"
+msgstr ""
+"알리미 설정:\n"
+" 1) 이벤트가 시작하기 전\n"
+" 2) 할일이 끝나기 전\n"
+" 3) 할일이 시작한 다음"
+
+#: ../src/appointment.c:2558
+msgid "Persistent alarm"
+msgstr "계속 사용하는 알리미"
+
+#: ../src/appointment.c:2560
+msgid ""
+"Select this if you want Orage to remind you even if it has not been active "
+"when the alarm happened."
+msgstr "사용하지 않는 알리미이더라도 생긴 것을 알고 싶으면 선택하십시오."
+
+#. **** Audio Alarm ****
+#: ../src/appointment.c:2569
+msgid "Sound"
+msgstr "소리"
+
+#: ../src/appointment.c:2573 ../src/appointment.c:2694
+msgid "Use"
+msgstr "사용"
+
+#: ../src/appointment.c:2575
+msgid "Select this if you want audible alarm"
+msgstr "소리나는 알리미을 사용하려면 선택하십시오."
+
+#: ../src/appointment.c:2592
+msgid "Repeat alarm sound"
+msgstr "알리미 소리 반복"
+
+#: ../src/appointment.c:2608 ../src/appointment.c:2852
+msgid "times"
+msgstr "번"
+
+#: ../src/appointment.c:2624
+msgid "sec interval"
+msgstr "초 간격"
+
+#. **** Display Alarm ****
+#: ../src/appointment.c:2634
+msgid "Visual"
+msgstr "눈에 보이는 알리미"
+
+#: ../src/appointment.c:2638
+msgid "Use Orage window"
+msgstr "Orage 창 사용"
+
+#: ../src/appointment.c:2640
+msgid "Select this if you want Orage window alarm"
+msgstr "창 알리미을 사용하시려면 선택하십시오."
+
+#: ../src/appointment.c:2652
+msgid "Use notification"
+msgstr "알림기능 사용"
+
+#: ../src/appointment.c:2654
+msgid "Select this if you want notification alarm"
+msgstr "알림기능을 사용하시려면 선택하십시오."
+
+#: ../src/appointment.c:2660
+msgid "Set timeout"
+msgstr "종료시간"
+
+#: ../src/appointment.c:2663
+msgid "Select this if you want notification to expire automatically"
+msgstr "선택하시면 알리미가 자동으로 멈춥니다."
+
+#: ../src/appointment.c:2674
+msgid "0 = system default expiration time"
+msgstr "0 = 시스템 기본 종료시간"
+
+#: ../src/appointment.c:2679
+msgid "seconds"
+msgstr "초"
+
+#. **** Procedure Alarm ****
+#: ../src/appointment.c:2690
+msgid "Procedure"
+msgstr "외부기능"
+
+#: ../src/appointment.c:2696
+msgid "Select this if you want procedure or script alarm"
+msgstr "외부기능이나 스크립트를 알리미로 사용할 수 있습니다."
+
+#: ../src/appointment.c:2702
+msgid ""
+"You must enter all escape etc characters yourself.\n"
+" This string is just given to shell to process"
+msgstr ""
+"이스케잎 문자열을 직접 입력해야만 합니다.\n"
+"  처리하고자 하는 쉘에 전달하는 문자열입니다."
+
+#. **** Default Alarm Settings ****
+#: ../src/appointment.c:2711
+msgid "Default alarm"
+msgstr "기본 알리미"
+
+#: ../src/appointment.c:2718
+msgid "Store current settings as default alarm"
+msgstr "현재 설정을 기본 알리미로 합니다."
+
+#: ../src/appointment.c:2723
+msgid "Set current settings from default alarm"
+msgstr "기본 알리미를 현재 설정으로 합니다.f"
+
+#: ../src/appointment.c:2780
+msgid "Daily"
+msgstr "매일"
+
+#: ../src/appointment.c:2780
+msgid "Weekly"
+msgstr "매주"
+
+#: ../src/appointment.c:2780
+msgid "Monthly"
+msgstr "매달"
+
+#: ../src/appointment.c:2780
+msgid "Yearly"
+msgstr "매년"
+
+#: ../src/appointment.c:2782
+msgid "Mon"
+msgstr "월"
+
+#: ../src/appointment.c:2782
+msgid "Tue"
+msgstr "화"
+
+#: ../src/appointment.c:2782
+msgid "Wed"
+msgstr "수"
+
+#: ../src/appointment.c:2782
+msgid "Thu"
+msgstr "목"
+
+#: ../src/appointment.c:2782
+msgid "Fri"
+msgstr "금"
+
+#: ../src/appointment.c:2782
+msgid "Sat"
+msgstr "토"
+
+#: ../src/appointment.c:2782
+msgid "Sun"
+msgstr "일"
+
+#: ../src/appointment.c:2786
+msgid "Recurrence"
+msgstr "반복"
+
+#: ../src/appointment.c:2791
+msgid "Complexity"
+msgstr "반복정도"
+
+#: ../src/appointment.c:2794
+msgid "Basic"
+msgstr "단순"
+
+#: ../src/appointment.c:2800
+msgid "Advanced"
+msgstr "복잡"
+
+#: ../src/appointment.c:2807
+msgid "Use this if you want regular repeating event"
+msgstr "주기적으로 반복되는 이벤트에 사용하십시오."
+
+#: ../src/appointment.c:2809
+msgid ""
+"Use this if you need complex times like:\n"
+" Every Saturday and Sunday or \n"
+" First Tuesday every month"
+msgstr ""
+"다음과 같이 반복 주기 설정이 복잡한 경우에 사용하십시오.\n"
+" 매주 토요일과 일요일 또는 \n"
+" 매월 첫번째 화요일"
+
+#: ../src/appointment.c:2812
+msgid "Frequency"
+msgstr "주기"
+
+#: ../src/appointment.c:2818
+msgid "Each"
+msgstr "매"
+
+#: ../src/appointment.c:2825
+msgid "occurrence"
+msgstr "회"
+
+#: ../src/appointment.c:2829
+msgid ""
+"Limit frequency to certain interval.\n"
+" For example: Every third day:\n"
+" Frequency = Daily and Interval = 3"
+msgstr ""
+"주기를 특정간격으로 제한합니다. \n"
+"설정 예: 3일마다:\n"
+"주기 = 매일 그리고 기간 = 3"
+
+#: ../src/appointment.c:2835
+msgid "Limit"
+msgstr "제한"
+
+#: ../src/appointment.c:2837
+msgid "Repeat forever"
+msgstr "계속 반복"
+
+#: ../src/appointment.c:2844
+msgid "Repeat "
+msgstr "반복"
+
+#: ../src/appointment.c:2861
+msgid "Repeat until "
+msgstr "~까지 반복"
+
+#: ../src/appointment.c:2871
+msgid "Weekdays"
+msgstr "요일"
+
+#: ../src/appointment.c:2883
+msgid "Which day"
+msgstr "몇 번째"
+
+#: ../src/appointment.c:2891
+msgid ""
+"Specify which weekday for monthly and yearly events.\n"
+" For example:\n"
+" Second Wednesday each month:\n"
+"\tFrequency = Monthly,\n"
+"\tWeekdays = check only Wednesday,\n"
+"\tWhich day = select 2 from the number below Wednesday"
+msgstr ""
+"매년 매월 어느 요일인지를 설정하십시오.\n"
+" 설정 예:\n"
+" 매월 2번째 수요일:\n"
+"\t주기 = 매월,\n"
+"\t요일 = 수요일만 선택,\n"
+"\t몇 번째 = 수요일 아래의 숫자란에서 2를 선택합니다."
+
+#. ********* View menu *********
+#. View menu
+#: ../src/day-view.c:264 ../src/event-list.c:1017 ../src/mainbox.c:287
+msgid "_View"
+msgstr "보기(_V)"
+
+#. ********* Go menu   *********
+#: ../src/day-view.c:278 ../src/event-list.c:1036
+msgid "_Go"
+msgstr "이동(_G)"
+
+#: ../src/day-view.c:319 ../src/event-list.c:1083
+msgid "New"
+msgstr "새로 만들기"
+
+#: ../src/day-view.c:324 ../src/event-list.c:1092
+msgid "Back"
+msgstr "뒤로"
+
+#: ../src/day-view.c:326 ../src/event-list.c:1094 ../src/functions.c:132
+#: ../src/tray_icon.c:330
+msgid "Today"
+msgstr "오늘"
+
+#: ../src/day-view.c:328 ../src/event-list.c:1096
+msgid "Forward"
+msgstr "앞으로"
+
+#: ../src/day-view.c:333 ../src/event-list.c:1101
+msgid "Refresh"
+msgstr "새로 고침"
+
+#: ../src/day-view.c:338 ../src/event-list.c:1108 ../src/interface.c:804
+msgid "Close"
+msgstr "닫기"
+
+#. then add the appointment
+#: ../src/day-view.c:452
+msgid "Unknown"
+msgstr "모름"
+
+#: ../src/day-view.c:694 ../src/parameters.c:662
+msgid "Show"
+msgstr "보여줌"
+
+#: ../src/day-view.c:931
+msgid "Orage - day view"
+msgstr "Orage - 날짜로 보기"
+
+#. date only appointment
+#: ../src/event-list.c:190
+msgid "All day"
+msgstr "하루 종일"
+
+#: ../src/event-list.c:557 ../src/event-list.c:1266
+msgid "Time"
+msgstr "시간"
+
+#: ../src/event-list.c:728
+msgid "No rows have been selected."
+msgstr "뭘 좀 고르시지요."
+
+#: ../src/event-list.c:729
+msgid "Click a row to select it and after that you can copy it."
+msgstr "클릭해서 줄을 선택하면 복사할 수 있습니다."
+
+#: ../src/event-list.c:899
+msgid ""
+"You will permanently remove all\n"
+"selected appointments."
+msgstr ""
+"션택한 모든 일정을 완전히\n"
+"삭제합니다."
+
+#: ../src/event-list.c:1103
+msgid "Find"
+msgstr "찾기"
+
+#: ../src/event-list.c:1110
+msgid "Dayview"
+msgstr "날짜별"
+
+#: ../src/event-list.c:1143
+msgid "Extra days to show "
+msgstr "이후 며칠까지"
+
+#: ../src/event-list.c:1179
+msgid "Journal entries starting from:"
+msgstr "일지를 적기 시작한 날짜:"
+
+#: ../src/event-list.c:1204
+msgid "Search"
+msgstr "찾기"
+
+#: ../src/event-list.c:1208
+msgid "Search text "
+msgstr "문장 찾기 "
+
+#: ../src/event-list.c:1274
+msgid "Flags"
+msgstr "Flags"
+
+#: ../src/event-list.c:1282
+msgid "Title"
+msgstr "제목"
+
+#: ../src/event-list.c:1308
+msgid ""
+"Double click line to edit it.\n"
+"\n"
+"Flags in order:\n"
+"\t 1. Alarm: n=no alarm\n"
+"\t\t A=visual Alarm S=also Sound alarm\n"
+"\t 2. Recurrence: n=no recurrence\n"
+"\t\t D=Daily W=Weekly M=Monthly Y=Yearly\n"
+"\t 3. Type: f=free B=Busy\n"
+"\t 4. Located in file:\n"
+"\t\tO=Orage A=Archive F=Foreign\n"
+"\t 5. Appointment type:\n"
+"\t\tE=Event T=Todo J=Journal"
+msgstr ""
+"수정하려는 라인을 따닥 하십시오.\n"
+"\n"
+"Flags in order:\n"
+"\t 1. 알리미: n=알리미설정 없음\n"
+"\t\tA= 화면으로 알림  S= 소리로 알림\n"
+"\t 2. 반복: n=반복하지 않음\n"
+"\t\t D=매일 W=매주 M=매월 Y=매년\n"
+"\t 3. 형태: f=여유 B=바쁨\n"
+"\t 4. 위치:\n"
+"\t\tO=Orage A=압축화일 F=외부화일\n"
+"\t 5. 일정형태:\n"
+"\t\tE=이벤트 T=할일 J=일지"
+
+#: ../src/functions.c:130
+msgid "Pick the date"
+msgstr "날짜 선택"
+
+#: ../src/ical-code.c:115
+msgid "Africa"
+msgstr "아프리카대륙"
+
+#: ../src/ical-code.c:116
+msgid "Africa/Abidjan"
+msgstr "아프리카대륙/Abidjan"
+
+#: ../src/ical-code.c:117
+msgid "Africa/Accra"
+msgstr "아프리카대륙/Accra"
+
+#: ../src/ical-code.c:118
+msgid "Africa/Addis_Ababa"
+msgstr "아프리카대륙/Addis_Ababa"
+
+#: ../src/ical-code.c:119
+msgid "Africa/Algiers"
+msgstr "아프리카대륙/Algiers"
+
+#: ../src/ical-code.c:120
+msgid "Africa/Asmera"
+msgstr "아프리카대륙/Asmera"
+
+#: ../src/ical-code.c:121
+msgid "Africa/Bamako"
+msgstr "아프리카대륙/Bamako"
+
+#: ../src/ical-code.c:122
+msgid "Africa/Bangui"
+msgstr "아프리카대륙/Bangui"
+
+#: ../src/ical-code.c:123
+msgid "Africa/Banjul"
+msgstr "아프리카대륙/Banjul"
+
+#: ../src/ical-code.c:124
+msgid "Africa/Bissau"
+msgstr "아프리카대륙/Bissau"
+
+#: ../src/ical-code.c:125
+msgid "Africa/Blantyre"
+msgstr "아프리카대륙/Blantyre"
+
+#: ../src/ical-code.c:126
+msgid "Africa/Brazzaville"
+msgstr "아프리카대륙/Brazzaville"
+
+#: ../src/ical-code.c:127
+msgid "Africa/Bujumbura"
+msgstr "아프리카대륙/Bujumbura"
+
+#: ../src/ical-code.c:128
+msgid "Africa/Cairo"
+msgstr "아프리카대륙/Cairo"
+
+#: ../src/ical-code.c:129
+msgid "Africa/Casablanca"
+msgstr "아프리카대륙/Casablanca"
+
+#: ../src/ical-code.c:130
+msgid "Africa/Ceuta"
+msgstr "아프리카대륙/Ceuta"
+
+#: ../src/ical-code.c:131
+msgid "Africa/Conakry"
+msgstr "아프리카대륙/Conakry"
+
+#: ../src/ical-code.c:132
+msgid "Africa/Dakar"
+msgstr "아프리카대륙/Dakar"
+
+#: ../src/ical-code.c:133
+msgid "Africa/Dar_es_Salaam"
+msgstr "아프리카대륙/Dar_es_Salaam"
+
+#: ../src/ical-code.c:134
+msgid "Africa/Djibouti"
+msgstr "아프리카대륙/Djibouti"
+
+#: ../src/ical-code.c:135
+msgid "Africa/Douala"
+msgstr "아프리카대륙/Douala"
+
+#: ../src/ical-code.c:136
+msgid "Africa/El_Aaiun"
+msgstr "아프리카대륙/El_Aaiun"
+
+#: ../src/ical-code.c:137
+msgid "Africa/Freetown"
+msgstr "아프리카대륙/Freetown"
+
+#: ../src/ical-code.c:138
+msgid "Africa/Gaborone"
+msgstr "아프리카대륙/Gaborone"
+
+#: ../src/ical-code.c:139
+msgid "Africa/Harare"
+msgstr "아프리카대륙/Harare"
+
+#: ../src/ical-code.c:140
+msgid "Africa/Johannesburg"
+msgstr "아프리카대륙/Johannesburg"
+
+#: ../src/ical-code.c:141
+msgid "Africa/Kampala"
+msgstr "아프리카대륙/Kampala"
+
+#: ../src/ical-code.c:142
+msgid "Africa/Khartoum"
+msgstr "아프리카대륙/Khartoum"
+
+#: ../src/ical-code.c:143
+msgid "Africa/Kigali"
+msgstr "아프리카대륙/Kigali"
+
+#: ../src/ical-code.c:144
+msgid "Africa/Kinshasa"
+msgstr "아프리카대륙/Kinshasa"
+
+#: ../src/ical-code.c:145
+msgid "Africa/Lagos"
+msgstr "아프리카대륙/Lagos"
+
+#: ../src/ical-code.c:146
+msgid "Africa/Libreville"
+msgstr "아프리카대륙/Libreville"
+
+#: ../src/ical-code.c:147
+msgid "Africa/Lome"
+msgstr "아프리카대륙/Lome"
+
+#: ../src/ical-code.c:148
+msgid "Africa/Luanda"
+msgstr "아프리카대륙/Luanda"
+
+#: ../src/ical-code.c:149
+msgid "Africa/Lubumbashi"
+msgstr "아프리카대륙/Lubumbashi"
+
+#: ../src/ical-code.c:150
+msgid "Africa/Lusaka"
+msgstr "아프리카대륙/Lusaka"
+
+#: ../src/ical-code.c:151
+msgid "Africa/Malabo"
+msgstr "아프리카대륙/Malabo"
+
+#: ../src/ical-code.c:152
+msgid "Africa/Maputo"
+msgstr "아프리카대륙/Maputo"
+
+#: ../src/ical-code.c:153
+msgid "Africa/Maseru"
+msgstr "아프리카대륙/Maseru"
+
+#: ../src/ical-code.c:154
+msgid "Africa/Mbabane"
+msgstr "아프리카대륙/Mbabane"
+
+#: ../src/ical-code.c:155
+msgid "Africa/Mogadishu"
+msgstr "아프리카대륙/Mogadishu"
+
+#: ../src/ical-code.c:156
+msgid "Africa/Monrovia"
+msgstr "아프리카대륙/Monrovia"
+
+#: ../src/ical-code.c:157
+msgid "Africa/Nairobi"
+msgstr "아프리카대륙/Nairobi"
+
+#: ../src/ical-code.c:158
+msgid "Africa/Ndjamena"
+msgstr "아프리카대륙/Ndjamena"
+
+#: ../src/ical-code.c:159
+msgid "Africa/Niamey"
+msgstr "아프리카대륙/Niamey"
+
+#: ../src/ical-code.c:160
+msgid "Africa/Nouakchott"
+msgstr "아프리카대륙/Nouakchott"
+
+#: ../src/ical-code.c:161
+msgid "Africa/Ouagadougou"
+msgstr "아프리카대륙/Ouagadougou"
+
+#: ../src/ical-code.c:162
+msgid "Africa/Porto-Novo"
+msgstr "아프리카대륙/Porto"
+
+#: ../src/ical-code.c:163
+msgid "Africa/Sao_Tome"
+msgstr "아프리카대륙/Sao_Tome"
+
+#: ../src/ical-code.c:164
+msgid "Africa/Timbuktu"
+msgstr "아프리카대륙/Timbuktu"
+
+#: ../src/ical-code.c:165
+msgid "Africa/Tripoli"
+msgstr "아프리카대륙/Tripoli"
+
+#: ../src/ical-code.c:166
+msgid "Africa/Tunis"
+msgstr "아프리카대륙/Tunis"
+
+#: ../src/ical-code.c:167
+msgid "Africa/Windhoek"
+msgstr "아프리카대륙/Windhoek"
+
+#: ../src/ical-code.c:168
+msgid "America"
+msgstr "아메리카대륙"
+
+#: ../src/ical-code.c:169
+msgid "America/Adak"
+msgstr "아메리카대륙"
+
+#: ../src/ical-code.c:170
+msgid "America/Anchorage"
+msgstr "아메리카대륙/Anchorage"
+
+#: ../src/ical-code.c:171
+msgid "America/Anguilla"
+msgstr "아메리카대륙/Anguilla"
+
+#: ../src/ical-code.c:172
+msgid "America/Antigua"
+msgstr "아메리카대륙/Antigua"
+
+#: ../src/ical-code.c:173
+msgid "America/Araguaina"
+msgstr "아메리카대륙/Araguaina"
+
+#: ../src/ical-code.c:174
+msgid "America/Argentina/Buenos_Aires"
+msgstr "아메리카대륙/Argentina/Buenos_Aires"
+
+#: ../src/ical-code.c:175
+msgid "America/Argentina/Catamarca"
+msgstr "아메리카대륙//ArgentinaCatamarca"
+
+#: ../src/ical-code.c:176
+msgid "America/Argentina/Cordoba"
+msgstr "아메리카대륙/Argentina/Cordoba"
+
+#: ../src/ical-code.c:177
+msgid "America/Argentina/Jujuy"
+msgstr "아메리카대륙/Argentina/Jujuy"
+
+#: ../src/ical-code.c:178
+msgid "America/Argentina/Mendoza"
+msgstr "아메리카대륙/Argentina/Mendoza"
+
+#: ../src/ical-code.c:179
+msgid "America/Aruba"
+msgstr "아메리카대륙/Aruba"
+
+#: ../src/ical-code.c:180
+msgid "America/Asuncion"
+msgstr "아메리카대륙/Asuncion"
+
+#: ../src/ical-code.c:181
+msgid "America/Barbados"
+msgstr "아메리카대륙/Barbados"
+
+#: ../src/ical-code.c:182
+msgid "America/Belem"
+msgstr "아메리카대륙/Belem"
+
+#: ../src/ical-code.c:183
+msgid "America/Belize"
+msgstr "아메리카대륙/Belize"
+
+#: ../src/ical-code.c:184
+msgid "America/Boa_Vista"
+msgstr "아메리카대륙/Boa_Vista"
+
+#: ../src/ical-code.c:185
+msgid "America/Bogota"
+msgstr "아메리카대륙/Bogota"
+
+#: ../src/ical-code.c:186
+msgid "America/Boise"
+msgstr "아메리카대륙/Boise"
+
+#: ../src/ical-code.c:187
+msgid "America/Buenos_Aires"
+msgstr "아메리카대륙/Buenos_Aires"
+
+#: ../src/ical-code.c:188
+msgid "America/Cambridge_Bay"
+msgstr "아메리카대륙/Cambridge_Bay"
+
+#: ../src/ical-code.c:189
+msgid "America/Cancun"
+msgstr "아메리카대륙/Cancun"
+
+#: ../src/ical-code.c:190
+msgid "America/Caracas"
+msgstr "아메리카대륙/Caracas"
+
+#: ../src/ical-code.c:191
+msgid "America/Catamarca"
+msgstr "아메리카대륙/Catamarca"
+
+#: ../src/ical-code.c:192
+msgid "America/Cayenne"
+msgstr "아메리카대륙/Cayenne"
+
+#: ../src/ical-code.c:193
+msgid "America/Cayman"
+msgstr "아메리카대륙/Cayman"
+
+#: ../src/ical-code.c:194
+msgid "America/Chicago"
+msgstr "아메리카대륙/Chicago"
+
+#: ../src/ical-code.c:195
+msgid "America/Chihuahua"
+msgstr "아메리카대륙/Chihuahua"
+
+#: ../src/ical-code.c:196
+msgid "America/Cordoba"
+msgstr "아메리카대륙/Cordoba"
+
+#: ../src/ical-code.c:197
+msgid "America/Costa_Rica"
+msgstr "아메리카대륙/Costa_Rica"
+
+#: ../src/ical-code.c:198
+msgid "America/Cuiaba"
+msgstr "아메리카대륙/Cuiaba"
+
+#: ../src/ical-code.c:199
+msgid "America/Curacao"
+msgstr "아메리카대륙/Curacao"
+
+#: ../src/ical-code.c:200
+msgid "America/Dawson"
+msgstr "아메리카대륙/Dawson"
+
+#: ../src/ical-code.c:201
+msgid "America/Dawson_Creek"
+msgstr "아메리카대륙/Dawson_Creek"
+
+#: ../src/ical-code.c:202
+msgid "America/Denver"
+msgstr "아메리카대륙/Denver"
+
+#: ../src/ical-code.c:203
+msgid "America/Detroit"
+msgstr "아메리카대륙/Detroit"
+
+#: ../src/ical-code.c:204
+msgid "America/Dominica"
+msgstr "아메리카대륙/Dominica"
+
+#: ../src/ical-code.c:205
+msgid "America/Edmonton"
+msgstr "아메리카대륙/Edmonton"
+
+#: ../src/ical-code.c:206
+msgid "America/Eirunepe"
+msgstr "아메리카대륙/Eirunepe"
+
+#: ../src/ical-code.c:207
+msgid "America/El_Salvador"
+msgstr "아메리카대륙/El_Salvador"
+
+#: ../src/ical-code.c:208
+msgid "America/Fortaleza"
+msgstr "아메리카대륙/Fortaleza"
+
+#: ../src/ical-code.c:209
+msgid "America/Glace_Bay"
+msgstr "아메리카대륙/Glace_Bay"
+
+#: ../src/ical-code.c:210
+msgid "America/Godthab"
+msgstr "아메리카대륙/Godthab"
+
+#: ../src/ical-code.c:211
+msgid "America/Goose_Bay"
+msgstr "아메리카대륙/Goose_Bay"
+
+#: ../src/ical-code.c:212
+msgid "America/Grand_Turk"
+msgstr "아메리카대륙/Grand_Turk"
+
+#: ../src/ical-code.c:213
+msgid "America/Grenada"
+msgstr "아메리카대륙/Grenada"
+
+#: ../src/ical-code.c:214
+msgid "America/Guadeloupe"
+msgstr "아메리카대륙/Guadeloupe"
+
+#: ../src/ical-code.c:215
+msgid "America/Guatemala"
+msgstr "아메리카대륙/Guatemala"
+
+#: ../src/ical-code.c:216
+msgid "America/Guayaquil"
+msgstr "아메리카대륙/Guayaquil"
+
+#: ../src/ical-code.c:217
+msgid "America/Guyana"
+msgstr "아메리카대륙/Guyana"
+
+#: ../src/ical-code.c:218
+msgid "America/Halifax"
+msgstr "아메리카대륙/Halifax"
+
+#: ../src/ical-code.c:219
+msgid "America/Havana"
+msgstr "아메리카대륙/Havana"
+
+#: ../src/ical-code.c:220
+msgid "America/Hermosillo"
+msgstr "아메리카대륙/Hermosillo"
+
+#: ../src/ical-code.c:221
+msgid "America/Indiana/Indianapolis"
+msgstr "아메리카대륙/Indiana/Indianapolis"
+
+#: ../src/ical-code.c:222
+msgid "America/Indiana/Knox"
+msgstr "아메리카대륙/Indiana"
+
+#: ../src/ical-code.c:223
+msgid "America/Indiana/Marengo"
+msgstr "아메리카대륙/Indiana/Marengo"
+
+#: ../src/ical-code.c:224
+msgid "America/Indiana/Vevay"
+msgstr "아메리카대륙/Indiana/Vevay"
+
+#: ../src/ical-code.c:225
+msgid "America/Indianapolis"
+msgstr "아메리카대륙/Indianapolis"
+
+#: ../src/ical-code.c:226
+msgid "America/Inuvik"
+msgstr "아메리카대륙/Inuvik"
+
+#: ../src/ical-code.c:227
+msgid "America/Iqaluit"
+msgstr "아메리카대륙/Iqaluit"
+
+#: ../src/ical-code.c:228
+msgid "America/Jamaica"
+msgstr "아메리카대륙/Jamaica"
+
+#: ../src/ical-code.c:229
+msgid "America/Jujuy"
+msgstr "아메리카대륙/Jujuy"
+
+#: ../src/ical-code.c:230
+msgid "America/Juneau"
+msgstr "아메리카대륙/Juneau"
+
+#: ../src/ical-code.c:231
+msgid "America/Kentucky/Louisville"
+msgstr "아메리카대륙/Kentucky/Louisville"
+
+#: ../src/ical-code.c:232
+msgid "America/Kentucky/Monticello"
+msgstr "아메리카대륙/Kentucky/Monticello"
+
+#: ../src/ical-code.c:233
+msgid "America/La_Paz"
+msgstr "아메리카대륙/La_Paz"
+
+#: ../src/ical-code.c:234
+msgid "America/Lima"
+msgstr "아메리카대륙/Lima"
+
+#: ../src/ical-code.c:235
+msgid "America/Los_Angeles"
+msgstr "아메리카대륙/Los_Angeles"
+
+#: ../src/ical-code.c:236
+msgid "America/Louisville"
+msgstr "아메리카대륙/Louisville"
+
+#: ../src/ical-code.c:237
+msgid "America/Maceio"
+msgstr "아메리카대륙/Maceio"
+
+#: ../src/ical-code.c:238
+msgid "America/Managua"
+msgstr "아메리카대륙/Managua"
+
+#: ../src/ical-code.c:239
+msgid "America/Manaus"
+msgstr "아메리카대륙/Manaus"
+
+#: ../src/ical-code.c:240
+msgid "America/Martinique"
+msgstr "아메리카대륙/Martinique"
+
+#: ../src/ical-code.c:241
+msgid "America/Mazatlan"
+msgstr "아메리카대륙/Mazatlan"
+
+#: ../src/ical-code.c:242
+msgid "America/Mendoza"
+msgstr "아메리카대륙/Mendoza"
+
+#: ../src/ical-code.c:243
+msgid "America/Menominee"
+msgstr "아메리카대륙/Menominee"
+
+#: ../src/ical-code.c:244
+msgid "America/Merida"
+msgstr "아메리카대륙/Merida"
+
+#: ../src/ical-code.c:245
+msgid "America/Mexico_City"
+msgstr "아메리카대륙/Mexico_City"
+
+#: ../src/ical-code.c:246
+msgid "America/Miquelon"
+msgstr "아메리카대륙/Miquelon"
+
+#: ../src/ical-code.c:247
+msgid "America/Monterrey"
+msgstr "아메리카대륙/Monterrey"
+
+#: ../src/ical-code.c:248
+msgid "America/Montevideo"
+msgstr "아메리카대륙/Montevideo"
+
+#: ../src/ical-code.c:249
+msgid "America/Montreal"
+msgstr "아메리카대륙/Montreal"
+
+#: ../src/ical-code.c:250
+msgid "America/Montserrat"
+msgstr "아메리카대륙/Montserrat"
+
+#: ../src/ical-code.c:251
+msgid "America/Nassau"
+msgstr "아메리카대륙/Nassau"
+
+#: ../src/ical-code.c:252
+msgid "America/New_York"
+msgstr "아메리카대륙/New_York"
+
+#: ../src/ical-code.c:253
+msgid "America/Nipigon"
+msgstr "아메리카대륙/Nipigon"
+
+#: ../src/ical-code.c:254
+msgid "America/Nome"
+msgstr "아메리카대륙/Nome"
+
+#: ../src/ical-code.c:255
+msgid "America/Noronha"
+msgstr "아메리카대륙/Noronha"
+
+#: ../src/ical-code.c:256
+msgid "America/Panama"
+msgstr "아메리카대륙/Panama"
+
+#: ../src/ical-code.c:257
+msgid "America/Pangnirtung"
+msgstr "아메리카대륙/Pangnirtung"
+
+#: ../src/ical-code.c:258
+msgid "America/Paramaribo"
+msgstr "아메리카대륙/Paramaribo"
+
+#: ../src/ical-code.c:259
+msgid "America/Phoenix"
+msgstr "아메리카대륙/Phoenix"
+
+#: ../src/ical-code.c:260
+msgid "America/Port-au-Prince"
+msgstr "아메리카대륙/Port-au-Prince"
+
+#: ../src/ical-code.c:261
+msgid "America/Port_of_Spain"
+msgstr "아메리카대륙/Port_of_Spain"
+
+#: ../src/ical-code.c:262
+msgid "America/Porto_Velho"
+msgstr "아메리카대륙/Porto_Velho"
+
+#: ../src/ical-code.c:263
+msgid "America/Puerto_Rico"
+msgstr "아메리카대륙/Puerto_Rico"
+
+#: ../src/ical-code.c:264
+msgid "America/Rainy_River"
+msgstr "아메리카대륙/Rainy_River"
+
+#: ../src/ical-code.c:265
+msgid "America/Rankin_Inlet"
+msgstr "아메리카대륙/Rankin_Inlet"
+
+#: ../src/ical-code.c:266
+msgid "America/Recife"
+msgstr "아메리카대륙/Recife"
+
+#: ../src/ical-code.c:267
+msgid "America/Regina"
+msgstr "아메리카대륙/Regina"
+
+#: ../src/ical-code.c:268
+msgid "America/Rio_Branco"
+msgstr "아메리카대륙/Rio_Branco"
+
+#: ../src/ical-code.c:269
+msgid "America/Rosario"
+msgstr "아메리카대륙/Rosario"
+
+#: ../src/ical-code.c:270
+msgid "America/Santiago"
+msgstr "아메리카대륙/Santiago"
+
+#: ../src/ical-code.c:271
+msgid "America/Santo_Domingo"
+msgstr "아메리카대륙/Santo_Domingo"
+
+#: ../src/ical-code.c:272
+msgid "America/Sao_Paulo"
+msgstr "아메리카대륙/Sao_Paulo"
+
+#: ../src/ical-code.c:273
+msgid "America/Scoresbysund"
+msgstr "아메리카대륙/Scoresbysund"
+
+#: ../src/ical-code.c:274
+msgid "America/Shiprock"
+msgstr "아메리카대륙/Shiprock"
+
+#: ../src/ical-code.c:275
+msgid "America/St_Johns"
+msgstr "아메리카대륙/St_Johns"
+
+#: ../src/ical-code.c:276
+msgid "America/St_Kitts"
+msgstr "아메리카대륙/St_Kitts"
+
+#: ../src/ical-code.c:277
+msgid "America/St_Lucia"
+msgstr "아메리카대륙/St_Lucia"
+
+#: ../src/ical-code.c:278
+msgid "America/St_Thomas"
+msgstr "아메리카대륙/St_Thomas"
+
+#: ../src/ical-code.c:279
+msgid "America/St_Vincent"
+msgstr "아메리카대륙/St_Vincent"
+
+#: ../src/ical-code.c:280
+msgid "America/Swift_Current"
+msgstr "아메리카대륙/Swift_Current"
+
+#: ../src/ical-code.c:281
+msgid "America/Tegucigalpa"
+msgstr "아메리카대륙/Tegucigalpa"
+
+#: ../src/ical-code.c:282
+msgid "America/Thule"
+msgstr "아메리카대륙/Thule"
+
+#: ../src/ical-code.c:283
+msgid "America/Thunder_Bay"
+msgstr "아메리카대륙/Thunder_Bay"
+
+#: ../src/ical-code.c:284
+msgid "America/Tijuana"
+msgstr "아메리카대륙/Tijuana"
+
+#: ../src/ical-code.c:285
+msgid "America/Tortola"
+msgstr "아메리카대륙/Tortola"
+
+#: ../src/ical-code.c:286
+msgid "America/Vancouver"
+msgstr "아메리카대륙/Vancouver"
+
+#: ../src/ical-code.c:287
+msgid "America/Whitehorse"
+msgstr "아메리카대륙/Whitehorse"
+
+#: ../src/ical-code.c:288
+msgid "America/Winnipeg"
+msgstr "아메리카대륙/Winnipeg"
+
+#: ../src/ical-code.c:289
+msgid "America/Yakutat"
+msgstr "아메리카대륙/Yakutat"
+
+#: ../src/ical-code.c:290
+msgid "America/Yellowknife"
+msgstr "아메리카대륙/Yellowknife"
+
+#: ../src/ical-code.c:291
+msgid "Antarctica"
+msgstr "남극대륙"
+
+#: ../src/ical-code.c:292
+msgid "Antarctica/Casey"
+msgstr "남극대륙/Casey"
+
+#: ../src/ical-code.c:293
+msgid "Antarctica/Davis"
+msgstr "남극대륙/Davis"
+
+#: ../src/ical-code.c:294
+msgid "Antarctica/DumontDUrville"
+msgstr "남극대륙/DumontDUrville"
+
+#: ../src/ical-code.c:295
+msgid "Antarctica/Mawson"
+msgstr "남극대륙/Mawson"
+
+#: ../src/ical-code.c:296
+msgid "Antarctica/McMurdo"
+msgstr "남극대륙/McMurdo"
+
+#: ../src/ical-code.c:297
+msgid "Antarctica/Palmer"
+msgstr "남극대륙/Palmer"
+
+#: ../src/ical-code.c:298
+msgid "Antarctica/South_Pole"
+msgstr "남극대륙/South_Pole"
+
+#: ../src/ical-code.c:299
+msgid "Antarctica/Syowa"
+msgstr "남극대륙/Syowa"
+
+#: ../src/ical-code.c:300
+msgid "Antarctica/Vostok"
+msgstr "남극대륙/Vostok"
+
+#: ../src/ical-code.c:301
+msgid "Arctic"
+msgstr "북극대륙"
+
+#: ../src/ical-code.c:302
+msgid "Arctic/Longyearbyen"
+msgstr "북극대륙/Longyearbyen"
+
+#: ../src/ical-code.c:303
+msgid "Asia"
+msgstr "아시아"
+
+#: ../src/ical-code.c:304
+msgid "Asia/Aden"
+msgstr "아시아/Aden"
+
+#: ../src/ical-code.c:305
+msgid "Asia/Almaty"
+msgstr "아시아/Almaty"
+
+#: ../src/ical-code.c:306
+msgid "Asia/Amman"
+msgstr "아시아/Amman"
+
+#: ../src/ical-code.c:307
+msgid "Asia/Anadyr"
+msgstr "아시아/Anadyr"
+
+#: ../src/ical-code.c:308
+msgid "Asia/Aqtau"
+msgstr "아시아/Aqtau"
+
+#: ../src/ical-code.c:309
+msgid "Asia/Aqtobe"
+msgstr "아시아/Aqtobe"
+
+#: ../src/ical-code.c:310
+msgid "Asia/Ashgabat"
+msgstr "아시아/Ashgabat"
+
+#: ../src/ical-code.c:311
+msgid "Asia/Baghdad"
+msgstr "아시아/Baghdad"
+
+#: ../src/ical-code.c:312
+msgid "Asia/Bahrain"
+msgstr "아시아/Bahrain"
+
+#: ../src/ical-code.c:313
+msgid "Asia/Baku"
+msgstr "아시아/Baku"
+
+#: ../src/ical-code.c:314
+msgid "Asia/Bangkok"
+msgstr "아시아/Bangkok"
+
+#: ../src/ical-code.c:315
+msgid "Asia/Beirut"
+msgstr "아시아/Beirut"
+
+#: ../src/ical-code.c:316
+msgid "Asia/Bishkek"
+msgstr "아시아/Bishkek"
+
+#: ../src/ical-code.c:317
+msgid "Asia/Brunei"
+msgstr "아시아/Brunei"
+
+#: ../src/ical-code.c:318
+msgid "Asia/Calcutta"
+msgstr "아시아/Calcutta"
+
+#: ../src/ical-code.c:319
+msgid "Asia/Chungking"
+msgstr "아시아/Chungking"
+
+#: ../src/ical-code.c:320
+msgid "Asia/Colombo"
+msgstr "아시아/Colombo"
+
+#: ../src/ical-code.c:321
+msgid "Asia/Damascus"
+msgstr "아시아/Damascus"
+
+#: ../src/ical-code.c:322
+msgid "Asia/Dhaka"
+msgstr "아시아/Dhaka"
+
+#: ../src/ical-code.c:323
+msgid "Asia/Dili"
+msgstr "아시아/Dili"
+
+#: ../src/ical-code.c:324
+msgid "Asia/Dubai"
+msgstr "아시아/Dubai"
+
+#: ../src/ical-code.c:325
+msgid "Asia/Dushanbe"
+msgstr "아시아/Dushanbe"
+
+#: ../src/ical-code.c:326
+msgid "Asia/Gaza"
+msgstr "아시아/Gaza"
+
+#: ../src/ical-code.c:327
+msgid "Asia/Harbin"
+msgstr "아시아/Harbin"
+
+#: ../src/ical-code.c:328
+msgid "Asia/Hong_Kong"
+msgstr "아시아/Hong_Kong"
+
+#: ../src/ical-code.c:329
+msgid "Asia/Hovd"
+msgstr "아시아/Hovd"
+
+#: ../src/ical-code.c:330
+msgid "Asia/Irkutsk"
+msgstr "아시아/Irkutsk"
+
+#: ../src/ical-code.c:331
+msgid "Asia/Istanbul"
+msgstr "아시아/Istanbul"
+
+#: ../src/ical-code.c:332
+msgid "Asia/Jakarta"
+msgstr "아시아/Jakarta"
+
+#: ../src/ical-code.c:333
+msgid "Asia/Jayapura"
+msgstr "아시아/Jayapura"
+
+#: ../src/ical-code.c:334
+msgid "Asia/Jerusalem"
+msgstr "아시아/Jerusalem"
+
+#: ../src/ical-code.c:335
+msgid "Asia/Kabul"
+msgstr "아시아/Kabul"
+
+#: ../src/ical-code.c:336
+msgid "Asia/Kamchatka"
+msgstr "아시아/Kamchatka"
+
+#: ../src/ical-code.c:337
+msgid "Asia/Karachi"
+msgstr "아시아/Karachi"
+
+#: ../src/ical-code.c:338
+msgid "Asia/Kashgar"
+msgstr "아시아/Kashgar"
+
+#: ../src/ical-code.c:339
+msgid "Asia/Katmandu"
+msgstr "아시아/Katmandu"
+
+#: ../src/ical-code.c:340
+msgid "Asia/Krasnoyarsk"
+msgstr "아시아/Krasnoyarsk"
+
+#: ../src/ical-code.c:341
+msgid "Asia/Kuala_Lumpur"
+msgstr "아시아/Kuala_Lumpur"
+
+#: ../src/ical-code.c:342
+msgid "Asia/Kuching"
+msgstr "아시아/Kuching"
+
+#: ../src/ical-code.c:343
+msgid "Asia/Kuwait"
+msgstr "아시아/Kuwait"
+
+#: ../src/ical-code.c:344
+msgid "Asia/Macao"
+msgstr "아시아/Macao"
+
+#: ../src/ical-code.c:345
+msgid "Asia/Magadan"
+msgstr "아시아/Magadan"
+
+#: ../src/ical-code.c:346
+msgid "Asia/Manila"
+msgstr "아시아/Manila"
+
+#: ../src/ical-code.c:347
+msgid "Asia/Muscat"
+msgstr "아시아/Muscat"
+
+#: ../src/ical-code.c:348
+msgid "Asia/Nicosia"
+msgstr "아시아/Nicosia"
+
+#: ../src/ical-code.c:349
+msgid "Asia/Novosibirsk"
+msgstr "아시아/Novosibirsk"
+
+#: ../src/ical-code.c:350
+msgid "Asia/Omsk"
+msgstr "아시아/Omsk"
+
+#: ../src/ical-code.c:351
+msgid "Asia/Phnom_Penh"
+msgstr "아시아/Phnom_Penh"
+
+#: ../src/ical-code.c:352
+msgid "Asia/Pontianak"
+msgstr "아시아/Pontianak"
+
+#: ../src/ical-code.c:353
+msgid "Asia/Pyongyang"
+msgstr "아시아/Pyongyang"
+
+#: ../src/ical-code.c:354
+msgid "Asia/Qatar"
+msgstr "아시아/Qatar"
+
+#: ../src/ical-code.c:355
+msgid "Asia/Rangoon"
+msgstr "아시아/Rangoon"
+
+#: ../src/ical-code.c:356
+msgid "Asia/Riyadh"
+msgstr "아시아/Riyadh"
+
+#: ../src/ical-code.c:357
+msgid "Asia/Saigon"
+msgstr "아시아/Saigon"
+
+#: ../src/ical-code.c:358
+msgid "Asia/Samarkand"
+msgstr "아시아/Samarkand"
+
+#: ../src/ical-code.c:359
+msgid "Asia/Seoul"
+msgstr "아시아/서울"
+
+#: ../src/ical-code.c:360
+msgid "Asia/Shanghai"
+msgstr "아시아/Shanghai"
+
+#: ../src/ical-code.c:361
+msgid "Asia/Singapore"
+msgstr "아시아/Singapore"
+
+#: ../src/ical-code.c:362
+msgid "Asia/Taipei"
+msgstr "아시아/Taipei"
+
+#: ../src/ical-code.c:363
+msgid "Asia/Tashkent"
+msgstr "아시아/Tashkent"
+
+#: ../src/ical-code.c:364
+msgid "Asia/Tbilisi"
+msgstr "아시아/Tbilisi"
+
+#: ../src/ical-code.c:365
+msgid "Asia/Tehran"
+msgstr "아시아/Tehran"
+
+#: ../src/ical-code.c:366
+msgid "Asia/Thimphu"
+msgstr "아시아/Thimphu"
+
+#: ../src/ical-code.c:367
+msgid "Asia/Tokyo"
+msgstr "아시아/Tokyo"
+
+#: ../src/ical-code.c:368
+msgid "Asia/Ujung_Pandang"
+msgstr "아시아/Ujung_Pandang"
+
+#: ../src/ical-code.c:369
+msgid "Asia/Ulaanbaatar"
+msgstr "아시아/Ulaanbaatar"
+
+#: ../src/ical-code.c:370
+msgid "Asia/Urumqi"
+msgstr "아시아/Urumqi"
+
+#: ../src/ical-code.c:371
+msgid "Asia/Vientiane"
+msgstr "아시아/Vientiane"
+
+#: ../src/ical-code.c:372
+msgid "Asia/Vladivostok"
+msgstr "아시아/Vladivostok"
+
+#: ../src/ical-code.c:373
+msgid "Asia/Yakutsk"
+msgstr "아시아/Yakutsk"
+
+#: ../src/ical-code.c:374
+msgid "Asia/Yekaterinburg"
+msgstr "아시아/Yekaterinburg"
+
+#: ../src/ical-code.c:375
+msgid "Asia/Yerevan"
+msgstr "아시아/Yerevan"
+
+#: ../src/ical-code.c:376
+msgid "Atlantic"
+msgstr "대서양"
+
+#: ../src/ical-code.c:377
+msgid "Atlantic/Azores"
+msgstr "대서양/Azores"
+
+#: ../src/ical-code.c:378
+msgid "Atlantic/Bermuda"
+msgstr "대서양/Bermuda"
+
+#: ../src/ical-code.c:379
+msgid "Atlantic/Canary"
+msgstr "대서양/Canary"
+
+#: ../src/ical-code.c:380
+msgid "Atlantic/Cape_Verde"
+msgstr "대서양/Cape_Verde"
+
+#: ../src/ical-code.c:381
+msgid "Atlantic/Faeroe"
+msgstr "대서양/Faeroe"
+
+#: ../src/ical-code.c:382
+msgid "Atlantic/Jan_Mayen"
+msgstr "대서양/Jan_Mayen"
+
+#: ../src/ical-code.c:383
+msgid "Atlantic/Madeira"
+msgstr "대서양/Madeira"
+
+#: ../src/ical-code.c:384
+msgid "Atlantic/Reykjavik"
+msgstr "대서양/Reykjavik"
+
+#: ../src/ical-code.c:385
+msgid "Atlantic/South_Georgia"
+msgstr "대서양/South_Georgia"
+
+#: ../src/ical-code.c:386
+msgid "Atlantic/St_Helena"
+msgstr "대서양/St_Helena"
+
+#: ../src/ical-code.c:387
+msgid "Atlantic/Stanley"
+msgstr "대서양/Stanley"
+
+#: ../src/ical-code.c:388
+msgid "Australia"
+msgstr "오스트레일리아"
+
+#: ../src/ical-code.c:389
+msgid "Australia/Adelaide"
+msgstr "오스트레일리아/Adelaide"
+
+#: ../src/ical-code.c:390
+msgid "Australia/Brisbane"
+msgstr "오스트레일리아/Brisbane"
+
+#: ../src/ical-code.c:391
+msgid "Australia/Broken_Hill"
+msgstr "오스트레일리아/Broken_Hill"
+
+#: ../src/ical-code.c:392
+msgid "Australia/Darwin"
+msgstr "오스트레일리아/Darwin"
+
+#: ../src/ical-code.c:393
+msgid "Australia/Hobart"
+msgstr "오스트레일리아/Hobart"
+
+#: ../src/ical-code.c:394
+msgid "Australia/Lindeman"
+msgstr "오스트레일리아/Lindeman"
+
+#: ../src/ical-code.c:395
+msgid "Australia/Lord_Howe"
+msgstr "오스트레일리아/Lord_Howe"
+
+#: ../src/ical-code.c:396
+msgid "Australia/Melbourne"
+msgstr "오스트레일리아/Melbourne"
+
+#: ../src/ical-code.c:397
+msgid "Australia/Perth"
+msgstr "오스트레일리아/Perth"
+
+#: ../src/ical-code.c:398
+msgid "Australia/Sydney"
+msgstr "오스트레일리아/Sydney"
+
+#: ../src/ical-code.c:399
+msgid "Europe"
+msgstr "유럽"
+
+#: ../src/ical-code.c:400
+msgid "Europe/Amsterdam"
+msgstr "유럽/Amsterdam"
+
+#: ../src/ical-code.c:401
+msgid "Europe/Andorra"
+msgstr "유럽/Andorra"
+
+#: ../src/ical-code.c:402
+msgid "Europe/Athens"
+msgstr "유럽/Athens"
+
+#: ../src/ical-code.c:403
+msgid "Europe/Belfast"
+msgstr "유럽/Belfast"
+
+#: ../src/ical-code.c:404
+msgid "Europe/Belgrade"
+msgstr "유럽/Belgrade"
+
+#: ../src/ical-code.c:405
+msgid "Europe/Berlin"
+msgstr "유럽/Berlin"
+
+#: ../src/ical-code.c:406
+msgid "Europe/Bratislava"
+msgstr "유럽/Bratislava"
+
+#: ../src/ical-code.c:407
+msgid "Europe/Brussels"
+msgstr "유럽/Brussels"
+
+#: ../src/ical-code.c:408
+msgid "Europe/Bucharest"
+msgstr "유럽/Bucharest"
+
+#: ../src/ical-code.c:409
+msgid "Europe/Budapest"
+msgstr "유럽/Budapest"
+
+#: ../src/ical-code.c:410
+msgid "Europe/Chisinau"
+msgstr "유럽/Chisinau"
+
+#: ../src/ical-code.c:411
+msgid "Europe/Copenhagen"
+msgstr "유럽/Copenhagen"
+
+#: ../src/ical-code.c:412
+msgid "Europe/Dublin"
+msgstr "유럽/Dublin"
+
+#: ../src/ical-code.c:413
+msgid "Europe/Gibraltar"
+msgstr "유럽/Gibraltar"
+
+#: ../src/ical-code.c:414
+msgid "Europe/Helsinki"
+msgstr "유럽/Helsinki"
+
+#: ../src/ical-code.c:415
+msgid "Europe/Istanbul"
+msgstr "유럽/Istanbul"
+
+#: ../src/ical-code.c:416
+msgid "Europe/Kaliningrad"
+msgstr "유럽/Kaliningrad"
+
+#: ../src/ical-code.c:417
+msgid "Europe/Kiev"
+msgstr "유럽/Kiev"
+
+#: ../src/ical-code.c:418
+msgid "Europe/Lisbon"
+msgstr "유럽/Lisbon"
+
+#: ../src/ical-code.c:419
+msgid "Europe/Ljubljana"
+msgstr "유럽/Ljubljana"
+
+#: ../src/ical-code.c:420
+msgid "Europe/London"
+msgstr "유럽/London"
+
+#: ../src/ical-code.c:421
+msgid "Europe/Luxembourg"
+msgstr "유럽/Luxembourg"
+
+#: ../src/ical-code.c:422
+msgid "Europe/Madrid"
+msgstr "유럽/Madrid"
+
+#: ../src/ical-code.c:423
+msgid "Europe/Malta"
+msgstr "유럽/Malta"
+
+#: ../src/ical-code.c:424
+msgid "Europe/Minsk"
+msgstr "유럽/Minsk"
+
+#: ../src/ical-code.c:425
+msgid "Europe/Monaco"
+msgstr "유럽/Monaco"
+
+#: ../src/ical-code.c:426
+msgid "Europe/Moscow"
+msgstr "유럽/Moscow"
+
+#: ../src/ical-code.c:427
+msgid "Europe/Nicosia"
+msgstr "유럽/Nicosia"
+
+#: ../src/ical-code.c:428
+msgid "Europe/Oslo"
+msgstr "유럽/Oslo"
+
+#: ../src/ical-code.c:429
+msgid "Europe/Paris"
+msgstr "유럽/Paris"
+
+#: ../src/ical-code.c:430
+msgid "Europe/Prague"
+msgstr "유럽/Prague"
+
+#: ../src/ical-code.c:431
+msgid "Europe/Riga"
+msgstr "유럽/Riga"
+
+#: ../src/ical-code.c:432
+msgid "Europe/Rome"
+msgstr "유럽/Rome"
+
+#: ../src/ical-code.c:433
+msgid "Europe/Samara"
+msgstr "유럽/Samara"
+
+#: ../src/ical-code.c:434
+msgid "Europe/San_Marino"
+msgstr "유럽/San_Marino"
+
+#: ../src/ical-code.c:435
+msgid "Europe/Sarajevo"
+msgstr "유럽/Sarajevo"
+
+#: ../src/ical-code.c:436
+msgid "Europe/Simferopol"
+msgstr "유럽/Simferopol"
+
+#: ../src/ical-code.c:437
+msgid "Europe/Skopje"
+msgstr "유럽/Skopje"
+
+#: ../src/ical-code.c:438
+msgid "Europe/Sofia"
+msgstr "유럽/Sofia"
+
+#: ../src/ical-code.c:439
+msgid "Europe/Stockholm"
+msgstr "유럽/Stockholm"
+
+#: ../src/ical-code.c:440
+msgid "Europe/Tallinn"
+msgstr "유럽/Tallinn"
+
+#: ../src/ical-code.c:441
+msgid "Europe/Tirane"
+msgstr "유럽/Tirane"
+
+#: ../src/ical-code.c:442
+msgid "Europe/Uzhgorod"
+msgstr "유럽/Uzhgorod"
+
+#: ../src/ical-code.c:443
+msgid "Europe/Vaduz"
+msgstr "유럽/Vaduz"
+
+#: ../src/ical-code.c:444
+msgid "Europe/Vatican"
+msgstr "유럽/Vatican"
+
+#: ../src/ical-code.c:445
+msgid "Europe/Vienna"
+msgstr "유럽/Vienna"
+
+#: ../src/ical-code.c:446
+msgid "Europe/Vilnius"
+msgstr "유럽/Vilnius"
+
+#: ../src/ical-code.c:447
+msgid "Europe/Warsaw"
+msgstr "유럽/Warsaw"
+
+#: ../src/ical-code.c:448
+msgid "Europe/Zagreb"
+msgstr "유럽/Zagreb"
+
+#: ../src/ical-code.c:449
+msgid "Europe/Zaporozhye"
+msgstr "유럽/Zaporozhye"
+
+#: ../src/ical-code.c:450
+msgid "Europe/Zurich"
+msgstr "유럽/Zurich"
+
+#: ../src/ical-code.c:451
+msgid "Indian"
+msgstr "동인도"
+
+#: ../src/ical-code.c:452
+msgid "Indian/Antananarivo"
+msgstr "동인도/Antananarivo"
+
+#: ../src/ical-code.c:453
+msgid "Indian/Chagos"
+msgstr "동인도/Chagos"
+
+#: ../src/ical-code.c:454
+msgid "Indian/Christmas"
+msgstr "동인도/Christmas"
+
+#: ../src/ical-code.c:455
+msgid "Indian/Cocos"
+msgstr "동인도/Cocos"
+
+#: ../src/ical-code.c:456
+msgid "Indian/Comoro"
+msgstr "동인도/Comoro"
+
+#: ../src/ical-code.c:457
+msgid "Indian/Kerguelen"
+msgstr "동인도/Kerguelen"
+
+#: ../src/ical-code.c:458
+msgid "Indian/Mahe"
+msgstr "동인도/Mahe"
+
+#: ../src/ical-code.c:459
+msgid "Indian/Maldives"
+msgstr "동인도/Maldives"
+
+#: ../src/ical-code.c:460
+msgid "Indian/Mauritius"
+msgstr "동인도/Mauritius"
+
+#: ../src/ical-code.c:461
+msgid "Indian/Mayotte"
+msgstr "동인도/Mayotte"
+
+#: ../src/ical-code.c:462
+msgid "Indian/Reunion"
+msgstr "동인도/Reunion"
+
+#: ../src/ical-code.c:463
+msgid "Pacific"
+msgstr "태평양"
+
+#: ../src/ical-code.c:464
+msgid "Pacific/Apia"
+msgstr "태평양/Apia"
+
+#: ../src/ical-code.c:465
+msgid "Pacific/Auckland"
+msgstr "태평양/Auckland"
+
+#: ../src/ical-code.c:466
+msgid "Pacific/Chatham"
+msgstr "태평양/Chatham"
+
+#: ../src/ical-code.c:467
+msgid "Pacific/Easter"
+msgstr "태평양/Easter"
+
+#: ../src/ical-code.c:468
+msgid "Pacific/Efate"
+msgstr "태평양/Efate"
+
+#: ../src/ical-code.c:469
+msgid "Pacific/Enderbury"
+msgstr "태평양/Enderbury"
+
+#: ../src/ical-code.c:470
+msgid "Pacific/Fakaofo"
+msgstr "태평양/Fakaofo"
+
+#: ../src/ical-code.c:471
+msgid "Pacific/Fiji"
+msgstr "태평양/Fiji"
+
+#: ../src/ical-code.c:472
+msgid "Pacific/Funafuti"
+msgstr "태평양/Funafuti"
+
+#: ../src/ical-code.c:473
+msgid "Pacific/Galapagos"
+msgstr "태평양/Galapagos"
+
+#: ../src/ical-code.c:474
+msgid "Pacific/Gambier"
+msgstr "태평양/Gambier"
+
+#: ../src/ical-code.c:475
+msgid "Pacific/Guadalcanal"
+msgstr "태평양/Guadalcanal"
+
+#: ../src/ical-code.c:476
+msgid "Pacific/Guam"
+msgstr "태평양/Guam"
+
+#: ../src/ical-code.c:477
+msgid "Pacific/Honolulu"
+msgstr "태평양/Honolulu"
+
+#: ../src/ical-code.c:478
+msgid "Pacific/Johnston"
+msgstr "태평양/Johnston"
+
+#: ../src/ical-code.c:479
+msgid "Pacific/Kiritimati"
+msgstr "태평양/Kiritimati"
+
+#: ../src/ical-code.c:480
+msgid "Pacific/Kosrae"
+msgstr "태평양/Kosrae"
+
+#: ../src/ical-code.c:481
+msgid "Pacific/Kwajalein"
+msgstr "태평양/Kwajalein"
+
+#: ../src/ical-code.c:482
+msgid "Pacific/Majuro"
+msgstr "태평양/Majuro"
+
+#: ../src/ical-code.c:483
+msgid "Pacific/Marquesas"
+msgstr "태평양/Marquesas"
+
+#: ../src/ical-code.c:484
+msgid "Pacific/Midway"
+msgstr "태평양/Midway"
+
+#: ../src/ical-code.c:485
+msgid "Pacific/Nauru"
+msgstr "태평양/Nauru"
+
+#: ../src/ical-code.c:486
+msgid "Pacific/Niue"
+msgstr "태평양/Niue"
+
+#: ../src/ical-code.c:487
+msgid "Pacific/Norfolk"
+msgstr "태평양/Norfolk"
+
+#: ../src/ical-code.c:488
+msgid "Pacific/Noumea"
+msgstr "태평양/Noumea"
+
+#: ../src/ical-code.c:489
+msgid "Pacific/Pago_Pago"
+msgstr "태평양/Pago_Pago"
+
+#: ../src/ical-code.c:490
+msgid "Pacific/Palau"
+msgstr "태평양/Palau"
+
+#: ../src/ical-code.c:491
+msgid "Pacific/Pitcairn"
+msgstr "태평양/Pitcairn"
+
+#: ../src/ical-code.c:492
+msgid "Pacific/Ponape"
+msgstr "태평양/Ponape"
+
+#: ../src/ical-code.c:493
+msgid "Pacific/Port_Moresby"
+msgstr "태평양/Port_Moresby"
+
+#: ../src/ical-code.c:494
+msgid "Pacific/Rarotonga"
+msgstr "태평양/Rarotonga"
+
+#: ../src/ical-code.c:495
+msgid "Pacific/Saipan"
+msgstr "태평양/Saipan"
+
+#: ../src/ical-code.c:496
+msgid "Pacific/Tahiti"
+msgstr "태평양/Tahiti"
+
+#: ../src/ical-code.c:497
+msgid "Pacific/Tarawa"
+msgstr "태평양/Tarawa"
+
+#: ../src/ical-code.c:498
+msgid "Pacific/Tongatapu"
+msgstr "태평양/Tongatapu"
+
+#: ../src/ical-code.c:499
+msgid "Pacific/Truk"
+msgstr "태평양/Truk"
+
+#: ../src/ical-code.c:500
+msgid "Pacific/Wake"
+msgstr "태평양/Wake"
+
+#: ../src/ical-code.c:501
+msgid "Pacific/Wallis"
+msgstr "태평양/Wallis"
+
+#: ../src/ical-code.c:502
+msgid "Pacific/Yap"
+msgstr "태평양/Yap"
+
+#: ../src/ical-code.c:1329
+msgid "Orage default alarm"
+msgstr "Orage 기본 알리미"
+
+#: ../src/ical-code.c:3023
+#, c-format
+msgid "Build alarm list: Added %d alarms. Processed %d events."
+msgstr "알리미 목록 만들기: 추가한 알리미 %d개. 처리한 이벤트 %d개."
+
+#: ../src/ical-code.c:3025
+#, c-format
+msgid ""
+"\tFound %d alarms of which %d are active. (Searched %d recurring alarms.)"
+msgstr "\t알리미 %d개 발견(동작중인 전체 알리미  %d, 반복 알리미  %d개 검색)"
+
+#. remove since it has ended
+#: ../src/ical-code.c:3542
+msgid "\tRecur ended, moving to archive file."
+msgstr "\t"
+
+#: ../src/ical-code.c:3604
+msgid "Archiving not enabled. Exiting"
+msgstr "압축기능을 켜지 않았습니다. 종료"
+
+#: ../src/ical-code.c:3622
+#, c-format
+msgid "Archiving threshold: %d month(s)"
+msgstr "압축 주기: %d 개월"
+
+#. yy mon day
+#: ../src/ical-code.c:3625
+#, c-format
+msgid "\tArchiving events, which are older than: %04d-%02d-%02d"
+msgstr "\t %04d-%02d-%02d보다 오래된 이벤트를 압축합니다."
+
+#: ../src/ical-code.c:3652
+#, c-format
+msgid "Archiving uid: %s"
+msgstr "압축 uid: %s"
+
+#. VTODO not completed, do not archive
+#: ../src/ical-code.c:3658
+msgid "\tVTODO not complete; not archived"
+msgstr "\tVTOD 진행 중이므로 압축하지 않습니다"
+
+#. it is recurrent event
+#: ../src/ical-code.c:3663
+#, c-format
+msgid "\tRecurring. End year: %04d, month: %02d, day: %02d"
+msgstr "\t반복하기. 종료 연: %04d, 월: %02d, 일: %02d"
+
+#: ../src/ical-code.c:3680
+msgid "Archiving done\n"
+msgstr "압축 완료\n"
+
+#. PHASE 1: go through base orage file and remove "repeat" shortcuts
+#: ../src/ical-code.c:3696
+msgid "Starting archive removal."
+msgstr "압축 제거 개시."
+
+#: ../src/ical-code.c:3697
+msgid "\tPHASE 1: reset recurring appointments"
+msgstr "\t1단계: 반복일정 리셋"
+
+#. PHASE 2: go through archive file and add everything back to base orage.
+#. * After that delete the whole arch file
+#: ../src/ical-code.c:3719
+msgid "\tPHASE 2: return archived appointments"
+msgstr "\t2단계: 압축된 일정을 가져옴"
+
+#: ../src/ical-code.c:3745
+msgid "Archive removal done\n"
+msgstr "압축 제거 완료\n"
+
+#: ../src/ical-code.c:3835
+msgid "Starting import file preprocessing"
+msgstr "화일 가져오기 전처리 개시"
+
+#: ../src/ical-code.c:3870
+msgid "... Patched DCREATED to be CREATED."
+msgstr "... DCREATED를 CREATED로 변경"
+
+#: ../src/ical-code.c:3909
+msgid "... Patched timezone to Orage format."
+msgstr "... 시간대를 Orage 혁식으로 변경"
+
+#: ../src/ical-code.c:3918
+msgid "Import file preprocessing done"
+msgstr "화일 가져오기 완료"
+
+#. show it
+#: ../src/ical-code.c:4506
+msgid "Pick timezone"
+msgstr "시간대 선택"
+
+#: ../src/ical-code.c:4509 ../src/ical-code.c:4537
+msgid "UTC"
+msgstr "UTC"
+
+#: ../src/ical-code.c:4510 ../src/ical-code.c:4541 ../src/parameters.c:492
+msgid "floating"
+msgstr "모름"
+
+#: ../src/interface.c:284
+msgid "Calendar files"
+msgstr "달력 화일"
+
+#: ../src/interface.c:626
+msgid "Current foreign files"
+msgstr "사용중인 외부 화일"
+
+#: ../src/interface.c:638
+msgid "READ ONLY"
+msgstr "읽기 전용"
+
+#: ../src/interface.c:640
+msgid "READ WRITE"
+msgstr "읽고 쓰기 가능"
+
+#: ../src/interface.c:658
+msgid "***** No foreign files *****"
+msgstr "***** 외부 화일 없음 *****"
+
+#: ../src/interface.c:968
+msgid "Import/export"
+msgstr "가져오기/내보내기"
+
+#: ../src/interface.c:975
+msgid "Import"
+msgstr "가져오기"
+
+#: ../src/interface.c:980
+msgid "Read from file:"
+msgstr "화일에서 읽기:"
+
+#: ../src/interface.c:997
+msgid ""
+"Separate filenames with comma(,).\n"
+" NOTE: comma is not valid character in filenames for Orage."
+msgstr ""
+"쉼표(,)로 화일이름을 분리하십시오.\n"
+" 알림:쉼표는 Orage의 화일이름으로 사용할 수 없는 문자"
+
+#: ../src/interface.c:1002
+msgid "Export"
+msgstr "내보내기"
+
+#: ../src/interface.c:1007
+msgid "Write to file:"
+msgstr "저장할 화일:"
+
+#: ../src/interface.c:1028 ../src/interface.c:1040
+msgid "Select"
+msgstr "선택"
+
+#: ../src/interface.c:1031
+msgid "All appointments"
+msgstr "모든 일정"
+
+#: ../src/interface.c:1044
+msgid "Named appointments: "
+msgstr "이름붙인 일정"
+
+#: ../src/interface.c:1056
+msgid ""
+"Note that only main file appointments are read.\n"
+"Archived and Foreign events are not exported."
+msgstr ""
+"메인 화일의 일정만 읽어 들입니다.\n"
+"압축된 이벤트와 외부 이벤트는 내보내지 않습니다."
+
+#: ../src/interface.c:1059
+msgid ""
+"Note that only main file appointments are read.\n"
+"Foreign events are not exported."
+msgstr ""
+"메인 화일의 일정만 읽어 들입니다.\n"
+"이벤트는 내보내지 않습니다."
+
+#: ../src/interface.c:1062
+msgid "You can easily drag these from event-list window."
+msgstr "그냥 이벤트 목록 창에 끌어다 놓을 수 있습니다."
+
+#: ../src/interface.c:1064
+msgid "Orage appointment UIDs separated by commas."
+msgstr "쉼표로 분리된 Orage의 일정 UID"
+
+#: ../src/interface.c:1070
+msgid "Archive"
+msgstr "압축"
+
+#: ../src/interface.c:1078
+#, c-format
+msgid "Archive now (threshold: %d months)"
+msgstr "현재 압축 기준( %d 개월)"
+
+#: ../src/interface.c:1088
+msgid "You can change archive threshold in parameters"
+msgstr "매개변수로 압축 주기를 바꿀 수 있습니다."
+
+#: ../src/interface.c:1095
+msgid "Revert archive now"
+msgstr "당장 압축 풀기"
+
+#: ../src/interface.c:1101
+#, fuzzy
+msgid ""
+"Return all archived events into main orage file and remove arch file.\n"
+"This is useful for example when doing export and moving orage\n"
+"appointments to another system."
+msgstr ""
+"압축된 모든 이벤트를 메인 orage에 돌려 주고 압축화일을 삭제합니다.\n"
+"orage 일정을 뽑아내서 다른 시스템으로 이동하려는 경우에 \n"
+"상당히 편리한 기능입니다."
+
+#: ../src/interface.c:1111
+msgid "Orage files"
+msgstr "Orage 화일"
+
+#: ../src/interface.c:1118
+msgid "Orage main calendar file"
+msgstr "Orage 달력 화일"
+
+#: ../src/interface.c:1123 ../src/interface.c:1188
+msgid "Current file"
+msgstr "현재 화일"
+
+#: ../src/interface.c:1130 ../src/interface.c:1195
+msgid "New file"
+msgstr "새로운 화일"
+
+#: ../src/interface.c:1146 ../src/interface.c:1212
+msgid "Action options"
+msgstr "적용 동작"
+
+#: ../src/interface.c:1149 ../src/interface.c:1215
+msgid "Rename"
+msgstr "이름 변경"
+
+#: ../src/interface.c:1153
+msgid ""
+"Orage internal file rename only.\n"
+"Does not touch external filesystem at all.\n"
+"New file must exist."
+msgstr ""
+"Orage 내부 화일만 이름을 바꿉니다.\n"
+"외부 화일 시스템에 대해서는 아무 짓도 안합니다.\n"
+"새로운 화일이 있어야만 합니다."
+
+#: ../src/interface.c:1157 ../src/interface.c:1220
+msgid "Copy"
+msgstr "복사"
+
+#: ../src/interface.c:1161
+msgid "Current file is copied and stays unmodified in the old place."
+msgstr "현재의 화일을 복사하기 때문에 원본은 그대로 남아있습니다."
+
+#: ../src/interface.c:1165 ../src/interface.c:1225
+msgid "Move"
+msgstr "이동"
+
+#: ../src/interface.c:1169
+msgid "Current file is moved and vanishes from the old place."
+msgstr "현재의 화일을 다른 곳으로 옮깁니다."
+
+#: ../src/interface.c:1183
+msgid "Archive file"
+msgstr "압축화일"
+
+#: ../src/interface.c:1246
+msgid "Foreign files"
+msgstr "외부화일"
+
+#: ../src/interface.c:1253
+msgid "Add new foreign file"
+msgstr "새로운 외부화일을 추가"
+
+#: ../src/interface.c:1258
+msgid "Foreign file:"
+msgstr "외부 화일:"
+
+#: ../src/interface.c:1276
+msgid "Options"
+msgstr "선택사항"
+
+#: ../src/interface.c:1278
+msgid "Read only"
+msgstr "읽기 전용"
+
+#: ../src/interface.c:1286
+msgid ""
+"Set this if you want to make sure that this file is never modified by "
+"Orage.\n"
+"Note that modifying foreign files may make them incompatible with the "
+"original tool, where they came from!"
+msgstr ""
+"Orage에서 이 화일을 절대로 변경하지 않기를 바라면 선택하십시오.\n"
+"외부화일을 수정하면, 원래 그 화일을 이용하던 프로그램과의 호환성을 읽게 될 지"
+"도 모름니다!"
+
+#: ../src/interface.c:1300
+msgid "Exchange data - Orage"
+msgstr "데이터 교환 - Orageㄹ"
+
+#: ../src/main.c:192
+#, c-format
+msgid ""
+"\tThis is %s version %s for Xfce %s\n"
+"\n"
+msgstr ""
+"\t%s이고요, 버전은 %s( Xfce %s)\n"
+"\n"
+
+#: ../src/main.c:194
+#, c-format
+msgid "\tReleased under the terms of the GNU General Public License.\n"
+msgstr "GNU GPL을 준수하면서 릴리즈되었습니다.\n"
+
+#: ../src/main.c:195
+#, c-format
+msgid "\tCompiled against GTK+-%d.%d.%d, "
+msgstr "\tGTK+-%d.%d.%d로 컴파일했고, "
+
+#: ../src/main.c:197
+#, c-format
+msgid "using GTK+-%d.%d.%d.\n"
+msgstr "GTK+-%d.%d.%d를 사용합니다.\n"
+
+#: ../src/main.c:200
+#, c-format
+msgid "\tUsing DBUS for import.\n"
+msgstr "DBUS를 이용해서 가져오기\n"
+
+#: ../src/main.c:202
+#, c-format
+msgid "\tNot using DBUS. Import works only partially.\n"
+msgstr "\tDBUS를 이용하지 않음. 가져오기의 일부기능만 사용\n"
+
+#: ../src/main.c:205
+#, c-format
+msgid "\tUsing libnotify.\n"
+msgstr "\t libnotify 사용\n"
+
+#: ../src/main.c:207
+#, c-format
+msgid "\tNot using libnotify.\n"
+msgstr "\tlibnotify 사용안합\n"
+
+#: ../src/main.c:210
+#, fuzzy, c-format
+msgid "\tUsing automatic archiving.\n"
+msgstr "\t자동 압축 사용\n"
+
+#: ../src/main.c:212
+#, c-format
+msgid "\tNot using archiving.\n"
+msgstr "\t자동압축 사용안함\n"
+
+#: ../src/main.c:225
+#, c-format
+msgid ""
+"Usage: orage [options] [files]\n"
+"\n"
+msgstr ""
+"사용법: orage [선택사항] [화일]\n"
+"\n"
+
+#: ../src/main.c:226
+#, c-format
+msgid "Options:\n"
+msgstr "선택사항:\n"
+
+#: ../src/main.c:227
+#, c-format
+msgid "--version (-v) \t\tshow version of orage\n"
+msgstr "--version (-v) \t\torage의 버전을 보여줍니다.\n"
+
+#: ../src/main.c:228
+#, c-format
+msgid "--help (-h) \t\tprint this text\n"
+msgstr "--help (-h) \t\t지금 보고 있는 것을 보여줍니다.\n"
+
+#: ../src/main.c:229
+#, c-format
+msgid "--preferences (-p) \tshow preferences form\n"
+msgstr "--preferences (-p) \t속성 설정 창을 보여줍니다.\n"
+
+#: ../src/main.c:230
+#, c-format
+msgid "--toggle (-t) \t\tmake orage visible/unvisible\n"
+msgstr "--toggle (-t) \t\torage 보여주거나 감춤니다.\n"
+
+#: ../src/main.c:231
+#, c-format
+msgid "--add-foreign (-a) file [RW] \tadd a foreign file\n"
+msgstr "--add-foreign (-a) 화일 [RW] \t외부화일을 추가합니다.\n"
+
+#: ../src/main.c:232
+#, c-format
+msgid "--remove-foreign (-r) file \tremove a foreign file\n"
+msgstr "--remove-foreign (-r) 화일 \t외부화일을 제거합니다.\n"
+
+#: ../src/main.c:234
+#, c-format
+msgid "files=ical files to load into orage\n"
+msgstr "화일=orage로 읽어들일 화일\n"
+
+#: ../src/main.c:236
+#, c-format
+msgid "\tdbus not included in orage. \n"
+msgstr "\torage에 dbus를 포함하지 않았습니다.\n"
+
+#: ../src/main.c:237
+#, c-format
+msgid ""
+"\twithout dbus [files] and foreign file options(-a & -r) can only be used "
+"when starting orage \n"
+msgstr ""
+"\t'dbus [화일] 제외'와 '외부화일 제외' 선택사항(-a와 -r)은 orage를 실행시킬 "
+"때만 사용할 수 있습니다.\n"
+
+#: ../src/main.c:380
+#, c-format
+msgid ""
+"\n"
+"Unknown option %s\n"
+"\n"
+msgstr ""
+"\n"
+"%s가 뭡니까\n"
+"\n"
+
+#: ../src/mainbox.c:269
+msgid "_Exchange data"
+msgstr "데이터 교환(_E)"
+
+#. Edit menu
+#: ../src/mainbox.c:280
+msgid "_Edit"
+msgstr "수정(_E)"
+
+#: ../src/mainbox.c:290
+msgid "View selected _date"
+msgstr "선택한 날짜 보기(_d)"
+
+#: ../src/mainbox.c:293
+msgid "View selected _week"
+msgstr "선택한 주 보기(_w)"
+
+#: ../src/mainbox.c:299
+msgid "Select _Today"
+msgstr "오늘을 선택하세요(_T)"
+
+#. Help menu
+#: ../src/mainbox.c:303
+msgid "_Help"
+msgstr "도움말(_H)"
+
+#: ../src/mainbox.c:401
+msgid "Never"
+msgstr "안함"
+
+#: ../src/mainbox.c:406
+#, c-format
+msgid ""
+"Title: %s\n"
+" Start:\t%s\n"
+" Due:\t%s\n"
+" Done:\t%s\n"
+"Note:\n"
+"%s"
+msgstr ""
+"제목: %s\n"
+" 시작:\t%s\n"
+" 기한:\t%s\n"
+" 완료:\t%s\n"
+"메모:\n"
+"%s"
+
+#: ../src/mainbox.c:412
+#, c-format
+msgid ""
+"Title: %s\n"
+" Start:\t%s\n"
+" End:\t%s\n"
+" Note:\n"
+"%s"
+msgstr ""
+"제목: %s\n"
+" 시작:\t%s\n"
+" 끝:\t%s\n"
+"메모:\n"
+"%s"
+
+#: ../src/mainbox.c:487
+msgid "<b>To do:</b>"
+msgstr "<b>할일:</b>"
+
+#: ../src/mainbox.c:516
+#, c-format
+msgid "<b>Events for %s:</b>"
+msgstr "<b>%s에 대한 이벤트:</b>"
+
+#: ../src/parameters.c:472
+msgid "Main setups"
+msgstr "메인 설정"
+
+#: ../src/parameters.c:478
+msgid "Timezone"
+msgstr "시간대"
+
+#: ../src/parameters.c:497
+msgid "You should always define your local timezone."
+msgstr "시간대를 반드시 설정하셔야합니다."
+
+#: ../src/parameters.c:506
+msgid "Archive threshold (months)"
+msgstr "압축 기준(개월)"
+
+#: ../src/parameters.c:516
+msgid "(0 = no archiving)"
+msgstr "(0 = 압축안함)"
+
+#: ../src/parameters.c:519
+msgid "Archiving is used to save time and space when handling events."
+msgstr "압축기능을 이용해서 시간과 공간을 절약하십시오."
+
+#: ../src/parameters.c:528
+msgid "Sound command"
+msgstr "소리 명령어"
+
+#: ../src/parameters.c:543
+msgid "This command is given to shell to make sound in alarms."
+msgstr "알리미 기능에서 소리를 내도록 쉘에 전달하는 명령어입니다."
+
+#: ../src/parameters.c:558
+msgid "Display"
+msgstr "표시"
+
+#: ../src/parameters.c:565
+msgid "Calendar main window"
+msgstr "달력 창"
+
+#: ../src/parameters.c:570
+msgid "Show borders"
+msgstr "틀보이기"
+
+#: ../src/parameters.c:577
+msgid "Show menu"
+msgstr "메뉴 보이기"
+
+#: ../src/parameters.c:584
+msgid "Show todo list"
+msgstr "할일 목록 보이기"
+
+#: ../src/parameters.c:591
+msgid "Show event list"
+msgstr "이벤트 목록 보이기"
+
+#: ../src/parameters.c:598
+msgid "Set sticked"
+msgstr "고정"
+
+#: ../src/parameters.c:605
+msgid "Set on top"
+msgstr "맨위로 설정"
+
+#: ../src/parameters.c:626
+msgid "Show in taskbar"
+msgstr "태스크바에 보이기"
+
+#: ../src/parameters.c:633
+msgid "Show in pager"
+msgstr "페이저에 보이기"
+
+#: ../src/parameters.c:640
+msgid "Show in systray"
+msgstr "트레이에 보이기"
+
+#: ../src/parameters.c:657
+msgid "Calendar start"
+msgstr "시작하면서 달력을"
+
+#: ../src/parameters.c:674
+msgid "Hide"
+msgstr "숨김"
+
+#: ../src/parameters.c:686
+msgid "Minimized"
+msgstr "최소화"
+
+#: ../src/parameters.c:716
+msgid "Extra setups"
+msgstr "기타"
+
+#: ../src/parameters.c:723 ../src/parameters.c:728
+msgid "Select always today"
+msgstr "항상 오늘을 선택합니다."
+
+#: ../src/parameters.c:734
+msgid ""
+"When showing main calendar, set pointer to either previously selected day or "
+"always to current day."
+msgstr ""
+"달력을 보일때, 전에 선택한 날짜를 보여줄 지 오늘을 가리키도록 할 지 결정합니"
+"다."
+
+#: ../src/parameters.c:765
+msgid "Dynamic icon size"
+msgstr "동정 아이콘 크기"
+
+#: ../src/parameters.c:778 ../src/parameters.c:795
+msgid "(0 = use static icon)"
+msgstr "(0 = 고정크기 아이콘 사용)"
+
+#: ../src/parameters.c:781
+msgid ""
+"Dynamic icon shows current day and month. It is visible only in tray. If "
+"tray is too small for dynamic icon size, Orage switches automatically back "
+"to static icon."
+msgstr ""
+"동적 아이콘은 트레이에 현재 날짜를 보여줍니다. 트레이가 작으면 고정 아이콘으"
+"로 전환합니다."
+
+#: ../src/parameters.c:804
+msgid "Main Calendar double click shows"
+msgstr "메인 달력을 따닥하면 보입니다."
+
+#: ../src/parameters.c:809
+msgid "Days view"
+msgstr "일 단위 보기"
+
+#: ../src/parameters.c:821
+msgid "Event list"
+msgstr "이벤트 목록"
+
+#: ../src/parameters.c:846
+msgid "Orage Preferences"
+msgstr "Orage 속성"
+
+#: ../src/reminder.c:425
+msgid "Reminder "
+msgstr "알리미"
+
+#: ../src/reminder.c:449
+msgid "Open"
+msgstr "열기f"
+
+#: ../src/reminder.c:539
+msgid "Reminder - Orage"
+msgstr "알리미 - Orage"
+
+#: ../src/reminder.c:844
+msgid "Next active alarms:"
+msgstr "다음 알리미:"
+
+#: ../src/reminder.c:872
+#, c-format
+msgid ""
+"\n"
+"%02d d %02d h %02d min to: %s"
+msgstr ""
+"\n"
+"%02d 일 %02d 시간 %02d 분을: %s"
+
+#: ../src/reminder.c:880
+#, c-format
+msgid ""
+"\n"
+"No active alarms found"
+msgstr ""
+"\n"
+"알리미가 설정되어 있지 않습니다."
+
+#: ../src/tray_icon.c:341
+msgid "New appointment"
+msgstr "새로운 일정"
+
+#: ../src/tray_icon.c:361
+msgid "About Orage"
+msgstr "Orage란..."
+
+#: ../panel-plugin/orageclock.desktop.in.in.h:1
+msgid "Orage Clock"
+msgstr "Orage 시계"
+
+#: ../panel-plugin/orageclock.desktop.in.in.h:2
+msgid "What time and date is it?"
+msgstr "시간과 날짜는요?"
+
+#: ../plugin/xfce-xfcalendar-settings.desktop.in.h:1
+#: ../xfcalendar.desktop.in.h:1
+msgid "Calendar"
+msgstr "달력"
+
+#: ../plugin/xfce-xfcalendar-settings.desktop.in.h:2
+msgid "Calendar Settings"
+msgstr "달력 설정"
+
+#: ../plugin/xfce-xfcalendar-settings.desktop.in.h:3
+msgid "Settings for the Xfce 4 Calendar Application"
+msgstr "Xfce 4 달력의 환경 설정"
+
+#: ../plugin/xfce-xfcalendar-settings.desktop.in.h:4
+msgid "Xfce 4 Calendar Settings"
+msgstr "Xfce 4 달력 설정"
+
+#: ../xfcalendar.desktop.in.h:2
+msgid "Desktop calendar"
+msgstr "작업 공간 달력"

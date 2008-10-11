@@ -1,0 +1,9 @@
+# List of source files containing translatable strings.
+
+libxfcegui4/netk-window-action-menu.c
+libxfcegui4/xfce-appmenuitem.c
+libxfcegui4/xfce-colorbutton.c
+libxfcegui4/xfce_aboutdialog.c
+libxfcegui4/xfce_systemtray.c
+
+glade/xfce4.xml.in

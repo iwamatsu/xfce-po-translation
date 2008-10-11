@@ -1,0 +1,260 @@
+# translation of el.po to Greek
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Evaggelos Balaskas <ebalaskas@ebalaskas.gr>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: el\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-05-27 20:15-0700\n"
+"PO-Revision-Date: 2008-04-28 14:23+0300\n"
+"Last-Translator: Evaggelos Balaskas <ebalaskas@ebalaskas.gr>\n"
+"Language-Team: Greek <nls@tux.hellug.gr>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: xfce4-volstatus-icon/main.c:102 xfce4-volstatus-icon/main.c:115
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:733
+msgid "Removable Volumes"
+msgstr "Αφαιρούμενες συσκευές"
+
+#: xfce4-volstatus-icon/main.c:104
+msgid "This is the first time you've run the Xfce Volstatus Icon application"
+msgstr "Αυτή είναι η πρώτη φορά που εκτελείται η εφαρμογή του xfce εικονίδιο κατάστασης συσκευών"
+
+#: xfce4-volstatus-icon/main.c:105
+msgid ""
+"Would you like Xfce Volstatus to run automatically each time your session "
+"begins?  You can disable this behavior later by using the \"Autostarted "
+"Applications\" settings panel."
+msgstr ""
+"Θέλετε η κατάσταση συσκευών xfce να εκτελείτε αυτόματα κάθε φορά που η συνεδρία σας ξεκινά; "
+"Μπορείτε να απενεργοποιήσετε την συμπεριφορά αυτή αργότερα χρησιμοποιώντας την εφαρμογή του πίνακα ρυθμίσεων \"Αυτόματη εκκίνηση εφαρμογών\"."
+
+#: xfce4-volstatus-icon/main.c:117
+msgid "Failed to write autostart file"
+msgstr "Αποτυχία εγγραφής στο αρχείο αυτόματης εκκίνησης"
+
+#: xfce4-volstatus-icon/main.c:118
+msgid ""
+"For some reason, the autostart location could not be found or written to.  "
+"This location is usually in your home directory, in ~/.config/autostart/."
+msgstr "Για κάποιο λόγο, η τοποθεσία αυτόματης εκκίνησης δεν μπορεί να βρεθεί ή δεν μπορεί να γράψει. Αυτή η τοποθεσία συνήθως βρίσκεται στον προσωπικό σας κατάλογο, στο  ~/.config/autostart/."
+
+#: xfce4-volstatus-icon/main.c:125
+msgid "Xfce Volstatus Icon"
+msgstr "Εικονίδιο κατάστασης συσκευών xfce"
+
+#: xfce4-volstatus-icon/main.c:127
+msgid "Safe removal of removable volumes"
+msgstr "Ασφαλής αφαίρεση των αφαιρούμενων συσκευών"
+
+#: xfce4-volstatus-icon/main.c:213
+msgid "An unknown error occurred."
+msgstr "Παρουσιάστηκε ένα άγνωστο σφάλμα."
+
+#: xfce4-volstatus-icon/main.c:215 xfce4-volstatus-icon/main.c:226
+#: xfce4-volstatus-icon/main.c:241
+msgid "Xfce Volstatus"
+msgstr "Κατάσταση συσκευών xfce"
+
+#: xfce4-volstatus-icon/main.c:216
+msgid "Unable to connect to D-Bus system bus daemon"
+msgstr "Αδυναμία σύνδεσης στον διακομιστή συστήματος διάυλου D-BUS"
+
+#: xfce4-volstatus-icon/main.c:227
+msgid "Unable to connect to HAL"
+msgstr "Αδυναμία σύνδεσης στο HAL"
+
+#: xfce4-volstatus-icon/main.c:242
+msgid "Unable to get device list from HAL"
+msgstr "Αδυναμία στην λήψη λίστας συσκευών από το HAL"
+
+#: xfce4-volstatus-icon/xfce-volstatus-common.c:76
+#, c-format
+msgid "Unable to remove \"%s\""
+msgstr "Αδυναμία αφαίρεσης \"%s\""
+
+#: xfce4-volstatus-icon/xfce-volstatus-common.c:77
+msgid "Removal Failure"
+msgstr "Αποτυχία αφαίρεσης"
+
+#: xfce4-volstatus-icon/xfce-volstatus-common.c:79
+msgid "Unknown error"
+msgstr "Άγνωστο σφάλμα"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:171
+msgid "Audio CD"
+msgstr "Μουσικό CD"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:178
+msgid "Recordable CD"
+msgstr "Εγγράψιμο CD"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:181
+msgid "Rewritable CD"
+msgstr "Επανεγράψιμο CD"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:184
+msgid "DVD"
+msgstr "DVD"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:187
+msgid "Rewritable DVD (DVD-RAM)"
+msgstr "Επανεγράψιμο DVD (DVD-RAM)"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:192
+msgid "Recordable DVD"
+msgstr "Εγγράψιμο DVD"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:196
+msgid "Rewritable DVD"
+msgstr "Επανεγράψιμο DVD"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:199
+msgid "Blu-ray Disc"
+msgstr "Δίσκος blu-ray"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:202
+msgid "Recordable Blu-ray Disc"
+msgstr "Εγγράψιμος δίσκος blu-ray"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:205
+msgid "Rewritable Blu-ray Disc"
+msgstr "Επανεγράψιμος δίσκος blu-ray"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:208
+msgid "HD-DVD"
+msgstr "HD-DVD"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:211
+msgid "Recordable HD-DVD"
+msgstr "Εγγράψιμο HD-DVD"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:214
+msgid "Rewritable HD-DVD"
+msgstr "Επανεγράψιμο HD-DVD"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:217
+msgid "Data CD"
+msgstr "CD δεδομένων"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:227
+msgid "Optical Drive"
+msgstr "Οπτικός δίσκος"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:233
+msgid "Floppy Disk"
+msgstr "Δισκέτα"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:235
+msgid "Removable Disk"
+msgstr "Αφαιρέσιμος δίσκος"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:237
+msgid "Hard Disk"
+msgstr "Σκληρός δίσκος"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:240
+msgid "Flash Disk"
+msgstr "Flash Disk"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:242
+msgid "Audio Player"
+msgstr "Audio Player"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:244
+msgid "Memory Stick"
+msgstr "Memory Stick"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:246
+msgid "Smart Media Disk"
+msgstr "Δίσκος Smart Media"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:248
+msgid "SD/MMC Disk"
+msgstr "Δίσκος SD/MMC"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:250
+msgid "Camera"
+msgstr "Κάμερα"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:252
+msgid "Zip Disk"
+msgstr "Δίσκος zip"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:254
+msgid "Jaz Disk"
+msgstr "Δίσκος jaz"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:256
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:602
+msgid "Unknown"
+msgstr "Άγνωστο"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:549
+msgid "n/a"
+msgstr "n/a"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:560
+#, c-format
+msgid "Filesystem (%s)"
+msgstr "Αρχείο συστήματος (%s)"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:565
+msgid "Filesystem"
+msgstr "Αρχείο συστήματος"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:571
+msgid "(unknown)"
+msgstr "(άγνωστο)"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:573
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:582
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:589
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:597
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:604
+msgid "(n/a)"
+msgstr "(n/a)"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:580
+msgid "Partition Table"
+msgstr "Πίνακας κατατμήσεων"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:587
+msgid "RAID Array Member"
+msgstr "Μέλος πίνακα RAID"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:595
+msgid "Encrypted Filesystem"
+msgstr "Κρυπτογραφημένο σύστημα αρχείων"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:677
+msgid "Name:"
+msgstr "Όνομα:"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:682
+msgid "Kind:"
+msgstr "Είδος:"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:687
+msgid "Mount Point:"
+msgstr "Σημείο προσάρτησης:"
+
+#: xfce4-volstatus-icon/xfce-volstatus-dialog.c:734
+msgid "Use the list below to safely remove removable volumes."
+msgstr "Χρήση της παρακάτω λίστας για ασφαλή αφαίρεση των αφαιρούμενων συσκευών."
+
+#: xfce4-volstatus-icon/xfce-volstatus-icon.c:227
+#, c-format
+msgid "Safely remove \"%s\""
+msgstr "Ασφαλής αφαίρεση  \"%s\""
+
+#. this shouldn't happen, but just to be safe...
+#: xfce4-volstatus-icon/xfce-volstatus-icon.c:243
+msgid "(no removable drives)"
+msgstr "(μη αφαιρέσιμος δίσκος)"
+

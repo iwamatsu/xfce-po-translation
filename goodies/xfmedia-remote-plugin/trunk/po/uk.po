@@ -1,0 +1,146 @@
+# Ukrainian translation of xfmedia-remote-plugin.
+# Copyright (C) Pasi Orovuo <pasi.ov@gmail.com>, 2005
+# This file is distributed under the same license as the xfmedia-remote-plugin package.
+#
+# Dmitry Nikitin <luckas_fb@mail.ru>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfmedia-remote-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-05-14 17:32-0400\n"
+"PO-Revision-Date: 2008-07-28 18:36+0300\n"
+"Last-Translator: Dmitry Nikitin <luckas_fb@mail.ru>\n"
+"Language-Team: Ukrainian <xfce4-dev@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:245
+msgid "Choose playlist to load"
+msgstr "Вибрати список програвання для завантаження"
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:280
+msgid "Save playlist"
+msgstr "Зберегти список програвання"
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:301
+msgid "Failed to save playlist"
+msgstr "Помилка збереження списку програвання"
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:370
+msgid "Please wait until the previous add operation completes."
+msgstr "Зачекайте завершення попередньої операції додавання."
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:374
+msgid "Add track(s) to playlist"
+msgstr "Додати трек(и) до списку програвання"
+
+#. Play
+#: ../panel-plugin/xfmedia-remote-plugin.c:509
+#: ../panel-plugin/xfmedia-remote-plugin.c:601
+msgid "_Play"
+msgstr "_Грати"
+
+#. Remove
+#: ../panel-plugin/xfmedia-remote-plugin.c:521
+msgid "_Remove"
+msgstr "_Видалити"
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:569
+#, c-format
+msgid "Failed to execute xfmedia: %s"
+msgstr "Помилка виконання xfmedia: %s"
+
+#. Prev
+#: ../panel-plugin/xfmedia-remote-plugin.c:590
+msgid "P_rev"
+msgstr "П_опер"
+
+#. Pause
+#: ../panel-plugin/xfmedia-remote-plugin.c:612
+msgid "P_ause"
+msgstr "Па_уза"
+
+#. Stop
+#: ../panel-plugin/xfmedia-remote-plugin.c:623
+msgid "_Stop"
+msgstr "_Зупин"
+
+#. Next
+#: ../panel-plugin/xfmedia-remote-plugin.c:634
+msgid "_Next"
+msgstr "На_ст"
+
+#. Playlist
+#: ../panel-plugin/xfmedia-remote-plugin.c:651
+msgid "P_laylist"
+msgstr "Сп_исок"
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:672
+msgid "Playlist"
+msgstr "Список програвання"
+
+#. Load Playlist
+#: ../panel-plugin/xfmedia-remote-plugin.c:679
+msgid "_Load..."
+msgstr "За_ван..."
+
+#. Save Playlist
+#: ../panel-plugin/xfmedia-remote-plugin.c:690
+msgid "_Save..."
+msgstr "З_бер..."
+
+#. Clear Playlist
+#: ../panel-plugin/xfmedia-remote-plugin.c:701
+msgid "_Clear"
+msgstr "О_чист"
+
+#. Add Track
+#: ../panel-plugin/xfmedia-remote-plugin.c:712
+msgid "_Add track(s)..."
+msgstr "_Дод трек(и)..."
+
+#. Quit
+#: ../panel-plugin/xfmedia-remote-plugin.c:729
+msgid "_Quit"
+msgstr "Ви_йти"
+
+#. Start Xfmedia
+#: ../panel-plugin/xfmedia-remote-plugin.c:800
+msgid "Start _Xfmedia"
+msgstr "Запус_тити Xfmedia"
+
+#. Header
+#: ../panel-plugin/xfmedia-remote-plugin.c:817
+#: ../panel-plugin/xfmedia-remote-plugin.c:1241
+#: ../panel-plugin/xfmedia-remote-plugin.c:1292
+#: ../panel-plugin/xfmedia-remote.desktop.in.in.h:2
+msgid "Xfmedia Remote"
+msgstr "Віддалений Xfmedia"
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:942
+msgid "Stopped"
+msgstr "Зупинено"
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:960
+msgid "No Xfmedia instances running"
+msgstr "Не запущено сеансів Xfmedia"
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:1117
+#: ../panel-plugin/xfmedia-remote-plugin.c:1119
+msgid "Popup menu"
+msgstr "Спливаюче меню"
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:1131
+msgid "Show _playlist"
+msgstr "Відображати списо_к програвання"
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:1278
+msgid "Xfmedia Remote Properties"
+msgstr "Властивості віддаленого Xfmedia"
+
+#: ../panel-plugin/xfmedia-remote.desktop.in.in.h:1
+msgid "Control Xfmedia music player"
+msgstr "Контроль музичного програвача Xfmedia"
+

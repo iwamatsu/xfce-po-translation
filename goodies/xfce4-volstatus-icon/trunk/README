@@ -1,0 +1,14 @@
+xfce4-volstatus-icon
+====================
+
+This is a program that sits around and does nothing until a removable device
+is inserted.  Then it becomes an icon in the systray, which allows you to
+easily (and safely) unmount/eject the device.
+
+-> Requirements:
+
+* gtk+ 2.10.0
+* libxfcegui4 4.4.0
+* ghal 0.1.0  (SVN only; see http://svn.xfce.org/svn/kelnos/ghal/trunk)
+
+More documentation coming eventually...

@@ -1,0 +1,566 @@
+# Galician translation of xfprint
+# Copyright (C) 2006, 2008 Leandro Regueiro
+# This file is distributed under the same license as the xfce package.
+#
+# Leandro Regueiro <leandro.regueiro@gmail.com>, 2006, 2008.
+#
+# Proxecto Trasno - Adaptación do software libre á lingua galega:  Se desexas
+# colaborar connosco, podes atopar máis información en <http://trasno.net>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint 4.4.0\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2006-05-12 18:09+0000\n"
+"PO-Revision-Date: 2008-06-24 22:02+0100\n"
+"Last-Translator: Leandro Regueiro <leandro DOT regueiro AT gmail DOT com>\n"
+"Language-Team: Galician <proxecto@trasno.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "Impresora"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "Saír"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "Saír de xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "Acerca de"
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "Acerca de xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "Amosa información acerca de xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:134
+#, fuzzy
+msgid "Printer manager"
+msgstr "Administrador de paneles"
+
+#: ../libxfprint/printer-list-window.c:200
+#, fuzzy
+msgid "Alias name"
+msgstr "bloque '%name'"
+
+#: ../libxfprint/printer-list-window.c:204
+#: ../libxfprint/printer-queue-window.c:212
+msgid "State"
+msgstr "Estado"
+
+#: ../libxfprint/printer-list-window.c:258
+#, fuzzy
+msgid "Xfprint printers manager"
+msgstr "Saír de xfprint4-manager"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:263
+msgid "Former maintainer"
+msgstr ""
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Maintainer"
+msgstr ""
+
+#: ../libxfprint/printer-list-window.c:327
+#, fuzzy
+msgid "Unknown"
+msgstr "Descoñecido"
+
+#: ../libxfprint/printer-list-window.c:330
+#, fuzzy
+msgid "Idle"
+msgstr "IDLE"
+
+#: ../libxfprint/printer-list-window.c:333
+#, fuzzy
+msgid "Processing"
+msgstr "Procesamento de Texto"
+
+#: ../libxfprint/printer-list-window.c:336
+#, fuzzy
+msgid "Stopped"
+msgstr "parado"
+
+#: ../libxfprint/printer-queue-window.c:68
+#, fuzzy
+msgid "Close"
+msgstr "Pechar"
+
+#: ../libxfprint/printer-queue-window.c:68
+#, fuzzy
+msgid "Close queue window"
+msgstr "Pechar esta xanela"
+
+#: ../libxfprint/printer-queue-window.c:69
+#, fuzzy
+msgid "Jobs"
+msgstr "Traballos de Impresión"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:380
+#: ../libxfprint/printer-queue-window.c:384
+#, fuzzy
+msgid "Remove job"
+msgstr "Eliminar elemento"
+
+#: ../libxfprint/printer-queue-window.c:70
+#, fuzzy
+msgid "Remove the selected job from the queue"
+msgstr "Eliminar un rol dos usuarios seleccionados."
+
+#: ../libxfprint/printer-queue-window.c:72
+#, fuzzy
+msgid "Refresh"
+msgstr "Actualizar"
+
+#: ../libxfprint/printer-queue-window.c:72
+#, fuzzy
+msgid "Refresh queue"
+msgstr "Cola de aprobación"
+
+#: ../libxfprint/printer-queue-window.c:121
+#: ../libxfprint/printer-queue-window.c:533
+#, fuzzy
+msgid "Queue Manager"
+msgstr "Administrador de paneles"
+
+#: ../libxfprint/printer-queue-window.c:202
+msgid "Name"
+msgstr "Nome"
+
+#: ../libxfprint/printer-queue-window.c:206
+msgid "ID"
+msgstr "ID"
+
+#: ../libxfprint/printer-queue-window.c:209
+msgid "User"
+msgstr "Usuario"
+
+#: ../libxfprint/printer-queue-window.c:215
+msgid "Size"
+msgstr "Tamaño"
+
+#: ../libxfprint/printer-queue-window.c:218
+msgid "Priority"
+msgstr "Prioridade"
+
+#: ../libxfprint/printer-queue-window.c:221
+msgid "Creation time"
+msgstr "Hora de creación"
+
+#: ../libxfprint/printer-queue-window.c:224
+#, fuzzy
+msgid "Processing time"
+msgstr "%time restante"
+
+#: ../libxfprint/printer-queue-window.c:377
+#, fuzzy
+msgid "Are you sure you want to remove the job "
+msgstr "¿Está seguro de que desexa eliminar o escritorio virtual \"%d\"?"
+
+#: ../libxfprint/printer-queue-window.c:383
+#, fuzzy
+msgid "Don't remove job"
+msgstr "Por favor, non o elimine nin o modifique"
+
+#: ../libxfprint/printer-queue-window.c:390
+msgid "An error occurred while removing job !"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:441
+msgid "pending"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:444
+msgid "printing"
+msgstr "imprimindo"
+
+#: ../libxfprint/printer-queue-window.c:447
+msgid "Kb"
+msgstr "Kb"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "Sistema de impresión"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "Selección de Sistema de Impresión"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "Información"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "Descrición"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "Versión"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "Autor"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+#, fuzzy
+msgid "Homepage"
+msgstr "Páxina principal"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+#, fuzzy
+msgid "None"
+msgstr "Ningún"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr ""
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr ""
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr ""
+
+#: ../printing-systems/cups/cups.c:48
+#, fuzzy
+msgid "Set as default printer"
+msgstr "Establecer esta impresora coma a impresora por defecto"
+
+#: ../printing-systems/cups/cups.c:49
+#, fuzzy
+msgid "Set as default CUPS printer"
+msgstr "Establecer esta impresora coma a impresora por defecto"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "Propiedades"
+
+#: ../printing-systems/cups/cups.c:51
+#, fuzzy
+msgid "Show printer properties"
+msgstr "Ve-las propiedades do cartafol «%s»"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "Contrasinal"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "Usuario:"
+
+#: ../printing-systems/cups/cups.c:89
+#, fuzzy
+msgid "Password :"
+msgstr "Contrasinal"
+
+#: ../printing-systems/cups/cups.c:117
+#, fuzzy
+msgid "You have to provide an username !"
+msgstr "Debe escribir un nome de usuario."
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+#, fuzzy
+msgid "Print headers"
+msgstr "Diálogo de Impresión"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+#, fuzzy
+msgid "Header:"
+msgstr "Cabeceira"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr ""
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+#, fuzzy
+msgid "Center title:"
+msgstr "lector de novas - @title"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+#, fuzzy
+msgid "Left title:"
+msgstr "lector de novas - @title"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+#, fuzzy
+msgid "Right title:"
+msgstr "lector de novas - @title"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+#, fuzzy
+msgid "Center footer:"
+msgstr "Mensaxe de pé de páxina"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+#, fuzzy
+msgid "Left footer:"
+msgstr "Mensaxe de pé de páxina"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+#, fuzzy
+msgid "Right footer:"
+msgstr "Mensaxe de pé de páxina"
+
+#: ../xfprint/input_page.c:89
+#, fuzzy
+msgid "Encoding:"
+msgstr "Codificazón de Áudio"
+
+#: ../xfprint/input_page.c:98
+#, fuzzy
+msgid "Print all pages"
+msgstr "Imprimi-la(s) páxina(s) de proba"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr ""
+
+#: ../xfprint/input_page.c:127
+#, fuzzy
+msgid "Cut long lines"
+msgstr "Formato longo da data"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr ""
+
+#: ../xfprint/input_page.c:135
+#, fuzzy
+msgid "Force binary printing"
+msgstr "Selección de Sistema de Impresión"
+
+#: ../xfprint/main.c:113
+#, fuzzy
+msgid "Select file to print"
+msgstr "Fallo ó abrir o ficheiro"
+
+#: ../xfprint/main.c:125
+#, fuzzy
+msgid "The specified file does not exist"
+msgstr "O usuario %name non existe."
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+#, fuzzy
+msgid "Language:"
+msgstr "Linguaxe"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+#, fuzzy
+msgid "Highlight level:"
+msgstr "nivel superior"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+#, fuzzy
+msgid "Strip level:"
+msgstr "nivel superior"
+
+#: ../xfprint/print_dialog.c:199
+#, fuzzy
+msgid "Save settings"
+msgstr "Gardar os axustes"
+
+#: ../xfprint/print_dialog.c:207
+msgid "Xfprint"
+msgstr ""
+
+#: ../xfprint/print_dialog.c:215
+#, fuzzy
+msgid "Print to:"
+msgstr "A Elensefar"
+
+#: ../xfprint/print_dialog.c:245
+#, fuzzy
+msgid "Print to file:"
+msgstr "Ficheiro a enviar por fax"
+
+#: ../xfprint/print_dialog.c:275
+msgid "Sheets"
+msgstr ""
+
+#: ../xfprint/print_dialog.c:280
+#, fuzzy
+msgid "Virtual pages"
+msgstr "Páxinas orfas"
+
+#: ../xfprint/print_dialog.c:285
+#, fuzzy
+msgid "Pretty-printing"
+msgstr "Sistema de impresión"
+
+#: ../xfprint/print_dialog.c:290
+#, fuzzy
+msgid "Input"
+msgstr "Formatos de entrada"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Headings"
+msgstr ""
+
+#: ../xfprint/print_dialog.c:304
+#, fuzzy
+msgid "Copies:"
+msgstr "Copias completas:"
+
+#: ../xfprint/print_dialog.c:311
+#, fuzzy
+msgid "Apply filters"
+msgstr "administrar filtros"
+
+#: ../xfprint/print_dialog.c:366
+msgid "Neither the printing system backend or a2ps could be found on your system, you won't be able to print a file with xfprint !"
+msgstr ""
+
+#: ../xfprint/print_dialog.c:484
+msgid "An error occurred while trying to print the file"
+msgstr ""
+
+#: ../xfprint/print_dialog.c:521
+msgid "Select file where to print"
+msgstr ""
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr ""
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr ""
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr ""
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+#, fuzzy
+msgid "Columns:"
+msgstr "Número de columnas:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+#, fuzzy
+msgid "Fill columns first"
+msgstr "Data - a máis nova primeiro"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+#, fuzzy
+msgid "Fill rows first"
+msgstr "Data - a máis nova primeiro"
+
+#: ../xfprint/sheets_page.c:149
+#, fuzzy
+msgid "Rows:"
+msgstr "Número de liñas:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr ""
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr ""
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+#, fuzzy
+msgid "Line numbers:"
+msgstr "Desconectado"
+
+#: ../xfprint/vpages_page.c:97
+#, fuzzy
+msgid "Lines per page:"
+msgstr "!a comentarios por páxina"
+
+#: ../xfprint/vpages_page.c:107
+#, fuzzy
+msgid "Chars per line:"
+msgstr "Sitio desconectado"
+
+#: ../xfprint/vpages_page.c:117
+#, fuzzy
+msgid "Tabulation size:"
+msgstr "@size @suffix"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+#, fuzzy
+msgid "Non-printable format:"
+msgstr "Formato de exportación descoñecido."
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+#, fuzzy
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr "Permítelle seleccionar o sistema de impresión que vai usar xfprint"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+#, fuzzy
+msgid "Printing System Settings"
+msgstr "Preferencias do Sistema de Impresión"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+#, fuzzy
+msgid "Xfce 4 Printing System Settings"
+msgstr "Preferencias do Sistema de Impresión de Xfce 4"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+#, fuzzy
+msgid "Print Manager"
+msgstr "Xestor de Impresión"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+#, fuzzy
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr "Mostra a lista de impresoras e permite xestionar os seus traballos"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+#, fuzzy
+msgid "Xfce 4 Print Manager"
+msgstr "Xestor de Impresión de Xfce 4"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "Diálogo de Impresión"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+#, fuzzy
+msgid "Print a file and allow you to set up its layout"
+msgstr "Imprime un ficheiro e permítelle configurar a súa disposición"
+
+#: ../xfprint/xfprint.desktop.in.h:3
+#, fuzzy
+msgid "Xfce 4 Print Dialog"
+msgstr "Diálogo de Impresión Xfce 4"
+

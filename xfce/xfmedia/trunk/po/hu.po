@@ -1,0 +1,1573 @@
+# Hungarian translations for xfmedia package.
+# Copyright (C) 2004-2006 Brian J. Tarricone.
+# This file is distributed under the same license as the xfmedia package.
+# SZERVÁC Attila <sas@321.hu>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfmedia 0.10.0svn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-06-16 22:22+0900\n"
+"PO-Revision-Date: 2006-09-28 11:33+0100\n"
+"Last-Translator: SZERVÁC Attila <sas@321.hu>\n"
+"Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:102
+#, c-format
+msgid "Status:                  %s\n"
+msgstr "Állapot:                 %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:106
+#, c-format
+msgid "Now Playing:             %s\n"
+msgstr "Betöltve:              %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:111
+#, c-format
+msgid "Filename:                %s\n"
+msgstr "Fájlnév:                 %s\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:112
+#: ../plugins/infopipe/xfmedia-infopipe.c:127
+#: ../plugins/infopipe/xfmedia-infopipe.c:138
+msgid "(none)"
+msgstr "(üres)"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:115
+#, c-format
+msgid "Track Position:          %d\n"
+msgstr "Szám helyzete:           %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:119
+#, c-format
+msgid "Track Length:            %d\n"
+msgstr "Szám hossza:             %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:126
+#, c-format
+msgid ""
+"Audio Codec:             %s\n"
+"Audio Bitrate:           %d\n"
+"Audio Sample Rate:       %d\n"
+"Audio Channels:          %d\n"
+"Audio Bits Per Sample:   %d\n"
+msgstr ""
+"Kodek:                  %s\n"
+"Bitarány:               %d\n"
+"Mintavétel:             %d\n"
+"Csatornák:              %d\n"
+"Bitek mintánként:       %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:137
+#, c-format
+msgid ""
+"Video Codec:            %s\n"
+"Video Bitrate:          %d\n"
+"Video Frames Per Second: %.02f\n"
+"Video Frame Size:        %dx%d\n"
+"Video Aspect Ratio:      %.02f\n"
+msgstr ""
+"Kodek:                  %s\n"
+"Bitarány:               %d\n"
+"Kockák másodpercenként: %.02f\n"
+"Méret:                  %dx%d\n"
+"Arány:                  %.02f\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:144
+#, c-format
+msgid "Playlist Length:         %d\n"
+msgstr "Lista hossza:            %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:148
+#, c-format
+msgid "Current Playlist Index:  %d\n"
+msgstr "Jelenlegi lista mutató:  %d\n"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:234
+#, c-format
+msgid "Xfmedia-Infopipe: Unable to delete file '%s'."
+msgstr "Xfmedia-Infopipe: Nem sikerült törölni ezt a fájlt: '%s'."
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:245
+#, c-format
+msgid "Xfmedia-Infopipe: Unable to create pipe '%s'."
+msgstr "Xfmedia-Infopipe: Nem lehet létrehozni az alábbi pipát: '%s'."
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:262
+msgid "Xfmedia Infopipe"
+msgstr "Xfmedia Infopipe"
+
+#: ../plugins/infopipe/xfmedia-infopipe.c:264
+msgid "The Infopipe plugin creates a pipe in /tmp that you can use to retrieve information about the currently playing track."
+msgstr "Az Infopipe létrehoz egy pipát a /tmp-ben, mellyel a hálózat bármely pontján pontosan lekérheted a most lejátszott szám adatait."
+
+#: ../src/equaliser.c:132
+msgid "Equalizer"
+msgstr "Kiegyenlítő"
+
+#: ../src/equaliser.c:175
+msgid "Preamp"
+msgstr "Előerősítés"
+
+#: ../src/http.c:95
+#, c-format
+msgid "http: failed to open socket: %s\n"
+msgstr "http: sikertelen socket nyitás: %s\n"
+
+#: ../src/http.c:105
+#, c-format
+msgid "http: cannot connect to host\n"
+msgstr "http: nem tudok kapcsolódni\n"
+
+#: ../src/http.c:121
+#, c-format
+msgid "http: unable to resolve '%s'\n"
+msgstr "http: sikertelen feloldás: '%s'\n"
+
+#: ../src/http.c:133
+#, c-format
+msgid "http: unable to connect to '%s'\n"
+msgstr "http: sikertelen kapcsolódás ide: '%s'\n"
+
+#: ../src/http.c:311
+#: ../src/http.c:330
+msgid "URL parse error"
+msgstr "URL értelmezés hiba"
+
+#: ../src/http.c:322
+#: ../src/http.c:340
+msgid "proxy authentication error"
+msgstr "proxy hitelesítés hiba"
+
+#: ../src/http.c:360
+msgid "host connect error"
+msgstr "host kapcsolódás hiba"
+
+#: ../src/http.c:399
+msgid "couldn't send request"
+msgstr "nem tudtam kérést küldeni"
+
+#: ../src/http.c:420
+msgid "read error"
+msgstr "olvasási hiba"
+
+#: ../src/http.c:446
+msgid "invalid HTTP response"
+msgstr "érvénytelen HTTP válasz"
+
+#: ../src/http.c:454
+msgid "HTTP 3xx redirection not implemented"
+msgstr "A HTTP 3xx átirányítás nincs megvalósítva"
+
+#: ../src/http.c:461
+msgid "HTTP status is not 2xx"
+msgstr "A HTTP állapot nem 2xx"
+
+#: ../src/http.c:480
+msgid "HTTP 'Location:' redirection not implemented"
+msgstr "HTTP 'Location:' az átirányítás nincs megvalósítva"
+
+#. FIXME: report errno, and possibly in a window
+#: ../src/http.c:534
+#, c-format
+msgid "http: read error\n"
+msgstr "http: olvasási hiba\n"
+
+#: ../src/main.c:227
+#: ../src/xfmedia-remote.c:102
+#, c-format
+msgid ""
+"Xfmedia %s.  Released under the terms of the GNU GPL.  See the COPYING\n"
+"file for details.\n"
+"\n"
+msgstr ""
+"Xfmedia %s.  GNU GPL alatt kiadva.  L. a COPYING\n"
+"fájlt a részletekért.\n"
+"\n"
+
+#: ../src/main.c:228
+#, c-format
+msgid ""
+"Usage: %s [options] [files]\n"
+"\n"
+msgstr ""
+"Használat: %s [lehetőségek] [fájlok]\n"
+"\n"
+
+#: ../src/main.c:229
+#: ../src/xfmedia-remote.c:104
+msgid "    -h, --help           Print this help message and exit.\n"
+msgstr "    -h, --help           Kiírja ezt a súgót és kilép.\n"
+
+#: ../src/main.c:230
+#: ../src/xfmedia-remote.c:105
+msgid "    -V, --version        Print version information and exit.\n"
+msgstr "    -V, --version        Kiírja a verziót és kilép.\n"
+
+#: ../src/main.c:231
+msgid "    -v, --verbose        Instruct xine to print useful status information.\n"
+msgstr "    -v, --verbose        Utasítja a xine-t a hasznos állapotinfó kiírására.\n"
+
+#: ../src/main.c:232
+msgid "    --debug              Instruct xine to print detailed debug information.\n"
+msgstr "    --debug              Utasítja a xine-t a részletes hibakereső infó kiírására.\n"
+
+#: ../src/main.c:233
+msgid "    -f, --fullscreen     Start xfmedia's video window in fullscreen mode.\n"
+msgstr "    -f, --fullscreen     Az Xfmedia filmablakát teljes képernyőben indítja.\n"
+
+#: ../src/main.c:234
+msgid ""
+"    -p, --autoplay       Start playing when Xfmedia starts.  (This is the\n"
+"                         default if xfmedia is given filenames on the command\n"
+"                         line.)\n"
+msgstr ""
+"    -p, --autoplay       Elibdítja a lejátszást az Xfmedia indulásakor.  (Ez az\n"
+"                         alap, ha az Xfmedia fájlneveket kap a parancssorban\n"
+
+#: ../src/main.c:237
+msgid "    -c, --clear-playlist Start xfmedia with an empty playlist.\n"
+msgstr "    -c, --clear-playlist Az Xfmedia programot üres listával indítja.\n"
+
+#: ../src/main.c:238
+msgid "    --audio-out=DRIVER   Specify the audio output driver to use.\n"
+msgstr "    --audio-out=DRIVER   Megadja a kimeneti hangmeghajtót.\n"
+
+#: ../src/main.c:239
+msgid "    --video-out=DRIVER   Specify the video output driver to use.\n"
+msgstr "    --video-out=DRIVER   Megadja a kimeneti képmeghajtót.\n"
+
+#: ../src/main.c:240
+msgid ""
+"    --vwin-geometry=WxH[+X+Y]\n"
+"                         Specify a fixed size and/or position for xfmedia's\n"
+"                         video window.\n"
+msgstr ""
+"    --vwin-geometry=WxH[+X+Y]\n"
+"                         Megad egy fix méretet és/vagy helyet az Xfmedia\n"
+"                         videó ablaknak.\n"
+
+#: ../src/main.c:315
+#: ../src/xfmedia-remote.c:167
+#, c-format
+msgid "Xfmedia version %s, Copyright (c) Brian Tarricone, <bjt23@cornell.edu>\n"
+msgstr "Xfmedia : %s változat, Copyright (c) Brian Tarricone, <bjt23@cornell.edu>\n"
+
+#: ../src/main.c:316
+#: ../src/xfmedia-remote.c:168
+msgid "Released under the terms of the GNU General Public License.\n"
+msgstr "GNU General Public License alatt kiadva.\n"
+
+#: ../src/main.c:317
+#, c-format
+msgid "Compiled against xine-lib %s, using xine-lib %s.\n"
+msgstr "Fordítási xine-lib: %s, használt xine-lib: %s.\n"
+
+#: ../src/main.c:319
+#, c-format
+msgid "Compiled against Xfce %d.%d.%d, using Xfce %s.\n"
+msgstr "Fordításkor használt Xfce környezet: %d.%d.%d, használt Xfce környezet: %s.\n"
+
+#: ../src/main.c:354
+msgid "The option --audio-out requires an argument.\n"
+msgstr "Az --audio-out lehetőség argumentumot vár.\n"
+
+#: ../src/main.c:363
+msgid "The option --video-out requires an argument.\n"
+msgstr "Az --video-out lehetőség argumentumot vár.\n"
+
+#: ../src/mainwin-callbacks.c:130
+msgid "Unable to play file."
+msgstr "Gond a fájl lejátszásával."
+
+#: ../src/mainwin-callbacks.c:131
+msgid "Xfmedia was unable to play the selected file.  Be sure that the file exists and that you have permission to access it."
+msgstr "Az Xfmedia jelenleg nem tudja lejátszani a választott fájlt. Az talán nem létezik, vagy nincs jogod olvasni."
+
+#: ../src/mainwin-callbacks.c:222
+msgid "Metadata Changed"
+msgstr "A metaadatok frissültek"
+
+#: ../src/mainwin-callbacks.c:224
+msgid "You have edited this file's metadata."
+msgstr "Módosítottad e fájl metaadatait"
+
+#: ../src/mainwin-callbacks.c:225
+msgid "Changes will be lost unless they are saved.  Do you wish to save changes?"
+msgstr "A változások elvesznek mentés nélkül. Mented a változásokat?"
+
+#: ../src/mainwin-callbacks.c:226
+msgid "_Discard Changes"
+msgstr "Változások elvetése"
+
+#: ../src/mainwin-callbacks.c:227
+msgid "_Save Changes"
+msgstr "Változások mentése"
+
+#: ../src/mainwin-callbacks.c:285
+#, c-format
+msgid "Xfmedia was unable to open '%s'.  Be sure that the file exists and that you have permission to access it."
+msgstr "Az Xfmedia nem tudta megnyitni e fájlt: '%s'. Gyűzűdj meg, hogy létezik és van jogod olvasni."
+
+#: ../src/mainwin-callbacks.c:287
+msgid "Unable to open file."
+msgstr "Sikertelen fájlmegnyitás."
+
+#: ../src/mainwin-callbacks.c:308
+msgid "File Info"
+msgstr "Fájl Infó"
+
+#: ../src/mainwin-callbacks.c:323
+msgid "Filename"
+msgstr "Fájlnév"
+
+#: ../src/mainwin-callbacks.c:336
+msgid "Media Info"
+msgstr "Média Infó"
+
+#: ../src/mainwin-callbacks.c:348
+msgid "Title:"
+msgstr "Cím:"
+
+#: ../src/mainwin-callbacks.c:375
+msgid "Artist:"
+msgstr "Előadó:"
+
+#: ../src/mainwin-callbacks.c:402
+msgid "Album:"
+msgstr "Album:"
+
+#: ../src/mainwin-callbacks.c:429
+msgid "Genre:"
+msgstr "Műfaj:"
+
+#: ../src/mainwin-callbacks.c:452
+msgid "Track:"
+msgstr "Szám:"
+
+#: ../src/mainwin-callbacks.c:477
+msgid "Year:"
+msgstr "Év:"
+
+#: ../src/mainwin-callbacks.c:504
+msgid "Comment:"
+msgstr "Megjegyzés:"
+
+#: ../src/mainwin-callbacks.c:535
+msgid "Length:"
+msgstr "Hossz:"
+
+#: ../src/mainwin-callbacks.c:552
+msgid "File size (b):"
+msgstr "Fájlméret (b):"
+
+#: ../src/mainwin-callbacks.c:569
+msgid "Audio Info"
+msgstr "Hang Infó"
+
+#: ../src/mainwin-callbacks.c:581
+#: ../src/mainwin-callbacks.c:675
+msgid "Codec:"
+msgstr "Kodek:"
+
+#: ../src/mainwin-callbacks.c:596
+msgid "Samples/sec:"
+msgstr "Minta/mp:"
+
+#: ../src/mainwin-callbacks.c:615
+msgid "Bits/sample:"
+msgstr "Bit/minta:"
+
+#: ../src/mainwin-callbacks.c:631
+#: ../src/mainwin-callbacks.c:732
+msgid "Channels:"
+msgstr "Csatornák:"
+
+#: ../src/mainwin-callbacks.c:646
+#: ../src/mainwin-callbacks.c:746
+msgid "Bitrate (kbit):"
+msgstr "Bitarány (kbit):"
+
+#: ../src/mainwin-callbacks.c:663
+msgid "Video Info"
+msgstr "Kép Infó"
+
+#: ../src/mainwin-callbacks.c:690
+msgid "FourCC:"
+msgstr "FourCC:"
+
+#: ../src/mainwin-callbacks.c:714
+msgid "Frame size:"
+msgstr "Képméret:"
+
+#: ../src/mainwin-callbacks.c:895
+msgid "Add URL"
+msgstr "URL"
+
+#: ../src/mainwin-callbacks.c:912
+msgid "_URL:"
+msgstr "_URL:"
+
+#: ../src/mainwin-callbacks.c:937
+msgid "Sort by filename"
+msgstr "Rendezés fájlnév szerint"
+
+#: ../src/mainwin-callbacks.c:938
+msgid "Sort by title"
+msgstr "Rendezés cím szerint"
+
+#: ../src/mainwin-callbacks.c:939
+msgid "Sort by artist, title"
+msgstr "Rendezés előadó és cím szerint"
+
+#: ../src/mainwin-callbacks.c:940
+msgid "Sort by artist, album, track number"
+msgstr "Rendezés előadó, album és sorszám szerint"
+
+#: ../src/mainwin-callbacks.c:1241
+msgid "Add Directory"
+msgstr "Könyvtár"
+
+#: ../src/mainwin-callbacks.c:1329
+msgid "Add Media File"
+msgstr "Médiafájl"
+
+#: ../src/mainwin-callbacks.c:1331
+msgid "Add _Selected"
+msgstr "_Kiválasztottak hozzáadása"
+
+#: ../src/mainwin-callbacks.c:1335
+msgid "A_dd and Close"
+msgstr "_Hozzáadás és bezárás"
+
+#: ../src/mainwin-callbacks.c:1349
+#: ../src/playlist.c:686
+msgid "All Files"
+msgstr "Minden fájl"
+
+#: ../src/mainwin-callbacks.c:1353
+msgid "Music Files"
+msgstr "Hangfájlok"
+
+#: ../src/mainwin-callbacks.c:1367
+#: ../src/playlist.c:690
+msgid "Playlists"
+msgstr "Listák"
+
+#: ../src/mainwin-callbacks.c:1373
+msgid "Video Files"
+msgstr "Filmfájlok"
+
+#: ../src/mainwin-callbacks.c:1949
+msgid "Translator"
+msgstr "Fordító"
+
+#: ../src/mainwin-callbacks.c:1962
+msgid ""
+"Xfmedia is a lightweight media player,\n"
+"based on the xine engine"
+msgstr ""
+"Az Xfmedia egy pillesúlyú médialejátszó,\n"
+"amely a xine motorra épül"
+
+#: ../src/mainwin-callbacks.c:1967
+msgid "Original Author/Maintainer"
+msgstr "Eredeti szerző/karbantartó"
+
+#: ../src/mainwin-callbacks.c:2080
+#: ../src/mainwin.c:1843
+msgid "Stopped"
+msgstr "Megállítva"
+
+#: ../src/mainwin.c:383
+msgid "_Other"
+msgstr "_Egyéb"
+
+#: ../src/mainwin.c:429
+msgid "_URL..."
+msgstr "_URL..."
+
+#: ../src/mainwin.c:438
+msgid "_Directory..."
+msgstr "_Könyvtár..."
+
+#: ../src/mainwin.c:447
+msgid "_File..."
+msgstr "_Fájl..."
+
+#: ../src/mainwin.c:633
+msgid "Volume"
+msgstr "Hangerő"
+
+#: ../src/mainwin.c:658
+#: ../src/xfmedia-keybindings.c:513
+msgid "Previous Track"
+msgstr "Előző szám"
+
+#: ../src/mainwin.c:670
+msgid "Play/Pause Track"
+msgstr "Lejátszás/megállítás"
+
+#: ../src/mainwin.c:686
+msgid "Stop Playback"
+msgstr "Lejátszás vége"
+
+#: ../src/mainwin.c:697
+#: ../src/xfmedia-keybindings.c:514
+msgid "Next Track"
+msgstr "Következő szám"
+
+#: ../src/mainwin.c:705
+msgid "_Playlist"
+msgstr "_Lejátszólista"
+
+#: ../src/mainwin.c:759
+msgid "_Enqueue"
+msgstr "Hozzáfűzés"
+
+#: ../src/mainwin.c:768
+msgid "Add _Mediamark..."
+msgstr "_Médiakönyvjelző hozzáadása"
+
+#: ../src/mainwin.c:781
+msgid "_File Info"
+msgstr "File _Infó:"
+
+#: ../src/mainwin.c:798
+msgid "About _Xfmedia"
+msgstr "_Xfmedia névjegy"
+
+#: ../src/mainwin.c:811
+msgid "_Preferences"
+msgstr "Beállítások"
+
+#: ../src/mainwin.c:821
+msgid "_Equalizer..."
+msgstr "_Equalizer..."
+
+#: ../src/mainwin.c:832
+msgid "_Jump to File..."
+msgstr "_Ugrás fájlra..."
+
+#: ../src/mainwin.c:841
+msgid "Play_list Queue..."
+msgstr "_Lista..."
+
+#: ../src/mainwin.c:848
+msgid "_Mediamarks"
+msgstr "_Médiakönyvjelzők"
+
+#: ../src/mainwin.c:858
+msgid "Re_order"
+msgstr "Rendezés"
+
+#: ../src/mainwin.c:869
+msgid "Sort by _Title"
+msgstr "Rendezés cím szerint"
+
+#: ../src/mainwin.c:875
+msgid "Sort by _Filename"
+msgstr "Rendezés fájlnév szerint"
+
+#: ../src/mainwin.c:881
+msgid "_Randomize List"
+msgstr "_Véletlenszerű lista"
+
+#: ../src/mainwin.c:893
+msgid "_Shuffle"
+msgstr "Ke_verés"
+
+#: ../src/mainwin.c:901
+msgid "_Repeat"
+msgstr "_Ismétlés"
+
+#: ../src/mainwin.c:909
+msgid "Repeat Single _Track"
+msgstr "_Szám ismétlése"
+
+#: ../src/mainwin.c:917
+msgid "Show Audio _Visualization"
+msgstr "Hangmegjelenítés"
+
+#: ../src/mainwin.c:1124
+#: ../src/mainwin.c:1733
+msgid "Playing"
+msgstr "Lejátszás"
+
+#: ../src/mainwin.c:1141
+msgid "P_revious Track"
+msgstr "_Előző szám"
+
+#: ../src/mainwin.c:1150
+#: ../src/mainwin.c:1262
+msgid "_Play"
+msgstr "_Lejátszás"
+
+#: ../src/mainwin.c:1167
+#: ../src/mainwin.c:1283
+msgid "_Pause"
+msgstr "_Megszakítás"
+
+#: ../src/mainwin.c:1178
+msgid "_Stop"
+msgstr "_Megállítás"
+
+#: ../src/mainwin.c:1186
+msgid "_Next Track"
+msgstr "_Következő szám"
+
+#: ../src/mainwin.c:1754
+msgid "Paused"
+msgstr "Megszakítva"
+
+#: ../src/mediamarks.c:125
+msgid "Mediamarks Save Error"
+msgstr "Médiakönyvjelző mentési hiba"
+
+#: ../src/mediamarks.c:127
+msgid "The mediamarks file failed to save."
+msgstr "A médiakönyvjelző fájl mentése nem sikerült."
+
+#: ../src/mediamarks.c:128
+#: ../src/xfmedia-keybindings.c:683
+#: ../src/xfmedia-keybindings.c:696
+msgid "This could be because your disk is full, or you don't have permission to write to the configuration directory.  Any changes will be lost when you quit Xfmedia."
+msgstr "Vagy betelt a lemez, vagy nincs jogod írni a beállítókönyvtárba. A változások elvesznek, mikor elhagyod az Xfmedia alkalmazást."
+
+#: ../src/mediamarks.c:625
+#: ../src/mediamarks.c:889
+msgid "Mediamarks"
+msgstr "Médiakönyvjelzők"
+
+#: ../src/mediamarks.c:721
+msgid "Add Mediamark"
+msgstr "Médiakönyvjelző"
+
+#: ../src/mediamarks.c:726
+msgid "_Add Mediamark"
+msgstr "_Médiakönyvjelző hozzáadása"
+
+#: ../src/mediamarks.c:745
+#: ../src/mediamarks.c:1191
+msgid "_Name:"
+msgstr "_Név"
+
+#: ../src/mediamarks.c:766
+#: ../src/mediamarks.c:1213
+msgid "_Location:"
+msgstr "_Hely"
+
+#: ../src/mediamarks.c:781
+#: ../src/mediamarks.c:987
+msgid "File _in:"
+msgstr "Ide:"
+
+#: ../src/mediamarks.c:803
+msgid "New Folder"
+msgstr "Új könyvtár"
+
+#: ../src/mediamarks.c:808
+msgid "Add _Folder"
+msgstr "_Könyvtár hozzáadása"
+
+#: ../src/mediamarks.c:956
+msgid "Add Mediamark Folder"
+msgstr "Médiakönyvjelző könyvtár hozzáadása"
+
+#: ../src/mediamarks.c:962
+msgid "_Add Folder"
+msgstr "Könyvtár hozzá_adása"
+
+#: ../src/mediamarks.c:978
+msgid "_Folder Name:"
+msgstr "_Könyvtárnév"
+
+#: ../src/mediamarks.c:1047
+msgid "Remove Mediamark"
+msgstr "Médiakönyvjelző törlése"
+
+#: ../src/mediamarks.c:1048
+#: ../src/mediamarks.c:1053
+msgid "Are you sure?"
+msgstr "Biztos?"
+
+#: ../src/mediamarks.c:1048
+msgid "You're about to remove a Mediamark, which can't be undone."
+msgstr "Végleg törölni készülöd a médiakönyvjelzőt"
+
+#: ../src/mediamarks.c:1052
+msgid "Remove Folder"
+msgstr "Könyvtár törlése"
+
+#: ../src/mediamarks.c:1054
+msgid "Removing a folder also removes all items and subfolders contained in it, and can't be undone."
+msgstr "Végleg törölni készülöd a könvtárat össze elemével."
+
+#: ../src/mediamarks.c:1174
+msgid "Mediamark Properties"
+msgstr "Médiakönyvjelző tulajdonságok"
+
+#: ../src/mediamarks.c:1174
+msgid "Folder Properties"
+msgstr "Könyvtár tulajdonságok"
+
+#: ../src/mediamarks.c:1593
+msgid "Manage Mediamarks"
+msgstr "Médiakönyvjelzők kezelése"
+
+#: ../src/mediamarks.c:1615
+msgid "New Mediamark..."
+msgstr "Új médiakönyvjelző..."
+
+#: ../src/mediamarks.c:1616
+msgid "Add a new mediamark"
+msgstr "Új médiakönyvjelző hozzáadása"
+
+#: ../src/mediamarks.c:1621
+msgid "Add Folder..."
+msgstr "Könyvtár hozzáadása..."
+
+#: ../src/mediamarks.c:1622
+msgid "Add a new folder"
+msgstr "Új könyvtár hozzáadása"
+
+#: ../src/mediamarks.c:1627
+msgid "Remove Item"
+msgstr "Elem törlése"
+
+#: ../src/mediamarks.c:1628
+msgid "Remove the selected item"
+msgstr "Kiválasztott elem törlése"
+
+#: ../src/mediamarks.c:1635
+msgid "Move Item Up"
+msgstr "Elem fel"
+
+#: ../src/mediamarks.c:1636
+msgid "Move the selected item up"
+msgstr "Kiválasztott elem mozgatása fel"
+
+#: ../src/mediamarks.c:1641
+msgid "Move Item Down"
+msgstr "Elem le"
+
+#: ../src/mediamarks.c:1642
+msgid "Move the selected item down"
+msgstr "Kiválasztott elem mozgatása le"
+
+#: ../src/mediamarks.c:1649
+msgid "Refresh"
+msgstr "Frissítés"
+
+#: ../src/mediamarks.c:1650
+msgid "Refresh the list"
+msgstr "Lista frissítése"
+
+#: ../src/mediamarks.c:1655
+msgid "Properties..."
+msgstr "Tulajdonságok..."
+
+#: ../src/mediamarks.c:1656
+msgid "Edit the selected item's properties"
+msgstr "Választott elem tulajdonságai"
+
+#: ../src/mediamarks.c:1686
+msgid "Name"
+msgstr "Név"
+
+#: ../src/mediamarks.c:1713
+msgid "Location"
+msgstr "Hely"
+
+#: ../src/mediamarks.c:1806
+msgid "_Add Current Stream..."
+msgstr "Jelenlegi folyam hozzá_adása..."
+
+#: ../src/mediamarks.c:1815
+msgid "_Manage Mediamarks..."
+msgstr "Médiakönyvjelzők _kezelése..."
+
+#: ../src/playlist.c:536
+msgid "Save changes to this playlist before closing?"
+msgstr "Mented a lista változásait?"
+
+#: ../src/playlist.c:537
+msgid "You've changed this playlist since it was last saved."
+msgstr "Módosítottad a listát az utolsó mentés óta."
+
+#: ../src/playlist.c:541
+msgid "Do_n't save"
+msgstr "_Ne mentsük"
+
+#: ../src/playlist.c:590
+#: ../src/xfmedia-keybindings.c:534
+msgid "Save Playlist"
+msgstr "Lista mentése"
+
+#: ../src/playlist.c:600
+msgid "Autodetect type by extension"
+msgstr "Típus kiterjesztés alapján"
+
+#: ../src/playlist.c:604
+msgid "Flat file"
+msgstr "Sima fájl"
+
+#: ../src/playlist.c:676
+msgid "Open Playlist"
+msgstr "Lista megnyitása"
+
+#: ../src/playlist.c:1359
+msgid "#"
+msgstr "#"
+
+#: ../src/playlist.c:1373
+msgid "Title"
+msgstr "Cím"
+
+#: ../src/playlist.c:1381
+msgid "Length"
+msgstr "Hossz"
+
+#: ../src/playlist.c:1431
+msgid "Add entry to playlist"
+msgstr "Bejegyzés hozzáadása a listához"
+
+#: ../src/playlist.c:1441
+msgid "Remove entry from playlist"
+msgstr "Elem törlése a listából"
+
+#: ../src/playlist.c:1451
+msgid "Move selected playlist entry up"
+msgstr "Választott elem mozgatása fel"
+
+#: ../src/playlist.c:1461
+msgid "Move selected playlist entry down"
+msgstr "Választott elem mozgatása le"
+
+#: ../src/playlist.c:1486
+msgid "Randomize play order"
+msgstr "Véletlenszerű sorrend"
+
+#: ../src/playlist.c:1505
+msgid "Repeat after playlist finishes"
+msgstr "Ismétlés a lista végére érve"
+
+#: ../src/playlist.c:1520
+msgid "Save current playlist"
+msgstr "Lista mentése"
+
+#: ../src/playlist.c:1530
+msgid "Open a saved playlist"
+msgstr "Lista megnyitása"
+
+#: ../src/playlist.c:1540
+msgid "Start a new playlist"
+msgstr "Új lista"
+
+#: ../src/playlist.c:1548
+msgid "_Remove Entry"
+msgstr "_Törlés"
+
+#: ../src/playlist.c:1557
+msgid "Move _Up"
+msgstr "Mozgatás _fel"
+
+#: ../src/playlist.c:1566
+msgid "Move _Down"
+msgstr "Mozgatás _le"
+
+#: ../src/remote.c:223
+#: ../src/remote.c:466
+msgid "(no title)"
+msgstr "(üres)"
+
+#: ../src/settings-dialog.c:145
+msgid "Optical Devices"
+msgstr "Optikai eszközök"
+
+#: ../src/settings-dialog.c:159
+msgid "CD A_udio Device:"
+msgstr "CD A_udio eszköz:"
+
+#: ../src/settings-dialog.c:181
+msgid "DVD Vide_o Device:"
+msgstr "DVD Vide_o eszköz:"
+
+#: ../src/settings-dialog.c:203
+msgid "Vid_eo CD Device:"
+msgstr "Vid_eó CD eszköz:"
+
+#: ../src/settings-dialog.c:221
+msgid "Audio"
+msgstr "Hang"
+
+#: ../src/settings-dialog.c:233
+msgid "Dr_iver:"
+msgstr "Meghajtó:"
+
+#: ../src/settings-dialog.c:243
+#: ../src/settings-dialog.c:312
+msgid "(no drivers)"
+msgstr "(nincsenek meghajtók)"
+
+#: ../src/settings-dialog.c:267
+msgid "_Speaker Layout:"
+msgstr "Hangszórók:"
+
+#: ../src/settings-dialog.c:275
+msgid "(option unavailable)"
+msgstr "(nem elérhető)"
+
+#: ../src/settings-dialog.c:290
+msgid "Video"
+msgstr "Videó"
+
+#: ../src/settings-dialog.c:302
+msgid "D_river:"
+msgstr "Meghajtó:"
+
+#: ../src/settings-dialog.c:608
+msgid "Xfmedia Preferences"
+msgstr "Xfmedia beállítások"
+
+#: ../src/settings-dialog.c:630
+msgid "Playlist"
+msgstr "Lista"
+
+#: ../src/settings-dialog.c:643
+msgid "_Title Display:"
+msgstr "_Cím kijelzés:"
+
+#: ../src/settings-dialog.c:653
+msgid ""
+"This is a printf-like format string controlling the display of the playlist.  Xfmedia will replace the following symbols:\n"
+"\t%p: Artist/Performer\n"
+"\t%t: Track Title\n"
+"\t%a: Album Name\n"
+"\t%T: Track Number\n"
+"\t%g: Genre\n"
+"\t%y: Year\n"
+"\t%f: Filename\n"
+"\t%%: a percent sign"
+msgstr ""
+"Ez egy printf-szerű szövegfüzér a lejátszólista kijelzésére.  Az Xfmedia a következő szimbólumokat cseréli:\n"
+"\t%p: Szerző/előadó\n"
+"\t%t: Szám cím\n"
+"\t%a: Album név\n"
+"\t%T: Szám sorszáma\n"
+"\t%g: Műfaj\n"
+"\t%y: Év\n"
+"\t%f: Fájlnév\n"
+"\t%%: egy százalék jel"
+
+#: ../src/settings-dialog.c:667
+msgid "_Advance playlist when track ends"
+msgstr "_Előrelépés, ha vége egy számnak"
+
+#: ../src/settings-dialog.c:675
+msgid "When a track ends, Xfmedia can automatically advance to the next track in the playlist and continue playback."
+msgstr "Mikor egy szám véget ér, az Xfmedia automatikusan lép a következőre a listában és folytatja a lejátszást."
+
+#: ../src/settings-dialog.c:677
+msgid "_Don't save playlist on exit for one-shot invocations"
+msgstr "_Ne mentsd a listát automatikus kilépésnél"
+
+#: ../src/settings-dialog.c:685
+msgid "Only automatically save the playlist during interactive use; i.e., don't save the playlist when Xfmedia was invoked from the commandline with a short list of definite arguments.  This option needs to be named better."
+msgstr "Csak az interktív Xfmiedia használatnál mentse önműködően a listát, vagyis péládul ne mentse, ha az Xfmedia parancsorból indult pár argumentummal."
+
+#: ../src/settings-dialog.c:691
+msgid "Load metadata:"
+msgstr "Metaadatok betöltése:"
+
+#: ../src/settings-dialog.c:695
+msgid "On _scroll"
+msgstr "_Görgetéskor"
+
+#: ../src/settings-dialog.c:703
+msgid "Load file metadata for entries in the playlist when they are visible."
+msgstr "Metaadatok betöltése, ha a listaelem láthatóvá válik."
+
+#: ../src/settings-dialog.c:706
+msgid "On pla_y"
+msgstr "_Lejátszáskor"
+
+#: ../src/settings-dialog.c:714
+msgid "Load file metadata for entries in the playlist only when playing them."
+msgstr "Metaadatok betöltése lejátszáskor."
+
+#: ../src/settings-dialog.c:717
+msgid "_Never"
+msgstr "_Soha"
+
+#: ../src/settings-dialog.c:725
+msgid "Never load file metadata for entries in the playlist."
+msgstr "Soha ne töltse be a metaadatokat a listában."
+
+#: ../src/settings-dialog.c:727
+msgid "Window"
+msgstr "Ablak"
+
+#: ../src/settings-dialog.c:736
+msgid "Show Xfmedia on all _workspaces"
+msgstr "Xfmedia mutatása minden m_unkaterületen"
+
+#: ../src/settings-dialog.c:742
+msgid "Sets Xfmedia \"sticky\" such that it appears on all workspaces (virtual desktops)."
+msgstr "Az Xfmedia-t \"ragadós\" -sá teszi, így az megjelenik minden munkaterületen (virtuális asztalon)."
+
+#: ../src/settings-dialog.c:744
+msgid "Keep X_fmedia above other windows"
+msgstr "Xfmedia mindig _felül"
+
+#: ../src/settings-dialog.c:751
+msgid "Sets the Xfmedia window to \"Always-on-Top\" status."
+msgstr "\"Mindig-felül\" állapotba állítja az Xfmedia ablakot."
+
+#: ../src/settings-dialog.c:753
+msgid "Dock and auto-_hide Xfmedia at screen edges"
+msgstr "Kösd ki és rejtsd el az Xfmedia-t a képernyő széleinél"
+
+#: ../src/settings-dialog.c:760
+msgid "When the Xfmedia window is dragged to a screen edge, it will auto-hide itself and reappear when you move the mouse to the edge of the screen."
+msgstr "Ha az Xfmedia-t a képernyő szélére húzod, elrejti magát és újra megjelenik, ha újra odamész."
+
+#: ../src/settings-dialog.c:762
+msgid "Tray Icon"
+msgstr "Tálca ikon"
+
+#: ../src/settings-dialog.c:771
+msgid "Show _tray icon"
+msgstr "_Tálcaikon mutatása"
+
+#: ../src/settings-dialog.c:777
+msgid "Displays an Xfmedia icon in the system notification area."
+msgstr "Megjelenít egy Xfmedia ikont a rendszer értesítési területen."
+
+#: ../src/settings-dialog.c:779
+msgid "_Minimize Xfmedia to tray icon"
+msgstr "_Minimalizálja az Xfmedia-t a tálcára"
+
+#: ../src/settings-dialog.c:787
+msgid "Minimizes Xfmedia to the tray icon rather than to the taskbar or iconbox."
+msgstr "Minimalizálja az Xfmedia-t a tálcára a feladatsáv vagy ikondoboz helyett."
+
+#: ../src/settings-dialog.c:793
+msgid "On middle _click:"
+msgstr "_Középső kattintásra:"
+
+#: ../src/settings-dialog.c:796
+#: ../src/settings-dialog.c:810
+msgid "The tray icon can perform an action when middle-clicked.  Select the action in the dropdown box."
+msgstr "A táca ikon végrehajthat egy műveletet közép-kattintásra.  Válaszd ki a műveletet!"
+
+#: ../src/settings-dialog.c:799
+msgid "Do nothing"
+msgstr "Semmi."
+
+#: ../src/settings-dialog.c:800
+msgid "Toggle play/pause"
+msgstr "Lejátszás/szünet"
+
+#: ../src/settings-dialog.c:801
+msgid "Next track"
+msgstr "Következő szám"
+
+#: ../src/settings-dialog.c:802
+msgid "Previous track"
+msgstr "Előző szám"
+
+#: ../src/settings-dialog.c:815
+msgid "O_ptions"
+msgstr "_Lehetőségek"
+
+#: ../src/settings-dialog.c:826
+msgid "Selected Visualization"
+msgstr "Választott megjelenítés"
+
+#: ../src/settings-dialog.c:854
+msgid "(none available)"
+msgstr "(nem elérhető)"
+
+#: ../src/settings-dialog.c:865
+msgid "Visualization Options"
+msgstr "Megjelenítési lehetőségek"
+
+#: ../src/settings-dialog.c:880
+msgid "_Audio Visualization"
+msgstr "_Hangmegjelenítés"
+
+#: ../src/settings-dialog.c:886
+msgid "_Devices"
+msgstr "_Eszközök"
+
+#: ../src/settings-dialog.c:892
+msgid "_Keybindings"
+msgstr "_Billentyűk"
+
+#: ../src/settings-dialog.c:900
+msgid "_Plugins"
+msgstr "Be_illesztések"
+
+#: ../src/settings.c:242
+msgid "Settings Save Error"
+msgstr "Hiba a beállítások mentésekor"
+
+#: ../src/settings.c:243
+msgid "The settings file failed to save."
+msgstr "A beállító fájl mentése sikertelen"
+
+#: ../src/settings.c:244
+msgid "This could be because your disk is full, or you don't have permission to write to the configuration directory.  Any changes will be lost when you exit Xfmedia."
+msgstr "Vagy betelt a lemez, vagy nincs jogod írni a beállítókönyvtárba. A változások elvesznek, mikor elhagyod az Xfmedia alkalmazást."
+
+#: ../src/xfmedia-common.c:422
+msgid "(UTF-8 conversion failed)"
+msgstr "(sikertelen UTF-8 átalakítás)"
+
+#: ../src/xfmedia-handle.c:141
+msgid "Handle Style"
+msgstr "Kezelő stílus"
+
+#: ../src/xfmedia-handle.c:142
+msgid "This property defines the handle style of the XfmediaHandle widget."
+msgstr "E tulajdonság adja az XfmediaHandle elemben a fogó stílusát"
+
+#: ../src/xfmedia-handle.c:150
+msgid "Orientation"
+msgstr "Irány"
+
+#: ../src/xfmedia-handle.c:151
+msgid "This property defines whether this is a horizontal or vertical handle."
+msgstr "E tulajdonság adja meg a vízszintes vagy függőleges kezelést."
+
+#: ../src/xfmedia-keybindings.c:510
+msgid "Play"
+msgstr "Lejátszás"
+
+#: ../src/xfmedia-keybindings.c:511
+msgid "Pause"
+msgstr "Megszakítás"
+
+#: ../src/xfmedia-keybindings.c:512
+msgid "Stop"
+msgstr "Leállítás"
+
+#: ../src/xfmedia-keybindings.c:515
+msgid "Quit"
+msgstr "Kilépés"
+
+#: ../src/xfmedia-keybindings.c:516
+msgid "Toggle Fullscreen"
+msgstr "Teljes képernyő"
+
+#: ../src/xfmedia-keybindings.c:517
+msgid "Toggle Shuffle Play"
+msgstr "Keverő mód"
+
+#: ../src/xfmedia-keybindings.c:518
+msgid "Toggle Repeat Play"
+msgstr "Ismétlő mód"
+
+#: ../src/xfmedia-keybindings.c:519
+msgid "Toggle Audio Visualization"
+msgstr "Hangmegjelenítés"
+
+#: ../src/xfmedia-keybindings.c:520
+msgid "Set Speed Faster"
+msgstr "Gyorsítás"
+
+#: ../src/xfmedia-keybindings.c:521
+msgid "Set Speed Slower"
+msgstr "Lassítás"
+
+#: ../src/xfmedia-keybindings.c:522
+msgid "Forward 10 Seconds"
+msgstr "10 másodperccel előre"
+
+#: ../src/xfmedia-keybindings.c:523
+msgid "Forward 30 Seconds"
+msgstr "30 másodperccel előre"
+
+#: ../src/xfmedia-keybindings.c:524
+msgid "Forward 60 Seconds"
+msgstr "1 perccel előre"
+
+#: ../src/xfmedia-keybindings.c:525
+msgid "Backward 10 Seconds"
+msgstr "10 másodperccel hátra"
+
+#: ../src/xfmedia-keybindings.c:526
+msgid "Backward 30 Seconds"
+msgstr "30 másodperccel hátra"
+
+#: ../src/xfmedia-keybindings.c:527
+msgid "Backward 60 Seconds"
+msgstr "1 perccel hátra"
+
+#: ../src/xfmedia-keybindings.c:528
+msgid "Enqueue Track"
+msgstr "Számhozzáfűzés"
+
+#: ../src/xfmedia-keybindings.c:529
+msgid "Show Queued Tracks"
+msgstr "Várakozó számok mutatása"
+
+#: ../src/xfmedia-keybindings.c:530
+msgid "Toggle Audio Mute"
+msgstr "Némítás"
+
+#: ../src/xfmedia-keybindings.c:531
+msgid "Add File to Playlist"
+msgstr "Fájl hozzáadáa a listához"
+
+#: ../src/xfmedia-keybindings.c:532
+msgid "Add URL to Playlist"
+msgstr "URL hozzáadása a listához"
+
+#: ../src/xfmedia-keybindings.c:533
+msgid "Open Saved Playlist"
+msgstr "Lista megnyitása"
+
+#: ../src/xfmedia-keybindings.c:535
+msgid "Clear Playlist"
+msgstr "Lista ürítése"
+
+#: ../src/xfmedia-keybindings.c:536
+msgid "A/V Sync Plus"
+msgstr "A/V Sync +"
+
+#: ../src/xfmedia-keybindings.c:537
+msgid "A/V Sync Minus"
+msgstr "A/V Sync -"
+
+#: ../src/xfmedia-keybindings.c:538
+msgid "Select Aspect Ratio"
+msgstr "Képarány"
+
+#: ../src/xfmedia-keybindings.c:539
+msgid "Jump to File"
+msgstr "Ugrás egy fájlra"
+
+#: ../src/xfmedia-keybindings.c:540
+msgid "Video Zoom In"
+msgstr "Képközelítés"
+
+#: ../src/xfmedia-keybindings.c:541
+msgid "Video Zoom Out"
+msgstr "Képtávolítás"
+
+#: ../src/xfmedia-keybindings.c:542
+msgid "Video Window Larger"
+msgstr "Képablak növelése"
+
+#: ../src/xfmedia-keybindings.c:543
+msgid "Video Window Smaller"
+msgstr "Képablak csökkentése"
+
+#: ../src/xfmedia-keybindings.c:544
+msgid "Volume Up"
+msgstr "Hangerő fel"
+
+#: ../src/xfmedia-keybindings.c:545
+msgid "Volume Down"
+msgstr "Hangerő le"
+
+#: ../src/xfmedia-keybindings.c:546
+msgid "Audio Track Next"
+msgstr "Következő hangsáv"
+
+#: ../src/xfmedia-keybindings.c:547
+msgid "Audio Track Previous"
+msgstr "Előző hangsáv"
+
+#: ../src/xfmedia-keybindings.c:548
+msgid "Subtitle Track Next"
+msgstr "Következő felirat sáv"
+
+#: ../src/xfmedia-keybindings.c:549
+msgid "Subtitle Track Previous"
+msgstr "Előző felirat sáv"
+
+#: ../src/xfmedia-keybindings.c:635
+msgid "Set Keybinding"
+msgstr "Billentyűk"
+
+#: ../src/xfmedia-keybindings.c:638
+msgid "_Clear"
+msgstr "_Törlés"
+
+#: ../src/xfmedia-keybindings.c:647
+msgid "Set shortcut for:"
+msgstr "Billentyű ehhez: "
+
+#: ../src/xfmedia-keybindings.c:665
+msgid "Keybinding Error"
+msgstr "Hibás billentyűmegadás"
+
+#: ../src/xfmedia-keybindings.c:666
+msgid "Keybinding already in use."
+msgstr "A billentyű már használt."
+
+#: ../src/xfmedia-keybindings.c:667
+msgid "The key sequence you selected is already in use by another function.  Please set the other function to something else."
+msgstr "A megadott billentyűkombinációt most egy másik műveleté. Válassz másikat."
+
+#: ../src/xfmedia-keybindings.c:680
+#: ../src/xfmedia-keybindings.c:693
+msgid "Keybindings Save Error"
+msgstr "A billentyűtéma mentése sikertelen"
+
+#: ../src/xfmedia-keybindings.c:682
+#: ../src/xfmedia-keybindings.c:695
+msgid "The keybindings file failed to save."
+msgstr "A billentyűtéma fájl mentése nem sikerült."
+
+#: ../src/xfmedia-keybindings.c:691
+msgid "None"
+msgstr "Nincs"
+
+#: ../src/xfmedia-keybindings.c:808
+msgid "Function"
+msgstr "Művelet"
+
+#: ../src/xfmedia-keybindings.c:813
+msgid "Keys"
+msgstr "Billentyűk"
+
+#: ../src/xfmedia-remote.c:103
+#, c-format
+msgid ""
+"Usage: %s [options]\n"
+"\n"
+msgstr ""
+"Használat: %s [lehetőségek]\n"
+"\n"
+
+#: ../src/xfmedia-remote.c:106
+msgid ""
+"    --session=N          Specify the number of the already-running instance of\n"
+"                         Xfmedia.  (Defaults to 0, or the first instance found.)\n"
+msgstr ""
+"    --session=N          Megadja egy már futó Xfmedia példány számát.\n"
+"                         (Az alap 0, vagyis az 1. megtalált példány.)\n"
+
+#: ../src/xfmedia-remote.c:108
+msgid "    --ping               Checks to see if an instance of Xfmedia is running.\n"
+msgstr "    --ping               Megnézi, van-e futó Xfmedia példány.\n"
+
+#: ../src/xfmedia-remote.c:109
+msgid ""
+"    -p, --play[=N]       Causes Xfmedia to play the file at playlist idx N.\n"
+"                         If N is not specified, Xfmedia will play the currently-\n"
+"                         selected entry, or, if no item is selected, the first\n"
+"                         entry.  If used in conjunction with --playlist-add,\n"
+"                         will cause Xfmedia to play the newly-added entry.\n"
+msgstr ""
+"    -p, --play[=N]       Hatására az Xfmedia lejátsza a lista N. elemét\n"
+"                         Ha az N nincs megadva, az Xfmedia lejátsza a jelenleg\n"
+"                         váalsztott elemet, ha nincs választott elem, az 1.-t\n"
+"                         Ha a --playlist-add opcióval használod,\n"
+"                         az Xfmedia rögtön az új elemet is képes lejátszani.\n"
+
+#: ../src/xfmedia-remote.c:114
+msgid ""
+"    --toggle             Causes Xfmedia to pause if playing, or play if paused\n"
+"                         or stopped.\n"
+msgstr "    --toggle           Hatására az Xfmedia szübetel vagy folytat\n"
+
+#: ../src/xfmedia-remote.c:116
+msgid "    --pause              Causes Xfmedia to pause/unpause.\n"
+msgstr "    --pause              Megszakítás/folytatás.\n"
+
+#: ../src/xfmedia-remote.c:117
+msgid "    --stop               Causes Xfmedia to stop playback.\n"
+msgstr "    --stop               Hatására az Xfmedia leállítja a lejátszást.\n"
+
+#: ../src/xfmedia-remote.c:118
+msgid ""
+"    --previous           Causes Xfmedia to play the entry played before the\n"
+"                         currently-selected (or -playing) entry.\n"
+msgstr ""
+"    --previous           Hatására az Xfmedia lejátsza a most választott\n"
+"                         (vagy lejátszott elem előttit).\n"
+
+#: ../src/xfmedia-remote.c:120
+msgid ""
+"    --next               Causes Xfmedia to play the next entry in the playlist.\n"
+"                         If Xfmedia is in shuffle mode, a new entry will be\n"
+"                         selected randomly.\n"
+msgstr ""
+"    --next               Hatására az Xfmedia lejátsza a következő elemet.\n"
+"                         Ha az Xfmedia keverő módban van, véletlenszerűen\n"
+"                         választ.\n"
+
+#: ../src/xfmedia-remote.c:123
+msgid ""
+"    -a, --playlist-add=FILE\n"
+"                         Adds FILE to the end of the playlist.\n"
+msgstr ""
+"    -a, --playlist-add=FÁJL\n"
+"                         Hozzáadja a FÁJL-t a lejátszólista végéhez.\n"
+
+#: ../src/xfmedia-remote.c:125
+msgid ""
+"    -r, --playlist-remove=N\n"
+"                         Removes the specified playlist entry from the playlist.\n"
+msgstr ""
+"    -r, --playlist-remove=N\n"
+"                         Törli a megadott elemet a lejátszólistáról.\n"
+
+#: ../src/xfmedia-remote.c:127
+msgid ""
+"    -c, --playlist-clear\n"
+"                         Removes all entries from the playlist.\n"
+msgstr ""
+"    -c, --playlist-clear\n"
+"                         Eltávolítja az összes elemet a lejátszólistából.\n"
+
+#: ../src/xfmedia-remote.c:129
+msgid ""
+"    -l, --playlist-load=FILE\n"
+"                         Loads the specified playlist.  Note that this does NOT\n"
+"                         first clear the playlist.\n"
+msgstr ""
+"    -l, --playlist-load=FÁJL\n"
+"                         Betölti a megadott listát.  FIGYELEM!: ez NEM\n"
+"                         üríti előbb a listát!\n"
+
+#: ../src/xfmedia-remote.c:132
+msgid ""
+"    -s, --playlist-save=FILE\n"
+"                         Saves the current playlist to the specified FILE.\n"
+msgstr ""
+"    -s, --playlist-save=FÁJL\n"
+"                         Menti a jelenlegi listát a megadott FÁJL-ba.\n"
+
+#: ../src/xfmedia-remote.c:134
+msgid "    -Q, --quit           Instructs Xfmedia to quit.\n"
+msgstr "    -Q, --quit           Kilépés.\n"
+
+#: ../src/xfmedia-remote.c:135
+msgid ""
+"    -j, --jump-to-file   Causes Xfmedia to show the main window (if not visible)\n"
+"                         and show the jump-to-file entry box.\n"
+msgstr ""
+"    -j, --jump-to-file   Hatására az Xfmedia mutatja a főablakot (ha nem látszik)\n"
+"                         és az ugrás-fájlra dobozt.\n"
+
+#: ../src/xfmedia-remote.c:180
+msgid "Argument to --session must be greater than or equal to 0.\n"
+msgstr "A --session 0 vagy nagyobb argumentumot vár.\n"
+
+#: ../src/xfmedia-remote.c:195
+msgid "Argument to --play must be greater than or equal to 0.\n"
+msgstr "A --play 0 vagy nagyobb argumentumot vár.\n"
+
+#: ../src/xfmedia-remote.c:239
+msgid "Argument to --playlist-remove must be greater than or equal to 0.\n"
+msgstr "A --playlist-remove 0 vagy nagyobb argumentumot vár.\n"
+
+#: ../src/xfmedia-remote.c:276
+#, c-format
+msgid "Unrecognized option: %s\n"
+msgstr "Ismeretlen lehetőség: %s\n"
+
+#: ../src/xfmedia-remote.c:289
+msgid "Unable to initialize the Xfmedia remote client service.  The most likely cause is that a DBUS session bus is not running"
+msgstr "Nem indítható az Xfmedia távoli ügyfél szolgáltatás. A DBUS folyamat busz valószínűleg nem fut"
+
+#: ../src/xfmedia-remote.c:301
+msgid "Unable to find a running Xfmedia instance."
+msgstr "Nincs futó Xfmedia példány."
+
+#: ../src/xfmedia-video-window.c:188
+msgid "Xfmedia Video"
+msgstr "Xfmedia Film"
+
+#: ../xfmedia/getopt.c:686
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: a `%s' lehetőség homályos\n"
+
+#: ../xfmedia/getopt.c:711
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: a `--%s' lehetőség nem fogad argumentumot\n"
+
+#: ../xfmedia/getopt.c:716
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: a `%c%s' lehetőség nem fogad argumentumot\n"
+
+#: ../xfmedia/getopt.c:734
+#: ../xfmedia/getopt.c:907
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: a `%s' lehetőség egy argumentumot vár\n"
+
+#. --option
+#: ../xfmedia/getopt.c:763
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: ismeretlen `--%s' lehetőség\n"
+
+#. +option or -option
+#: ../xfmedia/getopt.c:767
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: ismeretlen `%c%s' lehetőség\n"
+
+#. 1003.2 specifies the format of this message.
+#: ../xfmedia/getopt.c:793
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: hibás opció -- %c\n"
+
+#: ../xfmedia/getopt.c:796
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: érvénytelen lehetőség -- %c\n"
+
+#. 1003.2 specifies the format of this message.
+#: ../xfmedia/getopt.c:826
+#: ../xfmedia/getopt.c:956
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: ezen opció egy argumentumot vár -- %c\n"
+
+#: ../xfmedia/getopt.c:873
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: a `-W %s' lehetőség homályos\n"
+
+#: ../xfmedia/getopt.c:891
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: a `-W %s' lehetőség nem fogad argumentumot\n"
+
+#: ../xfmedia/remote-client.c:607
+#: ../xfmedia/remote-client.c:614
+#: ../xfmedia/remote-client.c:621
+msgid "Xfmedia was not compiled with D-BUS support.  Remote control interface is not available."
+msgstr "Az Xfmedia D-BUS támogatás nélkül fordult. A távoli felügyelet felület nem elérhető."
+
+#: ../xfmedia.desktop.in.h:1
+msgid "Enqueue and play with Xfmedia"
+msgstr "Lejátszósorba és lejátszik az Xfmedia-val"
+
+#: ../xfmedia.desktop.in.h:2
+msgid "Enqueue in Xfmedia"
+msgstr "Lejátszósorba tesz az Xfmedia-ban"
+
+#: ../xfmedia.desktop.in.h:3
+msgid "Lightweight Media Player"
+msgstr "Pillesúlyú Média lejátszó"
+
+#: ../xfmedia.desktop.in.h:4
+msgid "Xfmedia"
+msgstr "Xfmedia"
+

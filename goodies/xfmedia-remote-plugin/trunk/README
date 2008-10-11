@@ -1,0 +1,27 @@
++---------------------------+
+|   Xfmedia Remote Plugin   |
++---------------------------+
+
+About
+=============================
+Xfmedia Remote Plugin is a plugin for Xfce 4 Panel which enables
+controlling Xfmedia, a all-around media player for Xfce 4, via
+the panel. The plugin was written by Pasi Orovuo <pasi.ov@gmail.com>.
+
+Features
+=============================
+ * Simple playlist management
+ * Playlist menu
+ * Multiple Xfmedia instances
+ * Now playing tooltip
+
+Requirements
+=============================
+ * Xfmedia 0.9.0 or newer
+ * D-BUS 0.22 or newer
+ * Xfce 4 Panel 4.2.0 or newer
+
+NOTE:
+There is certain combination of Xfmedia and D-BUS versions, on which
+the plugin has a very limited functionality (i.e. no playlist management).
+

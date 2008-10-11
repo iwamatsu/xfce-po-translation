@@ -1,0 +1,65 @@
+dnl configure.ac
+dnl
+dnl xfce4-volstatus-icon - systray icon for ejecting removable volumes
+dnl
+dnl Copyright (c) 2006 Brian Tarricone <bjt23@cornell.edu>
+dnl
+
+m4_define([volstatus_version], [0.2.0svn])
+
+dnl init autoconf
+AC_INIT([xfce4-volstatus-icon], [volstatus_version], [bjt23@cornell.edu])
+AC_PREREQ([2.50])
+
+dnl init automake
+AM_INIT_AUTOMAKE()
+AM_CONFIG_HEADER([config.h])
+AM_MAINTAINER_MODE
+
+dnl check for UNIX variants
+AC_AIX
+AC_ISC_POSIX
+AC_MINIX
+
+dnl check for basic programs
+AC_PROG_CC
+AC_PROG_INSTALL
+AC_PROG_LIBTOOL
+
+dnl check for standard header files
+AC_HEADER_STDC
+AC_CHECK_HEADERS([signal.h stdlib.h string.h unistd.h])
+
+dnl get svn revision
+SVN=`which svn`
+if test "$SVN" -a -x "$SVN"; then
+    dir="`dirname $0`"
+    SVN_REVISION=`LC_ALL=C svn info "$dir" | awk '/^Revision: / {printf "%05d\n", $2}'`
+fi
+if test -z "$SVN_REVISION"; then
+    SVN_REVISION="@REVISION@"
+fi
+AC_DEFINE_UNQUOTED([SVN_REVISION], "$REVISION", [subversion revision number])
+AC_SUBST([SVN_REVISION])
+
+dnl Check for i18n support
+XDT_I18N([@LINGUAS@])
+
+dnl Check for X11 installed
+XDT_CHECK_LIBX11_REQUIRE
+
+dnl required
+XDT_CHECK_PACKAGE([GOBJECT], [gobject-2.0], [2.6.0])
+XDT_CHECK_PACKAGE([GTK], [gtk+-2.0], [2.10.0])
+XDT_CHECK_PACKAGE([LIBXFCE4UTIL], [libxfce4util-1.0], [4.4.0])
+XDT_CHECK_PACKAGE([LIBXFCEGUI4], [libxfcegui4-1.0], [4.4.0])
+XDT_CHECK_PACKAGE([GHAL], [ghal-0], [0.1.0])
+
+dnl check for debugging support
+XDT_FEATURE_DEBUG
+
+AC_OUTPUT([
+Makefile
+po/Makefile.in
+xfce4-volstatus-icon/Makefile
+])

@@ -1,0 +1,369 @@
+# Ukrainian translation of squeeze.
+# Copyright (C) 2006-2007 Stephan Arts.
+# This file is distributed under the same license as the squeeze package.
+#
+# Dmitry Nikitin <luckas_fb@mail.ru>, 2007, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: squeeze\n"
+"Report-Msgid-Bugs-To: stephan@xfce.org\n"
+"POT-Creation-Date: 2008-07-09 12:17+0000\n"
+"PO-Revision-Date: 2008-06-30 18:15+0300\n"
+"Last-Translator: Dmitry Nikitin <luckas_fb@mail.ru>\n"
+"Language-Team: Ukrainian <xfce4-dev@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../libsqueeze/archive.c:259
+msgid "Name"
+msgstr "Назва"
+
+#: ../libsqueeze/archive.c:261
+msgid "Mime type"
+msgstr "Тип mime"
+
+#: ../squeeze.desktop.in.h:1
+msgid "Archive Manager"
+msgstr "Менеджер архівів"
+
+#: ../squeeze.desktop.in.h:2
+msgid "Create and manage archives with the archive manager"
+msgstr "Створення і керування архівами з допомогою Менеджера архівів"
+
+#: ../squeeze.desktop.in.h:3
+msgid "Squeeze Archive Manager"
+msgstr "Менеджер архівів Squeeze"
+
+#.
+#. * Could not open archive (mime type not supported or file did not exist)
+#. * Should be a more specific error message.
+#.
+#: ../src/application.c:157 ../src/application.c:246
+msgid "Could not open archive, MIME-type unsupported or file did not exist"
+msgstr "Неможливо відкрити архів, тип MIME не підтримується або файл не існує"
+
+#: ../src/application.c:187 ../src/main_window.c:830 ../src/main_window.c:1264
+msgid ""
+"Squeeze cannot extract this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"Squeeze не може встановити тип архіву,\n"
+"відсутня програма для підтримки цього архіву."
+
+#.
+#. * Could not create archive (mime type unsupported)
+#.
+#: ../src/application.c:229
+msgid "Could not create archive, MIME-type unsupported"
+msgstr "Неможливо створити архів, тип MIME не підтримується"
+
+#: ../src/application.c:263 ../src/main_window.c:878
+msgid ""
+"Squeeze cannot add files to this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"Squeeze не може додати файли до архіву,\n"
+"відсутня програма для підтримки цього типу архіву."
+
+#: ../src/archive_store.c:249 ../src/notebook.c:179
+msgid "Show full path"
+msgstr "Показати повний шлях"
+
+#: ../src/archive_store.c:250 ../src/notebook.c:180
+msgid "Show the full path strings for each entry"
+msgstr "Показувати повний шляху для кожного елемента"
+
+#: ../src/archive_store.c:256 ../src/notebook.c:186
+msgid "Show mime icons"
+msgstr "Показувати значки типів mime"
+
+#: ../src/archive_store.c:257 ../src/notebook.c:187
+msgid "Show the mime type icons for each entry"
+msgstr "Показувати значки типів mime для кожного елемента"
+
+#: ../src/archive_store.c:263
+msgid "Show up dir entry"
+msgstr "Показувати значок батьківської теки"
+
+#: ../src/archive_store.c:264
+msgid "Show '..' to go to the parent directory"
+msgstr "Відображати '..' для переходу в батьківську теку"
+
+#: ../src/archive_store.c:270 ../src/notebook.c:193
+msgid "Sort folders before files"
+msgstr "Теки перед файлами при сортуванні"
+
+#: ../src/archive_store.c:271 ../src/notebook.c:194
+msgid "The folders will be put at the top of the list"
+msgstr "Теки будуть відображатись у списку першими"
+
+#: ../src/archive_store.c:277 ../src/archive_store.c:278 ../src/notebook.c:200
+#: ../src/notebook.c:201
+msgid "Sort text case sensitive"
+msgstr "Сортування з урахуванням регістру"
+
+#: ../src/extract_dialog.c:76
+msgid "<b>Extract files:</b>"
+msgstr "<b>Розпакувати файли:</b>"
+
+#: ../src/extract_dialog.c:77
+msgid "<b>Options:</b>"
+msgstr "<b>Параметри:</b>"
+
+#: ../src/extract_dialog.c:87
+msgid "All files"
+msgstr "Всі файли"
+
+#: ../src/extract_dialog.c:88
+msgid "Selected files"
+msgstr "Вибрані файли"
+
+#: ../src/extract_dialog.c:100 ../src/main_window.c:455
+#: ../src/main_window.c:1223
+msgid "Extract"
+msgstr "Розпакувати"
+
+#: ../src/extract_dialog.c:110
+msgid "Extract archive"
+msgstr "Розпакувати архів"
+
+#: ../src/main.c:51
+msgid "[destination path]"
+msgstr "[шлях призначення]"
+
+#: ../src/main.c:59
+msgid "[archive path] [file1] [file2] ... [fileN]"
+msgstr "[шлях архіву] [файл1] [файл2] ... [файлN]"
+
+#: ../src/main.c:63
+msgid "[file1] [file2] ... [fileN]"
+msgstr "[файл1] [файл2] ... [файлN]"
+
+#: ../src/main.c:66
+msgid "Version information"
+msgstr "Інформація про версію"
+
+#: ../src/main.c:92
+msgid "[archive name]"
+msgstr "[назва архіву]"
+
+#: ../src/main.c:96
+#, c-format
+msgid ""
+"%s: %s\n"
+"Try %s --help to see a full list of available command line options.\n"
+msgstr ""
+"%s: %s\n"
+"Спробуйте %s --help щоб переглянути повний список доступних опцій командного "
+"рядка.\n"
+
+#: ../src/main_window.c:133
+msgid "Internal Style"
+msgstr "Вбудований стиль"
+
+#: ../src/main_window.c:135
+msgid "Tool Bar Style"
+msgstr "Стиль Панелі інструментів"
+
+#: ../src/main_window.c:138
+msgid "Path Bar Style"
+msgstr "Стиль Панелі шляху"
+
+#: ../src/main_window.c:186
+msgid "Navigation Style"
+msgstr "Стиль Навігації"
+
+#: ../src/main_window.c:187
+msgid ""
+"Style of navigation\n"
+"The style to navigate trough the archive"
+msgstr ""
+"Стиль навігації\n"
+"Стиль навігації всередині архіву"
+
+#. File menu
+#: ../src/main_window.c:299
+msgid "_File"
+msgstr "_Файл"
+
+#. Action menu: ref all the childs
+#: ../src/main_window.c:327
+msgid "_Action"
+msgstr "Д_ії"
+
+#: ../src/main_window.c:332
+msgid "_Add files"
+msgstr "_Додати файли"
+
+#: ../src/main_window.c:338
+msgid "_Add _folders"
+msgstr "Додати _теки"
+
+#: ../src/main_window.c:344
+msgid "_Extract"
+msgstr "_Розпакувати"
+
+#. View menu
+#: ../src/main_window.c:377
+msgid "_View"
+msgstr "_Переглянути"
+
+#. Help menu
+#: ../src/main_window.c:401
+msgid "_Help"
+msgstr "Д_овідка"
+
+#: ../src/main_window.c:447 ../src/main_window.c:856
+msgid "Add files"
+msgstr "Додати файли"
+
+#: ../src/main_window.c:451 ../src/main_window.c:898
+msgid "Add folders"
+msgstr "Додати теки"
+
+#: ../src/main_window.c:728
+msgid "Open archive in new window"
+msgstr "Відкрити архів у новому вікні"
+
+#: ../src/main_window.c:734
+msgid "Open archive"
+msgstr "Відкрити архів"
+
+#: ../src/main_window.c:920
+msgid ""
+"Squeeze cannot add folders to this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"Squeeze не може додати теки до архіву,\n"
+"відсутня програма для підтримки цього типу архіву."
+
+#: ../src/main_window.c:941
+msgid "Are you sure you want to remove the selected files?"
+msgstr "Ви впевнені, що бажаєте видалити вибрані файли?"
+
+#: ../src/main_window.c:954
+msgid ""
+"Squeeze cannot remove files from this archive type,\n"
+"the application to support this is missing."
+msgstr ""
+"Squeeze не може видалити файли з цього архіву,\n"
+"відсутня програма для підтримки цього архіву."
+
+#: ../src/main_window.c:1003
+msgid ""
+"Are you sure you want to cancel this operation?\n"
+"This could damage the archive."
+msgstr ""
+"Ви впевнені, що бажаєте скасувати цю дію?\n"
+"Це може пошкодити архів."
+
+#: ../src/main_window.c:1085
+msgid "Lead developer:"
+msgstr "Головний розробник:"
+
+#: ../src/main_window.c:1088
+msgid "Contributors:"
+msgstr "Помічники:"
+
+#: ../src/main_window.c:1091
+msgid "Inspired by Xarchiver, written by Giuseppe Torelli"
+msgstr "Навіяно Xarchiver-ом, написаним Giuseppe Torelli"
+
+#: ../src/main_window.c:1093
+msgid "Application Icon:"
+msgstr "Значок програми:"
+
+#: ../src/main_window.c:1096
+msgid "Add / Extract icons:"
+msgstr "Значки додавання / розпакування:"
+
+#: ../src/main_window.c:1097
+msgid "Based on the original extract icon created by Andreas Nilsson"
+msgstr ""
+"Базується на оригінальному значку розпакування створеному Andreas Nilsson"
+
+#: ../src/main_window.c:1104
+msgid ""
+"Squeeze is a lightweight and flexible archive manager for the Xfce Desktop "
+"Environment"
+msgstr ""
+"Squeeze є легким та гнучким менеджером архівів для робочого середовища Xfce"
+
+#. Translator credits as shown in the about dialog: NAME <E-MAIL> YEAR
+#: ../src/main_window.c:1112
+msgid "translator-credits"
+msgstr "Dmitry Nikitin <luckas_fb@mail.ru>"
+
+#: ../src/main_window.c:1141 ../src/main_window.c:1212
+#: ../src/main_window.c:1366
+msgid "Done"
+msgstr "Завершено"
+
+#: ../src/main_window.c:1222
+msgid "Which action do you want to perform on the selected file(s)?"
+msgstr "Яку дію ви хочете застосувати до вибраних файлів?"
+
+#: ../src/main_window.c:1223
+msgid "Open"
+msgstr "Відкрити"
+
+#: ../src/main_window.c:1237
+msgid ""
+"Squeeze cannot view this file.\n"
+"the application to support this is missing."
+msgstr ""
+"Squeeze не може переглянути цей файл.\n"
+"відсутня програма для підтримки цього файлу."
+
+#: ../src/main_window.c:1304
+msgid "Failed to open file"
+msgstr "Не вдалось відкрити файл"
+
+#: ../src/main_window.c:1305
+#, c-format
+msgid ""
+"'%s'\n"
+"Could not be opened"
+msgstr ""
+"'%s'\n"
+"Неможливо відкрити"
+
+#: ../src/new_dialog.c:69
+msgid "Archive type:"
+msgstr "Тип архіву:"
+
+#: ../src/new_dialog.c:80
+msgid "Archives"
+msgstr "Архіви"
+
+#: ../src/new_dialog.c:108
+msgid "Create new archive"
+msgstr "Створити новий архів"
+
+#: ../src/notebook.c:207
+msgid "Rules hint"
+msgstr "Правила"
+
+#: ../src/notebook.c:208
+msgid "Make the row background colors alternate"
+msgstr "Відображати рядки різним кольором"
+
+#: ../src/path_bar.c:141
+msgid "Spacing"
+msgstr "Розділювач"
+
+#: ../src/path_bar.c:142
+msgid "The amount of space between the path buttons"
+msgstr "Розмір розділювача між кнопками шляху"
+
+#: ../src/tool_bar.c:167
+msgid "Location:"
+msgstr "Місцезнаходження:"
+
+#: ../src/message_dialog.c:158
+msgid "Archive manager"
+msgstr "Менеджер архівів"

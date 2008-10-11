@@ -1,0 +1,108 @@
+# English/GB translation of xfce4-radio-plugin.
+# Copyright (C) 2007 THE xfce4-radio-plugin'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfce4-radio-plugin package.
+# Jeff Bailes <thepizzaking@gmail.com>, 2007.
+# , fuzzy
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-radio-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:29+0200\n"
+"PO-Revision-Date: 2007-03-31 10:18+1000\n"
+"Last-Translator: Jeff Bailes <thepizzaking@gmail.com>\n"
+"Language-Team: English/GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+#: ../panel-plugin/radio.c:78
+msgid "Not tuned"
+msgstr "Not tuned"
+
+#: ../panel-plugin/radio.c:100
+msgid "- off -"
+msgstr "- off -"
+
+#: ../panel-plugin/radio.c:118
+msgid "Error opening radio device"
+msgstr "Error opening radio device"
+
+#: ../panel-plugin/radio.c:236 ../panel-plugin/radio.c:267
+#: ../panel-plugin/radio.c:467
+msgid "Add preset"
+msgstr "Add preset"
+
+#: ../panel-plugin/radio.c:242 ../panel-plugin/radio.c:273
+msgid "Station name:"
+msgstr "Station name:"
+
+#: ../panel-plugin/radio.c:294
+msgid "There is already a preset with this frequency."
+msgstr "There is already a preset with this frequency."
+
+#: ../panel-plugin/radio.c:332
+msgid "Tune radio"
+msgstr "Tune radio"
+
+#: ../panel-plugin/radio.c:338
+msgid "Frequency [MHz]:"
+msgstr "Frequency [MHz]:"
+
+#: ../panel-plugin/radio.c:361
+msgid "Illegal frequency."
+msgstr "Illegal frequency."
+
+#: ../panel-plugin/radio.c:438
+msgid "Presets"
+msgstr "Presets"
+
+#: ../panel-plugin/radio.c:474
+msgid "Delete active preset"
+msgstr "Delete active preset"
+
+#: ../panel-plugin/radio.c:481
+msgid "Rename active preset"
+msgstr "Rename active preset"
+
+#: ../panel-plugin/radio.c:493
+msgid "Tune to frequency"
+msgstr "Tune to frequency"
+
+#: ../panel-plugin/radio.c:720
+msgid "Properties"
+msgstr "Properties"
+
+#: ../panel-plugin/radio.c:739
+msgid "V4L device"
+msgstr "V4L device"
+
+#: ../panel-plugin/radio.c:745
+msgid "Display signal strength"
+msgstr "Display signal strength"
+
+#: ../panel-plugin/radio.c:756
+msgid "yes"
+msgstr "yes"
+
+#: ../panel-plugin/radio.c:765
+msgid "no"
+msgstr "no"
+
+#: ../panel-plugin/radio.c:775
+msgid "Execute command after shutdown"
+msgstr "Execute command after shutdown"
+
+#: ../panel-plugin/radio.c:787
+msgid "Mouse scrolling changes"
+msgstr "Mouse scrolling changes"
+
+#: ../panel-plugin/radio.c:799
+msgid "frequency"
+msgstr "frequency"
+
+#: ../panel-plugin/radio.c:807
+msgid "preset"
+msgstr "preset"
+

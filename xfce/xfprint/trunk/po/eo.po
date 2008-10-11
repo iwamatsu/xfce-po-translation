@@ -1,0 +1,501 @@
+# Esperanto translation of the xfprint package.
+# Copyright (C) 2007 The Xfce development team.
+# This file is distributed under the same license as the xfprint package.
+# Denizo Priskorn <denizo@opia.dk>, 2007.
+# Sylvain Vedrenne <gnu_sylvain@xfce.org>, 2007.
+#
+
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-05-14 15:26+0200\n"
+"PO-Revision-Date: 2007-04-10 19:11+0100\n"
+"Last-Translator: Denizo Priskorn <denizo@opia.dk>\n"
+"Language-Team: Esperanto <debian-l10n-esperanto@lists.debian.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "Presilo"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "Eliru"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "Eliru xfprint-manager"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "Pri"
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "Pri xfprint-manager"
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "Montras informojn pri xfprint4-manager"
+
+#: ../libxfprint/printer-list-window.c:140
+msgid "Printer manager"
+msgstr "Presila mastrumilo"
+
+#: ../libxfprint/printer-list-window.c:206
+msgid "Alias name"
+msgstr "Kromnomo"
+
+#: ../libxfprint/printer-list-window.c:210
+#: ../libxfprint/printer-queue-window.c:217
+msgid "State"
+msgstr "Stato"
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Xfprint printers manager"
+msgstr "Xfprint presila mastrumilo"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:269
+msgid "Former maintainer"
+msgstr "Antaŭa estro"
+
+#: ../libxfprint/printer-list-window.c:270
+msgid "Maintainer"
+msgstr "Estro"
+
+#: ../libxfprint/printer-list-window.c:271
+msgid "Artist"
+msgstr ""
+
+#: ../libxfprint/printer-list-window.c:334
+msgid "Unknown"
+msgstr "Nekonata"
+
+#: ../libxfprint/printer-list-window.c:337
+msgid "Idle"
+msgstr "Senokupa"
+
+#: ../libxfprint/printer-list-window.c:340
+msgid "Processing"
+msgstr "Laboras"
+
+#: ../libxfprint/printer-list-window.c:343
+msgid "Stopped"
+msgstr "Haltita"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "Ĉesu"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "Malfermu atendovica fenestro"
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr "Taskoj"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:385
+#: ../libxfprint/printer-queue-window.c:389
+msgid "Remove job"
+msgstr "Forigu taskon"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "Forigu la elektita tasko de la atendovico"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "Ĝisdatigu"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "Ĝisdatigu la atendovico"
+
+#: ../libxfprint/printer-queue-window.c:122
+#: ../libxfprint/printer-queue-window.c:538
+msgid "Queue Manager"
+msgstr "Atendovica mastrumilo"
+
+#: ../libxfprint/printer-queue-window.c:207
+msgid "Name"
+msgstr "Nomo"
+
+#: ../libxfprint/printer-queue-window.c:211
+msgid "ID"
+msgstr "ID"
+
+#: ../libxfprint/printer-queue-window.c:214
+msgid "User"
+msgstr "User"
+
+#: ../libxfprint/printer-queue-window.c:220
+msgid "Size"
+msgstr "Grando"
+
+#: ../libxfprint/printer-queue-window.c:223
+msgid "Priority"
+msgstr "Prioritato"
+
+#: ../libxfprint/printer-queue-window.c:226
+msgid "Creation time"
+msgstr "Komenc-horo"
+
+#: ../libxfprint/printer-queue-window.c:229
+msgid "Processing time"
+msgstr "Labortempo"
+
+#: ../libxfprint/printer-queue-window.c:382
+msgid "Are you sure you want to remove the job "
+msgstr "Ĉu vi certas pri forigo de la tasko?"
+
+#: ../libxfprint/printer-queue-window.c:388
+msgid "Don't remove job"
+msgstr "Ne forigu la tasko"
+
+#: ../libxfprint/printer-queue-window.c:395
+msgid "An error occurred while removing job !"
+msgstr ""
+
+#: ../libxfprint/printer-queue-window.c:446
+msgid "pending"
+msgstr "atentanta"
+
+#: ../libxfprint/printer-queue-window.c:449
+msgid "printing"
+msgstr "presanta"
+
+#: ../libxfprint/printer-queue-window.c:452
+msgid "Kb"
+msgstr "Kb"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "Presila sitemo"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "Elekto de presila sistemo"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "Informacio"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "Priskribo"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "Versio"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "Aŭtoro"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "Retejo"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "Neniu"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr ""
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "BSD-LPR presila subteno por Xfprint"
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr "BSD-LPR presila subteno por Xfprint"
+
+#: ../printing-systems/cups/cups.c:48
+msgid "Set as default printer"
+msgstr "Faru defaŭlta presilo"
+
+#: ../printing-systems/cups/cups.c:49
+msgid "Set as default CUPS printer"
+msgstr "Faru defaŭlta CUPS presilo"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "Ecoj"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "Montru la ecoj de la presilo"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "Pasvorto"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "Uzanto :"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "Pasvorto :"
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr "Vi devas enmeti uzanta nomo !"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "Presu paĝkapoj"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "Paĝkapo:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+#, fuzzy
+msgid "Underlay:"
+msgstr "Submetaĵo:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "Centra titolo:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "Maldekstra titolo:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "Dekstra titolo:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "Centra paĝopiedo:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "Maldekstra paĝopiedo:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "Dekstra paĝopiedo:"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "Enkodiga tipo:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "Presu ĉiuj paĝoj"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr ""
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "Tondu longaj linioj"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "Interpretu TAB, BS kaj FF literoj"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "Devigu duuma presado"
+
+#: ../xfprint/main.c:116
+msgid "Select file to print"
+msgstr "Elektu presota dosiero"
+
+#: ../xfprint/main.c:128
+msgid "The specified file does not exist"
+msgstr "La dosiero ne ekzistas"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "Lingvo:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "Emfaziga nivelo:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr ""
+
+#: ../xfprint/print_dialog.c:204
+msgid "Save settings"
+msgstr "Konservu la agordoj"
+
+#: ../xfprint/print_dialog.c:212
+msgid "Xfprint"
+msgstr "Xfpresu"
+
+#: ../xfprint/print_dialog.c:220
+msgid "Print to:"
+msgstr "Presu per:"
+
+#: ../xfprint/print_dialog.c:250
+msgid "Print to file:"
+msgstr "Presu dosieren:"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Sheets"
+msgstr "Folioj"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Virtual pages"
+msgstr "Virtualaj paĝoj"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Pretty-printing"
+msgstr "Bela presado"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Input"
+msgstr "Enigo"
+
+#: ../xfprint/print_dialog.c:300
+msgid "Headings"
+msgstr "Kapoj"
+
+#: ../xfprint/print_dialog.c:309
+msgid "Copies:"
+msgstr "Kopioj:"
+
+#: ../xfprint/print_dialog.c:316
+msgid "Apply filters"
+msgstr "Apliku filtroj"
+
+#: ../xfprint/print_dialog.c:371
+msgid "Neither the printing system backend or a2ps could be found on your system, you won't be able to print a file with xfprint !"
+msgstr ""
+
+#: ../xfprint/print_dialog.c:486
+msgid "An error occurred while trying to print the file"
+msgstr ""
+
+#: ../xfprint/print_dialog.c:523
+msgid "Select file where to print"
+msgstr ""
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "Papergrando:"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "Portreta formato"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "Horizontala formato"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "Kolumnoj:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "Plenumu kolumnoj unue"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "Plenumu atendovicoj unue"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "Atendovicoj:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "Presu randoj ĉirkaŭ la kolumnoj"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "Presu paĝoj en mala direkto"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "Lininumeroj:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "Linioj po paĝo:"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "Literoj po paĝo:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "Taba grando:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "Ne-presebla formato:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr ""
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+msgid "Printing System Settings"
+msgstr "Pres-sistemaj agordoj"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+msgid "Xfce 4 Printing System Settings"
+msgstr "Xfce 4 pres-sistemaj agordoj"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+msgid "Print Manager"
+msgstr "Presada mastrumilo"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr ""
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+msgid "Xfce 4 Print Manager"
+msgstr "Xfce 4 presada mastrumilo"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "Presa dialogujo"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr ""
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "Xfce 4 presa dialogujo"

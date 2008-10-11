@@ -1,0 +1,79 @@
+# Galician translation of notification-daemon-xfce
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Leandro Regueiro <leandro DOT regueiro AT gmail DOT com>, 2008.
+#
+# Proxecto Trasno: tradución de software libre ó galego http://trasno.net
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-10-22 17:38+0200\n"
+"PO-Revision-Date: 2008-06-23 20:17+0100\n"
+"Last-Translator: Leandro Regueiro <leandro DOT regueiro AT gmail DOT com>\n"
+"Language-Team: Galician <proxecto@trasno.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../src/settings/main.c:64
+msgid "Top Left"
+msgstr "Arriba á esquerda"
+
+#: ../src/settings/main.c:65
+msgid "Top Right"
+msgstr "Arriba á dereita"
+
+#: ../src/settings/main.c:66
+msgid "Bottom Left"
+msgstr "Abaixo á esquerda"
+
+#: ../src/settings/main.c:67
+msgid "Bottom Right"
+msgstr "Abaixo á dereita"
+
+#. create new preview notification
+#: ../src/settings/main.c:188
+msgid "Preview notification"
+msgstr "Previsualización de notificación"
+
+#: ../src/settings/main.c:189
+msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr ""
+
+#: ../src/settings/main.c:324
+#: ../src/settings/notification-settings.desktop.in.h:2
+msgid "Notification Settings"
+msgstr "Preferencias de notificación"
+
+#: ../src/settings/main.c:330
+msgid "Configure the Xfce notification daemon"
+msgstr "Configure o daemon de notificación de Xfce"
+
+#: ../src/settings/main.c:340
+msgid "Notification _position:"
+msgstr ""
+
+#: ../src/settings/main.c:370
+msgid "Pre_view"
+msgstr ""
+
+#: ../src/settings/mcs_plugin.c:41
+msgid "Failed to launch notification-settings"
+msgstr "Fallo ó executar notification-settings"
+
+#: ../src/settings/mcs_plugin.c:61
+msgid "Button Label|Notification Settings"
+msgstr "Preferencias de Notificación"
+
+#: ../src/settings/notification-settings.desktop.in.h:1
+msgid "Customize the notification daemon settings"
+msgstr "Personalice as preferencias do daemon de notificación"
+
+#: ../src/settings/notification-settings.desktop.in.h:3
+msgid "Xfce 4 Notification Settings"
+msgstr "Prefencias de Notificación de Xfce 4"
+

@@ -1,0 +1,112 @@
+# This file was automatically generated for the xfce4-places-plugin (2007)
+# This file is distributed under the same license as the xfce4-places-plugin package
+# It is based on the following:
+# ###
+# Russian translation of Thunar
+# Copyright (C) 2004-2006 Benedikt Meurer.
+# This file is distributed under the same license as the Thunar package.
+# Andrey Fedoseev <andrey.fedoseev@gmail.com>, 2006.
+# Sergey Fedoseev <fedoseev.sergey@gmail.com>, 2006.
+#
+# ###
+# translation of ru.po to
+# Copyright (C) 1998-2003, 2004, 2005, 2006, 2007 Free Software Foundation, Inc.
+#
+# Max Valianskiy <maxcom@vinchi.ru>, 1998-1999.
+# Sergey Panov <sipan@mit.edu>, 1999.
+# Valek Filippov <frob@df.ru>, 2000-2002.
+# Dmitry G. Mastrukov <dmitry@taurussoft.org>, 2002-2004.
+# Andrew W. Nosenko <awn@bcs.zp.ua>, 2003.
+# Leonid Kanter <leon@asplinux.ru>, 2003, 2004, 2005, 2006, 2007.
+# ###
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-05-17 01:47-0500\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. vim: ai et tabstop=4
+#: ../panel-plugin/places.desktop.in.in.h:1
+msgid "Access folders, documents, and removable media"
+msgstr ""
+
+#: ../panel-plugin/places.desktop.in.in.h:2 ../panel-plugin/cfg.c:78
+#: ../panel-plugin/cfg.c:140 ../panel-plugin/cfg.c:259
+#: ../panel-plugin/cfg.c:329
+msgid "Places"
+msgstr "Переход"
+
+#: ../panel-plugin/model_system.c:60
+msgid "Trash"
+msgstr "Корзина"
+
+#: ../panel-plugin/model_system.c:70
+msgid "Desktop"
+msgstr "Рабочий стол"
+
+#: ../panel-plugin/model_system.c:78
+msgid "File System"
+msgstr "Файловая система"
+
+#: ../panel-plugin/view.c:244 ../panel-plugin/cfg.c:456
+msgid "Recent Documents"
+msgstr "Недавние документы"
+
+#: ../panel-plugin/cfg.c:345
+msgid "Button"
+msgstr ""
+
+#: ../panel-plugin/cfg.c:354
+msgid "_Show"
+msgstr ""
+
+#: ../panel-plugin/cfg.c:360
+msgid "Icon Only"
+msgstr ""
+
+#: ../panel-plugin/cfg.c:361
+msgid "Label Only"
+msgstr ""
+
+#: ../panel-plugin/cfg.c:362
+msgid "Icon and Label"
+msgstr ""
+
+#: ../panel-plugin/cfg.c:384
+msgid "_Label"
+msgstr ""
+
+#: ../panel-plugin/cfg.c:402
+msgid "Menu"
+msgstr ""
+
+#. MENU: Show Icons
+#: ../panel-plugin/cfg.c:406
+msgid "Show _icons in menu"
+msgstr ""
+
+#. MENU: Show Removable Media
+#: ../panel-plugin/cfg.c:418
+msgid "Show _removable media"
+msgstr ""
+
+#. MENU: Show GTK Bookmarks
+#: ../panel-plugin/cfg.c:429
+msgid "Show GTK _bookmarks"
+msgstr ""
+
+#. MENU: Show Recent Documents
+#: ../panel-plugin/cfg.c:442
+#, fuzzy
+msgid "Show recent _documents"
+msgstr "Недавние документы"
+
+#. RECENT DOCUMENTS: Show clear option
+#: ../panel-plugin/cfg.c:460
+msgid "Show cl_ear option"
+msgstr ""
+
+#: ../panel-plugin/cfg.c:475
+msgid "_Number to display"
+msgstr ""

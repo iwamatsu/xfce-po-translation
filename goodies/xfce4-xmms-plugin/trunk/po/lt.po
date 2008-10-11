@@ -1,0 +1,155 @@
+# Lithuanian translation of xfce4-xmms-plugin.
+# Copyright (C) 2005 Kemal Ilgar Eroglu.
+# This file is distributed under the same license as the xfce4-xmms-plugin package.
+# Rimas Kudelis <rq@akl.lt>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-xmms-plugin 0.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:29+0200\n"
+"PO-Revision-Date: 2006-01-05 00:16+0900\n"
+"Last-Translator: Rimas Kudelis <rq@akl.lt>\n"
+"Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../panel-plugin/xmms_plugin.c:756
+msgid "Properties"
+msgstr ""
+
+#: ../panel-plugin/xmms_plugin.c:768
+msgid "Xfce4 XMMS Plugin Options"
+msgstr ""
+
+#. put labels into the left column of our table
+#: ../panel-plugin/xmms_plugin.c:787
+msgid "Font Size"
+msgstr ""
+
+#: ../panel-plugin/xmms_plugin.c:788
+msgid "Scroll Speed"
+msgstr ""
+
+#: ../panel-plugin/xmms_plugin.c:789
+msgid "Scroll Stepwidth"
+msgstr ""
+
+#: ../panel-plugin/xmms_plugin.c:790
+msgid "Scroll Delay"
+msgstr ""
+
+#. add check buttons for the scrolled title, progressbar and volume bar
+#: ../panel-plugin/xmms_plugin.c:802
+msgid "Show scrolled song title"
+msgstr ""
+
+#: ../panel-plugin/xmms_plugin.c:803
+msgid "Show track position"
+msgstr ""
+
+#: ../panel-plugin/xmms_plugin.c:804
+msgid "Show volume level"
+msgstr ""
+
+#. add check button for simple title option
+#: ../panel-plugin/xmms_plugin.c:806
+msgid "Simple song title format"
+msgstr ""
+
+#. add check button for hor_vol_if_vertical option
+#: ../panel-plugin/xmms_plugin.c:808
+msgid "Horizontal volume bar on vertical panels"
+msgstr ""
+
+#. add check button for "Use BMP" option
+#: ../panel-plugin/xmms_plugin.c:811
+msgid "Use BMP (Beep Media Player)"
+msgstr ""
+
+#. add check button for quit xmms option
+#: ../panel-plugin/xmms_plugin.c:813
+msgid "Quit XMMS/BMP when plugin terminates"
+msgstr ""
+
+#: ../panel-plugin/xfce4-xmms-plugin.desktop.in.in.h:1
+msgid "XMMS plugin for Xfce 4.4 panel"
+msgstr ""
+
+#: ../panel-plugin/xfce4-xmms-plugin.desktop.in.in.h:2
+msgid "Xfce4 XMMS Plugin"
+msgstr ""
+
+#~ msgid "(Paused)"
+#~ msgstr "(Pristabdyta)"
+
+#~ msgid "Clear Playlist"
+#~ msgstr "Išvalyti grojaraštį"
+
+#~ msgid "(Vol: %d)"
+#~ msgstr "(Garsumas: %d)"
+
+#~ msgid ""
+#~ "XMMS NOT RUNNING\n"
+#~ "(Middle click to launch)"
+#~ msgstr ""
+#~ "PROGRAMA „XMMS“ NEPALEISTA\n"
+#~ "(Norėdami paleisti, spauskite vidurinįjį pelės klavišą)"
+
+#~ msgid "Eject"
+#~ msgstr "Išimti"
+
+#~ msgid "Backward"
+#~ msgstr "Atgal"
+
+#~ msgid "Stop"
+#~ msgstr "Sustoti"
+
+#~ msgid "Pause"
+#~ msgstr "Pristabdyti"
+
+#~ msgid "Play"
+#~ msgstr "Groti"
+
+#~ msgid "Forward"
+#~ msgstr "Pirmyn"
+
+#~ msgid "Playlist"
+#~ msgstr "Grojaraštis"
+
+#~ msgid "Preferences"
+#~ msgstr "Nustatymai"
+
+#~ msgid "Quit"
+#~ msgstr "Išeiti"
+
+#~ msgid "Display time as:"
+#~ msgstr "Rodyti laiką:"
+
+#~ msgid "Remaining"
+#~ msgstr "likusį"
+
+#~ msgid "Elapsed"
+#~ msgstr "praėjusį"
+
+#~ msgid "Increase Volume By:"
+#~ msgstr "Garso keitimo pakopa:"
+
+#~ msgid "Display Volume"
+#~ msgstr "Rodyti garsumą"
+
+#~ msgid "Always Display"
+#~ msgstr "Visada rodyti"
+
+#~ msgid "Volume Display Timeout:"
+#~ msgstr "Nustoti rodyti praėjus laikui:"
+
+#~ msgid "Paused Text:"
+#~ msgstr "Užrašas pristabdžius:"
+
+#~ msgid "Stopped Text:"
+#~ msgstr "Užrašas sustabdžius:"
+
+#~ msgid "XMMS Control"
+#~ msgstr "XMMS pultelis"

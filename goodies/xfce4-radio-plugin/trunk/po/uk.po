@@ -1,0 +1,110 @@
+# Ukrainian translation of xfce4-radio-plugin.
+# Copyright (C) 2008 Dmitry Nikitin
+# This file is distributed under the same license as the xfce4-radio-plugin package.
+#
+# Dmitry Nikitin <luckas_fb@mail.ru>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-radio-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-14 09:35+0000\n"
+"PO-Revision-Date: 2008-07-09 11:28+0300\n"
+"Last-Translator: Dmitry Nikitin <luckas_fb@mail.ru>\n"
+"Language-Team: Ukrainian <xfce4-dev@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../panel-plugin/radio.c:82
+msgid "Not tuned"
+msgstr "Не налаштовано"
+
+#: ../panel-plugin/radio.c:104
+msgid "- off -"
+msgstr "- не працює -"
+
+#: ../panel-plugin/radio.c:173
+msgid "Error opening radio device"
+msgstr "Помилка відкриття пристрою радіо"
+
+#: ../panel-plugin/radio.c:295 ../panel-plugin/radio.c:326
+#: ../panel-plugin/radio.c:526
+msgid "Add preset"
+msgstr "Додати канал"
+
+#: ../panel-plugin/radio.c:301 ../panel-plugin/radio.c:332
+msgid "Station name:"
+msgstr "Назва станції:"
+
+#: ../panel-plugin/radio.c:353
+msgid "There is already a preset with this frequency."
+msgstr "Вже існує канал з такою частотою."
+
+#: ../panel-plugin/radio.c:391
+msgid "Tune radio"
+msgstr "Налаштувати радіо"
+
+#: ../panel-plugin/radio.c:397
+msgid "Frequency [MHz]:"
+msgstr "Частота [МГц]:"
+
+#: ../panel-plugin/radio.c:420
+msgid "Illegal frequency."
+msgstr "Неправильна частота."
+
+#: ../panel-plugin/radio.c:497
+msgid "Presets"
+msgstr "Канали"
+
+#: ../panel-plugin/radio.c:533
+msgid "Delete active preset"
+msgstr "Видалити активний канал"
+
+#: ../panel-plugin/radio.c:540
+msgid "Rename active preset"
+msgstr "Перейменувати активний канал"
+
+#: ../panel-plugin/radio.c:552
+msgid "Tune to frequency"
+msgstr "Налаштувати частоту"
+
+#: ../panel-plugin/radio.c:815
+msgid "Properties"
+msgstr "Властивості"
+
+#: ../panel-plugin/radio.c:833
+msgid "V4L device"
+msgstr "пристрій V4L"
+
+#: ../panel-plugin/radio.c:839
+msgid "Display signal strength"
+msgstr "Відображати сигнал надійності"
+
+#: ../panel-plugin/radio.c:850
+msgid "yes"
+msgstr "так"
+
+#: ../panel-plugin/radio.c:859
+msgid "no"
+msgstr "ні"
+
+#: ../panel-plugin/radio.c:869
+msgid "Execute command after startup"
+msgstr "Виконати команду після старту"
+
+#: ../panel-plugin/radio.c:883
+msgid "Execute command after shutdown"
+msgstr "Виконати команду після завершення"
+
+#: ../panel-plugin/radio.c:897
+msgid "Mouse scrolling changes"
+msgstr "Прокрутка мишки змінює"
+
+#: ../panel-plugin/radio.c:909
+msgid "frequency"
+msgstr "частоту"
+
+#: ../panel-plugin/radio.c:917
+msgid "preset"
+msgstr "канал"

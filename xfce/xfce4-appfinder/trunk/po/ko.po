@@ -1,0 +1,119 @@
+# Korean translations for xfce4-appfinder package.
+# Copyright (C) 2004-2005 Eduard Roccatello.
+# This file is distributed under the same license as the xfce4-appfinder package.
+# ByungHyun Choi <byunghyun.choi@gmail.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-appfinder 4.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-10-02 17:55+0200\n"
+"PO-Revision-Date: 2008-07-28 23:54+0900\n"
+"Last-Translator: ByungHyun Choi <byunghyunchoi@debianusers.org>\n"
+"Language-Team: xfce4-users-kr-i18n <xfce4-users-kr-i18n@lists.sourceforge."
+"net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/main.c:42
+#, fuzzy
+msgid "Version information"
+msgstr "버전 정보"
+
+#: ../src/main.c:43
+msgid "[MENUFILE]"
+msgstr "[MENUFILE]"
+
+#: ../src/main.c:64
+#, c-format
+msgid "Type '%s --help' for usage information."
+msgstr ""
+
+#: ../src/main.c:70
+msgid "Unable to initialize GTK+."
+msgstr ""
+
+#: ../src/main.c:80
+msgid "The Xfce development team. All rights reserved."
+msgstr "The Xfce development team. All rights reserved."
+
+#: ../src/main.c:81
+#, c-format
+msgid "Please report bugs to <%s>."
+msgstr "버그가 생기면 <%s>에게 알려 주십시오."
+
+#: ../src/main.c:97
+#, c-format
+msgid "Failed to connect to xfconf daemon. Reason: %s"
+msgstr ""
+
+#: ../src/main.c:101
+msgid "Failed to connect to xfconf daemon."
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:244 ../src/xfce-appfinder-window.c:258
+#: ../data/xfce4-appfinder.desktop.in.h:1
+msgid "Application Finder"
+msgstr "응용프로그램 검색"
+
+#: ../src/xfce-appfinder-window.c:259 ../data/xfce4-appfinder.desktop.in.h:2
+#, fuzzy
+msgid "Find and launch applications installed on your system"
+msgstr "시스템에 설치된 응용프로그램 찾기"
+
+#: ../src/xfce-appfinder-window.c:282
+msgid "Filter"
+msgstr "거르기"
+
+#: ../src/xfce-appfinder-window.c:304
+msgid "Categories"
+msgstr "분류"
+
+#: ../src/xfce-appfinder-window.c:351
+msgid "C_lose after execute"
+msgstr "실행후 닫기(_l)"
+
+#: ../src/xfce-appfinder-window.c:614
+#, c-format
+msgid "Could not execute application %s. Reason: %s"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:618
+#, c-format
+msgid "Could not execute application %s"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:736
+#, c-format
+msgid "Could not load menu from %s. Reason: %s"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:738 ../src/xfce-appfinder-window.c:747
+msgid "Could not load system menu"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:745
+#, c-format
+msgid "Could not load menu from %s"
+msgstr ""
+
+#: ../src/xfce-appfinder-window.c:760 ../src/xfce-appfinder-window.c:1017
+msgid "All"
+msgstr "모두"
+
+#, fuzzy
+#~ msgid "Find and launch applications installed on the system"
+#~ msgstr "시스템에 설치된 응용프로그램 찾기"
+
+#~ msgid "Find applications installed on the system."
+#~ msgstr "시스템에 설치된 응용프로그램 찾기"
+
+#~ msgid "Failed to open display"
+#~ msgstr "디스플레이를 열지 못 했습니다."
+
+#~ msgid "Copyright (c) 2008"
+#~ msgstr "Copyright (c) 2008"
+
+#~ msgid "Applications"
+#~ msgstr "응용프로그램"

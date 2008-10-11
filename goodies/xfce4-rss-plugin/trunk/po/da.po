@@ -1,0 +1,50 @@
+# translation of xfce4-rss-plugin to Danish
+# Copyright (C) 2007 THE xfce4-rss-plugin'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfce4-rss-plugin package.
+# Jens Hyllegaard <jens.hyllegaard@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-rss-plugin\n"
+"POT-Creation-Date: 2006-09-10 21:12+0200\n"
+"PO-Revision-Date: 2008-05-17 15:16+0100\n"
+"Last-Translator: Jens Hyllegaard <jens.hyllegaard@gmail.com>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../panel-plugin/props.py:25
+#: ../panel-plugin/rss.desktop.in.in.h:2
+msgid "RSS Aggregator"
+msgstr "RSS-opsamler"
+
+#: ../panel-plugin/props.py:46
+msgid "RSS Feeds:"
+msgstr "RSS-kilder:"
+
+#: ../panel-plugin/props.py:63
+#: ../panel-plugin/props.py:107
+msgid "Name"
+msgstr "Navn"
+
+#: ../panel-plugin/props.py:73
+msgid "URL"
+msgstr "URL"
+
+#. Start with an empty feeds menu
+#: ../panel-plugin/plugin.py:51
+msgid "Feeds"
+msgstr "Kilder"
+
+#: ../panel-plugin/plugin.py:61
+msgid "Refresh all"
+msgstr "Genopfrisk alle"
+
+#: ../panel-plugin/plugin.py:66
+msgid "RSS"
+msgstr "RSS"
+
+#: ../panel-plugin/rss.desktop.in.in.h:1
+msgid "Check and display RSS feeds"
+msgstr "Kontrollér og vis RSS-kilder"
+

@@ -1,0 +1,149 @@
+# Brazilian Portuguese translation for xfmedia-remote-plugin.
+# Copyright (C) 2008
+# This file is distributed under the same license as the xfmedia-remote-plugin package.
+# Og Maciel <ogmaciel@gnome.org>, 2008.
+# Fábio Nogueira <deb-user-ba@ubuntu.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfmedia-remote-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-05-14 17:32-0400\n"
+"PO-Revision-Date: 2008-05-14 21:05-0300\n"
+"Last-Translator: Fábio Nogueira <deb-user-ba@ubuntu.com>\n"
+"Language-Team: Brazilian Portuguese <ldp-br@bazar2.conectiva.com.br>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:245
+msgid "Choose playlist to load"
+msgstr "Escolha a lista de reprodução para carregar"
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:280
+msgid "Save playlist"
+msgstr "Salvar lista de reprodução"
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:301
+msgid "Failed to save playlist"
+msgstr "Falhou ao salvar a lista de reprodução"
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:370
+msgid "Please wait until the previous add operation completes."
+msgstr "Por favor aguarde até que a operação de adição anterior seja concluída."
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:374
+msgid "Add track(s) to playlist"
+msgstr "Adicionar faixa(s) à lista de reprodução"
+
+#. Play
+#: ../panel-plugin/xfmedia-remote-plugin.c:509
+#: ../panel-plugin/xfmedia-remote-plugin.c:601
+msgid "_Play"
+msgstr "R_eproduzir"
+
+#. Remove
+#: ../panel-plugin/xfmedia-remote-plugin.c:521
+msgid "_Remove"
+msgstr "_Remover"
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:569
+#, c-format
+msgid "Failed to execute xfmedia: %s"
+msgstr "Falha ao executar o xfmedia: %s"
+
+#. Prev
+#: ../panel-plugin/xfmedia-remote-plugin.c:590
+msgid "P_rev"
+msgstr "Ante_rior"
+
+#. Pause
+#: ../panel-plugin/xfmedia-remote-plugin.c:612
+msgid "P_ause"
+msgstr "P_ausar"
+
+#. Stop
+#: ../panel-plugin/xfmedia-remote-plugin.c:623
+msgid "_Stop"
+msgstr "_Parar"
+
+#. Next
+#: ../panel-plugin/xfmedia-remote-plugin.c:634
+msgid "_Next"
+msgstr "Próxi_ma"
+
+#. Playlist
+#: ../panel-plugin/xfmedia-remote-plugin.c:651
+msgid "P_laylist"
+msgstr "_Lista de reprodução"
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:672
+msgid "Playlist"
+msgstr "Lista de reprodução"
+
+#. Load Playlist
+#: ../panel-plugin/xfmedia-remote-plugin.c:679
+msgid "_Load..."
+msgstr "_Carregar..."
+
+#. Save Playlist
+#: ../panel-plugin/xfmedia-remote-plugin.c:690
+msgid "_Save..."
+msgstr "_Salvar..."
+
+#. Clear Playlist
+#: ../panel-plugin/xfmedia-remote-plugin.c:701
+msgid "_Clear"
+msgstr "L_impar"
+
+#. Add Track
+#: ../panel-plugin/xfmedia-remote-plugin.c:712
+msgid "_Add track(s)..."
+msgstr "_Adicionar faixa(s)..."
+
+#. Quit
+#: ../panel-plugin/xfmedia-remote-plugin.c:729
+msgid "_Quit"
+msgstr "S_air"
+
+#. Start Xfmedia
+#: ../panel-plugin/xfmedia-remote-plugin.c:800
+msgid "Start _Xfmedia"
+msgstr "Iniciar o _Xfmedia"
+
+#. Header
+#: ../panel-plugin/xfmedia-remote-plugin.c:817
+#: ../panel-plugin/xfmedia-remote-plugin.c:1241
+#: ../panel-plugin/xfmedia-remote-plugin.c:1292
+#: ../panel-plugin/xfmedia-remote.desktop.in.in.h:2
+msgid "Xfmedia Remote"
+msgstr "Xfmedia Remoto"
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:942
+msgid "Stopped"
+msgstr "Parado"
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:960
+msgid "No Xfmedia instances running"
+msgstr "Nenhuma instância do Xfmedia em execução"
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:1117
+#: ../panel-plugin/xfmedia-remote-plugin.c:1119
+msgid "Popup menu"
+msgstr "Menu instantâneo"
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:1131
+msgid "Show _playlist"
+msgstr "Mostrar lista de re_produção"
+
+#: ../panel-plugin/xfmedia-remote-plugin.c:1278
+msgid "Xfmedia Remote Properties"
+msgstr "Propriedades do Xfmedia Remoto"
+
+#: ../panel-plugin/xfmedia-remote.desktop.in.in.h:1
+msgid "Control Xfmedia music player"
+msgstr "Controle o reprodutor de música Xfmedia"
+

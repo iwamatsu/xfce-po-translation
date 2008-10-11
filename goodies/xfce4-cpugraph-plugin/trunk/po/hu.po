@@ -1,0 +1,124 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-07-16 13:02+0200\n"
+"PO-Revision-Date: 2008-09-01 05:08+0100\n"
+"Last-Translator: SZERVÁC Attila <sas@321.hu>\n"
+"Language-Team: Hungarian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Language: Hungarian\n"
+"X-Poedit-Country: HUNGARY\n"
+
+#: ../panel-plugin/cpu.c:432
+msgid "Configure CPU Graph"
+msgstr "CPU mutató beállítása"
+
+#: ../panel-plugin/cpu.c:445
+#: ../panel-plugin/cpugraph.desktop.in.in.h:1
+msgid "CPU Graph"
+msgstr "CPU mutató"
+
+#: ../panel-plugin/cpu.c:463
+msgid "Update Interval: "
+msgstr "Frissítési időköz: "
+
+#: ../panel-plugin/cpu.c:478
+msgid "Fastest (~250ms)"
+msgstr "Leggyorsabb (~250ms)"
+
+#: ../panel-plugin/cpu.c:483
+msgid "Fast (~500ms)"
+msgstr "Gyors (~500ms)"
+
+#: ../panel-plugin/cpu.c:489
+msgid "Normal (~750ms)"
+msgstr "Normál (~750ms)"
+
+#: ../panel-plugin/cpu.c:494
+msgid "Slow (~1s)"
+msgstr "Lassú (~1s)"
+
+#: ../panel-plugin/cpu.c:513
+msgid "Width:"
+msgstr "Szélesség:"
+
+#: ../panel-plugin/cpu.c:515
+msgid "Height:"
+msgstr "Magasság:"
+
+#: ../panel-plugin/cpu.c:535
+msgid "Non-linear time-scale"
+msgstr "Nem-lineáris idő-skála"
+
+#: ../panel-plugin/cpu.c:551
+msgid "Show frame"
+msgstr "Keret mutatása"
+
+#: ../panel-plugin/cpu.c:570
+msgid "Associated command :"
+msgstr "Társított parancs :"
+
+#: ../panel-plugin/cpu.c:588
+msgid "Color 1:"
+msgstr "1. szín:"
+
+#: ../panel-plugin/cpu.c:614
+msgid "Color 2:"
+msgstr "2. szín:"
+
+#: ../panel-plugin/cpu.c:643
+msgid "Color 3:"
+msgstr "3. szín:"
+
+#: ../panel-plugin/cpu.c:672
+msgid "Background:"
+msgstr "Háttér:"
+
+#: ../panel-plugin/cpu.c:698
+msgid "Mode:"
+msgstr "Mód:"
+
+#: ../panel-plugin/cpu.c:711
+msgid "Normal"
+msgstr "Normál"
+
+#: ../panel-plugin/cpu.c:715
+msgid "LED"
+msgstr "LED"
+
+#: ../panel-plugin/cpu.c:719
+msgid "No history"
+msgstr "Nincs történet"
+
+#: ../panel-plugin/cpu.c:734
+msgid "Color mode: "
+msgstr "Szín mód: "
+
+#: ../panel-plugin/cpu.c:748
+msgid "None"
+msgstr "Nincs"
+
+#: ../panel-plugin/cpu.c:753
+msgid "Gradient"
+msgstr "Átmenet"
+
+#: ../panel-plugin/cpu.c:758
+msgid "Fire"
+msgstr "Tűz"
+
+#: ../panel-plugin/cpu.c:779
+msgid "Appearance"
+msgstr "Megjelenés"
+
+#: ../panel-plugin/cpu.c:782
+msgid "Advanced"
+msgstr "Haladó"
+
+#: ../panel-plugin/cpugraph.desktop.in.in.h:2
+msgid "Graphical representation of the CPU load"
+msgstr "CPU terhelés grafikus megjelenítése"
+

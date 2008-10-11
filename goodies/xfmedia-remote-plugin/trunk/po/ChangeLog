@@ -1,0 +1,30 @@
+2008-10-10  Maximilian Schleiss <maximilian@xfce.org>
+
+	* ja.po, LINGUAS: Japanese translation added (Nobuhiro Iwamatsu)
+
+2008-07-15 Mohamed Magdy <alnokta@xfce.org>
+
+        * ar.po: Add Arabic translation
+
+2008-06-26  Maximilian Schleiss <maximilian@xfce.org>
+
+	* gl.po, LINGUAS: Galician translation added (Leandro Regueiro)
+
+2008-06-25  Maximilian Schleiss <maximilian@xfce.org>
+
+	* id.po, LINGUAS: Indonesian translation added (Andhika Padmawan)
+
+2008-05-27  Mike Massonnet <mmassonnet@xfce.org>
+
+	* da.po, LINGUAS: Add Danish translation (Jens Hyllegaard)
+
+2008-05-14  Og Maciel <ogmaciel@gnome.org>
+
+    * pt_BR.po: Updated Brazilian Portuguese translation by
+    Fábio Nogueira <deb-user-ba@ubuntu.com>
+
+2008-05-14  Og Maciel <ogmaciel@gnome.org>
+
+    * pt_BR.po: Added Brazilian Portuguese translation
+    * xfmedia-remote-plugin.pot: Added for the first time
+    * LINGUAS: Added for the first time

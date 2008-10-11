@@ -1,0 +1,55 @@
+# English/GB translation of xfce4-wavelan-plugin.
+# Copyright (C) 2007 THE xfce4-wavelan-plugin'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfce4-wavelan-plugin package.
+# Jeff Bailes <thepizzaking@gmail.com>, 2007.
+# , fuzzy
+# 
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-wavelan-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 22:55+0200\n"
+"PO-Revision-Date: 2007-03-31 10:38+1000\n"
+"Last-Translator: Jeff Bailes <thepizzaking@gmail.com>\n"
+"Language-Team: English/GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit"
+
+#: ../panel-plugin/wavelan.c:187
+msgid "No carrier signal"
+msgstr "No carrier signal"
+
+#: ../panel-plugin/wavelan.c:217
+msgid "No device configured"
+msgstr "No device configured"
+
+#: ../panel-plugin/wavelan.c:499
+msgid "Properties"
+msgstr "Properties"
+
+#: ../panel-plugin/wavelan.c:515
+msgid "Wavelan Plugin Options"
+msgstr "Wavelan Plugin Options"
+
+#: ../panel-plugin/wavelan.c:531
+msgid "Interface"
+msgstr "Interface"
+
+#: ../panel-plugin/wavelan.c:553
+msgid "_Autohide when offline"
+msgstr "_Autohide when offline"
+
+#: ../panel-plugin/wavelan.c:563
+msgid "Autohide when no hardware present"
+msgstr "Autohide when no hardware present"
+
+#: ../panel-plugin/wavelan.c:574
+msgid ""
+"Note: This will make it difficult to remove or configure the plugin if there "
+"is no device detected."
+msgstr ""
+"Note: This will make it difficult to remove or configure the plugin if there "
+"is no device detected."
+

@@ -1,0 +1,15 @@
+Next release
+
+  - The 0.0.8 announcement
+  - On a search, have the ability to go to the directory of the song and such
+  - Menu item to replace the playlist with the selection in the database browser
+
+Unpredictable future
+
+  - XfmpcGoodies, a plugin interface on the right side pane
+    ~ artwork
+    ~ random album playlist
+  - Options
+    ~ Hostname and Port
+    ~ Font (size) for the tree views
+

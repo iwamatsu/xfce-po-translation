@@ -1,0 +1,108 @@
+# Latvian translation for the xfce-radio-plugin
+# Copyright (C) YEA2006 Stefan Ott
+# This file is distributed under the same license as the xfce-radio-plugin package.
+# Rihards Prieditis <rprieditis@inbox.lv>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce-radio-plugin 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:29+0200\n"
+"PO-Revision-Date: 2007-11-16 22:08+0300\n"
+"Last-Translator: Rihards Priedītis <rprieditis@inbox.lv>\n"
+"Language-Team: Latvian <rprieditis@inbox.lv>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../panel-plugin/radio.c:78
+msgid "Not tuned"
+msgstr "Nav noskaņots"
+
+#: ../panel-plugin/radio.c:100
+msgid "- off -"
+msgstr "- izslēgts -"
+
+#: ../panel-plugin/radio.c:118
+msgid "Error opening radio device"
+msgstr "Kļūda atverot radio iekārtu"
+
+#: ../panel-plugin/radio.c:236
+#: ../panel-plugin/radio.c:267
+#: ../panel-plugin/radio.c:467
+msgid "Add preset"
+msgstr "Pievienot sākumuzstādījumus"
+
+#: ../panel-plugin/radio.c:242
+#: ../panel-plugin/radio.c:273
+msgid "Station name:"
+msgstr "Stacijas nosaukums:"
+
+#: ../panel-plugin/radio.c:294
+msgid "There is already a preset with this frequency."
+msgstr "Jau ir sākumuzstādījums ar šādu frekvenci."
+
+#: ../panel-plugin/radio.c:332
+msgid "Tune radio"
+msgstr "Noskaņot radio"
+
+#: ../panel-plugin/radio.c:338
+msgid "Frequency [MHz]:"
+msgstr "Frekvence [MHz]:"
+
+#: ../panel-plugin/radio.c:361
+msgid "Illegal frequency."
+msgstr "Nederīga frekvence."
+
+#: ../panel-plugin/radio.c:438
+msgid "Presets"
+msgstr "Sākumuzstādījumi"
+
+#: ../panel-plugin/radio.c:474
+msgid "Delete active preset"
+msgstr "Dzēst aktīvo sākumuzstādījumu"
+
+#: ../panel-plugin/radio.c:481
+msgid "Rename active preset"
+msgstr "Pārdēvēt aktīvo sākumuzstādījumu"
+
+#: ../panel-plugin/radio.c:493
+msgid "Tune to frequency"
+msgstr "Noskaņot uz frekvenci"
+
+#: ../panel-plugin/radio.c:720
+msgid "Properties"
+msgstr "Rekvizīti"
+
+#: ../panel-plugin/radio.c:739
+msgid "V4L device"
+msgstr "V4L ierīce"
+
+#: ../panel-plugin/radio.c:745
+msgid "Display signal strength"
+msgstr "Rādīt signāla stiprumu"
+
+#: ../panel-plugin/radio.c:756
+msgid "yes"
+msgstr "Jā"
+
+#: ../panel-plugin/radio.c:765
+msgid "no"
+msgstr "Nē"
+
+#: ../panel-plugin/radio.c:775
+msgid "Execute command after shutdown"
+msgstr "Izpildīt komandu pēc beidzēšanas"
+
+#: ../panel-plugin/radio.c:787
+msgid "Mouse scrolling changes"
+msgstr "Peles ritinājuma izmaiņas"
+
+#: ../panel-plugin/radio.c:799
+msgid "frequency"
+msgstr "frekvence"
+
+#: ../panel-plugin/radio.c:807
+msgid "preset"
+msgstr "sākumuzstādījums"
+

@@ -1,0 +1,5 @@
+panel-plugin/config_gui.c
+panel-plugin/devperf.c
+panel-plugin/main.c
+panel-plugin/diskperf.desktop.in.in
+

@@ -1,0 +1,50 @@
+    0.0.7 (2008-08-25)
+
+- Add a search entry in the database browser
+- Add a right click menu in the database browser to add the selected songs
+- Add a right click menu in the playlist to remove the selected songs
+- Fix misc bugs
+- New translations: Finnish, Indonesian, Japanese, Ukrainian
+
+    0.0.6 (2008-04-20)
+
+- New button that displays a context menu
+- Possibility to switch repeat and random in the context menu
+- Reload the database view on changes (mpc update)
+- Fix misc bugs
+
+    0.0.5 (2008-04-05)
+
+- Add Clear Playlist and Refresh Database buttons
+- Clean up XfmpcInterface, move GtkWindow code to main.c
+- Fix misc bugs
+
+    0.0.4 (2008-03-28)
+
+- Add a database browser with the ability to add songs
+- Add behaviors in the filter entry of the playlist
+- Be more efficient with playlist refreshes
+- Fix misc bugs
+
+    0.0.3 (2008-02-23)
+
+- New widget XfmpcExtendedInterface which displays notebook pages selectable
+  through a combo box
+- New widget XfmpcPlaylist with a filter entry
+- Save the state of the window (sticky window, size)
+- Installs a desktop file entry
+- Emit signals on changes instead of setting a bitfield inside XfmpcMpdclient
+
+    0.0.2 (2008-01-27)
+
+- Keybindings (Ctrl+B/P/S/F/V) to go backwards, play/pause, stop, go forwards,
+  and open the volume slider.
+- A cleaner interface to libmpd, with status handling.
+- A GObjectified XfmpcMpdclient.
+- A GObject XfmpcPreferences interface, so far it remembers the last position
+  of the XfmpcInterface.
+
+    0.0.1 (2008-01-20)
+
+First release, with controls and notink more
+

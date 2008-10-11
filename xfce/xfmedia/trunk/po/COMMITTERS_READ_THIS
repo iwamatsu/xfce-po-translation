@@ -1,0 +1,15 @@
+If you are going to commit in here, you have three options:
+
+1) Email your update to bjt23@cornell.edu, and let me take care of everything.
+
+2) Commit your translation, and also:
+   a) Update NEWS.
+   b) If it is a new translation or you are a new translator, update the
+      translators list in src/mainwin-callbacks.c (grep for 'Translator')
+   c) Update AUTHORS if you are a new translator.
+   d) Update configure.ac to add your lang if it's new.
+
+3) Let me know that you added something, so I can take care of #2.
+
+If you don't do one of these three things, you won't get proper recognition
+for your work, and I'll be pissed at you because I'm anal about these things.

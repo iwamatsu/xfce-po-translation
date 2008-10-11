@@ -1,0 +1,7 @@
+common/xfconf-gvaluefuncs.c
+xfconfd/xfconf-backend-perchannel-xml.c
+xfconfd/xfconf-backend-factory.c
+xfconfd/xfconf-backend.c
+xfconfd/main.c
+xfconfd/xfconf-daemon.c
+xfconf-query/main.c

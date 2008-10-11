@@ -1,0 +1,14 @@
+For Next Vesrion
+*****************
+-fix some problem for finding the right widget when using multiple lines
+-fix a problem with images still zoomed when the mouse leave the panel
+-test with the panel on the left or on the right
+
+For Vesrion 2.0
+***************
+-drag 'n drop support (with the app-finder for example)
+-use more themed icons
+-replace xfce_icon_theme_load_category and friends
+-add an icon for this plugin
+-readd autosetting of nblines?
+-any idea?

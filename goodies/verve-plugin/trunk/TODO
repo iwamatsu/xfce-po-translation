@@ -1,0 +1,6 @@
+TODO
+=======================================================================
+
+  - Add ThunarVFS support in order to monitor $PATH
+  - Write script editor for ~/bin (using the favorite editor)
+  - Make number of cached history commands configurable

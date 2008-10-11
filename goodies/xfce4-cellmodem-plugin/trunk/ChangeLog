@@ -1,0 +1,30 @@
+next release
+	General improvements and new autodetection stuff.
+        
+0.0.5
+	Support for autodetecting known modem devices (PCI/USB)
+        Support for HSDPA detection (for modems which support it using _OHCIP)
+        Smaller leds - most people use absurdely low resolutions.
+        No more error after sending pin.
+0.0.4
+	Support for --enable-debug in configure
+0.0.3
+	Better error handling - Error messages included
+        Fixed bugs in remove_leading_chars and remove_trailing_chars
+        Fixed modem pin reply in fake driver.
+        Added vasprintf - needed for error messages
+        Moved some prototypes into cellmodem.h
+        Removed C++ style comments
+        Enforce pin '1234' on fake driver.
+        Cancel pending timers when reinitializing modem.
+        
+0.0.2
+	Fixed error handling.
+        Disabled the ask for pin. You can click on the plugin to enter
+        the pin, if it is required.
+        Fixed initialization of IO channel in modem_driver_generic.
+        
+
+0.0.1
+	Initial version
+

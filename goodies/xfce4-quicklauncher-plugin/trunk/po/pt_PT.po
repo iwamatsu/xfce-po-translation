@@ -1,0 +1,88 @@
+# European Portuguese translation of the xfce4-quicklauncher-plugin.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Nuno MIguel <nunis@netcabo.pt>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfce4-quicklauncher-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-05-17 21:37+0200\n"
+"PO-Revision-Date: 2007-11-30 23:54+0100\n"
+"Last-Translator: Nuno Miguel <nunis@netcabo.pt>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../panel-plugin/callbacks.c:79
+msgid "Configure Quicklauncher"
+msgstr "Configurar Quicklauncher"
+
+#: ../panel-plugin/callbacks.c:93
+msgid "Lines: "
+msgstr "Linhas:"
+
+#: ../panel-plugin/callbacks.c:123
+msgid "Espace entre les lanceurs :"
+msgstr "Espaço entre os lançadores :"
+
+#: ../panel-plugin/callbacks.c:131
+msgid "afficher les tooltips"
+msgstr "afixar os tooltips"
+
+#: ../panel-plugin/callbacks.c:135
+msgid "afficher les labels"
+msgstr "Afixar as etiquetas"
+
+#: ../panel-plugin/callbacks.c:216
+msgid "icone"
+msgstr "ícone"
+
+#: ../panel-plugin/callbacks.c:222
+msgid "commande"
+msgstr "comando"
+
+#: ../panel-plugin/callbacks.c:228
+msgid "nom"
+msgstr "nome"
+
+#: ../panel-plugin/callbacks.c:327
+msgid "Open icon"
+msgstr "Abrir ícone"
+
+#: ../panel-plugin/main.c:163
+#: ../panel-plugin/quicklauncher.desktop.in.in.h:2
+msgid "Quicklauncher"
+msgstr "Quicklauncher"
+
+#: ../panel-plugin/main.c:166
+msgid "Allows you to add launchers easily and display them on many lines."
+msgstr ""
+"Permite adicionar lançadores facilmente e mostrá-los\n"
+"em várias linhas."
+
+#: ../panel-plugin/main.c:168
+msgid "Other plugins available here"
+msgstr "Outros plugins disponíveis aqui"
+
+#: ../panel-plugin/main.c:320
+msgid "Lock"
+msgstr "Prender"
+
+#: ../panel-plugin/main.c:323
+msgid "Parameters"
+msgstr "Parâmetros"
+
+#: ../panel-plugin/main.c:326
+msgid "Applications"
+msgstr "Aplicações"
+
+#: ../panel-plugin/main.c:329
+msgid "Help"
+msgstr "Ajuda"
+
+#: ../panel-plugin/quicklauncher.desktop.in.in.h:1
+msgid "Program with several launchers"
+msgstr "Programa com diversos lançadores"
+

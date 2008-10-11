@@ -1,0 +1,38 @@
+# Vietnamese translations for xfce4-websearch-plugin package.
+# Copyright (C) 2005 Piotr Wolny.
+# This file is distributed under the same license as the
+#   xfce4-websearch-plugin package.
+# Phan Vĩnh Thịnh <teppi@vnlinux.org>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: websearch-plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-09-10 21:29+0200\n"
+"PO-Revision-Date: 2006-02-19 22:48+0300\n"
+"Last-Translator: Phan Vĩnh Thịnh <teppi@vnlinux.org>\n"
+"Language-Team: Vietnamese <none@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.9.1\n"
+
+#: ../src/websearch.c:312
+msgid "Properties"
+msgstr "Thuộc tính"
+
+#: ../src/websearch.c:321
+msgid "Browser command: "
+msgstr "Câu lệnh trình duyệt: "
+
+#: ../src/websearch.c:328
+msgid "Search engine: "
+msgstr "Máy tìm kiếm: "
+
+#: ../src/websearch.c:345 ../src/websearch.desktop.in.in.h:2
+msgid "WebSearch"
+msgstr "Tìm kiếm mạng"
+
+#: ../src/websearch.desktop.in.in.h:1
+msgid "Search the Web directly from the Panel"
+msgstr "Tìm kiếm mạng thẳng từ thanh panel"
