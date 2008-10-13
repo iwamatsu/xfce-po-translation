@@ -1,0 +1,497 @@
+# Danish translation of xfprint
+# Copyright (C) 2003-2006 The Xfce development team.
+# This file is distributed under the same license as the xfprint package.
+# Per Kongstad <p_kongstad@op.pl>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xfprint 4.5.90\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-01-20 18:56+0100\n"
+"PO-Revision-Date: 2008-10-10 14:54+0100\n"
+"Last-Translator: Per Kongstad <p_kongstad@op.pl>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../libxfprint/printer-list-window.c:75
+#: ../libxfprint/printer-queue-window.c:67
+msgid "Printer"
+msgstr "Printer"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit"
+msgstr "Afslut"
+
+#: ../libxfprint/printer-list-window.c:76
+msgid "Quit xfprint4-manager"
+msgstr "Afslut xfprint4-håndtering"
+
+#: ../libxfprint/printer-list-window.c:77
+msgid "About"
+msgstr "Om"
+
+#: ../libxfprint/printer-list-window.c:78
+msgid "About xfprint4-manager"
+msgstr "Om xfprint4-håndtering"
+
+#: ../libxfprint/printer-list-window.c:79
+msgid "Display informations about xfprint4-manager"
+msgstr "Vis information om xfprint4-håndtering"
+
+#: ../libxfprint/printer-list-window.c:134
+msgid "Printer manager"
+msgstr "Printerhåndtering"
+
+#: ../libxfprint/printer-list-window.c:200
+msgid "Alias name"
+msgstr "Aliasnavn"
+
+#: ../libxfprint/printer-list-window.c:204
+#: ../libxfprint/printer-queue-window.c:212
+msgid "State"
+msgstr "Tilstand"
+
+#: ../libxfprint/printer-list-window.c:258
+msgid "Xfprint printers manager"
+msgstr "Xfprint-printerhåndtering"
+
+#. Credits
+#: ../libxfprint/printer-list-window.c:263
+msgid "Former maintainer"
+msgstr "Tidligere vedligeholder"
+
+#: ../libxfprint/printer-list-window.c:264
+msgid "Maintainer"
+msgstr "Vedligeholder"
+
+#: ../libxfprint/printer-list-window.c:327
+msgid "Unknown"
+msgstr "Ukendt"
+
+#: ../libxfprint/printer-list-window.c:330
+msgid "Idle"
+msgstr "Ledig"
+
+#: ../libxfprint/printer-list-window.c:333
+msgid "Processing"
+msgstr "Kører"
+
+#: ../libxfprint/printer-list-window.c:336
+msgid "Stopped"
+msgstr "Standset"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close"
+msgstr "Luk"
+
+#: ../libxfprint/printer-queue-window.c:68
+msgid "Close queue window"
+msgstr "Luk køvindue"
+
+#: ../libxfprint/printer-queue-window.c:69
+msgid "Jobs"
+msgstr "Job"
+
+#: ../libxfprint/printer-queue-window.c:70
+#: ../libxfprint/printer-queue-window.c:380
+#: ../libxfprint/printer-queue-window.c:384
+msgid "Remove job"
+msgstr "Fjern job"
+
+#: ../libxfprint/printer-queue-window.c:70
+msgid "Remove the selected job from the queue"
+msgstr "Fjern markerede job fra køen"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh"
+msgstr "Opdatér"
+
+#: ../libxfprint/printer-queue-window.c:72
+msgid "Refresh queue"
+msgstr "Opdatér kø"
+
+#: ../libxfprint/printer-queue-window.c:121
+#: ../libxfprint/printer-queue-window.c:533
+msgid "Queue Manager"
+msgstr "Køhåndtering"
+
+#: ../libxfprint/printer-queue-window.c:202
+msgid "Name"
+msgstr "Navn"
+
+#: ../libxfprint/printer-queue-window.c:206
+msgid "ID"
+msgstr "ID"
+
+#: ../libxfprint/printer-queue-window.c:209
+msgid "User"
+msgstr "Bruger"
+
+#: ../libxfprint/printer-queue-window.c:215
+msgid "Size"
+msgstr "Størrelse"
+
+#: ../libxfprint/printer-queue-window.c:218
+msgid "Priority"
+msgstr "Prioritet"
+
+#: ../libxfprint/printer-queue-window.c:221
+msgid "Creation time"
+msgstr "Oprettelsestid"
+
+#: ../libxfprint/printer-queue-window.c:224
+msgid "Processing time"
+msgstr "Kørselstid"
+
+#: ../libxfprint/printer-queue-window.c:377
+msgid "Are you sure you want to remove the job "
+msgstr "Er du sikker på, at du ønsker at fjerne dette job "
+
+#: ../libxfprint/printer-queue-window.c:383
+msgid "Don't remove job"
+msgstr "Lad være med at fjerne job"
+
+#: ../libxfprint/printer-queue-window.c:390
+msgid "An error occurred while removing job !"
+msgstr "En fejl opstod under fjernelse af job !"
+
+#: ../libxfprint/printer-queue-window.c:441
+msgid "pending"
+msgstr "igangværende"
+
+#: ../libxfprint/printer-queue-window.c:444
+msgid "printing"
+msgstr "udskriver"
+
+#: ../libxfprint/printer-queue-window.c:447
+msgid "Kb"
+msgstr "Kb"
+
+#: ../mcs-plugin/xfprint_plugin.c:113
+msgid "Printing system"
+msgstr "Udskrivningssystem"
+
+#: ../mcs-plugin/xfprint_plugin.c:225
+msgid "Printing System Selection"
+msgstr "Udskrivningssystemvalg"
+
+#. add information frame
+#: ../mcs-plugin/xfprint_plugin.c:257
+msgid "Information"
+msgstr "Information"
+
+#: ../mcs-plugin/xfprint_plugin.c:266
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: ../mcs-plugin/xfprint_plugin.c:278
+msgid "Version"
+msgstr "Version"
+
+#: ../mcs-plugin/xfprint_plugin.c:290
+msgid "Author"
+msgstr "Forfatter"
+
+#: ../mcs-plugin/xfprint_plugin.c:302
+msgid "Homepage"
+msgstr "Hjemmeside"
+
+#: ../mcs-plugin/xfprint_plugin.c:325
+msgid "None"
+msgstr "Ingen"
+
+#: ../mcs-plugin/xfprint_plugin.c:326
+msgid "Use this backend if you just want to print to file."
+msgstr "Brug denne bagende hvis du ønsker at skrive til fil."
+
+#: ../printing-systems/bsd-lpr/bsdlpr.c:36
+msgid "BSD-LPR printing system support for Xfprint"
+msgstr "BSD-LPR-udskrivningssystem understøttelse for Xfprint"
+
+#: ../printing-systems/cups/cups.c:42
+msgid "CUPS printing system support for Xfprint"
+msgstr "Cups-udskrivningssystem understøttelse for Xfprint"
+
+#: ../printing-systems/cups/cups.c:48
+msgid "Set as default printer"
+msgstr "Indstil som standardprinter"
+
+#: ../printing-systems/cups/cups.c:49
+msgid "Set as default CUPS printer"
+msgstr "Indstil som standard-CUPS-printer"
+
+#: ../printing-systems/cups/cups.c:50
+msgid "Properties"
+msgstr "Egenskaber"
+
+#: ../printing-systems/cups/cups.c:51
+msgid "Show printer properties"
+msgstr "Vis printeregenskaber"
+
+#: ../printing-systems/cups/cups.c:77
+msgid "Password"
+msgstr "Adgangskode"
+
+#: ../printing-systems/cups/cups.c:82
+msgid "User :"
+msgstr "Bruger :"
+
+#: ../printing-systems/cups/cups.c:89
+msgid "Password :"
+msgstr "Adgangskode :"
+
+#: ../printing-systems/cups/cups.c:117
+msgid "You have to provide an username !"
+msgstr "Du skal angive et brugernavn !"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:92
+msgid "Print headers"
+msgstr "Udskriv sidehoveder"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:98
+msgid "Header:"
+msgstr "Sidehoved:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:108
+msgid "Underlay:"
+msgstr "Baggrund:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:118
+msgid "Center title:"
+msgstr "Centertitel:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:128
+msgid "Left title:"
+msgstr "Venstetitel:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:138
+msgid "Right title:"
+msgstr "Højretitel:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:148
+msgid "Center footer:"
+msgstr "Centerfod:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:158
+msgid "Left footer:"
+msgstr "Venstrefod:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/head_page.c:168
+msgid "Right footer:"
+msgstr "Højrefod:"
+
+#: ../xfprint/input_page.c:89
+msgid "Encoding:"
+msgstr "Tegnsæt:"
+
+#: ../xfprint/input_page.c:98
+msgid "Print all pages"
+msgstr "Udskriv alle sider"
+
+#: ../xfprint/input_page.c:103
+msgid "Print pages in range from"
+msgstr "Udskriv sider i interval fra"
+
+#: ../xfprint/input_page.c:127
+msgid "Cut long lines"
+msgstr "Afkort lange linjer"
+
+#: ../xfprint/input_page.c:131
+msgid "Interpret TAB, BS and FF characters"
+msgstr "Oversæt TAB, BS og FF karakterer"
+
+#: ../xfprint/input_page.c:135
+msgid "Force binary printing"
+msgstr "Tving binær udskrivning"
+
+#: ../xfprint/main.c:113
+msgid "Select file to print"
+msgstr "Vælg fil til udskrivning"
+
+#: ../xfprint/main.c:125
+msgid "The specified file does not exist"
+msgstr "Den angivne fil findes ikke"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:84
+msgid "Language:"
+msgstr "Sprog:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:94
+msgid "Highlight level:"
+msgstr "Fremhæv niveau:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/pprint_page.c:108
+msgid "Strip level:"
+msgstr "Strip niveau:"
+
+#: ../xfprint/print_dialog.c:199
+msgid "Save settings"
+msgstr "Gem indstillinger"
+
+#: ../xfprint/print_dialog.c:207
+msgid "Xfprint"
+msgstr "Xfprint"
+
+#: ../xfprint/print_dialog.c:215
+msgid "Print to:"
+msgstr "Udskriv til:"
+
+#: ../xfprint/print_dialog.c:245
+msgid "Print to file:"
+msgstr "Udskriv til fil:"
+
+#: ../xfprint/print_dialog.c:275
+msgid "Sheets"
+msgstr "Ark"
+
+#: ../xfprint/print_dialog.c:280
+msgid "Virtual pages"
+msgstr "Virtuelle sider"
+
+#: ../xfprint/print_dialog.c:285
+msgid "Pretty-printing"
+msgstr "Pæn-udskrivning"
+
+#: ../xfprint/print_dialog.c:290
+msgid "Input"
+msgstr "Inddata"
+
+#: ../xfprint/print_dialog.c:295
+msgid "Headings"
+msgstr "Sidehoveder"
+
+#: ../xfprint/print_dialog.c:304
+msgid "Copies:"
+msgstr "Kopier:"
+
+#: ../xfprint/print_dialog.c:311
+msgid "Apply filters"
+msgstr "Anvend filtre"
+
+#: ../xfprint/print_dialog.c:366
+msgid "Neither the printing system backend or a2ps could be found on your system, you won't be able to print a file with xfprint !"
+msgstr "Intet standardudskriftssystem eller a2ps blev fundet i dit system, du vil ikke være i stand til at udskrive til fil med xfprint !"
+
+#: ../xfprint/print_dialog.c:484
+msgid "An error occurred while trying to print the file"
+msgstr "En fejl opstod under forsøg af udskrift til filen"
+
+#: ../xfprint/print_dialog.c:521
+msgid "Select file where to print"
+msgstr "Vælg fil for hvor du vil udskrive"
+
+#: ../xfprint/sheets_page.c:88
+msgid "Papersize:"
+msgstr "Papirstørrelse:"
+
+#: ../xfprint/sheets_page.c:101
+msgid "Portrait"
+msgstr "Portræt"
+
+#: ../xfprint/sheets_page.c:105
+msgid "Landscape"
+msgstr "Landskab"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:121
+msgid "Columns:"
+msgstr "Kolonner:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:136
+msgid "Fill columns first"
+msgstr "Fyld kolonner først"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:141
+msgid "Fill rows first"
+msgstr "Fyld rækker først"
+
+#: ../xfprint/sheets_page.c:149
+msgid "Rows:"
+msgstr "Rækker:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/sheets_page.c:160
+msgid "Print borders around columns"
+msgstr "Udskriv ramme omkring kolonner"
+
+#: ../xfprint/sheets_page.c:169
+msgid "Print pages in reverse order"
+msgstr "Udskriv sider i omvendt orden"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:87
+msgid "Line numbers:"
+msgstr "Linjenumre:"
+
+#: ../xfprint/vpages_page.c:97
+msgid "Lines per page:"
+msgstr "Linjer per side:"
+
+#: ../xfprint/vpages_page.c:107
+msgid "Chars per line:"
+msgstr "Karakterer per linje:"
+
+#: ../xfprint/vpages_page.c:117
+msgid "Tabulation size:"
+msgstr "Tabuleringsstørrelse:"
+
+#. see a2ps documentation for more information on the string meaning
+#: ../xfprint/vpages_page.c:128
+msgid "Non-printable format:"
+msgstr "Ikke udskriftbart format:"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+msgid "Allow you to select the printing system backend that xfprint will use"
+msgstr "Tillader dig at vælge udskriftssystem som xfprint vil anvende"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+msgid "Printing System Settings"
+msgstr "Udskriftssystemindstillinger"
+
+#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+msgid "Xfce 4 Printing System Settings"
+msgstr "Xfce 4 udskriftssystemindstillinger"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:1
+msgid "Print Manager"
+msgstr "Udskriftshåndtering"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:2
+msgid "Show the printer list and allow you to manage their jobs"
+msgstr "Vis printer-liste og tillad at håndtere deres job"
+
+#: ../xfprint-manager/xfprint-manager.desktop.in.h:3
+msgid "Xfce 4 Print Manager"
+msgstr "Xfce 4 Udskriftshåndtering"
+
+#: ../xfprint/xfprint.desktop.in.h:1
+msgid "Print Dialog"
+msgstr "Udskriftsdialog"
+
+#: ../xfprint/xfprint.desktop.in.h:2
+msgid "Print a file and allow you to set up its layout"
+msgstr "Udskriv en fil og tillad dig at indstille formatet"
+
+#: ../xfprint/xfprint.desktop.in.h:3
+msgid "Xfce 4 Print Dialog"
+msgstr "Xfce 4 udskriftsdialog"
+

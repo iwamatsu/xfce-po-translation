@@ -1,4 +1,4 @@
-dnl $Id: configure.in.in 28099 2008-10-08 00:58:45Z kelnos $
+dnl $Id: configure.in.in 28142 2008-10-11 11:10:44Z kelnos $
 dnl
 dnl Copyright (c) 2003-2007
 dnl         The Xfce development team. All rights reserved.
@@ -22,7 +22,7 @@ AC_COPYRIGHT([Copyright (c) 2003-2007
 Written for Xfce by Benedikt Meurer <benny@xfce.org>.])
 AC_INIT([xfce4-session], [xfsm_version], [xfce4-dev@xfce.org])
 AC_PREREQ([2.50])
-AC_REVISION([$Id: configure.in.in 28099 2008-10-08 00:58:45Z kelnos $])
+AC_REVISION([$Id: configure.in.in 28142 2008-10-11 11:10:44Z kelnos $])
 AC_PROG_MAKE_SET()
 
 dnl Initialize automake
@@ -76,6 +76,8 @@ XDT_CHECK_PACKAGE([LIBXFCEGUI4], [libxfcegui4-1.0], [4.5.90])
 XDT_CHECK_PACKAGE([LIBWNCK], [libwnck-1.0], [2.12])
 XDT_CHECK_PACKAGE([DBUS], [dbus-1], [1.0.0])
 XDT_CHECK_PACKAGE([DBUS_GLIB], [dbus-glib-1], [0.73])
+XDT_CHECK_PACKAGE([XFCONF], [libxfconf-0], [4.5.90])
+XDT_CHECK_PACKAGE([LIBGLADE], [libglade-2.0], [2.0.0])
 
 dnl Check for gnome support
 XDT_CHECK_OPTIONAL_PACKAGE([GNOME], [gconf-2.0], [2.4.0], [gnome],
@@ -148,14 +150,11 @@ icons/72x72/Makefile
 icons/128x128/Makefile
 icons/scalable/Makefile
 libxfsm/Makefile
-libxfsm/xfce4-session-1.0.pc
+libxfsm/xfce4-session-2.0.pc
 po/Makefile.in
 settings/Makefile
-settings/session/Makefile
-settings/splash/Makefile
 xfce4-session/Makefile
 xfce4-session-logout/Makefile
-xfce4-autostart-editor/Makefile
 xfce4-tips/Makefile
 xfce4-tips/data/Makefile
 xfsm-shutdown-helper/Makefile

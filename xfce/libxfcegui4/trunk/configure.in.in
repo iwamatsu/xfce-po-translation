@@ -1,4 +1,4 @@
-dnl $Id: configure.in.in 28004 2008-10-01 07:58:17Z kelnos $
+dnl $Id: configure.in.in 28184 2008-10-12 22:16:13Z stephan $
 dnl
 dnl Copyright (c) 2002-2007
 dnl         The Xfce development team. All rights reserved.
@@ -10,10 +10,10 @@ dnl ***************************
 m4_define([libxfcegui4_verinfo], [6:4:2])
 m4_define([libxfcegui4_version_major], [4])
 m4_define([libxfcegui4_version_minor], [5])
-m4_define([libxfcegui4_version_micro], [90])
+m4_define([libxfcegui4_version_micro], [91])
 m4_define([libxfcegui4_version_nano], [])   dnl leave this empty to have no nano version
 m4_define([libxfcegui4_version_build], [r@REVISION@])
-m4_define([libxfcegui4_version_tag], [svn])
+m4_define([libxfcegui4_version_tag], [])
 m4_define([libxfcegui4_version], [libxfcegui4_version_major().libxfcegui4_version_minor().libxfcegui4_version_micro()ifelse(libxfcegui4_version_nano(), [], [], [.libxfcegui4_version_nano()])ifelse(libxfcegui4_version_tag(), [svn], [libxfcegui4_version_tag()-libxfcegui4_version_build()], [libxfcegui4_version_tag()])])
 
 
@@ -29,11 +29,11 @@ m4_define([libxfcegui4_debug_default], [ifelse(libxfcegui4_version_tag(), [svn],
 dnl ***************************
 dnl *** Initialize autoconf ***
 dnl ***************************
-AC_COPYRIGHT([Copyright (c) 2002-2007
+AC_COPYRIGHT([Copyright (c) 2002-2008
         The Xfce development team. All rights reserved.])
 AC_INIT([libxfcegui4], [libxfcegui4_version], [xfce4-dev@xfce.org])
 AC_PREREQ([2.50])
-AC_REVISION([$Id: configure.in.in 28004 2008-10-01 07:58:17Z kelnos $])
+AC_REVISION([$Id: configure.in.in 28184 2008-10-12 22:16:13Z stephan $])
 
 dnl ***************************
 dnl *** Initialize automake ***

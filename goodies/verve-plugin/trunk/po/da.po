@@ -2,16 +2,20 @@
 # Copyright (C) 2007 THE verve-plugin'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the verve-plugin package.
 # Jens Hyllegaard <jens.hyllegaard@gmail.com>, 2007.
+# Per Kongstad <p_kongstad@op.pl>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: verve-plugin\n"
+"Project-Id-Version: verve-plugin 0.3.5\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2008-05-17 15:16+0100\n"
-"Last-Translator: Jens Hyllegaard <jens.hyllegaard@gmail.com>\n"
+"PO-Revision-Date: 2008-09-30 08:23+0100\n"
+"Last-Translator: Per Kongstad <p_kongstad@op.pl>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #. Generate error message
 #: ../panel-plugin/verve-plugin.c:407
@@ -41,24 +45,24 @@ msgstr "Opførsel"
 #. History length label
 #: ../panel-plugin/verve-plugin.c:841
 msgid "Number of saved history items:"
-msgstr "Antal gemte historikemner:"
+msgstr "Antal gemte historikelementer:"
 
 #. vim:set expandtab sts=2 ts=2 sw=2:
 #: ../panel-plugin/verve.desktop.in.in.h:1
 msgid "Command line interface with auto-completion and command history"
-msgstr "Brugerflade til komandolinje med auto-færdiggørelse og kommandohistorik"
+msgstr "Kommandolinjegrænseflade med autofuldførelse og kommandohistorik"
 
 #: ../panel-plugin/verve.desktop.in.in.h:2
 msgid "Verve Command Line"
-msgstr "Verve kommandolinje"
+msgstr "Verve-kommandolinje"
 
 #. Print error message
 #: ../scripts/verve-focus.c:61
 msgid "Failed to connect to the D-BUS session bus."
-msgstr "Kunne ikke tilslutte til D-BUS sessions-bussen."
+msgstr "Kunne ikke tilslutte til D-BUS-sessions-bussen."
 
 #. Print error message
 #: ../scripts/verve-focus.c:84
 msgid "There seems to be no Verve D-BUS provider (e.g. the Verve panel plugin) running."
-msgstr "Det lader ikke til at der er nogen kørende Verve D-BUS-leverandør (f.eks. Verve paneludvidelsesmodulet)."
+msgstr "Det lader ikke til, at der er nogen kørende Verve D-BUS-leverandør (f.eks. Verve paneludvidelsesmodulet)."
 

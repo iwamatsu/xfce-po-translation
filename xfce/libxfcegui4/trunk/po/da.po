@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: libxfcegui4 4.5.90\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-08-18 12:49-0700\n"
-"PO-Revision-Date: 2008-09-30 16:18+0100\n"
+"PO-Revision-Date: 2008-10-09 15:08+0100\n"
 "Last-Translator: Per Kongstad <p_kongstad@op.pl>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Danish\n"
 "X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #: ../libxfcegui4/netk-window-action-menu.c:215
 #: ../libxfcegui4/netk-window-action-menu.c:217
@@ -45,7 +46,7 @@ msgstr "_Uden skygge"
 
 #: ../libxfcegui4/netk-window-action-menu.c:283
 msgid "_Shade"
-msgstr "_Skyg"
+msgstr "_Skygge"
 
 #: ../libxfcegui4/netk-window-action-menu.c:291
 msgid "Uns_tick"
@@ -85,7 +86,7 @@ msgstr "Kommando"
 
 #: ../libxfcegui4/xfce-appmenuitem.c:236
 msgid "The command to run when the item is clicked"
-msgstr "Kommando at køre når element bliver klikket"
+msgstr "Kommando der skal køres når elementet bliver klikket"
 
 #: ../libxfcegui4/xfce-appmenuitem.c:240
 msgid "Icon name"
@@ -93,7 +94,7 @@ msgstr "Ikonnavn"
 
 #: ../libxfcegui4/xfce-appmenuitem.c:241
 msgid "The name of the themed icon to display next to the item"
-msgstr "Navnet til det temaikon som skal vises ved siden af elementet"
+msgstr "Navnet på det temaikon som skal vises ved siden af elementet"
 
 #. TODO: this needs some special setup in the glade helper lib to
 #. create and populate the XfceAboutInfo struct.
@@ -109,7 +110,7 @@ msgstr "Etikette"
 
 #: ../libxfcegui4/xfce-appmenuitem.c:246
 msgid "The label displayed in the item"
-msgstr "Etikette vis i element"
+msgstr "Vis etikette i element"
 
 #: ../libxfcegui4/xfce-appmenuitem.c:250
 msgid "Startup notification"
@@ -157,7 +158,7 @@ msgstr "Kunne ikke indhente håndteringsvalg"
 #: ../libxfcegui4/xfce_systemtray.c:487
 #, c-format
 msgid "tray icon has requested a size of (%i x %i), resizing to (%i x %i)"
-msgstr "statusikon kræver en størrelse af (%i x %i), ændrer til størrelse (%i x %i)"
+msgstr "statusikon har anmodet om en størrelse af (%i x %i), ændrer til størrelse (%i x %i)"
 
 #: ../libxfcegui4/xfce_systemtray.c:496
 msgid "tray icon was not attached, destroying it"

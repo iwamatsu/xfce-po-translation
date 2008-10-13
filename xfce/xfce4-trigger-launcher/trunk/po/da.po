@@ -1,20 +1,23 @@
-# Danish translations for xfce package.
-# Copyright (C) 2008 THE xfce'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the xfce package.
+# Danish (da.po) translation for xfce4-trigger-launcher.
+# Copyright (C) 2007 THE xfce4-trigger-launcher'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xfce4-trigger-launcher package.
 # Ole Guldberg <olegb@omgwtf.dk>, 2008.
+# Claus Futtrup cfuttrup@stofanet.dk, 2008.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: xfce 4-trigger-launcher\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-05-18 00:44+0900\n"
-"PO-Revision-Date: 2008-05-19 16:46+0100\n"
-"Last-Translator: Ole Guldberg <olegb@omgwtf.dk>\n"
-"Language-Team: Danish\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: xfce 4-trigger-launcher 4.4.0\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2008-10-05 13:58+0100\n"
+"Last-Translator: Claus Futtrup <cfuttrup@stofanet.dk>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #: ../panel-plugin/triggerlauncher-old2.c:287
 msgid "Check status every"
@@ -23,7 +26,7 @@ msgstr "Check status hvert"
 #: ../panel-plugin/triggerlauncher-old2.c:296
 #: ../panel-plugin/xfce-trigger-launcher-options.c:132
 msgid "seconds"
-msgstr "Sekund"
+msgstr "sekunder"
 
 #: ../panel-plugin/triggerlauncher-old2.c:1005
 msgid "Icon (off)"
@@ -35,7 +38,7 @@ msgstr "Ikon (tændt)"
 
 #: ../panel-plugin/triggerlauncher-old2.c:1143
 msgid "Two-state Launcher"
-msgstr "To-tilstandt affyrer"
+msgstr "To-tilstands opstarter"
 
 #: ../panel-plugin/xfce-file-chooser-button.c:141
 msgid "Select Icon"
@@ -52,15 +55,15 @@ msgstr "(Ingen valgt)"
 #: ../panel-plugin/xfce-launcher-command-entry.c:118
 #, c-format
 msgid "Could not run \"%s\""
-msgstr "Kunne ikke afvikle \"%s\""
+msgstr "Kunne ikke køre \"%s\""
 
 #: ../panel-plugin/xfce-launcher-command-entry.c:120
 msgid "Xfce Panel"
-msgstr "Xfce panel"
+msgstr "Xfce-panel"
 
 #: ../panel-plugin/xfce-trigger-launcher-options.c:127
 msgid "Command To Check Status:"
-msgstr "Kommando for at checke status"
+msgstr "Kommando for at checke status:"
 
 #: ../panel-plugin/xfce-trigger-launcher-options.c:128
 msgid "Command To Enable:"
@@ -68,7 +71,7 @@ msgstr "Kommando for at aktivere:"
 
 #: ../panel-plugin/xfce-trigger-launcher-options.c:129
 msgid "Command To Disable:"
-msgstr "Kommando for at aktivere:"
+msgstr "Kommando for at deaktivere:"
 
 #: ../panel-plugin/xfce-trigger-launcher-options.c:130
 msgid "Command to Poke:"
@@ -76,7 +79,7 @@ msgstr "Kommando for at prikke:"
 
 #: ../panel-plugin/xfce-trigger-launcher-options.c:131
 msgid "Check Interval:"
-msgstr "Check interval:"
+msgstr "Kontrolinterval:"
 
 #: ../panel-plugin/xfce-trigger-launcher-options.c:134
 #: ../panel-plugin/xfce-trigger-launcher-options.c:135
@@ -99,7 +102,7 @@ msgstr "Når aktiveret"
 
 #: ../panel-plugin/xfce-trigger-launcher-options.c:239
 msgid "When Undefined"
-msgstr "Når ikke defineret"
+msgstr "Når udefineret"
 
 #: ../panel-plugin/xfce-trigger-launcher-options.c:240
 msgid "When Dodgy"
@@ -107,9 +110,8 @@ msgstr "Når tvivlsom"
 
 #: ../panel-plugin/xfce4-trigger-launcher.desktop.in.in.h:1
 msgid "Keeps track of the state of something and can control it"
-msgstr "Hold styr på en tings tilstand og kontrollere den"
+msgstr "Holder styr på tilstanden for noget og kan kontrollere det"
 
 #: ../panel-plugin/xfce4-trigger-launcher.desktop.in.in.h:2
 msgid "Trigger Launcher Plugin"
-msgstr "Start affyrerplugin"
-
+msgstr ""

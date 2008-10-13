@@ -1,3 +1,36 @@
+2008-10-12 jeromeg
+
+  * src/screenshooter-dialogs.{c,h}
+    - (screenshooter_dialog_new) Add an argument to create the preferences 
+      dialog for the plugin.
+    - add prototypes for internal functions.
+  * src/screenshooter-plugin.c:
+    - (screenshot_properties_dialog) Use the code from screenshooter-dialogs.c.
+    - remove all the obsolete callbacks.
+  * src/main.c: 
+    - (main) Use new arguments for screenshooter_dialog_new.
+    - (main) Don't declare variables in the middle of a block.
+  * src/screenshooter-utils.{c,h}: fix various indentation incoherences.
+  * src/Makefile.am:
+    - Add screenshooter-dialogs.{c,h} to the plugin source.
+
+2008-10-12 jeromeg
+
+  * src/screenshooter-dialogs.{c,h}:
+    - new file to handle the different dialogs.
+  * src/main.c:
+    - include screenshooter-dialogs.h
+    - (main) move the dialog for the preferred directory to 
+      screenshooter-dialogs.c
+    - (main) if no CLI option is given, show a dialog to set options and take a
+      screenshot.
+  * src/screenshooter-plugin.c: fix indentation of a function.
+  * configure.ac.in: 
+    - hardcode the dependence on libxfcegui4.
+    - add japanese to the list of translations.
+  * src/Makefile.am: add libxfcegui4 flags.
+  * NEWS: updated.  
+
 2008-10-05 jeromeg
 
   * NEWS: updated.

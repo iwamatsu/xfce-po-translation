@@ -1,4 +1,4 @@
-# $Id: Makefile.am 20995 2006-04-16 12:16:46Z benny $
+# $Id: Makefile.am 28142 2008-10-11 11:10:44Z kelnos $
 
 SUBDIRS =								\
 	libxfsm								\
@@ -9,12 +9,8 @@ SUBDIRS =								\
 	settings							\
 	xfce4-session							\
 	xfce4-session-logout						\
-	xfce4-autostart-editor						\
 	xfce4-tips							\
 	xfsm-shutdown-helper
-
-configdir = $(sysconfdir)/xdg/xfce4-session
-config_DATA = xfce4-session.rc
 
 EXTRA_DIST =								\
 	BUGS								\

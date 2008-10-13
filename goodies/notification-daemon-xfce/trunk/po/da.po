@@ -2,32 +2,36 @@
 # Copyright (C) 2007 THE notification-daemon-xfce'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the notification-daemon-xfce package.
 # Jens Hyllegaard <jens.hyllegaard@gmail.com>, 2007.
+# Per Kongstad <p_kongstad@op.pl>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: notification-daemon-xfce\n"
+"Project-Id-Version: notification-daemon-xfce 0.3.8\n"
 "POT-Creation-Date: 2006-10-22 17:38+0200\n"
-"PO-Revision-Date: 2008-05-17 15:16+0100\n"
-"Last-Translator: Jens Hyllegaard <jens.hyllegaard@gmail.com>\n"
+"PO-Revision-Date: 2008-10-07 15:31+0100\n"
+"Last-Translator: Per Kongstad <p_kongstad@op.pl>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #: ../src/settings/main.c:64
 msgid "Top Left"
-msgstr "Øverst venstre"
+msgstr "Øverst til venstre"
 
 #: ../src/settings/main.c:65
 msgid "Top Right"
-msgstr "Øverst højre"
+msgstr "Øverst til højre"
 
 #: ../src/settings/main.c:66
 msgid "Bottom Left"
-msgstr "Nederst venstre"
+msgstr "Nederst til venstre"
 
 #: ../src/settings/main.c:67
 msgid "Bottom Right"
-msgstr "Nederst højre"
+msgstr "Nederst til højre"
 
 #. create new preview notification
 #: ../src/settings/main.c:188
@@ -45,7 +49,7 @@ msgstr "Påmindelses-indstillinger"
 
 #: ../src/settings/main.c:330
 msgid "Configure the Xfce notification daemon"
-msgstr "Konfigurér Xfce påmindelsesdæmonen"
+msgstr "Konfigurér Xfce-påmindelsesdæmonen"
 
 #: ../src/settings/main.c:340
 msgid "Notification _position:"
@@ -69,5 +73,5 @@ msgstr "Tilpas påmindelsesdæmonens indstillinger"
 
 #: ../src/settings/notification-settings.desktop.in.h:3
 msgid "Xfce 4 Notification Settings"
-msgstr "Xfce 4 påmindelses-indstillinger"
+msgstr "Xfce 4-påmindelsesindstillinger"
 
