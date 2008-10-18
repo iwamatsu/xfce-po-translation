@@ -1,13 +1,13 @@
-# $Id: Makefile.am 25077 2007-03-03 19:26:06Z nick $
+# $Id: Makefile.am 28209 2008-10-13 09:46:14Z stephan $
 
 SUBDIRS =								\
 	config								\
 	icons								\
-	libxfce4panel							\
+	libxfce4panel						\
 	panel								\
 	plugins								\
-	mcs-plugin							\
-	po								\
+	settings							\
+	po									\
 	docs
 
 distclean-local:

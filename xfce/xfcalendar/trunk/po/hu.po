@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: orage 4.3.90.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-09-27 23:53+0300\n"
-"PO-Revision-Date: 2008-10-08 21:50+0100\n"
+"PO-Revision-Date: 2008-10-15 04:58+0100\n"
 "Last-Translator: SZERVÁC Attila <sas@321.hu>\n"
 "Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -1070,7 +1070,7 @@ msgstr "Bezárás"
 #. then add the appointment
 #: ../src/day-view.c:452
 msgid "Unknown"
-msgstr ""
+msgstr "Ismeretlen"
 
 #: ../src/day-view.c:694
 #: ../src/parameters.c:662
@@ -1093,41 +1093,43 @@ msgstr "Idő"
 
 #: ../src/event-list.c:728
 msgid "No rows have been selected."
-msgstr ""
+msgstr "Nincs sor kiválasztva."
 
 #: ../src/event-list.c:729
 msgid "Click a row to select it and after that you can copy it."
-msgstr ""
+msgstr "A sor kiválasztásához kattints rá, majd utána másolhatod."
 
 #: ../src/event-list.c:899
 msgid ""
 "You will permanently remove all\n"
 "selected appointments."
 msgstr ""
+"Véglegesen eltávolítod az összes\n"
+"kijelölt találkozókat."
 
 #: ../src/event-list.c:1103
 msgid "Find"
-msgstr ""
+msgstr "Talál"
 
 #: ../src/event-list.c:1110
 msgid "Dayview"
-msgstr ""
+msgstr "Napnézet"
 
 #: ../src/event-list.c:1143
 msgid "Extra days to show "
-msgstr ""
+msgstr "Extra napok mutatása"
 
 #: ../src/event-list.c:1179
 msgid "Journal entries starting from:"
-msgstr ""
+msgstr "Naplókönyv bejegyzések innen:"
 
 #: ../src/event-list.c:1204
 msgid "Search"
-msgstr ""
+msgstr "Keresés"
 
 #: ../src/event-list.c:1208
 msgid "Search text "
-msgstr ""
+msgstr "Szöveg keresése"
 
 #: ../src/event-list.c:1274
 msgid "Flags"
@@ -2728,21 +2730,21 @@ msgstr "Az Orage alapértelmezett riasztása"
 #: ../src/ical-code.c:3023
 #, c-format
 msgid "Build alarm list: Added %d alarms. Processed %d events."
-msgstr ""
+msgstr "Riasztás lista összeállítása: %d riasztás hozzáadva. %d esemény lett feldolgozva."
 
 #: ../src/ical-code.c:3025
 #, c-format
 msgid "\tFound %d alarms of which %d are active. (Searched %d recurring alarms.)"
-msgstr ""
+msgstr "\t%d riasztást találtam  amiből %d aktív. (%d visszatérő riasztás keresve.)"
 
 #. remove since it has ended
 #: ../src/ical-code.c:3542
 msgid "\tRecur ended, moving to archive file."
-msgstr ""
+msgstr "\tIsmétlődés vége, archív fájlba mozgatás."
 
 #: ../src/ical-code.c:3604
 msgid "Archiving not enabled. Exiting"
-msgstr ""
+msgstr "Archiválás nincs engedélyezve. Kilépek"
 
 #: ../src/ical-code.c:3622
 #, c-format
@@ -2753,7 +2755,7 @@ msgstr "Archiválás küszöbe: %d hó"
 #: ../src/ical-code.c:3625
 #, c-format
 msgid "\tArchiving events, which are older than: %04d-%02d-%02d"
-msgstr ""
+msgstr "\tEsemények archiválása amelyek régebbiek mint: %04d-%02d-%02d"
 
 #: ../src/ical-code.c:3652
 #, fuzzy, c-format
@@ -2769,7 +2771,7 @@ msgstr ""
 #: ../src/ical-code.c:3663
 #, c-format
 msgid "\tRecurring. End year: %04d, month: %02d, day: %02d"
-msgstr ""
+msgstr "\tIsmétlődő. Befejező év: %04d, hónap: %02d, nap: %02d"
 
 #: ../src/ical-code.c:3680
 msgid "Archiving done\n"
@@ -2782,13 +2784,13 @@ msgstr "Archívok törlésének indítása."
 
 #: ../src/ical-code.c:3697
 msgid "\tPHASE 1: reset recurring appointments"
-msgstr ""
+msgstr "\tPHASE 1: ismétlődő események törlése"
 
 #. PHASE 2: go through archive file and add everything back to base orage.
 #. * After that delete the whole arch file
 #: ../src/ical-code.c:3719
 msgid "\tPHASE 2: return archived appointments"
-msgstr ""
+msgstr "\tPHASE 2: archivált események visszaállítása"
 
 #: ../src/ical-code.c:3745
 msgid "Archive removal done\n"
@@ -2796,7 +2798,7 @@ msgstr "Archívok törlése befejezve.\n"
 
 #: ../src/ical-code.c:3835
 msgid "Starting import file preprocessing"
-msgstr ""
+msgstr "Import fájl előfeldolgozás indítása"
 
 #: ../src/ical-code.c:3870
 msgid "... Patched DCREATED to be CREATED."
@@ -2804,11 +2806,11 @@ msgstr ""
 
 #: ../src/ical-code.c:3909
 msgid "... Patched timezone to Orage format."
-msgstr ""
+msgstr "... "
 
 #: ../src/ical-code.c:3918
 msgid "Import file preprocessing done"
-msgstr ""
+msgstr "Import fájl előfeldolgozás kész."
 
 #. show it
 #: ../src/ical-code.c:4506
@@ -2833,27 +2835,27 @@ msgstr "Naptárfájlok"
 
 #: ../src/interface.c:626
 msgid "Current foreign files"
-msgstr ""
+msgstr "Jelenlegi idegen fájlok"
 
 #: ../src/interface.c:638
 msgid "READ ONLY"
-msgstr ""
+msgstr "CSAK OLVASHATÓ"
 
 #: ../src/interface.c:640
 msgid "READ WRITE"
-msgstr ""
+msgstr "ÍRÁS OLVASÁS"
 
 #: ../src/interface.c:658
 msgid "***** No foreign files *****"
-msgstr ""
+msgstr "***** Nincsnek idegen fájlok *****"
 
 #: ../src/interface.c:968
 msgid "Import/export"
-msgstr ""
+msgstr "Importálás/Exportálás"
 
 #: ../src/interface.c:975
 msgid "Import"
-msgstr ""
+msgstr "Importálás"
 
 #: ../src/interface.c:980
 msgid "Read from file:"
@@ -2864,10 +2866,12 @@ msgid ""
 "Separate filenames with comma(,).\n"
 " NOTE: comma is not valid character in filenames for Orage."
 msgstr ""
+"A fájlneveket vesszővel(,) válasszd el.\n"
+"FONTOS: az Orage fájlnevekben nem lehet vessző."
 
 #: ../src/interface.c:1002
 msgid "Export"
-msgstr ""
+msgstr "Exportálás"
 
 #: ../src/interface.c:1007
 msgid "Write to file:"
@@ -2891,20 +2895,24 @@ msgid ""
 "Note that only main file appointments are read.\n"
 "Archived and Foreign events are not exported."
 msgstr ""
+"Vedd figyelembe, hogy csak a fő naptár fájl lesz beolvasva.\n"
+"Az archív és idegen események nem kerülnek exportálásra."
 
 #: ../src/interface.c:1059
 msgid ""
 "Note that only main file appointments are read.\n"
 "Foreign events are not exported."
 msgstr ""
+"Vedd figyelembe, hogy csak a fő naptár fájl lesz beolvasva.\n"
+"Az idegen események nem kerülnek exportálásra."
 
 #: ../src/interface.c:1062
 msgid "You can easily drag these from event-list window."
-msgstr ""
+msgstr "Ezeket az esemény lista ablakából könnyen áthúzhatod."
 
 #: ../src/interface.c:1064
 msgid "Orage appointment UIDs separated by commas."
-msgstr ""
+msgstr "Orage találkozók UID-i (belső azonosítói) vesszővel elválasztva."
 
 #: ../src/interface.c:1070
 msgid "Archive"
@@ -2917,18 +2925,22 @@ msgstr "Archiváld most (küszöbe: %d hó)"
 
 #: ../src/interface.c:1088
 msgid "You can change archive threshold in parameters"
-msgstr ""
+msgstr "Megváltoztathatod az archív küszöböt a paraméterekben."
 
 #: ../src/interface.c:1095
 msgid "Revert archive now"
-msgstr ""
+msgstr "Archív visszaállítása"
 
 #: ../src/interface.c:1101
+#, fuzzy
 msgid ""
 "Return all archived events into main orage file and remove arch file.\n"
 "This is useful for example when doing export and moving orage\n"
 "appointments to another system."
 msgstr ""
+"Az összes archív esemény visszamásolása a fő naptár fájlba és az archív fájl törlése.\n"
+"Ez például akkor hasznos ha az Orage-ből\n"
+"a tartalmat egy másik rendszerbe visszük át."
 
 #: ../src/interface.c:1111
 msgid "Orage files"
@@ -2951,12 +2963,12 @@ msgstr "Új fájl"
 #: ../src/interface.c:1146
 #: ../src/interface.c:1212
 msgid "Action options"
-msgstr ""
+msgstr "Lehetőségek"
 
 #: ../src/interface.c:1149
 #: ../src/interface.c:1215
 msgid "Rename"
-msgstr ""
+msgstr "Átnevezés"
 
 #: ../src/interface.c:1153
 msgid ""
@@ -2964,24 +2976,27 @@ msgid ""
 "Does not touch external filesystem at all.\n"
 "New file must exist."
 msgstr ""
+"Orage belső fájl, csak átnevezni szabad.\n"
+"A külső fájlrendszer nem lesz módosítva.\n"
+"Az új fájlnak léteznie kell."
 
 #: ../src/interface.c:1157
 #: ../src/interface.c:1220
 msgid "Copy"
-msgstr ""
+msgstr "Másolás"
 
 #: ../src/interface.c:1161
 msgid "Current file is copied and stays unmodified in the old place."
-msgstr ""
+msgstr "A jelenlegi fájl átmásolva és változatlan állapotban a régi helyén."
 
 #: ../src/interface.c:1165
 #: ../src/interface.c:1225
 msgid "Move"
-msgstr ""
+msgstr "Mozgatás"
 
 #: ../src/interface.c:1169
 msgid "Current file is moved and vanishes from the old place."
-msgstr ""
+msgstr "A jelenlegi fájl átmozgatva és a régi helyéről törölve."
 
 #: ../src/interface.c:1183
 msgid "Archive file"
@@ -2989,15 +3004,15 @@ msgstr "Archív fájl"
 
 #: ../src/interface.c:1246
 msgid "Foreign files"
-msgstr ""
+msgstr "Idegen fájlok"
 
 #: ../src/interface.c:1253
 msgid "Add new foreign file"
-msgstr ""
+msgstr "Új idegen fájl hozzáadása"
 
 #: ../src/interface.c:1258
 msgid "Foreign file:"
-msgstr ""
+msgstr "Idegen fájl:"
 
 #: ../src/interface.c:1276
 msgid "Options"
@@ -3005,17 +3020,19 @@ msgstr "Lehetőségek"
 
 #: ../src/interface.c:1278
 msgid "Read only"
-msgstr ""
+msgstr "Csak olvasható"
 
 #: ../src/interface.c:1286
 msgid ""
 "Set this if you want to make sure that this file is never modified by Orage.\n"
 "Note that modifying foreign files may make them incompatible with the original tool, where they came from!"
 msgstr ""
+"Kapcsold be ha biztosan szeretnéd, hogy az Orage soha ne módosíthassa a fájlt.\n"
+"Vedd figyelembe, hogy az idegen fájlok a módosítások után nem biztos hogy működnek az eredeti programjukkal amiből származnak!"
 
 #: ../src/interface.c:1300
 msgid "Exchange data - Orage"
-msgstr ""
+msgstr "Adatok cseréje - Orage"
 
 #: ../src/main.c:192
 #, c-format
@@ -3023,11 +3040,13 @@ msgid ""
 "\tThis is %s version %s for Xfce %s\n"
 "\n"
 msgstr ""
+"\tEz a verzió %s, %s megfelel az Xfce %s\n"
+"\n"
 
 #: ../src/main.c:194
 #, c-format
 msgid "\tReleased under the terms of the GNU General Public License.\n"
-msgstr ""
+msgstr "\tA kiadás megfelel a GNU Általános Közreadási Feltételeknek .\n"
 
 #: ../src/main.c:195
 #, c-format
@@ -3047,7 +3066,7 @@ msgstr "\tDBUS használata importáláshoz.\n"
 #: ../src/main.c:202
 #, c-format
 msgid "\tNot using DBUS. Import works only partially.\n"
-msgstr "\t DBUS nincs használatban. Az import csak részben működik.\n"
+msgstr "\tDBUS nincs használatban. Az import csak részben működik.\n"
 
 #: ../src/main.c:205
 #, c-format

@@ -1,9 +1,0 @@
-* preferences dialog - implement support for some xine prefs
-* right-click menu for video window
-* fix xine status message event processing in GtkXine and do something about
-  them in the frontend - partially DONE
-* XfmediaMainwin should be a GObject and be much more self-contained
-* plugin ideas:
-  - audioscrobbler
-  - alarm
-  - lirc/joystick control

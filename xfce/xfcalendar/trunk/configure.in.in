@@ -1,4 +1,4 @@
-dnl $Id: configure.in.in 27985 2008-09-29 18:09:18Z juha $
+dnl $Id: configure.in.in 28276 2008-10-17 08:50:40Z juha $
 dnl
 dnl Orage - Calendar application for Xfce
 dnl
@@ -9,7 +9,7 @@ dnl Written for Xfce by Juha Kautto <juha@xfce.org>
 dnl
 
 dnl Version information
-m4_define([orage_version], [4.5.14.6-svn])
+m4_define([orage_version], [4.5.91.1-svn])
 
 m4_define([gtk_minimum_version], [2.6.0])
 m4_define([xfce_minimum_version], [4.4.0])
@@ -30,7 +30,7 @@ Written for Xfce by Juha Kautto <juha@xfce.org>.])
 AC_INIT([orage], [orage_version], [xfce4-dev@xfce.org])
 AC_CANONICAL_SYSTEM()
 AC_PREREQ([2.50])
-AC_REVISION([$Id: configure.in.in 27985 2008-09-29 18:09:18Z juha $])
+AC_REVISION([$Id: configure.in.in 28276 2008-10-17 08:50:40Z juha $])
 
 dnl Initialize automake
 ORAGE_VERSION=orage_version()

@@ -1,3 +1,56 @@
+2008-10-17	Brian Tarricone <bjt23@cornell.edu>
+
+	* xfce4-session/xfsm-chooser.c: Use xfce_create_mixed_button()
+	  instead of xfsm_imgbtn_new() (bug 1446).
+	* libxfsm/xfsm-utils.[ch]: Remove xfsm_imgbtn_new() and
+	  xfsm_strv_copy().
+
+2008-10-17	Brian Tarricone <bjt23@cornell.edu>
+
+	* xfce4-session/xfsm-manager.c: Don't ditch clients that fail
+	  to restart solely because fork() failed in xfce4-session.
+
+2008-10-17	Brian Tarricone <bjt23@cornell.edu>
+
+	* xfce4-session/ice-layer.c: Properly initialise a GError to
+	  NULL.  Patch from Carlos Santos (bug 4202).
+	* libxfsm/Makefile.am: Link all used libraries to libxfsm.so
+	  to avoid link-time errors on Darwin.  Shouldn't be an issue
+	  on other platforms as well.  Partial patch from Anders
+	  Björklund (bug 4429).
+
+2008-10-17	Brian Tarricone <bjt23@cornell.edu>
+
+	* xfce4-session/xfsm-startup.c: Store the result of fork() in a
+	  temporary again to avoid possible memory access issues if
+	  vfork() is used.
+	* xfce4-session/xfsm-manager.c: Fix a XfsmProperties leak if
+	  a SmRestartNever or SmRestartIfRunning client exits and doesn't
+	  have a discard command, or exits during initial startup.
+
+2008-10-17	Brian Tarricone <bjt23@cornell.edu>
+
+	* xfce4-session/xfsm-properties.[ch]: Track the PID of properties
+	  that have an associated app running, whether or not it's
+	  registered with the SM.  Add client ID comparison function.
+	  Track the child watch GSource and provide a way to reset the
+	  child watch to a function that simply reaps the child.
+	* xfce4-session/xfsm-startup.[ch]: Move handling of the child
+	  watch and startup timeout, and make the properties starter
+	  global so the manager can make use of it.  Merge a couple
+	  data structures, and record a launched client's PID in its
+	  properties structure.
+	* xfce4-session/xfsm-manager.[ch]: Implement SmRestartImmediately
+	  support.  Remove some code duplication.  Add an accessor
+	  func for the manager's state.  Add a timeout function that
+	  resets the 'restart attempts' counter if the client has been
+	  alive for a while (5 minutes).
+
+2008-10-15	Brian Tarricone <bjt23@cornell.edu>
+
+	* xfce4-session/xfsm-client.c: Grab the GList pointer to iterate
+	  over rather than using g_queue_peek_nth (); a little faster.
+
 2008-10-12	Brian Tarricone <bjt23@cornell.edu>
 
 	* xfce4-session/xfsm-manager.c: Return a useful error string from

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: xfprint 4.5.90\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-01-20 18:56+0100\n"
-"PO-Revision-Date: 2008-10-10 14:54+0100\n"
+"PO-Revision-Date: 2008-10-14 00:03+0100\n"
 "Last-Translator: Per Kongstad <p_kongstad@op.pl>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
@@ -83,15 +83,15 @@ msgstr "Kører"
 
 #: ../libxfprint/printer-list-window.c:336
 msgid "Stopped"
-msgstr "Standset"
+msgstr "Stoppet"
 
 #: ../libxfprint/printer-queue-window.c:68
 msgid "Close"
-msgstr "Luk"
+msgstr "Afslut"
 
 #: ../libxfprint/printer-queue-window.c:68
 msgid "Close queue window"
-msgstr "Luk køvindue"
+msgstr "Afslut køvindue"
 
 #: ../libxfprint/printer-queue-window.c:69
 msgid "Jobs"
@@ -142,7 +142,7 @@ msgstr "Prioritet"
 
 #: ../libxfprint/printer-queue-window.c:221
 msgid "Creation time"
-msgstr "Oprettelsestid"
+msgstr "Oprettelsestidspunkt"
 
 #: ../libxfprint/printer-queue-window.c:224
 msgid "Processing time"
@@ -174,11 +174,11 @@ msgstr "Kb"
 
 #: ../mcs-plugin/xfprint_plugin.c:113
 msgid "Printing system"
-msgstr "Udskrivningssystem"
+msgstr "Udskriftssystem"
 
 #: ../mcs-plugin/xfprint_plugin.c:225
 msgid "Printing System Selection"
-msgstr "Udskrivningssystemvalg"
+msgstr "Udskriftssystemvalg"
 
 #. add information frame
 #: ../mcs-plugin/xfprint_plugin.c:257
@@ -207,15 +207,15 @@ msgstr "Ingen"
 
 #: ../mcs-plugin/xfprint_plugin.c:326
 msgid "Use this backend if you just want to print to file."
-msgstr "Brug denne bagende hvis du ønsker at skrive til fil."
+msgstr "Brug dette modul hvis du ønsker at skrive til fil."
 
 #: ../printing-systems/bsd-lpr/bsdlpr.c:36
 msgid "BSD-LPR printing system support for Xfprint"
-msgstr "BSD-LPR-udskrivningssystem understøttelse for Xfprint"
+msgstr "BSD-LPR-udskriftssystem understøttelse til Xfprint"
 
 #: ../printing-systems/cups/cups.c:42
 msgid "CUPS printing system support for Xfprint"
-msgstr "Cups-udskrivningssystem understøttelse for Xfprint"
+msgstr "Cups-udskriftssystem understøttelse til Xfprint"
 
 #: ../printing-systems/cups/cups.c:48
 msgid "Set as default printer"
@@ -272,7 +272,7 @@ msgstr "Centertitel:"
 #. see a2ps documentation for more information on the string meaning
 #: ../xfprint/head_page.c:128
 msgid "Left title:"
-msgstr "Venstetitel:"
+msgstr "Venstretitel:"
 
 #. see a2ps documentation for more information on the string meaning
 #: ../xfprint/head_page.c:138
@@ -312,11 +312,11 @@ msgstr "Afkort lange linjer"
 
 #: ../xfprint/input_page.c:131
 msgid "Interpret TAB, BS and FF characters"
-msgstr "Oversæt TAB, BS og FF karakterer"
+msgstr "Oversæt TAB-, BS- og FF-tegn"
 
 #: ../xfprint/input_page.c:135
 msgid "Force binary printing"
-msgstr "Tving binær udskrivning"
+msgstr "Gennemtving binær udskrivning"
 
 #: ../xfprint/main.c:113
 msgid "Select file to print"
@@ -339,7 +339,7 @@ msgstr "Fremhæv niveau:"
 #. see a2ps documentation for more information on the string meaning
 #: ../xfprint/pprint_page.c:108
 msgid "Strip level:"
-msgstr "Strip niveau:"
+msgstr "Fjern niveau:"
 
 #: ../xfprint/print_dialog.c:199
 msgid "Save settings"
@@ -387,15 +387,15 @@ msgstr "Anvend filtre"
 
 #: ../xfprint/print_dialog.c:366
 msgid "Neither the printing system backend or a2ps could be found on your system, you won't be able to print a file with xfprint !"
-msgstr "Intet standardudskriftssystem eller a2ps blev fundet i dit system, du vil ikke være i stand til at udskrive til fil med xfprint !"
+msgstr "Hverken standardudskriftssystem eller a2ps blev fundet i dit system, du vil ikke være i stand til at udskrive en fil med xfprint !"
 
 #: ../xfprint/print_dialog.c:484
 msgid "An error occurred while trying to print the file"
-msgstr "En fejl opstod under forsøg af udskrift til filen"
+msgstr "En fejl opstod under forsøg på udskrift af filen"
 
 #: ../xfprint/print_dialog.c:521
 msgid "Select file where to print"
-msgstr "Vælg fil for hvor du vil udskrive"
+msgstr "Vælg fil hvortil udskrives"
 
 #: ../xfprint/sheets_page.c:88
 msgid "Papersize:"
@@ -435,7 +435,7 @@ msgstr "Udskriv ramme omkring kolonner"
 
 #: ../xfprint/sheets_page.c:169
 msgid "Print pages in reverse order"
-msgstr "Udskriv sider i omvendt orden"
+msgstr "Udskriv sider i omvendt rækkefølge"
 
 #. see a2ps documentation for more information on the string meaning
 #: ../xfprint/vpages_page.c:87
@@ -448,7 +448,7 @@ msgstr "Linjer per side:"
 
 #: ../xfprint/vpages_page.c:107
 msgid "Chars per line:"
-msgstr "Karakterer per linje:"
+msgstr "Tegn per linje:"
 
 #: ../xfprint/vpages_page.c:117
 msgid "Tabulation size:"
@@ -461,7 +461,7 @@ msgstr "Ikke udskriftbart format:"
 
 #: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
 msgid "Allow you to select the printing system backend that xfprint will use"
-msgstr "Tillader dig at vælge udskriftssystem som xfprint vil anvende"
+msgstr "Tillader dig at vælge udskriftssystem, som xfprint vil anvende"
 
 #: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
 msgid "Printing System Settings"
@@ -469,7 +469,7 @@ msgstr "Udskriftssystemindstillinger"
 
 #: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
 msgid "Xfce 4 Printing System Settings"
-msgstr "Xfce 4 udskriftssystemindstillinger"
+msgstr "Xfce4-udskriftssystemindstillinger"
 
 #: ../xfprint-manager/xfprint-manager.desktop.in.h:1
 msgid "Print Manager"
@@ -481,7 +481,7 @@ msgstr "Vis printer-liste og tillad at håndtere deres job"
 
 #: ../xfprint-manager/xfprint-manager.desktop.in.h:3
 msgid "Xfce 4 Print Manager"
-msgstr "Xfce 4 Udskriftshåndtering"
+msgstr "Xfce4-udskriftshåndtering"
 
 #: ../xfprint/xfprint.desktop.in.h:1
 msgid "Print Dialog"
@@ -489,9 +489,9 @@ msgstr "Udskriftsdialog"
 
 #: ../xfprint/xfprint.desktop.in.h:2
 msgid "Print a file and allow you to set up its layout"
-msgstr "Udskriv en fil og tillad dig at indstille formatet"
+msgstr "Udskriv en fil og tillad dig at indstille layout"
 
 #: ../xfprint/xfprint.desktop.in.h:3
 msgid "Xfce 4 Print Dialog"
-msgstr "Xfce 4 udskriftsdialog"
+msgstr "Xfce4-udskriftsdialog"
 

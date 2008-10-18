@@ -1,75 +1,71 @@
 # Japanese translation of the xfce4-volstatus-icon package.
 # Copyright (C) 2006 Brian Tarricone <bjt23@cornell.edu>
 # This file is distributed under the same license as the xfce4-volstatus-icon package.
-# Nobuhiro Iwamatsu <iwamatsu@nigauri.org>, 2007
+# Nobuhiro Iwamatsu <iwamatsu@nigauri.org>, 2007-2008
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: xfce4-volstatus-icon\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2007-05-27 20:15-0700\n"
-"PO-Revision-Date: 2007-02-20 22:59+0900\n"
+"PO-Revision-Date: 2008-10-13 09:46+0900\n"
 "Last-Translator: Nobuhiro Iwamatsu <iwamatsu@nigauri.org>\n"
-"Language-Team:  Japanese <xfce-i18n@xfce.org>\n"
+"Language-Team: Japanese <xfce-i18n@xfce.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: xfce4-volstatus-icon/main.c:102 xfce4-volstatus-icon/main.c:115
+#: xfce4-volstatus-icon/main.c:102
+#: xfce4-volstatus-icon/main.c:115
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:733
 msgid "Removable Volumes"
 msgstr "移動可能なボリューム"
 
 #: xfce4-volstatus-icon/main.c:104
 msgid "This is the first time you've run the Xfce Volstatus Icon application"
-msgstr ""
+msgstr "Xfce ボリュームステータスアイコンアプリケーションを実行したのは、これが初めてです。"
 
 #: xfce4-volstatus-icon/main.c:105
-msgid ""
-"Would you like Xfce Volstatus to run automatically each time your session "
-"begins?  You can disable this behavior later by using the \"Autostarted "
-"Applications\" settings panel."
-msgstr ""
+msgid "Would you like Xfce Volstatus to run automatically each time your session begins?  You can disable this behavior later by using the \"Autostarted Applications\" settings panel."
+msgstr "Xfce を起動する度に Xfce ボリュームステータスに自動実行してほしいですか？ 後で \"自動開始アプリケーション\" 設定パネルを使用することによって、この振舞いを無効にすることができます。"
 
 #: xfce4-volstatus-icon/main.c:117
 msgid "Failed to write autostart file"
-msgstr ""
+msgstr "自動起動ファイルにへの書込に失敗しました"
 
 #: xfce4-volstatus-icon/main.c:118
-msgid ""
-"For some reason, the autostart location could not be found or written to.  "
-"This location is usually in your home directory, in ~/.config/autostart/."
-msgstr ""
+msgid "For some reason, the autostart location could not be found or written to.  This location is usually in your home directory, in ~/.config/autostart/."
+msgstr "ある理由で、起動開始位置を見つけるか、ファイルを書くことができませんでした。この位置は通常、ホームディレクトリ下の、~/.config/autostart/ にあります。"
 
 #: xfce4-volstatus-icon/main.c:125
 msgid "Xfce Volstatus Icon"
-msgstr ""
+msgstr "Xfce ボリュームステータスアイコン"
 
 #: xfce4-volstatus-icon/main.c:127
-#, fuzzy
 msgid "Safe removal of removable volumes"
-msgstr "移動可能なボリュームがありません"
+msgstr "移動可能なボリュームの安全な取り外し"
 
 #: xfce4-volstatus-icon/main.c:213
 msgid "An unknown error occurred."
-msgstr ""
+msgstr "不明なエラーが発生しました。"
 
-#: xfce4-volstatus-icon/main.c:215 xfce4-volstatus-icon/main.c:226
+#: xfce4-volstatus-icon/main.c:215
+#: xfce4-volstatus-icon/main.c:226
 #: xfce4-volstatus-icon/main.c:241
 msgid "Xfce Volstatus"
-msgstr ""
+msgstr "Xfce ボリュームステータス"
 
 #: xfce4-volstatus-icon/main.c:216
 msgid "Unable to connect to D-Bus system bus daemon"
-msgstr ""
+msgstr "D-Bus システムバスデーモンへの接続に失敗しました"
 
 #: xfce4-volstatus-icon/main.c:227
 msgid "Unable to connect to HAL"
-msgstr ""
+msgstr "HAL への接続に失敗しました"
 
 #: xfce4-volstatus-icon/main.c:242
 msgid "Unable to get device list from HAL"
-msgstr ""
+msgstr "HAL からのデバイスリスト取得に失敗しました"
 
 #: xfce4-volstatus-icon/xfce-volstatus-common.c:76
 #, c-format
@@ -81,9 +77,8 @@ msgid "Removal Failure"
 msgstr "取り出し失敗"
 
 #: xfce4-volstatus-icon/xfce-volstatus-common.c:79
-#, fuzzy
 msgid "Unknown error"
-msgstr "不明"
+msgstr "不明なエラー"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:171
 msgid "Audio CD"
@@ -99,7 +94,7 @@ msgstr "書換可能 CD"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:184
 msgid "DVD"
-msgstr ""
+msgstr "DVD"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:187
 msgid "Rewritable DVD (DVD-RAM)"
@@ -115,31 +110,27 @@ msgstr "書換可能 DVD"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:199
 msgid "Blu-ray Disc"
-msgstr ""
+msgstr "Blu-ray Disc"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:202
-#, fuzzy
 msgid "Recordable Blu-ray Disc"
-msgstr "書込可能 CD"
+msgstr "書込可能 Blu-ray CD"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:205
-#, fuzzy
 msgid "Rewritable Blu-ray Disc"
-msgstr "書換可能 CD"
+msgstr "書換可能 Blu-ray CD"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:208
 msgid "HD-DVD"
-msgstr ""
+msgstr "HD-DVD"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:211
-#, fuzzy
 msgid "Recordable HD-DVD"
-msgstr "書込可能 DVD"
+msgstr "書込可能 HD-DVD"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:214
-#, fuzzy
 msgid "Rewritable HD-DVD"
-msgstr "書換可能 DVD"
+msgstr "書換可能 HD-DVD"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:217
 msgid "Data CD"
@@ -147,57 +138,51 @@ msgstr "データ CD"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:227
 msgid "Optical Drive"
-msgstr ""
+msgstr "光学ドライブ"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:233
 msgid "Floppy Disk"
 msgstr "フロッピーディスク"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:235
-#, fuzzy
 msgid "Removable Disk"
-msgstr "移動可能なボリューム"
+msgstr "移動可能ディスク"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:237
 msgid "Hard Disk"
 msgstr "ハードディスク"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:240
-#, fuzzy
 msgid "Flash Disk"
-msgstr "USB フラッシュディスク"
+msgstr "フラッシュディスク"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:242
 msgid "Audio Player"
 msgstr "オーディオプレイヤー"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:244
-#, fuzzy
 msgid "Memory Stick"
-msgstr "メモリーカード"
+msgstr "メモリースティック"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:246
-#, fuzzy
 msgid "Smart Media Disk"
-msgstr "ハードディスク"
+msgstr "スマートメディアディスク"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:248
 msgid "SD/MMC Disk"
-msgstr ""
+msgstr "SD/MMC ディスク"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:250
 msgid "Camera"
-msgstr ""
+msgstr "カメラ"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:252
-#, fuzzy
 msgid "Zip Disk"
-msgstr "ディスク"
+msgstr "Zip ディスク"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:254
-#, fuzzy
 msgid "Jaz Disk"
-msgstr "ハードディスク"
+msgstr "Jaz ディスク"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:256
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:602
@@ -206,21 +191,20 @@ msgstr "不明"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:549
 msgid "n/a"
-msgstr ""
+msgstr "該当なし"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:560
 #, c-format
 msgid "Filesystem (%s)"
-msgstr ""
+msgstr "ファイルシステム (%s)"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:565
 msgid "Filesystem"
-msgstr ""
+msgstr "ファイルシステム"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:571
-#, fuzzy
 msgid "(unknown)"
-msgstr "不明"
+msgstr "(不明)"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:573
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:582
@@ -228,19 +212,19 @@ msgstr "不明"
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:597
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:604
 msgid "(n/a)"
-msgstr ""
+msgstr "(該当なし)"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:580
 msgid "Partition Table"
-msgstr ""
+msgstr "パーティションテーブル"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:587
 msgid "RAID Array Member"
-msgstr ""
+msgstr "RAID アレイメンバ"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:595
 msgid "Encrypted Filesystem"
-msgstr ""
+msgstr "暗号化されたファイルシステム"
 
 #: xfce4-volstatus-icon/xfce-volstatus-dialog.c:677
 msgid "Name:"
@@ -265,9 +249,9 @@ msgstr "安全に \"%s\" を取り出してください"
 
 #. this shouldn't happen, but just to be safe...
 #: xfce4-volstatus-icon/xfce-volstatus-icon.c:243
-#, fuzzy
 msgid "(no removable drives)"
-msgstr "移動可能なボリュームがありません"
+msgstr "(移動可能なドライバがありません)"
 
 #~ msgid "Data or Video DVD"
 #~ msgstr "データ または Video DVD"
+

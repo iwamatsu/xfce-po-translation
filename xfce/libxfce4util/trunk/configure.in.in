@@ -1,4 +1,4 @@
-dnl $Id: configure.in.in 28180 2008-10-12 21:35:30Z stephan $
+dnl $Id: configure.in.in 28229 2008-10-14 06:59:07Z stephan $
 dnl
 dnl Copyright (c) 2002-2007
 dnl         The Xfce development team. All rights reserved.
@@ -22,7 +22,7 @@ m4_define([libxfce4util_version], [libxfce4util_version_major().libxfce4util_ver
 dnl **************************************************************
 dnl *** Overall Xfce version, modify this when making releases ***
 dnl **************************************************************
-m4_define([xfce_version_string], [4.5.90])
+m4_define([xfce_version_string], [4.5.91])
 
 
 dnl # DO NOT MODIFY ANYTHING BELOW THIS LINE, UNLESS YOU KNOW WHAT
@@ -44,7 +44,7 @@ Written for Xfce by Benedikt Meurer <benny@xfce.org>, Jasper
 Huijsmans <jasper@xfce.org> and Olivier Fourdan <fourdan@xfce.org>.])
 AC_INIT([libxfce4util], [libxfce4util_version], [xfce4-dev@xfce.org])
 AC_PREREQ([2.50])
-AC_REVISION([$Id: configure.in.in 28180 2008-10-12 21:35:30Z stephan $])
+AC_REVISION([$Id: configure.in.in 28229 2008-10-14 06:59:07Z stephan $])
 
 dnl ***************************
 dnl *** Initialize automake ***

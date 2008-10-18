@@ -1,4 +1,4 @@
-dnl $Id: configure.in.in 27688 2008-09-06 12:51:24Z stephan $
+dnl $Id: configure.in.in 28221 2008-10-13 12:11:58Z stephan $
 dnl
 dnl xfprint - Print system support for the Xfce4 desktop environment
 dnl
@@ -15,28 +15,28 @@ m4_define([libxfprint_verinfo], [0:1:0])
 dnl version info
 m4_define([xfprint_version_major], [4])
 m4_define([xfprint_version_minor], [5])
-m4_define([xfprint_version_micro], [90])
+m4_define([xfprint_version_micro], [91])
 m4_define([xfprint_version_nano], [])
 m4_define([xfprint_version_build], [@REVISION@])
 m4_define([xfprint_version_tag], [])
 m4_define([xfprint_version], [xfprint_version_major().xfprint_version_minor().xfprint_version_micro()ifelse(xfprint_version_nano(), [], [], [.xfprint_version_nano()])ifelse(xfprint_version_tag(), [svn], [xfprint_version_tag()-xfprint_version_build()], [xfprint_version_tag()])])
 
 dnl minimum required versions
-m4_define([gtk_minimum_version], [2.6.0])
-m4_define([xfce_minimum_version], [4.5.90])
+m4_define([gtk_minimum_version], [2.10.0])
+m4_define([xfce_minimum_version], [4.5.91])
 
 dnl # DO NOT MODIFY ANYTHING BELOW THIS LINE, UNLESS YOU KNOW WHAT
 dnl # YOU ARE DOING.
 
 dnl Initialize autoconf
-AC_COPYRIGHT([Copyright (c) 2003-2007
+AC_COPYRIGHT([Copyright (c) 2003-2008
         The Xfce development team. All rights reserved.
 
 Written for Xfce by Benedikt Meurer <benny@xfce.org> and Jean-François
 Wauthy <pollux@xfce.org>.])
 AC_INIT([xfprint], [xfprint_version], [xfce4-dev@xfce.org])
 AC_PREREQ([2.50])
-AC_REVISION([$Id: configure.in.in 27688 2008-09-06 12:51:24Z stephan $])
+AC_REVISION([$Id: configure.in.in 28221 2008-10-13 12:11:58Z stephan $])
 AC_PROG_MAKE_SET()
 
 dnl Initialize automake
