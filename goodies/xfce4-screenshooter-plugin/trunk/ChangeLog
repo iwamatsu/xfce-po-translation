@@ -1,3 +1,18 @@
+2008-10-22 jeromeg
+
+  * Reorganisation of the code structure:
+    - move the generic code to /lib
+    - move the panel stuff to /panel-plugin/
+    - keep the main application in /src
+  * /lib/screenshooter-utils.{c,h} : 
+    - move the preferences file stuff here.
+  * /src/main.c: save the button's state and load it on startup.
+
+2008-10-18 jeromeg
+
+  * src/Makefile.am: install desktop file for the main application.
+  * src/xfce4-screenshooter.desktop.in.in: desktop file for main application.
+
 2008-10-15 jeromeg
 
   * src/main.c: destroy the dialog before taking the screenshot of the active

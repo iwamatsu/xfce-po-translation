@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xfprint 4.4.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-12-17 23:24+0100\n"
+"POT-Creation-Date: 2008-10-18 18:13+0200\n"
 "PO-Revision-Date: 2007-12-17 23:02+0000\n"
 "Last-Translator: Fabian Nowak <timystery@arcor.de>\n"
 "Language-Team: German <de@li.org>\n"
@@ -172,40 +172,36 @@ msgstr "drucken"
 msgid "Kb"
 msgstr "kB"
 
-#: ../mcs-plugin/xfprint_plugin.c:113
-msgid "Printing system"
-msgstr "Drucksystem"
-
-#: ../mcs-plugin/xfprint_plugin.c:225
+#: ../xfprint-settings/xfprint_plugin.c:172
 msgid "Printing System Selection"
 msgstr "Drucksystemauswahl"
 
 #. add information frame
-#: ../mcs-plugin/xfprint_plugin.c:257
+#: ../xfprint-settings/xfprint_plugin.c:200
 msgid "Information"
 msgstr "Informationen"
 
-#: ../mcs-plugin/xfprint_plugin.c:266
+#: ../xfprint-settings/xfprint_plugin.c:209
 msgid "Description"
 msgstr "Beschreibung"
 
-#: ../mcs-plugin/xfprint_plugin.c:278
+#: ../xfprint-settings/xfprint_plugin.c:221
 msgid "Version"
 msgstr "Version"
 
-#: ../mcs-plugin/xfprint_plugin.c:290
+#: ../xfprint-settings/xfprint_plugin.c:233
 msgid "Author"
 msgstr "Autor"
 
-#: ../mcs-plugin/xfprint_plugin.c:302
+#: ../xfprint-settings/xfprint_plugin.c:245
 msgid "Homepage"
 msgstr "Homepage"
 
-#: ../mcs-plugin/xfprint_plugin.c:325
+#: ../xfprint-settings/xfprint_plugin.c:268
 msgid "None"
 msgstr "Nichts"
 
-#: ../mcs-plugin/xfprint_plugin.c:326
+#: ../xfprint-settings/xfprint_plugin.c:269
 msgid "Use this backend if you just want to print to file."
 msgstr ""
 "Wählen Sie diese Einstellung, wenn Sie nur eine Druckdatei erzeugen wollen."
@@ -319,11 +315,11 @@ msgstr "Tabulator, Rückschritt und Seitenvorschub interpretieren"
 msgid "Force binary printing"
 msgstr "Druck von Binärzeichen erzwingen"
 
-#: ../xfprint/main.c:113
+#: ../xfprint/main.c:108
 msgid "Select file to print"
 msgstr "Datei zum Drucken auswählen"
 
-#: ../xfprint/main.c:125
+#: ../xfprint/main.c:120
 msgid "The specified file does not exist"
 msgstr "Die angegebene Datei existiert nicht"
 
@@ -464,16 +460,20 @@ msgstr "Tabulatorgröße:"
 msgid "Non-printable format:"
 msgstr "Nichtdruckbare Zeichen:"
 
-#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:1
+#: ../xfprint-settings/xfprint-settings.desktop.in.h:1
 msgid "Allow you to select the printing system backend that xfprint will use"
 msgstr ""
 "Hier können Sie das Drucksystem auswählen, welches Xfprint benutzen soll."
 
-#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:2
+#: ../xfprint-settings/xfprint-settings.desktop.in.h:2
+msgid "Printing"
+msgstr "Drucken"
+
+#: ../xfprint-settings/xfprint-settings.desktop.in.h:3
 msgid "Printing System Settings"
 msgstr "Drucksystem-Einstellungen"
 
-#: ../mcs-plugin/xfce-xfprint-settings.desktop.in.h:3
+#: ../xfprint-settings/xfprint-settings.desktop.in.h:4
 msgid "Xfce 4 Printing System Settings"
 msgstr "Xfce4-Drucksystem-Einstellungen"
 
@@ -502,6 +502,9 @@ msgstr "Hiermit können Sie eine Datei drucken und das Layout bestimmen."
 #: ../xfprint/xfprint.desktop.in.h:3
 msgid "Xfce 4 Print Dialog"
 msgstr "Xfce4-Druckdialog"
+
+#~ msgid "Printing system"
+#~ msgstr "Drucksystem"
 
 #~ msgid "Artist"
 #~ msgstr "Gestaltung"

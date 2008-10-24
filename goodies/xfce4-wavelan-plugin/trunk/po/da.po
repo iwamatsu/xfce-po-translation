@@ -2,16 +2,20 @@
 # Copyright (C) 2007 THE xfce4-wavelan-plugin'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the xfce4-wavelan-plugin package.
 # Jens Hyllegaard <jens.hyllegaard@gmail.com>, 2007.
+# Per Kongstad <p_kongstad@op.pl>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: xfce4-wavelan-plugin\n"
+"Project-Id-Version: xfce4-wavelan-plugin 0.5.4\n"
 "POT-Creation-Date: 2006-09-10 22:55+0200\n"
-"PO-Revision-Date: 2008-05-17 15:16+0100\n"
-"Last-Translator: Jens Hyllegaard <jens.hyllegaard@gmail.com>\n"
+"PO-Revision-Date: 2008-10-18 23:09+0100\n"
+"Last-Translator: Per Kongstad <p_kongstad@op.pl>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #: ../panel-plugin/wavelan.c:187
 msgid "No carrier signal"
@@ -43,5 +47,5 @@ msgstr "Skjul automatisk når der ikke er nogen hardware til stede"
 
 #: ../panel-plugin/wavelan.c:574
 msgid "Note: This will make it difficult to remove or configure the plugin if there is no device detected."
-msgstr "Bemærk: Dette gør det svært at fjerne eller konfigurere udvidelsesmodulet hvis der ikke er fundet nogen enhed."
+msgstr "Bemærk: Dette gør det svært at fjerne eller konfigurere udvidelsesmodulet, hvis der ikke er fundet nogen enhed."
 

@@ -8,11 +8,11 @@ msgstr ""
 "Project-Id-Version: Squeeze 0.2.0\n"
 "Report-Msgid-Bugs-To: stephan@xfce.org\n"
 "POT-Creation-Date: 2007-08-21 00:30+0200\n"
-"PO-Revision-Date: 2008-04-26 15:32+0700\n"
+"PO-Revision-Date: 2008-10-11 17:42+0700\n"
 "Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
 "Language-Team: Indonesian <id@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../libsqueeze/archive.c:236
@@ -39,14 +39,12 @@ msgstr "Manajer Arsip Squeeze"
 #. * Could not open archive (mime type not supported or file did not exist)
 #. * Should be a more specific error message.
 #.
-#: ../src/application.c:160
-#: ../src/application.c:250
+#: ../src/application.c:160 ../src/application.c:250
 msgid "Could not open archive, MIME-type unsupported or file did not exist"
-msgstr "Tak dapat membuka arsip, tipe MIME tidak didukung atau berkas tidak ada"
+msgstr ""
+"Tak dapat membuka arsip, tipe MIME tidak didukung atau berkas tidak ada"
 
-#: ../src/application.c:191
-#: ../src/main_window.c:826
-#: ../src/main_window.c:1260
+#: ../src/application.c:191 ../src/main_window.c:826 ../src/main_window.c:1260
 msgid ""
 "Squeeze cannot extract this archive type,\n"
 "the application to support this is missing."
@@ -61,8 +59,7 @@ msgstr ""
 msgid "Could not create archive, MIME-type unsupported"
 msgstr "Tak dapat membuat arsip, tipe MIME tidak didukung"
 
-#: ../src/application.c:268
-#: ../src/main_window.c:874
+#: ../src/application.c:268 ../src/main_window.c:874
 msgid ""
 "Squeeze cannot add files to this archive type,\n"
 "the application to support this is missing."
@@ -70,23 +67,19 @@ msgstr ""
 "Squeeze tak dapat menambah berkas ke tipe\n"
 "arsip ini, aplikasi untuk mendukung ini hilang."
 
-#: ../src/archive_store.c:249
-#: ../src/notebook.c:179
+#: ../src/archive_store.c:249 ../src/notebook.c:179
 msgid "Show full path"
 msgstr "Tampilkan alamat penuh"
 
-#: ../src/archive_store.c:250
-#: ../src/notebook.c:180
+#: ../src/archive_store.c:250 ../src/notebook.c:180
 msgid "Show the full path strings for each entry"
 msgstr "Tampilkan tali alamat penuh untuk tiap entri"
 
-#: ../src/archive_store.c:256
-#: ../src/notebook.c:186
+#: ../src/archive_store.c:256 ../src/notebook.c:186
 msgid "Show mime icons"
 msgstr "Tampilkan ikon mime"
 
-#: ../src/archive_store.c:257
-#: ../src/notebook.c:187
+#: ../src/archive_store.c:257 ../src/notebook.c:187
 msgid "Show the mime type icons for each entry"
 msgstr "Tampilkan ikon tipe mime untuk tiap entri"
 
@@ -98,19 +91,15 @@ msgstr "Tampilkan entri dir"
 msgid "Show '..' to go to the parent directory"
 msgstr "Tampilkan '..' untuk pergi ke direktori induk"
 
-#: ../src/archive_store.c:270
-#: ../src/notebook.c:193
+#: ../src/archive_store.c:270 ../src/notebook.c:193
 msgid "Sort folders before files"
 msgstr "Urutkan folder sebelum berkas"
 
-#: ../src/archive_store.c:271
-#: ../src/notebook.c:194
+#: ../src/archive_store.c:271 ../src/notebook.c:194
 msgid "The folders will be put at the top of the list"
 msgstr "Folder akan ditaruh di bagian atas senarai"
 
-#: ../src/archive_store.c:277
-#: ../src/archive_store.c:278
-#: ../src/notebook.c:200
+#: ../src/archive_store.c:277 ../src/archive_store.c:278 ../src/notebook.c:200
 #: ../src/notebook.c:201
 msgid "Sort text case sensitive"
 msgstr "Urutkan teks huruf sensitif"
@@ -131,8 +120,7 @@ msgstr "Semua berkas"
 msgid "Selected files"
 msgstr "Berkas terpilih"
 
-#: ../src/extract_dialog.c:100
-#: ../src/main_window.c:451
+#: ../src/extract_dialog.c:100 ../src/main_window.c:451
 #: ../src/main_window.c:1219
 msgid "Extract"
 msgstr "Ekstrak"
@@ -168,7 +156,8 @@ msgid ""
 "Try %s --help to see a full list of available command line options.\n"
 msgstr ""
 "%s: %s\n"
-"Coba %s --help untuk melihat senarai lengkap opsi baris perintah yang tersedia.\n"
+"Coba %s --help untuk melihat senarai lengkap opsi baris perintah yang "
+"tersedia.\n"
 
 #: ../src/main_window.c:133
 msgid "Internal Style"
@@ -197,7 +186,7 @@ msgstr ""
 #. File menu
 #: ../src/main_window.c:295
 msgid "_File"
-msgstr "Berkas (_F)"
+msgstr "_Berkas"
 
 #. Action menu: ref all the childs
 #: ../src/main_window.c:323
@@ -206,11 +195,11 @@ msgstr "_Aksi"
 
 #: ../src/main_window.c:328
 msgid "_Add files"
-msgstr "Tambah berkas (_A)"
+msgstr "_Tambah berkas"
 
 #: ../src/main_window.c:334
 msgid "_Add _folders"
-msgstr "Tambah _folder (_A)"
+msgstr "_Tambah _folder"
 
 #: ../src/main_window.c:340
 msgid "_Extract"
@@ -219,20 +208,18 @@ msgstr "_Ekstrak"
 #. View menu
 #: ../src/main_window.c:373
 msgid "_View"
-msgstr "Tampilan (_V)"
+msgstr "_Tampilan"
 
 #. Help menu
 #: ../src/main_window.c:397
 msgid "_Help"
-msgstr "Bantuan (_H)"
+msgstr "Ba_ntuan"
 
-#: ../src/main_window.c:443
-#: ../src/main_window.c:852
+#: ../src/main_window.c:443 ../src/main_window.c:852
 msgid "Add files"
 msgstr "Tambah berkas"
 
-#: ../src/main_window.c:447
-#: ../src/main_window.c:894
+#: ../src/main_window.c:447 ../src/main_window.c:894
 msgid "Add folders"
 msgstr "Tambah folder"
 
@@ -297,8 +284,12 @@ msgid "Based on the original extract icon created by Andreas Nilsson"
 msgstr "Berdasarkan ikon ekstrak asli yang dibuat oleh Andreas Nilsson"
 
 #: ../src/main_window.c:1100
-msgid "Squeeze is a lightweight and flexible archive manager for the Xfce Desktop Environment"
-msgstr "Squeeze adalah manajer arsip yang ringan dan fleksibel untuk Lingkungan Destop Xfce"
+msgid ""
+"Squeeze is a lightweight and flexible archive manager for the Xfce Desktop "
+"Environment"
+msgstr ""
+"Squeeze adalah manajer arsip yang ringan dan fleksibel untuk Lingkungan "
+"Destop Xfce"
 
 #. Translator credits as shown in the about dialog: NAME <E-MAIL> YEAR
 #: ../src/main_window.c:1108
@@ -308,8 +299,7 @@ msgstr ""
 "http://id.gnome.org/\n"
 "Andhika Padmawan <andhika.padmawan@gmail.com> 2008"
 
-#: ../src/main_window.c:1137
-#: ../src/main_window.c:1208
+#: ../src/main_window.c:1137 ../src/main_window.c:1208
 #: ../src/main_window.c:1376
 msgid "Done"
 msgstr "Selesai"
@@ -378,4 +368,3 @@ msgstr "Lokasi:"
 #: ../src/message_dialog.c:158
 msgid "Archive manager"
 msgstr "Manajer arsip"
-

@@ -1,3 +1,15 @@
+2008-10-22 Lars Nielsen <lars@mit-web.dk>
+
+	* da.po: danish translation updated
+
+2008-10-20  Maximilian Schleiss <maximilian@xfce.org>
+
+	* ca.po, LINGUAS: Catalan translation added (Carles Muñoz Gorriz)
+
+2008-10-18  Maximilian Schleiss <maximilian@xfce.org>
+
+	* nb_NO.po, LINGUAS: Norwegian Bokmal translation added (Terje Uriansrud)
+
 2008-10-05  Maximilian Schleiss <maximilian@xfce.org>
 
 	* es.po, LINGUAS: Spanish translation added (Abel Martín)

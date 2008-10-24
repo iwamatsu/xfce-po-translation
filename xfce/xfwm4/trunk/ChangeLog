@@ -1,3 +1,52 @@
+2008-10-22  olivier
+
+	* src/client.c, src/client.h, src/display.c, src/display.h, 
+	  src/events.c, src/focus.c, src/focus.h, src/hints.c, src/hints.h, 
+	  src/misc.c, src/misc.h, src/moveresize.c, src/netwm.c, src/netwm.h, 
+	  src/screen.c, src/screen.h, src/startup_notification.c, 
+	  src/workspaces.c, src/workspaces.h: Use "guint32" instead of Xlib's 
+	  "Time".
+
+2008-10-21  olivier
+
+	* src/client.c: Trivial, advertise the correct function name in debug 
+	  message.
+
+2008-10-21  olivier
+
+	* src/client.c: Fix gravity broken by previous commit.
+
+2008-10-21  olivier
+
+	* src/events.c: Restore a line removed by mistake in last commit.
+
+2008-10-20  olivier
+
+	* src/events.c, src/client.c, src/client.h, src/netwm.c: Improve 
+	  support for NET_MOVERESIZE_WINDOW by reusing most of the code
+	  from configureRequest handler.
+	  src/misc.c: Remove duplicate declaration in the code.
+
+2008-10-19  olivier
+
+	* src/netwm.h, src/display.c, src/display.h, src/events.c, src/hints.c, 
+	  src/netwm.c: Add support for NET_MOVERESIZE_WINDOW
+
+2008-10-18  olivier
+
+	* settings-dialogs/xfwm4-tweaks-dialog.glade,
+	  settings-dialogs/xfwm4-dialog.glade: Add disambiguations to settings
+	  dialogs (Bug #4484, patch from alexander.toresson@gmail.com).
+
+2008-10-18  olivier
+
+	* src/misc.h, src/misc.c: Add routine to get the name of a given atom,
+	  src/client.c: Add client windows to save set to avoid loosing all
+	  windows in case of crash,
+	  src/netwm.c: Display name of unsupported net_wm_state atom,
+	  src/hints.c: Clean-up of list of supported atoms,
+	  src/events.c: Add hooks for debugging purpose.
+
 2008-10-16  olivier
 
 	* src/events.c, src/session.c: Add support for restart style 
@@ -6637,7 +6686,7 @@
 
 2005-09-24 07:45  daichi
 
-	* po/ja.po: * Added initial "$Id: ChangeLog 28284 2008-10-17 13:10:03Z olivier $".
+	* po/ja.po: * Added initial "$Id: ChangeLog 28365 2008-10-22 20:10:00Z olivier $".
 	  
 	  * Updated some translations.
 
@@ -7198,7 +7247,7 @@
 
 2005-06-16 20:30  olivier
 
-	* configure.ac: REvert to $Rev: 28284 $ because svn may not be availaboe on
+	* configure.ac: REvert to $Rev: 28365 $ because svn may not be availaboe on
 	  the build system.
 
 2005-06-16 19:56  olivier

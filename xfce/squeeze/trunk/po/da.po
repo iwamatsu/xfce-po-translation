@@ -1,20 +1,23 @@
-# Danish translations for PACKAGE package.
-# Copyright (C) 2008 THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# Danish translations for squeeze package.
+# Copyright (C) 2008 The Xfce development team
+# This file is distributed under the same license as the squeeze package.
 # Ole Guldberg <olegb@omgwtf.dk>, 2008.
-#
+# Per Kongstad <p_kongstad@op.pl>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: squeeze 0.2\n"
+"Project-Id-Version: squeeze 0.2.90\n"
 "Report-Msgid-Bugs-To: stephan@xfce.org\n"
 "POT-Creation-Date: 2007-08-21 00:30+0200\n"
-"PO-Revision-Date: 2008-05-18 10:40+0100\n"
-"Last-Translator: Ole Guldberg <olegb@omgwtf.dk>\n"
-"Language-Team: Danish\n"
+"PO-Revision-Date: 2008-10-19 10:36+0100\n"
+"Last-Translator: Per Kongstad <p_kongstad@op.pl>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #: ../libsqueeze/archive.c:236
 msgid "Name"
@@ -22,11 +25,11 @@ msgstr "Navn"
 
 #: ../libsqueeze/archive.c:238
 msgid "Mime type"
-msgstr "Mime type"
+msgstr "Mime-type"
 
 #: ../squeeze.desktop.in.h:1
 msgid "Archive Manager"
-msgstr "Arkivhåndering"
+msgstr "Arkivhåndtering"
 
 #: ../squeeze.desktop.in.h:2
 msgid "Create and manage archives with the archive manager"
@@ -34,7 +37,7 @@ msgstr "Opret og håndter arkiver med arkivhåndteringen"
 
 #: ../squeeze.desktop.in.h:3
 msgid "Squeeze Archive Manager"
-msgstr "Squeeze Arkivhåndtering"
+msgstr "Squeeze-arkivhåndtering"
 
 #.
 #. * Could not open archive (mime type not supported or file did not exist)
@@ -43,7 +46,7 @@ msgstr "Squeeze Arkivhåndtering"
 #: ../src/application.c:160
 #: ../src/application.c:250
 msgid "Could not open archive, MIME-type unsupported or file did not exist"
-msgstr "Kunne ikke åbne arkivet, MIME-typen ikke understøttet eller filen findes ikke"
+msgstr "Kunne ikke åbne arkivet, MIME-type ikke understøttet eller filen findes ikke"
 
 #: ../src/application.c:191
 #: ../src/main_window.c:826
@@ -52,7 +55,7 @@ msgid ""
 "Squeeze cannot extract this archive type,\n"
 "the application to support this is missing."
 msgstr ""
-"Squeeze kan ikke udpakke denne type arkiv,\n"
+"Squeeze kan ikke udpakke denne arkivtype,\n"
 "programmet som understøtter formatet mangler."
 
 #.
@@ -60,7 +63,7 @@ msgstr ""
 #.
 #: ../src/application.c:233
 msgid "Could not create archive, MIME-type unsupported"
-msgstr "Kunne ikke oprette arkivm MIME-type ikke understøttet"
+msgstr "Kunne ikke oprette arkiv, MIME-type ikke understøttet"
 
 #: ../src/application.c:268
 #: ../src/main_window.c:874
@@ -68,53 +71,53 @@ msgid ""
 "Squeeze cannot add files to this archive type,\n"
 "the application to support this is missing."
 msgstr ""
-"Squeeze kan ikke tilføje filer til denne arkivtype, \n"
-"Programmet til understøttelse af formatet mangler."
+"Squeeze kan ikke tilføje filer til denne arkivtype,\n"
+"programmet til understøttelse af formatet mangler."
 
 #: ../src/archive_store.c:249
 #: ../src/notebook.c:179
 msgid "Show full path"
-msgstr "Vis hele stien"
+msgstr "Vis hele sti"
 
 #: ../src/archive_store.c:250
 #: ../src/notebook.c:180
 msgid "Show the full path strings for each entry"
-msgstr "Vis den fulde sti for hver linje"
+msgstr "Vis den fulde stistreng for hvert element"
 
 #: ../src/archive_store.c:256
 #: ../src/notebook.c:186
 msgid "Show mime icons"
-msgstr "Vis MIME ikoner"
+msgstr "Vis MIME-ikoner"
 
 #: ../src/archive_store.c:257
 #: ../src/notebook.c:187
 msgid "Show the mime type icons for each entry"
-msgstr "Vis MIME-type ikoner for hver element"
+msgstr "Vis MIME-typeikoner for hvert element"
 
 #: ../src/archive_store.c:263
 msgid "Show up dir entry"
-msgstr "Vis overordnet bibliotek"
+msgstr "Vis overordnet mappeelement"
 
 #: ../src/archive_store.c:264
 msgid "Show '..' to go to the parent directory"
-msgstr "Vis '..' som sti til det overordnede bibliotek"
+msgstr "Vis '..' som sti til den overordnede mappe"
 
 #: ../src/archive_store.c:270
 #: ../src/notebook.c:193
 msgid "Sort folders before files"
-msgstr "Sorter mapper før filer"
+msgstr "Sortér mapper før filer"
 
 #: ../src/archive_store.c:271
 #: ../src/notebook.c:194
 msgid "The folders will be put at the top of the list"
-msgstr "Mapperne vil placeret øverst på listen"
+msgstr "Mapperne vil blive placeret øverst på listen"
 
 #: ../src/archive_store.c:277
 #: ../src/archive_store.c:278
 #: ../src/notebook.c:200
 #: ../src/notebook.c:201
 msgid "Sort text case sensitive"
-msgstr "Sort tekst efter store/små bogstaver"
+msgstr "Sortér tekst efter store/små bogstaver"
 
 #: ../src/extract_dialog.c:76
 msgid "<b>Extract files:</b>"
@@ -144,11 +147,11 @@ msgstr "Udpak arkiv"
 
 #: ../src/main.c:51
 msgid "[destination path]"
-msgstr "[]"
+msgstr "[målsti]"
 
 #: ../src/main.c:59
 msgid "[archive path] [file1] [file2] ... [fileN]"
-msgstr "[Arkiv stil] [Fil1] [Fil2] ... [FilN]"
+msgstr "[Arkivsti] [Fil1] [Fil2] ... [FilN]"
 
 #: ../src/main.c:63
 msgid "[file1] [file2] ... [fileN]"
@@ -156,7 +159,7 @@ msgstr "[Fil1] [Fil2] ... [FilN]"
 
 #: ../src/main.c:66
 msgid "Version information"
-msgstr "Version informationer"
+msgstr "Versionsinformation"
 
 #: ../src/main.c:92
 msgid "[archive name]"
@@ -169,19 +172,19 @@ msgid ""
 "Try %s --help to see a full list of available command line options.\n"
 msgstr ""
 "%s: %s\n"
-"Prøv %s --help for at se en komplet liste af mulige kommandolinievalg.\n"
+"Prøv %s --help for at se en komplet liste af mulige kommandolinjevalg.\n"
 
 #: ../src/main_window.c:133
 msgid "Internal Style"
-msgstr "Internstil"
+msgstr "Intern stil"
 
 #: ../src/main_window.c:134
 msgid "Tool Bar Style"
-msgstr "Værktøjsliniestil"
+msgstr "Værktøjsbjælkestil"
 
 #: ../src/main_window.c:135
 msgid "Path Bar Style"
-msgstr "Stilinjestil"
+msgstr "Stibjælkestil"
 
 #: ../src/main_window.c:182
 msgid "Navigation Style"
@@ -193,17 +196,17 @@ msgid ""
 "The style to navigate trough the archive"
 msgstr ""
 "Navigationsstil\n"
-"Den navigationsstil til at navigere i arkivet"
+"Navigationsstilen til at navigere i arkivet"
 
 #. File menu
 #: ../src/main_window.c:295
 msgid "_File"
-msgstr "_Filer"
+msgstr "_Fil"
 
 #. Action menu: ref all the childs
 #: ../src/main_window.c:323
 msgid "_Action"
-msgstr "_Handlinger"
+msgstr "_Handling"
 
 #: ../src/main_window.c:328
 msgid "_Add files"
@@ -220,7 +223,7 @@ msgstr "_Udpak"
 #. View menu
 #: ../src/main_window.c:373
 msgid "_View"
-msgstr "_Se"
+msgstr "_Vis"
 
 #. Help menu
 #: ../src/main_window.c:397
@@ -239,11 +242,11 @@ msgstr "Tilføj mapper"
 
 #: ../src/main_window.c:724
 msgid "Open archive in new window"
-msgstr "Åben arkiv i et nyt vindue"
+msgstr "Åbn arkiv i nyt vindue"
 
 #: ../src/main_window.c:730
 msgid "Open archive"
-msgstr "Åben arkiv"
+msgstr "Åbn arkiv"
 
 #: ../src/main_window.c:916
 msgid ""
@@ -251,11 +254,11 @@ msgid ""
 "the application to support this is missing."
 msgstr ""
 "Squeeze kan ikke tilføje mapper til denne arkivtype,\n"
-"programmet til understøttelse af denne arkivtype mangler"
+"programmet til understøttelse af dette mangler."
 
 #: ../src/main_window.c:937
 msgid "Are you sure you want to remove the selected files?"
-msgstr "Er du sikker på at du vil fjerne de valgte filer?"
+msgstr "Er du sikker på, at du vil fjerne de valgte filer?"
 
 #: ../src/main_window.c:950
 msgid ""
@@ -263,7 +266,7 @@ msgid ""
 "the application to support this is missing."
 msgstr ""
 "Squeeze kan ikke fjerne filer fra denne arkivtype,\n"
-"programmet til understøttelse af denne arkivtype mangler."
+"programmet til understøttelse af dette mangler."
 
 #: ../src/main_window.c:999
 msgid ""
@@ -271,11 +274,11 @@ msgid ""
 "This could damage the archive."
 msgstr ""
 "Er du sikker på at du vil afbryde denne operation?\n"
-"Det vil kunne skade arkivet."
+"Det vil kunne ødelægge arkivet."
 
 #: ../src/main_window.c:1081
 msgid "Lead developer:"
-msgstr "Hovedudviklere:"
+msgstr "Hovedudvikler:"
 
 #: ../src/main_window.c:1084
 msgid "Contributors:"
@@ -291,7 +294,7 @@ msgstr "Programikon:"
 
 #: ../src/main_window.c:1092
 msgid "Add / Extract icons:"
-msgstr "Tilføj/udpak ikoner:"
+msgstr "Tilføj / udpak ikoner:"
 
 #: ../src/main_window.c:1093
 msgid "Based on the original extract icon created by Andreas Nilsson"
@@ -299,12 +302,17 @@ msgstr "Baseret på den originale \"extract icon\" skabt af Andreas Nilsson"
 
 #: ../src/main_window.c:1100
 msgid "Squeeze is a lightweight and flexible archive manager for the Xfce Desktop Environment"
-msgstr "Squeeze er en let og fleksibel arkivhåndtering til Xfce skrivebordsmiljøet"
+msgstr "Squeeze er en let og fleksibel arkivhåndtering til Xfce-skrivebordsmiljøet"
 
 #. Translator credits as shown in the about dialog: NAME <E-MAIL> YEAR
 #: ../src/main_window.c:1108
 msgid "translator-credits"
-msgstr "oversættelser af"
+msgstr ""
+"Per Kongstad <p_kongstad@op.pl>\n"
+"Ole Guldberg <olegb@omgwtf.dk>\n"
+"\n"
+"Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
+"Mere info: http://www.dansk-gruppen.dk"
 
 #: ../src/main_window.c:1137
 #: ../src/main_window.c:1208
@@ -314,11 +322,11 @@ msgstr "Færdig"
 
 #: ../src/main_window.c:1218
 msgid "Which action do you want to perform on the selected file(s)?"
-msgstr "Hvilken handling vil du udføre på den valgte eller de valgte filer?"
+msgstr "Hvilken handling vil du udføre på den valgte eller de valgte file(r)?"
 
 #: ../src/main_window.c:1219
 msgid "Open"
-msgstr "Åben"
+msgstr "Åbn"
 
 #: ../src/main_window.c:1233
 msgid ""
@@ -326,7 +334,7 @@ msgid ""
 "the application to support this is missing."
 msgstr ""
 "Squeeze kan ikke vise denne fil.\n"
-"programmet til understøttelse af denne arkivtype mangler."
+"programmet til understøttelse af dette mangler."
 
 #: ../src/main_window.c:1301
 msgid "Failed to open file"
@@ -343,7 +351,7 @@ msgstr ""
 
 #: ../src/new_dialog.c:69
 msgid "Archive type:"
-msgstr "Arkivtype"
+msgstr "Arkivtype:"
 
 #: ../src/new_dialog.c:80
 msgid "Archives"
@@ -355,15 +363,15 @@ msgstr "Opret nyt arkiv"
 
 #: ../src/notebook.c:207
 msgid "Rules hint"
-msgstr "Regl fif"
+msgstr "Regelfif"
 
 #: ../src/notebook.c:208
 msgid "Make the row background colors alternate"
-msgstr "Gør rækkebaggrundens farve anderledes"
+msgstr "Brug skiftende rækkebaggrundsfarve"
 
 #: ../src/path_bar.c:141
 msgid "Spacing"
-msgstr "Plads"
+msgstr "Mellemrum"
 
 #: ../src/path_bar.c:142
 msgid "The amount of space between the path buttons"

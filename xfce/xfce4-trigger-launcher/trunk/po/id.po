@@ -8,11 +8,11 @@ msgstr ""
 "Project-Id-Version: xfce4-trigger-launcher 4.3.90.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-05-18 00:44+0900\n"
-"PO-Revision-Date: 2008-05-25 20:19+0700\n"
+"PO-Revision-Date: 2008-10-13 22:19+0700\n"
 "Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
 "Language-Team: Indonesian <id@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../panel-plugin/triggerlauncher-old2.c:287
@@ -42,7 +42,7 @@ msgstr "Pilih Ikon"
 
 #: ../panel-plugin/xfce-file-chooser-button.c:146
 msgid "_Select"
-msgstr "Pilih (_S)"
+msgstr "_Pilih"
 
 #: ../panel-plugin/xfce-file-chooser-button.c:157
 msgid "(None Selected)"
@@ -111,4 +111,3 @@ msgstr "Memantau kondisi sesuatu dan yang dapat mengendalikannya"
 #: ../panel-plugin/xfce4-trigger-launcher.desktop.in.in.h:2
 msgid "Trigger Launcher Plugin"
 msgstr "Plugin Peluncur Pemicu"
-

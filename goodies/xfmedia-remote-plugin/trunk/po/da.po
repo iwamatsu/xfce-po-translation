@@ -2,17 +2,21 @@
 # Copyright (C) 2007 THE xfmedia-remote-plugin'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the xfmedia-remote-plugin package.
 # Jens Hyllegaard <jens.hyllegaard@gmail.com>, 2007.
+# Per Kongstad <p_kongstad@op.pl>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: xfmedia-remote-plugin\n"
+"Project-Id-Version: xfmedia-remote-plugin 0.2.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-05-14 17:32-0400\n"
-"PO-Revision-Date: 2008-05-17 15:17+0100\n"
-"Last-Translator: Jens Hyllegaard <jens.hyllegaard@gmail.com>\n"
+"PO-Revision-Date: 2008-10-19 15:20+0100\n"
+"Last-Translator: Per Kongstad <p_kongstad@op.pl>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #: ../panel-plugin/xfmedia-remote-plugin.c:245
 msgid "Choose playlist to load"
@@ -24,7 +28,7 @@ msgstr "Gem afspilningsliste"
 
 #: ../panel-plugin/xfmedia-remote-plugin.c:301
 msgid "Failed to save playlist"
-msgstr "Kunne ikke gemme afspilningslisten"
+msgstr "Kunne ikke gemme afspilningsliste"
 
 #: ../panel-plugin/xfmedia-remote-plugin.c:370
 msgid "Please wait until the previous add operation completes."
@@ -32,13 +36,13 @@ msgstr "Vent venligst til den forrige tilføjelses-handling bliver færdig."
 
 #: ../panel-plugin/xfmedia-remote-plugin.c:374
 msgid "Add track(s) to playlist"
-msgstr "Tilføj spor til afspilningslisten"
+msgstr "Tilføj spor til afspilningsliste"
 
 #. Play
 #: ../panel-plugin/xfmedia-remote-plugin.c:509
 #: ../panel-plugin/xfmedia-remote-plugin.c:601
 msgid "_Play"
-msgstr "_Afspil"
+msgstr "_Spil"
 
 #. Remove
 #: ../panel-plugin/xfmedia-remote-plugin.c:521
@@ -53,7 +57,7 @@ msgstr "Kunne ikke køre xfmedia: %s"
 #. Prev
 #: ../panel-plugin/xfmedia-remote-plugin.c:590
 msgid "P_rev"
-msgstr "For_ig"
+msgstr "Forr_ige"
 
 #. Pause
 #: ../panel-plugin/xfmedia-remote-plugin.c:612
@@ -73,11 +77,11 @@ msgstr "_Næste"
 #. Playlist
 #: ../panel-plugin/xfmedia-remote-plugin.c:651
 msgid "P_laylist"
-msgstr "Afspi_lningsliste"
+msgstr "Spille_liste"
 
 #: ../panel-plugin/xfmedia-remote-plugin.c:672
 msgid "Playlist"
-msgstr "Afspilningsliste"
+msgstr "Spilleliste"
 
 #. Load Playlist
 #: ../panel-plugin/xfmedia-remote-plugin.c:679
@@ -115,7 +119,7 @@ msgstr "Start _Xfmedia"
 #: ../panel-plugin/xfmedia-remote-plugin.c:1292
 #: ../panel-plugin/xfmedia-remote.desktop.in.in.h:2
 msgid "Xfmedia Remote"
-msgstr "Xfmedia fjernbetjening"
+msgstr "Xfmedia-fjernbetjening"
 
 #: ../panel-plugin/xfmedia-remote-plugin.c:942
 msgid "Stopped"
@@ -128,17 +132,17 @@ msgstr "Ingen kørende Xfmedia-instanser"
 #: ../panel-plugin/xfmedia-remote-plugin.c:1117
 #: ../panel-plugin/xfmedia-remote-plugin.c:1119
 msgid "Popup menu"
-msgstr "Popupmenu"
+msgstr "Pop op-menu"
 
 #: ../panel-plugin/xfmedia-remote-plugin.c:1131
 msgid "Show _playlist"
-msgstr "Vis afs_pilningsliste"
+msgstr "Vis s_pilleliste"
 
 #: ../panel-plugin/xfmedia-remote-plugin.c:1278
 msgid "Xfmedia Remote Properties"
-msgstr "Xfmedia fjernbetjening egenskaber"
+msgstr "Xfmedia-fjernbetjenings egenskaber"
 
 #: ../panel-plugin/xfmedia-remote.desktop.in.in.h:1
 msgid "Control Xfmedia music player"
-msgstr "Kontrollér Xfmedia musikafspiller"
+msgstr "Kontrollér Xfmedia-musikafspiller"
 

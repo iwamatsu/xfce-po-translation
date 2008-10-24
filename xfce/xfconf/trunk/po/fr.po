@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Xfconf 0.0.0\n"
+"Project-Id-Version: Xfconf 4.5.91\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-10-13 00:42+0200\n"
 "PO-Revision-Date: 2008-09-07 21:01+0100\n"

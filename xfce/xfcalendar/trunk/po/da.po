@@ -113,7 +113,7 @@ msgstr "tilføj nyt tomt ur"
 
 #: ../globaltime/gt_prefs.c:522
 msgid "add new clock using this clock as model"
-msgstr "tilføj nyt ur ved at bruge dette ur som grundlag"
+msgstr "tilføj nyt ur med dette som skabelon"
 
 #: ../globaltime/gt_prefs.c:527
 msgid "delete this clock"
@@ -121,7 +121,7 @@ msgstr "slet dette ur"
 
 #: ../globaltime/gt_prefs.c:535
 msgid "move this clock first"
-msgstr "flyt dette ur først"
+msgstr "placér dette ur forrest"
 
 #: ../globaltime/gt_prefs.c:540
 msgid "move this clock left"
@@ -129,7 +129,7 @@ msgstr "flyt dette ur til venstre"
 
 #: ../globaltime/gt_prefs.c:545
 msgid "move this clock right"
-msgstr "flyt dette ur til højre"
+msgstr "placér dette ur bagerst"
 
 #: ../globaltime/gt_prefs.c:550
 msgid "move this clock last"
@@ -146,7 +146,7 @@ msgstr "luk vindue og afslut"
 
 #: ../globaltime/gt_prefs.c:587
 msgid "Modify Clock "
-msgstr "Ændre ur "
+msgstr "Ændr ur "
 
 #. -----------------------HEADING-------------------------------------------
 #: ../globaltime/gt_prefs.c:600
@@ -260,7 +260,7 @@ msgstr "Klik for at ændre urenes standardbaggrundsfarve"
 #: ../globaltime/gt_prefs.c:877
 #: ../globaltime/gt_prefs.c:910
 msgid "Cross this to use system default instead of selected color"
-msgstr "Flag denne for at bruge systemstandardfarve fremfor valgte farve"
+msgstr "Afkryds denne for at bruge systemstandardfarve fremfor valgte farve"
 
 #: ../globaltime/gt_prefs.c:896
 msgid "Click to change default text colour for clocks"
@@ -273,7 +273,7 @@ msgstr "Klik for at ændre urnavns standardskrifttype"
 #: ../globaltime/gt_prefs.c:944
 #: ../globaltime/gt_prefs.c:978
 msgid "Cross this to use system default font instead of selected font"
-msgstr "Flag denne for brug af systemstandardskriftype fremfor valgte skrifttype"
+msgstr "Afkryds denne for brug af systemstandardskrifttype fremfor valgte skrifttype"
 
 #: ../globaltime/gt_prefs.c:963
 msgid "Click to change default font for clock time"
@@ -328,15 +328,15 @@ msgstr "Varierende"
 
 #: ../globaltime/gt_prefs.c:1116
 msgid "Clock sizes vary"
-msgstr "Ur-størrelser er varierende"
+msgstr "Urene har varierende størrelser"
 
 #: ../globaltime/gt_prefs.c:1122
 msgid "Local timezone:"
-msgstr "Lokaltidszone:"
+msgstr "Lokal tidszone:"
 
 #: ../globaltime/gt_prefs.c:1129
 msgid "Enter local timezone. (it is used to show if time is on previous(-) or next date(+) by adding a +/- after the time)"
-msgstr "Angiv lokaltidszone. (dette er brugt til visning, hvis tiden er på tidligere(-) eller næste dato(+) ved tilføjning af +/- efter tiden)"
+msgstr "Angiv lokal tidszone. (dette er brugt til visning, hvis tiden er på tidligere(-) eller næste dato(+) ved tilføjning af +/- efter tiden)"
 
 #: ../panel-plugin/oc_config.c:193
 msgid "Appearance"
@@ -550,7 +550,7 @@ msgstr "Aftalen findes ikke."
 
 #: ../src/appointment.c:1424
 msgid "It was probably removed, please refresh your screen."
-msgstr "Den var sikkert fjernet, venligst opfrisk din skærm."
+msgstr "Den er sikkert blevet fjernet, venligst opfrisk din skærm."
 
 #: ../src/appointment.c:1721
 msgid "Current categories"
@@ -805,7 +805,7 @@ msgstr "Vedvarende alarm"
 
 #: ../src/appointment.c:2552
 msgid "Select this if you want Orage to remind you even if it has not been active when the alarm happened."
-msgstr "Vælg denne hvis du ønsker Orage at påminde dig, selv om den ikke har været aktiv, da alarmen skete."
+msgstr "Vælg denne hvis du ønsker Orage skal påminde dig, selv om den ikke har været aktiv, på alarmtidspunktet."
 
 #. **** Audio Alarm ****
 #: ../src/appointment.c:2561
@@ -845,7 +845,7 @@ msgstr "Brug Orage vindue"
 
 #: ../src/appointment.c:2632
 msgid "Select this if you want Orage window alarm"
-msgstr "Vælg denne hvis du ønsker Orage vinduealarm"
+msgstr "Vælg denne hvis du ønsker Orage vinduesalarm"
 
 #: ../src/appointment.c:2644
 msgid "Use notification"
@@ -853,7 +853,7 @@ msgstr "Brug besked"
 
 #: ../src/appointment.c:2646
 msgid "Select this if you want notification alarm"
-msgstr "Vælg denne for beskedsalarm"
+msgstr "Vælg denne for alarm-besked"
 
 #: ../src/appointment.c:2652
 msgid "Set timeout"
@@ -861,7 +861,7 @@ msgstr "Indstil tidsafbrud"
 
 #: ../src/appointment.c:2655
 msgid "Select this if you want notification to expire automatically"
-msgstr "Vælg denne hvis du ønsker beskeden udløber automatisk"
+msgstr "Vælg denne hvis du ønsker at beskeden udløber automatisk"
 
 #: ../src/appointment.c:2666
 msgid "0 = system default expiration time"
@@ -885,7 +885,7 @@ msgid ""
 "You must enter all escape etc characters yourself.\n"
 " This string is just given to shell to process"
 msgstr ""
-"Du skal selv angive alle undvigesekvens etc.\n"
+"Du skal selv angive alle undvigesekvenser osv.\n"
 " Denne streng er direkte overført til skallen for kørsel"
 
 #. **** Default Alarm Settings ****
@@ -1096,7 +1096,7 @@ msgstr "Vis"
 
 #: ../src/day-view.c:928
 msgid "Orage - day view"
-msgstr "Orage - dagvisning"
+msgstr "Orage - dagsvisning"
 
 #. date only appointment
 #: ../src/event-list.c:190
@@ -1130,7 +1130,7 @@ msgstr "Find"
 
 #: ../src/event-list.c:1110
 msgid "Dayview"
-msgstr "Dagvisning"
+msgstr "Dagsvisning"
 
 #: ../src/event-list.c:1143
 msgid "Extra days to show "
@@ -3306,7 +3306,7 @@ msgstr "Indstil klæbende"
 
 #: ../src/parameters.c:593
 msgid "Set on top"
-msgstr "Indstil til front"
+msgstr "Placér i front"
 
 #: ../src/parameters.c:614
 msgid "Show in taskbar"
@@ -3338,7 +3338,7 @@ msgstr "Minimeret"
 
 #: ../src/parameters.c:704
 msgid "Extra setups"
-msgstr "Ekstra-indstillinger"
+msgstr "Ekstra indstillinger"
 
 #: ../src/parameters.c:711
 #: ../src/parameters.c:716
@@ -3347,7 +3347,7 @@ msgstr "Vælg altid i dag"
 
 #: ../src/parameters.c:722
 msgid "When showing main calendar, set pointer to either previously selected day or always to current day."
-msgstr "Ved visning af hovedkalender, peg på enten tidligere valgte dag eller altid til nuværende dag."
+msgstr "Ved visning af hovedkalender, stil markøren på enten tidligere valgte dag eller altid til nuværende dag."
 
 #: ../src/parameters.c:753
 msgid "Dynamic icon size"

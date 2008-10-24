@@ -430,7 +430,7 @@ msgstr "%A %d %B %Y / %V"
 
 #: ../plugin/xfcalendar_plugin.c:43
 msgid "Failed to launch 'orage -p'"
-msgstr ""
+msgstr "Klarte ikke å starte 'orage -p'"
 
 #. the button label in the xfce-mcs-manager dialog
 #: ../plugin/xfcalendar_plugin.c:61
@@ -504,9 +504,8 @@ msgstr "Denne avtalen slutter før den starter."
 
 #. cat_groups[0] is special [NULL] entry always
 #: ../src/appointment.c:1007 ../src/appointment.c:1547
-#, fuzzy
 msgid "Not set"
-msgstr "Merknad"
+msgstr "Ikke satt"
 
 #: ../src/appointment.c:1147
 msgid "This appointment will be permanently removed."
@@ -525,21 +524,20 @@ msgid "It was probably removed, please refresh your screen."
 msgstr "Det ble sannsynligvis fjernet, vennligst oppdater skjermbildet."
 
 #: ../src/appointment.c:1729
-#, fuzzy
 msgid "Current categories"
-msgstr "Gjeldende eksterne filer"
+msgstr "Gjeldende kategorier"
 
 #: ../src/appointment.c:1744
 msgid "Add new category with color"
-msgstr ""
+msgstr "Legg til ny kategori med farge"
 
 #: ../src/appointment.c:1748
 msgid "Category:"
-msgstr ""
+msgstr "Kategori:"
 
 #: ../src/appointment.c:1779
 msgid "Colors of categories - Orage"
-msgstr ""
+msgstr "Fargekategorier"
 
 #: ../src/appointment.c:1940
 msgid "New appointment - Orage"
@@ -659,7 +657,7 @@ msgstr "Start"
 
 #: ../src/appointment.c:2335
 msgid "Set      "
-msgstr ""
+msgstr "Sett     "
 
 #: ../src/appointment.c:2356
 msgid "Duration"
@@ -694,17 +692,19 @@ msgstr "Ferdig"
 #. categories
 #: ../src/appointment.c:2408
 msgid "Categories"
-msgstr ""
+msgstr "Kategorier"
 
 #: ../src/appointment.c:2420
 msgid ""
 "This is special category, which can be used to color this appointment in "
 "list views."
 msgstr ""
+"Dette er en spesiell kategori som kan brukes for å farge denne avtalen i"
+"listevisning."
 
 #: ../src/appointment.c:2425
 msgid "update colors for categories."
-msgstr ""
+msgstr "Oppdater farger for kategorier."
 
 #. note
 #: ../src/appointment.c:2431
@@ -851,17 +851,16 @@ msgstr ""
 
 #. **** Default Alarm Settings ****
 #: ../src/appointment.c:2711
-#, fuzzy
 msgid "Default alarm"
-msgstr "Orage standard påminnelse"
+msgstr "Standard påminnelse"
 
 #: ../src/appointment.c:2718
 msgid "Store current settings as default alarm"
-msgstr ""
+msgstr "Lagre gjeldende innstillinger som standard påminnelse"
 
 #: ../src/appointment.c:2723
 msgid "Set current settings from default alarm"
-msgstr ""
+msgstr "Sett gjeldende innstillinger fra standard påminnelse"
 
 #: ../src/appointment.c:2780
 msgid "Daily"
@@ -1058,7 +1057,6 @@ msgid "Time"
 msgstr "Tid"
 
 #: ../src/event-list.c:728
-#, fuzzy
 msgid "No rows have been selected."
 msgstr "Ingen rader har blitt valgt."
 
@@ -1375,29 +1373,24 @@ msgid "America/Araguaina"
 msgstr "Amerika/Araguaina"
 
 #: ../src/ical-code.c:174
-#, fuzzy
 msgid "America/Argentina/Buenos_Aires"
-msgstr "Amerika/Buenos_Aires"
+msgstr "Amerika/Argentina/Buenos_Aires"
 
 #: ../src/ical-code.c:175
-#, fuzzy
 msgid "America/Argentina/Catamarca"
-msgstr "Amerika/Catamarca"
+msgstr "Amerika/Argentina/Catamarca"
 
 #: ../src/ical-code.c:176
-#, fuzzy
 msgid "America/Argentina/Cordoba"
-msgstr "Amerika/Cordoba"
+msgstr "Amerika/Argentina/Cordoba"
 
 #: ../src/ical-code.c:177
-#, fuzzy
 msgid "America/Argentina/Jujuy"
-msgstr "Amerika/Jujuy"
+msgstr "Amerika/Argentina/Jujuy"
 
 #: ../src/ical-code.c:178
-#, fuzzy
 msgid "America/Argentina/Mendoza"
-msgstr "Amerika/Mendoza"
+msgstr "Amerika/Argentina/Mendoza"
 
 #: ../src/ical-code.c:179
 msgid "America/Aruba"
@@ -2776,13 +2769,12 @@ msgid "Starting import file preprocessing"
 msgstr "Starter forbehandling av filimport"
 
 #: ../src/ical-code.c:3870
-#, fuzzy
 msgid "... Patched DCREATED to be CREATED."
-msgstr "... Patchet DCREATED til å bli CREATED (%s)"
+msgstr "... Patchet DCREATED til å bli CREATED"
 
 #: ../src/ical-code.c:3909
 msgid "... Patched timezone to Orage format."
-msgstr ""
+msgstr "... Patchet tidssone til Orage sitt format."
 
 #: ../src/ical-code.c:3918
 msgid "Import file preprocessing done"
@@ -2903,7 +2895,6 @@ msgid "Revert archive now"
 msgstr "Rull tilbake arkiv nå"
 
 #: ../src/interface.c:1101
-#, fuzzy
 msgid ""
 "Return all archived events into main orage file and remove arch file.\n"
 "This is useful for example when doing export and moving orage\n"
@@ -2994,6 +2985,10 @@ msgid ""
 "Note that modifying foreign files may make them incompatible with the "
 "original tool, where they came from!"
 msgstr ""
+"Sett dette hvis du vil være sikker på at denne filen aldri modifiseres "
+"av Orage.\n"
+"Husk at ved å endre filer fra andre verktøy kan de bli ukompatible "
+"med originalprogrammet!"
 
 #: ../src/interface.c:1300
 msgid "Exchange data - Orage"
@@ -3044,9 +3039,9 @@ msgid "\tNot using libnotify.\n"
 msgstr "\tBruker ikke libnotify.\n"
 
 #: ../src/main.c:210
-#, fuzzy, c-format
+#, c-format
 msgid "\tUsing automatic archiving.\n"
-msgstr "\tAutomatisk arkivering aktivert.\n"
+msgstr "\tBruker automatisk arkivering.\n"
 
 #: ../src/main.c:212
 #, c-format
@@ -3154,9 +3149,8 @@ msgid "_Help"
 msgstr "_Hjelp"
 
 #: ../src/mainbox.c:401
-#, fuzzy
 msgid "Never"
-msgstr "Tilbakestill"
+msgstr "Aldri"
 
 #: ../src/mainbox.c:406
 #, c-format
@@ -3176,7 +3170,7 @@ msgstr ""
 "%s"
 
 #: ../src/mainbox.c:412
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Title: %s\n"
 " Start:\t%s\n"
@@ -3187,18 +3181,17 @@ msgstr ""
 "Tittel: %s\n"
 " Start:\t%s\n"
 " Slutt:\t%s\n"
-" Ferdig:\t%s\n"
 "Notat:\n"
 "%s"
 
 #: ../src/mainbox.c:487
 msgid "<b>To do:</b>"
-msgstr ""
+msgstr "<b>Oppgaver:</b>"
 
 #: ../src/mainbox.c:516
 #, c-format
 msgid "<b>Events for %s:</b>"
-msgstr ""
+msgstr "<b>Hendelser for %s:</b>"
 
 #: ../src/parameters.c:472
 msgid "Main setups"
@@ -3251,14 +3244,12 @@ msgid "Show menu"
 msgstr "Vis meny"
 
 #: ../src/parameters.c:584
-#, fuzzy
 msgid "Show todo list"
-msgstr "Vis ramme"
+msgstr "Vis oppgaveliste"
 
 #: ../src/parameters.c:591
-#, fuzzy
 msgid "Show event list"
-msgstr "Hendelsesliste"
+msgstr "Vis hendelsesliste"
 
 #: ../src/parameters.c:598
 msgid "Set sticked"
@@ -3413,41 +3404,3 @@ msgstr "Xfce 4 Kalender Innstillinger"
 msgid "Desktop calendar"
 msgstr "Skrivebordskalender"
 
-#~ msgid ""
-#~ "Set this if you want to make sure that this file is never modified by "
-#~ "Orage."
-#~ msgstr "Velg denne hvis du ønsker at Orage aldri skal modifisere filen."
-
-#~ msgid "Not defined"
-#~ msgstr "Ikke definert"
-
-#~ msgid "Monday"
-#~ msgstr "Mandag"
-
-#~ msgid "Tuesday"
-#~ msgstr "Tirsdag"
-
-#~ msgid "Wednesday"
-#~ msgstr "Onsdag"
-
-#~ msgid "Thursday"
-#~ msgstr "Torsdag"
-
-#~ msgid "Friday"
-#~ msgstr "Fredag"
-
-#~ msgid "Saturday"
-#~ msgstr "Lørdag"
-
-#~ msgid "Sunday"
-#~ msgstr "Søndag"
-
-#~ msgid "Ical week start day"
-#~ msgstr "Uker starter med"
-
-#~ msgid ""
-#~ "This is used in some weekly repeating appointment rules. Just set it to "
-#~ "the start day of the week for your country and forget it."
-#~ msgstr ""
-#~ "Dette brukes i noen tilfeller av ukentlig repetering av hendelsesregler. "
-#~ "Bare sett den til den første dagen i uken for ditt land og glem den."

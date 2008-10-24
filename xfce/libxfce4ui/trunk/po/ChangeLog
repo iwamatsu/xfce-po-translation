@@ -1,3 +1,13 @@
+2008-10-20  Maximilian Schleiss <maximilian@xfce.org>
+
+	* ca.po, LINGUAS: Catalan translation added (Carles Muñoz Gorriz)
+	* de.po, LINGUAS: German translation added (Fabian Nowak)
+
+2008-10-18  Maximilian Schleiss <maximilian@xfce.org>
+
+	* fr.po: French translation update
+	* tr.po, LINGUAS: Turkish translation added (Gökmen Görgen)
+
 2008-10-10  Maximilian Schleiss <maximilian@xfce.org>
 
 	* ja.po, LINGUAS: Japanese translation added (Nobuhiro Iwamatsu)

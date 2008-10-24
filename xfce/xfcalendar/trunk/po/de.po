@@ -2898,7 +2898,6 @@ msgid "Revert archive now"
 msgstr "Archiv jetzt wiederherstellen"
 
 #: ../src/interface.c:1101
-#, fuzzy
 msgid ""
 "Return all archived events into main orage file and remove arch file.\n"
 "This is useful for example when doing export and moving orage\n"
@@ -3045,7 +3044,7 @@ msgid "\tNot using libnotify.\n"
 msgstr "\tlibnotify nicht benutzen\n"
 
 #: ../src/main.c:210
-#, fuzzy, c-format
+#, c-format
 msgid "\tUsing automatic archiving.\n"
 msgstr "\tautomatische Archivierung\n"
 

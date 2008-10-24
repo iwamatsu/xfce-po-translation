@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: xfce4-mixer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-10-06 15:29+0200\n"
-"PO-Revision-Date: 2008-09-10 22:38+0700\n"
+"PO-Revision-Date: 2008-10-11 19:49+0700\n"
 "Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
-"Language-Team: Indonesian <id@li.org>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -127,7 +127,7 @@ msgstr "Kontrol Volume %d Tak Dikenal"
 #: ../xfce4-mixer/main.c:92
 #, c-format
 msgid "Failed to initialize xfconf: %s"
-msgstr ""
+msgstr "Gagal menginisialisasi xfconf: %s"
 
 #: ../xfce4-mixer/xfce-mixer.c:163
 msgid "Playback"
@@ -167,16 +167,15 @@ msgstr "Silakan pilih kontrol mana yang anda inginkan untuk terlihat"
 
 #: ../xfce4-mixer/xfce-mixer-window.c:87
 msgid "_Quit"
-msgstr "Keluar (_Q)"
+msgstr "_Keluar"
 
 #: ../xfce4-mixer/xfce-mixer-window.c:87
-#, fuzzy
 msgid "Exit the mixer"
-msgstr "Keluar Mixer Xfce"
+msgstr "Sunting mixer"
 
 #: ../xfce4-mixer/xfce-mixer-window.c:89
 msgid "_Select Controls..."
-msgstr "Pilih Kontrol... (_S)"
+msgstr "_Pilih Kontrol..."
 
 #: ../xfce4-mixer/xfce-mixer-window.c:89
 msgid "Select which controls are displayed"
@@ -184,7 +183,7 @@ msgstr "Pilih kontrol mana yang ditampilkan"
 
 #: ../xfce4-mixer/xfce-mixer-window.c:187
 msgid "Configure your sound card(s) and control the volume of selected tracks"
-msgstr ""
+msgstr "Mengatur kartu suara anda dan mengendalikan volume jalur terpilih"
 
 #: ../xfce4-mixer/xfce-mixer-window.c:202
 msgid "Sound card:"

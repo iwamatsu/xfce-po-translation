@@ -1,3 +1,34 @@
+2008-10-21  Maximilian Schleiss <maximilian@xfce.org>
+
+	* fr.po: French translation update
+
+2008-10-20 Lars Nielsen <lars@mit-web.dk>
+
+	* da.po: Danish translation update
+
+2008-10-20  Maximilian Schleiss <maximilian@xfce.org>
+
+	* ca.po: Catalan translation update (Carles Muñoz Gorriz)
+	* de.po: German translation update (Fabian Nowak)
+	* fr.po: French translation update
+	* ja.po: Japanese translation update (Masato Hashimoto)
+
+2008-10-20  Jari Rahkonen <jari.rahkonen@pp1.inet.fi>
+
+	* fi.po: Update Finnish translation
+
+2008-10-18  Maximilian Schleiss <maximilian@xfce.org>
+
+	* da.po: Converted the file to utf8
+	* es.po: Spanish translation update (Abel Martin)
+	* fr.po: French translation update
+	* id.po: Indonesian translation update (Andhika Padmawan)
+
+2008-10-08  Olivier Fourdan <olivier@xfce.org>
+
+	* *.po: Add disambiguations to settings dialogs (Bug #4484, patch 
+	  from alexander.toresson@gmail.com).
+
 2008-10-08  Jari Rahkonen <jari.rahkonen@pp1.inet.fi>
 
 	* fi.po: Update Finnish translation.

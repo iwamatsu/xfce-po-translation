@@ -10,13 +10,13 @@ msgstr ""
 "Project-Id-Version: orage 4.3.90.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-09-27 23:53+0300\n"
-"PO-Revision-Date: 2008-03-15 18:09+0100\n"
+"PO-Revision-Date: 2008-10-19 14:35+0100\n"
 "Last-Translator: Carles Muñoz Gorriz <carlesmu@internautas.org>\n"
 "Language-Team: Catalan\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.2\n"
 
 #: ../globaltime/globaltime.c:100
@@ -140,7 +140,7 @@ msgstr "tanca la finestra i surt"
 
 #: ../globaltime/gt_prefs.c:586
 msgid "Modify Clock "
-msgstr "Modificació del rellotge"
+msgstr "Modifica el rellotge"
 
 #. -----------------------HEADING-------------------------------------------
 #: ../globaltime/gt_prefs.c:599
@@ -434,7 +434,7 @@ msgstr "%A %d %B %Y/%V"
 
 #: ../plugin/xfcalendar_plugin.c:43
 msgid "Failed to launch 'orage -p'"
-msgstr ""
+msgstr "No s'ha pogut executar «orage -p»"
 
 #. the button label in the xfce-mcs-manager dialog
 #: ../plugin/xfcalendar_plugin.c:61
@@ -508,9 +508,8 @@ msgstr "Aquesta cita acaba abans de començar."
 
 #. cat_groups[0] is special [NULL] entry always
 #: ../src/appointment.c:1007 ../src/appointment.c:1547
-#, fuzzy
 msgid "Not set"
-msgstr "Nota"
+msgstr "No establert"
 
 #: ../src/appointment.c:1147
 msgid "This appointment will be permanently removed."
@@ -529,21 +528,20 @@ msgid "It was probably removed, please refresh your screen."
 msgstr "És probable que s'hagi esborrat, actualitzeu la pantalla."
 
 #: ../src/appointment.c:1729
-#, fuzzy
 msgid "Current categories"
-msgstr "Fitxers forans actuals"
+msgstr "Categories actuals"
 
 #: ../src/appointment.c:1744
 msgid "Add new category with color"
-msgstr ""
+msgstr "Afegeix una nova categoria amb color"
 
 #: ../src/appointment.c:1748
 msgid "Category:"
-msgstr ""
+msgstr "Categoria:"
 
 #: ../src/appointment.c:1779
 msgid "Colors of categories - Orage"
-msgstr ""
+msgstr "Colors de les categories - Orage"
 
 #: ../src/appointment.c:1940
 msgid "New appointment - Orage"
@@ -620,7 +618,7 @@ msgstr ""
 
 #: ../src/appointment.c:2277 ../src/event-list.c:1160
 msgid "Todo"
-msgstr "Per fer"
+msgstr "Pendent de fer"
 
 #: ../src/appointment.c:2280
 msgid ""
@@ -663,7 +661,7 @@ msgstr "Inici"
 
 #: ../src/appointment.c:2335
 msgid "Set      "
-msgstr ""
+msgstr "Estableix"
 
 #: ../src/appointment.c:2356
 msgid "Duration"
@@ -698,17 +696,19 @@ msgstr "Fet"
 #. categories
 #: ../src/appointment.c:2408
 msgid "Categories"
-msgstr ""
+msgstr "Categories"
 
 #: ../src/appointment.c:2420
 msgid ""
 "This is special category, which can be used to color this appointment in "
 "list views."
 msgstr ""
+"Aquesta és una categoria especial, es pot emprar per colorejar  aquesta cita "
+"en les vistes de llista."
 
 #: ../src/appointment.c:2425
 msgid "update colors for categories."
-msgstr ""
+msgstr "Actualitza els colors de les categories."
 
 #. note
 #: ../src/appointment.c:2431
@@ -721,7 +721,7 @@ msgid ""
 "<T> inserts time and\n"
 "<DT> inserts date and time."
 msgstr ""
-"<D> Inseriu la data actual en el format local.\n"
+"<D> inseriu la data actual en el format local.\n"
 "<T> inseriu l'hora i\n"
 "<DT> inseriu data i hora."
 
@@ -757,9 +757,10 @@ msgid ""
 " 2) before Todo end\n"
 " 3) after Todo start"
 msgstr ""
-"Sovint voldreu activar l'alarma quan:\n"
-" 1) abans que un esdeveniment comenci. 2) abans que alguna cosa a fer acabi. "
-"3) després que alguna cosa a fer acabi."
+"Sovint voldreu activar l'alarma:\n"
+" 1) abans que un esdeveniment comenci\n"
+" 2) abans que algun pendent de fer acabi\n"
+" 3) després que algun pendent de fer acabi"
 
 #: ../src/appointment.c:2558
 msgid "Persistent alarm"
@@ -855,17 +856,16 @@ msgstr ""
 
 #. **** Default Alarm Settings ****
 #: ../src/appointment.c:2711
-#, fuzzy
 msgid "Default alarm"
-msgstr "Alarma per defecte d'«Orage»"
+msgstr "Alarma per defecte"
 
 #: ../src/appointment.c:2718
 msgid "Store current settings as default alarm"
-msgstr ""
+msgstr "Desa els els paràmetres actuals com els de l'alarma per defecte"
 
 #: ../src/appointment.c:2723
 msgid "Set current settings from default alarm"
-msgstr ""
+msgstr "Estableix els paràmetres actuals com els de l'alarma per defecte"
 
 #: ../src/appointment.c:2780
 msgid "Daily"
@@ -1020,7 +1020,7 @@ msgstr "Nou"
 
 #: ../src/day-view.c:324 ../src/event-list.c:1092
 msgid "Back"
-msgstr "Endarrere"
+msgstr "Enrere"
 
 #: ../src/day-view.c:326 ../src/event-list.c:1094 ../src/functions.c:132
 #: ../src/tray_icon.c:330
@@ -1033,7 +1033,7 @@ msgstr "Endavant"
 
 #: ../src/day-view.c:333 ../src/event-list.c:1101
 msgid "Refresh"
-msgstr "Refresca"
+msgstr "Actualitza"
 
 #: ../src/day-view.c:338 ../src/event-list.c:1108 ../src/interface.c:804
 msgid "Close"
@@ -1135,7 +1135,7 @@ msgstr ""
 "\t 4. En el fitxer:\n"
 "\t\tO=Orage A=Arxiu F=Forà\n"
 "\t 5. Tipus de cita:\n"
-"\t\tE=Esdeveniment T=Per fer J=Periòdic"
+"\t\tE=Esdeveniment T=Pendent de fer J=Periòdic"
 
 #: ../src/functions.c:130
 msgid "Pick the date"
@@ -1378,29 +1378,24 @@ msgid "America/Araguaina"
 msgstr "Amèrica/Araguaina"
 
 #: ../src/ical-code.c:174
-#, fuzzy
 msgid "America/Argentina/Buenos_Aires"
-msgstr "Amèrica/Buenos_Aires"
+msgstr "Amèrica/Argentina/Buenos_Aires"
 
 #: ../src/ical-code.c:175
-#, fuzzy
 msgid "America/Argentina/Catamarca"
-msgstr "Amèrica/Catamarca"
+msgstr "Amèrica/Argentina/Catamarca"
 
 #: ../src/ical-code.c:176
-#, fuzzy
 msgid "America/Argentina/Cordoba"
-msgstr "Amèrica/Córdoba"
+msgstr "Amèrica/Argentina/Córdoba"
 
 #: ../src/ical-code.c:177
-#, fuzzy
 msgid "America/Argentina/Jujuy"
-msgstr "Amèrica/Jujuy"
+msgstr "Amèrica/Argentina/Jujuy"
 
 #: ../src/ical-code.c:178
-#, fuzzy
 msgid "America/Argentina/Mendoza"
-msgstr "Amèrica/Mendoza"
+msgstr "Amèrica/Argentina/Mendoza"
 
 #: ../src/ical-code.c:179
 msgid "America/Aruba"
@@ -2746,7 +2741,7 @@ msgstr "Uid de l'arxiu de cites: %s"
 #. VTODO not completed, do not archive
 #: ../src/ical-code.c:3658
 msgid "\tVTODO not complete; not archived"
-msgstr "\tPer fer no completat; no s'ha arxivat"
+msgstr "\tPendent de fer no completat; no s'ha arxivat"
 
 #. it is recurrent event
 #: ../src/ical-code.c:3663
@@ -2783,13 +2778,12 @@ msgid "Starting import file preprocessing"
 msgstr "Iniciant el procés previ per importar"
 
 #: ../src/ical-code.c:3870
-#, fuzzy
 msgid "... Patched DCREATED to be CREATED."
-msgstr "… Pedaç DCREATED per a CREATED (%s)"
+msgstr "… Pedaç DCREATED per a CREATED."
 
 #: ../src/ical-code.c:3909
 msgid "... Patched timezone to Orage format."
-msgstr ""
+msgstr "… Actualitzat el fus horari amb el format d'Orage."
 
 #: ../src/ical-code.c:3918
 msgid "Import file preprocessing done"
@@ -2911,7 +2905,6 @@ msgid "Revert archive now"
 msgstr "Recupera l'arxiu ara"
 
 #: ../src/interface.c:1101
-#, fuzzy
 msgid ""
 "Return all archived events into main orage file and remove arch file.\n"
 "This is useful for example when doing export and moving orage\n"
@@ -3002,6 +2995,9 @@ msgid ""
 "Note that modifying foreign files may make them incompatible with the "
 "original tool, where they came from!"
 msgstr ""
+"Estableix-lo si voleu estar segurs que Orage mai modifica el fitxer.\n"
+"Noteu que si es modifica un fitxer forà aquest pot acabar sent incompatible "
+"amb l'aplicació original."
 
 #: ../src/interface.c:1300
 msgid "Exchange data - Orage"
@@ -3052,7 +3048,7 @@ msgid "\tNot using libnotify.\n"
 msgstr "\tNo emprant «libnotify».\n"
 
 #: ../src/main.c:210
-#, fuzzy, c-format
+#, c-format
 msgid "\tUsing automatic archiving.\n"
 msgstr "\tEmprant arxivament automàtic.\n"
 
@@ -3162,9 +3158,8 @@ msgid "_Help"
 msgstr "A_juda"
 
 #: ../src/mainbox.c:401
-#, fuzzy
 msgid "Never"
-msgstr "mai"
+msgstr "Mai"
 
 #: ../src/mainbox.c:406
 #, c-format
@@ -3184,7 +3179,7 @@ msgstr ""
 "%s"
 
 #: ../src/mainbox.c:412
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Title: %s\n"
 " Start:\t%s\n"
@@ -3194,19 +3189,18 @@ msgid ""
 msgstr ""
 "Títol: %s\n"
 " Inici:\t%s\n"
-" Motiu:\t%s\n"
-" Fet:\t%s\n"
-"Nota:\n"
+" Fi:\t%s\n"
+" Nota:\n"
 "%s"
 
 #: ../src/mainbox.c:487
 msgid "<b>To do:</b>"
-msgstr ""
+msgstr "<b>Pendent de fer:</b>"
 
 #: ../src/mainbox.c:516
 #, c-format
 msgid "<b>Events for %s:</b>"
-msgstr ""
+msgstr "<b>Esdeveniments per %s:</b>"
 
 #: ../src/parameters.c:472
 msgid "Main setups"
@@ -3258,14 +3252,12 @@ msgid "Show menu"
 msgstr "Mostra el menú"
 
 #: ../src/parameters.c:584
-#, fuzzy
 msgid "Show todo list"
-msgstr "Mostra les vores"
+msgstr "Mostra la llista del pendent de fer"
 
 #: ../src/parameters.c:591
-#, fuzzy
 msgid "Show event list"
-msgstr "Llista d'esdeveniments"
+msgstr "Mostra la llista d'esdeveniments"
 
 #: ../src/parameters.c:598
 msgid "Set sticked"

@@ -2767,7 +2767,7 @@ msgstr "Aloitetaan tuontitiedoston esikäsittely"
 
 #: ../src/ical-code.c:3870
 msgid "... Patched DCREATED to be CREATED."
-msgstr "... Muutettu DCCREATED muotoon CREATED"
+msgstr "... Muutettu DCREATED muotoon CREATED"
 
 #: ../src/ical-code.c:3909
 msgid "... Patched timezone to Orage format."

@@ -1,0 +1,77 @@
+# translation of notification-daemon-xfce.po to librezale
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Nobuhiro Iwamatsu <iwamatsu@nigauri.org>, 2008
+#
+# notification 通知
+# daemon デーモン
+msgid ""
+msgstr ""
+"Project-Id-Version: notification-daemon-xfce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-10-22 17:38+0200\n"
+"PO-Revision-Date: 2008-10-18 17:30+0900\n"
+"Last-Translator: Nobuhiro Iwamatsu <iwamatsu@nigauri.org>\n"
+"Language-Team: Japanese <xfce-i18n@xfce.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/settings/main.c:64
+msgid "Top Left"
+msgstr "左上"
+
+#: ../src/settings/main.c:65
+msgid "Top Right"
+msgstr "右上"
+
+#: ../src/settings/main.c:66
+msgid "Bottom Left"
+msgstr "左下"
+
+#: ../src/settings/main.c:67
+msgid "Bottom Right"
+msgstr "右下"
+
+#. create new preview notification
+#: ../src/settings/main.c:188
+msgid "Preview notification"
+msgstr "通知をプレビューする"
+
+#: ../src/settings/main.c:189
+msgid "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+msgstr "ロレム・イプサムは印刷や組版業界の単なるダミーテキストです。"
+
+#: ../src/settings/main.c:324
+#: ../src/settings/notification-settings.desktop.in.h:2
+msgid "Notification Settings"
+msgstr "通知設定"
+
+#: ../src/settings/main.c:330
+msgid "Configure the Xfce notification daemon"
+msgstr "Xfce 通知デーモンの設定する"
+
+#: ../src/settings/main.c:340
+msgid "Notification _position:"
+msgstr "通知位置(_P):"
+
+#: ../src/settings/main.c:370
+msgid "Pre_view"
+msgstr "プレビュー(_V)"
+
+#: ../src/settings/mcs_plugin.c:41
+msgid "Failed to launch notification-settings"
+msgstr "通知設定の起動に失敗しました"
+
+#: ../src/settings/mcs_plugin.c:61
+msgid "Button Label|Notification Settings"
+msgstr "通知設定"
+
+#: ../src/settings/notification-settings.desktop.in.h:1
+msgid "Customize the notification daemon settings"
+msgstr "通知デーモン設定をカスタマイズする"
+
+#: ../src/settings/notification-settings.desktop.in.h:3
+msgid "Xfce 4 Notification Settings"
+msgstr "Xfce 4 通知設定"
+

@@ -1,4 +1,25 @@
-2008-10-16	Jannis Pohlmann <jannis@xfce.org>
+2008-10-20  Maximilian Schleiss <maximilian@xfce.org>
+
+	* ca.po, LINGUAS: Catalan translation added (Carles Muñoz Gorriz)
+	* de.po: German translation update (Fabian Nowak)
+	* ja.po: Japanese translation update (Masato Hashimoto)
+
+2008-10-20  Jari Rahkonen <jari.rahkonen@pp1.inet.fi>
+
+	* fi.po: Update Finnish translation.
+
+2008-10-19  Jannis Pohlmann <jannis@xfce.org>
+
+	* POTFILES.in: Update file list.
+	* de.po: Update German translations.
+	* xfce4-settings.pot, *.po: Update strings.
+
+2008-10-18  Maximilian Schleiss <maximilian@xfce.org>
+
+	* id.po, LINGUAS: Indonesian translation added (Andhika Padmawan)
+	* ja.po, LINGUAS: Japanese translation added (HASHIMOTO Masato)
+
+2008-10-16  Jannis Pohlmann <jannis@xfce.org>
 
 	* LINGUAS: Remove hu because hu.po is missing.
 

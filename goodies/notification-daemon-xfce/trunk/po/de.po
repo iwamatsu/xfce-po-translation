@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: notification-daemon-xfce 0.3.8svn-r03429\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-10-22 17:38+0200\n"
+"POT-Creation-Date: 2008-10-18 16:32+0200\n"
 "PO-Revision-Date: 2007-11-06 23:40+0100\n"
 "Last-Translator: Fabian Nowak <timystery@arcor.de>\n"
 "Language-Team: German\n"
@@ -76,4 +76,3 @@ msgstr "Einstellungen für den Benachrichtigungsdämon anpassen"
 #: ../src/settings/notification-settings.desktop.in.h:3
 msgid "Xfce 4 Notification Settings"
 msgstr "Xfce4-Benachrichtigungen"
-

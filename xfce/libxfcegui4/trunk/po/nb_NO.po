@@ -90,7 +90,7 @@ msgstr "Ikonnavn"
 
 #: ../libxfcegui4/xfce-appmenuitem.c:241
 msgid "The name of the themed icon to display next to the item"
-msgstr "Navnet til tema ikonet som vises ved siden av elementet"
+msgstr "Navnet til temaikonet som vises ved siden av elementet"
 
 #. TODO: this needs some special setup in the glade helper lib to
 #. create and populate the XfceAboutInfo struct.
@@ -113,7 +113,7 @@ msgstr "Oppstartsvarsling"
 
 #: ../libxfcegui4/xfce-appmenuitem.c:251
 msgid "Whether or not the app supports startup notification"
-msgstr "Om programmet støttet oppstartsvarling eller ikke"
+msgstr "Om programmet støtter oppstartsvarling eller ikke"
 
 #: ../libxfcegui4/xfce-appmenuitem.c:255
 msgid "Use underline"
@@ -121,7 +121,7 @@ msgstr "Bruk understreking"
 
 #: ../libxfcegui4/xfce-appmenuitem.c:256
 msgid "Whether or not to use an underscore in the label as a keyboard mnemonic"
-msgstr "Om understrek tegn foran en bokstav benyttes for å angi hurtigtast"
+msgstr "Om understreking av bokstav benyttes for å angi hurtigtast"
 
 #. set window title
 #: ../libxfcegui4/xfce_aboutdialog.c:644

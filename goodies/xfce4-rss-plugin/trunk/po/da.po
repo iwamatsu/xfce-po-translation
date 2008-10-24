@@ -2,16 +2,20 @@
 # Copyright (C) 2007 THE xfce4-rss-plugin'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the xfce4-rss-plugin package.
 # Jens Hyllegaard <jens.hyllegaard@gmail.com>, 2007.
+# Per Kongstad <p_kongstad@op.pl>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: xfce4-rss-plugin\n"
+"Project-Id-Version: xfce4-rss-plugin 0.0.1\n"
 "POT-Creation-Date: 2006-09-10 21:12+0200\n"
-"PO-Revision-Date: 2008-05-17 15:16+0100\n"
-"Last-Translator: Jens Hyllegaard <jens.hyllegaard@gmail.com>\n"
+"PO-Revision-Date: 2008-10-18 22:23+0100\n"
+"Last-Translator: Per Kongstad <p_kongstad@op.pl>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #: ../panel-plugin/props.py:25
 #: ../panel-plugin/rss.desktop.in.in.h:2

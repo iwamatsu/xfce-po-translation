@@ -1,6 +1,7 @@
-# $Id: Makefile.am 27884 2008-09-15 21:48:45Z stephan $
+# $Id: Makefile.am 28298 2008-10-18 21:58:29Z jannis $
 
 SUBDIRS = \
+	common \
 	dialogs \
 	xfce4-settings-helper \
 	xfce4-settings-manager \

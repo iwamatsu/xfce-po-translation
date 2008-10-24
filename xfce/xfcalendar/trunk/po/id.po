@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: Orage 4.5.9.6-svn\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-09-27 23:53+0300\n"
-"PO-Revision-Date: 2008-09-10 22:51+0700\n"
+"PO-Revision-Date: 2008-10-11 17:34+0700\n"
 "Last-Translator: Andhika Padmawan <andhika.padmawan@gmail.com>\n"
-"Language-Team: Indonesian <id@li.org>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -326,26 +326,26 @@ msgstr "Tampilan"
 #. show frame
 #: ../panel-plugin/oc_config.c:204
 msgid "Show _frame"
-msgstr "Tampilkan _frame"
+msgstr "Tampilkan _bingkai"
 
 #. foreground color
 #: ../panel-plugin/oc_config.c:214
 msgid "set foreground _color:"
-msgstr "atur warna latar depan: (_c)"
+msgstr "atur warna latar _depan:"
 
 #. background color
 #: ../panel-plugin/oc_config.c:228
 msgid "set _background color:"
-msgstr "atur warna latar belakang: (_b)"
+msgstr "atur warna latar _belakang:"
 
 #. clock size (=vbox size): height and width
 #: ../panel-plugin/oc_config.c:242
 msgid "set _height:"
-msgstr "atur tinggi: (_h)"
+msgstr "atur _tinggi:"
 
 #: ../panel-plugin/oc_config.c:254
 msgid "set _width:"
-msgstr "atur lebar: (_w)"
+msgstr "atur _lebar:"
 
 #: ../panel-plugin/oc_config.c:275
 msgid "Clock Options"
@@ -551,11 +551,11 @@ msgstr " *** SALIN ***"
 #: ../src/appointment.c:2074 ../src/day-view.c:254 ../src/event-list.c:994
 #: ../src/interface.c:762 ../src/mainbox.c:261
 msgid "_File"
-msgstr "Berkas (_F)"
+msgstr "_Berkas"
 
 #: ../src/appointment.c:2080
 msgid "Sav_e and close"
-msgstr "Simpan dan tutup (_e)"
+msgstr "S_impan dan tutup"
 
 #: ../src/appointment.c:2093 ../src/event-list.c:1000
 msgid "D_uplicate"
@@ -1000,12 +1000,12 @@ msgstr ""
 #. View menu
 #: ../src/day-view.c:264 ../src/event-list.c:1017 ../src/mainbox.c:287
 msgid "_View"
-msgstr "Tampilan (_V)"
+msgstr "_Tampilan"
 
 #. ********* Go menu   *********
 #: ../src/day-view.c:278 ../src/event-list.c:1036
 msgid "_Go"
-msgstr "Ke (_G)"
+msgstr "_Ke"
 
 #: ../src/day-view.c:319 ../src/event-list.c:1083
 msgid "New"
@@ -2893,14 +2893,13 @@ msgid "Revert archive now"
 msgstr "Ulang arsip sekarang"
 
 #: ../src/interface.c:1101
-#, fuzzy
 msgid ""
 "Return all archived events into main orage file and remove arch file.\n"
 "This is useful for example when doing export and moving orage\n"
 "appointments to another system."
 msgstr ""
 "Kembalikan semua even yang diarsipkan ke berkas utama orage dan hapus berkas "
-"arsip.\n"
+"arsitektur.\n"
 "Ini berguna sebagai contoh ketika melakukan ekspor dan memindahkan janji\n"
 "orage ke sistem lain."
 
@@ -2986,10 +2985,10 @@ msgid ""
 "Note that modifying foreign files may make them incompatible with the "
 "original tool, where they came from!"
 msgstr ""
-"Atur ini jika anda ingin memastikan bahwa berkas ini tak pernah dimodifikasi "
-"oleh Orage.\n"
-"Perlu dicatat bahwa memodifikasi berkas asing dapat menyebabkan berkas tidak "
-"cocok lagi dengan alat aslinya, alat tempat mereka berasal!"
+"Atur ini jika anda ingin memastikan bahwa berkas ini tak akan pernah "
+"dimodifikasi oleh Orage.\n"
+"Perlu dicatat bahwa memodifikasi berkas asing dapat menyebabkan mereka tidak "
+"cocok dengan alat aslinya, tempat mereka berasal!"
 
 #: ../src/interface.c:1300
 msgid "Exchange data - Orage"
@@ -3040,7 +3039,7 @@ msgid "\tNot using libnotify.\n"
 msgstr "\tTak menggunakan libnotify.\n"
 
 #: ../src/main.c:210
-#, fuzzy, c-format
+#, c-format
 msgid "\tUsing automatic archiving.\n"
 msgstr "\tMenggunakan pengarsipan otomatis.\n"
 
@@ -3125,29 +3124,29 @@ msgstr ""
 
 #: ../src/mainbox.c:269
 msgid "_Exchange data"
-msgstr "Pertukaran data (_E)"
+msgstr "_Pertukaran data"
 
 #. Edit menu
 #: ../src/mainbox.c:280
 msgid "_Edit"
-msgstr "Sunting (_E)"
+msgstr "_Sunting"
 
 #: ../src/mainbox.c:290
 msgid "View selected _date"
-msgstr "Tampilkan tanggal terpilih (_d)"
+msgstr "Tampilkan _tanggal terpilih"
 
 #: ../src/mainbox.c:293
 msgid "View selected _week"
-msgstr "Tampilkan minggu terpilih (_w)"
+msgstr "Tampilkan _minggu terpilih"
 
 #: ../src/mainbox.c:299
 msgid "Select _Today"
-msgstr "Pilih Hari Ini (_T)"
+msgstr "Pilih _Hari Ini"
 
 #. Help menu
 #: ../src/mainbox.c:303
 msgid "_Help"
-msgstr "Bantuan (_H)"
+msgstr "Ba_ntuan"
 
 #: ../src/mainbox.c:401
 msgid "Never"

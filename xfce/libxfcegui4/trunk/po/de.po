@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libxfcegui4 4.4.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-08-18 12:49-0700\n"
+"POT-Creation-Date: 2008-10-18 16:27+0200\n"
 "PO-Revision-Date: 2007-12-01 17:31+0000\n"
 "Last-Translator: Fabian Nowak <timystery@arcor.de>\n"
 "Language-Team: German <de@li.org>\n"
@@ -62,11 +62,11 @@ msgstr "Verschieben nach..."
 msgid "_Close"
 msgstr "_Schließen"
 
-#: ../libxfcegui4/xfce-appmenuitem.c:230
+#: ../libxfcegui4/xfce-appmenuitem.c:232
 msgid "Needs terminal"
 msgstr "Benötigt ein Terminal"
 
-#: ../libxfcegui4/xfce-appmenuitem.c:231
+#: ../libxfcegui4/xfce-appmenuitem.c:233
 msgid "Whether or not the command needs a terminal to execute"
 msgstr "Gibt an, ob das Programm ein Terminal zur Ausführung braucht"
 
@@ -77,19 +77,19 @@ msgstr "Gibt an, ob das Programm ein Terminal zur Ausführung braucht"
 #.
 #. </glade-widget-class>
 #.
-#: ../libxfcegui4/xfce-appmenuitem.c:235 ../glade/xfce4.xml.in.h:8
+#: ../libxfcegui4/xfce-appmenuitem.c:237 ../glade/xfce4.xml.in.h:8
 msgid "Command"
 msgstr "Befehl"
 
-#: ../libxfcegui4/xfce-appmenuitem.c:236
+#: ../libxfcegui4/xfce-appmenuitem.c:238
 msgid "The command to run when the item is clicked"
 msgstr "Der auszuführende Befehl"
 
-#: ../libxfcegui4/xfce-appmenuitem.c:240
+#: ../libxfcegui4/xfce-appmenuitem.c:242
 msgid "Icon name"
 msgstr "Symbolname"
 
-#: ../libxfcegui4/xfce-appmenuitem.c:241
+#: ../libxfcegui4/xfce-appmenuitem.c:243
 msgid "The name of the themed icon to display next to the item"
 msgstr "Der Name des Symbols, welches neben dem Objekt erscheint"
 
@@ -100,27 +100,27 @@ msgstr "Der Name des Symbols, welches neben dem Objekt erscheint"
 #.
 #. </glade-widget-class>
 #.
-#: ../libxfcegui4/xfce-appmenuitem.c:245 ../glade/xfce4.xml.in.h:27
+#: ../libxfcegui4/xfce-appmenuitem.c:247 ../glade/xfce4.xml.in.h:27
 msgid "Label"
 msgstr "Überschrift"
 
-#: ../libxfcegui4/xfce-appmenuitem.c:246
+#: ../libxfcegui4/xfce-appmenuitem.c:248
 msgid "The label displayed in the item"
 msgstr "Überschrift, die in diesem Objekt angezeigt wird"
 
-#: ../libxfcegui4/xfce-appmenuitem.c:250
+#: ../libxfcegui4/xfce-appmenuitem.c:252
 msgid "Startup notification"
 msgstr "Visuelle Rückmeldung über den Programmstart geben"
 
-#: ../libxfcegui4/xfce-appmenuitem.c:251
+#: ../libxfcegui4/xfce-appmenuitem.c:253
 msgid "Whether or not the app supports startup notification"
 msgstr "Ob das Programm die Rückmeldung über den Programmstart unterstützt"
 
-#: ../libxfcegui4/xfce-appmenuitem.c:255
+#: ../libxfcegui4/xfce-appmenuitem.c:257
 msgid "Use underline"
 msgstr "Unterstriche benutzen"
 
-#: ../libxfcegui4/xfce-appmenuitem.c:256
+#: ../libxfcegui4/xfce-appmenuitem.c:258
 msgid "Whether or not to use an underscore in the label as a keyboard mnemonic"
 msgstr "Ob der Unterstrich als Tastenkürzel verwendet werden soll"
 
@@ -147,14 +147,14 @@ msgid "License"
 msgstr "Lizenz"
 
 #: ../libxfcegui4/xfce_systemtray.c:347 ../libxfcegui4/xfce_systemtray.c:351
+#, c-format
 msgid "Failed to acquire manager selection"
 msgstr "Konnte die Auswahl des Managers nicht erfassen"
 
 #: ../libxfcegui4/xfce_systemtray.c:487
 #, c-format
 msgid "tray icon has requested a size of (%i x %i), resizing to (%i x %i)"
-msgstr ""
-"Leistensymbol wollte die Größe %ix%i, passe die Größe an auf %ix%i"
+msgstr "Leistensymbol wollte die Größe %ix%i, passe die Größe an auf %ix%i"
 
 #: ../libxfcegui4/xfce_systemtray.c:496
 msgid "tray icon was not attached, destroying it"

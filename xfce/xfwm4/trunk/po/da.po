@@ -6,7 +6,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: xfwm 4\n"
+"Project-Id-Version: xfwm 4.4.2\n"
 "Report-Msgid-Bugs-To: \n"	
 "POT-Creation-Date: 2008-07-13 14:53+0200\n"
 "PO-Revision-Date: 2008-08-18 20:56+0200\n"
@@ -19,12 +19,12 @@ msgstr ""
 
 #: ../mcs-plugin/margins.c:130
 msgid "Workspace Margins"
-msgstr "Arbejdsområde margener"
+msgstr "Arbejdsområde-margener"
 
 #: ../mcs-plugin/margins.c:136
 msgid ""
 "Margins are areas on the edges of the screen where no window will be placed"
-msgstr "Margener er de områder i kanten af skærmbilledet, hvor vinduer ikke kan flyttes ud."
+msgstr "Margener er de områder i kanten af skærmbilledet, hvor vinduer ikke vil blive placeret"
 
 #: ../mcs-plugin/margins.c:167
 msgid "Left :"
@@ -45,11 +45,11 @@ msgstr "Bund :"
 #. the button label in the xfce-mcs-manager dialog
 #: ../mcs-plugin/workspaces_plugin.c:111
 msgid "Button Label|Workspaces and Margins"
-msgstr "Arbejdsområder og Margener"
+msgstr "Arbejdsområder og margener"
 
 #: ../mcs-plugin/workspaces_plugin.c:145
 msgid "Workspaces and Margins"
-msgstr "Arbejdsområder og Margener"
+msgstr "Arbejdsområder og margener"
 
 #: ../mcs-plugin/workspaces_plugin.c:163 ../mcs-plugin/wmtweaks_plugin.c:640
 #: ../mcs-plugin/workspaces.c:519
@@ -66,7 +66,7 @@ msgstr "Ingen"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:476
 msgid "Bring window on current workspace"
-msgstr "Flyt vindue til ativt arbejdsområde"
+msgstr "Flyt vindue til aktivt arbejdsområde"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:477
 msgid "Switch to window's workspace"
@@ -82,17 +82,17 @@ msgstr "Placér vinduet under musen"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:484
 msgid "Place window in the center"
-msgstr "Placer vinduet i midten"
+msgstr "Placér vinduet i midten"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:493
 #: ../mcs-plugin/xfce-wmtweaks-settings.desktop.in.h:2
 msgid "Window Manager Tweaks"
-msgstr "Vindueshåndtering Tweaks"
+msgstr "Vindueshåndtering tweaks"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:512
 msgid ""
 "Skip windows that have \"skip pager\" or \"skip taskbar\" properties set"
-msgstr "Udelad vinduer som har \"udelad skifter\" eller \"udelad opgaveliste\" egenskaben sat"
+msgstr "Udelad vinduer som har \"udelad skifter\" eller \"udelad opgaveliste\" egenskaben aktiveret"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:518
 msgid "Include hidden (i.e. iconified) windows"
@@ -108,15 +108,15 @@ msgstr "Bladre"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:541
 msgid "Activate focus stealing prevention"
-msgstr "Beskyt mod at fokus stjæles"
+msgstr "Aktiver beskyttelse mod at fokus stjæles"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:547
 msgid "Honor the standard ICCCM focus hint"
-msgstr "Overhold ICCCM standardens fokus fif"
+msgstr "Overhold ICCCM-standardens fokusfif"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:553
 msgid "When a window raises itself:"
-msgstr "Når et vindue kommer til syne af sig selv: "
+msgstr "Når et vindue kommer til syne af sig selv:"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:558 ../mcs-plugin/xfwm4_plugin.c:1752
 msgid "Focus"
@@ -124,7 +124,7 @@ msgstr "Fokus"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:570
 msgid "Key used to grab and move windows"
-msgstr "Tast som bruges til at flytte vinduer"
+msgstr "Tast som bruges til at tage fat i og flytte vinduer"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:576
 msgid "Raise windows when any mouse button is pressed"
@@ -136,29 +136,28 @@ msgstr "Skjul ramme på vinduer når de maksimeres"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:590
 msgid "Restore original size of maximized windows when moving"
-msgstr "Gendan original størrelse af maksimere vindue når det flyttes"
+msgstr "Gendan oprindelig størrelse af maksimeret vindue når det flyttes"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:596
 msgid "Use edge resistance instead of windows snapping"
-msgstr "Brug kant-modstand i stedet for at rette ind"
+msgstr "Brug kant-modstand i stedet for læbrige vindueskanter"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:601
 msgid "Accessibility"
 msgstr "Tilgængelighed"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:614
-#fuzzy
 msgid "Switch workspaces using the mouse wheel over the desktop"
-msgstr "Skift arbejdsområde med musens hjul over skrivebordsoversigten"
+msgstr "Skift arbejdsområde med musehjulet over skrivebordet"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:621
 msgid ""
 "Remember and recall previous workspace when switching via keyboard shortcuts"
-msgstr "Husk og genkald tidligere arbejdsområde når der skiftes via tastatur-genveje"
+msgstr "Husk og genkald foregående arbejdsområde når der skiftes via tastatur-genveje"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:628
 msgid "Wrap workspaces depending on the actual desktop layout"
-msgstr "Ombryd arbejdsområder afhængig af aktuelt layout"
+msgstr "Fold arbejdsområder afhængig af det aktuelle skrivebordslayout"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:635
 msgid "Wrap workspaces when the first or last workspace is reached"
@@ -166,19 +165,19 @@ msgstr "Ombryd arbejdsområde når det første eller sidste arbejdsområde nåes"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:652
 msgid "Minimum size of windows to trigger smart placement"
-msgstr "Mindste atørrelse af vinduer for at aktivere smart placering"
+msgstr "Mindste størrelse af vinduer for at aktivere smart placering"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:653
 msgid "Size|Small"
-msgstr "Størrelse|Lille"
+msgstr "Lille"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:653
 msgid "Size|Large"
-msgstr "Størrelse|Stor"
+msgstr "Stor"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:658
 msgid "Default positionning of windows without smart placement:"
-msgstr "Standard placering af vinduer uden smart placering:"
+msgstr "Standardplacering af vinduer uden smart placering:"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:663
 msgid "Placement"
@@ -186,11 +185,11 @@ msgstr "Placering"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:683
 msgid "Enable display compositing"
-msgstr "Aktiver skærmbillede sammensætning"
+msgstr "Aktiver skærmbilledesammensætning"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:697
 msgid "Display full screen overlay windows directly"
-msgstr "Vis fuldskærms overlægs vinduer direkte"
+msgstr "Vis fuldskærms-overlægsvinduer direkte"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:703
 msgid "Show shadows under dock windows"
@@ -202,11 +201,11 @@ msgstr "Vis skygge under almindelige vinduer"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:715
 msgid "Show shadows under popup windows"
-msgstr "Vis skygge under pop-up vinduer"
+msgstr "Vis skygge under pop op-vinduer"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:721
 msgid "Opacity of window decorations"
-msgstr "Gennemsigtighed af vindues dekorationer"
+msgstr "Uigennemsigtighed af vindues dekorationer"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:721 ../mcs-plugin/wmtweaks_plugin.c:727
 #: ../mcs-plugin/wmtweaks_plugin.c:733 ../mcs-plugin/wmtweaks_plugin.c:739
@@ -222,34 +221,33 @@ msgstr "Ugennemsigtig"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:727
 msgid "Opacity of inactive windows"
-msgstr "Gennemsigtighed af inaktive vinduer"
+msgstr "Uigennemsigtighed af inaktive vinduer"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:733
 msgid "Opacity of windows during move"
-msgstr "Gennemsigtighed af vinduer som flyttes"
+msgstr "Uigennemsigtighed af vinduer som flyttes"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:739
 msgid "Opacity of windows during resize"
-msgstr "Gennemsigtighed mens vinduets størrelse ændres"
+msgstr "Uigennemsigtighed mens vinduets størrelse ændres"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:745
 msgid "Opacity of popup windows"
-msgstr "Gennemsigtighed af pop-up vinduer"
+msgstr "Uigennemsigtighed af pop op-vinduer"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:750
-#fuzzy
 msgid "Compositor"
 msgstr "Indstillinger"
 
 #. the button label in the xfce-mcs-manager dialog
 #: ../mcs-plugin/wmtweaks_plugin.c:792
 msgid "Button Label|Window Manager Tweaks"
-msgstr "Vindueshåndtering Tweaks"
+msgstr "Vindueshåndteringstweaks"
 
 #: ../mcs-plugin/wmtweaks_plugin.c:914 ../mcs-plugin/xfwm4_plugin.c:2430
 #, c-format
 msgid "These settings cannot work with your current window manager (%s)"
-msgstr "Disse indstillinger virker ikke med din nuværende vindueshåndterer (%s)"
+msgstr "Disse indstillinger virker ikke med din nuværende vindueshåndtering (%s)"
 
 #: ../mcs-plugin/workspaces.c:332
 msgid "Change name"
@@ -270,11 +268,11 @@ msgstr "Klik på et arbejdsområdenavn for at ændre det"
 
 #: ../mcs-plugin/workspaces.c:494
 msgid "Number of workspaces:"
-msgstr "Antal arbejdsområder"
+msgstr "Antal arbejdsområder:"
 
 #: ../mcs-plugin/workspaces.c:530
 msgid "Workspace names"
-msgstr "Arbejdsområde navne"
+msgstr "Arbejdsområdenavne"
 
 #: ../mcs-plugin/xfwm4_plugin.c:68
 msgid "Menu"
@@ -294,7 +292,7 @@ msgstr "Skjul"
 
 #: ../mcs-plugin/xfwm4_plugin.c:72
 msgid "Maximize"
-msgstr "Maksimer"
+msgstr "Maksimér"
 
 #: ../mcs-plugin/xfwm4_plugin.c:73
 msgid "Close"
@@ -314,7 +312,7 @@ msgstr "Maksimer vindue"
 
 #: ../mcs-plugin/xfwm4_plugin.c:82 ../mcs-plugin/xfwm4_shortcuteditor.c:376
 msgid "Fill window"
-msgstr "Fyld vindue"
+msgstr "Udfyld vindue"
 
 #: ../mcs-plugin/xfwm4_plugin.c:83
 msgid "Nothing"
@@ -334,7 +332,7 @@ msgstr "Højre"
 
 #: ../mcs-plugin/xfwm4_plugin.c:589
 msgid "Click and drag buttons to change the layout"
-msgstr "Træk knapperne for at ændre layout"
+msgstr "Klik og træk knapperne for at ændre layout"
 
 #: ../mcs-plugin/xfwm4_plugin.c:594
 msgid "Active"
@@ -354,7 +352,7 @@ msgstr "Skjult"
 
 #: ../mcs-plugin/xfwm4_plugin.c:1391
 msgid "Font Selection Dialog"
-msgstr "Vælg Skrifttype"
+msgstr "Dialog til valg af skrifttype"
 
 #: ../mcs-plugin/xfwm4_plugin.c:1456
 msgid "Window Manager"
@@ -371,11 +369,11 @@ msgstr "Titel justering"
 #. XXX
 #: ../mcs-plugin/xfwm4_plugin.c:1507
 msgid "Text alignment inside title bar :"
-msgstr "Tekst justering i titel-bjælken :"
+msgstr "Tekst justering i titelbjælken :"
 
 #: ../mcs-plugin/xfwm4_plugin.c:1513
 msgid "Button layout"
-msgstr "Knap layout"
+msgstr "Knaplayout"
 
 #: ../mcs-plugin/xfwm4_plugin.c:1518
 msgid "Style"
@@ -383,7 +381,7 @@ msgstr "Stil"
 
 #: ../mcs-plugin/xfwm4_plugin.c:1566
 msgid "Window shortcuts"
-msgstr "Vindue genveje"
+msgstr "Vinduesgenveje"
 
 #: ../mcs-plugin/xfwm4_plugin.c:1580
 msgid "Command"
@@ -399,7 +397,7 @@ msgstr "Tastatur"
 
 #: ../mcs-plugin/xfwm4_plugin.c:1618
 msgid "Focus model"
-msgstr "Fokus model"
+msgstr "Fokusmodel"
 
 #: ../mcs-plugin/xfwm4_plugin.c:1622
 msgid "Click to focus"
@@ -411,7 +409,7 @@ msgstr "Fokus følger musen"
 
 #: ../mcs-plugin/xfwm4_plugin.c:1645
 msgid "Delay before window receives focus"
-msgstr "Fosinkelse før vinduet får fokus"
+msgstr "Forsinkelse før vinduet får fokus"
 
 #: ../mcs-plugin/xfwm4_plugin.c:1654 ../mcs-plugin/xfwm4_plugin.c:1716
 msgid "Slow"
@@ -467,15 +465,15 @@ msgstr "Afstand :"
 
 #: ../mcs-plugin/xfwm4_plugin.c:1795
 msgid "Distance|Small"
-msgstr "Distance|Lille"
+msgstr "Lille"
 
 #: ../mcs-plugin/xfwm4_plugin.c:1802
 msgid "Distance|Wide"
-msgstr "Distance|Stor"
+msgstr "Stor"
 
 #: ../mcs-plugin/xfwm4_plugin.c:1823
 msgid "Wrap workspaces"
-msgstr "Ombryd Arbejdsområde"
+msgstr "Fold Arbejdsområde"
 
 #: ../mcs-plugin/xfwm4_plugin.c:1829
 msgid "Wrap workspaces when the pointer reaches a screen edge"
@@ -491,11 +489,11 @@ msgstr "Kant-modstand :"
 
 #: ../mcs-plugin/xfwm4_plugin.c:1854
 msgid "Resistance|Small"
-msgstr "Modstand|Lille"
+msgstr "Lille"
 
 #: ../mcs-plugin/xfwm4_plugin.c:1861
 msgid "Resistance|Wide"
-msgstr "Modstand|Stor"
+msgstr "Stor"
 
 #: ../mcs-plugin/xfwm4_plugin.c:1883
 msgid "Opaque move and resize"
@@ -511,7 +509,7 @@ msgstr "Vis indholdet af vinduer mens de flyttes"
 
 #: ../mcs-plugin/xfwm4_plugin.c:1899
 msgid "Double click action"
-msgstr "Dobbelt-klik hændelse"
+msgstr "Dobbeltklik-hændelse"
 
 #: ../mcs-plugin/xfwm4_plugin.c:1901
 msgid "Action to perform when double clicking on title bar :"
@@ -528,11 +526,11 @@ msgstr "Vindueshåndtering"
 
 #: ../mcs-plugin/xfwm4_shortcuteditor.c:54
 msgid "Do you really want to remove this keybinding theme ?"
-msgstr "Vil du fjerne tast-tildelings tema ?"
+msgstr "Vil du fjerne dette tast-tildelingstema ?"
 
 #: ../mcs-plugin/xfwm4_shortcuteditor.c:133
 msgid "Add keybinding theme"
-msgstr "Tilføj tast-tildelings tema"
+msgstr "Tilføj tast-tildelingstema"
 
 #: ../mcs-plugin/xfwm4_shortcuteditor.c:140
 msgid "Enter a name for the theme:"
@@ -540,15 +538,15 @@ msgstr "Skriv et navn for temaet:"
 
 #: ../mcs-plugin/xfwm4_shortcuteditor.c:176
 msgid "A keybinding theme with the same name already exists"
-msgstr "Et tast-tildelings tema med det samme navn eksisterer"
+msgstr "Et tast-tildelingstema med det samme navn eksisterer"
 
 #: ../mcs-plugin/xfwm4_shortcuteditor.c:182
 msgid "You have to provide a name for the keybinding theme"
-msgstr "Du skal angive et navn for tast-tildelings temaet"
+msgstr "Du skal angive et navn for tast-tildelingstemaet"
 
 #: ../mcs-plugin/xfwm4_shortcuteditor.c:358
 msgid "Window operations menu"
-msgstr "Vindue funktions menu"
+msgstr "Vindue funktionsmenu"
 
 #: ../mcs-plugin/xfwm4_shortcuteditor.c:359
 msgid "Up"
@@ -565,7 +563,7 @@ msgstr "Annuller"
 
 #: ../mcs-plugin/xfwm4_shortcuteditor.c:364
 msgid "Cycle windows"
-msgstr "gennemløb vinduer"
+msgstr "Gennemløb vinduer"
 
 #: ../mcs-plugin/xfwm4_shortcuteditor.c:365
 msgid "Close window"
@@ -601,7 +599,7 @@ msgstr "Flyt vindue tilbage"
 
 #: ../mcs-plugin/xfwm4_shortcuteditor.c:377
 msgid "Fill window horizontally"
-msgstr "Fyld vinduet horisontalt"
+msgstr "Udfyld vinduet horisontalt"
 
 #: ../mcs-plugin/xfwm4_shortcuteditor.c:378
 msgid "Fill window vertically"
@@ -673,7 +671,7 @@ msgstr "Tilføj arbejdsområde"
 
 #: ../mcs-plugin/xfwm4_shortcuteditor.c:395
 msgid "Add adjacent workspace"
-msgstr "Tilføj tilsvarende arbejdsområde"
+msgstr "Tilføj tilstødende arbejdsområde"
 
 #: ../mcs-plugin/xfwm4_shortcuteditor.c:396
 msgid "Delete last workspace"
@@ -690,7 +688,7 @@ msgstr "Flyt vindue til arbejdsområde %d"
 
 #: ../mcs-plugin/xfwm4_shortcuteditor.c:585
 msgid "Cannot open the theme directory !"
-msgstr "Kan ikke åbne temaets mappe !"
+msgstr "Kan ikke åbne temamappen !"
 
 #: ../mcs-plugin/xfwm4_shortcuteditor.c:604
 #, c-format
@@ -722,7 +720,7 @@ msgstr "Opret genvej for :"
 
 #: ../mcs-plugin/xfwm4_shortcuteditor.c:856
 msgid "Compose shortcut"
-msgstr "opret genvej"
+msgstr "Opret genvej"
 
 #: ../mcs-plugin/xfwm4_shortcuteditor.c:862
 msgid "No shortcut"
@@ -737,7 +735,7 @@ msgstr "%s (på %s)"
 #: ../src/main.c:137
 #, c-format
 msgid "%s: Segmentation fault"
-msgstr "%s: Segmenterings fejl"
+msgstr "%s: Segmenteringsfejl"
 
 #: ../src/menu.c:42
 msgid "Ma_ximize"
@@ -745,7 +743,7 @@ msgstr "Ma_ksimer"
 
 #: ../src/menu.c:43
 msgid "(Un)Ma_ximize"
-msgstr "Gendan"
+msgstr "G_endan"
 
 #: ../src/menu.c:44
 msgid "Mi_nimize"
@@ -769,11 +767,11 @@ msgstr "_Ændr størrelse"
 
 #: ../src/menu.c:50
 msgid "_Shade"
-msgstr "_Rul op"
+msgstr "_Skygge"
 
 #: ../src/menu.c:51
 msgid "(Un)_Shade"
-msgstr "_Rul ned"
+msgstr "(af)_skygge"
 
 #: ../src/menu.c:52
 msgid "S_tick"
@@ -781,11 +779,11 @@ msgstr "K_læb"
 
 #: ../src/menu.c:53
 msgid "(Un)S_tick"
-msgstr "(af)K_læb"
+msgstr "(Af)k_læb"
 
 #: ../src/menu.c:54
 msgid "Context _help"
-msgstr "Kontekst _hjælp"
+msgstr "Kontekst_hjælp"
 
 #: ../src/menu.c:56
 msgid "Above"
@@ -805,7 +803,7 @@ msgstr "_Fuldskærm"
 
 #: ../src/menu.c:60
 msgid "(Un)_Fullscreen"
-msgstr "(Luk)_Fuldskærm"
+msgstr "(Luk) _fuldskærm"
 
 #: ../src/menu.c:61
 msgid "Send to..."
@@ -840,12 +838,12 @@ msgstr "Arbejdsområde %i"
 #: ../src/menu.c:425
 #, c-format
 msgid "%s: GtkMenu failed to grab the pointer\n"
-msgstr "%s: GtkMenu kunne ikke låse muse-markøren\n"
+msgstr "%s: GtkMenu kunne ikke gribe fat i muse-markøren\n"
 
 #: ../src/settings.c:970
 #, c-format
 msgid "%s: Cannot allocate color %s\n"
-msgstr "%s: Kan ikke reservere farven %s\n"
+msgstr "%s: Kan ikke allokere farven %s\n"
 
 #: ../src/settings.c:976
 #, c-format
@@ -858,7 +856,7 @@ msgstr "Vindueshåndtering"
 
 #: ../mcs-plugin/xfce-wm-settings.desktop.in.h:2
 msgid "Xfce 4 Window Manager Settings"
-msgstr "Xfce 4 Vindueshåndtering indstillinger"
+msgstr "Indstillinger for Xfce 4 Vindueshåndtering"
 
 #: ../mcs-plugin/xfce-wmtweaks-settings.desktop.in.h:1
 msgid "Advanced Configuration"
@@ -866,12 +864,12 @@ msgstr "Avancerede indstillinger"
 
 #: ../mcs-plugin/xfce-wmtweaks-settings.desktop.in.h:3
 msgid "Xfce 4 Window Manager Tweaks"
-msgstr "Xfce 4 Vindueshåndtering Tweaks"
+msgstr "Xfce 4 Vindueshåndteringtweaks"
 
 #: ../mcs-plugin/xfce-workspaces-settings.desktop.in.h:1
 msgid "Workspaces Settings"
-msgstr "Arbejdsområder og Margener"
+msgstr "Arbejdsområderindstillinger"
 
 #: ../mcs-plugin/xfce-workspaces-settings.desktop.in.h:2
 msgid "Xfce 4 Workspaces Settings"
-msgstr "Xfce 4 Arbejdsområde indstillinger"
+msgstr "Indstillinger for Xfce 4 Arbejdsområde"

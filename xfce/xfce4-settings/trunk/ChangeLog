@@ -1,3 +1,16 @@
+2008-10-20		olivier
+
+	* dialogs/keyboard-settings/xfce-keyboard-settings.c,
+	  po/xfce4-settings.pot: Add a dialog box to warn user that the session
+	  needs to be restarted when selecting system defaults.
+
+2008-10-18		olivier
+
+	* dialogs/keyboard-settings/xfce-keyboard-settings.c,
+	  dialogs/keyboard-settings/keyboard-dialog.glade,
+	  xfce4-settings-helper/keyboard-layout.c: Add an option to disable 
+	  keyboard settings.
+
 2008-10-16		olivier
 
 	* dialogs/keyboard-settings/xfce-keyboard-settings.c: Remove misleading
